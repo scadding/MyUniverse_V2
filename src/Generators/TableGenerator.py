@@ -2,12 +2,14 @@
 from src.Generators.tablegen import table
 import wx
 import codecs
+from src.Configuration import Configuration
 
 
 class Generator:
     def __init__(self):
+        config = Configuration()
         self.tm = table.tableMgr()
-        table.walktree('Data/Tables', self.tm.addfile)
+        table.walktree(config.getValue("Data", "directory"), self.tm.addfile)
         self.parameters = dict()
         self.parameters['Seed'] = ['', '0']
         self.parameters['Group'] = self.GetGeneratorGroups()
