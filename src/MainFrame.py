@@ -89,16 +89,19 @@ class MainFrame(wx.Frame):
             spec.loader.exec_module(module)
             self.generators[tablename] = GeneratorPanel(self.GenBook, module.Generator())
         
-        self.notebook_1 = wx.aui.AuiNotebook(self)
+        self.ViewBook = wx.aui.AuiNotebook(self)
                         
         self.txtResults = wx.TextCtrl(self, -1, "", style=wx.TE_MULTILINE)
         # Events
-        self.Bind(wx.aui.EVT_AUINOTEBOOK_PAGE_CLOSE, self.OnPaneClosing, self.notebook_1)
+        self.Bind(wx.aui.EVT_AUINOTEBOOK_PAGE_CLOSE, self.OnPaneClosing, self.ViewBook)
 
         self.__set_properties()
         # end wxGlade
         self.__do_layout()
-        self.Populate('about', '')
+        path = os.getcwd() + "/" + 'html/about.html'
+        url = "file://" + path
+
+        self.Populate('about', file=url)
         self.rolling = False
         
     def __set_properties(self):
@@ -121,7 +124,7 @@ class MainFrame(wx.Frame):
         for t in self.generators:
             self.GenBook.AddPage(self.generators[t], t)
 
-        sizer_2.Add(self.notebook_1, 7, wx.EXPAND, 0)
+        sizer_2.Add(self.ViewBook, 7, wx.EXPAND, 0)
         sizer_7.Add(self.GenBook, 3, wx.EXPAND, 0)
 
         logger = Log(self)
@@ -270,19 +273,19 @@ class MainFrame(wx.Frame):
     def Populate(self, name, content=u'', file=''):
         if name in self.h:
             html = self.h[name]
-            for i in range(self.notebook_1.GetPageCount()):
-                if self.notebook_1.GetPageText(i) == name:
-                    self.notebook_1.SetSelection(i)
+            for i in range(self.ViewBook.GetPageCount()):
+                if self.ViewBook.GetPageText(i) == name:
+                    self.ViewBook.SetSelection(i)
                     break
         else:
             sizer_7 = wx.BoxSizer(wx.HORIZONTAL)
-            notebook_pane = wx.Panel(self.notebook_1, wx.ID_ANY)
+            notebook_pane = wx.Panel(self.ViewBook, wx.ID_ANY)
             #html = MyHtmlWindow(notebook_pane, -1)
             html = webview.WebView.New(notebook_pane)
             sizer_7.Add(html, 10, wx.EXPAND, 0)
             notebook_pane.SetSizer(sizer_7)
-            self.notebook_1.AddPage(notebook_pane, name)
-            self.notebook_1.SetSelection(self.notebook_1.GetPageCount() - 1)
+            self.ViewBook.AddPage(notebook_pane, name)
+            self.ViewBook.SetSelection(self.ViewBook.GetPageCount() - 1)
             self.h[name] = html
             self.Bind(webview.EVT_WEBVIEW_NAVIGATING, self.OnNavigate, html)
 
@@ -311,7 +314,7 @@ class MainFrame(wx.Frame):
 
     def OnPaneClosing(self, event):
         current = event.GetSelection()
-        name = self.notebook_1.GetPageText(current)
+        name = self.ViewBook.GetPageText(current)
         if name in self.h:
             del self.h[name]
         # 'closing ' + name
