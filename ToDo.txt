@@ -1,0 +1,19 @@
+Add config file for:
+    Generators
+    Presenters
+Presenters
+Log Panel
+    terminal
+    diagnostics
+    ...
+Generator Panel:
+    buttons
+    ...
+Client/Server
+    JSONify
+    Server
+    client
+UI
+    movable panels
+    WxSF
+    
