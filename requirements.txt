@@ -3,6 +3,7 @@ wxPython>=4.0
 inflect
 pyparsing
 lxml
+anytree
 
 # server
 blinker==1.6.3

@@ -3,6 +3,7 @@ from src.Generators.tablegen import table
 import wx
 import codecs
 from src.Configuration import Configuration
+from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter
 
 
 class Generator:
@@ -12,9 +13,16 @@ class Generator:
         table.walktree(config.getValue("Data", "directory"), self.tm.addfile)
         self.parameters = dict()
         self.parameters['Seed'] = ['', '0']
-        self.parameters['Group'] = self.GetGeneratorGroups()
-        self.parameters['Generators'] = []
-        self.pList = ['Seed', 'Group', 'Generators']
+        self.parameters['Generators'] = self.GetGeneratorTree()
+        self.pList = ['Seed', 'Generators']
+    def GetGeneratorTree(self):
+        root = Node("Root")
+        for t in self.tm.groups():
+            parent = Node(t, parent=root) 
+            for x in self.tm.group[t]:
+                pass
+                Node(x, parent=parent)
+        return root
     def GetGeneratorGroups(self):
         # Get list of generators
         groupList = []
@@ -38,7 +46,6 @@ class Generator:
             self.tm.setSeed(int(p['Seed']))
         if 'Generators' in p:
             t = p['Generators']
-        results = u''
         filename = "tmp/" + t + ".html"
         f = codecs.open(filename, 'w', "utf-8")
         for j in range(numRolls):

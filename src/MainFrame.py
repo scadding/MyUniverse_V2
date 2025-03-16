@@ -128,7 +128,7 @@ class MainFrame(wx.Frame):
         sizer_7.Add(self.GenBook, 3, wx.EXPAND, 0)
 
         logger = Log(self)
-        sizer_1.Add(logger, 2, wx.EXPAND, 0)
+        sizer_1.Add(logger, 5, wx.EXPAND, 0)
 
         self.SetSizer(sizer_1)
         self.Layout()
@@ -264,10 +264,13 @@ class MainFrame(wx.Frame):
         numRolls = int(self.cboRolls.GetStrings()[self.cboRolls.GetSelection()])
         current = self.GenBook.GetCurrentPage()
         name = self.GenBook.GetPageText(self.GenBook.GetPageIndex(current))
-        t, filename = current.Roll(numRolls)
-        path = os.getcwd() + "/" + filename
-        url = "file://" + path
-        self.Populate(t, file=url)
+        try:
+            t, filename = current.Roll(numRolls)
+            path = os.getcwd() + "/" + filename
+            url = "file://" + path
+            self.Populate(t, file=url)
+        except(TypeError):
+            print("Type Error")
         self.rolling = False
         
     def Populate(self, name, content=u'', file=''):

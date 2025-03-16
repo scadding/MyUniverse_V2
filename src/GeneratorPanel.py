@@ -1,4 +1,7 @@
 import wx
+from anytree import Node, RenderTree, AsciiStyle, LevelOrderGroupIter
+from src import images
+
 
 class GeneratorPanel(wx.Panel):
     def __init__(self, parent, generator):
@@ -19,13 +22,51 @@ class GeneratorPanel(wx.Panel):
                 for a in self.generator.parameters[n]:
                     l.append(a)
                 self.fields[n] = wx.ComboBox(self, -1, choices=l, style=wx.CB_DROPDOWN)
+            elif type(self.generator.parameters[n]) is Node:
+                tID = wx.NewIdRef()
+                tree = wx.TreeCtrl(self, tID, wx.DefaultPosition, wx.DefaultSize,
+                                    wx.TR_HAS_BUTTONS
+                                    | wx.TR_EDIT_LABELS
+                                    | wx.TR_HIDE_ROOT
+                                    #| wx.TR_MULTIPLE
+                                    #| wx.TR_HIDE_ROOT
+                                    )
+                self.fields[n] = tree
+                isz = (16,16)
+                il = wx.ImageList(isz[0], isz[1])
+                fldridx     = il.Add(wx.ArtProvider.GetBitmap(wx.ART_FOLDER,      wx.ART_OTHER, isz))
+                fldropenidx = il.Add(wx.ArtProvider.GetBitmap(wx.ART_FOLDER_OPEN, wx.ART_OTHER, isz))
+                fileidx     = il.Add(wx.ArtProvider.GetBitmap(wx.ART_NORMAL_FILE, wx.ART_OTHER, isz))
+                smileidx    = il.Add(images.Smiles.GetBitmap())
+
+                self.fields[n].SetImageList(il)
+                self.il = il
+                self.root = self.fields[n].AddRoot(self.generator.parameters[n].name)
+                self.fields[n].SetItemData(self.root, None)
+                self.fields[n].SetItemImage(self.root, fldridx, wx.TreeItemIcon_Normal)
+                self.fields[n].SetItemImage(self.root, fldropenidx, wx.TreeItemIcon_Expanded)
+
+                self.add_children(self.fields[n], self.root, self.generator.parameters[n], fldridx, fldropenidx, fileidx, smileidx)
             else:
                 self.fields[n] = wx.TextCtrl(self, -1, self.generator.parameters[n])
+    def add_children(self, tree, wx_node_id, node, fldridx, fldropenidx, fileidx, smileidx):
+        for n in node.children:
+            child = tree.AppendItem(wx_node_id, n.name)
+            if n.children:
+                tree.SetItemData(child, None)
+                tree.SetItemImage(child, fldridx, wx.TreeItemIcon_Normal)
+                tree.SetItemImage(child, fldropenidx, wx.TreeItemIcon_Expanded)
+                self.add_children(tree, child, n, fldridx, fldropenidx, fileidx, smileidx)
+            else:
+                tree.SetItemData(child, None)
+                tree.SetItemImage(child, fileidx, wx.TreeItemIcon_Normal)
+                tree.SetItemImage(child, smileidx, wx.TreeItemIcon_Selected)
+        tree.SortChildren(wx_node_id)
     def do_layout(self):
         panelSizer = wx.BoxSizer(wx.VERTICAL)
         for n in self.generator.pList:
             v = 0
-            if type(self.fields[n]) is wx.ListBox:
+            if type(self.fields[n]) is wx.ListBox or type(self.fields[n]) is wx.TreeCtrl:
                 paramSizer = wx.BoxSizer(wx.VERTICAL)
                 v = 10
             else:
@@ -37,11 +78,15 @@ class GeneratorPanel(wx.Panel):
     def onUpdate(self, e):
         p = dict()
         for n in self.generator.parameters:
+            if type(self.generator.parameters[n]) is Node:
+                continue
             if type(self.fields[n]) is not wx.ListBox:
                 if self.fields[n].GetValue() != "":
                     p[n] = self.fields[n].GetValue()
         self.generator.Update(p)
         for n in self.generator.parameters:
+            if type(self.generator.parameters[n]) is Node:
+                continue
             if type(self.fields[n]) is wx.ListBox:
                 self.fields[n].SetSelection(-1)
                 self.fields[n].Clear()
@@ -49,10 +94,17 @@ class GeneratorPanel(wx.Panel):
     def Roll(self, numRolls):
         p = dict()
         for n in self.generator.parameters:
-            if type(self.fields[n]) is wx.ListBox:
+            value = ""
+            if type(self.fields[n]) is wx.TreeCtrl:
+                if not self.fields[n].ItemHasChildren(self.fields[n].GetFocusedItem()):
+                    value = self.fields[n].GetItemText(self.fields[n].GetFocusedItem())
+            elif type(self.fields[n]) is wx.ListBox:
                 value = self.fields[n].GetStrings()[self.fields[n].GetSelection()]
             else:
                 value = self.fields[n].GetValue()
             if value != "":
                 p[n] = value
-        return self.generator.roll(p, numRolls)
+        if "Generators" in p:
+            return self.generator.roll(p, numRolls)
+        else:
+            return None, None
