@@ -1,20 +1,20 @@
 import random
 from subprocess import *
-from table import *
+from src.Generators.tablegen.table import *
 
 def dice(number_of_dice, sides = 6, remove_lowest = 0):
-    value = 0
-    d = []
-    for i in range(0,number_of_dice):
-    	t = random.randint(1,6)
-    	d.append(t)
-    d.sort()
-    d.reverse()
-    for j in range(0, remove_lowest):
-    	d .pop()
-    for v in d:
-    	value += v
-    return value
+	value = 0
+	d = []
+	for i in range(0,number_of_dice):
+		t = random.randint(1,6)
+		d.append(t)
+	d.sort()
+	d.reverse()
+	for j in range(0, remove_lowest):
+		d .pop()
+	for v in d:
+		value += v
+	return value
 
 class TravellerAttribute:
     def __init__(self, name, value = 0):
@@ -259,5 +259,5 @@ if __name__ == '__main__':
 	for j in range(0, 100):
 		f = TravellerCharacter()
 		f.generate()
-		print f.UPP()
+		print(f.UPP())
 
