@@ -16,6 +16,37 @@ import sys
 import codecs
 from src.Generators.tablegen.server import server
 
+from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter
+
+
+def walktree_new(top, callback, load=False, node=None):
+    ignoredir = ("__pycache__")
+    if node is None:
+        node = Node("Root")
+    for filename in os.listdir(top):
+        pathname = os.path.join(top, filename)
+        mode = os.stat(pathname).st_mode
+        root, ext = os.path.splitext(filename)
+        head, tail = os.path.split(filename)
+        if S_ISDIR(mode):
+            # It's a directory, recurse into it
+            if tail in ignoredir:
+                continue
+            previous = node
+            node = Node(tail, parent=previous)
+            walktree(pathname, callback, load, node=node)
+            node = previous
+        elif S_ISREG(mode):
+            # It's a file, call the callback function
+            #print(root)
+            Node(root, parent=node)
+            callback(pathname, load)
+        else:
+            # Unknown file type, print a message
+            print('Skipping %s' % pathname)
+    return node
+
+
 def walktree(top, callback, load=False):
     for filename in os.listdir(top):
         pathname = os.path.join(top, filename)
@@ -245,7 +276,7 @@ class tableFile(object):
     def rundict(self, t='Start', roll=-1):
         if self.table.get(t):
             return self.table[t].rolldict(roll=roll)
-        print >> sys.stderr, 'Error: *** No [' + t + '] Table***'
+        print('Error: *** No [' + t + '] Table***', file=sys.stderr)
         return ''
     def start(self):
         self.currentstack = dict()

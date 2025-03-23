@@ -10,11 +10,18 @@ class Generator:
     def __init__(self):
         config = Configuration()
         self.tm = table.tableMgr()
-        table.walktree(config.getValue("Data", "directory"), self.tm.addfile)
+        #table.walktree('Data/Tables', self.tm.addfile)
+        table.walktree(config.getValue("Data", "directory"), self.tm.addfile, load=True)
+        #print(RenderTree(self.node))
         self.parameters = dict()
         self.parameters['Seed'] = ['', '0']
         self.parameters['Generators'] = self.GetGeneratorTree()
+        #self.parameters['Generators'] = self.node
         self.pList = ['Seed', 'Generators']
+
+        #self.parameters['Group'] = self.GetGeneratorGroups()
+        #self.parameters['Generators'] = []
+        #self.pList = ['Seed', 'Group', 'Generators']
     def GetGeneratorTree(self):
         root = Node("Root")
         for t in self.tm.groups():
