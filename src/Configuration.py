@@ -48,12 +48,12 @@ class ConfigBase:
     config = None
     def __init__(self):
         self.read()
-        self.printData()
+        # self.printData()
     def read(self, filename=defaultfile):
         self.config = configparser.ConfigParser()
         self.config.sections()
         self.config.read(filename)
-        print(self.config.sections())
+        # print(self.config.sections())
     def printData(self):
         for key in self.config['Data']:
             print(key)
