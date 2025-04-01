@@ -19,7 +19,7 @@ from src.Generators.tablegen.server import server
 from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter
 
 
-def walktree_new(top, callback, load=False, node=None):
+def walktree(top, callback, load=False, node=None):
     ignoredir = ("__pycache__")
     if node is None:
         node = Node("Root")
@@ -45,21 +45,6 @@ def walktree_new(top, callback, load=False, node=None):
             # Unknown file type, print a message
             print('Skipping %s' % pathname)
     return node
-
-
-def walktree(top, callback, load=False):
-    for filename in os.listdir(top):
-        pathname = os.path.join(top, filename)
-        mode = os.stat(pathname).st_mode
-        if S_ISDIR(mode):
-            # It's a directory, recurse into it
-            walktree(pathname, callback, load)
-        elif S_ISREG(mode):
-            # It's a file, call the callback function
-            callback(pathname, load)
-        else:
-            # Unknown file type, print a message
-            print('Skipping %s' % pathname)
 
 
 class Table(object):
