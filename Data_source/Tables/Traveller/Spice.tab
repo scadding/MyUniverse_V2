@@ -4,7 +4,7 @@
 1,Parents [Number of Parents]
 1,Siblings [Number of Siblings]
 1,Status [Status]
-10,Cause of Death %junk% { dice~6,3 [Cause of Death] }
+10,Cause of Death %junk% {{ dice~6,3 [Cause of Death] }}
 1,Friend [Time Known]
 
 @Roll
