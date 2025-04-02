@@ -38,9 +38,8 @@ def walktree(top, callback, load=False, node=None):
             node = previous
         elif S_ISREG(mode):
             # It's a file, call the callback function
-            #print(root)
-            Node(root, parent=node)
-            callback(pathname, load)
+            if callback(pathname, load):
+                Node(root, parent=node)
         else:
             # Unknown file type, print a message
             print('Skipping %s' % pathname)
@@ -179,7 +178,7 @@ class tableFile(object):
     tableline = re.compile(r'^\s*(\d*)\s*,(.*)')
     tablelinealt = re.compile(r'^\s*(\d*)-(\d*)\s*,(.*)')
     continuation = re.compile(r'^_(.*)$')
-    variabledeclaration = re.compile(r'^\s*%(.*)%?\s*=\s*(.*)$')
+    variabledeclaration = re.compile(r'^\s*%(.*)%\s*=\s*(.*)$')
     parameterdeclaration = re.compile(r'^\s*@.*$')
     pragmadeclaration = re.compile(r'^/.*$')
     namespec = re.compile(r'^[/\w _~,-]*/(.*)\.tab$')
@@ -235,11 +234,7 @@ class tableFile(object):
             d = int(m7.group(2))
             self.table[self.tablename].add(d, m7.group(3))
         elif m8: # variable declaration
-            if m8.group(1) == "template":
-                self.template(m8.group(2))
-            else:
-                #print m8.group(2), m8.group(1)
-                self.stack[m8.group(1)] = m8.group(2)
+            self.stack[m8.group(1)] = m8.group(2)
         elif m9: #parameter declaration
             pass
         elif m10: #pragma declaration
@@ -250,7 +245,6 @@ class tableFile(object):
         templateFile = os.path.dirname(self.filename) + '/' + template + '.tml'
         self.stack[template] = ''
         for l in open(templateFile):
-            #print l
             self.stack[template] = self.stack[template] + l
         #print self.tablename
     def run(self, t='Start', roll=-1, column=0):
@@ -318,6 +312,7 @@ class tableFile(object):
 class tableMgr(object):
     tfile = dict()
     tfilename = dict()
+    ttemplate = dict()
     tgroup = set()
     tgenre = set()
     group = dict()
@@ -328,15 +323,18 @@ class tableMgr(object):
     def addfile(self, filename, load=False):
         basename = os.path.basename(filename)
         if basename.startswith("_"):
-            return
+            return False
         group = os.path.basename(os.path.dirname(filename))
         name = os.path.splitext(basename)[0]
         extension = os.path.splitext(basename)[1]
         if extension == '.db':
             self.loadDB(filename)
-            return
-        if not(extension == '.py' or extension == '.tab' or extension == '.db'):
-            return
+            return False
+        if extension == ".tml":
+            self.ttemplate[name] = filename
+            return False
+        if not(extension == '.py' or extension == '.tab'):
+            return False
         self.tfilename[name] = filename
         self.tgroup.add(group)
         if not self.group.get(group):
@@ -344,7 +342,7 @@ class tableMgr(object):
         self.group[group].add(name)
         if load:
             self.loadtable(name)
-        return
+        return True
     def loadDB(self, filename):
         con = lite.connect(filename)
         cur = con.cursor()
@@ -362,7 +360,7 @@ class tableMgr(object):
                 self.tfile[name] = tableDB(name, g, con)
     def loadtable(self, tablename):
         extension = os.path.splitext(self.tfilename[tablename])[1]
-        if extension == '.tab':
+        if extension == '.tab' or extension == '.tml':
             self.tfile[tablename] = tableFile(self.tfilename[tablename])
         elif extension == '.py':
             spec = importlib.util.spec_from_file_location(tablename, self.tfilename[tablename])
@@ -393,42 +391,80 @@ class tableMgr(object):
         ret <<= pyparsing.Group(pyparsing.Suppress(opener) +
                                 pyparsing.ZeroOrMore(ret | content) + pyparsing.Suppress(closer))
         return ret
+    def processAtom():
+        pass
     def parse(self, table, exp):
-        print(exp)
+        found = True
+        ret = exp
+        while found:
+            found, ret = self.expandFunction(table, ret)
+            if found:
+                continue
+            found, ret = self.expandTable(table, ret)
+            if found:
+                continue
+            found, ret = self.expandTemplate(ret)
+            if found:
+                continue
+            found, ret = self.expandVariable(table, ret)
+        return ret
+    def expandFunction(self, table, text):
         ret = ''
         last = 0
+        found = False
         nestedItems = self.nestedExpr("{{", "}}")
-        for t, s, e in nestedItems.scanString(exp):
-            ret = ret + exp[last:s]
+        for t, s, e in nestedItems.scanString(text):
+            ret = ret + text[last:s]
             last = e
             for i in t:
                 ret = ret + self.handleBrace(table, i)
-        #print ret, '----', exp
-        ret = ret + exp[last:]
+                found = True
+        ret = ret + text[last:]
+        return found, ret
+    def expandTable(self, table, text):
         last = 0
-        ret1 = ''
+        n = ''
+        found = False
         nestedItems = self.nestedExpr("[", "]")
-        for t, s, e in nestedItems.scanString(ret):
-            ret1 = ret1 + ret[last:s]
+        for t, s, e in nestedItems.scanString(text):
+            n = n + text[last:s]
             last = e
             for i in t:
                 l = self.parseList(i, start='[', finish=']')
                 c = self.parseTable(table, self.parse(table, l[0]))
-                ret1 = ret1 + c
-        ret1 = ret1 + ret[last:]
+                n = n + c
+                found = True
+        ret = n + text[last:]
+        return found, ret
+    def expandTemplate(self, text):
         last = 0
-        q = pyparsing.QuotedString('%', multiline=False, unquoteResults=True, endQuoteChar='%')
         n = ''
-        for t, s, e in q.scanString(ret1):
-            n = n + ret1[last:s]
+        found = False
+        q = pyparsing.QuotedString('@', multiline=False, unquoteResults=True, endQuoteChar='@')
+        for t, s, e in q.scanString(text):
+            n = n + text[last:s]
             last = e
-            #print self.tfile[table].stack
+            if t[0] in self.ttemplate:
+                for l in open(self.ttemplate[t[0]]):
+                    n = n + l + '<br>'
+            found = True
+        ret = n + text[last:]
+        return found, ret
+    def expandVariable(self, table, text):
+        last = 0
+        n = ''
+        found = False
+        q = pyparsing.QuotedString('%', multiline=False, unquoteResults=True, endQuoteChar='%')
+        for t, s, e in q.scanString(text):
+            n = n + text[last:s]
+            last = e
             if self.tfile[table].getVariable(t[0]) == "":
                 v = self.tfile[table].getBaseVariable(t[0])
                 self.tfile[table].setVariable(t[0], self.parse(table, v))
             n = n + self.tfile[table].getVariable(t[0])
-        n = n + ret1[last:]
-        return n
+            found = True
+        ret = n + text[last:]
+        return found, ret
     def parseTable(self, table, exp):
         roll = -1
         column = 0
@@ -491,7 +527,6 @@ class tableMgr(object):
         l[0] = m.group(3)
         n = self.parseList(l)
         if f == "for":
-            #print n, self.parse(table, str(n[1]))
             start = int(self.parse(table, n[0]))
             stop = int(self.parse(table, n[1]))
             for x in range(start, stop):

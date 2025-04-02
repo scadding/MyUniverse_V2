@@ -32,7 +32,7 @@ def operatorOperands(tokenlist):
     it = iter(tokenlist)
     while 1:
         try:
-            yield (it.next(), it.next())
+            yield (it.__next__(), it.__next__())
         except StopIteration:
             break
             
