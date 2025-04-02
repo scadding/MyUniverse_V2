@@ -170,11 +170,8 @@ class tableFile(object):
     comment = re.compile(r'^\s*#.*$')
     whitespace = re.compile(r'^\s*$')
     tabledeclaration = re.compile(r'^\s*:([!,/\'\w \+-]*)$')
-    #tabledeclaration = re.compile(r'^\s*:(.*)$')
     tabledeclarationalt = re.compile(r'^\s*;([!,/\'\w \+-]*)$')
-    #tabledeclarationalt = re.compile(r'^\s*;(.*)$')
     tabledeclarationcsv = re.compile(r'^\s*@([!,/\'\w \+-]*)$')
-    # need to set multiline
     tableline = re.compile(r'^\s*(\d*)\s*,(.*)')
     tablelinealt = re.compile(r'^\s*(\d*)-(\d*)\s*,(.*)')
     continuation = re.compile(r'^_(.*)$')
