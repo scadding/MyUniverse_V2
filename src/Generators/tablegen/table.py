@@ -443,7 +443,7 @@ class tableMgr(object):
             last = e
             if t[0] in self.ttemplate:
                 for l in open(self.ttemplate[t[0]]):
-                    n = n + l + '<br>'
+                    n = n + l
             found = True
         ret = n + text[last:]
         return found, ret
