@@ -224,7 +224,7 @@ class tableFile(object):
             self.table[self.tablename] = Table(self.tablename, False)
         elif m5: # Csv table declaration
             self.tablename = m5.group(1)
-            self.table[self.tablename] = Table(self.tablename, False, True)
+            self.table[self.tablename] = Table(self.tablename, True, True)
         elif m6: #table line
             self.table[self.tablename].add(int(m6.group(1)), m6.group(2))
         elif m7: #alternate table line
@@ -524,10 +524,12 @@ class tableMgr(object):
         l[0] = m.group(3)
         n = self.parseList(l)
         if f == "for":
-            start = int(self.parse(table, n[0]))
-            stop = int(self.parse(table, n[1]))
+            variable = self.parse(table, n[0])
+            start = int(self.parse(table, n[1]))
+            stop = int(self.parse(table, n[2]))
             for x in range(start, stop):
-                s = s + self.parse(table, n[2])
+                self.tfile[table].setVariable(n[0], str(x))
+                s = s + self.parse(table, n[3])
         elif f == "if":
             logic = list()
             logic.append(self.parse(table, n[0]))
