@@ -165,6 +165,8 @@ class tableDB(object):
         return ""
     def setVariable(self, var, val):
         self.currentstack[var] = val
+    def removeVariable(self, var, val):
+        del self.currentstack[var]
 
 class tableFile(object):
     comment = re.compile(r'^\s*#.*$')
@@ -529,7 +531,21 @@ class tableMgr(object):
             stop = int(self.parse(table, n[2]))
             for x in range(start, stop):
                 self.tfile[table].setVariable(n[0], str(x))
-                s = s + self.parse(table, n[3])
+                s = s + self.parse(table, n[3])           
+        elif f == "ifstr":
+            logic = self.parse(table, n[0]).lstrip().rstrip()
+            l = [char for char in logic]
+            for i in range(len(l)):
+                if l[i] == '=' and l[i + 1] == '=':
+                    s1 = ''.join(l[:i]).lstrip().rstrip()
+                    s2 = ''.join(l[i+2:]).lstrip().rstrip()
+                    if s1 == s2:
+                        s = s + self.parse(table, n[1])
+                elif l[i] == '!' and l[i + 1] == '=':
+                    s1 = ''.join(l[:i]).lstrip().rstrip()
+                    s2 = ''.join(l[i+2:]).lstrip().rstrip()
+                    if s1 != s2:
+                        s = s + self.parse(table, n[1])
         elif f == "if":
             logic = list()
             logic.append(self.parse(table, n[0]))
