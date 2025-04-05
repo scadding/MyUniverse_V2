@@ -177,7 +177,7 @@ class tableFile(object):
     tableline = re.compile(r'^\s*(\d*)\s*,(.*)')
     tablelinealt = re.compile(r'^\s*(\d*)-(\d*)\s*,(.*)')
     continuation = re.compile(r'^_(.*)$')
-    variabledeclaration = re.compile(r'^\s*%(.*)%\s*=\s*(.*)$')
+    variabledeclaration = re.compile(r'^\s*%%(.*)%%\s*=\s*(.*)$')
     parameterdeclaration = re.compile(r'^\s*@.*$')
     pragmadeclaration = re.compile(r'^/.*$')
     namespec = re.compile(r'^[/\w _~,-]*/(.*)\.tab$')
@@ -439,7 +439,7 @@ class tableMgr(object):
         last = 0
         n = ''
         found = False
-        q = pyparsing.QuotedString('@', multiline=False, unquoteResults=True, endQuoteChar='@')
+        q = pyparsing.QuotedString('@@', multiline=False, unquoteResults=True, endQuoteChar='@@')
         for t, s, e in q.scanString(text):
             n = n + text[last:s]
             last = e
@@ -453,7 +453,7 @@ class tableMgr(object):
         last = 0
         n = ''
         found = False
-        q = pyparsing.QuotedString('%', multiline=False, unquoteResults=True, endQuoteChar='%')
+        q = pyparsing.QuotedString('%%', multiline=False, unquoteResults=True, endQuoteChar='%%')
         for t, s, e in q.scanString(text):
             n = n + text[last:s]
             last = e
