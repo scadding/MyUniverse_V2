@@ -4,12 +4,11 @@ sudo apt install python3.12-venv
 sudo apt install python3-pip
 sudo apt install python3-wx*
 
-sudo apt install python3-imp
-sudo apt install python3-sha
-sudo apt install python3-hashlib
-sudo apt install python3-xmlrpclib
-
 sudo apt-get install build-essential
+
+### Reference ###
+https://tldp.org/LDP/abs/abs-guide.pdf
+
 
 ### Installation ###
 * Install python3
