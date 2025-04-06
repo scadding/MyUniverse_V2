@@ -52,6 +52,7 @@ class Generator:
             t = p['Generators']
         filename = "tmp/" + t + ".html"
         f = codecs.open(filename, 'w', "utf-8")
+        f.write('<font color="black">')
         for j in range(numRolls):
             wx.Yield()
             result = self.tm.roll(t)
