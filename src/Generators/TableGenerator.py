@@ -11,6 +11,7 @@ class Generator:
         config = Configuration()
         self.tm = table.tableMgr()
         self.node = table.walktree(config.getValue("Data", "directory"), self.tm.addfile, load=True)
+        self.tm.setTree(self.node)
         self.parameters = dict()
         self.parameters['Seed'] = ['', '0']
         self.parameters['Generators'] = self.node
@@ -19,23 +20,11 @@ class Generator:
         #self.parameters['Group'] = self.GetGeneratorGroups()
         #self.parameters['Generators'] = []
         #self.pList = ['Seed', 'Group', 'Generators']
-    def GetGeneratorTree(self):
-        root = Node("Root")
-        for t in self.tm.groups():
-            parent = Node(t, parent=root) 
-            for x in self.tm.group[t]:
-                pass
-                Node(x, parent=parent)
-        return root
-    def GetGeneratorGroups(self):
-        # Get list of generators
-        groupList = []
-        for t in self.tm.groups():
-            groupList.append(t)
-        groupList.sort()
-        return groupList
     def Update(self, p):
-        self.parameters['Generators'] = self.GetGeneratorList(p['Group'])
+        config = Configuration()
+        self.tm = table.tableMgr()
+        self.node = table.walktree(config.getValue("Data", "directory"), self.tm.addfile, load=True)
+        self.parameters['Generators'] = self.node
         pass
     def GetGeneratorList(self, p):
         # Get list of generators

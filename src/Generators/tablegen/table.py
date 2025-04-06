@@ -33,13 +33,14 @@ def walktree(top, callback, load=False, node=None):
             if tail in ignoredir:
                 continue
             previous = node
-            node = Node(tail, parent=previous)
+            node = Node(tail, parent=previous, table=None)
             walktree(pathname, callback, load, node=node)
             node = previous
         elif S_ISREG(mode):
             # It's a file, call the callback function
+            table = callback(pathname, load)
             if callback(pathname, load):
-                Node(root, parent=node)
+                Node(root, parent=node, table=table, loaded=load, filename=pathname)
         else:
             # Unknown file type, print a message
             print('Skipping %s' % pathname)
@@ -340,7 +341,7 @@ class tableMgr(object):
             self.group[group] = set()
         self.group[group].add(name)
         if load:
-            self.loadtable(name)
+            return self.loadtable(name)
         return True
     def loadDB(self, filename):
         con = lite.connect(filename)
@@ -361,6 +362,7 @@ class tableMgr(object):
         extension = os.path.splitext(self.tfilename[tablename])[1]
         if extension == '.tab' or extension == '.tml':
             self.tfile[tablename] = tableFile(self.tfilename[tablename])
+            return self.tfile[tablename]
         elif extension == '.py':
             spec = importlib.util.spec_from_file_location(tablename, self.tfilename[tablename])
             module = importlib.util.module_from_spec(spec)
@@ -369,6 +371,7 @@ class tableMgr(object):
             self.tfile[tablename] = module.generator()
             if self.tfile[tablename].version() > 1.0:
                 self.tfile[tablename].SetManager(self)
+            return self.tfile[tablename]
     def checkload(self, tablename):
         if not self.tfile.get(tablename):
             if self.tfilename.get(tablename):
@@ -467,6 +470,7 @@ class tableMgr(object):
     def parseTable(self, table, exp):
         roll = -1
         column = 0
+        r0 = re.compile(r'([\w -]*)\.(.*)')
         r1 = re.compile(r'([\w -]*)\.([\w -]*)')
         r2 = re.compile(r'(.*)@([0-9]+)(.*)')
         r3 = re.compile(r'(.*)\((.*?)\)(.*)')
@@ -484,10 +488,30 @@ class tableMgr(object):
             subtable = m.group(2)
         else:
             subtable = exp
-        r2 = re.compile(r'(\+([0-9]+))')
+        m = r0.match(exp)
+        groups = []
+        node = self.tree
+        while m:
+            group = m.group(1)
+            tail = m.group(2)
+            groups.append(group)
+            for child in node.children:
+                if "[" + child.name + "]" == "[" + group + "]":
+                    node = child
+                    tfile = node.table
+                    if tfile:
+                        s = self.parse(node.name, tfile.run(tail, roll, column))
+                        return s
+            m = r0.match(tail)
+            if not m:
+                groups.append(tail)
+        if len(groups):
+            return ''
         self.checkload(table)
         s = self.parse(table, self.tfile[table].run(subtable, roll, column))
         return s
+    def setTree(self, node):
+        self.tree = node
     def parseList(self, l, start='{{', finish='}}'):
         n = None
         for i in l:

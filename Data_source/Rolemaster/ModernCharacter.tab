@@ -1,8 +1,8 @@
 
 %%sex%% = {{ucfirst|[sex]}}
-%%last name%% = [Fantasy Names.Surname]
-%%first name%% = [Fantasy Names.%%sex%%FirstName]
-%%title%% = [Fantasy Names.Title%%sex%%]
+%%last name%% = [Tables.Names.Fantasy Names.Surname]
+%%first name%% = [Tables.Names.Fantasy Names.%%sex%%FirstName]
+%%title%% = [Tables.Names.Fantasy Names.Title%%sex%%]
 
 %%strength%% = {{dice~d100.setMinimum(25)}}
 %%quickness%% = {{dice~d100.setMinimum(25)}}
