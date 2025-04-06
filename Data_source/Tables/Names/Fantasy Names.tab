@@ -13,7 +13,7 @@
 1,[StartFemaleNoTitle]
 
 ;StartMale
-1,[TitleMale][StartNoTitle]
+1,[TitleMale] [StartNoTitle]
 
 ;StartNoTitle
 20,[MaleFirstName] [Surname]
@@ -36,7 +36,7 @@
 1,[Welsh Names.malefirst]
 
 ;StartFemale
-1,[TitleFemale][StartFemaleNoTitle]
+1,[TitleFemale] [StartFemaleNoTitle]
 
 ;StartFemaleNoTitle
 20,[FemaleFirstName] [Surname]
@@ -924,26 +924,26 @@
 1,zel
 
 ;TitleMale
-2000,
-6,<b>St.</b> 
-110,<b>Sir</b> 
-60,<b>Lord</b> 
-40,<b>Baron</b> 
-30,<b>Viscount</b> 
-20,<b>Count</b> 
-10,<b>Duke</b> 
-5,<b>Archduke</b> 
-3,<b>Prince</b> 
-1,<b>King</b> 
+2000, (no title)
+6,St.
+110,Sir
+60,Lord
+40,Baron
+30,Viscount
+20,Count
+10,Duke
+5,Archduke
+3,Prince
+1,King
 
 ;TitleFemale
-1000,
-6,<b>St.</b> 
-40,<b>Lady</b> 
-30,<b>Baroness</b> 
-20,<b>Countess</b> 
-5,<b>Duchess</b> 
-3,<b>Princess</b> 
-1,<b>Queen</b>
+1000, (no title)
+6,St.
+40,Lady
+30,Baroness
+20,Countess
+5,Duchess
+3,Princess
+1,Queen
 
 

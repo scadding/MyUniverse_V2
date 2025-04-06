@@ -1,32 +1,32 @@
 
-%Roll% = {{dice~3d6}}
+%%Roll%% = {{dice~3d6}}
 
-%Tiny%=0
-%Small%=1
-%Man-sized%=2
-%Large%=3
-%Huge%=4
-%Gargantuan%=5
+%%Tiny%%=1
+%%Small%%=2
+%%Man-sized%%=3
+%%Large%%=4
+%%Huge%%=5
+%%Gargantuan%%=6
 
 :Start
-1,  %Roll% [Monster Strength Scores(%Roll%)@%Tiny%] [Monster Strength Scores(%Roll%)@%Gargantuan%]
-100, @Super Monster@  [Monster Strength Scores(%Roll%)@%Tiny%] [Monster Strength Scores(%Roll%)@%Gargantuan%]
+1,  %%Roll%% [Monster Strength Scores(%%Roll%%)@%%Tiny%%] [Monster Strength Scores(%%Roll%%)@%%Gargantuan%%]
+100, @@Super Monster@@ [Monster Strength Scores(%%Roll%%)@%%Tiny%%] [Monster Strength Scores(%%Roll%%)@%%Gargantuan%%]
 
 @Monster Strength Scores
 # Score T S M L H G 
 3, 2, 4, 6, 13, 15, 18
-1, 3, 5, 7, 14, 17, 18/01
-1, 4, 6, 8, 15, 18, 18/51
-1, 5, 7, 9, 16, 18/01, 18/76
-1, 6, 8, 10, 17, 18/51, 18/91
-4, 7, 9, 11, 18, 18/76, 18/00
-1, 8, 10, 12, 18/01, 18/91, 19
-1, 10, 11, 13, 18/51, 18/00, 20
-1, 11, 12, 14, 18/76, 19, 21
-1, 12, 13, 15, 18/91, 20, 22
-1, 13, 14, 16, 18/00, 21, 23
-1, 14, 15, 17, 19, 22, 24
-1, 15, 16, 18, 20, 23, 25
+4, 3, 5, 7, 14, 17, 18/01
+5, 4, 6, 8, 15, 18, 18/51
+6, 5, 7, 9, 16, 18/01, 18/76
+7, 6, 8, 10, 17, 18/51, 18/91
+8, 7, 9, 11, 18, 18/76, 18/00
+12, 8, 10, 12, 18/01, 18/91, 19
+13, 10, 11, 13, 18/51, 18/00, 20
+14, 11, 12, 14, 18/76, 19, 21
+15, 12, 13, 15, 18/91, 20, 22
+16, 13, 14, 16, 18/00, 21, 23
+17, 14, 15, 17, 19, 22, 24
+18, 15, 16, 18, 20, 23, 25
 # Abbreviations: T= Tiny (2' or less); S= Small (2-4'); M= Man-sized (4-7'); L= Large(7-12'); H= Huge (12-25'); G= Gargantuan (25'+)
 
 

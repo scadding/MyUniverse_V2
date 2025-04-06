@@ -1,0 +1,284 @@
+
+%%sex%% = {{ucfirst|[sex]}}
+%%last name%% = [Fantasy Names.Surname]
+%%first name%% = [Fantasy Names.%%sex%%FirstName]
+%%title%% = [Fantasy Names.Title%%sex%%]
+
+%%strength%% = {{dice~d100.setMinimum(25)}}
+%%quickness%% = {{dice~d100.setMinimum(25)}}
+%%presence%% = {{dice~d100.setMinimum(25)}}
+%%intuition%% = {{dice~d100.setMinimum(25)}}
+%%empathy%% = {{dice~d100.setMinimum(25)}}
+
+%%constitution%% = {{dice~d100.setMinimum(25)}}
+%%agility%% = {{dice~d100.setMinimum(25)}}
+%%self discipline%% = {{dice~d100.setMinimum(25)}}
+%%memory%% = {{dice~d100.setMinimum(25)}}
+%%reasoning%% = {{dice~d100.setMinimum(25)}}
+
+%%development points%% = {{eval:
+_[stat bonus(%%constitution%%)@2] + 
+_[stat bonus(%%agility%%)@2] + 
+_[stat bonus(%%self discipline%%)@2] + 
+_[stat bonus(%%memory%%)@2] +
+_[stat bonus(%%reasoning%%)@2]}}
+
+%%prof count%% = 19
+%%prof index%% = {{dice|d19}}
+%%profession%% = [profession(%%prof index%%)@0]
+%%prime requisite 1%% = {{for:loop, 1, 11, 
+_{{ifstr|[attribute(%%loop%%)@1] == [profession(%%prof index%%)@1], [attribute(%%loop%%)@0]}} }}
+%%prime requisite 2%% = {{for:loop, 1, 11, 
+_{{ifstr|[attribute(%%loop%%)@1] == [profession(%%prof index%%)@2], [attribute(%%loop%%)@0]}} }}
+
+
+;Start
+1,[Headline]<br><br>
+_[stats]<br>
+_<b>Development Points:</b> %%development points%%<br><br>
+
+;Headline
+1,<b>Title:</b> %%title%% <b>Last Name:</b> %%last name%% <b>First Name:</b> %%first name%% <br>
+_<b>Profession:</b> %%profession%% <b>Sex:</b> %%sex%%<br>
+_<b>Prime Requisite:</b> %%prime requisite 1%% / %%prime requisite 2%%<br>
+
+;stats
+1, {{for:loop, 1,11, [stat line]<br>}}
+
+:stat line
+1, <b>[attribute(%%loop%%)@0]:</b> [attribute(%%loop%%)@2]<b>
+_Bonus:</b> [stat bonus([attribute(%%loop%%)@2])@0]
+
+
+@attribute
+1, Strength, ST, %%strength%%
+2, Constitution, CO, %%constitution%%
+3, Quickness, QU, %%quickness%%
+4, Agility, AG, %%agility%%
+5, Self Discipline, SD, %%self discipline%%
+6, Presence, PR, %%presence%%
+7, Intuition, IN, %%intuition%%
+8, Empathy, EM, %%empathy%%
+9, Memory, ME, %%memory%%
+10, Reasoning, RE, %%reasoning%%
+
+
+;sex
+48,male
+52,female
+
+
+@stat bonus
+# stat, bonus, d20 bonus, development points, power points, 3-18, 2-12
+1, -25, -4, 1, 0, 4, 2
+2, -20, -4, 1, 0, 4, 2
+4, -15, -3, 1, 0, 5, 2
+9, -10, -2, 2, 0, 7, 4
+14, -5, -1, 2, 0, 6, 3
+24, -5, -1, 3, 0, 8, 5
+39, 0, 0, 4, 0, 9, 6
+59, 0, 0, 5, 0, 11, 7
+74, 0, 0, 6, 0, 12, 8
+84, 5, 1, 7, 1, 13, 9
+89, 5, 1, 8, 1, 14, 10
+94, 10, 2, 8, 1, 15, 11
+97, 15, 3, 9, 2, 16, 11
+99, 20, 4, 9, 2, 17, 12
+100, 25, 5, 10, 3, 18, 13
+101, 30, 6, 10, 3, 19, 15
+105, 35, 7, 11, 4, 20, 17
+
+
+@profession
+1, Fighter,      CO, ST
+2, Thief,        QU, AG
+3, Rogue,        ST, AG
+4, Warrior Monk, QU, SD 
+
+5, Magician,     EM, RE
+6, Illusionist,  EM, RE
+7, Alchemist,    EM, RE
+
+8, Cleric,       IN, ME
+9, Animist,      IN, ME
+10, Healer,      IN, ME
+
+11, Mentalist,   SD, PR
+12, Lay Healer,  SD, PR
+13, Seer,        SD, PR
+
+14, Sorceror,    EM, IN
+15, Mystic,      EM, PR
+16, Astrologer,  PR, IN
+
+17, Monk,        EM, SD
+18, Ranger,      IN, CO
+19, Bard,        PR, ME
+
+
+@profession maneuver
+#Soft Leather, Rigid Leather, Chain, Plate
+#1st, 2nd, subsequent
+1, Fighter,      1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2
+2, Thief,        1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4
+3, Rogue,        1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3
+4, Warrior Monk, 9, , , , 9, , , , 10, , , , 10, , 
+
+5, Magician,     9, , , , 9, , , , 10, , , , 11, , 
+6, Illusionist,  9, , , , 9, , , , 10, , , , 11, , 
+7, Alchemist,    9, , , , 9, , , , 10, , , , 11, , 
+
+8, Cleric,       1, 1, 1, 2, 2, 2, 10, , , , 11, , 
+9, Animist,      2, 2, 2, 3, 3, 3, 10, , , , 11, , 
+10, Healer,      2, 2, 2, 3, 3, 3, 10, , , , 11, , 
+
+11, Mentalist,   4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7
+12, Lay Healer,  2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5
+13, Seer,        4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7
+
+14, Sorceror,    9, , , , 9, , , , 10, , , , 11, , 
+15, Mystic,      4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7
+16, Astrologer,  4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7
+
+17, Monk,        9, , , , 9, , , , 10, , , , 11, , 
+18, Ranger,      1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4
+19, Bard,        2, 2, 2, 2, 2, 2, 3, 3, 3, 5, 5, 5
+
+
+@profession weapon
+1, Fighter,      1, 5, , 2, 5, , 2, 7, , 2, 7, , 2, 7, , 5, , 
+2, Thief,        2, 7, , 3, 8, , 4, , , 4, , , 4, , , 6, , 
+3, Rogue,        2, 5, , 3, 8, , 3, 9, , 3, 9, , 3, 9, ,6, , , 
+4, Warrior Monk, 4, , , 6, , , 8, , , 8, , , 8, , , 15, , 
+
+5, Magician,     9, , , 20, , , 20, , , 20, , , 20, , , 20, , 
+6, Illusionist,  9, , , 20, , , 20, , , 20, , , 20, , , 20, , 
+7, Alchemist,    9, , , 20, , , 20, , , 20, , , 20, , , 20, , 
+
+8, Cleric,       6, , , 7, , , 9, , , 9, , , 9, , , 20, , 
+9, Animist,      6, , , 7, , , 9, , , 9, , , 9, , , 20, , 
+10, Healer,      9, , , 20, , , 20, , , 20, , , 20, , , 20, , 
+
+11, Mentalist,   6, , , 8, , , 15, , , 20, , , 20, , , 20, , 
+12, Lay Healer,  8, , , 8, , , 15, , , 20, , , 20, , , 20, , 
+13, Seer,        6, , , 15, , , 20, , , 20, , , 20, , , 20, , 
+
+14, Sorceror,    9, , , 20, , , 20, , , 20, , , 20, , , 20, , 
+15, Mystic,      9, , , 20, , , 20, , , 20, , , 20, , , 20, , 
+16, Astrologer,  9, , , 20, , , 20, , , 20, , , 20, , , 20, , 
+
+17, Monk,        5, , , 8, , , 8, , , 8, , , 15, , , 15, , 
+18, Ranger,      3, 7, , 4, , , 6, , , 6, , , 6, , , 9, , 
+19, Bard,        3, 9, , 6, , , 7, , , 7, , , 7, , , 15, , 
+
+
+@profession skills
+# climbing, swimming, riding, disarm traps, pick locks, stalk and hide, perception
+1, Fighter,      3, 7, , 2, 6, , 2, 6, , 3, 8, , 3, 9, , 2, 5, 2, 5, 
+2, Thief,        2, 5, , 1, 3, , 2, 6, , 1, 3, , 1, 3, , 1, 3, , 1, 3, 
+3, Rogue,        3, 7, , 2, 5, , 2, 5, , 2, 5, , 2, 6, , 1, 3, , 1, 3, 
+4, Warrior Monk, 3, 7, , 1, 5, , 2, 7, , 3, 9, , 3, 9, , 2, 4, , 2, 5, 
+
+5, Magician,     6, , , 3, , , 3, , , 7, , , 8, , , 5, , , 3, , 
+6, Illusionist,  7, , , 3, , , 3, , , 8, , , 8, , , 3, , , 2, , , 
+7, Alchemist,    7, , , 3, , , 3, , , 4, , , 4, , , 6, , , 3, , 
+
+8, Cleric,       5, , , 3, , , 3, , , 7, , , 8, , , 5, , , 3, , 3, , 
+9, Animist,      4, , , 3, , , 1, 3, , 8, , , 8, , , 3, , , 3, , 
+10, Healer,      6, , , 3, , , 3, , , 8, , , 8, , , 6, , , 3, , 
+
+11, Mentalist,   5, , , 3, , , 2, , , 7, , , 8, , , 5, , , 3, , 
+12, Lay Healer,  6, , , 3, , , 2, , , 8, , , 8, , , 6, , , 3, , 
+13, Seer,        4, , , 3, , , 2, , , 7, , , 7, , , 6, , , 1, 3, , 
+
+14, Sorceror,    7, , , 3, , , 3, , , 7, , , 7, , , 6, , , 3, , 
+15, Mystic,      7, , , 3, , , 3, , , 7, , , 7, , , 2, , , 2, , , 
+16, Astrologer,  7, , , 3, , , 3, , , 7, , , 7, , , 6, , , 2, , , 
+
+17, Monk,        3, 7, , 2, 6, , 3, , , 4, , , 4, , , 2, 7, , 2, 7, 
+18, Ranger,      3, 9, , 2, 6, , 2, 6, , 4, , , 4, , , 1, 5, , 2, 7, 
+19, Bard,        3, 9, , 2, 6, , 2, 6, , 4, , , 4, , , 2, 7, , 2, 7, 
+
+
+@profession magic
+#spell lists, runes, staves and wands, channeling, directed spells
+1, Fighter,      20, , , 7, , , 9, , , 25, , , 20, , 
+2, Thief,        10, , , 6, , , 7, , , 20, , , 20, , 
+3, Rogue,        8, , , 6, , , 8, , , 20, , , 20, , 
+4, Warrior Monk, 10, , , 6, , , 9, , , 19, , , 20, ,  
+
+5, Magician,     1, 1, 1, 1, 4, , 1, 4, , 7, , , 2, 5, 
+6, Illusionist,  1, 1, 1, 1, 4, , 1, 4, , 7, , , 2, 6, 
+7, Alchemist,    1, 1, 1, 1, 3, , 1, 3, , 7, , , 2, 7, 
+
+8, Cleric,       1, 1, 1, 2, 5, , 2, 5, , 1, 4, , 2, 5, 
+9, Animist,      1, 1, 1, 2. 6. . 2. 6. . 2, 5, , 2, 6, 
+10, Healer,      1, 1, 1, 2. 6. . 3, 7, , 2, 5, , 2, 7, 
+
+11, Mentalist,   1, 1, 1, 2, 5, , 2, 5, , 8, , , 2, 6, 
+12, Lay Healer,  1, 1, 1, 2. 6. . 2. 6. . 8, , , 2, 7, 
+13, Seer,        1, 1, 1, 2. 6. . 2. 6. . 8, , , 2, 7, 
+
+14, Sorceror,    1, 1, 1, 2, 5, , 2, 5, , 2, 5, , 2, 5, 
+15, Mystic,      1, 1, 1, 2, 5, , 2, 5, , 8, , , 2, 6, 
+16, Astrologer,  1, 1, 1, 2. 6. . 2. 6. . 1, 5, , 2, 5, 
+
+17, Monk,        4, 4, 4, 4, , , 5, , , 13, , , 9, , 
+18, Ranger,      4, 4, 4, 5, , , 6, , , 3, , , 15, , 
+19, Bard,        4, 4, 4, 5, , , 6, , , 13, , , 10, , 
+
+
+@profession special
+1, Fighter,      3, 8, , 3, 3, 3, 2, 6, , 20, , , 3, 7, , 1, 3, 
+2, Thief,        1, 3, , 3, 3, 3, 2, 6, , 20, , , 3, 7, , 3, 7, 
+3, Rogue,        2, 5, , 3, 3, 3, 2, 6, , 20, , , 3, 7, , 2, 5, 
+4, Warrior Monk, 3, 9, , 3, 3, 3, 1, 3, , 3, 7, , 1, 3, , 2, 7, 
+
+5, Magician,     9, , , 2, 2, 2, 6, , , 20, , , 9, , , 8, , 
+6, Illusionist,  5, , , 1, 1, 1, 6, , , 20, , , 9, , , 8, , 
+7, Alchemist,    9, , , 1, 1, 1, 6, , , 20, , , 9, , , 6, , 
+
+8, Cleric,       9, , , 2, 2, 2, 5, , , 20, , , 6, , , 6, , 
+9, Animist,      6, , , 2, 2, 2, 5, , , 20, , , 6, , , 4, , 
+10, Healer,      9, , , 2, 2, 2, 5, , , 20, , , 6, , , 1, 3, 
+
+11, Mentalist,   9, , , 2, 2, 2, 3, , , 15, , , 3, , , 6, , 
+12, Lay Healer,  9, , , 2, 2, 2, 3, , , 15, , , 3, , , 6, , 
+13, Seer,        9, , , 1, 1, 1, 3, , , 15, , , 3, , , 6, , 
+
+14, Sorceror,    9, , , 2, 2, 2, 5, , , 20, , , 9, , , 8, , 
+15, Mystic,      4, , , 1, 1, 1, 5, , , 15, , , 6, , , 8, , 
+16, Astrologer,  9, , , 1, 1, 1, 5, , , 15, , , 6, , , 6, , 
+
+17, Monk,        4, , , 3, 3, 3, 2, 4, , 6, , , 2, 5, , 3, 7, 
+18, Ranger,      3, , , 3, 3, 3, 2, 7, , 20, , , 4, , , 2, 7, 
+19, Bard,        6, , , 1, 1, 1, 2, 7, , 15, , , 3, , , 3, 8, 
+
+
+@profession secondary
+1, Fighter, 
+2, Thief, 
+3, Rogue, 
+4, Warrior Monk, 
+
+5, Magician, 
+6, Illusionist, 
+7, Alchemist, 
+
+8, Cleric, 
+9, Animist, 
+10, Healer, 
+
+11, Mentalist, 
+12, Lay Healer, 
+13, Seer, 
+
+14, Sorceror, 
+15, Mystic, 
+16, Astrologer, 
+
+17, Monk, 
+18, Ranger, 
+19, Bard, 
+
+
