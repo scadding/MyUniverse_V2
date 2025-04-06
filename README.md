@@ -9,6 +9,8 @@ sudo apt install python3-sha
 sudo apt install python3-hashlib
 sudo apt install python3-xmlrpclib
 
+sudo apt-get install build-essential
+
 ### Installation ###
 * Install python3
     https://www.python.org/downloads/
