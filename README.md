@@ -4,6 +4,7 @@ sudo apt install python3.12-venv
 sudo apt install python3-pip
 sudo apt install python3-wx*
 sudo apt-get install libgtk-3-dev
+sudo apt-get install libwebkit*
 
 sudo apt-get install build-essential
 
