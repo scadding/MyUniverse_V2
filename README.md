@@ -1,4 +1,14 @@
 
+### Requirements ###
+sudo apt install python3.12-venv
+sudo apt install python3-pip
+sudo apt install python3-wx*
+
+sudo apt install python3-imp
+sudo apt install python3-sha
+sudo apt install python3-hashlib
+sudo apt install python3-xmlrpclib
+
 ### Installation ###
 * Install python3
     https://www.python.org/downloads/
