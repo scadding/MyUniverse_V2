@@ -4,6 +4,8 @@ inflect
 pyparsing
 lxml
 anytree
+pywebview
+
 
 # server
 blinker==1.6.3
