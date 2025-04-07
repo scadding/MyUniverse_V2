@@ -1,0 +1,44 @@
+
+
+@race
+# ST, QU, PR, IN, EM,                    CO, AG, SD, ME, RE
+1,  Common Man,  5, 0, 0, 0, 0,            0, 0, 5, 0, 0
+2,  High Man,    10, -5, 10, 0, 0,         10, -5, 0, 0, 0
+3,  Half-Elf,    5, 10, 10, 0, 0,          +5, +5, -10, 0, 0
+4,  Wood Elf,    0, 5, 5, 0, 5,            0, 10, -20, 0, 0
+5,  High Elf,    0, 10, 10, 0, 5,          0, 5, -20, 5, 0
+6,  Fair Elf,    0, 15, 15, 0, 5,          0, 5, -20, 5, 0
+7,  Dwarf,       5, -5, -10, 0, -10,       15, -5, 5, 0, 0
+8,  Halfling,    -20, 10, -15, 0, -5,      15, 15, -10, 0, 0
+9,  Orc,         5, 0, -5, -10, -5,        5, 0, -10, -10, -5
+10, Greater Orc, 10, 0, -5, -5, -5,        10, 0, -5, -5, -5
+11, Troll,       15, -10, -10, -10, -10,   15, -10, -10, -10, -10
+
+
+;race RR mod
+1, Common Man
+1, High Man
+1, Half-Elf
+1, Wood Elf
+1, High Elf
+1, Fair Elf
+1, Dwarf
+1, Halfling
+1, Orc
+1, Greater Orc
+1, Troll
+
+
+;race special
+1, Common Man
+1, High Man
+1, Half-Elf
+1, Wood Elf
+1, High Elf
+1, Fair Elf
+1, Dwarf
+1, Halfling
+1, Orc
+1, Greater Orc
+1, Troll
+

@@ -576,7 +576,9 @@ class tableMgr(object):
             if tableFunctions.eval(logic) == "True":
                 s = s + self.parse(table, n[1])
         elif f == "assign":
-            self.tfile[table].setVariable(n[0], self.parse(table, n[1]))
+            variable = self.parse(table, n[0])
+            value = self.parse(table, n[1])
+            self.tfile[table].setVariable(variable, value)
         else:
             p = list()
             for i in n:

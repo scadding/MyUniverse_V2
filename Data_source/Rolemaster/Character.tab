@@ -1,5 +1,10 @@
 
 %%sex%% = {{ucfirst|[sex]}}
+
+%%race count%% = 11
+%%race%% = [Rolemaster.FantasyRaces.race(%%race index%%)@0]
+%%race index%% = {{dice|d%%race count%%}}
+
 %%last name%% = [Tables.Names.Fantasy Names.Surname]
 %%first name%% = [Tables.Names.Fantasy Names.%%sex%%FirstName]
 %%title%% = [Tables.Names.Fantasy Names.Title%%sex%%]
@@ -38,16 +43,22 @@ _[stats]<br>
 _<b>Development Points:</b> %%development points%%<br><br>
 
 ;Headline
-1,<b>Title:</b> %%title%% <b>Last Name:</b> %%last name%% <b>First Name:</b> %%first name%% <br>
-_<b>Profession:</b> %%profession%% <b>Sex:</b> %%sex%%<br>
+1,<b>Profession:</b> %%profession%% <b>Sex:</b> %%sex%% <b>Race:</b> %%race%%<br>
+_<b>Title:</b> %%title%% <b>Last Name:</b> %%last name%% <b>First Name:</b> %%first name%% <br>
 _<b>Prime Requisite:</b> %%prime requisite 1%% / %%prime requisite 2%%<br>
 
 ;stats
 1, {{for:loop, 1,11, [stat line]<br>}}
 
 :stat line
-1, <b>[attribute(%%loop%%)@0]:</b> [attribute(%%loop%%)@2]<b>
-_Bonus:</b> [stat bonus([attribute(%%loop%%)@2])@0]
+1, <b>[attribute(%%loop%%)@0]:</b> [attribute(%%loop%%)@2]
+_<b>Bonus:</b> [stat bonus([attribute(%%loop%%)@2])@0]
+_<b>Racial Bonus:</b> [racial bonus]
+
+:racial bonus
+1, {{assign:[attribute(%%loop%%)@0] Race Bonus, 
+_[Rolemaster.FantasyRaces.race(%%race index%%)@{{eval:%%loop%% + 0}}]}} 
+_%%[attribute(%%loop%%)@0] Race Bonus%%
 
 
 @attribute
