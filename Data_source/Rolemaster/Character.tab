@@ -57,7 +57,7 @@ _<b>Racial Bonus:</b> [racial bonus]
 
 :racial bonus
 1, {{assign:[attribute(%%loop%%)@0] Race Bonus, 
-_[Rolemaster.FantasyRaces.race(%%race index%%)@{{eval:%%loop%% + 0}}]}} 
+_[Rolemaster.FantasyRaces.race(%%race index%%)@%%loop%%]}} 
 _%%[attribute(%%loop%%)@0] Race Bonus%%
 
 
