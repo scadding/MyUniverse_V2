@@ -41,9 +41,14 @@
 11,Purge the universe of twisted spirits through combination of liberal dispersal of psychotropic vapors and tedious but indispensable talking therapy
 12,Dehydrated zombies in convenient capsule-form
 
-:Marks of Chaos 3: Ia!
+:Marks of Chaos
+1, [Marks of Chaos 3]
+2, [Marks of Chaos 2]
+3, [Marks of Chaos 1]
+
+:Marks of Chaos 3
 1,Body violently explodes and slowly reintegrates at random intervals
-3,Changes form every d6 minutes (see subtable A)
+3,Changes form every d6 minutes [Marks of Chaos Changes in Form]
 4,Extra-sensory organs take up unused real estate on head: fleshy radar dishes, various antennae, less identifiable protuberances
 5,Constantly fluctuating size/mass
 6,New and different limbs growing in various stages of development
@@ -51,26 +56,26 @@
 8,Deadly black radiations emanate from eyes
 9,Speaks in several languages simultaneously on account of all the extra mouths
 10,Body composed entirely of eyes of varied provenance
-11,Huge horn-like growths adorn head (see subtable B)
+11,Huge horn-like growths adorn head, [Marks of Chaos Head Adornments]
 12,Body composed of ever shifting multi-spectral light: hypnotic, may induce seizures
 
-:Subtable A: Changes in Form
-1-2 Giant brain w/spider legs
-3-4 Levitating starfish w/single luminous eye
-5-6 Housefly
-7-8 Winged ape
-9-10 Toga-clad youth of dazzling beauty, casting off golden light
-11-12 Anthropomorphic red giant star
+:Marks of Chaos Changes in Form
+2, Giant brain w/spider legs
+4, Levitating starfish w/single luminous eye
+6, Housefly
+8, Winged ape
+10, Toga-clad youth of dazzling beauty, casting off golden light
+12, Anthropomorphic red giant star
 
-:Subtable B: Head Adornments
-1-2 Ram
-3-4 Impala
-5-6 Moose
-7-8 Rhino
-9-10 Stag beetle
-11-12 Massive coral-like outcropping w/complete ecosystem
+:Marks of Chaos Head Adornments
+2, Ram
+4, Impala
+6, Moose
+8, Rhino
+10, Stag beetle
+12, Massive coral-like outcropping w/complete ecosystem
 
-:Marks of Chaos 2: Not So Subtle
+:Marks of Chaos 2
 1,Tentacled lips
 2,1d10 extra digits per hand
 3,Mustache of Chaos: several feet long on both sides, completely prehensile, form hand-shapes on ends
@@ -84,7 +89,7 @@
 11,Tapering cone of mist where legs should be
 12,Half of body occupies alternate dimension at any given moment
 
-:Marks of Chaos 1: Subtle
+:Marks of Chaos 1
 1,Eyes keep changing color
 2,Needle-sharp body hair
 3,Slightly peculiar body odor: not particularly offensive, just weird
@@ -98,7 +103,7 @@
 11,Bat ears: hair-do can conceal, if desired
 12,Dancing hair
 
-:Wandering Dungeon Jerks (Who Want to Join the Party)
+:Wandering Dungeon Jerks
 1,Potent magic user who treats everyone in possession of an even slightly less magnificent intellect with disdain and open contempt (favorite quip: "Idiots!")
 2,Hyper-macho fighting man way over the acceptable hubris limit, absolutely cannot let stand any perceived slight, will undertake any challenge, preoccupied with mustachio-maintenance
 3,Skillful, brazen thief practices pick-pocketry on party before disappearing into shadows only to keep reappearing, emits high pitched, tittering laughter
@@ -106,13 +111,13 @@
 5,Treasure sack-laden servitor ape looking for work having just strangled former employer
 6,Deposed monarch w/ever-shrinking cadre of loyalists looking to enhance war-chest, stickler for protocol, expects everyone to be constantly genuflecting, etc.
 7,Former professional torturer turned dungeon raider, an able warrior who takes unseemly glee in carnage
-8, Kick ass princess with a sword, finally away from oppressive court life, won't listen to anyone about anything
+8,Kick ass princess with a sword, finally away from oppressive court life, won't listen to anyone about anything
 9,Magnanimous Yotch, dungeon real estate agent, needs fresh bodyguards after professional mishap
 10,Talking unicorn w/mood disorder on suicidal final war against evil
 11,Paladin on perpetual crusade against even seemingly trivial transgressions (perfectly OK with murder hobo lifestyle, so long as the victims are demonstrably evil)
 12,Bard
 
-:Patrons Now Hiring: Assassins
+:Patrons Now Hiring, Assassins
 1,Enterprising extra-dimensional visitor looking to replace ruling class with androids
 2,Under-appreciated demigod needs a hero shortage so he can fill the gap w/own exploits
 3,Super rich plutocrat would like extensive list of dissenting voices permanently silenced
@@ -182,7 +187,7 @@
 11,Escaped scholar/tutor lich, created by sorcerer as research assistant, now obsessed its own unfulfilled academic ambitions
 12,Ogre that always wanted to be smart found ring w/three wishes, two remaining
 
-:Hireling Reactions 3: Massive Casualties
+:Hireling Reactions to Massive Casualties
 1,Even grimmer determination
 2,Buoyed by fatalistic mores, now more fatalistic than ever
 3,Frankly, just happy to be alive
@@ -196,11 +201,11 @@
 11,Deserts at first opportunity
 12,Total defiance, mutiny
 
-:Die modifiers:
-+1 to roll if treated with typical disregard by employers
--1 to roll if mollified by inspirational oratory by charismatic PC
+#:Die modifiers:
+#+1 to roll if treated with typical disregard by employers
+#-1 to roll if mollified by inspirational oratory by charismatic PC
 
-:Hireling Reactions 2: Sudden Riches
+:Hireling Reactions to Sudden Riches
 1,Suitably impressed w/employer's dungeon acumen: loyalty assured
 2,Joyful, ebullient fist-pumping in expectation of juicy bonus
 3,Selfless, dispassionate demeanor conceals dissatisfaction w/current contract
@@ -214,11 +219,11 @@
 11,Treasure fever: prepared to fight for fair share and then some
 12,Murderous gold madness
 
-:Die modifiers:
-+1 to roll if callously denied wage enhancement after striking it rich, ill treatment by employers
--1 to roll if contract clearly specifies payment terms in the event of heaps of treasure
+#:Die modifiers:
+#+1 to roll if callously denied wage enhancement after striking it rich, ill treatment by employers
+#-1 to roll if contract clearly specifies payment terms in the event of heaps of treasure
 
-:Hireling Reactions 1: Mind-bending Terror
+:Hireling Reactions to Mind-bending Terror
 1,Laughs heartily in the face of cosmic horror
 2,Steady as she goes, admirably composed
 3,Holding it together, but just barely
@@ -232,14 +237,17 @@
 11,Howling madness of the permanently disabling variety
 12,Drops stone dead of fright
 
-:Die modifiers:
- +1 to roll if exposed to prior terrors, casualties, brazen meat-shielding of other hirelings
--1 to roll if equally terrified of employer, substantial bonus to wages offered
+#:Die modifiers:
+#+1 to roll if exposed to prior terrors, casualties, brazen meat-shielding of other hirelings
+#-1 to roll if equally terrified of employer, substantial bonus to wages offered
 
-:Automatic Evil Army Field Marshal Generator
-:Instructions: Roll once on each table below, rationalize results, savor fear in players' eyes.
+:Evil Army Field Marshal Generator
+#:Instructions: Roll once on each table below, rationalize results, savor fear in players' eyes.
+1, Draft animal(s): [Evil Army Field Marshal Draft animal]<br>
+_Conveyance: [Evil Army Field Marshal Conveyance]<br>
+_Rider: [Evil Army Field Marshal Rider]<br>
 
-:Table A: Draft animal(s)
+:Evil Army Field Marshal Draft animal
 1,Team of giant stag beetles
 2,Giant tortoise outfitted for battle
 3,Team of pterodactyls
@@ -253,7 +261,7 @@
 11,Team of huge warthogs
 12,Team of lobotomized muscle dudes
 
-:Table B: Conveyance
+:Evil Army Field Marshal Conveyance
 1,Combat sleigh
 2,Battle cart
 3,War wagon
@@ -267,7 +275,7 @@
 11,Land yacht
 12,Panzerkampfwagen E-100, out of fuel
 
-:Table C: Rider
+:Evil Army Field Marshal Rider
 1,Two-headed dwarf with lightning powered cat-o-nine tails
 2,Praying mantis-man in space armor w/laser gun
 3,Frost giant witch w/blazing war fork
@@ -281,7 +289,7 @@
 11,Intelligent evil bear in high-collared cape, dinosaur skull helmet, power ring
 12,Giant clockwork warrior in black armor controlled from within by world's most diabolically clever little girl
 
-:Talents on Loan from the Gods: Divine Spells
+:Talents on Loan from the Gods, Divine Spells
 1,Steely Countenance of Affirmation: morale booster
 2,(Involuntary) Bonds of Brotherhood
 3,Momentary Cosmic Awareness: requires hours long ritual w/accompanying bells and whistles

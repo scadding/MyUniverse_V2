@@ -1,26 +1,4 @@
 
-;Start
-1,[Under the Evil Wizard's Hat]
-1,[Flora in the Garden of Death]
-1,[The Necromancer's Ultimate Ambition]
-1,[More Unknown Spells]
-1,[Partially Obscured Entries in the Stolen Spellbook]
-1,[Enchanted Conveniences of the Rich and Sorcerous]
-1,[War Sorcery1,[ Eldritch Bombs]
-1,[The Sorcerer's Latest Research Breakthrough]
-1,[Last Known Appearance of the Rogue Sorcerer]
-1,[Target of the Sorcerer's Contracted Assassin(s)]
-1,[In the Witch's Workshop]
-1,[In the Philosopher's Spell Book]
-1,[What the Wizard Actually has Up his Sleeve]
-1,[Before First Level1,[ Magic Users]
-1,[Re-animation Projects of the Chaotic Necromancer]
-1,[Manifestations of the Sorcerer's Derangement]
-1,[Security Measures at the Sorcerer's Tower]
-1,[In the Sorcerer's Overnight Bag]
-1,[Strange and Terrible Curses]
-1,[Unknown Spells]
-
 
 :Under the Evil Wizard's Hat
 1,Extra brains in tapering elongated skull cone
@@ -107,7 +85,7 @@
 11,Perfectly-behaved, highly affectionate lap-demon
 12,Ensorcelled hair-dos
 
-:War Sorcery: Eldritch Bombs
+:War Sorcery Eldritch Bombs
 1,Idiocy bomb: goes off with a resounding howl of mocking laughter, forces w/in range reduced to sub-moronic gibbering, yet retain full measure of self-confidence
 2,Re-animation bomb: dead in area of effect rise to fight again
 3,Berserk bomb: dropped on friendly forces to induce mass battle-madness
@@ -121,7 +99,7 @@
 11,Death ray bomb: pitch black mushroom cloud, shock wave appears as onrushing cloud of screaming skulls
 12,Hell-breach bomb: mutually assured destruction
 
-:Note on delivery system: most frequently dropped by trained pteranodons, aero-squid (high payload capacity), allied dragons or dirigible crews
+#Note on delivery system: most frequently dropped by trained pteranodons, aero-squid (high payload capacity), allied dragons or dirigible crews
 
 :The Sorcerer's Latest Research Breakthrough
 1,Following treatment with precise ratio of disintegration and re-integration rays, now physically inhabits up to 3 planes of existence simultaneously
@@ -151,7 +129,7 @@
 11,Over the course of days slowly became invisible and inaudible
 12,Swelled to over fifty feet in height, issued contemptuous farewell, strode off toward the mountains
 
-:Target of the Sorcerer's Contracted Assassin(s)
+:Target of the Sorcerer's Contracted Assassin
 1,Imperial Librarian who hires killers of his own to whack the sorcerer for overdue materials
 2,Certain thief who made off with hereditary spell book of inordinate sentimental value
 3,Former mentor for capricious lies and disinformation leading to much grief (and unpleasant mutations)
@@ -207,7 +185,7 @@
 11,Live doves for wowing the easily astonished
 12,Flask of hooch
 
-:Before First Level: Magic Users
+:Before First Level Magic Users
 1,Thrown out of several reputable academies, killed last headmaster to cross path and made off with spellbook
 2,Woke up to find self fully vested member of arcane secret society after lengthy black lotus bender
 3,Snuck into sorcerer's tower, captured and imprisoned in library until mastered first spell: took ten years

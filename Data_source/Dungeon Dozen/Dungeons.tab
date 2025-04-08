@@ -70,7 +70,8 @@
 11,Yesterday's paella getting ripe and crusty in unwashed vessel, empty liquor bottles scattered about
 12,Mortar/pestle, tablet-making apparatus, many jars with powders of every hue, chunks of soft chalky stones, large sacks loaded with coin-sized pills
 
-:Wandering Dungeon Jerks (Who Want to Join the Party)
+:Wandering Dungeon Jerks
+#(Who Want to Join the Party)
 1,Potent magic user who treats everyone in possession of an even slightly less magnificent intellect with disdain and open contempt (favorite quip: "Idiots!")
 2,Hyper-macho fighting man way over the acceptable hubris limit, absolutely cannot let stand any perceived slight, will undertake any challenge, preoccupied with mustachio-maintenance
 3,Skillful, brazen thief practices pick-pocketry on party before disappearing into shadows only to keep reappearing, emits high pitched, tittering laughter
@@ -155,7 +156,11 @@
 12,Dungeon armistice after vicious territorial conflict leaves denizens unprepared, inebriated or otherwise off their guard
 
 :Dungeon Plagues
-:Table One: Pathogen
+1,Pathogen : [Pathogen]<br>
+_Vector: [Vector]<br>
+_Cure(other than Cure Disease spell): [Cures]<br>
+
+:Pathogen
 1,Rot pox: too hideous a fate to describe
 2,Exploding fever: temperature spikes then keeps on cooking until extremely unpleasant eruption
 3,Zombie itch: turns host into mindless self-scratching machine
@@ -169,7 +174,7 @@
 11,Bone Melter: turns skeleton into so much jelly followed by suffocation
 12,Shriveling wastes: victim becomes more hideous than the most ancient lich, then snuffs it unceremoniously
 
-:Table Two: Vector
+:Vector
 1,Dungeon ooze
 2,Anything handled by filthy kobolds
 3,Vampire blood
@@ -183,13 +188,13 @@
 11,Draconic cerebrospinal fluid
 12,Troll mucus
 
-:Table Three: Cures (other than Cure Disease spell)
-1-2. Huge monetary sacrifice to the god of the wretched
-3-4. 24-hour ritual involving free-form dance and large amounts of chicken blood
-5-6. Victim must be bled to within inch of life
-7-8. Cup of hot poison (50% chance of instant death anyway)
-9-10. Subject must be roasted over open flame until half-dead
-11-12. Incurable!
+:Cures
+2, Huge monetary sacrifice to the god of the wretched
+4, 24-hour ritual involving free-form dance and large amounts of chicken blood
+6, Victim must be bled to within inch of life
+8, Cup of hot poison (50% chance of instant death anyway)
+10, Subject must be roasted over open flame until half-dead
+12, Incurable!
 
 :Fleeing the Dungeon
 1,Exhausted swordsman w/multiple arrows in back drags unconscious wizard, bleeding profusely and moaning piteously
@@ -206,8 +211,8 @@
 12,All the rats as if from a sinking ship
 
 :Dungeon Love Connections
-:Love is both blind and not particularly bright. But its power to make things weird, even in the darkest subterranean pits, can never be entirely snuffed out. Alas!
-:Roll once on each table below for traditional one-on-one romance, with additional rolls for love triangles or more complex entanglements.
+1,Love is both blind and not particularly bright. But its power to make things weird, even in the darkest subterranean pits, can never be entirely snuffed out. Alas!
+2,Roll once on each table below for traditional one-on-one romance, with additional rolls for love triangles or more complex entanglements.
 
 :Table One
 1,Blind old troll with walker made of bones
@@ -238,12 +243,12 @@
 12,Wandering dungeon sage with the hormones of a 16 year old
 
 :Love Condition Table
-1-2. Exciting and new
-3-4. All-consuming passion
-5-6. Hit the doldrums: comfortable like an old shoe
-7-8. Spats of increasing intensity, jealousy, recriminations
-9-10. On the skids: ugly break up imminent
-11-12. Unrequited
+2, Exciting and new
+4, All-consuming passion
+6, Hit the doldrums: comfortable like an old shoe
+8, Spats of increasing intensity, jealousy, recriminations
+10, On the skids: ugly break up imminent
+12, Unrequited
 
 :Tiny Dungeon Menaces
 1,Immortal Queen of All Ants and her army of 1000 demi-god offspring
@@ -273,7 +278,7 @@
 11,Forlorn god-like abomination leads remaining flock of cultists, equally downcast, after losing out to wildly popular new deity in former locale
 12,Unlikely mix of dungeon creatures evacuate en mass as from Warner Bros. Tasmanian Devil (tm).
 
-:Note: Due to frayed nerves, suppressed anxiety and stressors inherent in relocating, reactions to adventurers skew heavily toward hostility
+#:Note: Due to frayed nerves, suppressed anxiety and stressors inherent in relocating, reactions to adventurers skew heavily toward hostility
 
 :Wandering the Dungeon Self-righteously
 1,Lone paladin on one man anti-chaos crusade: scorched, bleeding, half his once-shining plate armor missing, crazed look of maniacal enthusiasm
@@ -290,8 +295,7 @@
 12,Hell-bent unicorn on mission of darkest vengeance against evil
 
 :Unexpected Intrusions into the Standard Orc Lair
-"Me stole helmet fair and square."
-
+#"Me stole helmet fair and square."
 1,Ogre bounty hunters happily smashing their way to the chieftain's quarters to serve warrant from former employer for dereliction of duty: they will consider any bribes or interesting offers
 2,Black pudding invasion: acting in concert as if directed by some remote agency, puddings choke the halls, killing and moving on w/out pause for digestion
 3,Giant sub-draconic reptile has unintentionally wedged itself in a too-narrow passage, orcs contemplating the best approach, discussing recipes

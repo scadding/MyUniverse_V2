@@ -42,7 +42,7 @@
 12,Occupants unknown due to ship's defenses automatically disintegrating anything that gets close
 
 :Unexpected Intrusions into the Standard Orc Lair
-"Me stole helmet fair and square."
+#"Me stole helmet fair and square."
 
 1,Ogre bounty hunters happily smashing their way to the chieftain's quarters to serve warrant from former employer for dereliction of duty: they will consider any bribes or interesting offers
 2,Black pudding invasion: acting in concert as if directed by some remote agency, puddings choke the halls, killing and moving on w/out pause for digestion
@@ -141,12 +141,12 @@
 11,Ruins of pyramids revealed as laboratories for the creation and transmission to earth of terror monsters
 12,Small breeding population of Light Siders in stasis, protected by death-dealing automatons
 
-:Horrors of the Slough-pit
-:Yes, this is highly irregular, but today's table can be found embedded in the one-page-dungeon-type deal linked below. With the OPD contest underway, I thought I'd take a crack at the format (this is not an entry, just a tryout). I invite all to download and have a look. Perhaps I can entice you with the map....
+#Horrors of the Slough-pit
+#Yes, this is highly irregular, but today's table can be found embedded in the one-page-dungeon-type deal linked below. With the OPD contest underway, I thought I'd take a crack at the format (this is not an entry, just a tryout). I invite all to download and have a look. Perhaps I can entice you with the map....
 
 
-:Imprint One Page Wilderness
-:Released under the Creative Commons license used by the OPD contest.
+#Imprint One Page Wilderness
+#Released under the Creative Commons license used by the OPD contest.
 
 :More Wonders of the Underworld
 1,The Abyssal Caldera: sight of multiplanar collision and consequent reality breakdown
@@ -156,7 +156,7 @@
 5,Cave-sepulchre of dead gods: super-powerful agents of divine decomposition pose chief threat 
 6,Sculpted halls of the art-beetles (extinct): baroque alien aesthetic mildly mind-bending
 7,Mountain of bones, personal collection of the death god
- 8. The Grand Chasm: staggeringly vast, spanned only by the Gondola of Peril
+8,The Grand Chasm: staggeringly vast, spanned only by the Gondola of Peril
 9,Mecca of the giants: near-continual stream of giant pilgrims
 10,Ruined war-demon factory and test arena: access forbidden by sentry-tribe of subhumans
 11,Hanging garden of slimes, puddings, jellies and ooze

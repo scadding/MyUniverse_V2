@@ -55,7 +55,7 @@
 11,Soul-destroying metaphysical ray
 12,Caustic, adhesive vomit
 
-:Yeah, but THESE Zombies....
+:Yeah, but THESE Zombies
 1,Labor tirelessly on a colossal beehive-like structure of unknown design and purpose
 2,Only devour other types of undead
 3,Erupt with pressurized jets of noxious gases when punctured
@@ -69,11 +69,8 @@
 11,Comprise the entire population of an otherwise normal fishing village, going about their daily routines as if nothing has happened
 12,Have plenty to say on the deplorable conditions of the afterlife, if only someone would listen
 
-:Yeah, but THIS Mummy...
-"I'm Nophru-Ka the Ancient Lord,
-and I endorse this message."
-
-
+:Yeah, but THIS Mummy
+#"I'm Nophru-Ka the Ancient Lord, and I endorse this message."
 1,Lashes out with extensible bandage to bind and entangle foes
 2,Dribbles a trail of tiny black puddings from dessicated lips
 3,Intends to reclaim time-lost dominion by presenting ancient but progressive policies and entirely sensible arguments to the land's current occupants
@@ -99,12 +96,15 @@ and I endorse this message."
 9,Wineskin filled with fermented blood cordial
 10,Pulsating adrenal gland of the swamp leviathan
 11,Extra high-luminosity candles for Jack-O-Lantern
-12.Satchel of child jerky and bone meal hard tack
+12,Satchel of child jerky and bone meal hard tack
 
 :Instant Chimera
+1, Chimera Body: [Chimera Body]<br>
+_Chimera Head: [Chimera Head]<br>
+_Chimera Special power: [Chimera Special power]<br>
 
 
-:Table One: Body
+:Chimera Body
 1,Crocodile
 2,T-rex
 3,Giant porcupine
@@ -118,7 +118,8 @@ and I endorse this message."
 11,Cave bear
 12,Giant ape
 
-:Table Two: Head (roll as desired for additional heads)
+:Chimera Head
+#(roll as desired for additional heads)
 1,Flaming impala skull
 2,Rabid pit bull
 3,Snapping turtle
@@ -132,7 +133,7 @@ and I endorse this message."
 11,Spider
 12,Devil
 
-:Table Three: Special power
+:Chimera Special power
 1,Ray of withering
 2,Flaming bile
 3,Searing eyebeams
@@ -146,9 +147,7 @@ and I endorse this message."
 11,Blood transmits lethal disease
 12,Gaze causes heads to explode
 
-:Yeah, but the gaze of THIS cockatrice...
-
-
+:gaze of THIS cockatrice
 1,Turns you to gold
 2,Makes you a helpless thrall in service of the incomprehensible whims of the cockatrice
 3,Nullifies cerebral tissues, leaving primal lizard brain 100% in charge
@@ -176,10 +175,13 @@ and I endorse this message."
 11,Real child-eating witch slinks from gutter to roof top, replacing devoured tykes with identical soulless ones who bide time until adulthood when all hell breaks loose
 12,Artist of stupendous talent actually terrifically self-involved demon more interested in approbation than overt evil
 
-:Automatic Evil Army Field Marshal Generator
-:Instructions: Roll once on each table below, rationalize results, savor fear in players' eyes.
+:Evil Army Field Marshal Generator
+#:Instructions: Roll once on each table below, rationalize results, savor fear in players' eyes.
+1, Draft animal(s): [Evil Army Field Marshal Draft animal]<br>
+_Conveyance: [Evil Army Field Marshal Conveyance]<br>
+_Rider: [Evil Army Field Marshal Rider]<br>
 
-:Table A: Draft animal(s)
+:Evil Army Field Marshal Draft animal
 1,Team of giant stag beetles
 2,Giant tortoise outfitted for battle
 3,Team of pterodactyls
@@ -193,7 +195,7 @@ and I endorse this message."
 11,Team of huge warthogs
 12,Team of lobotomized muscle dudes
 
-:Table B: Conveyance
+:Evil Army Field Marshal Conveyance
 1,Combat sleigh
 2,Battle cart
 3,War wagon
@@ -207,7 +209,7 @@ and I endorse this message."
 11,Land yacht
 12,Panzerkampfwagen E-100, out of fuel
 
-:Table C: Rider
+:Evil Army Field Marshal Rider
 1,Two-headed dwarf with lightning powered cat-o-nine tails
 2,Praying mantis-man in space armor w/laser gun
 3,Frost giant witch w/blazing war fork
@@ -264,8 +266,6 @@ and I endorse this message."
 12,Anything that moves
 
 :Gigantic Monsters
-
-
 1,Marmodon: incredibly huge marmoset, dines exclusively on human heads
 2,Blue Terror: gigantic aerial cousin to Portuguese man-of-war
 3,Thrazenor: enormous stone-like anthropoid, seizes lightning from the sky
@@ -294,9 +294,14 @@ and I endorse this message."
 12,Will leave you alone if you can beat it in a strictly moderated tournament-style miniatures wargame
 
 :Weird Dragons
-:Physical characteristics
+1, Head: [Weird Dragons Head]<br>
+_Body: [Weird Dragons Body plan]<br>
+_Weird Dragon Breath<br>
+_The Dragon's State of Mind<br>
+_The Intelligent Dragon's Current Obsession<br>
+_Current Favorite Items in the Dragon's Hoard<br>
 
-:Head
+:Weird Dragons Head
 1,Smilodon
 2,Swan
 3,Caiman
@@ -310,7 +315,7 @@ and I endorse this message."
 11,Housefly
 12,Human
 
-:Body plan
+:Weird Dragons Body plan
 1,Serpent
 2,Centipede
 3,Rooster
@@ -324,11 +329,6 @@ and I endorse this message."
 11,Gecko
 12,Land whale
 
-
-:Weird Dragon Breath
-:The Dragon's State of Mind
-:The Intelligent Dragon's Current Obsession
-:Current Favorite Items in the Dragon's Hoard
 
 :Events in the All-Humanoid Olympiad
 #"Glaahh! Ashrakh got best seats available! You NO complain!"

@@ -1,26 +1,3 @@
-;Start
-1,[Featured on the Wilderness Map]
-1,[Weird Waters]
-1,[Recently Swallowed by the Mile-long Serpent]
-1,[In the Saloon]
-1,[Flora in the Garden of Death]
-1,[Things in the Giant Carnivorous Bowerbird's Display]
-1,Bowerbirds: I was totally ignorant until enlightened by David Attenborough [Bowerbirds I was totally ignorant until enlightened by David Attenborough]
-1,[Current Occupants of the Ancient King's Tomb]
-1,[Under the Floorboards of the Abandoned Shack]
-1,[What are Those Strange Lights in the Forest?]
-1,[Why They Built that Giant Wall]
-1,Those Blood-curdling Screams off in the Distance are Actually.... [Those Blood-curdling Screams off in the Distance are Actually]
-1,[Weird Farmers]
-1,[Random Dead Bodies (Wilderness)]
-1,[It Luxuriates in the Great Caldera]
-1,[Haunting the Skies]
-1,[The Isolated Village has a Dark Secret]
-1,[Occupants of the Colossal Ancient UFO Anchored to the Mountaintop]
-1,[Building Projects of the Stone Giants]
-1,[Features of the Devil Prince's Escape-proof Isle]
-1,[Under the Paleogean Serpentine Mound]
-
 
 :Featured on the Wilderness Map
 1,Colossal Spruce: towering evergreen, cult of druids worship gigantic pine cone growing several hundred feet up as nascent deity
@@ -92,9 +69,7 @@
 12,Venus Soul Trap: fills minds of victims with soothing music and imagery while its tendrils snake up nostrils to remove soul from behind pineal gland
 
 :Things in the Giant Carnivorous Bowerbird's Display
-
-:Bowerbirds I was totally ignorant until enlightened by David Attenborough
-
+#Bowerbirds I was totally ignorant until enlightened by David Attenborough
 1,Awesome center piece: missing fragment of powerful artifact, much sought after by variety of factions
 2,Carefully arranged stacks of human-type skulls
 3,Pair of extra-large gongs of various description, each fit for the most opulent palace
@@ -107,11 +82,6 @@
 10,Wagon wheels and axles upon which unfortunate travellers spin secured by lengths of flowering vines
 11,Entrails of various origin dangling from bower superstructure
 12,Imperial army helmets in semi-circular design, sorted by rank
-
-
-
-
-
 
 :Current Occupants of the Ancient King's Tomb
 1,Secret meeting place for halfling conspirators: plot calls for bloody uprising against snooty plutocrats back in the shire, equitable redistribution of wealth, many small instruments of war stockpiled
@@ -140,7 +110,7 @@
 11,Heavy stone slab covering crypt w/desecrated sarcophagus containing inert vampire w/stake through heart
 12,Deceased super-hero's underground headquarters
 
-:What are Those Strange Lights in the Forest?
+:What are Those Strange Lights in the Forest
 1,Assembled ghosts of those who perished bitterly in these woods collectively ignite forest fire via pyrokinesis
 2,Prancing ogres w/jars full of fireflies conduct some kind of unpleasant mating ritual
 3,Lantern light filtered through a preternatural fog that cascades from the mouth of the singular lantern-bearer
@@ -196,7 +166,7 @@
 11,By some unknown innate power Yeeurg the root harvester can speak every known language + several unknown
 12,Loaf Landus seems to sleep all day, yet somehow always has the best cart at market, rivals willing to pool their resources for assassination fees
 
-:Random Dead Bodies (Wilderness)
+:Random Dead Bodies, Wilderness
 1,Hill giants in a heap w/drained vessels in their hands (they drank the Kool-Aid)
 2,Numerous normal bats scattered about full of tiny black arrows
 3,Circle of dead scavengers (hyenas, jackals, vultures, etc.) who failed their saves after sampling the decomposing abomination

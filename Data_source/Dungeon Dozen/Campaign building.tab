@@ -124,7 +124,7 @@
 11,Towering gods stride the earth locked in battle, sweeping away entire human armies with single gestures, shattering mountains with errant blows, boiling oceans away with misfired rays of destruction
 12,Sorcerer's mad researches set off arcane chain reaction resulting in world sundered in two, separated by coruscating ethereal gulf
 
-:Whence the Demigod?
+:Whence the Demigod
 1,Mighty Sky-father digs mortals
 2,Lord of Speedy Delivery expanding operations
 3,Super-genius god of intellect conducting "experiments"
@@ -139,9 +139,9 @@
 12,Raw Chaos seethes mindlessly but also enjoys the odd fling here and there
 
 :Super-quick Gonzo Pulp Monster Generator
-:Roll on each of the three tables below and put results in the blender. Extrapolate swiftly, your players are waiting.
-
-:Table A: Descriptor
+1, [Gonzo Pulp Monster Descriptor] [Gonzo Pulp Monster Subject]<br>
+_[Gonzo Pulp Monster Special]
+:Gonzo Pulp Monster Descriptor
 1,Abominable
 2,Colossal
 3,Scintillating
@@ -155,7 +155,7 @@
 11,Hypno-
 12,Chaos
 
-:Table B: Subject
+:Gonzo Pulp Monster Subject
 1,Fungus
 2,Jelly
 3,Corpse
@@ -169,7 +169,7 @@
 11,Virus
 12,Titan
 
-:Table C: Special
+:Gonzo Pulp Monster Special
 1,Like the shrew, must eat several times own body weight daily to survive
 2,Maximum fecundity: dropping eggs/buds/spores/litters/viral loads everywhere
 3,Berserk at all times, but capable of taking it to a new level if pressed
@@ -184,12 +184,12 @@
 12,Demi-material, may pass through solid matter
 
 :Campaign Elevator Pitch Amalgamator
+1, Appendix N: [Appendix N]<br>
+_ Pop Culture X Factor: [Pop Culture X Factor]<br>
 
+#Roll once on each table and forcefully mash results together to establish campaign vibe.
 
-
-:Roll once on each table and forcefully mash results together to establish campaign vibe.
-
-:Table A: Appendix N
+:Appendix N
 1,Robert E. Howard's Kull stories: serpent men intrigue, campaign-ending catastrophe imminent
 2,Tolkien's LOTR: sprawling epic, dark lord, orcs everywhere, spontaneous recitations of poetry/musical numbers
 3,Poul Anderson's The High Crusade: knights & UFOs
@@ -203,7 +203,7 @@
 11,Fritz Leiber's Newhon series: sorcerous masters, Lords of Quarmal, lusty
 12,L. Sprague de Camp & Fletcher Pratt's Harold Shea series: magic is mathematics, dweebs from 20th century earth kick ass in realms of fantasy
 
-:Table B: Pop Culture X Factor
+:Pop Culture X Factor
 1,William Burroughs Naked Lunch: Interzone, disturbing creatures spewing hallucinogenic ichor
 2,Christopher Hitchens: anti-crusade vs. theocracy, plenty of super-heated rhetoric
 3,The Smurfs: towering evil sorcerers and their terrifying familiars, mushroom town HQ
@@ -224,7 +224,7 @@
 #2. Rolls: 1, 6
 #Results: Oops, you've just created the John Milius Conan the Barbarian movie, outrageous Austrian accents, nihilism, raise dead spells #work but friends of the deceased must battle wind demons
 
-:Why is there an Underworld?
+:Why is there an Underworld
 1,Earth hollowed by extinct giant ants during paleogean Age of Giant Insects
 2,Life began in crucible of chaos at center of the earth, only breaching the surface after millions of years in the dark oceans below
 3,Groundwork laid by primeval visitation of planet-eating cosmic worms
@@ -238,7 +238,7 @@
 11,Provision of First God War armistice created a permanent division between children of light and darkness, since nullified by renewed hostilities
 12,Underground realms left over from first major revision of creation when mountains rained from the sky to forever bury failed experiments
 
-:Quick Cultural Quirks: Sophisticated Urbanites of Swords and Sorcery
+:Quick Cultural Quirks, Sophisticated Urbanites of Swords and Sorcery
 1,Considers self to be unflappable having seen it all in the big city
 2,Applauds the feudal spirit: actually quite fond of the help
 3,Sensation seeker by habit if not inclination, unapologetic epicurean tastes
@@ -252,7 +252,7 @@
 11,Strong percentage chance of successfully faking way through conversation on wide range of topics
 12,Honors the hour at which it is customary for a gentleman/lady to partake of a stiff one
 
-:Quick Cultural Quirks: Deep Forest People
+:Quick Cultural Quirks, Deep Forest People
 1,The prairie is terrifying: deep-seated horizon-phobia
 2,Likes to sleep in high places: will go to great lengths to improvise off-ground accommodations
 3,Subject to psychosomatic infirmities when underground for extended periods
@@ -267,8 +267,7 @@
 12,Distrusts the capricious spirits of metals and must appease them often: will not carry anything bigger than a good spear point, prefers arms/armor of wood, leather, and sinew
 
 :DM's Emergency Dodecahedron Outcomes Oracle
-:For use whenever the mad schemes of the players demand speedy resolution but lie beyond the scope of easily remembered/referenced rules....
-
+#For use whenever the mad schemes of the players demand speedy resolution but lie beyond the scope of easily remembered/referenced rules....
 1,Abysmal and utter failure beyond all reasonable expectations
 2,Unpredictably bad outcome (there will be blood)
 3,What the players imagined to be the worst case scenario
@@ -282,13 +281,13 @@
 11,A stunning success beyond all reasonable hope
 12,DM's instinct prevails as long as its amusing for all (win or lose)
 
-:Die modifiers:
-+1 if plan seems sound or if obscured by cloud of cool-sounding BS
-+2 if the gods might favor such a plan
-+3 if the plan seems really amusing
--1 if the plan seems completely absurd
--2 if the plan inadvertently ruins something super cool
--3 if there never really was a chance for success anyway
+:Die modifiers
+1, +1 if plan seems sound or if obscured by cloud of cool-sounding BS
+2, +2 if the gods might favor such a plan
+3, +3 if the plan seems really amusing
+4, -1 if the plan seems completely absurd
+5, -2 if the plan inadvertently ruins something super cool
+6, -3 if there never really was a chance for success anyway
 
 :Dungeon Aesthetic
 1,Designed to accommodate alien/giant body plan

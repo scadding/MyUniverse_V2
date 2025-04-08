@@ -28,7 +28,7 @@
 11,Shimmering spectral arch made of ever-howling ghosts and soul-matter fused and shaped by a wicked sorcerer thinking only of his own convenience
 12,Coils of a primordial dragon petrified by the powers of its victorious demigod rival, stairs and footpaths worn in after centuries of use, said to predate the chasm itself
 
-:What's up at the Underworld Chaos Temple?
+:What's up at the Underworld Chaos Temple
 1,Closed for repairs after raid by Deep Dwarf Agnostic Jihad
 2,Secret unholy ritual in progress, no admittance, heavy guard
 3,Open worship featuring mind-bending oratory of chaos, not particularly uplifting
@@ -112,7 +112,7 @@
 11,Systemic fungal infection: increases strength and constitution, occludes thought process
 12,Total acclimation: underground environment seems like home, surface life just an increasingly vague memory
 
-:Why is there an Underworld?
+:Why is there an Underworld
 1,Earth hollowed by extinct giant ants during paleogean Age of Giant Insects
 2,Life began in crucible of chaos at center of the earth, only breaching the surface after millions of years in the dark oceans below
 3,Groundwork laid by primeval visitation of planet-eating cosmic worms
@@ -134,7 +134,7 @@
 5,Cave-sepulchre of dead gods: super-powerful agents of divine decomposition pose chief threat 
 6,Sculpted halls of the art-beetles (extinct): baroque alien aesthetic mildly mind-bending
 7,Mountain of bones, personal collection of the death god
- 8. The Grand Chasm: staggeringly vast, spanned only by the Gondola of Peril
+8,The Grand Chasm: staggeringly vast, spanned only by the Gondola of Peril
 9,Mecca of the giants: near-continual stream of giant pilgrims
 10,Ruined war-demon factory and test arena: access forbidden by sentry-tribe of subhumans
 11,Hanging garden of slimes, puddings, jellies and ooze
@@ -166,9 +166,9 @@
 9,Ogre-driven rickshaws
 10,Train of giant ants: queen deploys her forces in exchange for surface delicacies/magic
 11,Underworld Excursion Vehicle (UEV): life's work of underworld-obsessed sorcerer/scientist, provides protection from attacks/elements, array of defensive weaponry (e. g. fireball turret), bio-engine fueled by concentrated food pellets
-12.Were-ponies
+12,Were-ponies
 
-*Subterranean human: the hairless, chalk-white skinned men native to the underworld
+#*Subterranean human: the hairless, chalk-white skinned men native to the underworld
 
 :Commonly Abused Underworld Intoxicants
 1,Dried bulb of the devil's lily: taken orally eliminates need to sleep for 2d4 days
@@ -212,7 +212,7 @@
 11,The waters of enlightenment: drinking imparts 1d6 minutes of god-like intelligence followed by recuperative coma lasting 1d6 hours
 12,Hot Tub of the Gods
 
-* Naturally, the clone will not stop until it has killed and replaced the original
+#Naturally, the clone will not stop until it has killed and replaced the original
 
 :Wandering Underworld Deities
 1,Partial corporeal manifestation of Een the All-knowing: broadcasts blinding white light made of information, all present must save or pass out from involuntary download
@@ -242,7 +242,7 @@
 11,1d6 blind cave fish
 12,Several handfuls of glutinous fungi
 
-:Note: assumes presence of native guide or trained Underworld Ranger
+#Note: assumes presence of native guide or trained Underworld Ranger
 
 :Underworld River Vessels
 1,Ogre-powered pole barge laden with surface loot
@@ -258,7 +258,7 @@
 11,Lost and demoralized viking types searching for open sea
 12,Reptile men atop giant turtle amphibious assault vessel, shell modified with battlements, arrow slits, tail ramp
 
-:Also: The Halfling's Codpiece (dinghy): abandoned
+#Also: The Halfling's Codpiece (dinghy): abandoned
 
 :Underworld Cash Crops
 1,Ghoulsbane: repels minor undead when smoked profusely, highly addictive
