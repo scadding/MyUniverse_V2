@@ -240,7 +240,7 @@ class tableFile(object):
         elif m10: #pragma declaration
             pass
         else:
-            print('Error: unidentified line ' + self.filename + ' - ' + line, file=sys.stderr)
+            print('Error: unidentified line ' + self.filename + ' - ' + line)
     def template(self, template):
         templateFile = os.path.dirname(self.filename) + '/' + template + '.tml'
         self.stack[template] = ''
@@ -250,6 +250,8 @@ class tableFile(object):
     def run(self, t='Start', roll=-1, column=0):
         if self.table.get(t):
             return self.table[t].roll(column=column, roll=roll)
+        elif t == 'Start':
+            return self.autorunStart()
         print('Error: *** No [' + t + '] Table***', file=sys.stderr)
         return ''
     def rundict(self, t='Start', roll=-1):
@@ -260,6 +262,12 @@ class tableFile(object):
     def start(self):
         self.currentstack = dict()
         return self.run('Start')
+    def autorunStart(self):
+        s = ''
+        for t in self.table:
+            s = s + '<b>' + t + ': </b><br>'
+            s = s + self.table[t].roll() + '<br><br>'
+        return s
     def getBaseVariable(self, var):
         if var in self.stack:
             return self.stack[var]
