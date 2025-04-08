@@ -269,8 +269,13 @@ class MainFrame(wx.Frame):
             path = os.getcwd() + "/" + filename
             url = "file://" + path
             self.Populate(t, file=url)
-        except(TypeError):
-            print("Type Error")
+        except Exception as inst:
+            print(type(inst))    # the exception type
+            print(inst.args)     # arguments stored in .args
+            t, e, tb = sys.exc_info()
+            while tb:
+                print(tb.tb_frame)
+                tb = tb.tb_next
         self.rolling = False
         
     def Populate(self, name, content=u'', file=''):
