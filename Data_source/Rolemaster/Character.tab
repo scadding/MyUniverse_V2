@@ -3,7 +3,7 @@
 %%sex%% = {{ucfirst|[sex]}}
 
 %%race count%% = 11
-%%race%% = [Rolemaster.%%genre%%Races.race(%%race index%%)@0]
+%%race%% = [Rolemaster.%%genre%%.Races.race(%%race index%%)@0]
 %%race index%% = {{dice|d%%race count%%}}
 
 %%last name%% = [Tables.Names.%%genre%% Names.Surname]
@@ -31,11 +31,13 @@ _[Rolemaster.stats.stat bonuses(%%reasoning%%)@2]}}
 
 %%prof count%% = 19
 %%prof index%% = {{dice|d19}}
-%%profession%% = [Rolemaster.%%genre%%Profession.profession(%%prof index%%)@0]
+%%profession%% = [Rolemaster.%%genre%%.Profession.profession(%%prof index%%)@0]
 %%prime requisite 1%% = {{for:loop, 1, 11, 
-_{{ifstr|[attribute(%%loop%%)@1] == [Rolemaster.%%genre%%Profession.profession(%%prof index%%)@1], [attribute(%%loop%%)@0]}} }}
+_{{ifstr|[attribute(%%loop%%)@1] == [Rolemaster.%%genre%%.Profession.profession(%%prof index%%)@1],
+_[attribute(%%loop%%)@0]}} }}
 %%prime requisite 2%% = {{for:loop, 1, 11, 
-_{{ifstr|[attribute(%%loop%%)@1] == [Rolemaster.%%genre%%Profession.profession(%%prof index%%)@2], [attribute(%%loop%%)@0]}} }}
+_{{ifstr|[attribute(%%loop%%)@1] == [Rolemaster.%%genre%%.Profession.profession(%%prof index%%)@2],
+_[attribute(%%loop%%)@0]}} }}
 
 
 ;Start
