@@ -12,6 +12,8 @@ import  wx.lib.wxpTag
 from src import images
 import wx.aui
 from src.Logger import Log
+import linecache
+
 
 from src.GeneratorPanel import GeneratorPanel
 
@@ -270,12 +272,83 @@ class MainFrame(wx.Frame):
             url = "file://" + path
             self.Populate(t, file=url)
         except Exception as inst:
-            print(type(inst))    # the exception type
-            print(inst.args)     # arguments stored in .args
+            print("Traceback (most recent call last):")
             t, e, tb = sys.exc_info()
+            frame = tb.tb_frame.f_back
+            flist = list()
+            while frame:
+                flist.insert(0, frame)
+                frame = frame.f_back
+
+            tb = tb.tb_next
             while tb:
-                print(tb.tb_frame)
+                flist.append(tb.tb_frame)
                 tb = tb.tb_next
+            for f in flist:
+                print('  File \"' + f.f_code.co_filename + '\", Line ' + str(f.f_lineno) + ' in ' + f.f_code.co_name)
+                line = linecache.getline(f.f_code.co_filename, f.f_lineno)
+                print('    ' + line, end='')
+            print(type(inst))
+            print(e)
+            
+# traceback.tb_frame
+# Points to the execution frame of the current level.
+# Accessing this attribute raises an auditing event object.__getattr__ with arguments obj and "tb_frame".
+# traceback.tb_lineno
+# Gives the line number where the exception occurred
+# traceback.tb_lasti
+# Indicates the “precise instruction”.
+
+# frame.f_back
+# Points to the previous stack frame (towards the caller), or None if this is the bottom stack frame
+# frame.f_code
+# The code object being executed in this frame. Accessing this attribute raises an auditing event object.__getattr__ with arguments obj and "f_code".
+# frame.f_locals
+# The mapping used by the frame to look up local variables. If the frame refers to an optimized scope, this may return a write-through proxy object.
+# Changed in version 3.13: Return a proxy for optimized scopes.
+# frame.f_globals
+# The dictionary used by the frame to look up global variables
+# frame.f_builtins
+# The dictionary used by the frame to look up built-in (intrinsic) names
+# frame.f_lasti
+# The “precise instruction” of the frame object (this is an index into the bytecode string of the code object)
+   
+
+# codeobject.co_name
+# The function name
+# codeobject.co_qualname
+# The fully qualified function name
+# codeobject.co_argcount
+# The total number of positional parameters (including positional-only parameters and parameters with default values) that the function has
+# codeobject.co_posonlyargcount
+# The number of positional-only parameters (including arguments with default values) that the function has
+# codeobject.co_kwonlyargcount
+# The number of keyword-only parameters (including arguments with default values) that the function has
+# codeobject.co_nlocals
+# The number of local variables used by the function (including parameters)
+# codeobject.co_varnames
+# A tuple containing the names of the local variables in the function (starting with the parameter names)
+# codeobject.co_cellvars
+# A tuple containing the names of local variables that are referenced from at least one nested scope inside the function
+# codeobject.co_freevars
+# A tuple containing the names of free (closure) variables that a nested scope references in an outer scope. See also function.__closure__.
+# codeobject.co_code
+# A string representing the sequence of bytecode instructions in the function
+# codeobject.co_consts
+# A tuple containing the literals used by the bytecode in the function
+# codeobject.co_names
+# A tuple containing the names used by the bytecode in the function
+# codeobject.co_filename
+# The name of the file from which the code was compiled
+# codeobject.co_firstlineno
+# The line number of the first line of the function
+# codeobject.co_lnotab
+# A string encoding the mapping from bytecode offsets to line numbers. For details, see the source code of the interpreter.
+# codeobject.co_stacksize
+# The required stack size of the code object
+# codeobject.co_flags
+# An integer encoding a number of flags for the interpreter.                
+
         self.rolling = False
         
     def Populate(self, name, content=u'', file=''):
