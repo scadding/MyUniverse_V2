@@ -8,13 +8,10 @@ from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter
 
 class Generator:
     def __init__(self):
-        config = Configuration()
         self.tm = table.tableMgr()
-        self.node = table.walktree(config.getValue("Data", "directory"), self.tm.addfile, load=True)
-        self.tm.setTree(self.node)
         self.parameters = dict()
         self.parameters['Seed'] = ['', '0']
-        self.parameters['Generators'] = self.node
+        self.parameters['Generators'] = self.tm.getTree()
         self.pList = ['Seed', 'Generators']
 
         #self.parameters['Group'] = self.GetGeneratorGroups()
@@ -23,8 +20,8 @@ class Generator:
     def Update(self, p):
         config = Configuration()
         self.tm = table.tableMgr()
-        self.node = table.walktree(config.getValue("Data", "directory"), self.tm.addfile, load=True)
-        self.parameters['Generators'] = self.node
+        self.tm.walktree(config.getValue("Data", "directory"), self.tm.addfile, load=True)
+        self.parameters['Generators'] = self.tm.getTree()
         pass
     def GetGeneratorList(self, p):
         # Get list of generators

@@ -15,6 +15,7 @@ import sqlite3 as lite
 import sys
 import codecs
 from src.Generators.tablegen.server import server
+from src.Configuration import Configuration
 
 from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter
 
@@ -103,7 +104,28 @@ class Table(object):
     def getCount(self):
         return self.index
 
-class tableDB(object):
+class tableGroup(object):
+    currentstack = dict()
+    def __init__(self):
+        self.stack = dict()
+        self.currentstack = dict()
+    def getBaseVariable(self, var):
+        if var in self.stack:
+            return self.stack[var]
+        return ""
+    def getVariable(self, var):
+        if var in self.currentstack:
+            return self.currentstack[var]
+        return ""
+    def setVariable(self, var, val):
+        self.currentstack[var] = val
+    def removeVariable(self, var, val):
+        del self.currentstack[var]
+    def start(self):
+        self.currentstack = dict()
+        return self.run('Start')
+
+class tableDB(tableGroup):
     def __init__(self, table, genre, con):
         self.con = con
         self.table = table
@@ -113,8 +135,6 @@ class tableDB(object):
                     "TableName == \"%s\"" % (table))
         self.length = dict()
         self.type = dict()
-        self.currentstack = dict()
-        self.stack = dict()
         for sub, t, l in cur.fetchall():
             self.length[sub] = l
             self.type[sub] = t
@@ -156,20 +176,8 @@ class tableDB(object):
         if t in self.length:
             return self.length[t]
         return 0
-    def getBaseVariable(self, var):
-        if var in self.stack:
-            return self.stack[var]
-        return ""
-    def getVariable(self, var):
-        if var in self.currentstack:
-            return self.currentstack[var]
-        return ""
-    def setVariable(self, var, val):
-        self.currentstack[var] = val
-    def removeVariable(self, var, val):
-        del self.currentstack[var]
 
-class tableFile(object):
+class tableFile(tableGroup):
     comment = re.compile(r'^\s*#.*$')
     whitespace = re.compile(r'^\s*$')
     tabledeclaration = re.compile(r'^\s*:([!,/\'\w \+-]*)$')
@@ -182,13 +190,12 @@ class tableFile(object):
     parameterdeclaration = re.compile(r'^\s*@.*$')
     pragmadeclaration = re.compile(r'^/.*$')
     namespec = re.compile(r'^[/\w _~,-]*/(.*)\.tab$')
-    currentstack = dict()
     filename = ''
     def __init__(self, filename):
+        tableGroup.__init__(self)
         self.table = dict()
         self.filename = filename
         self.tablename = ''
-        self.stack = dict()
         current = ''
         previous = ''
         m = self.namespec.match(filename)
@@ -259,25 +266,12 @@ class tableFile(object):
             return self.table[t].rolldict(roll=roll)
         print('Error: *** No [' + t + '] Table***', file=sys.stderr)
         return ''
-    def start(self):
-        self.currentstack = dict()
-        return self.run('Start')
     def autorunStart(self):
         s = ''
         for t in self.table:
             s = s + '<b>' + t + ': </b><br>'
             s = s + self.table[t].roll() + '<br><br>'
         return s
-    def getBaseVariable(self, var):
-        if var in self.stack:
-            return self.stack[var]
-        return ""
-    def getVariable(self, var):
-        if var in self.currentstack:
-            return self.currentstack[var]
-        return ""
-    def setVariable(self, var, val):
-        self.currentstack[var] = val
     def get_random_index(self, t='Start'):
         if self.table.get(t):
             return self.table[t].get_random_index()
@@ -321,43 +315,70 @@ class tableMgr(object):
     tfile = dict()
     tfilename = dict()
     ttemplate = dict()
-    tgroup = set()
-    tgenre = set()
     group = dict()
+    ignoredir = ["__pycache__"]
+    ignoreext = ['.py', '.tml']
     def __init__(self):
-        pass
+        self.tree = Node("Root")
+        config = Configuration()
+        self.walktree(config.getValue("Data", "directory"), load=True, node=self.tree)
+        print(RenderTree(self.tree))
+    def walktree(self, top, load=False, node=None):
+        for filename in os.listdir(top):
+            path = os.path.join(top, filename)
+            mode = os.stat(path).st_mode
+            root, ext = os.path.splitext(filename)
+            display = True
+            if ext in self.ignoreext:
+                display = False
+            if root.startswith("_"):
+                continue
+            head, tail = os.path.split(filename)
+            if S_ISDIR(mode):
+                # It's a directory, recurse into it
+                if tail in self.ignoredir:
+                    continue
+                previous = node
+                node = Node(tail, parent=previous, table=None, display=display)
+                self.walktree(path, load, node=node)
+                node = previous
+            elif S_ISREG(mode):
+                # It's a file, call the callback function
+                table = self.addfile(path, load)
+                Node(root, parent=node, table=table, loaded=load, filename=path, display=display)
+            else:
+                # Unknown file type, print a message
+                print('Skipping %s' % path)
+    def getTree(self):
+        return self.tree
     def setSeed(self, seed):
         rand.seed(seed)
     def addfile(self, filename, load=False):
         basename = os.path.basename(filename)
-        if basename.startswith("_"):
-            return False
         group = os.path.basename(os.path.dirname(filename))
         name = os.path.splitext(basename)[0]
         extension = os.path.splitext(basename)[1]
         if extension == '.db':
             self.loadDB(filename)
-            return False
+            return None
         if extension == ".tml":
             self.ttemplate[name] = filename
-            return False
+            return None
         if not(extension == '.py' or extension == '.tab'):
-            return False
+            return None
         self.tfilename[name] = filename
-        self.tgroup.add(group)
         if not self.group.get(group):
             self.group[group] = set()
         self.group[group].add(name)
         if load:
             return self.loadtable(name)
-        return True
+        return None
     def loadDB(self, filename):
         con = lite.connect(filename)
         cur = con.cursor()
         cur.execute("SELECT DISTINCT Genre FROM Tables")
         for row in cur.fetchall():
             group = row[0]
-            self.tgroup.add(group)
             if not self.group.get(group):
                 self.group[group] = set()
         for g in self.group:
@@ -367,12 +388,12 @@ class tableMgr(object):
                 self.group[g].add(name)
                 self.tfile[name] = tableDB(name, g, con)
     def loadtable(self, tablename):
-        extension = os.path.splitext(self.tfilename[tablename])[1]
+        extension = os.path.splitext(self.filename(tablename))[1]
         if extension == '.tab' or extension == '.tml':
-            self.tfile[tablename] = tableFile(self.tfilename[tablename])
+            self.tfile[tablename] = tableFile(self.filename(tablename))
             return self.tfile[tablename]
         elif extension == '.py':
-            spec = importlib.util.spec_from_file_location(tablename, self.tfilename[tablename])
+            spec = importlib.util.spec_from_file_location(tablename, self.filename(tablename))
             module = importlib.util.module_from_spec(spec)
             sys.modules[tablename] = module
             spec.loader.exec_module(module)
@@ -388,10 +409,6 @@ class tableMgr(object):
                 print('Error: *** Table \'' + tablename + '\' Not found ***', file=sys.stderr)
     def filename(self, tablename):
         return self.tfilename[tablename]
-    def groups(self):
-        return self.tgroup
-    def genre(self):
-        return self.tgenre
     def nestedExpr(self, opener, closer):
         content = (pyparsing.Combine(pyparsing.OneOrMore(
             ~pyparsing.Literal(opener) +
@@ -401,8 +418,6 @@ class tableMgr(object):
         ret <<= pyparsing.Group(pyparsing.Suppress(opener) +
                                 pyparsing.ZeroOrMore(ret | content) + pyparsing.Suppress(closer))
         return ret
-    def processAtom():
-        pass
     def parse(self, table, exp):
         found = True
         ret = exp
@@ -598,7 +613,6 @@ class tableMgr(object):
     def roll(self, table):
         self.checkload(table)
         s = self.tfile[table].start()
-        #print('\nroll = ', s)
         s = self.parse(table, s)
         return s
     def run(self, table, sub='Start', roll=-1, column=0):
@@ -616,6 +630,10 @@ class tableMgr(object):
     def getCount(self, table, sub="Start"):
         self.checkload(table)
         return self.tfile[table].getCount(sub)
+
+class testMgr(tableMgr):
+    def __init__(self):
+        super().__init__()
     def test(self, count=100, dirname='./test', table=''):
         d = os.path.dirname(dirname)
         if not os.path.exists(dirname):
@@ -691,6 +709,7 @@ class tableMgr(object):
             else:
                 return 'unknown table\n'
 
+
 def testcallback(option, opt, value, parser, *args, **kwargs):
     t.test()
     sys.exit
@@ -705,13 +724,13 @@ def importcallback(option, opt, value, parser, *args, **kwargs):
     #print args
     #print kwargs
     print(parser.values.datadir)
-    t = tableMgr()
+    t = testMgr()
     walktree(parser.values.datadir, t.addfile, load=True)
     t.importTables()
 
 def allcallback(option, opt, value, parser, *args, **kwargs):
     print(parser.values.datadir)
-    t = tableMgr()
+    t = testMgr()
     walktree(parser.values.datadir, t.addfile, load=True)
     #t.importTables()
     sys.exit
@@ -719,7 +738,7 @@ def allcallback(option, opt, value, parser, *args, **kwargs):
 
 def listencallback(option, opt, value, parser, *args, **kwargs):
     print(parser.values.datadir)
-    t = tableMgr()
+    t = testMgr()
     walktree(parser.values.datadir, t.addfile, load=True)
     #t.importTables()
     while True:    # infinite loop
@@ -729,7 +748,7 @@ def listencallback(option, opt, value, parser, *args, **kwargs):
         print(t.process(n))
 
 def servercallback(option, opt, value, parser, *args, **kwargs):
-    server(tableMgr, walktree, parser.values.datadir)
+    server(testMgr, walktree, parser.values.datadir)
 
 def runcallback(option, opt, value, parser, *args, **kwargs):
     print(value)
@@ -749,7 +768,7 @@ def datacallback(option, opt, value, parser, *args, **kwargs):
 
 
 if __name__ == '__main__':
-    t = tableMgr()
+    t = testMgr()
     parser = OptionParser()
     parser.add_option("-d", "--data", type="string", dest="datadir", action="callback",
                       help="Data Directory", metavar="Data", default="Data", callback=datacallback)

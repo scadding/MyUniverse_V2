@@ -51,6 +51,8 @@ class GeneratorPanel(wx.Panel):
                 self.fields[n] = wx.TextCtrl(self, -1, self.generator.parameters[n])
     def add_children(self, tree, wx_node_id, node, fldridx, fldropenidx, fileidx, smileidx):
         for n in node.children:
+            if not n.display:
+                continue
             child = tree.AppendItem(wx_node_id, n.name)
             if n.children:
                 tree.SetItemData(child, None)
