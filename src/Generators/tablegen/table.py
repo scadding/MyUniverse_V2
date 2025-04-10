@@ -312,8 +312,6 @@ class tableFile(tableGroup):
             cur.execute("INSERT INTO TableVariables VALUES(\"%s\", \"%s\", \"%s\")" % (table, k, value))
 
 class tableMgr(object):
-    tfile = dict()
-    tfilename = dict()
     ttemplate = dict()
     group = dict()
     ignoredir = ["__pycache__"]
@@ -322,7 +320,6 @@ class tableMgr(object):
         self.tree = Node("Root")
         config = Configuration()
         self.walktree(config.getValue("Data", "directory"), load=True, node=self.tree)
-        print(RenderTree(self.tree))
     def walktree(self, top, load=False, node=None):
         for filename in os.listdir(top):
             path = os.path.join(top, filename)
@@ -356,55 +353,46 @@ class tableMgr(object):
             display = False
         node = Node(name, parent=parent, table=None, loaded=load, filename=filename, display=display)
         if extension == '.db':
-            self.loadDB(filename)
-            return None
+            self.loadDB(filename, parent=parent)
         if extension == ".tml":
             self.ttemplate[name] = filename
         if not(extension == '.py' or extension == '.tab'):
             return
-        self.tfilename[name] = filename
-        if not self.group.get(group):
-            self.group[group] = set()
-        self.group[group].add(name)
         if load:
-            return self.loadtable(name)
-        return None
-    def loadDB(self, filename):
+            self.loadtable(node)
+        return
+    def loadDB(self, filename, parent=None):
         con = lite.connect(filename)
         cur = con.cursor()
         cur.execute("SELECT DISTINCT Genre FROM Tables")
+        groups = dict()
         for row in cur.fetchall():
             group = row[0]
-            if not self.group.get(group):
-                self.group[group] = set()
-        for g in self.group:
+            if not groups.get(group):
+                groups[group] = set()
+        for g in groups:
             cur.execute("SELECT DISTINCT TableName FROM Tables WHERE Genre == \"%s\"" % (g))
             for row in cur.fetchall():
                 name = row[0]
-                self.group[g].add(name)
-                self.tfile[name] = tableDB(name, g, con)
-    def loadtable(self, tablename):
-        extension = os.path.splitext(self.filename(tablename))[1]
+                groups[g].add(name)
+                node = Node(name, parent=parent, table=tableDB(name, g, con), loaded=True, filename=filename, display=True)
+    def loadtable(self, node):
+        extension = os.path.splitext(node.filename)[1]
         if extension == '.tab' or extension == '.tml':
-            self.tfile[tablename] = tableFile(self.filename(tablename))
-            return self.tfile[tablename]
+            node.table = tableFile(node.filename)
+            return node.table
         elif extension == '.py':
-            spec = importlib.util.spec_from_file_location(tablename, self.filename(tablename))
+            spec = importlib.util.spec_from_file_location(node.name, node.filename)
             module = importlib.util.module_from_spec(spec)
-            sys.modules[tablename] = module
+            sys.modules[node.name] = module
             spec.loader.exec_module(module)
-            self.tfile[tablename] = module.generator()
-            if self.tfile[tablename].version() > 1.0:
-                self.tfile[tablename].SetManager(self)
-            return self.tfile[tablename]
-    def checkload(self, tablename):
-        if not self.tfile.get(tablename):
-            if self.tfilename.get(tablename):
-                self.loadtable(tablename)
-            else:
-                print('Error: *** Table \'' + tablename + '\' Not found ***', file=sys.stderr)
-    def filename(self, tablename):
-        return self.tfilename[tablename]
+            node.table = module.generator()
+            if node.table.version() > 1.0:
+                node.table.SetManager(self)
+            return node.table
+    def checkload(self, node):
+        if not node.table:
+            self.loadtable(node)
     def nestedExpr(self, opener, closer):
         content = (pyparsing.Combine(pyparsing.OneOrMore(
             ~pyparsing.Literal(opener) +
@@ -414,22 +402,22 @@ class tableMgr(object):
         ret <<= pyparsing.Group(pyparsing.Suppress(opener) +
                                 pyparsing.ZeroOrMore(ret | content) + pyparsing.Suppress(closer))
         return ret
-    def parse(self, table, exp):
+    def parse(self, node, exp):
         found = True
         ret = exp
         while found:
-            found, ret = self.expandFunction(table, ret)
+            found, ret = self.expandFunction(node, ret)
             if found:
                 continue
-            found, ret = self.expandTable(table, ret)
+            found, ret = self.expandTable(node, ret)
             if found:
                 continue
             found, ret = self.expandTemplate(ret)
             if found:
                 continue
-            found, ret = self.expandVariable(table, ret)
+            found, ret = self.expandVariable(node, ret)
         return ret
-    def expandFunction(self, table, text):
+    def expandFunction(self, node, text):
         ret = ''
         last = 0
         found = False
@@ -438,11 +426,11 @@ class tableMgr(object):
             ret = ret + text[last:s]
             last = e
             for i in t:
-                ret = ret + self.handleBrace(table, i)
+                ret = ret + self.handleBrace(node, i)
                 found = True
         ret = ret + text[last:]
         return found, ret
-    def expandTable(self, table, text):
+    def expandTable(self, node, text):
         last = 0
         n = ''
         found = False
@@ -452,7 +440,7 @@ class tableMgr(object):
             last = e
             for i in t:
                 l = self.parseList(i, start='[', finish=']')
-                c = self.parseTable(table, self.parse(table, l[0]))
+                c = self.parseTable(node, self.parse(node, l[0]))
                 n = n + c
                 found = True
         ret = n + text[last:]
@@ -471,7 +459,7 @@ class tableMgr(object):
             found = True
         ret = n + text[last:]
         return found, ret
-    def expandVariable(self, table, text):
+    def expandVariable(self, node, text):
         last = 0
         n = ''
         found = False
@@ -479,14 +467,14 @@ class tableMgr(object):
         for t, s, e in q.scanString(text):
             n = n + text[last:s]
             last = e
-            if self.tfile[table].getVariable(t[0]) == "":
-                v = self.tfile[table].getBaseVariable(t[0])
-                self.tfile[table].setVariable(t[0], self.parse(table, v))
-            n = n + self.tfile[table].getVariable(t[0])
+            if node.table.getVariable(t[0]) == "":
+                v = node.table.getBaseVariable(t[0])
+                node.table.setVariable(t[0], self.parse(node, v))
+            n = n + node.table.getVariable(t[0])
             found = True
         ret = n + text[last:]
         return found, ret
-    def parseTable(self, table, exp):
+    def parseTable(self, node, exp):
         roll = -1
         column = 0
         r0 = re.compile(r'([\w -]*)\.(.*)')
@@ -500,7 +488,7 @@ class tableMgr(object):
         m = r3.match(exp)
         if m:
             exp = m.group(1) + m.group(3)
-            roll = int(self.parse(table, m.group(2)))
+            roll = int(self.parse(node, m.group(2)))
         m = r1.match(exp)
         if m:
             table = m.group(1)
@@ -509,25 +497,25 @@ class tableMgr(object):
             subtable = exp
         m = r0.match(exp)
         groups = []
-        node = self.tree
+        n = self.tree
         while m:
             group = m.group(1)
             tail = m.group(2)
             groups.append(group)
-            for child in node.children:
+            for child in n.children:
                 if "[" + child.name + "]" == "[" + group + "]":
-                    node = child
-                    tfile = node.table
+                    n = child
+                    tfile = n.table
                     if tfile:
-                        s = self.parse(node.name, tfile.run(tail, roll, column))
+                        s = self.parse(n, tfile.run(tail, roll, column))
                         return s
             m = r0.match(tail)
             if not m:
                 groups.append(tail)
         if len(groups):
             return ''
-        self.checkload(table)
-        s = self.parse(table, self.tfile[table].run(subtable, roll, column))
+        self.checkload(node)
+        s = self.parse(node, node.table.run(subtable, roll, column))
         return s
     def setTree(self, node):
         self.tree = node
@@ -557,7 +545,7 @@ class tableMgr(object):
             else:
                 s = s + i
         return s
-    def handleBrace(self, table, l):
+    def handleBrace(self, node, l):
         n = list()
         s = ''
         r1 = re.compile(r'(.*?)(\:|[|]|~)(.*)')
@@ -569,63 +557,63 @@ class tableMgr(object):
         l[0] = m.group(3)
         n = self.parseList(l)
         if f == "for":
-            variable = self.parse(table, n[0])
-            start = int(self.parse(table, n[1]))
-            stop = int(self.parse(table, n[2]))
+            variable = self.parse(node, n[0])
+            start = int(self.parse(node, n[1]))
+            stop = int(self.parse(node, n[2]))
             for x in range(start, stop):
-                self.tfile[table].setVariable(n[0], str(x))
-                s = s + self.parse(table, n[3])           
+                node.table.setVariable(n[0], str(x))
+                s = s + self.parse(node, n[3])           
         elif f == "ifstr":
-            logic = self.parse(table, n[0]).lstrip().rstrip()
+            logic = self.parse(node, n[0]).lstrip().rstrip()
             l = [char for char in logic]
             for i in range(len(l)):
                 if l[i] == '=' and l[i + 1] == '=':
                     s1 = ''.join(l[:i]).lstrip().rstrip()
                     s2 = ''.join(l[i+2:]).lstrip().rstrip()
                     if s1 == s2:
-                        s = s + self.parse(table, n[1])
+                        s = s + self.parse(node, n[1])
                 elif l[i] == '!' and l[i + 1] == '=':
                     s1 = ''.join(l[:i]).lstrip().rstrip()
                     s2 = ''.join(l[i+2:]).lstrip().rstrip()
                     if s1 != s2:
-                        s = s + self.parse(table, n[1])
+                        s = s + self.parse(node, n[1])
         elif f == "if":
             logic = list()
-            logic.append(self.parse(table, n[0]))
+            logic.append(self.parse(node, n[0]))
             if tableFunctions.eval(logic) == "True":
-                s = s + self.parse(table, n[1])
+                s = s + self.parse(node, n[1])
         elif f == "assign":
-            variable = self.parse(table, n[0])
-            value = self.parse(table, n[1])
-            self.tfile[table].setVariable(variable, value)
+            variable = self.parse(node, n[0])
+            value = self.parse(node, n[1])
+            node.table.setVariable(variable, value)
         else:
             p = list()
             for i in n:
-                p.append(self.parse(table, i))
-            #print s
-            #print f, p
+                p.append(self.parse(node, i))
             s = s + getattr(tableFunctions, f)(p)
         return s
-    def roll(self, table):
-        self.checkload(table)
-        s = self.tfile[table].start()
-        s = self.parse(table, s)
+    def roll(self, node):
+        if type(node) != Node:
+            raise TypeError
+        self.checkload(node)
+        s = node.table.start()
+        s = self.parse(node, s)
         return s
-    def run(self, table, sub='Start', roll=-1, column=0):
-        self.checkload(table)
-        s = self.tfile[table].run(sub, roll, column)
-        s = self.parse(table, s)
+    def run(self, node, sub='Start', roll=-1, column=0):
+        self.checkload(node)
+        s = node.table.run(sub, roll, column)
+        s = self.parse(node, s)
         return s
-    def rundict(self, table, sub, roll=-1):
-        self.checkload(table)
-        s = self.tfile[table].rundict(sub, roll)
+    def rundict(self, node, sub, roll=-1):
+        self.checkload(node)
+        s = node.table.rundict(sub, roll)
         return s
-    def get_random_index(self, table, sub="Start"):
-        self.checkload(table)
-        return self.tfile[table].get_random_index(sub)
-    def getCount(self, table, sub="Start"):
-        self.checkload(table)
-        return self.tfile[table].getCount(sub)
+    def get_random_index(self, node, sub="Start"):
+        self.checkload(node)
+        return node.table.get_random_index(sub)
+    def getCount(self, node, sub="Start"):
+        self.checkload(node)
+        return node.table.getCount(sub)
 
 class testMgr(tableMgr):
     def __init__(self):
