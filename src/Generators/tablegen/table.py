@@ -327,25 +327,17 @@ class tableMgr(object):
         for filename in os.listdir(top):
             path = os.path.join(top, filename)
             mode = os.stat(path).st_mode
-            root, ext = os.path.splitext(filename)
-            display = True
-            if ext in self.ignoreext:
-                display = False
-            if root.startswith("_"):
-                continue
             head, tail = os.path.split(filename)
             if S_ISDIR(mode):
                 # It's a directory, recurse into it
                 if tail in self.ignoredir:
                     continue
                 previous = node
-                node = Node(tail, parent=previous, table=None, display=display)
+                node = Node(tail, parent=previous, table=None, display=True)
                 self.walktree(path, load, node=node)
                 node = previous
             elif S_ISREG(mode):
-                # It's a file, call the callback function
-                table = self.addfile(path, load)
-                Node(root, parent=node, table=table, loaded=load, filename=path, display=display)
+                self.addfile(path, load=load, parent=node)
             else:
                 # Unknown file type, print a message
                 print('Skipping %s' % path)
@@ -353,19 +345,23 @@ class tableMgr(object):
         return self.tree
     def setSeed(self, seed):
         rand.seed(seed)
-    def addfile(self, filename, load=False):
+    def addfile(self, filename, parent=None, load=False):
         basename = os.path.basename(filename)
         group = os.path.basename(os.path.dirname(filename))
-        name = os.path.splitext(basename)[0]
-        extension = os.path.splitext(basename)[1]
+        name, extension = os.path.splitext(basename)
+        display = True
+        if extension in self.ignoreext:
+            display = False
+        if name.startswith("_"):
+            display = False
+        node = Node(name, parent=parent, table=None, loaded=load, filename=filename, display=display)
         if extension == '.db':
             self.loadDB(filename)
             return None
         if extension == ".tml":
             self.ttemplate[name] = filename
-            return None
         if not(extension == '.py' or extension == '.tab'):
-            return None
+            return
         self.tfilename[name] = filename
         if not self.group.get(group):
             self.group[group] = set()

@@ -36,7 +36,10 @@ class Generator:
             self.tm.setSeed(int(p['Seed']))
         if 'Generators' in p:
             t = p['Generators']
-        filename = "tmp/" + t + ".html"
+        if type(t) == Node:
+            filename = "tmp/" + t.name + ".html"
+        else:
+            filename = "tmp/" + t + ".html"
         f = codecs.open(filename, 'w', "utf-8")
         for j in range(numRolls):
             wx.Yield()
@@ -44,5 +47,7 @@ class Generator:
             f.write(result)
             f.write('<br>')
         f.close()
+        if type(t) == Node:
+            t = t.name
         return t, filename
         

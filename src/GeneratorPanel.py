@@ -54,13 +54,12 @@ class GeneratorPanel(wx.Panel):
             if not n.display:
                 continue
             child = tree.AppendItem(wx_node_id, n.name)
+            tree.SetItemData(child, n)
             if n.children:
-                tree.SetItemData(child, None)
                 tree.SetItemImage(child, fldridx, wx.TreeItemIcon_Normal)
                 tree.SetItemImage(child, fldropenidx, wx.TreeItemIcon_Expanded)
                 self.add_children(tree, child, n, fldridx, fldropenidx, fileidx, smileidx)
             else:
-                tree.SetItemData(child, None)
                 tree.SetItemImage(child, fileidx, wx.TreeItemIcon_Normal)
                 tree.SetItemImage(child, smileidx, wx.TreeItemIcon_Selected)
         tree.SortChildren(wx_node_id)
@@ -98,8 +97,11 @@ class GeneratorPanel(wx.Panel):
         for n in self.generator.parameters:
             value = ""
             if type(self.fields[n]) is wx.TreeCtrl:
+                print(self.fields[n].GetFocusedItem())
+                print(self.fields[n].GetItemData(self.fields[n].GetFocusedItem()))
                 if not self.fields[n].ItemHasChildren(self.fields[n].GetFocusedItem()):
                     value = self.fields[n].GetItemText(self.fields[n].GetFocusedItem())
+                    value = self.fields[n].GetItemData(self.fields[n].GetFocusedItem())
             elif type(self.fields[n]) is wx.ListBox:
                 value = self.fields[n].GetStrings()[self.fields[n].GetSelection()]
             else:
