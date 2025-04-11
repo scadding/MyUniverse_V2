@@ -312,9 +312,8 @@ class tableFile(tableGroup):
             cur.execute("INSERT INTO TableVariables VALUES(\"%s\", \"%s\", \"%s\")" % (table, k, value))
 
 class tableMgr(object):
-    ttemplate = dict()
     ignoredir = ["__pycache__"]
-    ignoreext = ['.py', '.tml']
+    ignoreext = ['.tml']
     def __init__(self):
         self.tree = Node("Root")
         config = Configuration()
@@ -350,11 +349,9 @@ class tableMgr(object):
             display = False
         if name.startswith("_"):
             display = False
-        node = Node(name, parent=parent, table=None, loaded=load, filename=filename, display=display)
+        node = Node(name, parent=parent, table=None, loaded=load, type=extension[1:], filename=filename, display=display)
         if extension == '.db':
             self.loadDB(filename, parent=parent)
-        if extension == ".tml":
-            self.ttemplate[name] = filename
         if not(extension == '.py' or extension == '.tab'):
             return
         if load:
@@ -411,7 +408,7 @@ class tableMgr(object):
             found, ret = self.expandTable(node, ret)
             if found:
                 continue
-            found, ret = self.expandTemplate(ret)
+            found, ret = self.expandTemplate(node, ret)
             if found:
                 continue
             found, ret = self.expandVariable(node, ret)
@@ -444,7 +441,7 @@ class tableMgr(object):
                 found = True
         ret = n + text[last:]
         return found, ret
-    def expandTemplate(self, text):
+    def expandTemplate(self, node, text):
         last = 0
         n = ''
         found = False
@@ -452,10 +449,11 @@ class tableMgr(object):
         for t, s, e in q.scanString(text):
             n = n + text[last:s]
             last = e
-            if t[0] in self.ttemplate:
-                for l in open(self.ttemplate[t[0]]):
+            node = self.parseTemplate(node, t[0])
+            if node:
+                for l in open(node.filename):
                     n = n + l
-            found = True
+                found = True
         ret = n + text[last:]
         return found, ret
     def expandVariable(self, node, text):
@@ -473,12 +471,16 @@ class tableMgr(object):
             found = True
         ret = n + text[last:]
         return found, ret
-    def getNode(self, name, parent):
+    def getNode(self, name, parent, type=None):
         for c in parent.children:
             if c.name == name:
-                return c
+                if type:
+                    if type == c.type:
+                        return c
+                else:
+                    return c
         return None
-    def pathToNode(self, node, exp):
+    def pathToNode(self, node, exp, type=None):
         ret = None
         target = None
         # table path
@@ -493,7 +495,7 @@ class tableMgr(object):
             target = self.getNode(m.group(1), target)
             m = absolute.match(m.group(2))
         if target:
-            return self.getNode(exp, target)
+            return self.getNode(exp, target, type)
         m = relative.match(exp)
         if m:
             target = node.parent
@@ -501,12 +503,14 @@ class tableMgr(object):
             target = self.getNode(m.group(1), target)
             m = relative.match(m.group(2))
         if target:
-            return self.getNode(exp, target)
+            return self.getNode(exp, target, type)
         m = local.match(exp)
         if m:
             target = node.parent
-            return self.getNode(m.group(1))
+            return self.getNode(m.group(1), target, type)
         return ret
+    def parseTemplate(self, node, exp):
+        return self.pathToNode(node, exp, type='tml')
     def parseTable(self, node, exp):
         roll = -1
         column = 0
