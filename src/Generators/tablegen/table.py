@@ -313,7 +313,6 @@ class tableFile(tableGroup):
 
 class tableMgr(object):
     ttemplate = dict()
-    group = dict()
     ignoredir = ["__pycache__"]
     ignoreext = ['.py', '.tml']
     def __init__(self):
@@ -474,49 +473,73 @@ class tableMgr(object):
             found = True
         ret = n + text[last:]
         return found, ret
+    def getNode(self, name, parent):
+        for c in parent.children:
+            if c.name == name:
+                return c
+        return None
+    def pathToNode(self, node, exp):
+        ret = None
+        target = None
+        # table path
+        absolute = re.compile(r'([\w -]+)\.(.*)$')
+        relative = re.compile(r'\.([\w -]*)\.(.*)$')
+        local = re.compile(r'([\w -]+)$')
+        m = absolute.match(exp)
+        if m:
+            target = self.tree
+        while m:
+            exp = m.group(2)
+            target = self.getNode(m.group(1), target)
+            m = absolute.match(m.group(2))
+        if target:
+            return self.getNode(exp, target)
+        m = relative.match(exp)
+        if m:
+            target = node.parent
+        while m:
+            target = self.getNode(m.group(1), target)
+            m = relative.match(m.group(2))
+        if target:
+            return self.getNode(exp, target)
+        m = local.match(exp)
+        if m:
+            target = node.parent
+            return self.getNode(m.group(1))
+        return ret
     def parseTable(self, node, exp):
         roll = -1
         column = 0
-        r0 = re.compile(r'([\w -]*)\.(.*)')
-        r1 = re.compile(r'([\w -]*)\.([\w -]*)')
-        r2 = re.compile(r'(.*)@([0-9]+)(.*)')
-        r3 = re.compile(r'(.*)\((.*?)\)(.*)')
-        m = r2.match(exp)
+        # subtable
+        subtable = re.compile(r'([\w -\.]+)\.([\w -]+)$')
+        single = re.compile(r'([\w -]+)$')
+        # table args
+        column_arg = re.compile(r'(.*)@([0-9]+)(.*)')
+        roll_arg = re.compile(r'(.*)\((.*?)\)(.*)')
+
+        # capture and remove arguments
+        m = column_arg.match(exp)
         if m:
             exp = m.group(1) + m.group(3)
             column = int(m.group(2))
-        m = r3.match(exp)
+        m = roll_arg.match(exp)
         if m:
             exp = m.group(1) + m.group(3)
             roll = int(self.parse(node, m.group(2)))
-        m = r1.match(exp)
+        # local subtable
+        m = single.match(exp)
         if m:
-            table = m.group(1)
-            subtable = m.group(2)
-        else:
-            subtable = exp
-        m = r0.match(exp)
-        groups = []
-        n = self.tree
-        while m:
-            group = m.group(1)
-            tail = m.group(2)
-            groups.append(group)
-            for child in n.children:
-                if "[" + child.name + "]" == "[" + group + "]":
-                    n = child
-                    tfile = n.table
-                    if tfile:
-                        s = self.parse(n, tfile.run(tail, roll, column))
-                        return s
-            m = r0.match(tail)
-            if not m:
-                groups.append(tail)
-        if len(groups):
-            return ''
-        self.checkload(node)
-        s = self.parse(node, node.table.run(subtable, roll, column))
-        return s
+            sub = m.group(1)
+            return self.parse(node, node.table.run(sub, roll, column))
+        # subtable
+        m = subtable.match(exp)
+        if m:
+            exp = m.group(1)
+            sub = m.group(2)
+        node = self.pathToNode(node, exp)
+        if node is not None:
+            return self.parse(node, node.table.run(sub, roll, column))
+        return ''
     def setTree(self, node):
         self.tree = node
     def parseList(self, l, start='{{', finish='}}'):
