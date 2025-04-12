@@ -67,7 +67,7 @@ _%%[attribute(%%loop%%)@0] stat bonus%%
 
 :racial bonus
 1, {{assign:[attribute(%%loop%%)@0] race bonus, 
-_[Rolemaster.%%genre%%Races.race(%%race index%%)@%%loop%%]}} 
+_[Rolemaster.%%genre%%.Races.race(%%race index%%)@%%loop%%]}} 
 _%%[attribute(%%loop%%)@0] race bonus%%
 
 
