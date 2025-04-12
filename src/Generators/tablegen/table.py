@@ -116,6 +116,45 @@ class tableNode(NodeMixin):
         self.parent = parent
         if children:
             self.children = children
+    def getNode(self, name, type=None):
+        parent = self
+        for c in parent.children:
+            if c.name == name:
+                if type:
+                    if type == c.type:
+                        return c
+                else:
+                    return c
+        raise TypeError
+        return None
+    def pathToNode(self, exp, type=None):
+        target = None
+        # table path
+        absolute = re.compile(r'([\w -]+)\.(.*)$')
+        relative = re.compile(r'\.([\w -]*)\.(.*)$')
+        local = re.compile(r'([\w -]+)$')
+        m = absolute.match(exp)
+        if m:
+            target = self.root
+        while m:
+            exp = m.group(2)
+            target = target.getNode(m.group(1))
+            m = absolute.match(m.group(2))
+        if target:
+            return target.getNode(exp)
+        m = relative.match(exp)
+        if m:
+            target = self.parent
+        while m:
+            target = target.getNode(m.group(1))
+            m = relative.match(m.group(2))
+        if target:
+            return target.getNode(exp)
+        m = local.match(exp)
+        if m:
+            target = self.parent
+            return target.getNode(m.group(1))
+        return None
 
 class tableVariableNode(tableVariable, tableNode):
     def __init__(self, name, parent=None, children=None):
@@ -493,50 +532,8 @@ class tableMgr(object):
             found = True
         ret = n + text[last:]
         return found, ret
-
-    def getNode(self, name, parent, type=None):
-        for c in parent.children:
-            if c.name == name:
-                if type:
-                    if type == c.type:
-                        return c
-                else:
-                    return c
-        return None
-    def pathToNode(self, node, exp, type=None, root=None):
-        ret = None
-        target = None
-        if not root:
-            root = self.tree
-        # table path
-        absolute = re.compile(r'([\w -]+)\.(.*)$')
-        relative = re.compile(r'\.([\w -]*)\.(.*)$')
-        local = re.compile(r'([\w -]+)$')
-        m = absolute.match(exp)
-        if m:
-            target = self.tree
-        while m:
-            exp = m.group(2)
-            target = self.getNode(m.group(1), target)
-            m = absolute.match(m.group(2))
-        if target:
-            return self.getNode(exp, target, type)
-        m = relative.match(exp)
-        if m:
-            target = node.parent
-        while m:
-            target = self.getNode(m.group(1), target)
-            m = relative.match(m.group(2))
-        if target:
-            return self.getNode(exp, target, type)
-        m = local.match(exp)
-        if m:
-            target = node.parent
-            return self.getNode(m.group(1), target, type)
-        return ret
-
-    def parseTemplate(self, node, exp):
-        return self.pathToNode(node, exp, type='tml')
+    def parseTemplate(self, node, exp, type='tml'):
+        return node.pathToNode(exp, type)
     def parseTable(self, node, exp):
         roll = -1
         column = 0
@@ -566,7 +563,7 @@ class tableMgr(object):
         if m:
             exp = m.group(1)
             sub = m.group(2)
-        node = self.pathToNode(node, exp)
+        node = node.pathToNode(exp)
         if node is not None:
             return self.parse(node, node.table.run(sub, roll, column))
         return ''
