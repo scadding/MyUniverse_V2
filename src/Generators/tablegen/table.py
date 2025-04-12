@@ -17,7 +17,7 @@ import codecs
 from src.Generators.tablegen.server import server
 from src.Configuration import Configuration
 
-from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter
+from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter, NodeMixin
 
 
 def walktree(top, callback, load=False, node=None):
@@ -103,6 +103,27 @@ class Table(object):
         return rand.randrange(self.index) + 1
     def getCount(self):
         return self.index
+    
+
+class tableVariable(object):
+    def __init__(self):
+        pass
+
+class tableNode(NodeMixin):
+    def __init__(self, name, parent=None, children=None, **kwargs):
+        self.__dict__.update(kwargs)
+        self.name = name
+        self.parent = parent
+        if children:
+            self.children = children
+
+class tableVariableNode(tableVariable, tableNode):
+    def __init__(self, name, parent=None, children=None):
+        super().__init__()
+        self.name = name
+        self.parent = parent
+        if children:
+            self.children = children
 
 class tableGroup(object):
     currentstack = dict()
@@ -248,12 +269,6 @@ class tableFile(tableGroup):
             pass
         else:
             print('Error: unidentified line ' + self.filename + ' - ' + line)
-    def template(self, template):
-        templateFile = os.path.dirname(self.filename) + '/' + template + '.tml'
-        self.stack[template] = ''
-        for l in open(templateFile):
-            self.stack[template] = self.stack[template] + l
-        #print self.tablename
     def run(self, t='Start', roll=-1, column=0):
         if self.table.get(t):
             return self.table[t].roll(column=column, roll=roll)
@@ -314,11 +329,18 @@ class tableFile(tableGroup):
 class tableMgr(object):
     ignoredir = ["__pycache__"]
     ignoreext = ['.tml']
+    tree : tableNode
+    variables : tableVariableNode
+    globals : tableVariableNode
+    state : tableVariableNode
     def __init__(self):
-        self.tree = Node("Root")
+        self.tree = tableNode("Root")
+        self.variables = tableVariableNode("Variables")
+        self.globals = tableVariableNode("Globals", parent=self.variables)
+        self.state = tableVariableNode("State", parent=self.variables)
         config = Configuration()
         self.walktree(config.getValue("Data", "directory"), load=True, node=self.tree)
-    def walktree(self, top, load=False, node=None):
+    def walktree(self, top : str, load=False, node=None):
         for filename in os.listdir(top):
             path = os.path.join(top, filename)
             mode = os.stat(path).st_mode
@@ -328,7 +350,7 @@ class tableMgr(object):
                 if tail in self.ignoredir:
                     continue
                 previous = node
-                node = Node(tail, parent=previous, table=None, display=True)
+                node = tableNode(tail, parent=previous, table=None, display=True)
                 self.walktree(path, load, node=node)
                 node = previous
             elif S_ISREG(mode):
@@ -349,7 +371,7 @@ class tableMgr(object):
             display = False
         if name.startswith("_"):
             display = False
-        node = Node(name, parent=parent, table=None, loaded=load, type=extension[1:], filename=filename, display=display)
+        node = tableNode(name, parent=parent, table=None, loaded=load, type=extension[1:], filename=filename, display=display)
         if extension == '.db':
             self.loadDB(filename, parent=parent)
         if not(extension == '.py' or extension == '.tab'):
@@ -371,7 +393,7 @@ class tableMgr(object):
             for row in cur.fetchall():
                 name = row[0]
                 groups[g].add(name)
-                node = Node(name, parent=parent, table=tableDB(name, g, con), loaded=True, filename=filename, display=True)
+                node = tableNode(name, parent=parent, table=tableDB(name, g, con), loaded=True, filename=filename, display=True)
     def loadtable(self, node):
         extension = os.path.splitext(node.filename)[1]
         if extension == '.tab' or extension == '.tml':
@@ -471,6 +493,7 @@ class tableMgr(object):
             found = True
         ret = n + text[last:]
         return found, ret
+
     def getNode(self, name, parent, type=None):
         for c in parent.children:
             if c.name == name:
@@ -480,9 +503,11 @@ class tableMgr(object):
                 else:
                     return c
         return None
-    def pathToNode(self, node, exp, type=None):
+    def pathToNode(self, node, exp, type=None, root=None):
         ret = None
         target = None
+        if not root:
+            root = self.tree
         # table path
         absolute = re.compile(r'([\w -]+)\.(.*)$')
         relative = re.compile(r'\.([\w -]*)\.(.*)$')
@@ -509,6 +534,7 @@ class tableMgr(object):
             target = node.parent
             return self.getNode(m.group(1), target, type)
         return ret
+
     def parseTemplate(self, node, exp):
         return self.pathToNode(node, exp, type='tml')
     def parseTable(self, node, exp):
@@ -620,9 +646,14 @@ class tableMgr(object):
             s = s + getattr(tableFunctions, f)(p)
         return s
     def roll(self, node):
-        if type(node) != Node:
+        if type(node) != tableNode:
             raise TypeError
         self.checkload(node)
+
+        # make the variable node
+
+        # set default values
+        
         s = node.table.start()
         s = self.parse(node, s)
         return s

@@ -3,8 +3,7 @@ from src.Generators.tablegen import table
 import wx
 import codecs
 from src.Configuration import Configuration
-from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter
-
+from src.Generators.tablegen.table import tableNode
 
 class Generator:
     def __init__(self):
@@ -36,7 +35,7 @@ class Generator:
             self.tm.setSeed(int(p['Seed']))
         if 'Generators' in p:
             t = p['Generators']
-        if type(t) == Node:
+        if type(t) == tableNode:
             filename = "tmp/" + t.name + ".html"
         else:
             filename = "tmp/" + t + ".html"
@@ -47,7 +46,7 @@ class Generator:
             f.write(result)
             f.write('<br>')
         f.close()
-        if type(t) == Node:
+        if type(t) == tableNode:
             t = t.name
         return t, filename
         

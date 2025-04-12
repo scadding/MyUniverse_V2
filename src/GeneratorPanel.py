@@ -1,6 +1,6 @@
 import wx
-from anytree import Node, RenderTree, AsciiStyle, LevelOrderGroupIter
 from src import images
+from src.Generators.tablegen.table import tableNode
 
 
 class GeneratorPanel(wx.Panel):
@@ -22,7 +22,7 @@ class GeneratorPanel(wx.Panel):
                 for a in self.generator.parameters[n]:
                     l.append(a)
                 self.fields[n] = wx.ComboBox(self, -1, choices=l, style=wx.CB_DROPDOWN)
-            elif type(self.generator.parameters[n]) is Node:
+            elif type(self.generator.parameters[n]) is tableNode:
                 tID = wx.NewIdRef()
                 tree = wx.TreeCtrl(self, tID, wx.DefaultPosition, wx.DefaultSize,
                                     wx.TR_HAS_BUTTONS
@@ -79,14 +79,14 @@ class GeneratorPanel(wx.Panel):
     def onUpdate(self, e):
         p = dict()
         for n in self.generator.parameters:
-            if type(self.generator.parameters[n]) is Node:
+            if type(self.generator.parameters[n]) is tableNode:
                 continue
             if type(self.fields[n]) is not wx.ListBox:
                 if self.fields[n].GetValue() != "":
                     p[n] = self.fields[n].GetValue()
         self.generator.Update(p)
         for n in self.generator.parameters:
-            if type(self.generator.parameters[n]) is Node:
+            if type(self.generator.parameters[n]) is tableNode:
                 continue
             if type(self.fields[n]) is wx.ListBox:
                 self.fields[n].SetSelection(-1)
