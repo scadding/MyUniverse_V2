@@ -473,6 +473,9 @@ class tableMgr(object):
             if found:
                 continue
             found, ret = self.expandVariable(node, ret)
+            if found:
+                continue
+            found, ret = self.expandVariableAlt(node, ret)
         return ret
     def expandFunction(self, node, text):
         ret = ''
@@ -502,6 +505,21 @@ class tableMgr(object):
                 found = True
         ret = n + text[last:]
         return found, ret
+    def expandVariable(self, node, text):
+        last = 0
+        n = ''
+        found = False
+        nestedItems = self.nestedExpr("<<", ">>")
+        for t, s, e in nestedItems.scanString(text):
+            n = n + text[last:s]
+            last = e
+            if node.table.getVariable(t[0]) == "":
+                v = node.table.getBaseVariable(t[0])
+                node.table.setVariable(t[0], self.parse(node, v))
+            n = n + node.table.getVariable(t[0])
+            found = True
+        ret = n + text[last:]
+        return found, ret
     def expandTemplate(self, node, text):
         last = 0
         n = ''
@@ -517,7 +535,7 @@ class tableMgr(object):
                 found = True
         ret = n + text[last:]
         return found, ret
-    def expandVariable(self, node, text):
+    def expandVariableAlt(self, node, text):
         last = 0
         n = ''
         found = False
