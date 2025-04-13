@@ -64,11 +64,28 @@ class Log(stc.StyledTextCtrl):
         lenText = len(text.encode('utf8'))
         end = self.GetLength()
         self.SetEditable(True)
+
+        
         self.AddText(text)
         self.SetEditable(False)
         self.StartStyling(end)
         self.SetStyling(lenText, style)
         self.EnsureCaretVisible()
-        
+# Traceback (most recent call last):
+#   File "/home/doug/Development/MyUniverse_V2/src/MainFrame.py", line 270, in OnRoll
+#     t, filename = current.Roll(numRolls)
+#                   ^^^^^^^^^^^^^^^^^^^^^^
+#   File "/home/doug/Development/MyUniverse_V2/src/GeneratorPanel.py", line 108, in Roll
+#     return self.generator.roll(p, numRolls)
+#            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+#   File "/home/doug/Development/MyUniverse_V2/src/Generators/TableGenerator.py", line 46, in roll
+#     result = self.tm.roll(t)
+#              ^^^^^^^^^^^^^^^
+#   File "/home/doug/Development/MyUniverse_V2/src/Generators/tablegen/table.py", line 603, in roll
+#     print(self.tfile[table].currentstack)
+#   File "/home/doug/Development/MyUniverse_V2/src/Logger.py", line 72, in write
+#     raise TypeError
+# TypeError
+   
 
     __call__ = write
