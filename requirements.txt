@@ -5,6 +5,7 @@ pyparsing
 lxml
 anytree
 pywebview
+inflect
 
 
 # server
