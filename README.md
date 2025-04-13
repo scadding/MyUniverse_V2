@@ -17,8 +17,7 @@ https://tldp.org/LDP/abs/abs-guide.pdf
 ### Installation ###
 * Install python3
     https://www.python.org/downloads/
-
-        git clone https://github.com/scadding/MyUniverse_V2.git
+* git clone https://github.com/scadding/MyUniverse_V2.git
 
 ## Virtual Environment ##
 In some cases where there is a conflict or difficulty with the environment you may wish to use a virtual environment.
