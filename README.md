@@ -1,13 +1,14 @@
 
 ### Requirements ###
 install:
-  sudo apt install python3.12-venv
-  sudo apt install python3-pip
-  sudo apt install python3-wx*
-  sudo apt-get install libgtk-3-dev
-  sudo apt-get install libwebkit*
 
-  sudo apt-get install build-essential
+        sudo apt install python3.12-venv
+        sudo apt install python3-pip
+        sudo apt install python3-wx*
+        sudo apt-get install libgtk-3-dev
+        sudo apt-get install libwebkit*
+
+        sudo apt-get install build-essential
 
 ### Reference ###
 https://tldp.org/LDP/abs/abs-guide.pdf
@@ -22,13 +23,14 @@ https://tldp.org/LDP/abs/abs-guide.pdf
 ## Virtual Environment ##
 In some cases where there is a conflict or difficulty with the environment you may wish to use a virtual environment.
 
-# Install venv as appropriate for your platform: #
+### Install venv as appropriate for your platform: ###
 https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 
 run:
-  python3 -m venv .venv
-  . .venv//bin/activate
-  pip3 install -r requirements.txt
+
+        python3 -m venv .venv
+        . .venv//bin/activate
+        pip3 install -r requirements.txt
 
 
   ./MyUniverse.py
