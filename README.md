@@ -27,14 +27,14 @@ https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-e
 
 run:
 
-        python3 -m venv .venv
-        . .venv//bin/activate
-        pip3 install -r requirements.txt
+    python3 -m venv .venv
+    . .venv//bin/activate
+    pip3 install -r requirements.txt
 
 
-        ./MyUniverse.py
+    ./MyUniverse.py
 
-        deactivate
+    deactivate
 
 this may not be necesary:
 
@@ -42,32 +42,32 @@ this may not be necesary:
 
 ### Testing ###
 
-        ./src/Generators/tablegen/table.py --data=$PWD/Data --table=test
-        ls -ltr test/
-        ./src/Generators/tablegen/table.py --data=$PWD/Data --run=Test
-        ./src/Generators/tablegen/table.py --test --data=$PWD/Data --groups
-        ./src/Generators/tablegen/table.py --data=$PWD/Data --run=csv
-        ./src/Generators/tablegen/table.py --data=$PWD/Data --group=csv
-        ./src/Generators/tablegen/table.py --data=$PWD/Data --tables=csv
- 
-help:
-        ./src/Generators/tablegen/table.py --help
-        Usage: table.py [options]
+    ./src/Generators/tablegen/table.py --data=$PWD/Data --table=test
+    ls -ltr test/
+    ./src/Generators/tablegen/table.py --data=$PWD/Data --run=Test
+    ./src/Generators/tablegen/table.py --test --data=$PWD/Data --groups
+    ./src/Generators/tablegen/table.py --data=$PWD/Data --run=csv
+    ./src/Generators/tablegen/table.py --data=$PWD/Data --group=csv
+    ./src/Generators/tablegen/table.py --data=$PWD/Data --tables=csv
 
-        Options:
-        -h, --help            show this help message and exit
-        -d Data, --data=Data  Data Directory
-        -a, --all             
-        --test                
-        -i, --import          
-        -l, --listen          
-        -s, --server          
-        -t Table, --table=Table
-                                Table Name
-        -g Group, --group=Group
-                                Group Name
-        -r RUN, --run=RUN     
-        --groups              
-        --tables=TABLES       
+help:
+    ./src/Generators/tablegen/table.py --help
+    Usage: table.py [options]
+
+    Options:
+    -h, --help            show this help message and exit
+    -d Data, --data=Data  Data Directory
+    -a, --all             
+    --test                
+    -i, --import          
+    -l, --listen          
+    -s, --server          
+    -t Table, --table=Table
+                            Table Name
+    -g Group, --group=Group
+                            Group Name
+    -r RUN, --run=RUN     
+    --groups              
+    --tables=TABLES       
   
 
