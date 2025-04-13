@@ -1,5 +1,6 @@
 
 ### Requirements ###
+install:
   sudo apt install python3.12-venv
   sudo apt install python3-pip
   sudo apt install python3-wx*
@@ -24,6 +25,7 @@ In some cases where there is a conflict or difficulty with the environment you m
 # Install venv as appropriate for your platform: #
 https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 
+run:
   python3 -m venv .venv
   . .venv//bin/activate
   pip3 install -r requirements.txt
