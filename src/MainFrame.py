@@ -290,7 +290,7 @@ class MainFrame(wx.Frame):
                 print('    ' + line, end='')
             print(type(inst))
             print(e)
-            
+            raise 
 # traceback.tb_frame
 # Points to the execution frame of the current level.
 # Accessing this attribute raises an auditing event object.__getattr__ with arguments obj and "tb_frame".
@@ -348,7 +348,7 @@ class MainFrame(wx.Frame):
 # The required stack size of the code object
 # codeobject.co_flags
 # An integer encoding a number of flags for the interpreter.                
-
+        
         self.rolling = False
         
     def Populate(self, name, content=u'', file=''):
