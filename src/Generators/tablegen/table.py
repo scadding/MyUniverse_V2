@@ -155,6 +155,11 @@ class tableNode(NodeMixin):
             target = self.parent
             return target.getNode(m.group(1))
         return None
+    def nodePath(self):
+        path = []
+        for p in self.path[1:]:
+            path.append(p.name)
+        return path
 
 class tableVariableNode(tableVariable, tableNode):
     def __init__(self, name, parent=None, children=None):
@@ -164,7 +169,7 @@ class tableVariableNode(tableVariable, tableNode):
         if children:
             self.children = children
 
-class tableGroup(object):
+class tableGroup(tableNode):
     currentstack = dict()
     def __init__(self):
         self.stack = dict()
@@ -179,6 +184,8 @@ class tableGroup(object):
         return ""
     def setVariable(self, var, val):
         self.currentstack[var] = val
+    def setBaseVariable(self, var, val):
+        self.stack[var] = val
     def removeVariable(self, var, val):
         del self.currentstack[var]
     def start(self):
@@ -246,7 +253,8 @@ class tableFile(tableGroup):
     tableline = re.compile(r'^\s*(\d*)\s*,(.*)')
     tablelinealt = re.compile(r'^\s*(\d*)-(\d*)\s*,(.*)')
     continuation = re.compile(r'^_(.*)$')
-    variabledeclaration = re.compile(r'^\s*%%(.*)%%\s*=\s*(.*)$')
+    variabledeclarationAlt = re.compile(r'^\s*%%(.*)%%\s*=\s*(.*)$')
+    variabledeclaration = re.compile(r'^\s*<<(.*)>>\s*=\s*(.*)$')
     parameterdeclaration = re.compile(r'^\s*@.*$')
     pragmadeclaration = re.compile(r'^/.*$')
     namespec = re.compile(r'^[/\w _~,-]*/(.*)\.tab$')
@@ -280,6 +288,7 @@ class tableFile(tableGroup):
         m6 = self.tableline.match(line)
         m7 = self.tablelinealt.match(line)
         m8 = self.variabledeclaration.match(line)
+        m8a = self.variabledeclarationAlt.match(line)
         m9 = self.parameterdeclaration.match(line)
         m10 = self.pragmadeclaration.match(line)
         if m1: #comment
@@ -301,7 +310,9 @@ class tableFile(tableGroup):
             d = int(m7.group(2))
             self.table[self.tablename].add(d, m7.group(3))
         elif m8: # variable declaration
-            self.stack[m8.group(1)] = m8.group(2)
+            self.setBaseVariable(m8.group(1), m8.group(2))
+        elif m8a: # variable declaration
+            self.setBaseVariable(m8a.group(1), m8a.group(2))
         elif m9: #parameter declaration
             pass
         elif m10: #pragma declaration
@@ -378,7 +389,7 @@ class tableMgr(object):
         self.globals = tableVariableNode("Globals", parent=self.variables)
         self.state = tableVariableNode("State", parent=self.variables)
         config = Configuration()
-        self.walktree(config.getValue("Data", "directory"), load=True, node=self.tree)
+        self.walktree(config.getValue("Data", "directory"), load=False, node=self.tree)
     def walktree(self, top : str, load=False, node=None):
         for filename in os.listdir(top):
             path = os.path.join(top, filename)
@@ -434,6 +445,7 @@ class tableMgr(object):
                 groups[g].add(name)
                 node = tableNode(name, parent=parent, table=tableDB(name, g, con), loaded=True, filename=filename, display=True)
     def loadtable(self, node):
+        node.loaded = True
         extension = os.path.splitext(node.filename)[1]
         if extension == '.tab' or extension == '.tml':
             node.table = tableFile(node.filename)
@@ -448,7 +460,7 @@ class tableMgr(object):
                 node.table.SetManager(self)
             return node.table
     def checkload(self, node):
-        if not node.table:
+        if not node.loaded:
             self.loadtable(node)
     def nestedExpr(self, opener, closer):
         content = (pyparsing.Combine(pyparsing.OneOrMore(
@@ -513,10 +525,7 @@ class tableMgr(object):
         for t, s, e in nestedItems.scanString(text):
             n = n + text[last:s]
             last = e
-            if node.table.getVariable(t[0]) == "":
-                v = node.table.getBaseVariable(t[0])
-                node.table.setVariable(t[0], self.parse(node, v))
-            n = n + node.table.getVariable(t[0])
+            n = n + self.parseVariable(node, t[0])
             found = True
         ret = n + text[last:]
         return found, ret
@@ -543,18 +552,26 @@ class tableMgr(object):
         for t, s, e in q.scanString(text):
             n = n + text[last:s]
             last = e
-            if node.table.getVariable(t[0]) == "":
-                v = node.table.getBaseVariable(t[0])
-                node.table.setVariable(t[0], self.parse(node, v))
-            n = n + node.table.getVariable(t[0])
+            n = n + self.parseVariable(node, t[0])
             found = True
         ret = n + text[last:]
         return found, ret
     def parseTemplate(self, node, exp, type='tml'):
         return node.pathToNode(exp, type)
+    def parseVariable(self, node, exp):
+        # parse args
+
+        # get node
+        path = node.nodePath()
+        if node.table.getVariable(exp) == "":
+            v = node.table.getBaseVariable(exp)
+            node.table.setVariable(exp, self.parse(node, v))
+        n = node.table.getVariable(exp)
+        return n
     def parseTable(self, node, exp):
         roll = -1
         column = 0
+
         # subtable
         subtable = re.compile(r'([\w -\.]+)\.([\w -]+)$')
         single = re.compile(r'([\w -]+)$')
@@ -571,6 +588,7 @@ class tableMgr(object):
         if m:
             exp = m.group(1) + m.group(3)
             roll = int(self.parse(node, m.group(2)))
+
         # local subtable
         m = single.match(exp)
         if m:
@@ -583,6 +601,8 @@ class tableMgr(object):
             sub = m.group(2)
         node = node.pathToNode(exp)
         if node is not None:
+            if not node.loaded:
+                self.loadtable(node)
             return self.parse(node, node.table.run(sub, roll, column))
         return ''
     def setTree(self, node):
