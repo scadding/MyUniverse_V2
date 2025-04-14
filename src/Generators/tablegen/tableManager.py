@@ -15,7 +15,8 @@ import sqlite3 as lite
 import sys
 import codecs
 from src.Generators.tablegen.server import server
-from src.Generators.tablegen.table import tableNode, tableFile, tableVariableNode, tableDB
+from src.Generators.tablegen.table import tableNode, tableFile, tableDB
+from src.Generators.tablegen.tableVariable import tableVariableNode
 from src.Configuration import Configuration
 
 from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter, NodeMixin

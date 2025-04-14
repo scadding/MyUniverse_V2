@@ -76,10 +76,6 @@ class Table(object):
         return self.index
     
 
-class tableVariable(object):
-    def __init__(self):
-        pass
-
 class tableNode(NodeMixin):
     def __init__(self, name, parent=None, children=None, **kwargs):
         self.__dict__.update(kwargs)
@@ -131,14 +127,6 @@ class tableNode(NodeMixin):
         for p in self.path[1:]:
             path.append(p.name)
         return path
-
-class tableVariableNode(tableVariable, tableNode):
-    def __init__(self, name, parent=None, children=None):
-        super().__init__()
-        self.name = name
-        self.parent = parent
-        if children:
-            self.children = children
 
 class tableGroup(object):
     currentstack = dict()
