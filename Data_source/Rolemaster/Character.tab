@@ -1,87 +1,89 @@
 
-%%genre%% = Fantasy
-%%sex%% = {{ucfirst|[sex]}}
+<<genre>> = Fantasy
+<<sex>> = {{ucfirst|[sex]}}
 
-%%race count%% = 11
-%%race%% = [Rolemaster.%%genre%%.Races.race(%%race index%%)@0]
-%%race index%% = {{dice|d%%race count%%}}
+<<race count>> = 11
+<<race>> = [Rolemaster.<<genre>>.Races.race(<<race index>>)@0]
+<<race index>> = {{dice|d<<race count>>}}
 
-%%last name%% = [Tables.Names.%%genre%% Names.Surname]
-%%first name%% = [Tables.Names.%%genre%% Names.%%sex%%FirstName]
-%%title%% = [Tables.Names.%%genre%% Names.Title%%sex%%]
+<<last name>> = [Tables.Names.<<genre>> Names.Surname]
+<<first name>> = [Tables.Names.<<genre>> Names.<<sex>>FirstName]
+<<title>> = [Tables.Names.<<genre>> Names.Title<<sex>>]
 
-%%strength%% = {{dice~d100.setMinimum(25)}}
-%%quickness%% = {{dice~d100.setMinimum(25)}}
-%%presence%% = {{dice~d100.setMinimum(25)}}
-%%intuition%% = {{dice~d100.setMinimum(25)}}
-%%empathy%% = {{dice~d100.setMinimum(25)}}
+<<strength>> = {{dice~d100.setMinimum(25)}}
+<<quickness>> = {{dice~d100.setMinimum(25)}}
+<<presence>> = {{dice~d100.setMinimum(25)}}
+<<intuition>> = {{dice~d100.setMinimum(25)}}
+<<empathy>> = {{dice~d100.setMinimum(25)}}
 
-%%constitution%% = {{dice~d100.setMinimum(25)}}
-%%agility%% = {{dice~d100.setMinimum(25)}}
-%%self discipline%% = {{dice~d100.setMinimum(25)}}
-%%memory%% = {{dice~d100.setMinimum(25)}}
-%%reasoning%% = {{dice~d100.setMinimum(25)}}
+<<constitution>> = {{dice~d100.setMinimum(25)}}
+<<agility>> = {{dice~d100.setMinimum(25)}}
+<<self discipline>> = {{dice~d100.setMinimum(25)}}
+<<memory>> = {{dice~d100.setMinimum(25)}}
+<<reasoning>> = {{dice~d100.setMinimum(25)}}
 
-%%development points%% = {{eval:
-_[Rolemaster.stats.stat bonuses(%%constitution%%)@2] + 
-_[Rolemaster.stats.stat bonuses(%%agility%%)@2] + 
-_[Rolemaster.stats.stat bonuses(%%self discipline%%)@2] + 
-_[Rolemaster.stats.stat bonuses(%%memory%%)@2] +
-_[Rolemaster.stats.stat bonuses(%%reasoning%%)@2]}}
+<<development points>> = {{eval:
+_[Rolemaster.stats.stat bonuses(<<constitution>>)@2] + 
+_[Rolemaster.stats.stat bonuses(<<agility>>)@2] + 
+_[Rolemaster.stats.stat bonuses(<<self discipline>>)@2] + 
+_[Rolemaster.stats.stat bonuses(<<memory>>)@2] +
+_[Rolemaster.stats.stat bonuses(<<reasoning>>)@2]}}
 
-%%prof count%% = 19
-%%prof index%% = {{dice|d19}}
-%%profession%% = [Rolemaster.%%genre%%.Profession.profession(%%prof index%%)@0]
-%%prime requisite 1%% = {{for:loop, 1, 11, 
-_{{ifstr|[attribute(%%loop%%)@1] == [Rolemaster.%%genre%%.Profession.profession(%%prof index%%)@1],
-_[attribute(%%loop%%)@0]}} }}
-%%prime requisite 2%% = {{for:loop, 1, 11, 
-_{{ifstr|[attribute(%%loop%%)@1] == [Rolemaster.%%genre%%.Profession.profession(%%prof index%%)@2],
-_[attribute(%%loop%%)@0]}} }}
+<<prof count>> = 19
+<<prof index>> = {{dice|d19}}
+<<profession>> = [Rolemaster.<<genre>>.Profession.profession(<<prof index>>)@0]
+
+<<prime requisite 1>> = {{for:loop, 1, 11, 
+_{{ifstr|[attribute(<<loop>>)@1] == [Rolemaster.<<genre>>.Profession.profession(<<prof index>>)@1],
+_[attribute(<<loop>>)@0]}} }}
+
+<<prime requisite 2>> = {{for:loop, 1, 11, 
+_{{ifstr|[attribute(<<loop>>)@1] == [Rolemaster.<<genre>>.Profession.profession(<<prof index>>)@2],
+_[attribute(<<loop>>)@0]}} }}
 
 
 ;Start
 1,[Headline]<br><br>
 _[stats]<br>
-_<b>Development Points:</b> %%development points%%<br><br>
+_<b>Development Points:</b> <<development points>><br><br>
 
 ;Headline
-1,<b>Genre:</b> %%genre%%<br>
-_<b>Profession:</b> %%profession%% <b>Sex:</b> %%sex%% <b>Race:</b> %%race%%<br>
-_<b>Title:</b> %%title%% <b>Last Name:</b> %%last name%% <b>First Name:</b> %%first name%% <br>
-_<b>Prime Requisite:</b> %%prime requisite 1%% / %%prime requisite 2%%
+1,<b>Genre:</b> <<genre>><br>
+_<b>Profession:</b> <<profession>> <b>Sex:</b> <<sex>> <b>Race:</b> <<race>><br>
+_<b>Title:</b> <<title>> <b>Last Name:</b> <<last name>> <b>First Name:</b> <<first name>> <br>
+_<b>Prime Requisite:</b> <<prime requisite 1>> / <<prime requisite 2>>
 
 ;stats
 1, {{for:loop, 1,11, [stat line]<br>}}
 
 :stat line
-1, <b>[attribute(%%loop%%)@0]:</b> [attribute(%%loop%%)@2]
+1, <b>[attribute(<<loop>>)@0]:</b> [attribute(<<loop>>)@2]
 _<b>Stat Bonus:</b> [stat bonus]
 _<b>Racial Bonus:</b> [racial bonus]
 
 :stat bonus
-1, {{assign:[attribute(%%loop%%)@0] stat bonus, 
-_[Rolemaster.stats.stat bonuses([attribute(%%loop%%)@2])@0]}}
-_%%[attribute(%%loop%%)@0] stat bonus%%
+1, {{assign:[attribute(<<loop>>)@0] stat bonus, 
+_[Rolemaster.stats.stat bonuses([attribute(<<loop>>)@2])@0]}}
+_<<[attribute(<<loop>>)@0] stat bonus>>
 
 
 :racial bonus
-1, {{assign:[attribute(%%loop%%)@0] race bonus, 
-_[Rolemaster.%%genre%%.Races.race(%%race index%%)@%%loop%%]}} 
-_%%[attribute(%%loop%%)@0] race bonus%%
+1, {{assign:[attribute(<<loop>>)@0] race bonus, 
+_[Rolemaster.<<genre>>.Races.race(<<race index>>)@<<loop>>]}} 
+_<<[attribute(<<loop>>)@0] race bonus>>
 
 
 @attribute
-1, Strength, ST, %%strength%%
-2, Constitution, CO, %%constitution%%
-3, Quickness, QU, %%quickness%%
-4, Agility, AG, %%agility%%
-5, Self Discipline, SD, %%self discipline%%
-6, Presence, PR, %%presence%%
-7, Intuition, IN, %%intuition%%
-8, Empathy, EM, %%empathy%%
-9, Memory, ME, %%memory%%
-10, Reasoning, RE, %%reasoning%%
+1, Strength, ST, <<strength>>
+2, Constitution, CO, <<constitution>>
+3, Quickness, QU, <<quickness>>
+4, Agility, AG, <<agility>>
+5, Self Discipline, SD, <<self discipline>>
+6, Presence, PR, <<presence>>
+7, Intuition, IN, <<intuition>>
+8, Empathy, EM, <<empathy>>
+9, Memory, ME, <<memory>>
+10, Reasoning, RE, <<reasoning>>
 
 
 ;sex

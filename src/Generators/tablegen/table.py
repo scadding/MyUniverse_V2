@@ -169,7 +169,7 @@ class tableVariableNode(tableVariable, tableNode):
         if children:
             self.children = children
 
-class tableGroup(tableNode):
+class tableGroup(object):
     currentstack = dict()
     def __init__(self):
         self.stack = dict()
@@ -177,6 +177,7 @@ class tableGroup(tableNode):
     def getBaseVariable(self, var):
         if var in self.stack:
             return self.stack[var]
+        raise TypeError
         return ""
     def getVariable(self, var):
         if var in self.currentstack:
@@ -213,7 +214,7 @@ class tableDB(tableGroup):
         cur.execute("SELECT Name, Value FROM TableVariables WHERE TableName == \"%s\"" % self.table)
         for var, value in cur.fetchall():
             self.currentstack[var] = value
-            self.stack[var] = value
+            self.setBaseVariable(var, value)
     def run(self, t='Start', roll=-1, column=0):
         retVal = u''
         if t in self.length:
@@ -521,8 +522,8 @@ class tableMgr(object):
         last = 0
         n = ''
         found = False
-        nestedItems = self.nestedExpr("<<", ">>")
-        for t, s, e in nestedItems.scanString(text):
+        q = pyparsing.QuotedString('<<', multiline=False, unquoteResults=True, endQuoteChar='>>')
+        for t, s, e in q.scanString(text):
             n = n + text[last:s]
             last = e
             n = n + self.parseVariable(node, t[0])
@@ -563,10 +564,11 @@ class tableMgr(object):
 
         # get node
         path = node.nodePath()
-        if node.table.getVariable(exp) == "":
-            v = node.table.getBaseVariable(exp)
-            node.table.setVariable(exp, self.parse(node, v))
+        exp = self.parse(node, exp)
         n = node.table.getVariable(exp)
+        if n == "":
+            n = self.parse(node, node.table.getBaseVariable(exp))
+            node.table.setVariable(exp, n)
         return n
     def parseTable(self, node, exp):
         roll = -1
@@ -673,7 +675,7 @@ class tableMgr(object):
         elif f == "assign":
             variable = self.parse(node, n[0])
             value = self.parse(node, n[1])
-            node.table.setVariable(variable, value)
+            node.table.setVariable(variable, self.parse(node, value))
         else:
             p = list()
             for i in n:
