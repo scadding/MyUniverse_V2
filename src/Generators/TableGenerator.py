@@ -4,10 +4,11 @@ import wx
 import codecs
 from src.Configuration import Configuration
 from src.Generators.tablegen.table import tableNode
+from src.Generators.tablegen.tableManager import tableMgr
 
 class Generator:
     def __init__(self):
-        self.tm = table.tableMgr()
+        self.tm = tableMgr()
         self.parameters = dict()
         self.parameters['Seed'] = ['', '0']
         self.parameters['Generators'] = self.tm.getTree()
@@ -18,7 +19,7 @@ class Generator:
         #self.pList = ['Seed', 'Group', 'Generators']
     def Update(self, p):
         config = Configuration()
-        self.tm = table.tableMgr()
+        self.tm = tableMgr()
         self.tm.walktree(config.getValue("Data", "directory"), self.tm.addfile, load=False)
         self.parameters['Generators'] = self.tm.getTree()
         pass
