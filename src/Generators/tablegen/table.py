@@ -384,13 +384,16 @@ class tableMgr(object):
     variables : tableVariableNode
     globals : tableVariableNode
     state : tableVariableNode
+    current : tableVariableNode
+    config : Configuration
     def __init__(self):
         self.tree = tableNode("Root")
         self.variables = tableVariableNode("Variables")
         self.globals = tableVariableNode("Globals", parent=self.variables)
         self.state = tableVariableNode("State", parent=self.variables)
-        config = Configuration()
-        self.walktree(config.getValue("Data", "directory"), load=False, node=self.tree)
+        self.current = tableVariableNode("Current", parent=self.variables)
+        self.config = Configuration()
+        self.walktree(self.config.getValue("Data", "directory"), load=False, node=self.tree)
     def walktree(self, top : str, load=False, node=None):
         for filename in os.listdir(top):
             path = os.path.join(top, filename)
@@ -559,16 +562,41 @@ class tableMgr(object):
         return found, ret
     def parseTemplate(self, node, exp, type='tml'):
         return node.pathToNode(exp, type)
+    def parseSubAndPath(self, node, exp):
+        sub = ""
+        path = None
+        # sub
+        subelement = re.compile(r'([\w -\.]+)\.([\w -]+)$')
+        single = re.compile(r'([\w -]+)$')
+
+        # local subtable
+        m = single.match(exp)
+        if m:
+            sub = m.group(1)
+            return path, sub
+        # subtable
+        m = subelement.match(exp)
+        if m:
+            path = m.group(1)
+            sub = m.group(2)
+        return path, sub
     def parseVariable(self, node, exp):
         # parse args
 
         # get node
-        path = node.nodePath()
-        exp = self.parse(node, exp)
-        n = node.table.getVariable(exp)
+
+        tablenode = node
+        exp = self.parse(tablenode, exp)
+        path, sub = self.parseSubAndPath(tablenode, exp)
+
+        if path:
+            node = tablenode.pathToNode(path)
+
+        n = tablenode.table.getVariable(sub)
         if n == "":
-            n = self.parse(node, node.table.getBaseVariable(exp))
-            node.table.setVariable(exp, n)
+            # initialize variable
+            n = self.parse(tablenode, tablenode.table.getBaseVariable(sub))
+            tablenode.table.setVariable(sub, n)
         return n
     def parseTable(self, node, exp):
         roll = -1
