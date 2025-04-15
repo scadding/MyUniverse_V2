@@ -1,6 +1,6 @@
 import wx
 from src import images
-from src.Generators.tablegen.table import tableNode
+from src.Generators.tablegen.tableNode import tableNode
 
 
 class GeneratorPanel(wx.Panel):

@@ -3,7 +3,7 @@ from src.Generators.tablegen import table
 import wx
 import codecs
 from src.Configuration import Configuration
-from src.Generators.tablegen.table import tableNode
+from src.Generators.tablegen.tableNode import tableNode
 from src.Generators.tablegen.tableManager import tableMgr
 
 class Generator:

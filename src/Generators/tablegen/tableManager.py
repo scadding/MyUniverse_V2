@@ -15,8 +15,8 @@ import sqlite3 as lite
 import sys
 import codecs
 from src.Generators.tablegen.server import server
-from src.Generators.tablegen.table import tableNode, tableFile, tableDB
-from src.Generators.tablegen.tableVariable import tableVariableNode
+from src.Generators.tablegen.table import tableFile, tableDB
+from src.Generators.tablegen.tableNode import tableNode, tableVariableNode
 from src.Configuration import Configuration
 
 from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter, NodeMixin
@@ -29,6 +29,7 @@ class tableMgr(object):
     globals : tableVariableNode
     state : tableVariableNode
     current : tableVariableNode
+    base : tableVariableNode
     config : Configuration
     def __init__(self):
         self.tree = tableNode("Root")
@@ -36,6 +37,7 @@ class tableMgr(object):
         self.globals = tableVariableNode("Globals", parent=self.variables)
         self.state = tableVariableNode("State", parent=self.variables)
         self.current = tableVariableNode("Current", parent=self.variables)
+        self.base = tableVariableNode("Base", parent=self.variables)
         self.config = Configuration()
         self.walktree(self.config.getValue("Data", "directory"), load=False, node=self.tree)
     def walktree(self, top : str, load=False, node=None):
@@ -96,7 +98,7 @@ class tableMgr(object):
         node.loaded = True
         extension = os.path.splitext(node.filename)[1]
         if extension == '.tab' or extension == '.tml':
-            node.table = tableFile(node.filename)
+            node.table = tableFile(node.filename, self, node)
             return node.table
         elif extension == '.py':
             spec = importlib.util.spec_from_file_location(node.name, node.filename)
@@ -224,7 +226,36 @@ class tableMgr(object):
             path = m.group(1)
             sub = m.group(2)
         return path, sub
-    def parseVariable(self, node, exp):
+    def getVariableNode(self, root, node):
+        path = node.nodePath()
+        variablenode = root
+        for n in path:
+            matchNode = None
+            for childNode in variablenode.children:
+                if n == childNode.name:
+                    matchNode = childNode
+                    break
+            if matchNode:
+                variablenode = matchNode
+            else:
+                variablenode = tableVariableNode(n, parent = variablenode)
+        return variablenode
+    def getBaseVariable(self, node, var):
+        variablenode = self.getVariableNode(self.base, node)
+        return variablenode.getVariable(var)
+    def setBaseVariable(self, node, var, val):
+        variablenode = self.getVariableNode(self.base, node)
+        variablenode.setVariable(var, val)
+    def getVariable(self, node, var):
+        variablenode = self.getVariableNode(self.current, node)
+        return variablenode.getVariable(var)
+    def setVariable(self, node, var, val):
+        variablenode = self.getVariableNode(self.current, node)
+        variablenode.setVariable(var, val)
+    def clearVariables(self, node):
+        variablenode = self.getVariableNode(self.current, node)
+        variablenode.clearVariables()
+    def parseVariable(self, node : tableNode, exp):
         # parse args
 
         # get node
@@ -236,11 +267,11 @@ class tableMgr(object):
         if path:
             node = tablenode.pathToNode(path)
 
-        n = self.current.getVariable(sub)
+        n = self.getVariable(tablenode, sub)
         if n == "":
             # initialize variable
-            n = self.parse(tablenode, tablenode.table.getBaseVariable(sub))
-            self.current.setVariable(sub, n)
+            n = self.parse(tablenode, self.getBaseVariable(tablenode, sub))
+            self.setVariable(tablenode, sub, n)
         return n
     def parseTable(self, node, exp):
         roll = -1
@@ -323,7 +354,7 @@ class tableMgr(object):
             start = int(self.parse(node, n[1]))
             stop = int(self.parse(node, n[2]))
             for x in range(start, stop):
-                self.current.setVariable(n[0], str(x))
+                self.setVariable(node, n[0], str(x))
                 s = s + self.parse(node, n[3])           
         elif f == "ifstr":
             logic = self.parse(node, n[0]).lstrip().rstrip()
@@ -347,7 +378,7 @@ class tableMgr(object):
         elif f == "assign":
             variable = self.parse(node, n[0])
             value = self.parse(node, n[1])
-            self.current.setVariable(variable, self.parse(node, value))
+            self.setVariable(node, variable, self.parse(node, value))
         else:
             p = list()
             for i in n:
@@ -361,7 +392,10 @@ class tableMgr(object):
         
         s = node.table.start()
         s = self.parse(node, s)
-        self.current.clearVariables()
+        for pre, _, n in RenderTree(self.variables):
+            treestr = u"%s%s" % (pre, n.name)
+            print(treestr.ljust(8), n.name)
+        self.clearVariables(node)
         return s
     def run(self, node, sub='Start', roll=-1, column=0):
         self.checkload(node)

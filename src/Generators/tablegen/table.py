@@ -14,7 +14,6 @@ import pyparsing
 import sqlite3 as lite
 import sys
 import codecs
-from src.Generators.tablegen.server import server
 from src.Configuration import Configuration
 
 from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter, NodeMixin
@@ -76,71 +75,14 @@ class Table(object):
         return self.index
     
 
-class tableNode(NodeMixin):
-    def __init__(self, name, parent=None, children=None, **kwargs):
-        self.__dict__.update(kwargs)
-        self.name = name
-        self.parent = parent
-        if children:
-            self.children = children
-    def getNode(self, name, type=None):
-        parent = self
-        for c in parent.children:
-            if c.name == name:
-                if type:
-                    if type == c.type:
-                        return c
-                else:
-                    return c
-        raise TypeError
-        return None
-    def pathToNode(self, exp, type=None):
-        target = None
-        # table path
-        absolute = re.compile(r'([\w -]+)\.(.*)$')
-        relative = re.compile(r'\.([\w -]*)\.(.*)$')
-        local = re.compile(r'([\w -]+)$')
-        m = absolute.match(exp)
-        if m:
-            target = self.root
-        while m:
-            exp = m.group(2)
-            target = target.getNode(m.group(1))
-            m = absolute.match(m.group(2))
-        if target:
-            return target.getNode(exp)
-        m = relative.match(exp)
-        if m:
-            target = self.parent
-        while m:
-            target = target.getNode(m.group(1))
-            m = relative.match(m.group(2))
-        if target:
-            return target.getNode(exp)
-        m = local.match(exp)
-        if m:
-            target = self.parent
-            return target.getNode(m.group(1))
-        return None
-    def nodePath(self):
-        path = []
-        for p in self.path[1:]:
-            path.append(p.name)
-        return path
-
 class tableGroup(object):
-    currentstack = dict()
-    def __init__(self):
+    def __init__(self, tm, node):
+        self.tm = tm
+        self.node = node
         self.stack = dict()
-    def getBaseVariable(self, var):
-        if var in self.stack:
-            return self.stack[var]
-        raise TypeError
-        return ""
-    def setBaseVariable(self, var, val):
-        self.stack[var] = val
     def start(self):
         return self.run('Start')
+
 
 class tableDB(tableGroup):
     def __init__(self, table, genre, con):
@@ -163,7 +105,7 @@ class tableDB(tableGroup):
         cur.execute("SELECT Name, Value FROM TableVariables WHERE TableName == \"%s\"" % self.table)
         for var, value in cur.fetchall():
             self.currentstack[var] = value
-            self.setBaseVariable(var, value)
+            self.tm.setBaseVariable(self.node.var, value)
     def run(self, t='Start', roll=-1, column=0):
         retVal = u''
         if t in self.length:
@@ -209,8 +151,8 @@ class tableFile(tableGroup):
     pragmadeclaration = re.compile(r'^/.*$')
     namespec = re.compile(r'^[/\w _~,-]*/(.*)\.tab$')
     filename = ''
-    def __init__(self, filename):
-        tableGroup.__init__(self)
+    def __init__(self, filename, tm, node):
+        tableGroup.__init__(self, tm, node)
         self.table = dict()
         self.filename = filename
         self.tablename = ''
@@ -260,9 +202,9 @@ class tableFile(tableGroup):
             d = int(m7.group(2))
             self.table[self.tablename].add(d, m7.group(3))
         elif m8: # variable declaration
-            self.setBaseVariable(m8.group(1), m8.group(2))
+            self.tm.setBaseVariable(self.node, m8.group(1), m8.group(2))
         elif m8a: # variable declaration
-            self.setBaseVariable(m8a.group(1), m8a.group(2))
+            self.tm.setBaseVariable(m8a.group(1), m8a.group(2))
         elif m9: #parameter declaration
             pass
         elif m10: #pragma declaration
