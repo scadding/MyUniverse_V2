@@ -132,24 +132,14 @@ class tableGroup(object):
     currentstack = dict()
     def __init__(self):
         self.stack = dict()
-        self.currentstack = dict()
     def getBaseVariable(self, var):
         if var in self.stack:
             return self.stack[var]
         raise TypeError
         return ""
-    def getVariable(self, var):
-        if var in self.currentstack:
-            return self.currentstack[var]
-        return ""
-    def setVariable(self, var, val):
-        self.currentstack[var] = val
     def setBaseVariable(self, var, val):
         self.stack[var] = val
-    def removeVariable(self, var, val):
-        del self.currentstack[var]
     def start(self):
-        self.currentstack = dict()
         return self.run('Start')
 
 class tableDB(tableGroup):

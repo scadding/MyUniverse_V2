@@ -236,11 +236,11 @@ class tableMgr(object):
         if path:
             node = tablenode.pathToNode(path)
 
-        n = tablenode.table.getVariable(sub)
+        n = self.current.getVariable(sub)
         if n == "":
             # initialize variable
             n = self.parse(tablenode, tablenode.table.getBaseVariable(sub))
-            tablenode.table.setVariable(sub, n)
+            self.current.setVariable(sub, n)
         return n
     def parseTable(self, node, exp):
         roll = -1
@@ -323,7 +323,7 @@ class tableMgr(object):
             start = int(self.parse(node, n[1]))
             stop = int(self.parse(node, n[2]))
             for x in range(start, stop):
-                node.table.setVariable(n[0], str(x))
+                self.current.setVariable(n[0], str(x))
                 s = s + self.parse(node, n[3])           
         elif f == "ifstr":
             logic = self.parse(node, n[0]).lstrip().rstrip()
@@ -347,7 +347,7 @@ class tableMgr(object):
         elif f == "assign":
             variable = self.parse(node, n[0])
             value = self.parse(node, n[1])
-            node.table.setVariable(variable, self.parse(node, value))
+            self.current.setVariable(variable, self.parse(node, value))
         else:
             p = list()
             for i in n:
@@ -358,13 +358,10 @@ class tableMgr(object):
         if type(node) != tableNode:
             raise TypeError
         self.checkload(node)
-
-        # make the variable node
-
-        # set default values
         
         s = node.table.start()
         s = self.parse(node, s)
+        self.current.clearVariables()
         return s
     def run(self, node, sub='Start', roll=-1, column=0):
         self.checkload(node)

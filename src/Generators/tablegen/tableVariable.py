@@ -19,15 +19,20 @@ from src.Configuration import Configuration
 
 from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter, NodeMixin
 
-class tableVariable(object):
-    def __init__(self):
-        pass
 
-class tableVariableNode(tableVariable, tableNode):
+class tableVariableNode(tableNode):
+    variabledict : dict
     def __init__(self, name, parent=None, children=None):
-        super().__init__()
-        self.name = name
-        self.parent = parent
-        if children:
-            self.children = children
+        super().__init__(name, parent=parent, children=children)
+        self.variabledict = dict()
+    def getVariable(self, var):
+        if var in self.variabledict:
+            return self.variabledict[var]
+        return ""
+    def setVariable(self, var, val):
+        self.variabledict[var] = val
+    def removeVariable(self, var, val):
+        del self.variabledict[var]
+    def clearVariables(self):
+        self.variabledict = dict()
 
