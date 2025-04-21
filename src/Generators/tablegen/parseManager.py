@@ -61,7 +61,7 @@ class parseManager(object):
             n = n + text[last:s]
             last = e
             for i in t:
-                l = self.parseList(i, start='[', finish=']')
+                l = self.parseList(i, start='[[', finish=']]')
                 c = self.parseTable(node, self.parse(node, l[0]))
                 n = n + c
                 found = True
