@@ -19,9 +19,11 @@ class variableManager(object):
     def printVariableTree(self):
         for pre, _, n in RenderTree(self.variables):
             treestr = u"%s%s" % (pre, n.name)
-            print(treestr.ljust(8), n.name)
-    def getVariableNode(self, root, node):
+            print(treestr.ljust(8))
+    def getVariableNode(self, root, node, name=None):
         path = node.nodePath()
+        if name:
+            path.append(name)
         variablenode = root
         for n in path:
             matchNode = None
@@ -39,6 +41,12 @@ class variableManager(object):
         return variablenode.getVariable(var)
     def setBaseVariable(self, node, var, val):
         variablenode = self.getVariableNode(self.base, node)
+        variablenode.setVariable(var, val)
+    def getStateVariable(self, node, name, var):
+        variablenode = self.getVariableNode(self.state, node, name=name)
+        return variablenode.getVariable(var)
+    def setStateVariable(self, node, name, var, val):
+        variablenode = self.getVariableNode(self.state, node, name=name)
         variablenode.setVariable(var, val)
     def getVariable(self, node, var):
         variablenode = self.getVariableNode(self.current, node)

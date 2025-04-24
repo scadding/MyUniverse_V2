@@ -254,10 +254,29 @@ class parseManager(object):
         elif f == "assign":
             variable = self.parse(node, n[0])
             value = self.parse(node, n[1])
-            self.setVariable(node, variable, self.parse(node, value))
+            self.setVariable(node, variable, value)
+        elif f == "state":
+            path = self.parse(node, n[0])
+            name = self.parse(node, n[1])
+            self.saveState(node, path, name)
         else:
             p = list()
             for i in n:
                 p.append(self.parse(node, i))
             s = s + getattr(tableFunctions, f)(p)
         return s
+    def saveState(self, node, path, name):
+        variableNode = self.getVariableNode(self.current, node)
+        rootVariableNode = self.getVariableNode(self.base, node)
+        for n in rootVariableNode.variabledict:
+            if n in variableNode.variabledict:
+                v = self.parse(node, variableNode.variabledict[n])
+            else:
+                v = self.parse(node, rootVariableNode.variabledict[n])
+            self.setStateVariable(node, name, n, v)
+        for n in variableNode.variabledict:
+            if n in rootVariableNode.variabledict:
+                v = self.parse(node, rootVariableNode.variabledict[n])
+            else:
+                v = self.parse(node, variableNode.variabledict[n])
+                self.setStateVariable(node, name, n, v)
