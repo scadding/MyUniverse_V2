@@ -119,6 +119,21 @@ class tableMgr(variableManager, parseManager):
     def getCount(self, node, sub="Start"):
         self.checkload(node)
         return node.table.getCount(sub)
+    def saveState(self, node, path, name):
+        variableNode = self.getVariableNode(self.current, node)
+        rootVariableNode = self.getVariableNode(self.base, node)
+        for n in rootVariableNode.variabledict:
+            if n in variableNode.variabledict:
+                v = self.parse(node, variableNode.variabledict[n])
+            else:
+                v = self.parse(node, rootVariableNode.variabledict[n])
+            self.setStateVariable(node, name, n, v)
+        for n in variableNode.variabledict:
+            if n in rootVariableNode.variabledict:
+                v = self.parse(node, rootVariableNode.variabledict[n])
+            else:
+                v = self.parse(node, variableNode.variabledict[n])
+                self.setStateVariable(node, name, n, v)
 
 
     
