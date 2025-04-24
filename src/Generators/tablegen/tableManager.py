@@ -16,13 +16,16 @@ from src.Configuration import Configuration
 class tableMgr(variableManager, parseManager):
     ignoredir = ["__pycache__"]
     ignoreext = ['.tml']
+    _instance = None
     tree : tableNode
     config : Configuration
-    def __init__(self):
-        super().__init__()
-        self.tree = tableNode("Root")
-        self.config = Configuration()
-        self.walktree(self.config.getValue("Data", "directory"), load=False, node=self.tree)
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super(tableMgr, cls).__new__(cls)
+            cls.tree = tableNode("Root")
+            cls.config = Configuration()
+            cls._instance.walktree(cls.config.getValue("Data", "directory"), load=False, node=cls.tree)
+        return cls._instance
     def walktree(self, top : str, load=False, node=None):
         for filename in os.listdir(top):
             path = os.path.join(top, filename)
