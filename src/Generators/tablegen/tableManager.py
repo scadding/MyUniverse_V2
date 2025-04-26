@@ -112,10 +112,6 @@ class tableMgr(variableManager, parseManager):
         s = node.table.run(sub, roll, column)
         s = self.parse(node, s)
         return s
-    def rundict(self, node, sub, roll=-1):
-        self.checkload(node)
-        s = node.table.rundict(sub, roll)
-        return s
     def get_random_index(self, node, sub="Start"):
         self.checkload(node)
         return node.table.get_random_index(sub)
