@@ -39,19 +39,6 @@ class Table(object):
         else:
             for row in csv.reader([v]):
                 self.values[self.index] = row
-    def getvaluedict(self, index):
-        if index > self.index:
-            return 'Error: Out of Range'
-        d = index
-        while self.values.get(d) is None:
-            d = d + 1
-        return self.values[d]
-    def rolldict(self, roll=-1):
-        if self.index == 0:
-            return ''
-        if roll == -1:
-            roll = self.get_random_index()
-        return self.getvaluedict(roll)
     def getvalue(self, index, column=0):
         if index > self.index:
             return 'Error: Out of Range'
@@ -216,11 +203,6 @@ class tableFile(tableGroup):
             return self.table[t].roll(column=column, roll=roll)
         elif t == 'Start':
             return self.autorunStart()
-        print('Error: *** No [' + t + '] Table***', file=sys.stderr)
-        return ''
-    def rundict(self, t='Start', roll=-1):
-        if self.table.get(t):
-            return self.table[t].rolldict(roll=roll)
         print('Error: *** No [' + t + '] Table***', file=sys.stderr)
         return ''
     def autorunStart(self):
