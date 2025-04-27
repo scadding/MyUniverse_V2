@@ -243,17 +243,17 @@ class parseManager(object):
                 self.setVariable(node, n[0], str(x))
                 s = s + self.parse(node, n[3])           
         elif f == "ifstr":
-            logic = self.parse(node, n[0]).lstrip().rstrip()
+            logic = self.parse(node, n[0]).strip()
             l = [char for char in logic]
             for i in range(len(l)):
                 if l[i] == '=' and l[i + 1] == '=':
-                    s1 = ''.join(l[:i]).lstrip().rstrip()
-                    s2 = ''.join(l[i+2:]).lstrip().rstrip()
+                    s1 = ''.join(l[:i]).strip()
+                    s2 = ''.join(l[i+2:]).strip()
                     if s1 == s2:
                         s = s + self.parse(node, n[1])
                 elif l[i] == '!' and l[i + 1] == '=':
-                    s1 = ''.join(l[:i]).lstrip().rstrip()
-                    s2 = ''.join(l[i+2:]).lstrip().rstrip()
+                    s1 = ''.join(l[:i]).strip()
+                    s2 = ''.join(l[i+2:]).strip()
                     if s1 != s2:
                         s = s + self.parse(node, n[1])
         elif f == "if":

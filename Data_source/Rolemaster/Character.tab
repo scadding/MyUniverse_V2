@@ -2,9 +2,8 @@
 <<genre>> = Fantasy
 <<sex>> = {{ucfirst|[[sex]]}}
 
-<<_race high roll>> = {{table:Rolemaster.<<genre>>.Races.race, _junk}}
 <<race>> = [[Rolemaster.<<genre>>.Races.race(<<race index>>)@0]]
-<<race index>> = {{dice|d<<_race high roll>>}}
+<<race index>> = {{dice|d{{table:Rolemaster.<<genre>>.Races.race, _junk}}}}
 
 <<last name>> = [[Tables.Names.<<genre>> Names.Surname]]
 <<first name>> = [[Tables.Names.<<genre>> Names.<<sex>>FirstName]]
@@ -29,12 +28,10 @@ _[[Rolemaster.stats.stat bonuses(<<self discipline>>)@2]] +
 _[[Rolemaster.stats.stat bonuses(<<memory>>)@2]] +
 _[[Rolemaster.stats.stat bonuses(<<reasoning>>)@2]]}}
 
-<<_prof count>> = {{table:Rolemaster.<<genre>>.Profession.profession, _junk}}
-<<prof index>> = {{dice|d<<_prof count>>}}
-<<profession>> = [[Rolemaster.<<genre>>.Profession.profession(<<prof index>>)@0]]
+<<profession>> = [[Rolemaster.<<genre>>.Profession.profession@0]]
 
-<<prime requisite 1>> = {{find:attribute, 1, [[Rolemaster.<<genre>>.Profession.profession(<<prof index>>)@1]], 0}}
-<<prime requisite 2>> = {{find:attribute, 1, [[Rolemaster.<<genre>>.Profession.profession(<<prof index>>)@2]], 0}}
+<<prime requisite 1>> = {{find:attribute, 1, {{find:Rolemaster.<<genre>>.Profession.profession, 0, <<profession>>, 1}}, 0}}
+<<prime requisite 2>> = {{find:attribute, 1, {{find:Rolemaster.<<genre>>.Profession.profession, 0, <<profession>>, 2}}, 0}}
 
 ;Start
 1,[[Headline]]<br><br>
