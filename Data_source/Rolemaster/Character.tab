@@ -2,9 +2,9 @@
 <<genre>> = Fantasy
 <<sex>> = {{ucfirst|[[sex]]}}
 
-<<race count>> = 11
+<<_race high roll>> = {{table:Rolemaster.<<genre>>.Races.race, _junk}}
 <<race>> = [[Rolemaster.<<genre>>.Races.race(<<race index>>)@0]]
-<<race index>> = {{dice|d<<race count>>}}
+<<race index>> = {{dice|d<<_race high roll>>}}
 
 <<last name>> = [[Tables.Names.<<genre>> Names.Surname]]
 <<first name>> = [[Tables.Names.<<genre>> Names.<<sex>>FirstName]]
@@ -29,18 +29,12 @@ _[[Rolemaster.stats.stat bonuses(<<self discipline>>)@2]] +
 _[[Rolemaster.stats.stat bonuses(<<memory>>)@2]] +
 _[[Rolemaster.stats.stat bonuses(<<reasoning>>)@2]]}}
 
-<<prof count>> = 19
-<<prof index>> = {{dice|d19}}
+<<_prof count>> = {{table:Rolemaster.<<genre>>.Profession.profession, _junk}}
+<<prof index>> = {{dice|d<<_prof count>>}}
 <<profession>> = [[Rolemaster.<<genre>>.Profession.profession(<<prof index>>)@0]]
 
-<<prime requisite 1>> = {{for:_loop, 1, 11, 
-_{{ifstr|[[attribute(<<_loop>>)@1]] == [[Rolemaster.<<genre>>.Profession.profession(<<prof index>>)@1]],
-_[[attribute(<<_loop>>)@0]]}} }}
-
-<<prime requisite 2>> = {{for:_loop, 1, 11, 
-_{{ifstr|[[attribute(<<_loop>>)@1]] == [[Rolemaster.<<genre>>.Profession.profession(<<prof index>>)@2]],
-_[[attribute(<<_loop>>)@0]]}} }}
-
+<<prime requisite 1>> = {{find:attribute, 1, [[Rolemaster.<<genre>>.Profession.profession(<<prof index>>)@1]], 0}}
+<<prime requisite 2>> = {{find:attribute, 1, [[Rolemaster.<<genre>>.Profession.profession(<<prof index>>)@2]], 0}}
 
 ;Start
 1,[[Headline]]<br><br>
@@ -55,7 +49,7 @@ _<b>Title:</b> <<title>> <b>Last Name:</b> <<last name>> <b>First Name:</b> <<fi
 _<b>Prime Requisite:</b> <<prime requisite 1>> / <<prime requisite 2>>
 
 ;stats
-1, {{for:_loop, 1,11, [[stat line]]<br>}}
+1, {{for:_loop, 1, 10, [[stat line]]<br>}}
 
 :stat line
 1, <b>[[attribute(<<_loop>>)@0]]:</b> [[attribute(<<_loop>>)@2]]

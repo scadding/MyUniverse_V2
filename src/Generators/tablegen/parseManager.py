@@ -154,29 +154,29 @@ class parseManager(object):
             n = self.parse(tablenode, self.getBaseVariable(tablenode, sub))
             self.setVariable(tablenode, sub, n)
         return n
-    def parseTable(self, node, exp):
-        roll = -1
-        column = 0
+    def getArguments(self, node, exp, args):
+        # table args
+        at_arg = re.compile(r'(.*)@([0-9]+)(.*)')
+        par_arg = re.compile(r'(.*)\((.*?)\)(.*)')
+        # capture and remove arguments
+        m = par_arg.match(exp)
+        if m:
+            exp = m.group(1) + m.group(3)
+            args['()'] = int(m.group(2))
+        m = at_arg.match(exp)
+        if m:
+            exp = m.group(1) + m.group(3)
+            args['@'] = int(self.parse(node, m.group(2)))
+        return exp
+    def getSubAndNode(self, node, exp):
         # subtable
         subtable = re.compile(r'([\w -\.]+)\.([\w -]+)$')
         single = re.compile(r'([\w -]+)$')
-        # table args
-        column_arg = re.compile(r'(.*)@([0-9]+)(.*)')
-        roll_arg = re.compile(r'(.*)\((.*?)\)(.*)')
-        # capture and remove arguments
-        m = column_arg.match(exp)
-        if m:
-            exp = m.group(1) + m.group(3)
-            column = int(m.group(2))
-        m = roll_arg.match(exp)
-        if m:
-            exp = m.group(1) + m.group(3)
-            roll = int(self.parse(node, m.group(2)))
         # local subtable
         m = single.match(exp)
         if m:
             sub = m.group(1)
-            return self.parse(node, node.table.run(sub, roll, column))
+            return sub, node
         # subtable
         m = subtable.match(exp)
         if m:
@@ -186,8 +186,18 @@ class parseManager(object):
         if node is not None:
             if not node.loaded:
                 self.loadtable(node)
-            return self.parse(node, node.table.run(sub, roll, column))
-        return ''
+            return sub, node
+        raise Exception('bad table')
+    def parseTable(self, node, exp):
+        args = dict()
+        args['@'] = 0
+        args['()'] = -1
+        exp = self.getArguments(node, exp, args)
+        column = args['@']
+        roll = args['()']
+        sub, node = self.getSubAndNode(node, exp)
+        return self.parse(node, node.table.run(sub, roll, column))
+        raise Exception('bad table')
     def parseList(self, l, start='{{', finish='}}'):
         n = None
         for i in l:
@@ -229,7 +239,7 @@ class parseManager(object):
             variable = self.parse(node, n[0])
             start = int(self.parse(node, n[1]))
             stop = int(self.parse(node, n[2]))
-            for x in range(start, stop):
+            for x in range(start, stop + 1):
                 self.setVariable(node, n[0], str(x))
                 s = s + self.parse(node, n[3])           
         elif f == "ifstr":
@@ -259,6 +269,25 @@ class parseManager(object):
             path = self.parse(node, n[0])
             name = self.parse(node, n[1])
             self.saveState(node, path, name)
+        elif f == "table":
+            tableName = self.parse(node, n[0])
+            highroll = self.parse(node, n[1])
+            sub, tnode = self.getSubAndNode(node, tableName)
+            table = tnode.table.table[sub]
+            highroll = str(table.index)
+            self.setVariable(node, highroll, str(table.index))
+            s = s + highroll
+        elif f == "find":
+            tableName = self.parse(node, n[0])
+            column = int(self.parse(node, n[1]))
+            value = self.parse(node, n[2])
+            retcol = int(self.parse(node, n[3]))
+            sub, tnode = self.getSubAndNode(node, tableName)
+            table = tnode.table.table[sub]
+            for line in table.values:
+                if table.values[line][column].strip() == value.strip():
+                    return table.values[line][retcol]
+
         else:
             p = list()
             for i in n:
