@@ -106,7 +106,4 @@ class GeneratorPanel(wx.Panel):
                 value = self.fields[n].GetValue()
             if value != "":
                 p[n] = value
-        if "Generators" in p:
-            return self.generator.roll(p, numRolls)
-        else:
-            return None, None
+        return self.generator.roll(p, numRolls)
