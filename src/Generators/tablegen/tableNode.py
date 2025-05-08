@@ -20,12 +20,13 @@ from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter, NodeMixin
 
 
 class tableNode(NodeMixin):
-    def __init__(self, name, parent=None, children=None, **kwargs):
+    def __init__(self, name, parent=None, children=None, uuid=None, **kwargs):
         self.__dict__.update(kwargs)
         self.name = name
         self.parent = parent
         if children:
             self.children = children
+        self.uuid = uuid
     def getNode(self, name, type=None):
         parent = self
         for c in parent.children:

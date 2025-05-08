@@ -66,7 +66,6 @@ class tableGroup(object):
     def __init__(self, tm, node):
         self.tm = tm
         self.node = node
-        self.stack = dict()
     def start(self):
         return self.run('Start')
 
