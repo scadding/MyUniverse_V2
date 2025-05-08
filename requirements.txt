@@ -24,3 +24,6 @@ zope.interface==6.1
 
 # Config
 configparser==7.1
+
+sqlalchemy
+
