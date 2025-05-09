@@ -273,21 +273,18 @@ class parseManager(object):
             tableName = self.parse(node, n[0])
             highroll = self.parse(node, n[1])
             sub, tnode = self.getSubAndNode(node, tableName)
-            table = tnode.table.table[sub]
-            highroll = str(table.index)
-            self.setVariable(node, highroll, str(table.index))
-            s = s + highroll
+            index = tnode.table.getCount(sub)
+            self.setVariable(node, highroll, str(index))
+            s = s + str(index)
         elif f == "find":
             tableName = self.parse(node, n[0])
             column = int(self.parse(node, n[1]))
-            value = self.parse(node, n[2])
+            value = self.parse(node, n[2]).strip()
             retcol = int(self.parse(node, n[3]))
             sub, tnode = self.getSubAndNode(node, tableName)
-            table = tnode.table.table[sub]
-            for line in table.values:
-                if table.values[line][column].strip() == value.strip():
-                    return table.values[line][retcol]
-
+            for line in tnode.table.getLines(sub):
+                if line[1][column] == value:
+                    return line[1][retcol].strip()
         else:
             p = list()
             for i in n:

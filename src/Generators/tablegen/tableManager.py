@@ -5,7 +5,6 @@ import os
 from stat import S_ISDIR, S_ISREG
 import random as rand
 import importlib
-import sqlite3 as lite
 from sqlalchemy import create_engine, text, MetaData, Connection, orm
 from sqlalchemy import Table, Column, Integer, String, Text, Uuid
 from sqlalchemy import select, column, func, table
@@ -35,7 +34,7 @@ class tableMgr(variableManager, parseManager):
             cls._instance.loaddb()
         return cls._instance
     def loaddb(self):
-        self.engine = create_engine("sqlite+pysqlite:///test.db", echo=False)
+        self.engine = create_engine(self.config.getValue("Data", "dbconnection"), echo=False)
         self.metadata_obj = MetaData()
         self.metadata_obj.reflect(self.engine)
         with self.engine.connect() as conn:
@@ -48,6 +47,8 @@ class tableMgr(variableManager, parseManager):
         statement = select(table.c.Node, table.c.Name).where(table.c.Parent == None)
         with orm.Session(self.engine) as session:
             row = session.execute(statement).first()
+            if not row:
+                return
             node.uuid = uuid.UUID(row[0])
             self.loadChildren(session, node)
     def loadChildren(self, session : orm.Session, parent : tableNode):
@@ -157,6 +158,7 @@ class tableMgr(variableManager, parseManager):
             conn.commit()
         for child in node.children:
             self.importNode(conn, child, node.uuid)
+        node.uuid = None
     def walktree(self, top : str, load=False, node=None):
         for filename in os.listdir(top):
             path = os.path.join(top, filename)
@@ -194,8 +196,11 @@ class tableMgr(variableManager, parseManager):
         if load:
             self.loadtable(node)
         return
-    def loadtable(self, node):
+    def loadtable(self, node : tableNode):
         node.loaded = True
+        if node.uuid:
+            node.table = tableDB(node, self)
+            return
         extension = os.path.splitext(node.filename)[1]
         if extension == '.tab' or extension == '.tml':
             node.table = tableFile(node.filename, self, node)
@@ -210,36 +215,21 @@ class tableMgr(variableManager, parseManager):
                 node.table.SetManager(self)
             return node.table
     def checkload(self, node):
-        if node.uuid:
-            return
         if not node.loaded:
             self.loadtable(node)
-    def rollDB(self, node):
+    def rollDB(self, node : tableNode, subTable = 'start'):
         return ''
-    def roll(self, node):
+    def roll(self, node : tableNode):
         if type(node) != tableNode:
             raise TypeError
         self.checkload(node)
         s = ''
-        if node.uuid:
-            s = self.rollDB(node)
-        elif node.table:
+        if node.table:
             s = node.table.start()
             s = self.parse(node, s)
         self.printVariableTree()
         self.clearVariables(node)
         return s
-    def run(self, node, sub='Start', roll=-1, column=0):
-        self.checkload(node)
-        s = node.table.run(sub, roll, column)
-        s = self.parse(node, s)
-        return s
-    def get_random_index(self, node, sub="Start"):
-        self.checkload(node)
-        return node.table.get_random_index(sub)
-    def getCount(self, node, sub="Start"):
-        self.checkload(node)
-        return node.table.getCount(sub)
     def saveState(self, node, path, name):
         variableNode = self.getVariableNode(self.current, node)
         rootVariableNode = self.getVariableNode(self.base, node)

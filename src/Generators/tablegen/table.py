@@ -1,20 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import os
 from stat import S_ISDIR, S_ISREG
 import re
 import random as rand
-import importlib
-import importlib.machinery
+import uuid
+from sqlalchemy import create_engine, text, MetaData, Connection, orm
+from sqlalchemy import Table, Column, Integer, String, Text, Uuid
+from sqlalchemy import select, column, func, table
 import csv
-from optparse import OptionParser
-from src.Generators.tablegen import tableFunctions
-import pyparsing
-import sqlite3 as lite
 import sys
 import codecs
-from src.Configuration import Configuration
+from src.Generators.tablegen.tableNode import tableNode
 
 from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter, NodeMixin
 
@@ -71,56 +68,77 @@ class tableGroup(object):
 
 
 class tableDB(tableGroup):
-    def __init__(self, table, genre, con):
-        self.con = con
-        self.table = table
-        self.genre = genre
-        cur = con.cursor()
-        cur.execute("SELECT SubTableName, Type, Length FROM Tables WHERE " +
-                    "TableName == \"%s\"" % (table))
-        self.length = dict()
-        self.type = dict()
-        for sub, t, l in cur.fetchall():
-            self.length[sub] = l
-            self.type[sub] = t
+    def __init__(self, node : tableNode, tm):
+        tableGroup.__init__(self, tm, node)
+        self.uuid = node.uuid
     def start(self):
         self.loadVariables()
         return self.run()
     def loadVariables(self):
-        cur = self.con.cursor()
-        cur.execute("SELECT Name, Value FROM TableVariables WHERE TableName == \"%s\"" % self.table)
-        for var, value in cur.fetchall():
-            self.currentstack[var] = value
-            self.tm.setBaseVariable(self.node.var, value)
+        table = self.tm.metadata_obj.tables['TableVariables']
+        statement = select(table.c.Name, table.c.Value).where(table.c.Node == self.uuid)
+        with orm.Session(self.tm.engine) as session:
+            for row in session.execute(statement):
+                self.tm.setBaseVariable(self.node, row[0], row[1])
+    def getType(self, t):
+        table = self.tm.metadata_obj.tables['Tables']
+        statement = select(table.c.Type).where(table.c.Node == self.uuid).where(table.c.SubTableName == t)
+        with orm.Session(self.tm.engine) as session:
+            for row in session.execute(statement):
+                return row[0]
+        return 0
+    def getCount(self, t):
+        table = self.tm.metadata_obj.tables['Tables']
+        statement = select(table.c.Length).where(table.c.Node == self.uuid).where(table.c.SubTableName == t)
+        with orm.Session(self.tm.engine) as session:
+            for row in session.execute(statement):
+                return row[0]
+        return 0
+    def getLines(self, t='Start'):
+        retval = list()
+        table = self.tm.metadata_obj.tables['TableLines']
+        statement = select(table.c.Roll, table.c.Line).where(table.c.Node == self.uuid).where(table.c.SubTableName == t).order_by(table.c.Roll)
+        isCsv = self.getType(t)
+        with orm.Session(self.tm.engine) as session:
+            for row in session.execute(statement):
+                l = list()
+                if isCsv:
+                    l.append(row[0])
+                    tmp = row[1].split(',')
+                    t = list()
+                    for e in tmp:
+                        t.append(e.strip())
+                    l.append(t)
+                else:
+                    l.append(row[0])
+                    l.append(row[1])
+                retval.append(l)
+        return retval
     def run(self, t='Start', roll=-1, column=0):
         retVal = u''
-        if t in self.length:
-            if self.length[t] == 0:
-                return ''
-            if roll == -1:
-                roll = self.get_random_index(t)
-            cur = self.con.cursor()
-            cur.execute("select Line from TableLines where TableName == \"%s\" and SubTableName == \"%s\" and Roll >= %d ORDER BY Roll Limit 1" % (self.table, t, roll))
-            for Line in cur.fetchall():
-                retVal = Line[0]
-            if self.type[t] == 'csv':
-                l = retVal.split(',')
-                if len(l) < (column + 1):
-                    retVal = ''
-                else:
-                    retVal = l[column].strip()
-            return retVal
+        length = self.getCount(t)
+        if length == 0:
+            return ''
+        if roll == -1:
+            roll = rand.randrange(length) + 1
+        table = self.tm.metadata_obj.tables['TableLines']
+        statement = select(table.c.Line).where(table.c.Node == self.uuid).where(table.c.SubTableName == t).where(table.c.Roll >= roll).order_by(table.c.Roll)
+        with orm.Session(self.tm.engine) as session:
+            row = session.execute(statement).first()
+            retVal = row[0]
+        if self.getType(t) == 'csv':
+            l = retVal.split(',')
+            if len(l) < (column + 1):
+                retVal = ''
+            else:
+                retVal = l[column].strip()
+        return retVal
         print('Error: *** No [' + t + '] Table***', file=sys.stderr)
         return ''
     def get_random_index(self, t='Start'):
         if t in self.length:
-            #print 'length -', self.table, '-', t, '-', self.length[t]
             return rand.randrange(self.length[t]) + 1
         return -1
-    def getCount(self, t='Start'):
-        if t in self.length:
-            return self.length[t]
-        return 0
 
 class tableFile(tableGroup):
     comment = re.compile(r'^\s*#.*$')
@@ -190,7 +208,7 @@ class tableFile(tableGroup):
         elif m8: # variable declaration
             self.tm.setBaseVariable(self.node, m8.group(1), m8.group(2))
         elif m8a: # variable declaration
-            self.tm.setBaseVariable(m8a.group(1), m8a.group(2))
+            self.tm.setBaseVariable(self.node, m8a.group(1), m8a.group(2))
         elif m9: #parameter declaration
             pass
         elif m10: #pragma declaration
@@ -218,35 +236,4 @@ class tableFile(tableGroup):
         if self.table.get(t):
             return self.table[t].getCount()
         return 0
-    def importTable(self, genre, table, cur):
-        for i in self.table:
-            Type = 'table'
-            if self.table[i].csvflag:
-                Type = 'csv'
-            cur.execute("INSERT INTO Tables VALUES('%s', '%s', '%s', '%s', %d)" % (genre, table, i, Type, self.table[i].getCount()))
-            for j in self.table[i].values:
-                value = ''
-                index = 0
-                if self.table[i].values[j].__class__.__name__ == 'dict':
-                    for k in self.table[i].values[j]:
-                        if index > 0:
-                            value = value + ', '
-                        value = value + self.table[i].values[j][k]
-                        index = index + 1
-                        value = value.replace('"', '\'')
-                elif self.table[i].values[j].__class__.__name__ == 'list':
-                    for k in self.table[i].values[j]:
-                        if index > 0:
-                            value = value + ', '
-                        value = value + k
-                        index = index + 1
-                        value = value.replace('"', '\'')
-                else:
-                    print(self.table[i].values[j].__class__.__name__)
-                cur.execute("INSERT INTO TableLines VALUES(\"%s\", \"%s\", %d, \"%s\")" % (table, i, j, value))
-        for k in self.stack:
-            print('variable', k, self.stack[k])
-            value = self.stack[k].replace('"', '\'')
-            cur.execute("INSERT INTO TableVariables VALUES(\"%s\", \"%s\", \"%s\")" % (table, k, value))
-
 
