@@ -236,4 +236,20 @@ class tableFile(tableGroup):
         if self.table.get(t):
             return self.table[t].getCount()
         return 0
+    def getLines(self, s='Start'):
+        retval = list()
+        for i in self.table[s].values:
+                l = list()
+                if self.table[s].csvflag:
+                    l.append(i)
+                    tmp = self.table[s].values[i]
+                    t = list()
+                    for e in tmp:
+                        t.append(e.strip())
+                    l.append(t)
+                else:
+                    l.append(i)
+                    l.append(self.table[s].values[i])
+                retval.append(l)
+        return retval
 

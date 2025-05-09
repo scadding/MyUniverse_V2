@@ -110,20 +110,19 @@ class tableMgr(variableManager, parseManager):
         with self.engine.connect() as conn:
             self.importNode(conn, self.tree)
             conn.commit()
-    def importTable(self, conn : Connection, node : tableNode):
+    def importTable(self, conn : Connection, node : tableNode, id : uuid):
         self.checkload(node)
         t : tableFile = node.table
-        self.importVariables(conn, node)
+        self.importVariables(conn, node, id)
         for subTable in t.table:
-            self.importSubTable(conn, subTable, node)
-    def importSubTable(self, conn : Connection, name, node : tableNode):
+            self.importSubTable(conn, subTable, node, id)
+    def importSubTable(self, conn : Connection, name, node : tableNode, id : uuid):
         subTable = node.table.table[name]
         if subTable.csvflag:
             ttype = 'csv'
         else:
             ttype = 'continuous'
-        statement = self.metadata_obj.tables['Tables'].insert().values(Node=node.uuid, TableName=node.name, SubTableName=name, Type=ttype, Length=subTable.index)
-        compiled = statement.compile()
+        statement = self.metadata_obj.tables['Tables'].insert().values(Node=id, TableName=node.name, SubTableName=name, Type=ttype, Length=subTable.index)
         conn.execute(statement)
         for index in subTable.values:
             if not  subTable.csvflag:
@@ -136,29 +135,25 @@ class tableMgr(variableManager, parseManager):
                         line = line + ', '
                     line = line + k
                     i += 1
-            statement = self.metadata_obj.tables['TableLines'].insert().values(Node=node.uuid, TableName=node.name, SubTableName=name, Roll=index, Line=line)
-            compiled = statement.compile()
+            statement = self.metadata_obj.tables['TableLines'].insert().values(Node=id, TableName=node.name, SubTableName=name, Roll=index, Line=line)
             conn.execute(statement)
-    def importVariables(self, conn : Connection, node : tableNode):
+    def importVariables(self, conn : Connection, node : tableNode, id : uuid):
         rootVariableNode = self.getVariableNode(self.base, node)
         for name in rootVariableNode.variabledict:
             value = rootVariableNode.variabledict[name]
-            statement = self.metadata_obj.tables['TableVariables'].insert().values(Node=node.uuid, TableName=node.name, Name=name, Value=value)
-            compiled = statement.compile()
+            statement = self.metadata_obj.tables['TableVariables'].insert().values(Node=id, TableName=node.name, Name=name, Value=value)
             conn.execute(statement)
     def importNode(self, conn : Connection, node : tableNode, parent : uuid=None):
-        node.uuid = uuid.uuid4()
+        id = uuid.uuid4()
         self.metadata_obj.tables['Nodes']
-        statement = self.metadata_obj.tables['Nodes'].insert().values(Node=node.uuid, Name=node.name, Parent=parent)
-        compiled = statement.compile()
+        statement = self.metadata_obj.tables['Nodes'].insert().values(Node=id, Name=node.name, Parent=parent)
         conn.execute(statement)
         if node.is_leaf and node.type == "tab":
-            self.importTable(conn, node)
-            print(node.filename)
+            print('imorting table - %s' % node.filename)
+            self.importTable(conn, node, id)
             conn.commit()
         for child in node.children:
-            self.importNode(conn, child, node.uuid)
-        node.uuid = None
+            self.importNode(conn, child, parent=id)
     def walktree(self, top : str, load=False, node=None):
         for filename in os.listdir(top):
             path = os.path.join(top, filename)
