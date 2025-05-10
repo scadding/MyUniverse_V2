@@ -7,8 +7,8 @@
 1,a smudge of [[impromptuInk]]
 1,[[Marks]] in the [[MarkLocales]]
 1,[[leftpaper2]] piece of [[papertype]] [[leftpaper]]
-1,shaved bits of {{ia|[[Utility.HornIvory]]}}
-1,filings perhaps of [[Utility.Metal]]
+1,shaved bits of {{ia|[[Tables.Utility.HornIvory]]}}
+1,filings perhaps of [[Tables.Utility.Metal]]
 
 
 #these may be more 'stuff' and belong in Sights
@@ -24,25 +24,25 @@
 1,strange symbols drawn
 
 ;ArcanistLeavings
-1,[[leftorgan]] [[MonsterParts.Organs]]
-1,[[leftliquid]] [[MonsterParts.Liquids]]
-1,a small amount of [[MonsterParts.DryGoods]]
-1,a pinch of powdered [[MonsterParts.Powders]]
+1,[[leftorgan]] [[Tables.Utility.MonsterParts.Organs]]
+1,[[leftliquid]] [[Tables.Utility.MonsterParts.Liquids]]
+1,a small amount of [[Tables.Utility.MonsterParts.DryGoods]]
+1,a pinch of powdered [[Tables.Utility.MonsterParts.Powders]]
 
 ;MaterialLeftovers
-1,[[leftfabric]] [[Utility.Cloth]]
-1,[[leftfabric]] [[Utility.LeatherHide]]
-1,[[leftwood]] [[Utility.Wood]]
-1,[[leftstone]] [[Utility.StoneDecorative]]
+1,[[leftfabric]] [[Tables.Utility.Cloth]]
+1,[[leftfabric]] [[Tables.Utility.LeatherHide]]
+1,[[leftwood]] [[Tables.Utility.Wood]]
+1,[[leftstone]] [[Tables.Utility.StoneDecorative]]
 
 ;FoodStuffs
-1,[[leftfruit]] [[Utility.Fruit]]
-1,[[leftfood]] {{lc:[[FantasyMenu.MainMeals]]}}
+1,[[leftfruit]] [[Tables.Utility.Fruit]]
+1,[[leftfood]] {{lc:[[Tables.Food.FantasyMenu.MainMeals]]}}
 
 ;AnimalTraces
-1,a single scale from {{ia|[[Animal.fantasyScaled]]}}
-1,a bit of hair from {{ia|[[Animal.fantasyFurred]]}}
-1,[[leftanimaltrace]] {{ia|[[Animal.fantasyLand]]}}
+1,a single scale from {{ia|[[Tables.Animals.Animal.fantasyScaled]]}}
+1,a bit of hair from {{ia|[[Tables.Animals.Animal.fantasyFurred]]}}
+1,[[leftanimaltrace]] {{ia|[[Tables.Animals.Animal.fantasyLand]]}}
 
 ;impromptuInk
 1,mud
@@ -57,9 +57,9 @@
 
 ;leftpaper
 2,
-1,with some letters in [[Utility.RuneLanguage]] on it
+1,with some letters in [[Tables.Utility.RuneLanguage]] on it
 1,with a blot of [[Tables.Utility.Color.all]] ink
-1,with the words ''[[Magic Incantation.Start]]'' [[WriteTypes]]
+1,with the words ''[[Tables.Magic.Magic Incantation.Start]]'' [[WriteTypes]]
 
 ;WriteTypes
 1,scrawled on it [[sometimesink]]

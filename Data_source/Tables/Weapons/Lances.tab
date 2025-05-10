@@ -1,7 +1,7 @@
 
 ;Start
-5,[[HaftedWeapons.Quality]] [[LanceType]] lance made of [[Utility.WoodWeapon]]. [[LanceDecor]][[Weapon.MilitaryIssueChance]]
-2,[[HaftedWeapons.Quality]] [[LanceType]] lance made of [[Utility.WoodWeapon]] and tipped with [[Utility.MetalWeapon]]. [[LanceDecor]][[Weapon.MilitaryIssueChance]]
+5,[[HaftedWeapons.Quality]] [[LanceType]] lance made of [[Tables.Utility.WoodWeapon]]. [[LanceDecor]][[Weapon.MilitaryIssueChance]]
+2,[[HaftedWeapons.Quality]] [[LanceType]] lance made of [[Tables.Utility.WoodWeapon]] and tipped with [[Tables.Utility.MetalWeapon]]. [[LanceDecor]][[Weapon.MilitaryIssueChance]]
 
 ;StartNoDescription
 1,[[LanceType]] lance
@@ -14,7 +14,7 @@
 
 ;LanceDecor
 6,
-3,The lance has a[[StreamerQuality]] streamer of[[StreamerColor]] [[Utility.ClothFancy]].
+3,The lance has a[[StreamerQuality]] streamer of[[StreamerColor]] [[Tables.Utility.ClothFancy]].
 3,The lance has been painted with spiraling [[Tables.Utility.Color.dark]] and [[Tables.Utility.Color.bright]].
 1,The lance is painted solid [[Tables.Utility.Color.bright]].
 1,The lance is painted solid [[Tables.Utility.Color.dark]].
@@ -30,12 +30,12 @@
 
 ;StreamerColor
 1,
-1, [[Utility.DarkColors]]
-1, [[Utility.DarkColors]] and [[Utility.BrightColors]]
-1, [[Utility.DarkColors]] and [[Utility.LightColors]]
-1, [[Utility.DullColors]]
-1, [[Utility.DullColors]] and [[Utility.BrightColors]]
-1, [[Utility.BrightColors]]
-1, [[Utility.LightColors]]
+1, [[Tables.Utility.DarkColors]]
+1, [[Tables.Utility.DarkColors]] and [[Tables.Utility.BrightColors]]
+1, [[Tables.Utility.DarkColors]] and [[Tables.Utility.LightColors]]
+1, [[Tables.Utility.DullColors]]
+1, [[Tables.Utility.DullColors]] and [[Tables.Utility.BrightColors]]
+1, [[Tables.Utility.BrightColors]]
+1, [[Tables.Utility.LightColors]]
 
 

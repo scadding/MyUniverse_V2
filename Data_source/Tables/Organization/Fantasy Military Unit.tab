@@ -5,8 +5,8 @@
 
 ;Whose
 1,[[NobilityRank]]'s Own
-2,[[Fantasy Names.MaleFirstName]]'s
-1,[[Fantasy Names.FemaleFirstName]]'s
+2,[[Tables.Names.Fantasy Names.MaleFirstName]]'s
+1,[[Tables.Names.Fantasy Names.FemaleFirstName]]'s
 
 ;ArmyOrdinal
 13,[[OrdinalNumber]]
@@ -82,7 +82,7 @@
 2,[[HaftedWeapons.FlailType]]
 8,[[HaftedWeapons.PolearmType]]
 8,[[Swords.HiltedSwordType]]
-6,[[Bows.BowType]]
+6,[[Tables.Weapons.Bows.BowType]]
 3,[[XBows.XBowType]]
 
 ;HumanUnusualSteed
@@ -141,8 +141,8 @@
 1,[[HumanUnusualSteed]] Cavalry
 8,[[LightHeavy]]
 9,[[LightHeavy]] [[Steed]]
-4,[[LightHeavy]] [[Utility.TerrainsCap]] Assault
-8,[[LightHeavy]] [[Utility.TerrainsCap]] Warfare
+4,[[LightHeavy]] [[Tables.Utility.TerrainsCap]] Assault
+8,[[LightHeavy]] [[Tables.Utility.TerrainsCap]] Warfare
 1,[[LightHeavy]] Amphibious Assault
 2,[[LightHeavy]] Amphibious Warfare
 7,[[LightHeavy]] Arcane Warfare
@@ -170,7 +170,7 @@
 1,Borderguard
 5,Commando
 3,Counter-[[Counter]]
-5,Counter-[[Utility.CreatureTypes]] Warfare
+5,Counter-[[Tables.Utility.CreatureTypes]] Warfare
 2,Covert Operations
 1,Disruption
 1,Divine
@@ -266,7 +266,7 @@
 
 ;Mascot
 1,[[MascotAnimal]]
-5,[[Utility.TerrainsCap]] [[MascotAnimal]]s
+5,[[Tables.Utility.TerrainsCap]] [[MascotAnimal]]s
 10,[[MascotModifier]] [[MascotAnimal]]s
 10,[[MascotAnimal]]s of [[MascotObject]]
 
@@ -406,8 +406,8 @@
 10,Black
 10,Blood
 10,Dark
-8,[[GheronUtility.Cities]]'s
-3,[[GheronUtility.DietyNonEvil]]'s
+8,[[Tables.Utility.GheronUtility.Cities]]'s
+3,[[Tables.Utility.GheronUtility.DietyNonEvil]]'s
 4,[[NobilityRank]]'s
 1,Almighty
 2,Avenging
@@ -425,7 +425,7 @@
 1,Creeping
 1,Crouching
 1,Dauntless
-1,Deep[[Utility.Terrains]]
+1,Deep[[Tables.Utility.Terrains]]
 2,Deepwood
 1,Destroying
 1,Determined
@@ -489,11 +489,11 @@
 2,Winter
 
 ;MascotObject
-10,[[GheronUtility.Cities]]
-8,[[GheronUtility.DietyNonEvil]]
-1,[[GheronUtility.DietyNonEvil]]'s anger
-1,[[GheronUtility.DietyNonEvil]]'s justice
-1,[[GheronUtility.DietyNonEvil]]'s wrath
+10,[[Tables.Utility.GheronUtility.Cities]]
+8,[[Tables.Utility.GheronUtility.DietyNonEvil]]
+1,[[Tables.Utility.GheronUtility.DietyNonEvil]]'s anger
+1,[[Tables.Utility.GheronUtility.DietyNonEvil]]'s justice
+1,[[Tables.Utility.GheronUtility.DietyNonEvil]]'s wrath
 1,Annihilation
 4,Attack
 8,Battle
@@ -530,7 +530,7 @@
 1,Silver
 2,Steel
 1,Stone
-8,the [[Utility.TerrainsCap]]
+8,the [[Tables.Utility.TerrainsCap]]
 3,the Darkness
 1,the Deep
 5,the Night

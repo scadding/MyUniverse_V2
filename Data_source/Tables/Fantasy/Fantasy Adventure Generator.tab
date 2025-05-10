@@ -67,8 +67,8 @@
 3,the slums
 10,a tavern or inn
 10,a temple or church
-15,[[Art Grace and Guts Oracle.Locations Lcase]]
-4,[[Poetic Destinations.Start]]
+15,[[Tables.Oracles.Art Grace and Guts Oracle.Locations Lcase]]
+4,[[Tables.Places.Poetic Destinations.Start]]
 
 ;AlliesNeutrals
 2,Absent-minded expert
@@ -116,7 +116,7 @@
 2,Moronic muscleman
 2,Single-minded soldier
 1,Snivelling vizier
-1,[[Secret Society Title.SecretSocietyName]]
+1,[[Tables.Organization.Secret Society Title.SecretSocietyName]]
 1,Corrupted relative
 
 ;Plot

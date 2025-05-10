@@ -15,12 +15,12 @@
 ;Thrown
 25,[[Dart]]
 45,[[Javelin]]
-2,A boomerang made of [[Utility.WoodWeapon]] wood
+2,A boomerang made of [[Tables.Utility.WoodWeapon]] wood
 2,[[Bola]]
 1,[[boomerang]]
 
 ;Arrow
-1,[[Tables.Utility.Dice.1d3]][[Tables.Utility.Dice.digit]] [[ArrowType]] with shafts of [[Utility.WoodWeapon]] wood [[ShaftColor]] and [[Fletching]]
+1,[[Tables.Utility.Dice.1d3]][[Tables.Utility.Dice.digit]] [[ArrowType]] with shafts of [[Tables.Utility.WoodWeapon]] wood [[ShaftColor]] and [[Fletching]]
 
 ;ArrowType
 20,arrows
@@ -45,7 +45,7 @@
 12,painted [[Tables.Utility.Color.dark]]
 4,painted [[Tables.Utility.Color.dull]]
 4,painted [[Tables.Utility.Color.bright]]
-1,engraved with runes in [[Utility.RuneLanguage]]
+1,engraved with runes in [[Tables.Utility.RuneLanguage]]
 1,engraved with knotwork
 
 ;Fletching
@@ -58,7 +58,7 @@
 1,[[Tables.Utility.Color.bright]]
 
 ;Bolt
-1,[[Tables.Utility.Dice.1d3]][[Tables.Utility.Dice.digit]] [[BoltType]] with shafts of [[Utility.WoodWeapon]] wood [[ShaftColor]] and [[Fletching]]
+1,[[Tables.Utility.Dice.1d3]][[Tables.Utility.Dice.digit]] [[BoltType]] with shafts of [[Tables.Utility.WoodWeapon]] wood [[ShaftColor]] and [[Fletching]]
 
 ;BoltType
 100,crossbow bolts
@@ -76,9 +76,9 @@
 1,great blowgun darts
 
 ;Javelin
-3,[[Tables.Utility.Dice.2d6]] [[JavelinType]] made of [[Utility.WoodWeapon]] wood with [[Fletching]]
-6,[[Tables.Utility.Dice.2d6]] [[JavelinType]] made of [[Utility.WoodWeapon]] wood tipped with [[Utility.MetalWeapon]]
-2,[[Tables.Utility.Dice.2d6]] [[JavelinType]] made of [[Utility.WoodWeapon]] wood tipped with [[Utility.MetalWeapon]] with [[Fletching]]
+3,[[Tables.Utility.Dice.2d6]] [[JavelinType]] made of [[Tables.Utility.WoodWeapon]] wood with [[Fletching]]
+6,[[Tables.Utility.Dice.2d6]] [[JavelinType]] made of [[Tables.Utility.WoodWeapon]] wood tipped with [[Tables.Utility.MetalWeapon]]
+2,[[Tables.Utility.Dice.2d6]] [[JavelinType]] made of [[Tables.Utility.WoodWeapon]] wood tipped with [[Tables.Utility.MetalWeapon]] with [[Fletching]]
 
 ;JavelinType
 10,javelins
@@ -94,7 +94,7 @@
 1,barbed bola
 
 ;boomerang
-1,A [[boomerangtype]] made of [[Utility.WoodWeapon]] with [[boomerangedge]] edge.
+1,A [[boomerangtype]] made of [[Tables.Utility.WoodWeapon]] with [[boomerangedge]] edge.
 
 ;boomerangtype
 1,hunting boomerang
@@ -103,7 +103,7 @@
 5,blunt
 15,sharpened
 1,razor
-1,[[Utility.MetalWeapon]]
+1,[[Tables.Utility.MetalWeapon]]
 1,battered
 1,bloody
 

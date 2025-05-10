@@ -25,7 +25,7 @@ _
 _<h2>Random Civiliations</h2>
 _<sgdisplay iterations="3">
 _<b>Name:</b> [[Civilization_Name]]<br/>
-_<b>Description:</b> [[Bleakworld.Temperature]], [[Bleakworld.Colour]] [[Bleakworld.Terrain]] world [[Bleakworld.Function]]<br/>
+_<b>Description:</b> [[Tables.Places.Bleakworld.Temperature]], [[Tables.Places.Bleakworld.Colour]] [[Tables.Places.Bleakworld.Terrain]] world [[Tables.Places.Bleakworld.Function]]<br/>
 _<b>Core Values:</b> [[Core_Value]] and [[Core_Value]]<br/>
 _<b>Inspector Status:</b> [[Inspector_Status]]<br/>
 _</sgdisplay>
@@ -118,24 +118,24 @@ _</sgdisplay>
 1,you will have to use your best judgment
 
 ;Civilization_Name
-4,[[Fantasy Names.MaleFirstName]]
-4,[[Arabesque Names.Start]]
+4,[[Tables.Names.Fantasy Names.MaleFirstName]]
+4,[[Tables.Names.Arabesque Names.Start]]
 2,[[Aztec Names.Start]]
-3,[[Centaur Names.Male]]
-3,[[Centaur Names.Female]]
+3,[[Tables.Names.Centaur Names.Male]]
+3,[[Tables.Names.Centaur Names.Female]]
 1,[[Ancient Greek Female Names.Start]]
 1,[[Ancient Greek Island Names.Start]]
 1,[[Ancient Greek Male Names.Start]]
-5,[[SGNP orcish.Start]]
-5,[[Fantasy barbarian names.Female]]
-5,[[Fantasy barbarian names.Male]]
-2,[[Afrika Names.Start]]
-1,[[SGNP norse.female1]]
-1,[[SGNP norse.female2]]
-1,[[SGNP norse.female3]]
-1,[[SGNP norse.male1]]
-1,[[SGNP norse.male2]]
-1,[[SGNP norse.male3]]
+5,[[Tables.SGNP.SGNP orcish.Start]]
+5,[[Tables.Fantasy.Fantasy barbarian names.Female]]
+5,[[Tables.Fantasy.Fantasy barbarian names.Male]]
+2,[[Tables.Names.Afrika Names.Start]]
+1,[[Tables.SGNP.SGNP norse.female1]]
+1,[[Tables.SGNP.SGNP norse.female2]]
+1,[[Tables.SGNP.SGNP norse.female3]]
+1,[[Tables.SGNP.SGNP norse.male1]]
+1,[[Tables.SGNP.SGNP norse.male2]]
+1,[[Tables.SGNP.SGNP norse.male3]]
 
 ;Core_Value
 1,Accountability

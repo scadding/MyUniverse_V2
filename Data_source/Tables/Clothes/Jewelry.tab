@@ -29,16 +29,16 @@
 1,[[JewelryMaterialClause]] [[Item]]
 
 ;Predicate
-4, set with {{ia|[[Utility.GemType]]}}. [[Craftsmanship]]
-3, set with {{plural|[[Tables.Utility.Dice.2d6]] [[Utility.GemType]]}}. [[Craftsmanship]]
+4, set with {{ia|[[Tables.Utility.GemType]]}}. [[Craftsmanship]]
+3, set with {{plural|[[Tables.Utility.Dice.2d6]] [[Tables.Utility.GemType]]}}. [[Craftsmanship]]
 4, [[Design]]. [[Craftsmanship]]
-2, [[Design]] and set with {{ia|[[Utility.GemType]]}}. [[Craftsmanship]]
-2, [[Design]] and set with {{plural|[[Tables.Utility.Dice.2d6]] [[Utility.GemType]]}}. [[Craftsmanship]]
-4, with [[Utility.Symbols]]. [[Craftsmanship]]
-2, with [[Utility.Symbols]] and set with {{ia|[[Utility.GemType]]}}. [[Craftsmanship]]
-2, with [[Utility.Symbols]] and set with {{plural|[[Tables.Utility.Dice.1d12]] [[Utility.GemType]]}}. [[Craftsmanship]]
-2, with the inscription "[[Inscriptions.Start]]" written in [[Inscriptions.Language]]. [[Craftsmanship]]
-2, with the inscription "[[Inscriptions.Start]]" written in [[Inscriptions.Language]] and set with {{plural|[[Tables.Utility.Dice.2d6]] [[Utility.GemType]]}}. [[Craftsmanship]]
+2, [[Design]] and set with {{ia|[[Tables.Utility.GemType]]}}. [[Craftsmanship]]
+2, [[Design]] and set with {{plural|[[Tables.Utility.Dice.2d6]] [[Tables.Utility.GemType]]}}. [[Craftsmanship]]
+4, with [[Tables.Utility.Symbols]]. [[Craftsmanship]]
+2, with [[Tables.Utility.Symbols]] and set with {{ia|[[Tables.Utility.GemType]]}}. [[Craftsmanship]]
+2, with [[Tables.Utility.Symbols]] and set with {{plural|[[Tables.Utility.Dice.1d12]] [[Tables.Utility.GemType]]}}. [[Craftsmanship]]
+2, with the inscription "[[Tables.Utility.Inscriptions.Start]]" written in [[Tables.Utility.Inscriptions.Language]]. [[Craftsmanship]]
+2, with the inscription "[[Tables.Utility.Inscriptions.Start]]" written in [[Tables.Utility.Inscriptions.Language]] and set with {{plural|[[Tables.Utility.Dice.2d6]] [[Tables.Utility.GemType]]}}. [[Craftsmanship]]
 
 ;StartWearableOnly
 4,[[JewelryMaterialClause]] [[Wearable]], [[Predicate]]
@@ -331,9 +331,9 @@
 1,[[DesignForm]] with strange symbols
 1,[[DesignForm]] with concentric circles
 1,[[DesignForm]] with a twisting, vine-like pattern
-4,inlaid with a pattern of [[Utility.MetalPrecious]]
-1,inlaid with a pattern of [[Utility.MetalExotic]]
-1,[[DesignForm]] with an ancient proverb: "[[Inscriptions.Advice]]"
+4,inlaid with a pattern of [[Tables.Utility.MetalPrecious]]
+1,inlaid with a pattern of [[Tables.Utility.MetalExotic]]
+1,[[DesignForm]] with an ancient proverb: "[[Tables.Utility.Inscriptions.Advice]]"
 1,[[DesignForm]] with a dragon-like shape
 1,[[DesignForm]] with the likeness of an ancient king
 1,[[DesignForm]] with the figures of the old gods
@@ -342,16 +342,16 @@
 1,[[DesignForm]] with the figure of naked woman
 1,covered in a web-like pattern of [[DesignForm]] lines
 1,[[DesignForm]] with an image of the sun
-1,inlaid with [[Utility.StoneDecorative]]
-1,inlaid with [[Utility.Chitin]] chitin
-1,inlaid with [[Utility.HornIvory]]
+1,inlaid with [[Tables.Utility.StoneDecorative]]
+1,inlaid with [[Tables.Utility.Chitin]] chitin
+1,inlaid with [[Tables.Utility.HornIvory]]
 4,[[DesignForm]] with folk symbols said to [[FolkSymbolEffects]]
-3,[[DesignForm]] with [[SpiritForm.Start]]
-1,[[DesignForm]] with the name of the creature whose essence is in it: [[SGNP angels and demons.Start]]
-1,with [[Utility.MetalPrecious]] inlay
-1,with [[Utility.MetalPrecious]] filigree
-1,with [[Utility.MetalPrecious]] mounting in the shape of [[SpiritForm.Start]]
-1,with [[Utility.MetalPrecious]] accents
+3,[[DesignForm]] with [[Tables.Religion.SpiritForm.Start]]
+1,[[DesignForm]] with the name of the creature whose essence is in it: [[Tables.SGNP.SGNP angels and demons.Start]]
+1,with [[Tables.Utility.MetalPrecious]] inlay
+1,with [[Tables.Utility.MetalPrecious]] filigree
+1,with [[Tables.Utility.MetalPrecious]] mounting in the shape of [[Tables.Religion.SpiritForm.Start]]
+1,with [[Tables.Utility.MetalPrecious]] accents
 
 
 ;DesignForm
@@ -382,7 +382,7 @@
 2,protect against lycanthropes
 1,protect against the evil eye
 2,protect against the undead
-1,protect the owner against [[Utility.CreatureTypes]]s
+1,protect the owner against [[Tables.Utility.CreatureTypes]]s
 1,protect the owner from drowning
 1,protect the owner from lightning
 1,ward against evil spirits
@@ -390,12 +390,12 @@
 5,ward off evil
 
 ;JewelryMaterial
-1,[[Utility.Chitin]] chitin
-40,[[Utility.MetalPrecious]]
-3,[[Utility.MetalExotic]]
-3,[[Utility.StoneDecorative]]
-3,[[Utility.HornIvory]]
-4,[[Utility.MetalPrecious]] and [[JewelryMaterial]]
+1,[[Tables.Utility.Chitin]] chitin
+40,[[Tables.Utility.MetalPrecious]]
+3,[[Tables.Utility.MetalExotic]]
+3,[[Tables.Utility.StoneDecorative]]
+3,[[Tables.Utility.HornIvory]]
+4,[[Tables.Utility.MetalPrecious]] and [[JewelryMaterial]]
 
 ;Craftsmanship
 7,
@@ -438,9 +438,9 @@
 ;ValueDerivation
 1,Much of the piece's value comes from the fact that it is obviously quite old.
 1,Much of the piece's value comes from the rarity of the style it is done in.
-1,Much of the piece's value is due to the fame of the crafter, [[Fantasy Names.Start]].
-1,Much of its value stems from the fact that it was famously owned by [[Fantasy Names.Start]].
-1,The piece is valuable because it was involved in [[Art Grace and Guts Oracle.Events Lcase]].
-1,The piece would be worth much less had it not been used to deter [[Art Grace and Guts Oracle.Threats Lcase]].
+1,Much of the piece's value is due to the fame of the crafter, [[Tables.Names.Fantasy Names.Start]].
+1,Much of its value stems from the fact that it was famously owned by [[Tables.Names.Fantasy Names.Start]].
+1,The piece is valuable because it was involved in [[Tables.Oracles.Art Grace and Guts Oracle.Events Lcase]].
+1,The piece would be worth much less had it not been used to deter [[Tables.Oracles.Art Grace and Guts Oracle.Threats Lcase]].
 
 

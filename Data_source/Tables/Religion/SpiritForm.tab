@@ -65,7 +65,7 @@
 1,brute
 1,young man
 1,old man
-1,[[Fantasy Profession.maleanyclass]]
+1,[[Tables.Fantasy.Fantasy Profession.maleanyclass]]
 
 ;HumanFormFemale
 4,woman
@@ -122,7 +122,7 @@
 1,an angry
 1,an armored
 1,an attractive
-5,[[Quick NPC.NPCDescriptor]]
+5,[[Tables.People.Quick NPC.NPCDescriptor]]
 
 
 ;AnimalForm

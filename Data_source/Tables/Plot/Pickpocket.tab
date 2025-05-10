@@ -71,8 +71,8 @@
 1,an old leather
 1,an ordinary
 1,an unremarkable
-1,a [[Utility.Cloth]]
-1,a [[Utility.RelativeSize]]
+1,a [[Tables.Utility.Cloth]]
+1,a [[Tables.Utility.RelativeSize]]
 10,a
 
 ;MidBagDescriptor
@@ -113,8 +113,8 @@
 1,an embroidered
 1,an ordinary
 1,an unremarkable
-1,a [[Utility.Cloth]]
-1,a [[Utility.RelativeSize]]
+1,a [[Tables.Utility.Cloth]]
+1,a [[Tables.Utility.RelativeSize]]
 1,a [[Tables.Utility.Color.dull]]
 10,a
 
@@ -158,10 +158,10 @@
 1,an indigo
 1,an ornate
 1,an ostentatious
-1,a [[Utility.ClothFancy]]
-1,a [[Utility.RelativeSize]]
-1,a [[Utility.LeatherColor]]
-1,a [[Utility.LeatherColor]] Leather
+1,a [[Tables.Utility.ClothFancy]]
+1,a [[Tables.Utility.RelativeSize]]
+1,a [[Tables.Utility.LeatherColor]]
+1,a [[Tables.Utility.LeatherColor]] Leather
 10,a
 
 ;Bag
@@ -182,16 +182,16 @@
 1,case
 
 ;NPCDescriptor
-1,[[Quick NPC.NPCDescriptor]]
+1,[[Tables.People.Quick NPC.NPCDescriptor]]
 
 ;PoorNPC
-1,[[Quick NPC.PoorNPC]]
+1,[[Tables.People.Quick NPC.PoorNPC]]
 
 ;MidNPC
-1,[[Quick NPC.MidNPC]]
+1,[[Tables.People.Quick NPC.MidNPC]]
 
 ;RichNPC
-1,[[Quick NPC.RichNPC]]
+1,[[Tables.People.Quick NPC.RichNPC]]
 
 ;JustOneThing
 1,[[OtherTables]]
@@ -203,7 +203,7 @@
 1,[[Swords.DaggerStart]]
 1,[[Jewelry.Start]]
 1,[[HerbalProducts.Start]]
-1,a book: [[FantasyBooks.Start]]
+1,a book: [[Tables.Fantasy.FantasyBooks.Start]]
 
 ;Pet
 10,a kitten
@@ -240,10 +240,10 @@
 
 ;Art
 1,[[Tables.Utility.Dice.1d10]] glass bead(s)
-1,a [[Utility.MetalPrecious]] figurine of [[Image]]
-1,a [[Utility.StoneDecorative]] figurine of [[Image]]
-1,a statuette of [[Image]] carved out of [[Utility.Wood]]
-1,a statuette of [[Image]] carved out of [[Utility.HornIvory]]
+1,a [[Tables.Utility.MetalPrecious]] figurine of [[Image]]
+1,a [[Tables.Utility.StoneDecorative]] figurine of [[Image]]
+1,a statuette of [[Image]] carved out of [[Tables.Utility.Wood]]
+1,a statuette of [[Image]] carved out of [[Tables.Utility.HornIvory]]
 1,a jade amulet carved with [[Decoration]]
 1,a small bag containing [[Tables.Utility.Dice.2d6]] crystal beads
 1,a small crystal prism
@@ -254,9 +254,9 @@
 
 ;CharmsReligion
 1,a pouch of incense
-1,a tarot card: [[Tarot Card Draw.Start]]
-1,a [[Utility.MetalPrecious]] statuette of a god ([[SpiritForm.DisplaySpirits]])
-1,a statuette of a god ([[SpiritForm.DisplaySpirits]]) carved out of [[Utility.Wood]]
+1,a tarot card: [[Tables.Magic.Tarot Card Draw.Start]]
+1,a [[Tables.Utility.MetalPrecious]] statuette of a god ([[Tables.Religion.SpiritForm.DisplaySpirits]])
+1,a statuette of a god ([[Tables.Religion.SpiritForm.DisplaySpirits]]) carved out of [[Tables.Utility.Wood]]
 1,a bit of holy text written on parchment
 1,a holy symbol
 1,a prayer book
@@ -399,7 +399,7 @@
 3,a paintbrush and several bottles of paint
 3,a sketchbook containing several excellent sketches of people and animals
 3,a blank book
-3,a book ([[FantasyBooks.Start]])
+3,a book ([[Tables.Fantasy.FantasyBooks.Start]])
 3,a diary
 3,a racy novel
 3,a scrap of blank parchment
@@ -449,7 +449,7 @@
 
 ;PoorMiscellaneous
 1,[[Tables.Utility.Dice.1d10]] glass bead(s)
-3,a statuette of [[Image]] carved out of [[Utility.Wood]]
+3,a statuette of [[Image]] carved out of [[Tables.Utility.Wood]]
 3,a half-whittled figurine of [[Image]] and a small carving knife
 1,a pair of weighted dice
 3,a pair of dice
@@ -581,8 +581,8 @@
 ;PrestigeItem
 1,Sealing wax and a seal with [[Decoration]]
 1,a badge of office
-1,an amulet indicating membership in an organization or society ([[Secret Society Title.SecretSocietyName]])
-1,a card indicating membership in an organization or  society ([[Secret Society Title.SecretSocietyName]])
+1,an amulet indicating membership in an organization or society ([[Tables.Organization.Secret Society Title.SecretSocietyName]])
+1,a card indicating membership in an organization or  society ([[Tables.Organization.Secret Society Title.SecretSocietyName]])
 1,a signet ring
 1,a medal
 1,a letter signed by a ruler giving authority to the bearer ([[Name]])
@@ -635,7 +635,7 @@
 1,a comb
 1,a curly wig
 1,a fur cap
-1,a cap made of [[Utility.Fur]] fur
+1,a cap made of [[Tables.Utility.Fur]] fur
 1,a glass eye
 1,a handkerchief embroidered with [[Decoration]]
 1,a hearing trumpet
@@ -679,7 +679,7 @@
 5,a piece of lapis lazuli
 5,a piece of malachite
 5,a piece of quartz
-5,a piece of [[Utility.Ornamental Stones]]
+5,a piece of [[Tables.Utility.Ornamental Stones]]
 1,a ruby
 1,an emerald
 1,[[Tables.Utility.Dice.3d6]] freshwater pearls
@@ -716,7 +716,7 @@
 3,a ruby
 1,a small bag containing [[Tables.Utility.Dice.3d6]] precious gems
 1,a small velvet-lined box containing a single perfect diamond
-1,a small velvet-lined box containing a single perfect [[Utility.Jewels]]
+1,a small velvet-lined box containing a single perfect [[Tables.Utility.Jewels]]
 1,a string of [[Tables.Utility.Dice.2d6]] white pearls
 3,an emerald
 3,[[Tables.Utility.Dice.2d6]] freshwater pearls
@@ -748,7 +748,7 @@
 5,a letter of advice from a former mentor
 5,a grocery list
 3,an inflammatory leaflet
-2,A heretical pamphlet decrieing the clergy of [[SpiritForm.DisplaySpirits]] 
+2,A heretical pamphlet decrieing the clergy of [[Tables.Religion.SpiritForm.DisplaySpirits]] 
 2,an address written on a slip of paper
 2,a single name written on a piece of paper
 2,a list of names
@@ -771,47 +771,47 @@
 2,a letter from an enemy
 1,a threatening letter
 2,a bit of parchment bearing these strange words: "[[Words of Wisdom.Start]]"
-2,a bit of parchment bearing this phrase: "[[Parable Title.Premise]]"
-1,a sheet of paper bearing the fable of [[Parable Title.Title]]
+2,a bit of parchment bearing this phrase: "[[Tables.Oracles.Parable Title.Premise]]"
+1,a sheet of paper bearing the fable of [[Tables.Oracles.Parable Title.Title]]
 1,a sheet of paper bearing the fable of [[1001 Nights Story Title.Title]]
 2,a list of phrases translated from [[LanguageTranslate]]
-2,a letter written in [[Utility.RuneLanguage]]
+2,a letter written in [[Tables.Utility.RuneLanguage]]
 3,an old well-read letter from a loved one
 
 ;LanguageTranslate
-1,Common to [[Utility.RuneLanguage]]
-1,[[Utility.RuneLanguage]] to Common
-1,[[Utility.RuneLanguage]] to [[Utility.RuneLanguage]]
+1,Common to [[Tables.Utility.RuneLanguage]]
+1,[[Tables.Utility.RuneLanguage]] to Common
+1,[[Tables.Utility.RuneLanguage]] to [[Tables.Utility.RuneLanguage]]
 
 ;Decoration
 1,a family crest
-1,the image of [[Utility.AnimalSymbol]]
-1,the image of [[Utility.CreatureSymbol]]
-1,the image of [[Utility.PlantSymbol]]
-1,the image of [[SpiritForm.DisplaySpirits]]
-1,a simple [[Utility.GeometricSymbol]]
+1,the image of [[Tables.Utility.AnimalSymbol]]
+1,the image of [[Tables.Utility.CreatureSymbol]]
+1,the image of [[Tables.Utility.PlantSymbol]]
+1,the image of [[Tables.Religion.SpiritForm.DisplaySpirits]]
+1,a simple [[Tables.Utility.GeometricSymbol]]
 1,the insignia of a military unit
 1,the coat of arms of a city, nation, or other location
 
 ;Image
-1,[[Utility.AnimalSymbol]]
-1,[[Utility.CreatureSymbol]]
-1,[[Utility.PlantSymbol]]
-1,[[SpiritForm.DisplaySpirits]]
+1,[[Tables.Utility.AnimalSymbol]]
+1,[[Tables.Utility.CreatureSymbol]]
+1,[[Tables.Utility.PlantSymbol]]
+1,[[Tables.Religion.SpiritForm.DisplaySpirits]]
 
 ;Name
-1,[[NameStart]] of [[Fantasy Town Names.Start]]
-1,[[SGNP barbarians.BarbarianFirst]] [[SGNP barbarians.BarbarianSurname]] of the [[Poetic Destinations.Start]]
-1,[[SGNP barbarians.EnchantressFirst]] [[SGNP barbarians.EnchantressSurname]] of the [[Poetic Destinations.Start]]
-1,[[NameStart]] (a sailor berthed on [[Ship Names.Start]])
-1,[[NameStart]] of the [[Fantasy Military Unit.Start]]
-1,[[Secret Society Title.Start]]
+1,[[NameStart]] of [[Tables.Names.Fantasy Town Names.Start]]
+1,[[Tables.SGNP.SGNP barbarians.BarbarianFirst]] [[Tables.SGNP.SGNP barbarians.BarbarianSurname]] of the [[Tables.Places.Poetic Destinations.Start]]
+1,[[Tables.SGNP.SGNP barbarians.EnchantressFirst]] [[Tables.SGNP.SGNP barbarians.EnchantressSurname]] of the [[Tables.Places.Poetic Destinations.Start]]
+1,[[NameStart]] (a sailor berthed on [[Tables.Names.Ship Names.Start]])
+1,[[NameStart]] of the [[Tables.Organization.Fantasy Military Unit.Start]]
+1,[[Tables.Organization.Secret Society Title.Start]]
 
 ;NameStart
-1,[[Fantasy Names.StartMale]]
-1,[[Fantasy Names.StartFemale]]
-1,[[HalflingHippies.HalflingMale]]
-1,[[HalflingHippies.HalflingFemale]]
+1,[[Tables.Names.Fantasy Names.StartMale]]
+1,[[Tables.Names.Fantasy Names.StartFemale]]
+1,[[Tables.People.HalflingHippies.HalflingMale]]
+1,[[Tables.People.HalflingHippies.HalflingFemale]]
 
 ;PoorContents
 4,[[PoorWealth]]

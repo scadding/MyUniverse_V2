@@ -47,13 +47,13 @@
 
 
 ;bad
-4,[[Secret Society Title.NounDescriptor]]
-3,[[Inscriptions.AdjectiveNeutral]]
-7,[[Inscriptions.AdjectiveNegative]]
+4,[[Tables.Organization.Secret Society Title.NounDescriptor]]
+3,[[Tables.Utility.Inscriptions.AdjectiveNeutral]]
+7,[[Tables.Utility.Inscriptions.AdjectiveNegative]]
 
 ;badness
-4,[[Secret Society Title.Noun]]
-7,[[Inscriptions.AbstractNounNegative]]
+4,[[Tables.Organization.Secret Society Title.Noun]]
+7,[[Tables.Utility.Inscriptions.AbstractNounNegative]]
 
 
 

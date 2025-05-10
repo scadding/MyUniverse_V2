@@ -37,10 +37,10 @@
 
 
 ;Start
-6,[[Fantasy Landmarks.inspiration]] [[feature]]
+6,[[Tables.Fantasy.Fantasy Landmarks.inspiration]] [[feature]]
 
 ;inspiration
-1,[[Fantasy Landmarks.inspiration]]
+1,[[Tables.Fantasy.Fantasy Landmarks.inspiration]]
 
 ;feature
 10,[[streets]] [[streetdescription]]
@@ -60,7 +60,7 @@
 1,has the best views in town.
 1,is the best place to watch the sunset in summer.
 1,is contested territory between [[Gang Names]] and [[Gang Names]].
-1,is near [[Inn and Tavern Names.Start]], [[TavernSnippet]].
+1,is near [[Tables.Names.Inn and Tavern Names.Start]], [[TavernSnippet]].
 
 ;openareadescription
 1,[[anydescription]]
@@ -82,9 +82,9 @@
 
 ;streetdescription
 1,is controlled by [[Gang Names]], [[Gang Description]].
-1,is where most of the {{plural|[[Fantasy Profession.smiths]]}} have their shops.
-1,is the right place to go if you're looking for a [[Fantasy Profession.Start]].
-1,is where the {{plural|[[Fantasy Profession.performers]]}} gather to perform and panhandle.
+1,is where most of the {{plural|[[Tables.Fantasy.Fantasy Profession.smiths]]}} have their shops.
+1,is the right place to go if you're looking for a [[Tables.Fantasy.Fantasy Profession.Start]].
+1,is where the {{plural|[[Tables.Fantasy.Fantasy Profession.performers]]}} gather to perform and panhandle.
 1,where men of rank or privilege who require discretion look for ladies of the night.
 1,is a place full of beggars and thieves.
 1,is infested by packs of wild dogs, and worse.
@@ -97,7 +97,7 @@
 1,is the habitation of the rich and well-bred.
 1,is being rebuilt after a devastating fire.
 1,is a confusing mess of streets that only the locals can navigate without getting lost.
-1,is full of {{plural|[[Fantasy Profession.Start]]}}, {{plural|[[Fantasy Profession.Start]]}}, and {{plural|[[Fantasy Profession.Start]]}}.
+1,is full of {{plural|[[Tables.Fantasy.Fantasy Profession.Start]]}}, {{plural|[[Tables.Fantasy.Fantasy Profession.Start]]}}, and {{plural|[[Tables.Fantasy.Fantasy Profession.Start]]}}.
 
 ;defensesdescription
 1,[[anydescription]]
@@ -123,7 +123,7 @@
 ;religiousdescription
 1,[[anydescription]]
 1,[[buildingdescription]]
-1,is where a vision of Saint [[Catholic Saint Names.Start]] sometimes appears to the devout.
+1,is where a vision of Saint [[Tables.Names.Catholic Saint Names.Start]] sometimes appears to the devout.
 1,is a popular site for marriages and betrothals.
 1,is where the fighting monks train publicly and recruit.
 1,is where criminals seeking sanctuary sometimes find it.
@@ -135,7 +135,7 @@
 1,contains a mass grave for victims of the great fire of [[Tables.Utility.Dice.1d8]][[Tables.Utility.Dice.1d8]][[Tables.Utility.Dice.1d8]].
 1,is where only the wealthiest people can afford to bury their dead.
 1,is where those who cannot afford a proper burial are interred.
-1,is famous for containing the remains of Saint [[Catholic Saint Names.Start]].
+1,is famous for containing the remains of Saint [[Tables.Names.Catholic Saint Names.Start]].
 1,[[anydescription]]
 
 ;streets
@@ -165,9 +165,9 @@
 
 ;Gang Names
 1,[[Motorcycle Gang.Start]]
-3,the [[Orc Tribe Name.Start]]
-3,[[Secret Society Name.Start]]
-3,the [[Fantasy Town Feature.inspiration]] [[Fantasy Town Feature.streets]] Gang
+3,the [[Tables.Organization.Orc Tribe Name.Start]]
+3,[[Tables.Organization.Secret Society Name.Start]]
+3,the [[Tables.Fantasy.Fantasy Town Feature.inspiration]] [[Tables.Fantasy.Fantasy Town Feature.streets]] Gang
 
 ;Gang Description
 1,a bloodthirsty pack of scoundrels and ne'er-do-wells
@@ -198,19 +198,19 @@
 1,a large [[StatueMaterial]] statue of [[StatueSubject]]
 
 ;StatueMaterial
-1,[[Utility.MetalPrecious]]
+1,[[Tables.Utility.MetalPrecious]]
 1,bronze
-2,[[Utility.StoneDecorative]]
+2,[[Tables.Utility.StoneDecorative]]
 
 ;StatueSubject
-1,[[Fantasy Male Military Hero.Start]]
+1,[[Tables.People.Fantasy Male Military Hero.Start]]
 1,[[Fantasy Pantheon.Start]]
-1,[[SpiritForm.Start]]
+1,[[Tables.Religion.SpiritForm.Start]]
 
 ;TavernSnippet
-1, which is frequented primarily by {{plural|[[Fantasy Profession.Start]]}}
-1, where you can find the best [[FantasyMenu.MainMeals]] you'll ever have
-1, famous as the home of [[Brewnames.Start]] Brew!
+1, which is frequented primarily by {{plural|[[Tables.Fantasy.Fantasy Profession.Start]]}}
+1, where you can find the best [[Tables.Food.FantasyMenu.MainMeals]] you'll ever have
+1, famous as the home of [[Tables.Names.Brewnames.Start]] Brew!
 
 ;buildings
 1,Amphitheatre
@@ -373,9 +373,9 @@
 
 
 ;religiousplace
-1,St. [[Catholic Saint Names.Start]]'s [[religious]]
-1,[[religious]] of St. [[Catholic Saint Names.Start]]
-1,[[Fantasy Town Names.Misc]][[Fantasy Town Names.Suffix]] [[religious]]
+1,St. [[Tables.Names.Catholic Saint Names.Start]]'s [[religious]]
+1,[[religious]] of St. [[Tables.Names.Catholic Saint Names.Start]]
+1,[[Tables.Names.Fantasy Town Names.Misc]][[Tables.Names.Fantasy Town Names.Suffix]] [[religious]]
 
 ;religious
 1,Abbey
@@ -411,7 +411,7 @@
 1,Catacomb
 1,Cemetery
 1,Charnel
-1,Crypt[[Fantasy Landmarks.plural]]
+1,Crypt[[Tables.Fantasy.Fantasy Landmarks.plural]]
 1,Graves
 1,Graveyard
 1,Mausoleum

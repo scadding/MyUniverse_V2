@@ -2,23 +2,23 @@
 ;Start
 2,[[Fantasy Town Event.Start]]
 1,[[Fantasy Oracle Maker.multicharacters]]
-1,The [[Fantasy Oracle Maker.relationeither]] of [[Fantasy Scene.Character]] at [[Fantasy Town Feature.Start]].
-1,A [[Fantasy Oracle Maker.maleperson]] and [[Fantasy Scene.Character]], [[multicharactivity]]
+1,The [[Fantasy Oracle Maker.relationeither]] of [[Tables.Fantasy.Fantasy Scene.Character]] at [[Tables.Fantasy.Fantasy Town Feature.Start]].
+1,A [[Fantasy Oracle Maker.maleperson]] and [[Tables.Fantasy.Fantasy Scene.Character]], [[multicharactivity]]
 2,[[AGG City]]]
 1,[[A Nest of Vipers Oracle.Start]]
 4,[[FracturedCity]]
 
 ;AGG City
-1,[[Art Grace and Guts Oracle.City Items]]
-1,[[Art Grace and Guts Oracle.City Characters]]
-1,[[Art Grace and Guts Oracle.City Locations]]
-1,[[Art Grace and Guts Oracle.City Events]]
-1,[[Art Grace and Guts Oracle.City Threats]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.City Items]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.City Characters]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.City Locations]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.City Events]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.City Threats]]
 
 
 ;multicharactivity
-1,preparing for a duel at [[Fantasy Town Feature.Start]]
-1,getting drunk together at [[Inn and Tavern Names.Start]]
+1,preparing for a duel at [[Tables.Fantasy.Fantasy Town Feature.Start]]
+1,getting drunk together at [[Tables.Names.Inn and Tavern Names.Start]]
 1,each preparing to do evil to the other
 1,unknowingly fulfilling the prophecies that will bring about their downfall
 1,brought together by chance but fast friends

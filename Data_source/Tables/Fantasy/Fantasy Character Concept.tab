@@ -1,12 +1,12 @@
 
 ;Start
 1,A [[personality]] [[profession]] is [[personal goal]].
-1,[[Pickpocket.NPCDescriptor]] [[NPC]] is [[personal goal]].
+1,[[Tables.Plot.Pickpocket.NPCDescriptor]] [[NPC]] is [[personal goal]].
 
 ;NPC
-1,[[Pickpocket.PoorNPC]]
-1,[[Pickpocket.MidNPC]]
-1,[[Pickpocket.RichNPC]]
+1,[[Tables.Plot.Pickpocket.PoorNPC]]
+1,[[Tables.Plot.Pickpocket.MidNPC]]
+1,[[Tables.Plot.Pickpocket.RichNPC]]
 
 ;personality
 1,arrogant
@@ -58,7 +58,7 @@
 1,wise
 1,young and impressionable
 1,zealous
-1,[[Character Concept of Mu.personality]]
+1,[[Tables.Plot.Character Concept of Mu.personality]]
 
 ;profession
 1,acolyte
@@ -118,9 +118,9 @@
 1,witch
 1,wizard
 1,youth
-7,[[Quick NPC.RichNPC]]
-7,[[Quick NPC.MidNPC]]
-7,[[Quick NPC.PoorNPC]]
+7,[[Tables.People.Quick NPC.RichNPC]]
+7,[[Tables.People.Quick NPC.MidNPC]]
+7,[[Tables.People.Quick NPC.PoorNPC]]
 
 ;personal goal
 1,afraid of being recognized by an old acquaintaince
@@ -156,8 +156,8 @@
 1,trying to rid herself of a curse
 1,trying to unite the barbarian tribes against a common enemy
 4,seeking the [[legendary location]]
-1,desperately fighting [[Secret Society Title.Start]]
-1,[[Character Concept of Mu.goal]]
+1,desperately fighting [[Tables.Organization.Secret Society Title.Start]]
+1,[[Tables.Plot.Character Concept of Mu.goal]]
 
 ;legendary location
 1,Castle in the Clouds
@@ -176,7 +176,7 @@
 1,Temple of the Mad God
 1,Tomb of the Demon
 1,Universal Library
-5,[[Poetic Destinations.Start]]
+5,[[Tables.Places.Poetic Destinations.Start]]
 
 
 

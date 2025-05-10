@@ -3,15 +3,15 @@
 1,[[Name]], a [[MilitaryUnprofession]]. [[MartialSentence]]
 
 ;Name
-10,[[Fantasy Names.StartNoTitle]] the [[Dishonorific]]
-5,[[ScottishMale.Start]] the [[Dishonorific]]
-5,[[German Male.Start]] the [[Dishonorific]]
-5,[[Catholic Saint Names.Start]] the [[Dishonorific]]
-3,[[German Male.germanmale]] the [[Dishonorific]]
-1,[[Dishonorific]] [[Fantasy Names.StartNoTitle]]
-1,[[Dishonorific]] [[ScottishMale.Start]]
-1,[[Dishonorific]] [[German Male.germanmale]]
-1,[[Dishonorific]] [[ScottishMale.ScottishMaleFirstName]]
+10,[[Tables.Names.Fantasy Names.StartNoTitle]] the [[Dishonorific]]
+5,[[Tables.People.ScottishMale.Start]] the [[Dishonorific]]
+5,[[Tables.People.German Male.Start]] the [[Dishonorific]]
+5,[[Tables.Names.Catholic Saint Names.Start]] the [[Dishonorific]]
+3,[[Tables.People.German Male.germanmale]] the [[Dishonorific]]
+1,[[Dishonorific]] [[Tables.Names.Fantasy Names.StartNoTitle]]
+1,[[Dishonorific]] [[Tables.People.ScottishMale.Start]]
+1,[[Dishonorific]] [[Tables.People.German Male.germanmale]]
+1,[[Dishonorific]] [[Tables.People.ScottishMale.ScottishMaleFirstName]]
 
 ;Dishonorific
 1,Abject
@@ -235,7 +235,7 @@
 1,Yellow-Bellied
 
 ;MilitaryUnprofession
-1,[[MilitaryRank]] in the [[Fantasy Military Unit.Start]]
+1,[[MilitaryRank]] in the [[Tables.Organization.Fantasy Military Unit.Start]]
 
 ;MartialSentence
 3,[[MartialIndistinguishment]] he [[FoughtAdverb]] [[FoughtVerb]] a [[Group]] the [[TribalHumanoids]], [[WarReason]].
@@ -598,8 +598,8 @@
 3,training manual
 
 ;IndividualEnemy
-15,[[Orc Names.Start]], [[MilitaryRank]] of the [[Orc Tribe Name.Start]] [[TribalHumanoids]]
-7,[[Fantasy Names.StartNoTitle]], who led the [[TribalHumanoids]]
+15,[[Tables.Names.Orc Names.Start]], [[MilitaryRank]] of the [[Tables.Organization.Orc Tribe Name.Start]] [[TribalHumanoids]]
+7,[[Tables.Names.Fantasy Names.StartNoTitle]], who led the [[TribalHumanoids]]
 
 ;TribalHumanoids
 1,brownies
@@ -792,7 +792,7 @@
 
 ;HumanRacialWeapon
 1,[[Swords.StartNoDescription]]
-1,[[Bows.BowType]]
+1,[[Tables.Weapons.Bows.BowType]]
 1,[[XBows.XBowType]]
 1,[[Lances.StartNoDescription]]
 
@@ -837,8 +837,8 @@
 1,raised the white flag against
 1,defected to
 1,was captured by
-1,lost an easily-defendable [[Utility.Terrains]] from
-1,gave an easily-defendable [[Utility.Terrains]] to
+1,lost an easily-defendable [[Tables.Utility.Terrains]] from
+1,gave an easily-defendable [[Tables.Utility.Terrains]] to
 1,muttered under his breath about having to fight
 1,thought about maybe conducting raids against
 1,was insulted by

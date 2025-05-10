@@ -1,16 +1,16 @@
 
 ;Start
-1,[[PlaceName]] is a [[NationQuality]] [[NationType]] [[NationPlace]]. <br/>The weather there is usually [[Weather.Start]] <br/>It is ruled by [[Ruler]]. <br/>The people of this domain are [[CitizenQuality]]. <br/>This domain is famous because [[LandQuality]]. <br/>The laws of this domain are [[Laws]].  Punishments for misdeeds tend to [[Punishment]]. <br/>Recently, [[RecentEvent]]
-1,[[PlaceName]] is a [[NationQuality]] [[NationType]] [[NationPlace]]. <br/>The weather there is usually [[Weather.Start]] <br/>It is ruled by [[Ruler]]. <br/>This domain gives a strong sense of being [[LandPersonality]]. <br/>This domain is famous because [[LandQuality]]. <br/>The laws of this domain are [[Laws]].  Punishments for misdeeds tend to [[Punishment]]. <br/>Recently, [[RecentEvent]]
-1,[[PlaceName]] is a [[NationQuality]] [[NationType]] [[NationPlace]]. <br/>The weather there is usually [[Weather.Start]] <br/>It is ruled by [[Ruler]]. <br/>This domain gives a strong sense of being [[LandPersonality]].<br/>The people of this domain are [[CitizenQuality]].<br/>This domain is famous because [[LandQuality]]. <br/>The laws of this domain are [[Laws]].  Punishments for misdeeds tend to [[Punishment]]. <br/>Recently, [[RecentEvent]]
+1,[[PlaceName]] is a [[NationQuality]] [[NationType]] [[NationPlace]]. <br/>The weather there is usually [[Tables.Utility.Weather.Start]] <br/>It is ruled by [[Ruler]]. <br/>The people of this domain are [[CitizenQuality]]. <br/>This domain is famous because [[LandQuality]]. <br/>The laws of this domain are [[Laws]].  Punishments for misdeeds tend to [[Punishment]]. <br/>Recently, [[RecentEvent]]
+1,[[PlaceName]] is a [[NationQuality]] [[NationType]] [[NationPlace]]. <br/>The weather there is usually [[Tables.Utility.Weather.Start]] <br/>It is ruled by [[Ruler]]. <br/>This domain gives a strong sense of being [[LandPersonality]]. <br/>This domain is famous because [[LandQuality]]. <br/>The laws of this domain are [[Laws]].  Punishments for misdeeds tend to [[Punishment]]. <br/>Recently, [[RecentEvent]]
+1,[[PlaceName]] is a [[NationQuality]] [[NationType]] [[NationPlace]]. <br/>The weather there is usually [[Tables.Utility.Weather.Start]] <br/>It is ruled by [[Ruler]]. <br/>This domain gives a strong sense of being [[LandPersonality]].<br/>The people of this domain are [[CitizenQuality]].<br/>This domain is famous because [[LandQuality]]. <br/>The laws of this domain are [[Laws]].  Punishments for misdeeds tend to [[Punishment]]. <br/>Recently, [[RecentEvent]]
 
 ;Display
 1,[[PlaceName]] is a [[NationQuality]] [[NationType]] [[NationPlace]].
 
 ;PlaceName
-1,[[Fantasy Town Names.Start]] 
-1,[[DitV Town Name.Start]]
-1,[[Fantasy Landmarks.Start]]
+1,[[Tables.Names.Fantasy Town Names.Start]] 
+1,[[Tables.Religion.DitV Town Name.Start]]
+1,[[Tables.Fantasy.Fantasy Landmarks.Start]]
 
 ;NationType
 1,city-state
@@ -226,7 +226,7 @@
 1,of its exceptional hunting grounds
 1,a terrible battle happened here
 1,the citizens [[Fantasy Farmstead.Product]]
-1,[[Secret Society Title.SecretSocietyName]] are based here
+1,[[Tables.Organization.Secret Society Title.SecretSocietyName]] are based here
 
 ;Laws
 1,almost nonexistent
@@ -251,9 +251,9 @@
 1,lean heavily toward public humiliation
 
 ;RecentEvent
-3,the land has experienced [[Art Grace and Guts Oracle.Events Lcase]].
-2,the land has been threatened by [[Art Grace and Guts Oracle.Threats Lcase]].
-1,the land has been threatened by [[Champion of darkness.champion]].
+3,the land has experienced [[Tables.Oracles.Art Grace and Guts Oracle.Events Lcase]].
+2,the land has been threatened by [[Tables.Oracles.Art Grace and Guts Oracle.Threats Lcase]].
+1,the land has been threatened by [[Tables.People.Champion of darkness.champion]].
 
 
 

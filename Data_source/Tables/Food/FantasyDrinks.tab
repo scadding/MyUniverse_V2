@@ -9,7 +9,7 @@
 
 ;nonalcoholic
 4,[[water]] water
-3,[[Utility.Fruit]] juice
+3,[[Tables.Utility.Fruit]] juice
 3,[[milk]] milk 
 3,[[tea]] tea
 2,coffee
@@ -19,12 +19,12 @@
 ;alcoholic
 15,[[DrinkNames]] [[BeersNAles]] ale
 15,[[DrinkNames]] [[BeersNAles]] beer
-3,[[Utility.Fruit]] Nectar
+3,[[Tables.Utility.Fruit]] Nectar
 5,[[LowQualityDrinks]]
 6,[[CiderDescription]] [[CiderType]] cider
 5,[[LiqueurFlavor]] [[Liqueur]]
-3,[[Utility.Fruit]] Schnapps
-5,[[Brewnames.Start]]
+3,[[Tables.Utility.Fruit]] Schnapps
+5,[[Tables.Names.Brewnames.Start]]
 1,absinthe
 1,ambrosia
 1,applejack
@@ -147,14 +147,14 @@
 1,thyme
 1,vanilla bean
 1,wild cherry
-6,[[Utility.Fruit]]
+6,[[Tables.Utility.Fruit]]
 10,[[herbal tea]]-[[herbal tea]]
 5,iced [[herbal tea]]
 
 ;DrinkNames
 1,[[DrinkNames1]]
-2,[[Fantasy Names.MaleFirstName]]'s
-1,[[Brewnames.Start]]
+2,[[Tables.Names.Fantasy Names.MaleFirstName]]'s
+1,[[Tables.Names.Brewnames.Start]]
 4,
 
 ;DrinkNames1
@@ -168,7 +168,7 @@
 1,Summer brew
 1,Wizards
 1,Golden
-1,[[Utility.Fruit]]
+1,[[Tables.Utility.Fruit]]
 1,Sheppy's
 1,Dragon's brew
 1,Goblin's brew
@@ -202,7 +202,7 @@
 1,Highland
 4,Honeyed
 4,Lager
-5,[[Utility.Fruit]] Lager
+5,[[Tables.Utility.Fruit]] Lager
 3,Light
 4,Malt
 4,Orcish
@@ -306,7 +306,7 @@
 
 ;vodka
 2,
-1,[[Utility.Fruit]]
+1,[[Tables.Utility.Fruit]]
 
 ;whiskey
 1,scotch
@@ -322,10 +322,10 @@
 1,moonshine
 1,bayou
 1,straight wheat
-1,blended [[Utility.Fruit]]
+1,blended [[Tables.Utility.Fruit]]
 
 ;wine
-20,[[Utility.Fruit]]
+20,[[Tables.Utility.Fruit]]
 10,red
 10,blush
 10,white

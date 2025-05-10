@@ -245,7 +245,7 @@ _<sgdisplay iterations="5">[[NonCommonLanguage]]</sgdisplay><br>
 ;Cities
 1,[[GheronEastCities]]
 1,[[FarawayCities]]
-1,[[Fantasy Town Names.Start]]
+1,[[Tables.Names.Fantasy Town Names.Start]]
 
 ;GheronEastCities
 50,Bryene
@@ -264,7 +264,7 @@ _<sgdisplay iterations="5">[[NonCommonLanguage]]</sgdisplay><br>
 2,Quom
 2,Swansea
 1,Lisano
-6,[[Fantasy Town Names.Start]]
+6,[[Tables.Names.Fantasy Town Names.Start]]
 
 ;HumanNations
 10,Gheron

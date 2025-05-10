@@ -802,16 +802,16 @@ _<sgdisplay iterations="5">[[Symbols]]</sgdisplay><br>
 
 ;Symbols
 1,a family crest
-3,the crest of the Noble House of [[Fantasy Names.Surname]]
+3,the crest of the Noble House of [[Tables.Names.Fantasy Names.Surname]]
 1,the maker's mark
-2,the symbol of [[GheronUtility.DietySymbol]]
-2,the symbol of [[GheronUtility.OrganizationSymbol]]
+2,the symbol of [[Tables.Utility.GheronUtility.DietySymbol]]
+2,the symbol of [[Tables.Utility.GheronUtility.OrganizationSymbol]]
 2,the image of [[AnimalSymbol]]
 2,the image of [[CreatureSymbol]]
 1,the image of [[PlantSymbol]]
 1,a simple [[GeometricSymbol]]
 1,runes in [[RuneLanguage]]
-1,the insignia of a military unit - the [[Fantasy Military Unit.Start]]
+1,the insignia of a military unit - the [[Tables.Organization.Fantasy Military Unit.Start]]
 1,the coat of arms of a city, nation, or other location
 
 ;AnimalSymbol

@@ -7,8 +7,8 @@
 1,[[PersonName]]'s [[Establishment]]
 
 ;PersonName
-1,[[Fantasy Names.MaleFirstName]]
-1,[[Fantasy Names.FemaleFirstName]]
+1,[[Tables.Names.Fantasy Names.MaleFirstName]]
+1,[[Tables.Names.Fantasy Names.FemaleFirstName]]
 
 ;Name
 13,[[Creature]]
@@ -219,8 +219,8 @@
 1,Yearling
 
 ;Person
-1,[[Fantasy Names.MaleFirstName]]
-1,[[Fantasy Names.FemaleFirstName]]
+1,[[Tables.Names.Fantasy Names.MaleFirstName]]
+1,[[Tables.Names.Fantasy Names.FemaleFirstName]]
 1,Abbot
 1,Amazon
 1,Archer

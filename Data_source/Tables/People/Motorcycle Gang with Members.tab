@@ -6,9 +6,9 @@
 
 
 ;malerider
-1,[[SGNP bikers.MALE]], real name [[American Census Names.male]] [[American Census Names.surname]], a [[Modern Profession.Criminal]]
+1,[[Tables.SGNP.SGNP bikers.MALE]], real name [[Tables.Names.American Census Names.male]] [[Tables.Names.American Census Names.surname]], a [[Tables.Occupation.Modern Profession.Criminal]]
 
 ;femalerider
-1,[[SGNP bikers.FEMALE]], real name [[American Census Names.female]] [[American Census Names.surname]], a [[Modern Profession.Criminal]]
+1,[[Tables.SGNP.SGNP bikers.FEMALE]], real name [[Tables.Names.American Census Names.female]] [[Tables.Names.American Census Names.surname]], a [[Tables.Occupation.Modern Profession.Criminal]]
 
 

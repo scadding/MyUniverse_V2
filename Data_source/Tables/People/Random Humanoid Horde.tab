@@ -34,7 +34,7 @@
 1,devildwarves
 1,unnatural humans
 1,ratmen
-3,[[Animal.Weirdsymbol]]men
+3,[[Tables.Animals.Animal.Weirdsymbol]]men
 
 ;Aspect
 1,Lewis Carrol-esque
@@ -150,9 +150,9 @@
 1,a freakish structure resembling no human architecture
 1,a mountainous area
 1,a mountain fortress
-1,ancient ruins containing:<br/>These traps:[[Traps.Start]], [[Traps.Start]], [[Traps.Start]]<br/>These creatures:[[Weird Fantasy Monster.Start]],[[Weird Fantasy Monster.Start]], [[Weird Fantasy Monster.Start]]
+1,ancient ruins containing:<br/>These traps:[[Tables.Utility.Traps.Start]], [[Tables.Utility.Traps.Start]], [[Tables.Utility.Traps.Start]]<br/>These creatures:[[Tables.Monster.Weird Fantasy Monster.Start]],[[Tables.Monster.Weird Fantasy Monster.Start]], [[Tables.Monster.Weird Fantasy Monster.Start]]
 1,a slum
-1,an inn<br/>[[Inn and Tavern Names.Start]], famous for its [[FantasyMenu.Descriptor]][[FantasyMenu.MainMeals]]
+1,an inn<br/>[[Tables.Names.Inn and Tavern Names.Start]], famous for its [[Tables.Food.FantasyMenu.Descriptor]][[Tables.Food.FantasyMenu.MainMeals]]
 1,the docks
 1,a laboratory
 1,a wizard's tower

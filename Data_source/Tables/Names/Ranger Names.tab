@@ -14,10 +14,10 @@
 1,[[TitleFemale]][[StartFemaleNoTitle]]
 
 ;StartNoTitle
-20,[[Fantasy Names.MaleFirstName]] [[Surname]]
+20,[[Tables.Names.Fantasy Names.MaleFirstName]] [[Surname]]
 
 ;StartFemaleNoTitle
-20,[[Fantasy Names.FemaleFirstName]] [[Surname]]
+20,[[Tables.Names.Fantasy Names.FemaleFirstName]] [[Surname]]
 
 ;Surname
 9,[[Root I]][[Root II]]

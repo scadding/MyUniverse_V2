@@ -13,8 +13,8 @@ _[[OtherHaftedStart]] [[HaftDecor]] [[Weapon.MilitaryIssueChance]]<br>
 1,[[OtherHaftedType]]
 
 ;AxeStart
-1,[[Quality]] [[AxeType]] with a haft of [[Utility.WoodWeapon]] and a head made of [[Utility.MetalWeapon]]. [[AxeHeadSpike]] [[AxeHeadDepictionChance]]
-1,[[Quality]] [[AxeType]] composed completely of [[Utility.MetalWeapon]]. [[AxeHeadSpike]] [[AxeHeadDepictionChance]]
+1,[[Quality]] [[AxeType]] with a haft of [[Tables.Utility.WoodWeapon]] and a head made of [[Tables.Utility.MetalWeapon]]. [[AxeHeadSpike]] [[AxeHeadDepictionChance]]
+1,[[Quality]] [[AxeType]] composed completely of [[Tables.Utility.MetalWeapon]]. [[AxeHeadSpike]] [[AxeHeadDepictionChance]]
 
 ;AxeType
 10,throwing axe
@@ -32,17 +32,17 @@ _[[OtherHaftedStart]] [[HaftDecor]] [[Weapon.MilitaryIssueChance]]<br>
 ;AxeHeadDepictionChance
 4,
 3,The axe head features an etched depiction of [[AxeHeadDepiction]].
-1,The axe head has [[Tables.Utility.Dice.1d8]] [[Utility.RelativeSize]] [[Utility.GemQuality]] [[Utility.GemType]] stones inset in it.
-1,The axe has an inscription on the head declaring it was made for [[NorthlanderMale.Start]].
+1,The axe head has [[Tables.Utility.Dice.1d8]] [[Tables.Utility.RelativeSize]] [[Tables.Utility.GemQuality]] [[Tables.Utility.GemType]] stones inset in it.
+1,The axe has an inscription on the head declaring it was made for [[Tables.People.NorthlanderMale.Start]].
 1,The axe head is decorated with a flame motif.
 1,The axe head is decorated with a serpent motif.
 1,The axe head is decorated with engravings of leaves and vines.
 1,The axe head is decorated with spiraling engravings.
-1,The axe head is decorated with runes in [[Utility.RuneLanguage]] that convey the meaning <b>"[[Inscriptions.Start]]"</b>.
+1,The axe head is decorated with runes in [[Tables.Utility.RuneLanguage]] that convey the meaning <b>"[[Tables.Utility.Inscriptions.Start]]"</b>.
 1,The axe head is decorated with knotwork.
 1,The axe head is painted with shiny [[Tables.Utility.Color.dark]] enamel.
 1,The axe head has been carbonized with a flat black paint to keep it from reflecting light except along the edges.
-3,The axe head is inscribed with the word(s) <b>"[[Inscriptions.Start]]"</b> in [[Inscriptions.Language]].
+3,The axe head is inscribed with the word(s) <b>"[[Tables.Utility.Inscriptions.Start]]"</b> in [[Tables.Utility.Inscriptions.Language]].
 1,[[AxeHeadDepictionChance]] [[AxeHeadDepictionChance]]
 
 ;AxeHeadDepiction
@@ -51,7 +51,7 @@ _[[OtherHaftedStart]] [[HaftDecor]] [[Weapon.MilitaryIssueChance]]<br>
 1,a bearded dwarf in profile
 1,a charging bull
 1,a fire-breathing dragon
-2,[[Utility.Symbols]]
+2,[[Tables.Utility.Symbols]]
 1,an illithid with writhing tentacles
 1,a nature motif (ivy, leaves, etc)
 1,elaborate knotwork
@@ -62,7 +62,7 @@ _[[OtherHaftedStart]] [[HaftDecor]] [[Weapon.MilitaryIssueChance]]<br>
 1,The axe haft is capped with [[Swords.PommelShapes]].
 
 ;PolearmStart
-1,[[Quality]] [[PolearmType]] with a haft of [[Utility.WoodWeapon]] and a head made of [[Utility.MetalWeapon]].
+1,[[Quality]] [[PolearmType]] with a haft of [[Tables.Utility.WoodWeapon]] and a head made of [[Tables.Utility.MetalWeapon]].
 
 ;PolearmType
 1,glaive
@@ -111,10 +111,10 @@ _[[OtherHaftedStart]] [[HaftDecor]] [[Weapon.MilitaryIssueChance]]<br>
 1,[[MaceFlailType]] 
 
 ;MaceFlailType
-1,[[Quality]] [[FlailType]] with a ball shaped like [[FlailHead]]. The ball and chain are made of [[Utility.MetalWeapon]] and the haft is made of [[Utility.WoodWeapon]].
-1,[[Quality]] [[MaceType]] with a head shaped like [[MaceHead]]. The head is made of [[Utility.MetalWeapon]] and the haft is made of [[Utility.WoodWeapon]].
-1,[[Quality]] [[MaceType]] with a head shaped like [[MaceHead]]. The entire weapon is made of [[Utility.MetalWeapon]].
-1,[[Quality]] [[OtherMaceFlailType]] with the metal portions made of [[Utility.MetalWeapon]] and the wooden portions made of [[Utility.WoodWeapon]].
+1,[[Quality]] [[FlailType]] with a ball shaped like [[FlailHead]]. The ball and chain are made of [[Tables.Utility.MetalWeapon]] and the haft is made of [[Tables.Utility.WoodWeapon]].
+1,[[Quality]] [[MaceType]] with a head shaped like [[MaceHead]]. The head is made of [[Tables.Utility.MetalWeapon]] and the haft is made of [[Tables.Utility.WoodWeapon]].
+1,[[Quality]] [[MaceType]] with a head shaped like [[MaceHead]]. The entire weapon is made of [[Tables.Utility.MetalWeapon]].
+1,[[Quality]] [[OtherMaceFlailType]] with the metal portions made of [[Tables.Utility.MetalWeapon]] and the wooden portions made of [[Tables.Utility.WoodWeapon]].
 
 ;FlailType
 1,flail
@@ -146,8 +146,8 @@ _[[OtherHaftedStart]] [[HaftDecor]] [[Weapon.MilitaryIssueChance]]<br>
 1,a ram's head
 1,a dragon's head
 1,a ball of antlers
-1,a design based on the symbol of [[GheronUtility.DietySymbol]]
-1,a design based on the symbol of [[GheronUtility.OrganizationSymbol]]
+1,a design based on the symbol of [[Tables.Utility.GheronUtility.DietySymbol]]
+1,a design based on the symbol of [[Tables.Utility.GheronUtility.OrganizationSymbol]]
 
 
 ;FlailHead
@@ -162,11 +162,11 @@ _[[OtherHaftedStart]] [[HaftDecor]] [[Weapon.MilitaryIssueChance]]<br>
 1,a ball of antlers
 1,a beholder
 1,a ram's head
-1,a design based on the symbol of [[GheronUtility.DietySymbol]]
-1,a design based on the symbol of [[GheronUtility.OrganizationSymbol]]
+1,a design based on the symbol of [[Tables.Utility.GheronUtility.DietySymbol]]
+1,a design based on the symbol of [[Tables.Utility.GheronUtility.OrganizationSymbol]]
 
 ;OtherHaftedStart
-1,[[Quality]] [[OtherHaftedType]] with a haft of [[Utility.WoodWeapon]] and a head made of [[Utility.MetalWeapon]].
+1,[[Quality]] [[OtherHaftedType]] with a haft of [[Tables.Utility.WoodWeapon]] and a head made of [[Tables.Utility.MetalWeapon]].
 
 ;OtherHaftedType
 1,light hammer [[HammerShape]]
@@ -208,19 +208,19 @@ _[[OtherHaftedStart]] [[HaftDecor]] [[Weapon.MilitaryIssueChance]]<br>
 2,The haft is painted [[Tables.Utility.Color.dark]].
 2,The haft is painted [[Tables.Utility.Color.dull]].
 2,The haft is painted [[Tables.Utility.Color.bright]].
-1,The haft is engraved with cryptic runes in [[Utility.RuneLanguage]] that glow faintly with a [[Tables.Utility.Color.hues]] light when [[Utility.CreatureTypes]]s are nearby.
-1,The haft is engraved with cryptic runes in [[Utility.RuneLanguage]] that glow brightly with a [[Utility.LightColors]] light when [[Utility.CreatureTypes]]s are nearby.
+1,The haft is engraved with cryptic runes in [[Tables.Utility.RuneLanguage]] that glow faintly with a [[Tables.Utility.Color.hues]] light when [[Tables.Utility.CreatureTypes]]s are nearby.
+1,The haft is engraved with cryptic runes in [[Tables.Utility.RuneLanguage]] that glow brightly with a [[Tables.Utility.LightColors]] light when [[Tables.Utility.CreatureTypes]]s are nearby.
 1,The haft is engraved with illegible runes.
 1,The haft has a brief engraving in the runes of a long-lost language.
 1,The haft seems to give off a faint light.
-2,The haft is inlaid with [[Tables.Utility.Dice.2d4]] [[Utility.StoneDecorative]]s.
-2,The haft is partially inlaid with [[Utility.MetalPrecious]].
-1,The haft is beautifully inlaid in [[Utility.MetalExotic]].
-1,The haft is decorated with [[Utility.HornIvory]] inlay.
+2,The haft is inlaid with [[Tables.Utility.Dice.2d4]] [[Tables.Utility.StoneDecorative]]s.
+2,The haft is partially inlaid with [[Tables.Utility.MetalPrecious]].
+1,The haft is beautifully inlaid in [[Tables.Utility.MetalExotic]].
+1,The haft is decorated with [[Tables.Utility.HornIvory]] inlay.
 4,Knotwork is engraved into the haft.
 4,The head and haft are bloodstained from regular use in battle.
 2,The weapon is stained an ominous dark crimson.
-2,The haft has a raised ornate latticework pattern made of [[Utility.WoodWeapon]].
+2,The haft has a raised ornate latticework pattern made of [[Tables.Utility.WoodWeapon]].
 2,The haft has a raised simple latticework pattern made of unknown wood.
 2,The haft is strong and well-balanced.
 1,The haft is well-oiled and highly polished.
@@ -232,10 +232,10 @@ _[[OtherHaftedStart]] [[HaftDecor]] [[Weapon.MilitaryIssueChance]]<br>
 1,The haft does not appear to be original, as it is much newer than the head.
 5,The haft is notched with [[Tables.Utility.Dice.2d8]] tally marks.
 3,The end of the haft is decorated with [[Tables.Utility.Dice.2d6]] [[FletchingColor]] feathers.
-4,The haft is ringed with [[Utility.MetalWeapon]] bands.
-6,The grip section of the haft is wrapped tightly with [[Utility.LeatherHide]].
-5,The grip section of the haft is wrapped with tattered [[Utility.LeatherHide]].
-4,The grip section of the haft is wrapped in battle-worn [[Utility.LeatherHide]].
+4,The haft is ringed with [[Tables.Utility.MetalWeapon]] bands.
+6,The grip section of the haft is wrapped tightly with [[Tables.Utility.LeatherHide]].
+5,The grip section of the haft is wrapped with tattered [[Tables.Utility.LeatherHide]].
+4,The grip section of the haft is wrapped in battle-worn [[Tables.Utility.LeatherHide]].
 
 ;FletchingColor
 2,[[Tables.Utility.Color.dark]]

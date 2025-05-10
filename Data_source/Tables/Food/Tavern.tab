@@ -1,7 +1,7 @@
 
 ;Start
-1,==<sgdisplay iterations="1">[[Inn and Tavern Names.Start]]</sgdisplay>==<br>
-_<sgdisplay iterations="1">[[Fantasy Names.Start]], Proprietor</sgdisplay><br>
+1,==<sgdisplay iterations="1">[[Tables.Names.Inn and Tavern Names.Start]]</sgdisplay>==<br>
+_<sgdisplay iterations="1">[[Tables.Names.Fantasy Names.Start]], Proprietor</sgdisplay><br>
 _<br>
 _===Drinks===<br>
 _<sgdisplay iterations="1">[[DrinksMenu]]</sgdisplay><br>
@@ -23,13 +23,13 @@ _<sgdisplay iterations="1">[[OtherServicesMenu]]</sgdisplay><br>
 1,<ul><li>[[FantasyDrinks.Start]]</li><li>[[FantasyDrinks.Start]]</li><li>[[FantasyDrinks.Start]]</li><li>[[FantasyDrinks.Start]]</li><li>[[FantasyDrinks.Start]]</li><li>[[FantasyDrinks.Start]]</li><li>[[FantasyDrinks.Start]]</li><li>[[FantasyDrinks.Start]]</li><li>[[FantasyDrinks.DrinkNames]] [[FantasyDrinks.BeersNAles]] Ale</li></ul>
 
 ;FoodMenu
-1,<ul><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.veggiemain]]</li></ul>
-2,<ul><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.veggiemain]]</li></ul>
-3,<ul><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.veggiemain]]</li></ul>
-3,<ul><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.veggiemain]]</li></ul>
-2,<ul><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.veggiemain]]</li></ul>
-1,<ul><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.veggiemain]]</li></ul>
-1,<ul><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.Start]]</li><li>[[FantasyMenu.veggiemain]]</li></ul>
+1,<ul><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.veggiemain]]</li></ul>
+2,<ul><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.veggiemain]]</li></ul>
+3,<ul><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.veggiemain]]</li></ul>
+3,<ul><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.veggiemain]]</li></ul>
+2,<ul><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.veggiemain]]</li></ul>
+1,<ul><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.veggiemain]]</li></ul>
+1,<ul><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.Start]]</li><li>[[Tables.Food.FantasyMenu.veggiemain]]</li></ul>
 
 ;OtherServicesMenu
 1,For a small fee, the tavern will provide:[[OtherTavernServicesMenu]]<br/>[[IllegalServicesChance]]
@@ -118,7 +118,7 @@ _<sgdisplay iterations="1">[[OtherServicesMenu]]</sgdisplay><br>
 1,Pit-Fighting: [[PitFighting]]
 1,[[Drugs]]
 1,Criminal Services: [[CriminalServices]]
-1,The secret base of [[Secret Society Title.SecretSocietyName]]
+1,The secret base of [[Tables.Organization.Secret Society Title.SecretSocietyName]]
 1,Poisons for sale
 1,Shady Items for sale
 

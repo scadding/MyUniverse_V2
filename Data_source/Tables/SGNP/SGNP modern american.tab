@@ -7,8 +7,8 @@
 5,[[STRANGE MALE]] [[STRANGE SURNAME]]
 5,[[RARE FEMALE]] [[STRANGE SURNAME]]
 5,[[PROFESSION]]
-10,[[MODERN AMERICAN YOUTH MALE]] [[American Census Names.surname]]
-10,[[MODERN AMERICAN YOUTH FEMALE]] [[American Census Names.surname]]
+10,[[MODERN AMERICAN YOUTH MALE]] [[Tables.Names.American Census Names.surname]]
+10,[[MODERN AMERICAN YOUTH FEMALE]] [[Tables.Names.American Census Names.surname]]
 
 
 
@@ -34,7 +34,7 @@
 1,Russell Toner
 1,Jack Oakes
 1,George Van Horn
-5,[[American Census Names.male]] [[American Census Names.surname]]
+5,[[Tables.Names.American Census Names.male]] [[Tables.Names.American Census Names.surname]]
 ;COMMON FEMALE
 1,Dora Maxson
 1,Kristi Bynum
@@ -59,7 +59,7 @@
 1,Bonnie Watkins
 1,Laura Ross
 1,Katherine Foster
-5,[[American Census Names.female]] [[American Census Names.surname]]
+5,[[Tables.Names.American Census Names.female]] [[Tables.Names.American Census Names.surname]]
 ;UNCOMMON MALE
 1,Shon Cosca
 1,Nathanael Bryum

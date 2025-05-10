@@ -41,7 +41,7 @@
 1,hemp
 3,potatoes
 3,assorted vegetables
-4,[[FantasyMenu.Veggies]]
+4,[[Tables.Food.FantasyMenu.Veggies]]
 1,hops
 3,[[Herbs]]
 
@@ -208,6 +208,6 @@
 1,a well-stocked herb garden
 1,a large refuse pile
 1,a large rune-carved menhir
-1,a statue of [[Fantasy Male Military Hero.Start]]
+1,a statue of [[Tables.People.Fantasy Male Military Hero.Start]]
 
 

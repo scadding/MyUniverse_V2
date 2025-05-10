@@ -486,7 +486,7 @@
 1,Zealous
 1,Zenithal
 8,[[Greek letter names.Start]]
-5,[[Secret Society Title.TitleDescriptor]]
+5,[[Tables.Organization.Secret Society Title.TitleDescriptor]]
 
 ;mascot
 1,Aardvark
@@ -1078,7 +1078,7 @@
 1,Witch
 1,Wizard
 3,Woman
-5,[[Secret Society Title.Title]]
+5,[[Tables.Organization.Secret Society Title.Title]]
 
 ;rank
 1,Agent
@@ -1169,7 +1169,7 @@
 2,berg
 1, esq.
 2, from Another Planet
-1, from the [[Poetic Destinations.Start]]
+1, from the [[Tables.Places.Poetic Destinations.Start]]
 1, Jr.
 1,ia
 1,ica

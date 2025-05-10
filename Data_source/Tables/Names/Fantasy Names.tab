@@ -17,9 +17,9 @@
 
 ;StartNoTitle
 20,[[MaleFirstName]] [[Surname]]
-2,[[NorthlanderMale.Start]]
+2,[[Tables.People.NorthlanderMale.Start]]
 1,[[Turkish Names.Male]]
-1,[[SGNP assyrian.male]]
+1,[[Tables.SGNP.SGNP assyrian.male]]
 1,[[Cornish Names.male]]
 1,[[Anglo-Saxon Names.male]]
 1,[[Welsh Names.male]]
@@ -30,7 +30,7 @@
 50,[[MalePrefix]][[MaleSuffix]]
 8,[[Root I]][[MaleSuffix]]
 3,[[MalePrefix]][[ConsonantEnd]]
-1,[[SGNP celtic.male]]
+1,[[Tables.SGNP.SGNP celtic.male]]
 1,[[Cornish Names.malefirst]]
 1,[[Anglo-Saxon Names.male]]
 1,[[Welsh Names.malefirst]]
@@ -40,9 +40,9 @@
 
 ;StartFemaleNoTitle
 20,[[FemaleFirstName]] [[Surname]]
-2,[[NorthlanderFemale.Start]]
+2,[[Tables.People.NorthlanderFemale.Start]]
 1,[[Turkish Names.Female]]
-1,[[SGNP assyrian.female]]
+1,[[Tables.SGNP.SGNP assyrian.female]]
 1,[[Anglo-Saxon Names.female]]
 
 ;FemaleFirstName
@@ -57,7 +57,7 @@
 3,[[FemalePrefix]][[ConsonantEnd]][[FemaleSuffix]]
 8,[[MalePrefix]][[MaleSuffix]][[FemaleSuffix]]
 8,[[MalePrefix]][[ConsonantEnd]][[FemaleSuffix]]
-1,[[SGNP celtic.female]]
+1,[[Tables.SGNP.SGNP celtic.female]]
 1,[[Cornish Names.femalefirst]]
 1,[[Welsh Names.femalefirst]]
 

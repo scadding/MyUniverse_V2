@@ -1,7 +1,7 @@
 
 ;Start
 1,==<sgdisplay iterations="1">[[Nombres de Tabernas y Posadas.Start]]</sgdisplay>==<br>
-_<sgdisplay iterations="1">[[Fantasy Names.Start]], Proprietor</sgdisplay><br><br>
+_<sgdisplay iterations="1">[[Tables.Names.Fantasy Names.Start]], Proprietor</sgdisplay><br><br>
 _===Bebidas===<br>
 _<sgdisplay iterations="1">[[DrinksMenu]]</sgdisplay><br><br>
 _===Comida===<br>
@@ -20,13 +20,13 @@ _<sgdisplay iterations="1">[[OtherServicesMenu]]</sgdisplay><br>
 1,<ul><li>[[Bebidas Fantasticas.Start]]</li><li>[[Bebidas Fantasticas.Start]]</li><li>[[Bebidas Fantasticas.Start]]</li><li>[[Bebidas Fantasticas.Start]]</li><li>[[Bebidas Fantasticas.Start]]</li><li>[[Bebidas Fantasticas.Start]]</li><li>[[Bebidas Fantasticas.Start]]</li><li>[[Bebidas Fantasticas.Start]]</li><li>[[Bebidas Fantasticas.DrinkNames]] [[Bebidas Fantasticas.BeersNAles]] Ale</li></ul>
 
 ;FoodMenu
-1,<ul><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.veggiemain]]</li></ul>
-2,<ul><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.veggiemain]]</li></ul>
-3,<ul><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.veggiemain]]</li></ul>
-3,<ul><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.veggiemain]]</li></ul>
-2,<ul><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.veggiemain]]</li></ul>
-1,<ul><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.veggiemain]]</li></ul>
-1,<ul><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.maincourse]]</li><li>[[FantasyMenu.veggiemain]]</li></ul>
+1,<ul><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.veggiemain]]</li></ul>
+2,<ul><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.veggiemain]]</li></ul>
+3,<ul><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.veggiemain]]</li></ul>
+3,<ul><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.veggiemain]]</li></ul>
+2,<ul><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.veggiemain]]</li></ul>
+1,<ul><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.veggiemain]]</li></ul>
+1,<ul><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.maincourse]]</li><li>[[Tables.Food.FantasyMenu.veggiemain]]</li></ul>
 
 ;OtherServicesMenu
 1,Por una módica suma, la taberna proveerá:[[OtherTavernServicesMenu]]<br/>[[IllegalServicesChance]]
@@ -115,7 +115,7 @@ _<sgdisplay iterations="1">[[OtherServicesMenu]]</sgdisplay><br>
 1,Foso de luchas: [[PitFighting]]
 1,[[Drugs]]
 1,Servicios criminales: [[CriminalServices]]
-1,Base secreta de [[Secret Society Title.SecretSocietyName]]
+1,Base secreta de [[Tables.Organization.Secret Society Title.SecretSocietyName]]
 1,Venta de venenos
 1,Venta de objetos sospechosos
 

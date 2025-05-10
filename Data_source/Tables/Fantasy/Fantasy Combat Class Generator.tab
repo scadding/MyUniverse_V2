@@ -250,12 +250,12 @@
 1,damage bonus with [[martialweapons]]
 1,bonus language
 1,bonus skill
-1,channel [[Elements.4e]] energy
+1,channel [[Tables.Utility.Elements.4e]] energy
 1,companion ([[combatcompanion]])
 1,create magical items
 1,immune to [[immunity]]
 1,innate spell
-1,minor spellcasting ability ([[Wizard schools.d20]])
+1,minor spellcasting ability ([[Tables.Organization.Wizard schools.d20]])
 1,resistant to [[resistances]]
 1,[[Fantasy Spellcasting Class Generator.spellfeatures]]
 1,(skill ability)
@@ -305,7 +305,7 @@
 ;resistances
 1,[[Fantasy Spellcasting Class Generator.spellthemes]]
 1,[[immunity]]
-1,[[Elements.4e]]
+1,[[Tables.Utility.Elements.4e]]
 
 ;immunity
 2,disease
@@ -314,7 +314,7 @@
 3,sleep
 4,fear
 1,damage
-4,[[Elements.d20]]
+4,[[Tables.Utility.Elements.d20]]
 
 
 

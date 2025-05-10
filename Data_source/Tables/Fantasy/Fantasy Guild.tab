@@ -30,8 +30,8 @@
 1,Wildlife
 1,Wilderness
 1,Village Green
-1,[[Utility.CreatureTypes]]
-1,[[Utility.TerrainsCap]]
+1,[[Tables.Utility.CreatureTypes]]
+1,[[Tables.Utility.TerrainsCap]]
 
 ;professionplural
 1,Acrobats

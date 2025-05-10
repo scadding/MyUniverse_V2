@@ -1,6 +1,6 @@
 
 ;Start
-1,[[when]], [[badpeople]] [[donesomethingbad]] [[supportchance]] '''OPERATION [[Operational Code Names.Start]]''': [[operational goal]]. [[alliedsupport]]
+1,[[when]], [[badpeople]] [[donesomethingbad]] [[supportchance]] '''OPERATION [[Tables.Names.Operational Code Names.Start]]''': [[operational goal]]. [[alliedsupport]]
 
 ;when
 4,This morning at 0[[Tables.Utility.Dice.digit]]00 hours
@@ -319,6 +319,6 @@
 3,
 1,Assemble your own team.
 1,For reasons that will become clear later, we are sending [[Spycraft Scene.character]] with you.
-1,We have a standing contract with [[Dossier.PrivateMilitary]] contractors that should supply most of your operational needs.
+1,We have a standing contract with [[Tables.People.Dossier.PrivateMilitary]] contractors that should supply most of your operational needs.
 
 

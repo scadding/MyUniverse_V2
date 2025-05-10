@@ -14,12 +14,12 @@
 1,[[HardBodyPart]][[HardVerbCap]]
 1,[[huntquarry]][[huntverb]]
 1,[[huntquarry]][[huntverbcap]]
-1,[[Inscriptions.AbstractNounPositive]][[Inscriptions.SuffixPositive]]
-1,[[Inscriptions.AbstractNounNegative]][[Inscriptions.SuffixPositive]]
-1,[[Inscriptions.AbstractNounPositive]][[Inscriptions.SuffixNegative]]
-1,[[Inscriptions.AbstractNounNegative]][[Inscriptions.SuffixNegative]]
-2,[[Inscriptions.DefiniteNoun]][[Inscriptions.SuffixNegative]]
-2,[[Orc Tribe Name.Body Part]]-[[Orc Tribe Name.BodypartAction]]
+1,[[Tables.Utility.Inscriptions.AbstractNounPositive]][[Tables.Utility.Inscriptions.SuffixPositive]]
+1,[[Tables.Utility.Inscriptions.AbstractNounNegative]][[Tables.Utility.Inscriptions.SuffixPositive]]
+1,[[Tables.Utility.Inscriptions.AbstractNounPositive]][[Tables.Utility.Inscriptions.SuffixNegative]]
+1,[[Tables.Utility.Inscriptions.AbstractNounNegative]][[Tables.Utility.Inscriptions.SuffixNegative]]
+2,[[Tables.Utility.Inscriptions.DefiniteNoun]][[Tables.Utility.Inscriptions.SuffixNegative]]
+2,[[Tables.Organization.Orc Tribe Name.Body Part]]-[[Tables.Organization.Orc Tribe Name.BodypartAction]]
 
 ;Syll1
 1,Andu

@@ -4,8 +4,8 @@
 1,You're with [[character]] [[locationoutdoor]], when [[situationoutdoor]]...
 
 ;character
-3,[[Quick NPC.NPCDescriptor]] [[nationality]] [[profession]]
-1,[[Quick NPC.NPCDescriptor]] [[nationality]] [[profession]] and [[Quick NPC.NPCDescriptor]] [[nationality]] [[profession]]
+3,[[Tables.People.Quick NPC.NPCDescriptor]] [[nationality]] [[profession]]
+1,[[Tables.People.Quick NPC.NPCDescriptor]] [[nationality]] [[profession]] and [[Tables.People.Quick NPC.NPCDescriptor]] [[nationality]] [[profession]]
 
 ;nationality
 1,Afghan
@@ -207,16 +207,16 @@
 1,in a half-remembered blur of interrogations and beatings
 
 ;locationindoor
-1,at a concert in [[World Cities.Start]], backstage before the show
+1,at a concert in [[Tables.Places.World Cities.Start]], backstage before the show
 1,in a dimly lit aquarium hallway looking in on the shark tank
 1,at a high-stakes poker game, down to your last chips
-1,at a loud and crazy nightclub in [[World Cities.Start]], about to win the dance contest
+1,at a loud and crazy nightclub in [[Tables.Places.World Cities.Start]], about to win the dance contest
 1,at a members-only dining establishment having a quiet dinner
 1,at a penthouse suite, waiting for room service
 1,on a private yacht, about to leave the party together
 1,at a ski lodge having hot chocolate
 1,at the opera house in a private box, talking business
-1,at a hotel cafe, about to begin an operation against [[Spycraft Triggering Event.badpeople]]
+1,at a hotel cafe, about to begin an operation against [[Tables.Spy.Spycraft Triggering Event.badpeople]]
 1,at a strip club, counting the small bills in your wallet
 1,in a spacious library, looking for a particular book
 1,at a train station, wondering why the 9:18 hasn't arrived yet
@@ -235,7 +235,7 @@
 1,riding the London Underground, wondering why your train has stopped moving
 1,in the ruins of a Scottish castle, trying to distinguish the figures coming towards you through the morning mist
 1,at a busy casino, having a good run of luck at [[game]]
-1,at an art gallery opening in [[World Cities.Start]], about to show off your unique way of opening a champagne bottle
+1,at an art gallery opening in [[Tables.Places.World Cities.Start]], about to show off your unique way of opening a champagne bottle
 
 ;locationoutdoor
 1,at a rooftop overlook of the city
@@ -303,7 +303,7 @@
 ;situationany
 1,you suddenly remember what the [[profession]] said before she died, and you realize it's all a setup
 1,you realize it had to have been the [[profession]] who sold you out
-1,[[Quick NPC.NPCDescriptor]] ex-lover shows up unexpectedly
+1,[[Tables.People.Quick NPC.NPCDescriptor]] ex-lover shows up unexpectedly
 1,an old rival shows up unexpectedly: its The [[nationality]]. This could be very bad.
 1,armed thugs arrive, firing guns into the air
 1,the red dot of a laser sight begins to creep across your companion's face
@@ -331,6 +331,6 @@
 1,you are engulfed in tear gas as canisters fall all around you
 1,you notice the case with the cash in it somehow feels different
 1,you see that [[nationality]] [[profession]] that you met [[previousencounter]], but how could [[heshe]] have survived?
-1,you realize that the '[[profession]]' you're there to meet with is no such thing: you've seen [[himher]] before, [[Tables.Utility.Dice.2d4]] years ago, [[previousencounter]] in [[World Cities.Start]]
+1,you realize that the '[[profession]]' you're there to meet with is no such thing: you've seen [[himher]] before, [[Tables.Utility.Dice.2d4]] years ago, [[previousencounter]] in [[Tables.Places.World Cities.Start]]
 
 

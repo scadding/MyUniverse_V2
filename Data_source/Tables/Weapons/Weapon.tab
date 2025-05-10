@@ -2,7 +2,7 @@
 ;Start
 50,[[Swords.Start]]<br>
 50,[[HaftedWeapons.Start]]<br>
-10,[[Bows.Start]]<br>
+10,[[Tables.Weapons.Bows.Start]]<br>
 7,[[XBows.Start]]<br>
 5,[[Lances.Start]]<br>
 25,[[StaffClub.Start]]<br>
@@ -13,7 +13,7 @@
 ;NoDescription
 50,[[Swords.NoDescription]]
 50,[[HaftedWeapons.NoDescription]]
-10,[[Bows.NoDescription]]
+10,[[Tables.Weapons.Bows.NoDescription]]
 7,[[XBows.NoDescription]]
 5,[[Lances.NoDescription]]
 25,[[StaffClub.NoDescription]]
@@ -40,8 +40,8 @@
 4,
 
 ;Recipient
-10,members of the [[Fantasy Military Unit.Start]]
-7,[[Fantasy Military Unit.MilitaryRank]]s of the [[Fantasy Military Unit.Start]]
+10,members of the [[Tables.Organization.Fantasy Military Unit.Start]]
+7,[[Tables.Organization.Fantasy Military Unit.MilitaryRank]]s of the [[Tables.Organization.Fantasy Military Unit.Start]]
 
 ;Quality
 1,[[Swords.Quality]]

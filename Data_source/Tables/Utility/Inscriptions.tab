@@ -2,13 +2,13 @@
 ;Start
 1,[[DefiniteNoun]]
 1,[[AbstractNoun]]
-3,[[Secret Society Title.TitleDescriptor]] [[DefiniteNoun]]
-5,[[Secret Society Title.TitleDescriptor]] [[AbstractNoun]]
+3,[[Tables.Organization.Secret Society Title.TitleDescriptor]] [[DefiniteNoun]]
+5,[[Tables.Organization.Secret Society Title.TitleDescriptor]] [[AbstractNoun]]
 5,[[DefiniteNoun]] of [[AbstractNoun]]
 5,[[AbstractNoun]]'s [[AbstractNoun]]
 3,[[AbstractNoun]] of [[Creatures]]
-3,[[Secret Society Title.Title]] of [[AbstractNoun]]
-3,[[Secret Society Title.Title]] of [[DefiniteNoun]]s
+3,[[Tables.Organization.Secret Society Title.Title]] of [[AbstractNoun]]
+3,[[Tables.Organization.Secret Society Title.Title]] of [[DefiniteNoun]]s
 1,[[AbstractNounPositive]][[SuffixPositive]]
 1,[[AbstractNounNegative]][[SuffixPositive]]
 1,[[AbstractNounPositive]][[SuffixNegative]]
@@ -764,7 +764,7 @@
 1,Nothing but
 
 ;Language
-4,[[GheronUtility.HumanLanguagesWritten]]
-1,[[GheronUtility.NonHumanLanguagesWritten]]
+4,[[Tables.Utility.GheronUtility.HumanLanguagesWritten]]
+1,[[Tables.Utility.GheronUtility.NonHumanLanguagesWritten]]
 
 

@@ -35,13 +35,13 @@ _<sgdisplay iterations="5">[[inspiration]] [[deadpeople]]</sgdisplay><br>
 _<br>
 
 ;Start
-6,[[Fantasy Landmarks.inspiration]] [[feature]]
-1,[[feature]] of the [[Fantasy Landmarks.inspiration]][[Fantasy Landmarks.plural]]
+6,[[Tables.Fantasy.Fantasy Landmarks.inspiration]] [[feature]]
+1,[[feature]] of the [[Tables.Fantasy.Fantasy Landmarks.inspiration]][[Tables.Fantasy.Fantasy Landmarks.plural]]
 1,[[religiousplace]]
 
 ;inspiration
-1,[[Fantasy Landmarks.inspiration]]
-1,[[Fantasy Town Names.Englishy]]
+1,[[Tables.Fantasy.Fantasy Landmarks.inspiration]]
+1,[[Tables.Names.Fantasy Town Names.Englishy]]
 
 ;feature
 10,[[streets]]
@@ -240,9 +240,9 @@ _<br>
 2,Warren
 
 ;religiousplace
-1,St. [[Catholic Saint Names.Start]]'s [[religious]]
-1,[[religious]] of St. [[Catholic Saint Names.Start]]
-1,[[Fantasy Town Names.Misc]][[Fantasy Town Names.Suffix]] [[religious]]
+1,St. [[Tables.Names.Catholic Saint Names.Start]]'s [[religious]]
+1,[[religious]] of St. [[Tables.Names.Catholic Saint Names.Start]]
+1,[[Tables.Names.Fantasy Town Names.Misc]][[Tables.Names.Fantasy Town Names.Suffix]] [[religious]]
 
 ;religious
 1,Abbey
@@ -279,7 +279,7 @@ _<br>
 1,Catacomb
 1,Cemetery
 1,Charnel
-1,Crypt[[Fantasy Landmarks.plural]]
+1,Crypt[[Tables.Fantasy.Fantasy Landmarks.plural]]
 1,Graves
 1,Graveyard
 1,Mausoleum

@@ -44,7 +44,7 @@ _<sgdisplay iterations="15">[[coastal]]</sgdisplay><br>
 1,Isle of the
 
 ;ruins
-7,of the settlement at [[Fantasy Town Names.Start]]
+7,of the settlement at [[Tables.Names.Fantasy Town Names.Start]]
 2,of Castle [[inspiration]]
 2,of Fort [[inspiration]]
 1,of Castra [[inspiration]]
@@ -52,9 +52,9 @@ _<sgdisplay iterations="15">[[coastal]]</sgdisplay><br>
 14,of [[inspiration]] [[manmade]]
 5,of [[posessives]] [[manmade]]
 3,at [[inland]]
-3,of [[inspiration]] [[Fantasy Town Feature.buildings]]
-3,of [[inspiration]] [[Fantasy Town Feature.religious]]
-1,of [[Fantasy Town Feature.religiousplace]]
+3,of [[inspiration]] [[Tables.Fantasy.Fantasy Town Feature.buildings]]
+3,of [[inspiration]] [[Tables.Fantasy.Fantasy Town Feature.religious]]
+1,of [[Tables.Fantasy.Fantasy Town Feature.religiousplace]]
 
 ;postplace
 3,[[manmade]]
@@ -261,22 +261,22 @@ _<sgdisplay iterations="15">[[coastal]]</sgdisplay><br>
 1,s
 
 ;inspiration
-1,[[Fantasy Town Names.Misc]][[Fantasy Town Names.Suffix]][[Fantasy Town Names.Suffix]]
-1,[[Fantasy Town Names.Group1]][[Fantasy Town Names.Group2]]
-1,[[Fantasy Town Names.Misc]][[Fantasy Town Names.Suffix]]
-3,[[Fantasy Military Unit.MascotAnimal]]
-2,[[Fantasy Military Unit.MascotModifier]]
-1,[[Secret Society Title.Title]]
-2,[[Secret Society Title.OrgDescriptor]]
-2,[[Secret Society Title.Noun]]
+1,[[Tables.Names.Fantasy Town Names.Misc]][[Tables.Names.Fantasy Town Names.Suffix]][[Tables.Names.Fantasy Town Names.Suffix]]
+1,[[Tables.Names.Fantasy Town Names.Group1]][[Tables.Names.Fantasy Town Names.Group2]]
+1,[[Tables.Names.Fantasy Town Names.Misc]][[Tables.Names.Fantasy Town Names.Suffix]]
+3,[[Tables.Organization.Fantasy Military Unit.MascotAnimal]]
+2,[[Tables.Organization.Fantasy Military Unit.MascotModifier]]
+1,[[Tables.Organization.Secret Society Title.Title]]
+2,[[Tables.Organization.Secret Society Title.OrgDescriptor]]
+2,[[Tables.Organization.Secret Society Title.Noun]]
 10,[[moreinspirations]]
-3,[[Inscriptions.AbstractNounNegative]]
-1,[[Inscriptions.AbstractNounPositive]]
-4,[[Inscriptions.DefiniteNoun]]
-6,[[Fantasy Town Names.Englishy]]
+3,[[Tables.Utility.Inscriptions.AbstractNounNegative]]
+1,[[Tables.Utility.Inscriptions.AbstractNounPositive]]
+4,[[Tables.Utility.Inscriptions.DefiniteNoun]]
+6,[[Tables.Names.Fantasy Town Names.Englishy]]
 
 ;abstractevocative
-5,[[Inscriptions.AbstractNounNegative]]
+5,[[Tables.Utility.Inscriptions.AbstractNounNegative]]
 1,Hunger
 1,Desolation
 1,Broken Promises
@@ -293,9 +293,9 @@ _<sgdisplay iterations="15">[[coastal]]</sgdisplay><br>
 1,Prophecy
 
 ;posessives
-1,[[Fantasy Names.MaleFirstName]]'s
-1,[[Fantasy Town Names.Jobs]]'s
-2,[[Inn and Tavern Names.Person]]'s
+1,[[Tables.Names.Fantasy Names.MaleFirstName]]'s
+1,[[Tables.Names.Fantasy Town Names.Jobs]]'s
+2,[[Tables.Names.Inn and Tavern Names.Person]]'s
 1,[[moreposessors]]'s
 
 ;moreposessors
@@ -345,7 +345,7 @@ _<sgdisplay iterations="15">[[coastal]]</sgdisplay><br>
 2,[[creature]]
 1,[[creature]] [[bodypart]]
 1,[[colors]]
-1,[[Inn and Tavern Names.Item]]
+1,[[Tables.Names.Inn and Tavern Names.Item]]
 
 ;colors
 1,Amber
@@ -410,7 +410,7 @@ _<sgdisplay iterations="15">[[coastal]]</sgdisplay><br>
 1,Wolf
 1,Wraith
 1,Wyrm
-25,[[Inn and Tavern Names.Creature]]
+25,[[Tables.Names.Inn and Tavern Names.Creature]]
 
 ;bodypart
 5,Head

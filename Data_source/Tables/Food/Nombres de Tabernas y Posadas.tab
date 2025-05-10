@@ -7,8 +7,8 @@
 1,[[Establishment]] de [[PersonName]]
 
 ;PersonName
-1,[[Fantasy Names.MaleFirstName]]
-1,[[Fantasy Names.FemaleFirstName]]
+1,[[Tables.Names.Fantasy Names.MaleFirstName]]
+1,[[Tables.Names.Fantasy Names.FemaleFirstName]]
 
 ;Name
 13,[[Creature]]
@@ -208,8 +208,8 @@
 1,Borrego
 
 ;Person
-1,[[Fantasy Names.MaleFirstName]]
-1,[[Fantasy Names.FemaleFirstName]]
+1,[[Tables.Names.Fantasy Names.MaleFirstName]]
+1,[[Tables.Names.Fantasy Names.FemaleFirstName]]
 1,Abad
 1,Amazona
 1,Arquero

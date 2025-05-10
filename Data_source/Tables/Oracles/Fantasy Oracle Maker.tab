@@ -1,14 +1,14 @@
 
 ;Start
 5,[[multicharacters]].
-1,The [[relationeither]] of [[Fantasy Scene.Character]] at [[Fantasy Scene.Location]].
+1,The [[relationeither]] of [[Tables.Fantasy.Fantasy Scene.Character]] at [[Tables.Fantasy.Fantasy Scene.Location]].
 3,[[Canonical Oracles]]
 2,[[Fan Oracles]]
 1,[[beasts]]
 1,[[Fantasy Town Event.Start]]
 
 ;Canonical Oracles
-1,[[Art Grace and Guts Oracle.OracleResult]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.OracleResult]]
 1,[[Blood and Sex Oracle.Start]]
 1,[[God Kings of War Oracle.Start]]
 1,[[The Unquiet Past Oracle.Start]]
@@ -111,7 +111,7 @@
 1,vizier to the king
 1,yeoman farmer
 1,fisherman
-5,[[Fantasy Profession.maleanyclass]]
+5,[[Tables.Fantasy.Fantasy Profession.maleanyclass]]
 
 ;femalerelationphrase
 1,taken prisoner by a [[maleperson]]
@@ -213,6 +213,6 @@
 1,feasting on the remains of the [[relationeither]] of a [[maleperson]]
 
 ;title
-1,The [[Secret Society Title.NounDescriptor]] [[Secret Society Title.Noun]]
+1,The [[Tables.Organization.Secret Society Title.NounDescriptor]] [[Tables.Organization.Secret Society Title.Noun]]
 
 

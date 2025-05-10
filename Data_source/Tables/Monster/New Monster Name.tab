@@ -24,9 +24,9 @@
 1,{{ucfirst:[[separatepre]]}} {{ucfirst:[[pre]][[beast]]}}
 1,{{ucfirst:[[separatepre]]}} {{ucfirst:[[pre]][[material]]}} {{ucfirst:[[beast]]}}
 1,{{ucfirst:[[separatepre]]}} {{ucfirst:[[pre]][[suffix]]}}
-1,{{ucfirst:[[Compound Word.Start]]}} {{ucfirst:[[beast]]}}
-1,{{ucfirst:[[Compound Word.Start]]}} {{ucfirst:[[separatesuffix]]}}
-1,{{ucfirst:[[Compound Word.Start]]}} {{ucfirst:[[beast]][[beast]]}}
+1,{{ucfirst:[[Tables.Utility.Compound Word.Start]]}} {{ucfirst:[[beast]]}}
+1,{{ucfirst:[[Tables.Utility.Compound Word.Start]]}} {{ucfirst:[[separatesuffix]]}}
+1,{{ucfirst:[[Tables.Utility.Compound Word.Start]]}} {{ucfirst:[[beast]][[beast]]}}
 
 ;pre
 1,sword

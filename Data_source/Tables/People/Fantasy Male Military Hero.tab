@@ -3,10 +3,10 @@
 1,[[Name]], a [[HumanMaleMilitaryProfession]]. [[HumanMaleMartialSentence]]
 
 ;Name
-1,[[Fantasy Names.MaleFirstName]] of [[Fantasy Town Names.Start]]
-1,[[Fantasy Names.MaleFirstName]] of [[Fantasy Town Names.Englishy]]
-1,[[Fantasy Names.StartNoTitle]] the [[MaleHonorific]]
-1,[[Fantasy Names.StartNoTitle]]
+1,[[Tables.Names.Fantasy Names.MaleFirstName]] of [[Tables.Names.Fantasy Town Names.Start]]
+1,[[Tables.Names.Fantasy Names.MaleFirstName]] of [[Tables.Names.Fantasy Town Names.Englishy]]
+1,[[Tables.Names.Fantasy Names.StartNoTitle]] the [[MaleHonorific]]
+1,[[Tables.Names.Fantasy Names.StartNoTitle]]
 
 ;MaleHonorific
 1,Grey
@@ -30,11 +30,11 @@
 1,Mad
 1,Humble
 1,Bloody
-50,[[Secret Society Title.TitleDescriptor]]
+50,[[Tables.Organization.Secret Society Title.TitleDescriptor]]
 
 ;HumanMaleMilitaryProfession
-7,soldier in the [[Fantasy Military Unit.Start]]
-8,[[MilitaryRank]] in the [[Fantasy Military Unit.Start]]
+7,soldier in the [[Tables.Organization.Fantasy Military Unit.Start]]
+8,[[MilitaryRank]] in the [[Tables.Organization.Fantasy Military Unit.Start]]
 
 ;HumanMaleMartialSentence
 10,[[HumanMaleMartialDistinguishment]] he [[FoughtAdverb]] [[FoughtVerb]] a [[Group]] of [[NegativeAdjChance]] [[HumanRacialEnemies]]s [[HumanMaleWarReason]].
@@ -191,10 +191,10 @@
 4,tapestry
 
 ;IndividualEnemy
-15,[[Orc Names.Start]], leader of the [[NegativeAdjChance]] [[Orc Tribe Name.Start]] [[TribalHumanoids]] tribe
-7,[[MilitaryRankCap]] [[Fantasy Names.StartNoTitle]], who led the [[NegativeAdjChance]] [[Fantasy Military Unit.Start]],
-1,the [[ArcaneEnemy]] [[ArcaneBooks.ArcaneAuthor]]
-1,[[Fantasy Names.StartNoTitle]], the [[Secret Society Title.Start]]
+15,[[Tables.Names.Orc Names.Start]], leader of the [[NegativeAdjChance]] [[Tables.Organization.Orc Tribe Name.Start]] [[TribalHumanoids]] tribe
+7,[[MilitaryRankCap]] [[Tables.Names.Fantasy Names.StartNoTitle]], who led the [[NegativeAdjChance]] [[Tables.Organization.Fantasy Military Unit.Start]],
+1,the [[ArcaneEnemy]] [[Tables.Magic.ArcaneBooks.ArcaneAuthor]]
+1,[[Tables.Names.Fantasy Names.StartNoTitle]], the [[Tables.Organization.Secret Society Title.Start]]
 
 ;ArcaneEnemy
 1,[[NegativeAdj]] [[ArcaneTitle]]
@@ -254,7 +254,7 @@
 15,orc
 10,troll
 4,Northlander
-5,[[GheronUtility.CulturesHuman]] soldier
+5,[[Tables.Utility.GheronUtility.CulturesHuman]] soldier
 4,bandit
 9,bugbear
 1,centaur
@@ -372,7 +372,7 @@
 2,[[HaftedWeapons.FlailType]]
 8,[[HaftedWeapons.PolearmType]]
 14,[[Swords.StartNoDescription]]
-6,[[Bows.BowType]]
+6,[[Tables.Weapons.Bows.BowType]]
 3,[[XBows.XBowType]]
 1,[[Lances.StartNoDescription]]
 
@@ -422,7 +422,7 @@
 4,battled
 1,captured a bridge from
 1,captured a leader of
-2,captured an important [[Utility.Terrains]] from
+2,captured an important [[Tables.Utility.Terrains]] from
 3,clashed with
 1,conducted raids against
 1,cut off supplies from

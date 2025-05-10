@@ -18,8 +18,8 @@
 
 ;hexfeature
 3,a [[lairmonster]] lair here
-2,a settlement here, a [[Settlements.Type]]
-2,a landmark here, the [[Fantasy Landmarks.Start]]
+2,a settlement here, a [[Tables.Places.Settlements.Type]]
+2,a landmark here, the [[Tables.Fantasy.Fantasy Landmarks.Start]]
 1,a fortification here
 3,an encounter here
 1,a ruin here

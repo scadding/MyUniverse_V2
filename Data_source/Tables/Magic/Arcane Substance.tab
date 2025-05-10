@@ -1,7 +1,7 @@
 
 ;Start
 10,[[HerbalProducts.Start]]
-10,[[MonsterParts.StartItemOnly]]
+10,[[Tables.Utility.MonsterParts.StartItemOnly]]
 15,[[MaterialDescriptor]] [[Material]]
 10,[[Material]] of [[Concept]]
 1,[[Material]] [[MaterialPost]]
@@ -24,7 +24,7 @@
 1,Diabolic
 1,Heavenly
 1,Explosive
-15,[[ArcaneBooks.DiscAdj]]
+15,[[Tables.Magic.ArcaneBooks.DiscAdj]]
 
 ;Material
 1,Phlogiston
@@ -43,7 +43,7 @@
 1,Death
 1,Victory
 1,Defeat
-5,[[Inscriptions.AbstractNoun]]
+5,[[Tables.Utility.Inscriptions.AbstractNoun]]
 
 ;MaterialPost
 1,Vitae

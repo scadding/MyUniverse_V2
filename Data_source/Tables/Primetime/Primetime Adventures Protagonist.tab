@@ -15,22 +15,22 @@
 1,[[Nemesis]]<br/>
 
 ;genderfirstname
-1,[[American Census Names.male]]
-1,[[American Census Names.female]]
+1,[[Tables.Names.American Census Names.male]]
+1,[[Tables.Names.American Census Names.female]]
 
 ;surname
-1,[[American Census Names.surname]]
+1,[[Tables.Names.American Census Names.surname]]
 
 ;edge
 4,[[fakeornot]] [[profession]]
-2,[[Modern Hobby.hobby]]
+2,[[Tables.Occupation.Modern Hobby.hobby]]
 
 ;fakeornot
 15,
 1,Fake
 
 ;profession
-20,[[Modern Profession.profession]]
+20,[[Tables.Occupation.Modern Profession.profession]]
 1,[[Super Edge]]
 1,[[Other Religious]]
 1,[[Supernatural Edge]]
@@ -53,16 +53,16 @@
 2,Old Master
 2,Old Teacher
 2,Pilot
-1,[[Modern Profession.Military]]
-1,[[Modern Profession.Medical]]
+1,[[Tables.Occupation.Modern Profession.Military]]
+1,[[Tables.Occupation.Modern Profession.Medical]]
 2,Surgeon
 2,Priest
 2,Kid
 1,[[school]] Sweetheart
-1,[[Modern Profession.Academic]]
+1,[[Tables.Occupation.Modern Profession.Academic]]
 2,Lawyer
-1,[[Modern Profession.Federal Agent]]
-1,[[Modern Profession.Cop]]
+1,[[Tables.Occupation.Modern Profession.Federal Agent]]
+1,[[Tables.Occupation.Modern Profession.Cop]]
 2,Private Eye
 1,[[Super Connection]]
 1,[[Supernatural Connection]]
@@ -119,7 +119,7 @@
 
 ;past
 1,[[school]]
-1,the [[Modern Profession.Service]]
+1,the [[Tables.Occupation.Modern Profession.Service]]
 1,the War
 1,the Academy
 

@@ -240,14 +240,14 @@
 
 ;Deformities
 1,humped back
-1,withered [[Utility.LeftRight]] hand
-1,withered [[Utility.LeftRight]] arm
-1,missing [[Utility.LeftRight]] hand
-1,missing [[Utility.LeftRight]] arm
-1,missing [[Utility.LeftRight]] leg
-2,withered [[Finger]] on [[Utility.LeftRight]] hand
-2,missing [[Finger]] on [[Utility.LeftRight]] hand
-1,extra finger on [[Utility.LeftRight]] hand
+1,withered [[Tables.Utility.LeftRight]] hand
+1,withered [[Tables.Utility.LeftRight]] arm
+1,missing [[Tables.Utility.LeftRight]] hand
+1,missing [[Tables.Utility.LeftRight]] arm
+1,missing [[Tables.Utility.LeftRight]] leg
+2,withered [[Finger]] on [[Tables.Utility.LeftRight]] hand
+2,missing [[Finger]] on [[Tables.Utility.LeftRight]] hand
+1,extra finger on [[Tables.Utility.LeftRight]] hand
 
 ;Finger
 5,thumb
@@ -314,7 +314,7 @@
 1,bad acne
 1,lazy eye
 1,hairy upper lip
-3,[[Utility.LeftRight]] eye is covered by an eyepatch
+3,[[Tables.Utility.LeftRight]] eye is covered by an eyepatch
 1,shaved eyebrows
 1,chiseled facial features
 1,missing teeth
@@ -334,7 +334,7 @@
 1,pockmarked cheeks
 1,cleft chin
 1,dimples
-1,[[Utility.LeftRight]] eye has cataracts
+1,[[Tables.Utility.LeftRight]] eye has cataracts
 1,prominent freckles
 1,buck teeth
 1,pudgy cheeks
@@ -343,7 +343,7 @@
 1,missing teeth
 1,bad acne
 1,lazy eye
-3,[[Utility.LeftRight]] eye is covered by an eyepatch
+3,[[Tables.Utility.LeftRight]] eye is covered by an eyepatch
 1,shaved eyebrows
 1,chiseled facial features
 1,missing teeth
@@ -398,30 +398,30 @@
 1,disfiguring
 
 ;FacialScars
-1,[[Utility.LeftRight]] cheek
-1,[[Utility.LeftRight]] side of the neck
-1,across the [[Utility.LeftRight]] eye area
-1,[[Utility.LeftRight]] lip
-1,[[Utility.LeftRight]] forehead
-1,[[Utility.LeftRight]] ear
+1,[[Tables.Utility.LeftRight]] cheek
+1,[[Tables.Utility.LeftRight]] side of the neck
+1,across the [[Tables.Utility.LeftRight]] eye area
+1,[[Tables.Utility.LeftRight]] lip
+1,[[Tables.Utility.LeftRight]] forehead
+1,[[Tables.Utility.LeftRight]] ear
 
 ;LimbScars
-1,upper [[Utility.LeftRight]] arm
-1,[[Utility.LeftRight]] elbow
-1,lower [[Utility.LeftRight]] arm
-1,[[Utility.LeftRight]] hand
-1,[[Utility.LeftRight]] thigh
-1,[[Utility.LeftRight]] calf
-1,[[Utility.LeftRight]] knee
-1,[[Utility.LeftRight]] foot
+1,upper [[Tables.Utility.LeftRight]] arm
+1,[[Tables.Utility.LeftRight]] elbow
+1,lower [[Tables.Utility.LeftRight]] arm
+1,[[Tables.Utility.LeftRight]] hand
+1,[[Tables.Utility.LeftRight]] thigh
+1,[[Tables.Utility.LeftRight]] calf
+1,[[Tables.Utility.LeftRight]] knee
+1,[[Tables.Utility.LeftRight]] foot
 
 ;TorsoScars
-1,upper [[Utility.LeftRight]] side of the chest
-1,lower [[Utility.LeftRight]] ribcage
-1,[[Utility.LeftRight]] shoulder
-1,upper [[Utility.LeftRight]] back
-1,lower [[Utility.LeftRight]] back
-1,[[Utility.LeftRight]] stomach area
-1,[[Utility.LeftRight]] buttock
+1,upper [[Tables.Utility.LeftRight]] side of the chest
+1,lower [[Tables.Utility.LeftRight]] ribcage
+1,[[Tables.Utility.LeftRight]] shoulder
+1,upper [[Tables.Utility.LeftRight]] back
+1,lower [[Tables.Utility.LeftRight]] back
+1,[[Tables.Utility.LeftRight]] stomach area
+1,[[Tables.Utility.LeftRight]] buttock
 
 

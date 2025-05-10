@@ -1,10 +1,10 @@
 
 ;Start
 1,==Male dossier==<br>
-_Name :[[American Census Names.male]] [[American Census Names.surname]]<br>
+_Name :[[Tables.Names.American Census Names.male]] [[Tables.Names.American Census Names.surname]]<br>
 _Gender : Male<br>
 _Age :[[Age]]<br>
-_Location of Birth :[[US Cities.simplified]]<br>
+_Location of Birth :[[Tables.Places.US Cities.simplified]]<br>
 _Languages :[[SomeLanguages]]<br>
 _Activities :[[SomeActivities]]<br>
 _Interests :[[SomeInterests]]<br>
@@ -12,10 +12,10 @@ _Previous work :||<sgdisplay iterations="3">[[MaleAmericanJobExperience]], [[Job
 _Current organization :[[MaleAmericanJobExperience]] <br>
 _Area of Expertise : [[AreaofExpertise]]<br><br>
 1,==Female dossier==<br>
-_Name :[[American Census Names.female]] [[American Census Names.surname]]<br>
+_Name :[[Tables.Names.American Census Names.female]] [[Tables.Names.American Census Names.surname]]<br>
 _Gender : Female<br>
 _Age :[[Age]]<br>
-_Location of Birth :[[US Cities.simplified]]<br>
+_Location of Birth :[[Tables.Places.US Cities.simplified]]<br>
 _Languages :[[SomeLanguages]]<br>
 _Activities :[[SomeActivities]]<br>
 _Interests :[[SomeInterests]]<br>
@@ -159,8 +159,8 @@ _Area of Expertise : [[AreaofExpertise]]<br><br>
 1,[[Scientific]]
 1,[[LiberalArts]]
 1,[[Hobby]]
-1,[[Modern Hobby.Start]]
-4,[[Hobbies.Start]]
+1,[[Tables.Occupation.Modern Hobby.Start]]
+4,[[Tables.Occupation.Hobbies.Start]]
 
 ;Scientific
 1,Anthropology
@@ -388,7 +388,7 @@ _Area of Expertise : [[AreaofExpertise]]<br><br>
 1,(unknown duration)
 
 ;MaleAmericanJobExperience
-1,[[US Cities.Start]] Police Department - [[PoliceRole]]
+1,[[Tables.Places.US Cities.Start]] Police Department - [[PoliceRole]]
 1,[[NationalLab]] National Laboratory
 1,[[PrivateMilitary]]
 1,[[PrivateIntelligence]]
@@ -411,22 +411,22 @@ _Area of Expertise : [[AreaofExpertise]]<br><br>
 1,US Marine Corps - [[MaleMarineRole]]
 1,US Marshals
 1,US Navy - [[MaleNavyRole]]
-1,Volunteer Firefighter - [[US Cities.simplified]]
-5,[[Modern Profession.Start]] ([[US Cities.simplified]])
+1,Volunteer Firefighter - [[Tables.Places.US Cities.simplified]]
+5,[[Tables.Occupation.Modern Profession.Start]] ([[Tables.Places.US Cities.simplified]])
 1,Jailed for [[Crime]]
-1,Unknown, Probably Spent in [[World Cities.Start]]
-1,Unknown, Probably Spent in [[US Cities.Start]]
-1,Foreign Correspondent, ([[World Cities.Start]])
-1,Reporter in [[US Cities.Start]]
-1,Student in [[US Cities.Start]]
-1,Student in [[World Cities.Start]]
-1,[[OtherJob]] in [[US Cities.Start]]
-1,[[OtherJob]] in [[World Cities.Start]]
+1,Unknown, Probably Spent in [[Tables.Places.World Cities.Start]]
+1,Unknown, Probably Spent in [[Tables.Places.US Cities.Start]]
+1,Foreign Correspondent, ([[Tables.Places.World Cities.Start]])
+1,Reporter in [[Tables.Places.US Cities.Start]]
+1,Student in [[Tables.Places.US Cities.Start]]
+1,Student in [[Tables.Places.World Cities.Start]]
+1,[[OtherJob]] in [[Tables.Places.US Cities.Start]]
+1,[[OtherJob]] in [[Tables.Places.World Cities.Start]]
 1,Medical Leave
 1,Defense Advanced Research Projects Agency
 
 ;FemaleAmericanJobExperience
-1,[[US Cities.Start]] Police Department - [[PoliceRole]]
+1,[[Tables.Places.US Cities.Start]] Police Department - [[PoliceRole]]
 1,[[NationalLab]] National Laboratory
 1,Bureau of Alcohol, Tobacco, and Firearms
 1,Centers for Disease Control
@@ -438,7 +438,7 @@ _Area of Expertise : [[AreaofExpertise]]<br><br>
 1,French Foreign Legion
 1,United Nations - [[UNRole]]
 1,National Security Agency
-1,Peace Corps ([[World Cities.Start]])
+1,Peace Corps ([[Tables.Places.World Cities.Start]])
 1,Secret Service
 1,State Department - [[StateRole]]
 1,US Air Force - [[FemaleAirForceRole]]
@@ -447,22 +447,22 @@ _Area of Expertise : [[AreaofExpertise]]<br><br>
 1,US Marine Corps - [[FemaleMarineRole]]
 1,US Marshals
 1,US Navy - [[FemaleNavyRole]]
-1,Volunteer Firefighter - [[US Cities.simplified]]
-5,[[Modern Profession.Start]] ([[US Cities.simplified]])
+1,Volunteer Firefighter - [[Tables.Places.US Cities.simplified]]
+5,[[Tables.Occupation.Modern Profession.Start]] ([[Tables.Places.US Cities.simplified]])
 1,Jailed for [[Crime]]
-1,Unknown, Probably Spent in [[World Cities.Start]]
-1,Unknown, Probably Spent in [[US Cities.Start]]
-1,Foreign Correspondent, ([[World Cities.Start]])
-1,Reporter in [[US Cities.Start]]
-1,Student in [[US Cities.Start]]
-1,Student in [[World Cities.Start]]
+1,Unknown, Probably Spent in [[Tables.Places.World Cities.Start]]
+1,Unknown, Probably Spent in [[Tables.Places.US Cities.Start]]
+1,Foreign Correspondent, ([[Tables.Places.World Cities.Start]])
+1,Reporter in [[Tables.Places.US Cities.Start]]
+1,Student in [[Tables.Places.US Cities.Start]]
+1,Student in [[Tables.Places.World Cities.Start]]
 1,Medical Leave
 1,Pregnancy and Family Leave
 1,Defense Advanced Research Projects Agency
 1,Antarctica - [[Antarctica]]
 1,[[PrivateIntelligence]]
-1,[[OtherJob]] in [[US Cities.Start]]
-1,[[OtherJob]] in [[World Cities.Start]]
+1,[[OtherJob]] in [[Tables.Places.US Cities.Start]]
+1,[[OtherJob]] in [[Tables.Places.World Cities.Start]]
 
 ;Antarctica
 3,U.S. Antarctic Program - Amundsen-Scott station
@@ -526,7 +526,7 @@ _Area of Expertise : [[AreaofExpertise]]<br><br>
 
 ;FBIRole
 1,Intelligence Analyst
-1,Field Agent ([[US Cities.simplified]])
+1,Field Agent ([[Tables.Places.US Cities.simplified]])
 1,Cybercrime Unit
 1,Counter-Intelligence
 1,Counter-Terrorism
@@ -542,8 +542,8 @@ _Area of Expertise : [[AreaofExpertise]]<br><br>
 1,Liaison, [[ForeignCounterTerror]]
 
 ;StateRole
-1,Foreign Service ([[World Cities.WorldCapital]])
-1,Diplomatic Security Service ([[World Cities.WorldCapital]])
+1,Foreign Service ([[Tables.Places.World Cities.WorldCapital]])
+1,Diplomatic Security Service ([[Tables.Places.World Cities.WorldCapital]])
 1,Advisor to the Chief of Staff
 1,Advisor to the Secretariat
 1,Office of the Coordinator for Counterterrorism
@@ -690,7 +690,7 @@ _Area of Expertise : [[AreaofExpertise]]<br><br>
 
 ;MaleMarineRole
 5,Infantry
-1,Embassy Guard ([[World Cities.WorldCapital]])
+1,Embassy Guard ([[Tables.Places.World Cities.WorldCapital]])
 1,1st MSOB (Camp Pendleton, CA)
 1,2nd MSOB (Camp Lejeune, NC)
 1,Marine Special Operations Advisor Group 
@@ -764,7 +764,7 @@ _Area of Expertise : [[AreaofExpertise]]<br><br>
 
 ;FemaleMarineRole
 5,Infantry
-1,Embassy Guard ([[World Cities.WorldCapital]])
+1,Embassy Guard ([[Tables.Places.World Cities.WorldCapital]])
 1,1st MSOB (Camp Pendleton, CA)
 1,2nd MSOB (Camp Lejeune, NC)
 1,Marine Special Operations Advisor Group 

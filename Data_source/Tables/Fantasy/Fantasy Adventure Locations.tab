@@ -8,23 +8,23 @@
 20,'a cosmopolitan city', known for its [[Citythingy]] as well as its [[cityadj]] buildings
 10,'an island'
 10,'an obscure part of the sea' where our heroes find [[Seathings]]
-8,'an underground complex' containing <br/>These traps: [[Traps.Start]], [[Traps.Start]], [[Traps.Start]]<br/>These creatures: [[Weird Fantasy Monster.Start]], [[Weird Fantasy Monster.Start]], [[Weird Fantasy Monster.Start]]
+8,'an underground complex' containing <br/>These traps: [[Tables.Utility.Traps.Start]], [[Tables.Utility.Traps.Start]], [[Tables.Utility.Traps.Start]]<br/>These creatures: [[Tables.Monster.Weird Fantasy Monster.Start]], [[Tables.Monster.Weird Fantasy Monster.Start]], [[Tables.Monster.Weird Fantasy Monster.Start]]
 5,'a cave complex'
-10,'a classic dungeon' featuring: [[obstacle]] and containing:<br/>These traps: [[Traps.Start]], [[Traps.Start]], [[Traps.Start]]<br/>These creatures: [[Weird Fantasy Monster.Start]], [[Weird Fantasy Monster.Start]], [[Weird Fantasy Monster.Start]]
+10,'a classic dungeon' featuring: [[obstacle]] and containing:<br/>These traps: [[Tables.Utility.Traps.Start]], [[Tables.Utility.Traps.Start]], [[Tables.Utility.Traps.Start]]<br/>These creatures: [[Tables.Monster.Weird Fantasy Monster.Start]], [[Tables.Monster.Weird Fantasy Monster.Start]], [[Tables.Monster.Weird Fantasy Monster.Start]]
 9,'the docks' where all life is [[cityadj]]
 2,'a laboratory'
 3,'a wizard's tower'
-4,'a fortress:'<br/>[[Random Fortress.Start]]
-5,'a legendary forest' home to the [[simplecolor]] [[Animal.Weirdsymbol]]
+4,'a fortress:'<br/>[[Tables.Places.Random Fortress.Start]]
+5,'a legendary forest' home to the [[simplecolor]] [[Tables.Animals.Animal.Weirdsymbol]]
 5,'a lost city'
-5,'a lunatic's fortress'<br/>[[Random Fortress.Start]]
+5,'a lunatic's fortress'<br/>[[Tables.Places.Random Fortress.Start]]
 2,'a magical lake' [[Freshwaterproperties]]
 9,'the mansion of a powerful NPC' Contains:<br/>[[Fantasy Mansion Domestic Security Measures.Start]][[Fantasy Mansion Domestic Security Measures.Start]]
 4,'a military encampment'
-3,'the palace of the ruler or local lord'<br/>[[Random Fortress.Start]]<br/>Also:[[Fantasy Mansion Domestic Security Measures.Start]]
-4,'ancient ruins' containing:<br/>These traps:[[Traps.Start]], [[Traps.Start]], [[Traps.Start]]<br/>These creatures: [[Weird Fantasy Monster.Start]], [[Weird Fantasy Monster.Start]], [[Weird Fantasy Monster.Start]]
+3,'the palace of the ruler or local lord'<br/>[[Tables.Places.Random Fortress.Start]]<br/>Also:[[Fantasy Mansion Domestic Security Measures.Start]]
+4,'ancient ruins' containing:<br/>These traps:[[Tables.Utility.Traps.Start]], [[Tables.Utility.Traps.Start]], [[Tables.Utility.Traps.Start]]<br/>These creatures: [[Tables.Monster.Weird Fantasy Monster.Start]], [[Tables.Monster.Weird Fantasy Monster.Start]], [[Tables.Monster.Weird Fantasy Monster.Start]]
 3,'a slum' where all life is [[cityadj]]
-10,'an inn'<br/>[[Inn and Tavern Names.Start]], famous for its [[FantasyMenu.Descriptor]][[FantasyMenu.MainMeals]]
+10,'an inn'<br/>[[Tables.Names.Inn and Tavern Names.Start]], famous for its [[Tables.Food.FantasyMenu.Descriptor]][[Tables.Food.FantasyMenu.MainMeals]]
 15,'a [[cityadj]] temple' of [[Religion]] based on the worship of [[Worship]]
 5,'the [[cityadj]] cathedral' of [[Religion]] based on the worship of [[Worship]]
 3,'a desert' where death comes in the form of [[Worshipped]] and [[Worshipped]], full of [[simplecolor]] scorpions and [[simplecolor]] lizards
@@ -35,9 +35,9 @@
 1,'a prison' where everything is [[cityadj]] and the cells are [[cityadj]]
 1,'a necropolis'
 1,'a freakish structure' resembling no human architecture
-3,'a jungle' overrun with [[Animal.Weirdsymbol]]s
+3,'a jungle' overrun with [[Tables.Animals.Animal.Weirdsymbol]]s
 3,'a mountainous area'
-3,'a mountain fortress'<br/>[[Random Fortress.Start]]
+3,'a mountain fortress'<br/>[[Tables.Places.Random Fortress.Start]]
 3,'a plain' where [[Tribals]]
 3,'the steppe'
 1,'the tundra'
@@ -56,8 +56,8 @@
 
 ;Forestfork
 1,where [[Tribals]]
-1,home to the [[simplecolor]] [[Animal.Weirdsymbol]]
-1,overrun with [[Animal.Weirdsymbol]]s
+1,home to the [[simplecolor]] [[Tables.Animals.Animal.Weirdsymbol]]
+1,overrun with [[Tables.Animals.Animal.Weirdsymbol]]s
 
 ;Tribals
 1,amazons ride [[Exoticmounts]]
@@ -67,13 +67,13 @@
 1,roving armies ride [[Exoticmounts]]
 1,[[Random Humanoid Horde.Race]] ride [[Exoticmounts]]
 1,strangely-armored knights ride [[Exoticmounts]]
-1,[[Animal.Weirdsymbol]] centaurs roam
+1,[[Tables.Animals.Animal.Weirdsymbol]] centaurs roam
 4,the grass is [[simplecolor]] and the women are [[cityadj]]
 1,a horde of gibbering loons pursued by [[Exoticmounts]]
 1,shamans initiating children in the ways of [[Worshipped]]
-1,shamans summons [[simplecolor]] [[Animal.Weirdsymbol]] as familiars and pets
+1,shamans summons [[simplecolor]] [[Tables.Animals.Animal.Weirdsymbol]] as familiars and pets
 1,hunters tracking [[Exoticmounts]]
-1,hunters tracking [[Animal.Weirdsymbol]]
+1,hunters tracking [[Tables.Animals.Animal.Weirdsymbol]]
 
 ;Exoticmounts
 10,rhinoceroses
@@ -172,12 +172,12 @@
 1,tigers
 1,insects
 1,maggots
-10,[[Weird Fantasy Monster.Start]]
+10,[[Tables.Monster.Weird Fantasy Monster.Start]]
 1,swords
 1,knives
 1,daggers
 1,morningstars
-3,[[Found in a crate.Start]]
+3,[[Tables.Utility.Found in a crate.Start]]
 1,fire
 1,fire and strife
 1,the PCs
@@ -211,8 +211,8 @@
 2,noise
 1,extremely attractive women
 1,silence
-10,a(n) [[Animal.Weirdsymbol]] 
-10,[[Animal.Weirdsymbol]]s
+10,a(n) [[Tables.Animals.Animal.Weirdsymbol]] 
+10,[[Tables.Animals.Animal.Weirdsymbol]]s
 1,buildings
 1,metal objects
 1,ranged weapons
@@ -306,9 +306,9 @@
 1,a drifting ironclad, which is nearly all one giant cannon shaped like great dragon mawed tuba. It is unmanned and its engines cold, with gun unloaded and no indication of what fuel or ammunition it used. 
 1,the remnants of battle between ships, the ships now fused together, like half melted wax, some joined by long thin strands.
 1,a ship crewed by ships vermin, their minds switched with that of the original sailors, who now scuttled below deck, and are dangerous the new bodied crew. The sailor-minded vermin are accepting of their lot. Or insane.
-1,a raft, completely empty except for the remains of a [[Weird Fantasy Monster.Start]]
+1,a raft, completely empty except for the remains of a [[Tables.Monster.Weird Fantasy Monster.Start]]
 1,a raft, completely empty except for the corpse of a [[Fantasy NPC - Basic.Start]] and its belongings
-1,a raft, completely empty except for the burned body of a [[Animal.Weirdsymbol]] with a sacrificial dagger stuck in it.
+1,a raft, completely empty except for the burned body of a [[Tables.Animals.Animal.Weirdsymbol]] with a sacrificial dagger stuck in it.
 
 ;obstacle
 1,doors stuck due to moisture

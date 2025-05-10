@@ -16,15 +16,15 @@
 1,[[Adjectives1]] [[Mythological/legendary name]]
 1,[[Adjectives2]] [[Mythological/legendary name]]
 1,[[Titles]] [[Mythological/legendary name]]
-1,[[American Census Names.commonmale]] [[Nouns1]]
-1,[[American Census Names.female]] [[Adjectives2]]
-1,[[Nouns1]] [[American Census Names.surname]]
+1,[[Tables.Names.American Census Names.commonmale]] [[Nouns1]]
+1,[[Tables.Names.American Census Names.female]] [[Adjectives2]]
+1,[[Nouns1]] [[Tables.Names.American Census Names.surname]]
 1,[[Dog Names.Start]]
 1,[[Nouns1]] the [[Adjectives1]] [[Persons]]
 1,[[Colors]] [[Nouns1]]
 1,[[Colors]] [[Animals]]
 1,[[Colors]] [[Professions]]
-1,[[Adjectives2]] [[American Census Names.commonmale]] [[Nouns1]]
+1,[[Adjectives2]] [[Tables.Names.American Census Names.commonmale]] [[Nouns1]]
 
 ;Nouns1
 1,American

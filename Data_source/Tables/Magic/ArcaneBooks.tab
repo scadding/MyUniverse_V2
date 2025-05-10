@@ -92,13 +92,13 @@
 1,Anatomy
 1,Magical Crossbreeding
 1,Potionbrewing
-1,[[Utility.CreatureTypes]] Dissection
-1,[[Utility.CreatureTypes]] Sentience
-1,[[Utility.CreatureTypes]] Crossbreeding
+1,[[Tables.Utility.CreatureTypes]] Dissection
+1,[[Tables.Utility.CreatureTypes]] Sentience
+1,[[Tables.Utility.CreatureTypes]] Crossbreeding
 1,Alienistic Magic
 1,Spellcraft
 1,Spellcasting
-1,Summoning [[Utility.CreatureTypes]]s
+1,Summoning [[Tables.Utility.CreatureTypes]]s
 1,Planar Travel
 1,Chronomancy
 1,Ley Lines
@@ -113,7 +113,7 @@
 1,Theurgy
 1,[[DiscAdj]] Knowledge
 5,[[DivinationType]]
-1, Communication with [[Utility.CreatureTypes]]s
+1, Communication with [[Tables.Utility.CreatureTypes]]s
 
 ;DivinationType
 1,Aeromancy
@@ -257,7 +257,7 @@
 1,Research on
 1,Analysis of
 1,Uses for
-1,Magnifying [[Wizard schools.Start]] Spells with
+1,Magnifying [[Tables.Organization.Wizard schools.Start]] Spells with
 1,A Theory on the Nature of
 1,Rethinking the [[AlchemyNoun]] of
 
@@ -311,8 +311,8 @@
 9,[[Experiments]]
 
 ;AbstractSubstance
-1,the Element of {{ucfirst:[[Elements.all]]}}
-1,{{ucfirst:[[Wizard schools.Start]]}} Magic
+1,the Element of {{ucfirst:[[Tables.Utility.Elements.all]]}}
+1,{{ucfirst:[[Tables.Organization.Wizard schools.Start]]}} Magic
 
 ;ArcaneSubstance
 1,[[Arcane Substance.Start]]
@@ -322,11 +322,11 @@
 2,, by [[ArcaneAuthor]]
 
 ;ArcaneAuthor
-1,[[Fantasy Names.MaleFirstName]] the [[Honorific]]
-1,[[Fantasy Names.MaleFirstName]], the [[Secret Society Title.TitleDescriptor]] [[ArcaneProfession]]
-1,[[Fantasy Names.MaleFirstName]], [[Secret Society Title.Start]]
-1,[[Fantasy Names.MaleFirstName]] the [[ArcaneProfession]]
-1,[[Fantasy Names.MaleFirstName]], [[ArcaneProfession]] [[ArcaneRank]]
+1,[[Tables.Names.Fantasy Names.MaleFirstName]] the [[Honorific]]
+1,[[Tables.Names.Fantasy Names.MaleFirstName]], the [[Tables.Organization.Secret Society Title.TitleDescriptor]] [[ArcaneProfession]]
+1,[[Tables.Names.Fantasy Names.MaleFirstName]], [[Tables.Organization.Secret Society Title.Start]]
+1,[[Tables.Names.Fantasy Names.MaleFirstName]] the [[ArcaneProfession]]
+1,[[Tables.Names.Fantasy Names.MaleFirstName]], [[ArcaneProfession]] [[ArcaneRank]]
 
 ;Honorific
 1,Magnificent
@@ -338,7 +338,7 @@
 1,Black
 1,Red
 1,Forbidden
-10,[[Secret Society Title.TitleDescriptor]]
+10,[[Tables.Organization.Secret Society Title.TitleDescriptor]]
 
 ;ArcaneProfession
 5,Wizard
@@ -371,5 +371,5 @@
 1,of the Tenth Circle
 1,of the Eleventh Circle
 1,of the Twelfth Circle
-10,of the [[Secret Society Title.NounDescriptor]] [[Secret Society Title.Noun]]
+10,of the [[Tables.Organization.Secret Society Title.NounDescriptor]] [[Tables.Organization.Secret Society Title.Noun]]
 

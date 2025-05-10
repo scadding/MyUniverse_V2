@@ -30,24 +30,24 @@
 1,[[History]] of [[Subject]] [[TranslationChance]]
 
 ;Cookbook
-1,[[Tables.Utility.Dice.1d10]][[Tables.Utility.Dice.1d10]][[Tables.Utility.Dice.1d10]] [[DeliciousWord]] [[GheronUtility.CulturesHuman]] Recipes
-1,[[SelectionCriteria]] [[GheronUtility.CulturesHuman]] Recipes
-1,Cooking in the [[GheronUtility.CulturesHuman]] Style
-1,[[GheronUtility.CulturesHuman]] Cuisine Made Easy
-10,[[SelectionCriteria]] Recipes for [[FantasyMenu.MainMeals]], by [[Author]] [[TranslationChance]]
+1,[[Tables.Utility.Dice.1d10]][[Tables.Utility.Dice.1d10]][[Tables.Utility.Dice.1d10]] [[DeliciousWord]] [[Tables.Utility.GheronUtility.CulturesHuman]] Recipes
+1,[[SelectionCriteria]] [[Tables.Utility.GheronUtility.CulturesHuman]] Recipes
+1,Cooking in the [[Tables.Utility.GheronUtility.CulturesHuman]] Style
+1,[[Tables.Utility.GheronUtility.CulturesHuman]] Cuisine Made Easy
+10,[[SelectionCriteria]] Recipes for [[Tables.Food.FantasyMenu.MainMeals]], by [[Author]] [[TranslationChance]]
 6,[[SelectionCriteria]] Recipes from the Kitchen of [[Author]]
-6,[[Fantasy Names.MaleFirstName]]'s [[FantasyMenu.Descriptor]] [[FantasyMenu.MainMeals]] and other [[DeliciousWord]] Recipes
-4,[[Tables.Utility.Dice.3d6]] Ways to Prepare [[FantasyMenu.MainMeals]], by [[Author]] [[TranslationChance]]
+6,[[Tables.Names.Fantasy Names.MaleFirstName]]'s [[Tables.Food.FantasyMenu.Descriptor]] [[Tables.Food.FantasyMenu.MainMeals]] and other [[DeliciousWord]] Recipes
+4,[[Tables.Utility.Dice.3d6]] Ways to Prepare [[Tables.Food.FantasyMenu.MainMeals]], by [[Author]] [[TranslationChance]]
 
 ;Howto
 3,[[SucceedArtsCraftsWord]] [[ArtsCrafts]], by [[Author]] [[TranslationChance]]
-1,[[SucceedArtsCraftsWord]] [[GheronUtility.Cultures]] [[MethodsType]] of [[ArtsCrafts]], by [[Author]] [[TranslationChance]]
-1,[[HowtoWord]] Join [[GheronUtility.Organization]], by [[Author]] [[TranslationChance]]
-1,[[HowtoWord]] Grow [[FantasyMenu.VeggiesCookable]], by [[Author]] [[TranslationChance]]
-1,[[HowtoWord]] [[TerrainHowto]] the [[Utility.Terrains]], by [[Author]] [[TranslationChance]]
+1,[[SucceedArtsCraftsWord]] [[Tables.Utility.GheronUtility.Cultures]] [[MethodsType]] of [[ArtsCrafts]], by [[Author]] [[TranslationChance]]
+1,[[HowtoWord]] Join [[Tables.Utility.GheronUtility.Organization]], by [[Author]] [[TranslationChance]]
+1,[[HowtoWord]] Grow [[Tables.Food.FantasyMenu.VeggiesCookable]], by [[Author]] [[TranslationChance]]
+1,[[HowtoWord]] [[TerrainHowto]] the [[Tables.Utility.Terrains]], by [[Author]] [[TranslationChance]]
 3,[[HowtoWord]] [[TerrainHowto]] the [[Destination]], by [[Author]] [[TranslationChance]]
-1,[[Author]]'s Guide to More [[Inscriptions.AbstractNounPositive]] in Your Life[[ExclamationChance]]
-1,[[Author]]'s Guide to Less [[Inscriptions.AbstractNounNegative]] in Your Life[[ExclamationChance]]
+1,[[Author]]'s Guide to More [[Tables.Utility.Inscriptions.AbstractNounPositive]] in Your Life[[ExclamationChance]]
+1,[[Author]]'s Guide to Less [[Tables.Utility.Inscriptions.AbstractNounNegative]] in Your Life[[ExclamationChance]]
 
 ;Type
 10,Book
@@ -118,32 +118,32 @@
 ;AbstractBook
 1,The [[Type]] of [[AbstractSubject]] [[TranslationChance]]
 1,The [[SelectionCriteria]] [[Type]] of [[AbstractSubject]] [[TranslationChance]]
-1,[[Author]]'s [[Type]] of [[Inscriptions.AbstractNoun]]
-1,[[Inscriptions.AbstractNoun]]: The [[SelectionCriteria]] [[Type]]
+1,[[Author]]'s [[Type]] of [[Tables.Utility.Inscriptions.AbstractNoun]]
+1,[[Tables.Utility.Inscriptions.AbstractNoun]]: The [[SelectionCriteria]] [[Type]]
 1,[[Type]] [[Preposition]] [[AbstractSubject]]
 
 ;AbstractSubject
-25,[[Inscriptions.AbstractNoun]]
+25,[[Tables.Utility.Inscriptions.AbstractNoun]]
 1,the Dead
 1,Days
 1,Years
 1,Circles
 
 ;ReligiousSubject
-14,the Church of [[List of gods.Start]]
-15,the [[ReligiousWords]] of the Church of [[List of gods.Start]]
+14,the Church of [[Tables.Religion.List of gods.Start]]
+15,the [[ReligiousWords]] of the Church of [[Tables.Religion.List of gods.Start]]
 1,Dark Gods
 1,Pagan Gods
-5,[[List of gods.Start]]'s [[ReligiousWords]]
-5,[[ReligiousWords]] of [[GheronUtility.Organization]]
-5,[[ReligiousWords]] of [[Secret Society Title.SecretSocietyName]]
-2,the [[SelectionCriteria]] Hymns of [[List of gods.Start]]
+5,[[Tables.Religion.List of gods.Start]]'s [[ReligiousWords]]
+5,[[ReligiousWords]] of [[Tables.Utility.GheronUtility.Organization]]
+5,[[ReligiousWords]] of [[Tables.Organization.Secret Society Title.SecretSocietyName]]
+2,the [[SelectionCriteria]] Hymns of [[Tables.Religion.List of gods.Start]]
 
 ;Subject
 30,[[ArtsCrafts]]
-55,[[GheronUtility.Cultures]] [[ArtsCrafts]]
-15,[[GheronUtility.Organization]]
-10,[[Compass direction.4]]ern [[ArtsCrafts]]
+55,[[Tables.Utility.GheronUtility.Cultures]] [[ArtsCrafts]]
+15,[[Tables.Utility.GheronUtility.Organization]]
+10,[[Tables.Utility.Compass direction.4]]ern [[ArtsCrafts]]
 1,Alchemy
 1,Ancient Empires
 6,Ancient [[ArtsCrafts]]
@@ -172,24 +172,24 @@
 1,Undead Lore
 1,Unholy Rites
 1,Weather
-5,[[Adjective]] Followers of [[List of gods.Start]]
-5,[[Adjective]] Leaders of [[GheronUtility.Organization]]
-5,[[Adjective]] [[GheronUtility.Cultures]] Folk Heroes
-6,[[Fantasy Town Names.Start]]
-5,[[Secret Society Title.SecretSocietyName]]
-4,[[Compass direction.4]]ern [[ReligiousWords]]
-6,{{ucfirst:[[Wizard schools.Start]]}}
-1,[[Utility.RuneLanguage]] Runes
+5,[[Adjective]] Followers of [[Tables.Religion.List of gods.Start]]
+5,[[Adjective]] Leaders of [[Tables.Utility.GheronUtility.Organization]]
+5,[[Adjective]] [[Tables.Utility.GheronUtility.Cultures]] Folk Heroes
+6,[[Tables.Names.Fantasy Town Names.Start]]
+5,[[Tables.Organization.Secret Society Title.SecretSocietyName]]
+4,[[Tables.Utility.Compass direction.4]]ern [[ReligiousWords]]
+6,{{ucfirst:[[Tables.Organization.Wizard schools.Start]]}}
+1,[[Tables.Utility.RuneLanguage]] Runes
 1,the Heavens
 1,the Illithid War
 1,the Sea
 1,the Stars
 1,the Underdark
-5,the [[Adjective]] [[Plans]] between [[GheronUtility.Organization]] and [[GheronUtility.Organization]] 
-2,the [[Adjective]] [[Plans]] between [[GheronUtility.Organization]] and [[Secret Society Title.SecretSocietyName]]
-9,the [[GheronUtility.Cultures]] Nation
-6,the [[GheronUtility.Cultures]]-[[GheronUtility.Cultures]] Wars
-5,the [[GheronUtility.Cultures]]-[[GheronUtility.Cultures]] [[Plans]]
+5,the [[Adjective]] [[Plans]] between [[Tables.Utility.GheronUtility.Organization]] and [[Tables.Utility.GheronUtility.Organization]] 
+2,the [[Adjective]] [[Plans]] between [[Tables.Utility.GheronUtility.Organization]] and [[Tables.Organization.Secret Society Title.SecretSocietyName]]
+9,the [[Tables.Utility.GheronUtility.Cultures]] Nation
+6,the [[Tables.Utility.GheronUtility.Cultures]]-[[Tables.Utility.GheronUtility.Cultures]] Wars
+5,the [[Tables.Utility.GheronUtility.Cultures]]-[[Tables.Utility.GheronUtility.Cultures]] [[Plans]]
 
 ;ArtsCrafts
 15,Culture
@@ -342,7 +342,7 @@
 2,Unforgettable
 3,Unknown
 2,Unusual
-10,[[Secret Society Title.TitleDescriptor]]
+10,[[Tables.Organization.Secret Society Title.TitleDescriptor]]
 
 ;Plans
 1,Agenda
@@ -462,7 +462,7 @@
 1,Founder
 1,Follower
 1,Disciple
-4,[[Secret Society Title.Title]]
+4,[[Tables.Organization.Secret Society Title.Title]]
 
 ;Article
 1,The 
@@ -481,12 +481,12 @@
 2,Chronology
 
 ;Author
-4,[[Fantasy Names.StartMale]]
-1,[[Fantasy Names.StartFemale]]
+4,[[Tables.Names.Fantasy Names.StartMale]]
+1,[[Tables.Names.Fantasy Names.StartFemale]]
 
 ;Person
-3,[[Fantasy Names.StartMale]]
-1,[[Fantasy Names.StartFemale]]
+3,[[Tables.Names.Fantasy Names.StartMale]]
+1,[[Tables.Names.Fantasy Names.StartFemale]]
 
 ;Travel
 1,Days
@@ -564,7 +564,7 @@
 20,
 
 ;TranslationWords
-10,translated from the original [[GheronUtility.NonCommonLanguage]]
+10,translated from the original [[Tables.Utility.GheronUtility.NonCommonLanguage]]
 5,annotated
 5,compiled
 5,edited
@@ -606,7 +606,7 @@
 4,Sumptuous
 4,Tasty
 2,Yummy
-4,[[GheronUtility.CulturesHuman]]
+4,[[Tables.Utility.GheronUtility.CulturesHuman]]
 
 ;HowtoWord
 4,How to
@@ -675,7 +675,7 @@
 5,The Art of
 2,The Beginner's Guide to
 1,The Power of 
-2,The [[Secret Society Title.OrgDescriptor]] Art of
+2,The [[Tables.Organization.Secret Society Title.OrgDescriptor]] Art of
 1,[[Tables.Utility.Dice.3d6]] Lessons for Successful
 
 ;ExclamationChance
@@ -695,8 +695,8 @@
 2,Types
 
 ;Destination
-1,[[Fantasy Town Names.Start]]
-1,[[Fantasy Landmarks.Start]]
-1,[[Fantasy Town Feature.Start]]
-1,[[Poetic Destinations.Start]]
+1,[[Tables.Names.Fantasy Town Names.Start]]
+1,[[Tables.Fantasy.Fantasy Landmarks.Start]]
+1,[[Tables.Fantasy.Fantasy Town Feature.Start]]
+1,[[Tables.Places.Poetic Destinations.Start]]
 

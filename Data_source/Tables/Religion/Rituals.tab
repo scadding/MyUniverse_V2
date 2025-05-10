@@ -175,9 +175,9 @@
 4,on a young [[manwoman]]'s 1[[Tables.Utility.Dice.digit]]th birthday
 1,when a young [[manwoman]] is deemed ready to become an adult
 1,when a young man wishes to prove himself
-1,when a young [[manwoman]] chooses to follow the path of [[List of gods.Start]]
+1,when a young [[manwoman]] chooses to follow the path of [[Tables.Religion.List of gods.Start]]
 1,during the period of apprenticeship
-1,while a young [[manwoman]] is learning to be a [[Fantasy Profession.Start]]
+1,while a young [[manwoman]] is learning to be a [[Tables.Fantasy.Fantasy Profession.Start]]
 
 ;womanEvent
 1,after a young woman's first menses
@@ -201,7 +201,7 @@
 ;culturalEvent
 1,at the comemmoration of a great battle
 1,on the birthdate of a particular saint
-1,during the feast of St. [[Catholic Saint Names.Start]]
+1,during the feast of St. [[Tables.Names.Catholic Saint Names.Start]]
 1,at the coronation of a new king or queen
 1,when commemorating an ancestor
 1,when granting freedom to a slave
@@ -327,11 +327,11 @@
 2,[[ClothingFemale.MaterialsCommon]]
 1,[[ClothingFemale.MaterialsFancy]]
 5,[[ClothingFemale.ClothingColors]]
-2,[[Utility.Cloth]]
+2,[[Tables.Utility.Cloth]]
 ;riteFoodDrink
 1,drink a lot of alcohol
 1,host a great feast
-1,host a feast where [[FantasyMenu.Descriptor]] [[FantasyMenu.MainMeals]] is served
+1,host a feast where [[Tables.Food.FantasyMenu.Descriptor]] [[Tables.Food.FantasyMenu.MainMeals]] is served
 1,drink sacred wine
 1,partake of a particular narcotic drug
 1,partake of a particular hallucinogenic drug
@@ -358,8 +358,8 @@
 ;riteSacrifice
 3,sacrifice [[sacrificialLivestock]]
 1,sacrifice [[sacrificialPerson]]
-1,give a monetary offering to a temple of [[List of gods.Start]]
-1,give a food offering of [[specificFood]] to [[List of gods.Start]]
+1,give a monetary offering to a temple of [[Tables.Religion.List of gods.Start]]
+1,give a food offering of [[specificFood]] to [[Tables.Religion.List of gods.Start]]
 1,give food to the poor
 1,mingle one's blood with that of an enemy in reconciliation
 1,give [[sacrificialLivestock]] to [[officiator]]
@@ -379,8 +379,8 @@
 1,learn a new secret handshake
 1,learn a new dance
 1,learn a new song
-1,make a new coat of [[Utility.LeatherHide]]
-1,make a new garment of [[Utility.Cloth]]
+1,make a new coat of [[Tables.Utility.LeatherHide]]
+1,make a new garment of [[Tables.Utility.Cloth]]
 
 ;riteCompetitive
 5,participate in single combat against a wild beast
@@ -422,12 +422,12 @@
 1,be flogged with [[Tables.Utility.Dice.2d6]] lashes
 1,be burned alive
 1,be stoned to death
-1,be pelted with rotten [[Utility.Fruit]]s
+1,be pelted with rotten [[Tables.Utility.Fruit]]s
 1,cut off a finger
 1,cut off a toe
 1,be blinded
 1,be bled
-1,have the [[Utility.LeftRight]] eye put out with a burning stick
+1,have the [[Tables.Utility.LeftRight]] eye put out with a burning stick
 
 ;timePeriodAny
 1,[[timePeriodShort]]
@@ -473,10 +473,10 @@
 1,a prisoner of war
 
 ;specificFood
-1,[[Utility.Fruit]]s
+1,[[Tables.Utility.Fruit]]s
 1,[[Fantasy Farmstead.AgricultureProduct]]
-1,[[FantasyMenu.MainMeals]]
-1,[[FantasyMenu.Veggies]]
+1,[[Tables.Food.FantasyMenu.MainMeals]]
+1,[[Tables.Food.FantasyMenu.Veggies]]
 
 ;privelegeClause
 2,Before a young man may [[privelegeAny]], he must
@@ -526,7 +526,7 @@
 1,seek a mate
 1,vote in council
 1,bear weaponry
-1,wear a [[Utility.Colors]] garment
+1,wear a [[Tables.Utility.Colors]] garment
 1,own slaves
 1,go on a boat for the first time
 1,own livestock

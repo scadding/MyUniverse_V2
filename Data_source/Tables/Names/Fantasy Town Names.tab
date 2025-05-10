@@ -17,7 +17,7 @@ _<sgdisplay iterations="5">[[Englishy]]</sgdisplay><br>
 1,[[Age]] [[Color]][[Group2]]
 1,[[Prefix]] [[Group1]][[Group2]]
 4,[[Jobs]]'s [[PlaceUpper]]
-3,[[Fantasy Names.MaleFirstName]]'s [[PlaceUpper]]
+3,[[Tables.Names.Fantasy Names.MaleFirstName]]'s [[PlaceUpper]]
 5,[[Englishy]]
 
 ;Englishy
@@ -38,7 +38,7 @@ _<sgdisplay iterations="5">[[Englishy]]</sgdisplay><br>
 5,[[Misc]][[Suffix]]
 
 ;Jobs
-5,[[Secret Society Title.Title]]
+5,[[Tables.Organization.Secret Society Title.Title]]
 1,Abbot
 1,Angel
 3,Baker

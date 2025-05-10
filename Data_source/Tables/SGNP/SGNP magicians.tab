@@ -2,8 +2,8 @@
 ;Start
 1,[[MALE]] (Sigil: [[SIGIL]]) (male)
 1,[[FEMALE]] (Sigil: [[SIGIL]]) (female)
-1,[[MALE]], [[Secret Society Title.Start]] (Sigil: [[SIGIL]]) (male)
-1,[[FEMALE]], [[Secret Society Title.Start]] (Sigil: [[SIGIL]]) (female)
+1,[[MALE]], [[Tables.Organization.Secret Society Title.Start]] (Sigil: [[SIGIL]]) (male)
+1,[[FEMALE]], [[Tables.Organization.Secret Society Title.Start]] (Sigil: [[SIGIL]]) (female)
 
 ;MALE 
 1,Apis Malefica

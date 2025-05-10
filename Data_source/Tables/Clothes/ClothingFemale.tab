@@ -38,14 +38,14 @@
 5,[[MaterialsFancy]] and [[MaterialsCommon]]
 
 ;MaterialCombosLeather
-4,[[Utility.LeatherHide]]
-2,[[Utility.LeatherHide]] and [[Utility.LeatherHide]]
-1,[[Utility.LeatherHide]] with [[Utility.Fur]] trim
+4,[[Tables.Utility.LeatherHide]]
+2,[[Tables.Utility.LeatherHide]] and [[Tables.Utility.LeatherHide]]
+1,[[Tables.Utility.LeatherHide]] with [[Tables.Utility.Fur]] trim
 
 ;MaterialCombosChainmailable
 4,[[MaterialsChainmailableCommon]]
 2,[[MaterialsChainmailableCommon]] and [[MaterialsFancy]]
-2,[[MaterialsChainmailableCommon]] and [[Utility.LeatherHide]]
+2,[[MaterialsChainmailableCommon]] and [[Tables.Utility.LeatherHide]]
 1,[[MaterialsChainmailableCommon]] and [[MaterialsCommon]]
 
 ;FemaleUpperSinglePiece
@@ -137,7 +137,7 @@
 2,pair of breeches made of [[MaterialCombosCommon]]
 2,pair of pantaloons made of [[MaterialCombosCommon]]
 2,pair of culottes made of [[MaterialCombosCommon]]
-1,barbarian-style loincloth made of [[Utility.Fur]] fur and [[Utility.LeatherHide]]
+1,barbarian-style loincloth made of [[Tables.Utility.Fur]] fur and [[Tables.Utility.LeatherHide]]
 2,mini [[FemaleLowerSkirtType]] skirt made of [[MaterialCombosCommon]]
 
 ;FemaleLowerSkirtType
@@ -169,7 +169,7 @@
 25,[[FemaleShirtType]] long [[FemaleLowerSkirtType]] dress made of [[MaterialCombosCommon]]
 5,[[FemaleShirtType]] long hooped dress made of [[MaterialCombosFancy]]
 5,[[FemaleShirtType]] formal dress made of [[MaterialCombosFancy]]
-3,chainmail bikini made of [[Utility.MetalDecor]] rings with cups of [[Utility.MetalDecor]], lined with [[Utility.LeatherHide]] on the inside
+3,chainmail bikini made of [[Tables.Utility.MetalDecor]] rings with cups of [[Tables.Utility.MetalDecor]], lined with [[Tables.Utility.LeatherHide]] on the inside
 7,[[FemaleShirtType]] [[FemaleLowerSkirtType]] gown made of [[MaterialCombosFancy]]
 3,toga made of [[MaterialCombosCommon]]
 10,robe made of [[MaterialCombosCommon]]
@@ -186,7 +186,7 @@
 15,knee-high boots made of [[MaterialCombosLeather]]. The boots have [[FemaleBootShape]] and [[FemaleBootsHeel]] heels.
 10,thigh-high boots made of [[MaterialCombosLeather]]. The boots have [[FemaleBootShape]] and [[FemaleBootsHeel]] heels.
 10,hip-high (wading) boots made of [[MaterialCombosLeather]]. The boots have [[FemaleBootShape]] and [[FemaleBootsHeel]] heels.
-10,riding boots made of [[MaterialCombosLeather]]. The boots have [[FemaleBootShape]] and low heels with spurs made of [[Utility.MetalWeapon]].
+10,riding boots made of [[MaterialCombosLeather]]. The boots have [[FemaleBootShape]] and low heels with spurs made of [[Tables.Utility.MetalWeapon]].
 1,jester shoes made of [[MaterialCombosCommon]].
 25,common shoes made of [[MaterialCombosLeather]].
 
@@ -200,20 +200,20 @@
 
 ;FemaleBootShape
 8,pointed toes
-2,pointed toes capped with [[Utility.MetalDecor]]
+2,pointed toes capped with [[Tables.Utility.MetalDecor]]
 8,rounded toes
 2,squared toes
 1,"tabi" toes
 
 ;FemaleAccessories
-4,spiked collar made of [[MaterialCombosLeather]] with [[Utility.MetalArmor]] spikes
+4,spiked collar made of [[MaterialCombosLeather]] with [[Tables.Utility.MetalArmor]] spikes
 4,gorget made of [[MaterialCombosLeather]]
 10,cape made of [[MaterialCombosCommon]]
 5,half-cape made of [[MaterialCombosCommon]]
 10,belt made of [[MaterialCombosLeather]]
 7,baldric made of [[MaterialCombosFancy]]
-10,pair of gloves made of [[MaterialCombosFancy]] with [[Utility.Fur]] trim
-5,pair of long gloves made of [[MaterialCombosFancy]] with [[Utility.Fur]] trim
+10,pair of gloves made of [[MaterialCombosFancy]] with [[Tables.Utility.Fur]] trim
+5,pair of long gloves made of [[MaterialCombosFancy]] with [[Tables.Utility.Fur]] trim
 6,sash made of [[MaterialCombosFancy]]
 2,apron made of [[ServantApronMaterial]]
 3,purse made of [[MaterialCombosLeather]]
@@ -253,8 +253,8 @@
 2,buccaneer's hat made of [[MaterialsHat]]
 
 ;Masks
-1,A mask depicting a [[MaskSubject]] made of [[Utility.LeatherHide]] and intended to cover the [[MaskCoverage]].
-1,A mask depicting a [[MaskSubject]] made of [[Utility.MetalArmor]] and intended to cover the [[MaskCoverage]].
+1,A mask depicting a [[MaskSubject]] made of [[Tables.Utility.LeatherHide]] and intended to cover the [[MaskCoverage]].
+1,A mask depicting a [[MaskSubject]] made of [[Tables.Utility.MetalArmor]] and intended to cover the [[MaskCoverage]].
 
 ;MaskSubject
 1,demon
@@ -297,15 +297,15 @@
 1,[[MilitaryUniformGeneric]] It is cut for a female soldier.
 
 ;Vestments
-20,low-level vestments of [[GheronUtility.Diety]] made with [[MaterialsFancy]] and [[MaterialsFancy]].
-5,mid-level vestments of [[GheronUtility.Diety]] made with [[MaterialsFancy]] and [[MaterialsFancy]]. 
-2,high-level vestments of [[GheronUtility.Diety]] made with [[MaterialsFancy]] and [[MaterialsFancy]].
-1,ancient or unusual vestments of [[GheronUtility.Diety]] made with [[MaterialsFancy]] and [[MaterialsFancy]].
+20,low-level vestments of [[Tables.Utility.GheronUtility.Diety]] made with [[MaterialsFancy]] and [[MaterialsFancy]].
+5,mid-level vestments of [[Tables.Utility.GheronUtility.Diety]] made with [[MaterialsFancy]] and [[MaterialsFancy]]. 
+2,high-level vestments of [[Tables.Utility.GheronUtility.Diety]] made with [[MaterialsFancy]] and [[MaterialsFancy]].
+1,ancient or unusual vestments of [[Tables.Utility.GheronUtility.Diety]] made with [[MaterialsFancy]] and [[MaterialsFancy]].
 
 
 ;ServantUniformFemale
-1,[[ServantTypeFemale]]'s uniform consisting of a [[FemaleFullBody]],[[ServantUniformFemaleApron]] and low boots made of [[Utility.LeatherHide]].
-1,[[ServantTypeFemale]]'s uniform consisting of a [[FemaleUpperOutfit]], a long skirt made of [[MaterialCombosCommon]],[[ServantUniformFemaleApron]] and low boots of [[Utility.LeatherHide]]. The boots have [[FemaleBootShape]] and [[FemaleBootsHeel]] heels.
+1,[[ServantTypeFemale]]'s uniform consisting of a [[FemaleFullBody]],[[ServantUniformFemaleApron]] and low boots made of [[Tables.Utility.LeatherHide]].
+1,[[ServantTypeFemale]]'s uniform consisting of a [[FemaleUpperOutfit]], a long skirt made of [[MaterialCombosCommon]],[[ServantUniformFemaleApron]] and low boots of [[Tables.Utility.LeatherHide]]. The boots have [[FemaleBootShape]] and [[FemaleBootsHeel]] heels.
 
 ;ServantUniformFemaleApron
 2,
@@ -313,9 +313,9 @@
 3, a half-apron made of [[ServantApronMaterial]],
 
 ;ServantApronMaterial
-10,[[Utility.LightColors]] [[Utility.ClothFancy]]
-5,[[Utility.LightColors]] [[Utility.Cloth]]
-2,[[Utility.LeatherHide]]
+10,[[Tables.Utility.LightColors]] [[Tables.Utility.ClothFancy]]
+5,[[Tables.Utility.LightColors]] [[Tables.Utility.Cloth]]
+2,[[Tables.Utility.LeatherHide]]
 
 ;ServantTypeFemale
 3,maid
@@ -333,11 +333,11 @@
 1,chambermaid
 
 ;MilitaryUniformGeneric
-5,horseman's dress uniform consisting of [[Utility.LeatherHide]] riding boots, [[Utility.LeatherHide]] gauntlets, [[ClothingColors]] wool breeches lined with [[Utility.LeatherHide]],[[Military Uniform.MilitaryAccessoriesChance]] and a tailed jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] braided epaulets and embroidery and buttons of shiny [[Utility.MetalDecor]].
-5,foot soldier's dress uniform consisting of [[Utility.LeatherHide]] boots, [[ClothingColors]] canvas breeches lined with [[MaterialsFancy]],[[Military Uniform.MilitaryAccessoriesChance]] and a jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] embroidery and buttons of shiny [[Utility.MetalDecor]].
-5,guard's dress uniform consisting of [[Utility.LeatherHide]] boots, [[MaterialsCommon]] breeches lined with [[MaterialsFancy]],[[Military Uniform.MilitaryAccessoriesChance]] and a jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] embroidery and buttons of shiny [[Utility.MetalDecor]].
-5,pikeman's dress uniform consisting of [[Utility.LeatherHide]] boots, [[MaterialsCommon]] breeches lined with [[MaterialsFancy]],[[Military Uniform.MilitaryAccessoriesChance]] and a jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] embroidery and buttons of shiny [[Utility.MetalDecor]].
-1,sapper's uniform consisting of [[Utility.LeatherHide]] boots, a thick [[Utility.LeatherHide]] apron, [[MaterialsCommon]] breeches lined with [[MaterialsFancy]], and a jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] embroidery and buttons of shiny [[Utility.MetalDecor]].
+5,horseman's dress uniform consisting of [[Tables.Utility.LeatherHide]] riding boots, [[Tables.Utility.LeatherHide]] gauntlets, [[ClothingColors]] wool breeches lined with [[Tables.Utility.LeatherHide]],[[Military Uniform.MilitaryAccessoriesChance]] and a tailed jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] braided epaulets and embroidery and buttons of shiny [[Tables.Utility.MetalDecor]].
+5,foot soldier's dress uniform consisting of [[Tables.Utility.LeatherHide]] boots, [[ClothingColors]] canvas breeches lined with [[MaterialsFancy]],[[Military Uniform.MilitaryAccessoriesChance]] and a jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] embroidery and buttons of shiny [[Tables.Utility.MetalDecor]].
+5,guard's dress uniform consisting of [[Tables.Utility.LeatherHide]] boots, [[MaterialsCommon]] breeches lined with [[MaterialsFancy]],[[Military Uniform.MilitaryAccessoriesChance]] and a jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] embroidery and buttons of shiny [[Tables.Utility.MetalDecor]].
+5,pikeman's dress uniform consisting of [[Tables.Utility.LeatherHide]] boots, [[MaterialsCommon]] breeches lined with [[MaterialsFancy]],[[Military Uniform.MilitaryAccessoriesChance]] and a jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] embroidery and buttons of shiny [[Tables.Utility.MetalDecor]].
+1,sapper's uniform consisting of [[Tables.Utility.LeatherHide]] boots, a thick [[Tables.Utility.LeatherHide]] apron, [[MaterialsCommon]] breeches lined with [[MaterialsFancy]], and a jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] embroidery and buttons of shiny [[Tables.Utility.MetalDecor]].
 
 ;ClothingColors
 4,[[Tables.Utility.Color.dark]]
@@ -356,35 +356,35 @@
 1,faded
 
 ;MaterialsCommon
-16,[[PatternsColors]] [[Utility.Cloth]]
-1,[[PatternsColors]] [[Utility.ClothFancy]]
-1,[[Utility.LeatherHide]]
+16,[[PatternsColors]] [[Tables.Utility.Cloth]]
+1,[[PatternsColors]] [[Tables.Utility.ClothFancy]]
+1,[[Tables.Utility.LeatherHide]]
 
 ;MaterialsFancy
-80,[[PatternsColors]] [[Utility.ClothFancy]]
-5,[[PatternsColors]] [[Utility.ClothFancy]] with [[Utility.Fur]] fur trim
-5,[[PatternsColors]] [[Utility.Cloth]]
-1,[[PatternsColors]] [[Utility.Cloth]] with [[Utility.Fur]] fur trim
-3,[[Utility.LeatherHide]]
-1,[[Utility.LeatherHide]] with [[Utility.Fur]] fur trim
+80,[[PatternsColors]] [[Tables.Utility.ClothFancy]]
+5,[[PatternsColors]] [[Tables.Utility.ClothFancy]] with [[Tables.Utility.Fur]] fur trim
+5,[[PatternsColors]] [[Tables.Utility.Cloth]]
+1,[[PatternsColors]] [[Tables.Utility.Cloth]] with [[Tables.Utility.Fur]] fur trim
+3,[[Tables.Utility.LeatherHide]]
+1,[[Tables.Utility.LeatherHide]] with [[Tables.Utility.Fur]] fur trim
 8,sheer [[ClothingColors]] gauze
 8,[[ClothingColors]] lace
 
 ;MaterialsChainmailableCommon
 17,[[MaterialsCommon]]
-2,[[MaterialsCommon]] with [[Utility.Fur]] fur trim
+2,[[MaterialsCommon]] with [[Tables.Utility.Fur]] fur trim
 4,tight [[MaterialsCommon]]
-4,<b>tight [[Utility.LeatherHide]]</b>
-2,<b>tight [[Utility.LeatherHide]] with [[Utility.Fur]] fur trim</b>
-2,<b>tight [[Utility.LeatherHide]] with [[Utility.MetalArmor]] Studs</b>
-3,<b>[[Utility.MetalDecor]] chainmail over [[MaterialsCommon]]</b>
+4,<b>tight [[Tables.Utility.LeatherHide]]</b>
+2,<b>tight [[Tables.Utility.LeatherHide]] with [[Tables.Utility.Fur]] fur trim</b>
+2,<b>tight [[Tables.Utility.LeatherHide]] with [[Tables.Utility.MetalArmor]] Studs</b>
+3,<b>[[Tables.Utility.MetalDecor]] chainmail over [[MaterialsCommon]]</b>
 
 ;MaterialsHat
-3,[[ClothingColors]] [[Utility.Cloth]]
-2,[[Utility.LeatherHide]]
-1,[[Utility.Fur]] fur
+3,[[ClothingColors]] [[Tables.Utility.Cloth]]
+2,[[Tables.Utility.LeatherHide]]
+1,[[Tables.Utility.Fur]] fur
 1,[[ClothingColors]] felt
-1,[[ClothingColors]] [[Utility.ClothFancy]]
+1,[[ClothingColors]] [[Tables.Utility.ClothFancy]]
 
 ;LegwearColors
 2,[[PatternsColors]]

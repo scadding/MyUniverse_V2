@@ -156,13 +156,13 @@
 1,comes
 
 ;Contact
-1,[[PoliceRank]] [[American Census Names.surname]]
-1,[[PoliceRank]] [[Italian Names.Surname]]
-1,[[PoliceRank]] Mac[[ScottishMale.ScottishClan]]
-1,[[PoliceRank]] Mc[[ScottishMale.ScottishClan]]
-1,[[Italian Names.MaleFirst]] [[ShadyContact]]
-1,[[American Census Names.commonmale]] [[ShadyContact]]
-1,[[American Census Names.commonmale]] [[American Census Names.surname]]
+1,[[PoliceRank]] [[Tables.Names.American Census Names.surname]]
+1,[[PoliceRank]] [[Tables.Names.Italian Names.Surname]]
+1,[[PoliceRank]] Mac[[Tables.People.ScottishMale.ScottishClan]]
+1,[[PoliceRank]] Mc[[Tables.People.ScottishMale.ScottishClan]]
+1,[[Tables.Names.Italian Names.MaleFirst]] [[ShadyContact]]
+1,[[Tables.Names.American Census Names.commonmale]] [[ShadyContact]]
+1,[[Tables.Names.American Census Names.commonmale]] [[Tables.Names.American Census Names.surname]]
 
 ;ShadyContact
 1,the Snitch
@@ -198,17 +198,17 @@
 1,Brother
 
 ;Victim
-3,[[American Census Names.surname]]
-2,[[American Census Names.female]]
-4,[[American Census Names.commonmale]]
-2,[[American Census Names.uncommonmale]]
-4,[[American Census Names.female]] [[American Census Names.surname]]
-5,[[American Census Names.commonmale]] [[American Census Names.surname]]
-1,[[American Census Names.uncommonmale]] [[American Census Names.surname]]
+3,[[Tables.Names.American Census Names.surname]]
+2,[[Tables.Names.American Census Names.female]]
+4,[[Tables.Names.American Census Names.commonmale]]
+2,[[Tables.Names.American Census Names.uncommonmale]]
+4,[[Tables.Names.American Census Names.female]] [[Tables.Names.American Census Names.surname]]
+5,[[Tables.Names.American Census Names.commonmale]] [[Tables.Names.American Census Names.surname]]
+1,[[Tables.Names.American Census Names.uncommonmale]] [[Tables.Names.American Census Names.surname]]
 4,[[Contact]]
-1,Father [[Italian Names.Surname]]
-1,Father Mac[[ScottishMale.ScottishClan]]
-1,Father Mc[[ScottishMale.ScottishClan]]
+1,Father [[Tables.Names.Italian Names.Surname]]
+1,Father Mac[[Tables.People.ScottishMale.ScottishClan]]
+1,Father Mc[[Tables.People.ScottishMale.ScottishClan]]
 
 ;Killed
 3,axed
@@ -389,19 +389,19 @@
 1,the best pair of high heels these streets will ever feel,
 1,the bewitching
 1,the definition of femme fatale,
-1,the entrancing wife of the late [[American Census Names.uncommonmale]] [[American Census Names.surname]],
+1,the entrancing wife of the late [[Tables.Names.American Census Names.uncommonmale]] [[Tables.Names.American Census Names.surname]],
 1,the lovely
-1,the lovely daughter of the late [[American Census Names.uncommonmale]] [[American Census Names.surname]],
+1,the lovely daughter of the late [[Tables.Names.American Census Names.uncommonmale]] [[Tables.Names.American Census Names.surname]],
 
 ;LadyName
-1,Miss [[American Census Names.female]]
-1,Miss [[American Census Names.female]] [[American Census Names.surname]]
-1,Madame [[American Census Names.female]]
-1,Madame [[American Census Names.female]] [[American Census Names.surname]]
-1,Mrs. [[American Census Names.female]]
-1,Mrs. [[American Census Names.female]] [[American Census Names.surname]]
-1,[[American Census Names.female]]
-1,[[American Census Names.female]] [[American Census Names.surname]]
+1,Miss [[Tables.Names.American Census Names.female]]
+1,Miss [[Tables.Names.American Census Names.female]] [[Tables.Names.American Census Names.surname]]
+1,Madame [[Tables.Names.American Census Names.female]]
+1,Madame [[Tables.Names.American Census Names.female]] [[Tables.Names.American Census Names.surname]]
+1,Mrs. [[Tables.Names.American Census Names.female]]
+1,Mrs. [[Tables.Names.American Census Names.female]] [[Tables.Names.American Census Names.surname]]
+1,[[Tables.Names.American Census Names.female]]
+1,[[Tables.Names.American Census Names.female]] [[Tables.Names.American Census Names.surname]]
 2,Miss Alotta [[LadyLast]]
 2,Miss Bella [[LadyLast]]
 2,Miss Eva [[LadyLast]]
@@ -540,7 +540,7 @@
 1,Very interesting,
 1,Just great,
 1,Just my luck,
-1,Sounds just like the [[American Census Names.surname]] case,
+1,Sounds just like the [[Tables.Names.American Census Names.surname]] case,
 1,Same damn thing happened to [[Victim]],
 1,What a way to go,
 1,What a way to end the week,
@@ -580,7 +580,7 @@
 1,double-barrel
 
 ;C
-1,[[Intro]] I didn't have much to go off of this time... but [[TheBoys]] did [[DigUp]]. [[Noir Oracle - Down These Mean Streets.Start]] Oh, and the victim - [[Victim]] - was found [[Killed]]. [[Time]]
+1,[[Intro]] I didn't have much to go off of this time... but [[TheBoys]] did [[DigUp]]. [[Tables.Pulp.Noir Oracle - Down These Mean Streets.Start]] Oh, and the victim - [[Victim]] - was found [[Killed]]. [[Time]]
 
 ;TheBoys
 1,the boys
@@ -716,7 +716,7 @@
 3,What? 
 
 ;Partner
-1,[[American Census Names.surname]]
+1,[[Tables.Names.American Census Names.surname]]
 
 ;Not
 1,,
@@ -814,7 +814,7 @@
 ;TellYouWhat
 1,"Hey listen,"
 1,"Hey look,"
-1,"[[American Census Names.commonmale]],"
+1,"[[Tables.Names.American Census Names.commonmale]],"
 1,"I got an idea,"
 1,"Listen,"
 1,"Look,"

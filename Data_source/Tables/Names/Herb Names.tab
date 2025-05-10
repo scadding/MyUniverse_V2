@@ -1,24 +1,24 @@
 
 ;Start
-3,St. [[Catholic Saint Names.Start]]'s [[MiscCap]]
+3,St. [[Tables.Names.Catholic Saint Names.Start]]'s [[MiscCap]]
 3,[[Thing]]'s [[MiscCap]]
-6,[[Fantasy Town Names.Jobs]]s[[Misc]]
+6,[[Tables.Names.Fantasy Town Names.Jobs]]s[[Misc]]
 6,[[Adjective]] [[MiscCap]]
-1,[[Utility.LightColors]] [[MiscCap]]
+1,[[Tables.Utility.LightColors]] [[MiscCap]]
 3,[[Part I]][[Part II]]
 3,[[Part I]][[Part II]] [[MiscCap]]
 3,[[Adjective]][[Misc]]
 3,[[Part I]][[Part II]][[Part II]]
-1,[[Utility.LightColors]] [[Part I]][[Part II]]
-1,[[Utility.LightColors]] [[Part I]][[Part II]][[Part II]]
-1,[[Utility.LightColors]][[Part II]]
+1,[[Tables.Utility.LightColors]] [[Part I]][[Part II]]
+1,[[Tables.Utility.LightColors]] [[Part I]][[Part II]][[Part II]]
+1,[[Tables.Utility.LightColors]][[Part II]]
 3,[[Thing]]'s [[Part I]][[Part II]]
-3,[[Fantasy Town Names.Jobs]]'s [[Part I]][[Part II]]
+3,[[Tables.Names.Fantasy Town Names.Jobs]]'s [[Part I]][[Part II]]
 
 ;Thing
 1,Mountain
 1,Spring
-1,[[GheronUtility.Diety]]
+1,[[Tables.Utility.GheronUtility.Diety]]
 1,Angel
 1,Bishop
 1,Demon
@@ -49,8 +49,8 @@
 1,Faerie
 
 ;Adjective
-3,[[Secret Society Title.NounDescriptor]]
-3,[[Secret Society Title.OrgDescriptor]]
+3,[[Tables.Organization.Secret Society Title.NounDescriptor]]
+3,[[Tables.Organization.Secret Society Title.OrgDescriptor]]
 1,Bitter
 1,Climbing
 1,Creeping

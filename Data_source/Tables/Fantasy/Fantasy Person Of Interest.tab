@@ -11,7 +11,7 @@
 7,& rumored to actually be a[[Gender]] [[Race]] [[Job]] in disguise
 5,& rumored to be [[Leader]]
 5,& rumored to be allied to a group of [[Humanoids]]
-5,& rumored to possess [[Found in a crate.Start]] of unusual properties
+5,& rumored to possess [[Tables.Utility.Found in a crate.Start]] of unusual properties
 5,& rumored to possess a magical [[Weapon]]
 5,& rumored to possess an important book
 8,& rumored to be the lover of a powerful [[Job]]
@@ -24,10 +24,10 @@
 5,soon to be wed to a powerful [[Job]]
 5,possessor of an important book
 5,possessor of a magical [[Weapon]]
-5,possessor of [[Found in a crate.Start]] of unusual properties
+5,possessor of [[Tables.Utility.Found in a crate.Start]] of unusual properties
 1,secretly a doppelganger
 5,secretly a[[Gender]] [[Race]] [[Job]] in disguise
-1,secretly a(n) [[Weird Fantasy Monster.Start]]
+1,secretly a(n) [[Tables.Monster.Weird Fantasy Monster.Start]]
 5,secretly allied to a group of [[Humanoids]]
 5,secretly [[Leader]]
 1,actually an automaton

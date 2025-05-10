@@ -490,10 +490,10 @@ _<ul><sgdisplay iterations="4"><li>[[female]] [[surname]], [[age]], [[occupation
 1,75
 
 ;occupation
-1,[[Modern Profession.Start]]
+1,[[Tables.Occupation.Modern Profession.Start]]
 
 ;hometown
-50,[[US Cities.simplified]]
+50,[[Tables.Places.US Cities.simplified]]
 1,Walnut Creek, CA
 1,Mission Hills, KS
 2,San Francisco, CA

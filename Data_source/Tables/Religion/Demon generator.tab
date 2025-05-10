@@ -159,7 +159,7 @@
 2,Mortifor
 2,Hasguil
 3,Thanatos
-3,[[SGNP angels and demons.demon]]
+3,[[Tables.SGNP.SGNP angels and demons.demon]]
 
 ;FemName
 2,Alisha
@@ -178,7 +178,7 @@
 2,Sheloth
 2,Tiara
 2,Veronica
-3,[[SGNP angels and demons.demon]]
+3,[[Tables.SGNP.SGNP angels and demons.demon]]
 
 ;Title Type
 1,Herald of [[theme 1]]
@@ -203,7 +203,7 @@
 6,Incubus
 12,Bringer
 30,Knight
-10,[[Secret Society Title.Title]]
+10,[[Tables.Organization.Secret Society Title.Title]]
 
 ;theme 1
 2,Lust
@@ -235,7 +235,7 @@
 1,Darkness
 1,Thanathos
 1,Doom
-3,[[Inscriptions.AbstractNounNegative]]
+3,[[Tables.Utility.Inscriptions.AbstractNounNegative]]
 
 ;theme 2
 2,Lust
@@ -270,7 +270,7 @@
 2,Deformity
 3,Conquest
 1,Ruin
-3,[[Inscriptions.AbstractNounNegative]]
+3,[[Tables.Utility.Inscriptions.AbstractNounNegative]]
 
 ;theme 3
 2,Lust

@@ -17,7 +17,7 @@
 15,locate [[Transportablereflexive]] of special importance
 15,acquire [[Object]] of special importance
 15,destroy [[Object]] of special importance
-15,slay [[Weird Fantasy Monster.Start]]
+15,slay [[Tables.Monster.Weird Fantasy Monster.Start]]
 1,seduce [[People]]
 1,frame [[People]] for a crime
 
@@ -29,7 +29,7 @@
 15,locate [[Transportable]] of special importance
 15,acquire [[Object]] of special importance
 15,destroy [[Object]] of special importance
-15,slay [[Weird Fantasy Monster.Start]]
+15,slay [[Tables.Monster.Weird Fantasy Monster.Start]]
 1,seduce [[Fantasy Person Of Interest.Start]]
 1,frame [[Fantasy Person Of Interest.Start]] for a crime
 
@@ -42,24 +42,24 @@
 
 ;Capturable
 1,: [[Fantasy Person Of Interest.Start]]
-1,[[Weird Fantasy Monster.Start]]
+1,[[Tables.Monster.Weird Fantasy Monster.Start]]
 
 ;Capturablereflexive
 1,: [[People]]
-1,[[Weird Fantasy Monster.Start]]
+1,[[Tables.Monster.Weird Fantasy Monster.Start]]
 
 ;Transportable
 1,: [[Fantasy Person Of Interest.Start]]
-1,[[Weird Fantasy Monster.Start]]
+1,[[Tables.Monster.Weird Fantasy Monster.Start]]
 1,[[Object]]
 
 ;Transportablereflexive
 1,: [[People]]
-1,[[Weird Fantasy Monster.Start]]
+1,[[Tables.Monster.Weird Fantasy Monster.Start]]
 1,[[Object]]
 
 ;Object
-5,[[Found in a crate.Start]]
+5,[[Tables.Utility.Found in a crate.Start]]
 1,a weasel
 1,an idol
 1,a disc

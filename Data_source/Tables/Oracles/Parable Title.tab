@@ -1,7 +1,7 @@
 
 ;Start
 3,<b>[[Title]]</b>: [[Premise]]
-1,<b>[[Title]]</b>: The moral of this story is "[[Inscriptions.Advice]]"
+1,<b>[[Title]]</b>: The moral of this story is "[[Tables.Utility.Inscriptions.Advice]]"
 
 ;Title
 2,The [[Animal]] and the [[Animal]]
@@ -99,7 +99,7 @@
 ;Nature
 1,Sun
 1,Moon
-3,[[Compass direction.4]] Wind
+3,[[Tables.Utility.Compass direction.4]] Wind
 1,Sea
 1,Rain
 1,Clouds

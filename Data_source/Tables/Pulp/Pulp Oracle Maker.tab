@@ -8,9 +8,9 @@
 ;Core Pulp Oracles
 0,----Only Genre-Appropriate, Please!----
 1,[[Pulp Oracle - High Adventure in Exotic Locales.Start]]
-1,[[Pulp Oracle - Weird Science.Start]]
+1,[[Tables.Pulp.Pulp Oracle - Weird Science.Start]]
 1,[[Pulp Oracle - I Love A Mystery.Start]]
-1,[[Noir Oracle - Down These Mean Streets.Start]]
+1,[[Tables.Pulp.Noir Oracle - Down These Mean Streets.Start]]
 
 ;multicharacters
 2,The [[femalerelation]] of a [[maleperson]], [[femalerelationphrase]]
@@ -236,6 +236,6 @@
 1,devourer of the [[femalerelation]] of a [[maleperson]].
 
 ;title
-1,The [[Secret Society Title.NounDescriptor]] [[Secret Society Title.Noun]]
+1,The [[Tables.Organization.Secret Society Title.NounDescriptor]] [[Tables.Organization.Secret Society Title.Noun]]
 
 

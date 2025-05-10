@@ -16,18 +16,18 @@
 
 
 ;AGG Ruins
-1,[[Art Grace and Guts Oracle.Ruins Items]]
-1,[[Art Grace and Guts Oracle.Ruins Characters]]
-1,[[Art Grace and Guts Oracle.Ruins Locations]]
-1,[[Art Grace and Guts Oracle.Ruins Events]]
-1,[[Art Grace and Guts Oracle.Ruins Threats]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.Ruins Items]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.Ruins Characters]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.Ruins Locations]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.Ruins Events]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.Ruins Threats]]
 
 ;AGG Wilderness
-1,[[Art Grace and Guts Oracle.Wilderness Items]]
-1,[[Art Grace and Guts Oracle.Wilderness Characters]]
-1,[[Art Grace and Guts Oracle.Wilderness Locations]]
-1,[[Art Grace and Guts Oracle.Wilderness Events]]
-1,[[Art Grace and Guts Oracle.Wilderness Threats]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.Wilderness Items]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.Wilderness Characters]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.Wilderness Locations]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.Wilderness Events]]
+1,[[Tables.Oracles.Art Grace and Guts Oracle.Wilderness Threats]]
 
 ;beastsentence
 1,[[beastcap]], [[beastplacerelation]] [[place]]
