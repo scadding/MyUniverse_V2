@@ -34,6 +34,8 @@ class tableMgr(variableManager, parseManager):
             cls._instance.loaddb()
         return cls._instance
     def loaddb(self):
+        if not self.config.getValue("Data", "dbconnection"):
+            return
         self.engine = create_engine(self.config.getValue("Data", "dbconnection"), echo=False)
         self.metadata_obj = MetaData()
         self.metadata_obj.reflect(self.engine)
