@@ -1,6 +1,6 @@
 
 ;Start
-1,[oPulpHeroNovel]
+1,[[oPulpHeroNovel]]
 
 ;oPulpNoun
 1,Off-day
@@ -109,15 +109,15 @@
 1,overpowers
 1,ousts
 1,versus the
-1,and [oPulpAdjPositive] [oPulpMaleFirstName]'s 
+1,and [[oPulpAdjPositive]] [[oPulpMaleFirstName]]'s 
 
 ;pulpend
-1,[oPulpAdjNegative] [oPulpNoun]
+1,[[oPulpAdjNegative]] [[oPulpNoun]]
 
 ;oPulpHeroNovel
-10,[oPulpAdjPositive] [oPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[oPulpMaleFirstName] [oPulpLastName] [pulpmiddle] [pulpend]
-10,[oPulpAdjPositive] [oPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[oPulpFemaleFirstName] [oPulpLastName] [pulpmiddle] [pulpend]
+10,[[oPulpAdjPositive]] [[oPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[oPulpMaleFirstName]] [[oPulpLastName]] [[pulpmiddle]] [[pulpend]]
+10,[[oPulpAdjPositive]] [[oPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[oPulpFemaleFirstName]] [[oPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

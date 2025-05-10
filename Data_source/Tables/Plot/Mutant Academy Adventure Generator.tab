@@ -1,10 +1,10 @@
 
 ;Start
-1,[mission]
+1,[[mission]]
 
 ;mission
-1,The characters must '''[do] [something]'''.  Their adventure takes them to '''[location]''' and puts them up against '''[opposition]'''.  And it's all made more complicated by '''[complication]'''.
-1,The characters [trouble]. Their real opposition is '''[opposition]'''.
+1,The characters must '''[[do]] [[something]]'''.  Their adventure takes them to '''[[location]]''' and puts them up against '''[[opposition]]'''.  And it's all made more complicated by '''[[complication]]'''.
+1,The characters [[trouble]]. Their real opposition is '''[[opposition]]'''.
 
 ;trouble
 1,are wanted by the authorities
@@ -89,7 +89,7 @@
 1,a relative
 1,a mutant just discovering their powers
 1,a mutant "in the closet"
-1,a child - [childtype] -
+1,a child - [[childtype]] -
 1,a Brotherhood member
 1,a military officer
 1,a secret agent

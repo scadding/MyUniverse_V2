@@ -1,23 +1,23 @@
 
 ;Start
-1,[profession]
+1,[[profession]]
 
 ;profession
 1,Pilot
-2,[Military]
-2,[Medical]
-2,[Religious]
+2,[[Military]]
+2,[[Medical]]
+2,[[Religious]]
 1,Teacher
 1,Firefighter
-2,[Academic]
-2,[Journalism]
-2,[IsCrooked]Lawyer
-2,[Entertainer]
-2,[Modeltype] Model
-2,[Cop]
+2,[[Academic]]
+2,[[Journalism]]
+2,[[IsCrooked]]Lawyer
+2,[[Entertainer]]
+2,[[Modeltype]] Model
+2,[[Cop]]
 1,Private Eye
-2,[Criminal]
-2,[IsCrooked][Politician]
+2,[[Criminal]]
+2,[[IsCrooked]][[Politician]]
 1,Entrepreneur
 1,Tycoon
 1,Astronaut
@@ -33,7 +33,7 @@
 1,Toll Collector
 1,Fast Food Worker
 1,Adoption Counselor
-1,[IsCrooked]CEO
+1,[[IsCrooked]]CEO
 1,Tennis Instructor
 1,Swimming Instructor
 1,Carpenter
@@ -61,8 +61,8 @@
 1,President
 1,Big City Mayor
 1,Small Town Mayor
-1,State [Legislator]
-1,U.S. [Legislator]
+1,State [[Legislator]]
+1,U.S. [[Legislator]]
 1,Governor
 1,Sheriff
 1,Judge
@@ -81,7 +81,7 @@
 1,US Marshall
 
 ;Cop
-1,[squad][grade]
+1,[[squad]][[grade]]
 1,Beat Cop
 1,Rookie Cop
 
@@ -97,10 +97,10 @@
 1,Cop
 
 ;Military
-1,Air Force [AFspec]
-1,Army [Aspec]
-1,Navy [Nspec]
-1,Marine Corps [Mspec]
+1,Air Force [[AFspec]]
+1,Army [[Aspec]]
+1,Navy [[Nspec]]
+1,Marine Corps [[Mspec]]
 
 ;Service
 1,Air Force
@@ -173,12 +173,12 @@
 1,Drill Instructor
 
 ;Academic
-1,[major]Professor
-1,Graduate Student in [major]
-1,Undergrad in [major]
-1,Bachelors in [major]
-1,Ph.D in [major]
-1,[clique]
+1,[[major]]Professor
+1,Graduate Student in [[major]]
+1,Undergrad in [[major]]
+1,Bachelors in [[major]]
+1,Ph.D in [[major]]
+1,[[clique]]
 
 ;major
 1,Mathematics 
@@ -230,9 +230,9 @@
 1,Goth
 
 ;Medical
-1,[SurgSpecialty]Surgeon
-1,[Doctor]
-1,[Dentist]
+1,[[SurgSpecialty]]Surgeon
+1,[[Doctor]]
+1,[[Dentist]]
 1,Medical Transcriptionist
 
 ;Doctor
@@ -266,11 +266,11 @@
 1,Flight 
 
 ;Religious
-1,[Protestant] Minister
+1,[[Protestant]] Minister
 1,Televangelist
-2,[Jewish]
-2,[Catholic]
-2,[Other]
+2,[[Jewish]]
+2,[[Catholic]]
+2,[[Other]]
 
 ;Jewish
 1,Rabbi
@@ -338,10 +338,10 @@
 1,Terrorist
 
 ;Entertainer
-1,[Actingtype] Actor
+1,[[Actingtype]] Actor
 1,Singer
 1,Musician
-1,[Exotic] Dancer
+1,[[Exotic]] Dancer
 1,Escort
 1,Singing Telegram
 1,Comedian

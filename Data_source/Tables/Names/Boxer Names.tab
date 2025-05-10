@@ -1,8 +1,8 @@
 
 ;Start
-2,"[StarterNick]" [FirstName] [LastName]
-1,"[StarterNick]" [LastName]
-3,[FirstName] "[NickName]" [LastName]
+2,"[[StarterNick]]" [[FirstName]] [[LastName]]
+1,"[[StarterNick]]" [[LastName]]
+3,[[FirstName]] "[[NickName]]" [[LastName]]
 
 ;StarterNick
 1,Baby
@@ -399,8 +399,8 @@
 1,Zivic
 
 ;NickName
-1,The [PlaceName] [Nick2]
-1,[FullNick]
+1,The [[PlaceName]] [[Nick2]]
+1,[[FullNick]]
 
 ;PlaceName
 1,Barbados

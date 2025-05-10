@@ -1,23 +1,23 @@
 
 ;Start
-1,[Male] (male)
-1,[Female] (female)
+1,[[Male]] (male)
+1,[[Female]] (female)
 
 ;Male
-1,[ConsCap][Vowel][Cons][Vowel][Cons][More]
-1,[VowelCap][Cons][Vowel][Cons][More]
-4,[MalePrefix][Vowel][Suffix]
-4,[MalePrefix][Vowel][Cons][Vowel][Suffix]
+1,[[ConsCap]][[Vowel]][[Cons]][[Vowel]][[Cons]][[More]]
+1,[[VowelCap]][[Cons]][[Vowel]][[Cons]][[More]]
+4,[[MalePrefix]][[Vowel]][[Suffix]]
+4,[[MalePrefix]][[Vowel]][[Cons]][[Vowel]][[Suffix]]
 
 ;Female
-1,[ConsCap][Vowel][Cons][Vowel][Cons][More]
-1,[VowelCap][Cons][Vowel][Cons][More]
-4,[FemalePrefix][Vowel][Suffix]
-4,[FemalePrefix][Vowel][Cons][Vowel][Suffix]
+1,[[ConsCap]][[Vowel]][[Cons]][[Vowel]][[Cons]][[More]]
+1,[[VowelCap]][[Cons]][[Vowel]][[Cons]][[More]]
+4,[[FemalePrefix]][[Vowel]][[Suffix]]
+4,[[FemalePrefix]][[Vowel]][[Cons]][[Vowel]][[Suffix]]
 
 ;More
-1,[Vowel][Suffix]
-3,[Vowel][Cons]
+1,[[Vowel]][[Suffix]]
+3,[[Vowel]][[Cons]]
 3,
 
 ;MalePrefix

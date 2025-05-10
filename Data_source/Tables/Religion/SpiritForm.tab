@@ -1,53 +1,53 @@
 
 ;Start
-2,[HumanFormMain]
-2,[AnimalFormMain]
-1,[TwoSpirits]
+2,[[HumanFormMain]]
+2,[[AnimalFormMain]]
+1,[[TwoSpirits]]
 
 ;DisplaySpirits
-1,[HumanFormMain]
-1,[AnimalFormMain]
+1,[[HumanFormMain]]
+1,[[AnimalFormMain]]
 
 ;TwoSpirits
-1,[HumanFormMain] [VerbTwoSpirits] [HumanFormMain]
-1,[HumanFormMain] [VerbTwoSpirits] [AnimalFormMain]
-1,[AnimalFormMain] [VerbTwoSpirits] [HumanFormMain]
-1,[AnimalFormMain] [VerbTwoSpirits] [AnimalFormMain]
+1,[[HumanFormMain]] [[VerbTwoSpirits]] [[HumanFormMain]]
+1,[[HumanFormMain]] [[VerbTwoSpirits]] [[AnimalFormMain]]
+1,[[AnimalFormMain]] [[VerbTwoSpirits]] [[HumanFormMain]]
+1,[[AnimalFormMain]] [[VerbTwoSpirits]] [[AnimalFormMain]]
 
 ;HumanFormMain
-1,[HumanDescriptor] [HumanForm]
-1,[HumanDescriptor] [HumanForm] with [WithDescriptor]
-1,[HumanDescriptor] [HumanForm] [ActionDescriptor]
-1,a [HumanForm] with [WithDescriptor]
-1,a [HumanForm] [ActionDescriptor]
-1,a [HumanForm] with [WithDescriptor], [ActionDescriptor]
+1,[[HumanDescriptor]] [[HumanForm]]
+1,[[HumanDescriptor]] [[HumanForm]] with [[WithDescriptor]]
+1,[[HumanDescriptor]] [[HumanForm]] [[ActionDescriptor]]
+1,a [[HumanForm]] with [[WithDescriptor]]
+1,a [[HumanForm]] [[ActionDescriptor]]
+1,a [[HumanForm]] with [[WithDescriptor]], [[ActionDescriptor]]
 
 ;HumanFormMainMale
-1,[HumanDescriptor] [HumanFormMale]
-1,[HumanDescriptor] [HumanFormMale] with [WithDescriptor]
-1,[HumanDescriptor] [HumanFormMale] [ActionDescriptor]
-1,a [HumanFormMale] with [WithDescriptor]
-1,a [HumanFormMale] [ActionDescriptor]
-1,a [HumanFormMale] with [WithDescriptor], [ActionDescriptor]
+1,[[HumanDescriptor]] [[HumanFormMale]]
+1,[[HumanDescriptor]] [[HumanFormMale]] with [[WithDescriptor]]
+1,[[HumanDescriptor]] [[HumanFormMale]] [[ActionDescriptor]]
+1,a [[HumanFormMale]] with [[WithDescriptor]]
+1,a [[HumanFormMale]] [[ActionDescriptor]]
+1,a [[HumanFormMale]] with [[WithDescriptor]], [[ActionDescriptor]]
 
 ;HumanFormMainFemale
-1,[HumanDescriptor] [HumanFormFemale]
-1,[HumanDescriptor] [HumanFormFemale] with [WithDescriptor]
-1,[HumanDescriptor] [HumanFormFemale] [ActionDescriptor]
-1,a [HumanFormFemale] with [WithDescriptor]
-1,a [HumanFormFemale] [ActionDescriptor]
-1,a [HumanFormFemale] with [WithDescriptor], [ActionDescriptor]
+1,[[HumanDescriptor]] [[HumanFormFemale]]
+1,[[HumanDescriptor]] [[HumanFormFemale]] with [[WithDescriptor]]
+1,[[HumanDescriptor]] [[HumanFormFemale]] [[ActionDescriptor]]
+1,a [[HumanFormFemale]] with [[WithDescriptor]]
+1,a [[HumanFormFemale]] [[ActionDescriptor]]
+1,a [[HumanFormFemale]] with [[WithDescriptor]], [[ActionDescriptor]]
 
 ;AnimalFormMain
-1,[AnimalDescriptor] [AnimalForm]
-1,[AnimalDescriptor] [AnimalForm] with [WithDescriptor]
-1,a [AnimalForm] with [WithDescriptor]
+1,[[AnimalDescriptor]] [[AnimalForm]]
+1,[[AnimalDescriptor]] [[AnimalForm]] with [[WithDescriptor]]
+1,a [[AnimalForm]] with [[WithDescriptor]]
 
 ;HumanForm
 1,androgynous being
 1,hermaphrodite
-10,[HumanFormMale]
-10,[HumanFormFemale]
+10,[[HumanFormMale]]
+10,[[HumanFormFemale]]
 1,figure
 1,four-armed humanoid
 
@@ -65,7 +65,7 @@
 1,brute
 1,young man
 1,old man
-1,[Fantasy Profession.maleanyclass]
+1,[[Fantasy Profession.maleanyclass]]
 
 ;HumanFormFemale
 4,woman
@@ -122,7 +122,7 @@
 1,an angry
 1,an armored
 1,an attractive
-5,[Quick NPC.NPCDescriptor]
+5,[[Quick NPC.NPCDescriptor]]
 
 
 ;AnimalForm
@@ -196,7 +196,7 @@
 1,an angry
 
 ;WithDescriptor
-1,a [AnimalForm]
+1,a [[AnimalForm]]
 1,a fin like a shark
 1,a horn like a unicorn
 1,a tail and pincers like a scorpion
@@ -307,9 +307,9 @@
 1,holding an urn
 1,playing a flute
 1,playing a harp
-1,holding a [AnimalForm]
-1,riding a [AnimalForm]
-1,riding [AnimalDescriptor] [AnimalForm]
+1,holding a [[AnimalForm]]
+1,riding a [[AnimalForm]]
+1,riding [[AnimalDescriptor]] [[AnimalForm]]
 1,wearing a cloak
 1,wearing a crown
 1,wearing a mask

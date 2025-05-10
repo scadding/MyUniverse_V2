@@ -1,43 +1,43 @@
 
 ;Start
-4,The [Name]
-1,The Sign of the [Name]
-1,[Name] [Establishment]
-1,[Establishment] of the [Name]
-1,[PersonName]'s [Establishment]
+4,The [[Name]]
+1,The Sign of the [[Name]]
+1,[[Name]] [[Establishment]]
+1,[[Establishment]] of the [[Name]]
+1,[[PersonName]]'s [[Establishment]]
 
 ;PersonName
-1,[Fantasy Names.MaleFirstName]
-1,[Fantasy Names.FemaleFirstName]
+1,[[Fantasy Names.MaleFirstName]]
+1,[[Fantasy Names.FemaleFirstName]]
 
 ;Name
-13,[Creature]
-6,[Person]
-6,[Item]
-6,[Person]'s Arms
-5,[Location]
-2,Old [Location]
-2,[Creature]'s Head
-6,[Number] [Creature]s
-6,[Number] [Person]s
-6,[Number] [Item]s
-20,[Adjective] [Creature]
-20,[Adjective] [Person]
-20,[Adjective] [Item]
-10,[Creature] and [Creature]
-10,[Creature] and [Person]
-10,[Creature] and [Item]
-10,[Person] and [Person]
-10,[Person] and [Creature]
-10,[Person] and [Item]
-10,[Item] and [Item]
-10,[Item] and [Person]
-10,[Item] and [Creature]
-15,[Person]'s [Item]
-4,[Person]'s [Creature]
-20,[Person]'s [Establishment]
-5,[Adjective] [Person]'s [Establishment]
-10,[Creature]'s [Establishment]
+13,[[Creature]]
+6,[[Person]]
+6,[[Item]]
+6,[[Person]]'s Arms
+5,[[Location]]
+2,Old [[Location]]
+2,[[Creature]]'s Head
+6,[[Number]] [[Creature]]s
+6,[[Number]] [[Person]]s
+6,[[Number]] [[Item]]s
+20,[[Adjective]] [[Creature]]
+20,[[Adjective]] [[Person]]
+20,[[Adjective]] [[Item]]
+10,[[Creature]] and [[Creature]]
+10,[[Creature]] and [[Person]]
+10,[[Creature]] and [[Item]]
+10,[[Person]] and [[Person]]
+10,[[Person]] and [[Creature]]
+10,[[Person]] and [[Item]]
+10,[[Item]] and [[Item]]
+10,[[Item]] and [[Person]]
+10,[[Item]] and [[Creature]]
+15,[[Person]]'s [[Item]]
+4,[[Person]]'s [[Creature]]
+20,[[Person]]'s [[Establishment]]
+5,[[Adjective]] [[Person]]'s [[Establishment]]
+10,[[Creature]]'s [[Establishment]]
 
 
 ;Creature
@@ -219,8 +219,8 @@
 1,Yearling
 
 ;Person
-1,[Fantasy Names.MaleFirstName]
-1,[Fantasy Names.FemaleFirstName]
+1,[[Fantasy Names.MaleFirstName]]
+1,[[Fantasy Names.FemaleFirstName]]
 1,Abbot
 1,Amazon
 1,Archer

@@ -1,37 +1,37 @@
 
 ;Start
-4,[articlechance][adjective] [mascot][manwordcompound]
-4,[articlechance][mascot][manwordcompound]
-6,[articlechance][adjective] [manwordseparate]
-6,[articlechance][mascot] [manwordseparate]
-2,[articlechance][adjective] [mascot]-[manwordseparate]
-2,[articlechance][mascot]-[manwordseparate]
-2,[articlechance][adjective] [mascot]
-3,[articlechance][mascot] [mascot]
-1,[articlechance][mascot]
-2,[rank] [mascot]
-2,[rank] [adjective]
-1,[articlechance][adjectivechance][rank] [mascot][suffix]
-1,[articlechance][adjectivechance][rank] [adjective][suffix]
-1,[propername] [modifychance2]
-1,[rank] [propername] [modifychance2]
-1,[modifychance] [propername]
-1,[articlechance] [adjectivechance][doer]
-1,[rank] [doer]
-1,[doer] [manwordseparate]
+4,[[articlechance]][[adjective]] [[mascot]][[manwordcompound]]
+4,[[articlechance]][[mascot]][[manwordcompound]]
+6,[[articlechance]][[adjective]] [[manwordseparate]]
+6,[[articlechance]][[mascot]] [[manwordseparate]]
+2,[[articlechance]][[adjective]] [[mascot]]-[[manwordseparate]]
+2,[[articlechance]][[mascot]]-[[manwordseparate]]
+2,[[articlechance]][[adjective]] [[mascot]]
+3,[[articlechance]][[mascot]] [[mascot]]
+1,[[articlechance]][[mascot]]
+2,[[rank]] [[mascot]]
+2,[[rank]] [[adjective]]
+1,[[articlechance]][[adjectivechance]][[rank]] [[mascot]][[suffix]]
+1,[[articlechance]][[adjectivechance]][[rank]] [[adjective]][[suffix]]
+1,[[propername]] [[modifychance2]]
+1,[[rank]] [[propername]] [[modifychance2]]
+1,[[modifychance]] [[propername]]
+1,[[articlechance]] [[adjectivechance]][[doer]]
+1,[[rank]] [[doer]]
+1,[[doer]] [[manwordseparate]]
 
 ;modifychance
-5,[adjective]
-5,[mascot]
-2,[adjective] [mascot]
+5,[[adjective]]
+5,[[mascot]]
+2,[[adjective]] [[mascot]]
 
 ;modifychance2
-5,[adjective]
-5,[mascot]
-2,[mascot][suffix]
+5,[[adjective]]
+5,[[mascot]]
+2,[[mascot]][[suffix]]
 
 ;articlechance
-4,[article]
+4,[[article]]
 5,
 
 ;article
@@ -41,7 +41,7 @@
 1,Der 
 
 ;adjectivechance
-6,[adjective] 
+6,[[adjective]] 
 4,
 
 ;adjective
@@ -485,8 +485,8 @@
 1,Yodeling
 1,Zealous
 1,Zenithal
-8,[Greek letter names.Start]
-5,[Secret Society Title.TitleDescriptor]
+8,[[Greek letter names.Start]]
+5,[[Secret Society Title.TitleDescriptor]]
 
 ;mascot
 1,Aardvark
@@ -1078,7 +1078,7 @@
 1,Witch
 1,Wizard
 3,Woman
-5,[Secret Society Title.Title]
+5,[[Secret Society Title.Title]]
 
 ;rank
 1,Agent
@@ -1161,7 +1161,7 @@
 1,Sultan
 1,Supremo
 1,Viscount
-1,[Ranks and Titles.Rank]
+1,[[Ranks and Titles.Rank]]
 
 ;suffix
 2,a
@@ -1169,7 +1169,7 @@
 2,berg
 1, esq.
 2, from Another Planet
-1, from the [Poetic Destinations.Start]
+1, from the [[Poetic Destinations.Start]]
 1, Jr.
 1,ia
 1,ica
@@ -1183,7 +1183,7 @@
 2, the Third
 2, the Fourth
 2, the Fifth
-15, the [adjective]
+15, the [[adjective]]
 
 ;propername
 1,Adam

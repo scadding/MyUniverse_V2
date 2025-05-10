@@ -1,12 +1,12 @@
 
 ;Start
-17,Yes, but [Everything]
-5,No, because [Statement]
-9,Yes, and [Positive]
+17,Yes, but [[Everything]]
+5,No, because [[Statement]]
+9,Yes, and [[Positive]]
 
 ;Everything
-13,[Statement]
-5,[Question]
+13,[[Statement]]
+5,[[Question]]
 
 ;Positive
 1,something unrelated but useful also occurs

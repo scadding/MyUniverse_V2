@@ -1,6 +1,6 @@
 
 ;Start
-1,The story takes place in the [PlaceName] [PlaceType]. The scenario begins [Beginning]. The trouble is [Trouble] caused by [CulpritRace] [CulpritType]. To solve the problem, the adventurers must [MainObjective]. If a big fight happens, it'll be at [BattlefieldName] [BattlefieldType].<br>
+1,The story takes place in the [[PlaceName]] [[PlaceType]]. The scenario begins [[Beginning]]. The trouble is [[Trouble]] caused by [[CulpritRace]] [[CulpritType]]. To solve the problem, the adventurers must [[MainObjective]]. If a big fight happens, it'll be at [[BattlefieldName]] [[BattlefieldType]].<br>
 
 ;Beginning
 1,in a gloomy tavern

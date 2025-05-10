@@ -1,6 +1,6 @@
 
 ;Start
-1,[zPulpHeroNovel]
+1,[[zPulpHeroNovel]]
 
 ;zPulpNoun
 1,Zealots
@@ -68,15 +68,15 @@
 5,and the
 1,zoinks the
 1,in:
-1,and [zPulpAdjPositive] [zPulpMaleFirstName]'s 
+1,and [[zPulpAdjPositive]] [[zPulpMaleFirstName]]'s 
 
 ;pulpend
-1,[zPulpAdjNegative] [zPulpNoun]
+1,[[zPulpAdjNegative]] [[zPulpNoun]]
 
 ;zPulpHeroNovel
-10,[zPulpAdjPositive] [zPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[zPulpMaleFirstName] [zPulpLastName] [pulpmiddle] [pulpend]
-3,[zPulpAdjPositive] [zPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[zPulpFemaleFirstName] [zPulpLastName] [pulpmiddle] [pulpend]
+10,[[zPulpAdjPositive]] [[zPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[zPulpMaleFirstName]] [[zPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[zPulpAdjPositive]] [[zPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[zPulpFemaleFirstName]] [[zPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

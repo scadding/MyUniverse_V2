@@ -1,16 +1,16 @@
 
 ;Start
-1,[Trap] [PossibleExtraCondition]
+1,[[Trap]] [[PossibleExtraCondition]]
 
 ;PossibleExtraCondition
 100,
-60,- [ExtraCondition]
+60,- [[ExtraCondition]]
 
 ;Trap
-2,[TrapContents] inside [TrapAdverb] hidden pits
-2,[TrapTriggers] connected up to [TrapMissiles]
-2,[TrapSnappers] ready to close on whatever steps inside
-1,a room that [roomtrap]
+2,[[TrapContents]] inside [[TrapAdverb]] hidden pits
+2,[[TrapTriggers]] connected up to [[TrapMissiles]]
+2,[[TrapSnappers]] ready to close on whatever steps inside
+1,a room that [[roomtrap]]
 
 ;TrapSnappers
 1,gaping steel jaws
@@ -23,9 +23,9 @@
 2,nearly
 
 ;TrapContents
-3,[TrapContentsAnimate]
-5,[TrapContentsInanimate]
-1,[Trap]
+3,[[TrapContentsAnimate]]
+5,[[TrapContentsInanimate]]
+1,[[Trap]]
 
 ;TrapContentsAnimate
 1,snakes
@@ -58,14 +58,14 @@
 ;roomtrap
 1,crushes those who enter
 1,seals itself and is filled with water
-1,has reversed gravity and [TrapContentsInanimate] on the ceiling
+1,has reversed gravity and [[TrapContentsInanimate]] on the ceiling
 
 ;ExtraCondition
 1,one obvious way of disarming the trap is itself a trap
-1,[Steam]
+1,[[Steam]]
 1,setting off the trap alerts someone elsewhere
 1,all enemy combatants are well-prepared for the trap and it cannot harm them
-1,sprays [HarmfulLiquid] nearby
+1,sprays [[HarmfulLiquid]] nearby
 1,requires two simultaneous, far apart actions to safely disarm
 
 ;HarmfulLiquid

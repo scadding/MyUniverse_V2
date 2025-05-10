@@ -1,28 +1,28 @@
 
 ;Start
-4,[multicharacters]
-7,[Core Pulp Oracles]
-1,[Wuxia Oracle.Start]
-1,[beasts]
+4,[[multicharacters]]
+7,[[Core Pulp Oracles]]
+1,[[Wuxia Oracle.Start]]
+1,[[beasts]]
 
 ;Core Pulp Oracles
 0,----Only Genre-Appropriate, Please!----
-1,[Pulp Oracle - High Adventure in Exotic Locales.Start]
-1,[Pulp Oracle - Weird Science.Start]
-1,[Pulp Oracle - I Love A Mystery.Start]
-1,[Noir Oracle - Down These Mean Streets.Start]
+1,[[Pulp Oracle - High Adventure in Exotic Locales.Start]]
+1,[[Pulp Oracle - Weird Science.Start]]
+1,[[Pulp Oracle - I Love A Mystery.Start]]
+1,[[Noir Oracle - Down These Mean Streets.Start]]
 
 ;multicharacters
-2,The [femalerelation] of a [maleperson], [femalerelationphrase]
-2,The [malerelation] of a [maleperson], [malerelationphrase]
-1,The [femalerelation] of a [femaleperson], [femalerelationphrase]
-1,The [malerelation] of a [femaleperson], [malerelationphrase]
-2,A [maleperson], [malerelationphrase]
-2,A [femaleperson], [femalerelationphrase]
+2,The [[femalerelation]] of a [[maleperson]], [[femalerelationphrase]]
+2,The [[malerelation]] of a [[maleperson]], [[malerelationphrase]]
+1,The [[femalerelation]] of a [[femaleperson]], [[femalerelationphrase]]
+1,The [[malerelation]] of a [[femaleperson]], [[malerelationphrase]]
+2,A [[maleperson]], [[malerelationphrase]]
+2,A [[femaleperson]], [[femalerelationphrase]]
 
 ;relationeither
-1,[femalerelation]
-1,[malerelation]
+1,[[femalerelation]]
+1,[[malerelation]]
 
 ;femalerelation
 1,daughter
@@ -44,16 +44,16 @@
 1,chief servant
 
 ;person
-1,[maleperson]
-2,[femaleperson]
+1,[[maleperson]]
+2,[[femaleperson]]
 
 ;maleperson
-1,[maleadj] [maleprofession]
-1,[malestockchars]
+1,[[maleadj]] [[maleprofession]]
+1,[[malestockchars]]
 
 ;femaleperson
-1,[femaleadjcons] [femaleprofession]
-1,[femalestockchars]
+1,[[femaleadjcons]] [[femaleprofession]]
+1,[[femalestockchars]]
 
 ;maleadj
 1,vicious
@@ -118,16 +118,16 @@
 1,pilot
 
 ;femalerelationphrase
-1,taken prisoner by a [maleperson].
+1,taken prisoner by a [[maleperson]].
 1,secretly the power behind the throne.
-1,sworn to commit vengeance on a [maleperson].
-1,planning to run away with a [maleperson].
-1,carrying the child of a [maleperson].
-1,secretly in love with a [maleperson].
-1,and a [maleperson], secretly in love with her.
-1,desiring to seduce a [maleperson].
-1,on the trail of a [person].
-1,disguised as a [person].
+1,sworn to commit vengeance on a [[maleperson]].
+1,planning to run away with a [[maleperson]].
+1,carrying the child of a [[maleperson]].
+1,secretly in love with a [[maleperson]].
+1,and a [[maleperson]], secretly in love with her.
+1,desiring to seduce a [[maleperson]].
+1,on the trail of a [[person]].
+1,disguised as a [[person]].
 
 ;malestockchars
 1,lovelorn poet
@@ -182,14 +182,14 @@
 1,homemaker
 
 ;malerelationphrase
-1,secretly in love with a [femaleperson].
-1,fleeing his home to be with a [femaleperson].
-1,preparing to become a [maleperson].
-1,sworn to kill a [maleperson] in the name of honor.
-1,hoping to seduce a [femaleperson].
-1,preparing to murder a [maleperson].
-1,secretly spying on a [femaleperson].
-1,on the trail of a [person].
+1,secretly in love with a [[femaleperson]].
+1,fleeing his home to be with a [[femaleperson]].
+1,preparing to become a [[maleperson]].
+1,sworn to kill a [[maleperson]] in the name of honor.
+1,hoping to seduce a [[femaleperson]].
+1,preparing to murder a [[maleperson]].
+1,secretly spying on a [[femaleperson]].
+1,on the trail of a [[person]].
 
 ;femalestockchars
 1,gypsy fortuneteller
@@ -204,7 +204,7 @@
 1,brash academic
 
 ;beasts
-1,A [beastadj] [beast], [beastphrase]
+1,A [[beastadj]] [[beast]], [[beastphrase]]
 
 ;beastadj
 1,grotesque
@@ -228,14 +228,14 @@
 ;beastphrase
 1,seeking whom he might devour.
 1,stealing livestock from local farms to feed a ravenous hunger.
-1,intending to kill a [maleperson] to avenge an old wound.
-1,the secret protector of a [person].
-1,bound to [femaleperson] by strange magicks.
+1,intending to kill a [[maleperson]] to avenge an old wound.
+1,the secret protector of a [[person]].
+1,bound to [[femaleperson]] by strange magicks.
 1,king of its ilk, hunted by men of every description.
-1,greviously wounded by a [maleperson].
-1,devourer of the [femalerelation] of a [maleperson].
+1,greviously wounded by a [[maleperson]].
+1,devourer of the [[femalerelation]] of a [[maleperson]].
 
 ;title
-1,The [Secret Society Title.NounDescriptor] [Secret Society Title.Noun]
+1,The [[Secret Society Title.NounDescriptor]] [[Secret Society Title.Noun]]
 
 

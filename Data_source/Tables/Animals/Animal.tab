@@ -1,46 +1,46 @@
 
 ;Start
 1,=== hornedanimal ===<br>
-_[hornedanimal]<br>
+_[[hornedanimal]]<br>
 _<br>
 _=== hoovedanimal ===<br>
-_[hoovedanimal]<br>
+_[[hoovedanimal]]<br>
 _<br>
 _=== symbolicanimal ===<br>
-_[symbolicanimal]<br>
+_[[symbolicanimal]]<br>
 _<br>
 _=== Weirdsymbol ===<br>
-_[Weirdsymbol]<br>
+_[[Weirdsymbol]]<br>
 _<br>
 _==== fantasyFeathered ====<br>
-_[fantasyFeathered]<br>
+_[[fantasyFeathered]]<br>
 _<br>
 _==== fantasyFurred ====<br>
-_[fantasyFurred]<br>
+_[[fantasyFurred]]<br>
 _<br>
 _==== fantasyScaled ====<br>
-_[fantasyScaled]<br>
+_[[fantasyScaled]]<br>
 _<br>
 _==== fantasyHide ====<br>
-_[fantasyHide]<br>
+_[[fantasyHide]]<br>
 _<br>
 _==== fantasyLand ====<br>
-_[fantasyLand]<br>
+_[[fantasyLand]]<br>
 _<br>
 _==== fantasyAquatic ====<br>
-_[fantasyAquatic]<br>
+_[[fantasyAquatic]]<br>
 _<br>
 _==== fantasyHumanoid ====<br>
-_[fantasyHumanoid]<br>
+_[[fantasyHumanoid]]<br>
 _<br>
 _==== fantasyCreature ====<br>
-_[fantasyCreature]<br>
+_[[fantasyCreature]]<br>
 _<br>
 _==== fantasyAll ====<br>
-_[fantasyAll]<br>
+_[[fantasyAll]]<br>
 _<br>
 _=== Other examples: ===<br>
-_A chimera: A <sgdisplay iterations = "1">[hornedanimal]-horned [hoovedanimal]-hooved [symbolicanimal]</sgdisplay><br>
+_A chimera: A <sgdisplay iterations = "1">[[hornedanimal]]-horned [[hoovedanimal]]-hooved [[symbolicanimal]]</sgdisplay><br>
 
 
 ;hornedanimal
@@ -239,8 +239,8 @@ _A chimera: A <sgdisplay iterations = "1">[hornedanimal]-horned [hoovedanimal]-h
 1,yak
 
 ;fantasyFeathered
-3,[fantasyCommonFeathers]
-1,[fantasyExoticFeathers]
+3,[[fantasyCommonFeathers]]
+1,[[fantasyExoticFeathers]]
 
 ;fantasyCommonFeathers
 2,eagle
@@ -279,8 +279,8 @@ _A chimera: A <sgdisplay iterations = "1">[hornedanimal]-horned [hoovedanimal]-h
 1,vrock
 
 ;fantasyFurred
-3,[fantasyCommonFurred]
-1,[fantasyExoticFurred]
+3,[[fantasyCommonFurred]]
+1,[[fantasyExoticFurred]]
 
 ;fantasyCommonFurred
 1,ape
@@ -369,8 +369,8 @@ _A chimera: A <sgdisplay iterations = "1">[hornedanimal]-horned [hoovedanimal]-h
 1,wyvern
 
 ;fantasyHide
-3,[fantasyCommonHide]
-1,[fantasyExoticHide]
+3,[[fantasyCommonHide]]
+1,[[fantasyExoticHide]]
 
 ;fantasyCommonHide
 8,aligator/crocodile
@@ -492,8 +492,8 @@ _A chimera: A <sgdisplay iterations = "1">[hornedanimal]-horned [hoovedanimal]-h
 1,pufferfish
 
 ;fantasyHumanoid
-50,[plainHumanoid]
-1,[humanoidTemplate] [plainHumanoid]
+50,[[plainHumanoid]]
+1,[[humanoidTemplate]] [[plainHumanoid]]
 
 ;plainHumanoid
 1,bugbear
@@ -553,8 +553,8 @@ _A chimera: A <sgdisplay iterations = "1">[hornedanimal]-horned [hoovedanimal]-h
 1,half-dragon
 
 ;fantasyCreature
-50,[plainFantasyCreature]
-1,[fantasyTemplate] [plainFantasyCreature]
+50,[[plainFantasyCreature]]
+1,[[fantasyTemplate]] [[plainFantasyCreature]]
 
 ;plainFantasyCreature
 1,aboleth
@@ -835,9 +835,9 @@ _A chimera: A <sgdisplay iterations = "1">[hornedanimal]-horned [hoovedanimal]-h
 1,yrthak
 
 ;fantasyAll
-1,[fantasyHumanoid]
-1,[fantasyLand]
-1,[fantasyAquatic]
-1,[fantasyCreature]
+1,[[fantasyHumanoid]]
+1,[[fantasyLand]]
+1,[[fantasyAquatic]]
+1,[[fantasyCreature]]
 
 

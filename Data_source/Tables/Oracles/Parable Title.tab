@@ -1,20 +1,20 @@
 
 ;Start
-3,<b>[Title]</b>: [Premise]
-1,<b>[Title]</b>: The moral of this story is "[Inscriptions.Advice]"
+3,<b>[[Title]]</b>: [[Premise]]
+1,<b>[[Title]]</b>: The moral of this story is "[[Inscriptions.Advice]]"
 
 ;Title
-2,The [Animal] and the [Animal]
-1,The [Animal] and the [Object]
-1,The [Animal] that [didSomething]
-1,The [Person] and the [Animal]
-1,The [Person] and the [Person]
-1,The [Person] that [didSomething]
-1,The [Person] and the [Object]
-1,The [Person] and the [Nature]
-1,The [Nature] and the [Animal]
-1,The [Nature] and the [Nature]
-1,[Originals]
+2,The [[Animal]] and the [[Animal]]
+1,The [[Animal]] and the [[Object]]
+1,The [[Animal]] that [[didSomething]]
+1,The [[Person]] and the [[Animal]]
+1,The [[Person]] and the [[Person]]
+1,The [[Person]] that [[didSomething]]
+1,The [[Person]] and the [[Object]]
+1,The [[Person]] and the [[Nature]]
+1,The [[Nature]] and the [[Animal]]
+1,The [[Nature]] and the [[Nature]]
+1,[[Originals]]
 
 ;Person
 1,Boy
@@ -89,17 +89,17 @@
 1,Stone Wall
 
 ;didSomething
-1,thought he was a [Animal]
-1,lived with the [Animal]
-1,made fun of the [Animal]
-1,wanted to be a [Person]
-1,wanted to be a [Animal]
-1,wished he were the [Nature]
+1,thought he was a [[Animal]]
+1,lived with the [[Animal]]
+1,made fun of the [[Animal]]
+1,wanted to be a [[Person]]
+1,wanted to be a [[Animal]]
+1,wished he were the [[Nature]]
 
 ;Nature
 1,Sun
 1,Moon
-3,[Compass direction.4] Wind
+3,[[Compass direction.4]] Wind
 1,Sea
 1,Rain
 1,Clouds
@@ -142,19 +142,19 @@
 1,Why is honor more important than duty?
 1,Why is duty more important than honor?
 1,To what point should you remain loyal to your family?
-10,Why is [Principle] more important than [Principle]?
+10,Why is [[Principle]] more important than [[Principle]]?
 1,How can a teacher know what is best for the student?
 1,Why is who you are more important than what you are?
 1,How can a student know what is best for his teacher?
 1,What makes a good leader?
 1,What makes a bad leader?
 1,What makes us worthy?
-5,What makes us worthy of [Principle]?
-5,What is the price of [Principle]?
-4,Who is deserving of [Principle]?
+5,What makes us worthy of [[Principle]]?
+5,What is the price of [[Principle]]?
+4,Who is deserving of [[Principle]]?
 1,When is it wrong to speak the truth?
-1,How can we recognize true [Principle]?
-1,Is it better to be judged by your [Principle], or your [Principle]?
+1,How can we recognize true [[Principle]]?
+1,Is it better to be judged by your [[Principle]], or your [[Principle]]?
 
 
 ;Principle

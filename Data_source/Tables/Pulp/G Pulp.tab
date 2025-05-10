@@ -1,6 +1,6 @@
 
 ;Start
-1,[gPulpHeroNovel]
+1,[[gPulpHeroNovel]]
 
 ;gPulpNoun
 1,Gal
@@ -141,12 +141,12 @@
 1,versus the
 
 ;pulpend
-1,[gPulpAdjNegative] [gPulpNoun]
+1,[[gPulpAdjNegative]] [[gPulpNoun]]
 
 ;gPulpHeroNovel
-10,[gPulpAdjPositive] [gPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[gPulpMaleFirstName] [gPulpLastName] [pulpmiddle] [pulpend]
-3,[gPulpAdjPositive] [gPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[gPulpFemaleFirstName] [gPulpLastName] [pulpmiddle] [pulpend]
+10,[[gPulpAdjPositive]] [[gPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[gPulpMaleFirstName]] [[gPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[gPulpAdjPositive]] [[gPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[gPulpFemaleFirstName]] [[gPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

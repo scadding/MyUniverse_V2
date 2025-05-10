@@ -1,11 +1,11 @@
 
 ;Start
-1,[Plot]
+1,[[Plot]]
 
 ;Plot
-1, <h2>Hook of the adventure</h2>[Element]<h2>Meat of the adventure</h2>[Element]
-1, <h2>Personal or Mental Aspect</h2>[Element]<h2>Physical Aspect</h2>[Element]
-1, <h2>The Primary Adventure</h2>[Element]<h2>The Surprise</h2>[Element]
+1, <h2>Hook of the adventure</h2>[[Element]]<h2>Meat of the adventure</h2>[[Element]]
+1, <h2>Personal or Mental Aspect</h2>[[Element]]<h2>Physical Aspect</h2>[[Element]]
+1, <h2>The Primary Adventure</h2>[[Element]]<h2>The Surprise</h2>[[Element]]
 ;Element
 1, <i>VIP: </i>Protect somebody or somebodies important from something (or themselves)
 1, <i>Manhunt: </i>Track somebody down.

@@ -1,65 +1,65 @@
 
 ;Start
-1,[Intro]<br/>
+1,[[Intro]]<br/>
 
 ;Intro
-3,A [Fantasy NPC - Basic.Start] seeks adventurers to [Verbreflexive] This will require traveling to [Fantasy Adventure Locations.Start]
-1,The PCs have heard that if they [Verb] they will become rich. This will require traveling to [Fantasy Adventure Locations.Start]
-1,It seems [Object] will grant great power to any who possess it. This will require exploring [Fantasy Adventure Locations.Start]
-1,''They say..''[Fantasy Adventure Locations.Start]<br/>''...contains [Object] of great value.''
-1,Rumors suggest clever and ambitious souls will find great riches if they investigate [Fantasy Adventure Locations.Start]
+3,A [[Fantasy NPC - Basic.Start]] seeks adventurers to [[Verbreflexive]] This will require traveling to [[Fantasy Adventure Locations.Start]]
+1,The PCs have heard that if they [[Verb]] they will become rich. This will require traveling to [[Fantasy Adventure Locations.Start]]
+1,It seems [[Object]] will grant great power to any who possess it. This will require exploring [[Fantasy Adventure Locations.Start]]
+1,''They say..''[[Fantasy Adventure Locations.Start]]<br/>''...contains [[Object]] of great value.''
+1,Rumors suggest clever and ambitious souls will find great riches if they investigate [[Fantasy Adventure Locations.Start]]
 
 ;Verbreflexive
-15,free: [People]
-15,assassinate: [People]
-15,capture [Capturablereflexive]
-15,safely transport [Transportablereflexive] of special importance
-15,locate [Transportablereflexive] of special importance
-15,acquire [Object] of special importance
-15,destroy [Object] of special importance
-15,slay [Weird Fantasy Monster.Start]
-1,seduce [People]
-1,frame [People] for a crime
+15,free: [[People]]
+15,assassinate: [[People]]
+15,capture [[Capturablereflexive]]
+15,safely transport [[Transportablereflexive]] of special importance
+15,locate [[Transportablereflexive]] of special importance
+15,acquire [[Object]] of special importance
+15,destroy [[Object]] of special importance
+15,slay [[Weird Fantasy Monster.Start]]
+1,seduce [[People]]
+1,frame [[People]] for a crime
 
 ;Verb
-15,free: [Fantasy Person Of Interest.Start]
-15,assassinate: [Fantasy Person Of Interest.Start]
-15,capture [Capturable]
-15,safely transport [Transportable] of special importance
-15,locate [Transportable] of special importance
-15,acquire [Object] of special importance
-15,destroy [Object] of special importance
-15,slay [Weird Fantasy Monster.Start]
-1,seduce [Fantasy Person Of Interest.Start]
-1,frame [Fantasy Person Of Interest.Start] for a crime
+15,free: [[Fantasy Person Of Interest.Start]]
+15,assassinate: [[Fantasy Person Of Interest.Start]]
+15,capture [[Capturable]]
+15,safely transport [[Transportable]] of special importance
+15,locate [[Transportable]] of special importance
+15,acquire [[Object]] of special importance
+15,destroy [[Object]] of special importance
+15,slay [[Weird Fantasy Monster.Start]]
+1,seduce [[Fantasy Person Of Interest.Start]]
+1,frame [[Fantasy Person Of Interest.Start]] for a crime
 
 ;People
-15,[Fantasy Person Of Interest.Start]
-1,his/her sibling, [Fantasy NPC - Basic.Start]
-1,his/her spouse, [Fantasy NPC - Basic.Start]
-1,his/her mortal enemy, [Fantasy NPC - Basic.Start]
-1,his/her child, [Fantasy NPC - Basic.Start]
+15,[[Fantasy Person Of Interest.Start]]
+1,his/her sibling, [[Fantasy NPC - Basic.Start]]
+1,his/her spouse, [[Fantasy NPC - Basic.Start]]
+1,his/her mortal enemy, [[Fantasy NPC - Basic.Start]]
+1,his/her child, [[Fantasy NPC - Basic.Start]]
 
 ;Capturable
-1,: [Fantasy Person Of Interest.Start]
-1,[Weird Fantasy Monster.Start]
+1,: [[Fantasy Person Of Interest.Start]]
+1,[[Weird Fantasy Monster.Start]]
 
 ;Capturablereflexive
-1,: [People]
-1,[Weird Fantasy Monster.Start]
+1,: [[People]]
+1,[[Weird Fantasy Monster.Start]]
 
 ;Transportable
-1,: [Fantasy Person Of Interest.Start]
-1,[Weird Fantasy Monster.Start]
-1,[Object]
+1,: [[Fantasy Person Of Interest.Start]]
+1,[[Weird Fantasy Monster.Start]]
+1,[[Object]]
 
 ;Transportablereflexive
-1,: [People]
-1,[Weird Fantasy Monster.Start]
-1,[Object]
+1,: [[People]]
+1,[[Weird Fantasy Monster.Start]]
+1,[[Object]]
 
 ;Object
-5,[Found in a crate.Start]
+5,[[Found in a crate.Start]]
 1,a weasel
 1,an idol
 1,a disc

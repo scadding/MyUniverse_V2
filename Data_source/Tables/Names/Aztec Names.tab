@@ -1,8 +1,8 @@
 
 ;Start
-10,[Pre][Suf]
-2,[Pre][Suf][Suf]
-1,[Pre][Suf][Suf][Suf]
+10,[[Pre]][[Suf]]
+2,[[Pre]][[Suf]][[Suf]]
+1,[[Pre]][[Suf]][[Suf]][[Suf]]
 
 ;Pre
 1,Acama

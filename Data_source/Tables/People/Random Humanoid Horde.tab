@@ -1,6 +1,6 @@
 
 ;Start
-1,Most of these [Race] are [Aspect]. They are ruled by [Organization] and [Allies]. They are headquartered in [BattlefieldType]. Most carry a [Weapon] of some kind.
+1,Most of these [[Race]] are [[Aspect]]. They are ruled by [[Organization]] and [[Allies]]. They are headquartered in [[BattlefieldType]]. Most carry a [[Weapon]] of some kind.
 
 ;Weapon
 1,sword
@@ -34,7 +34,7 @@
 1,devildwarves
 1,unnatural humans
 1,ratmen
-3,[Animal.Weirdsymbol]men
+3,[[Animal.Weirdsymbol]]men
 
 ;Aspect
 1,Lewis Carrol-esque
@@ -62,18 +62,18 @@
 1,wizards
 
 ;Organization
-1,[Numbertwofive] wizards, shamen, witches, etc.
+1,[[Numbertwofive]] wizards, shamen, witches, etc.
 1,a single wizard, witch, shaman, etc.
-1,[Numbertwofive] leaders with [Numberonesix] more HD than the rest
-1,a single leader with [Numberoneeight] more HD than the rest
+1,[[Numbertwofive]] leaders with [[Numberonesix]] more HD than the rest
+1,a single leader with [[Numberoneeight]] more HD than the rest
 1,the whisperings of a bizarre idol
-1,[Leader]
-1,[Leader] schooled in the mystical arts
+1,[[Leader]]
+1,[[Leader]] schooled in the mystical arts
 1,a member of a non- or animal-intelligence species (giant ape, froghemoth, yellow mold, etc.) whose wishes are interpreted by a priest or witch
 1,a hyperintelligent member of a usually non- or animal-intelligent species
-1,a(n) [Aspect] upper caste
-1,[Numberonefour] crippled or deformed (a bloated queen, sacred paraplegiac, etc) tyrant(s)
-1,the withered and old, who are [Numberonefour] points wiser and weaker than the rest
+1,a(n) [[Aspect]] upper caste
+1,[[Numberonefour]] crippled or deformed (a bloated queen, sacred paraplegiac, etc) tyrant(s)
+1,the withered and old, who are [[Numberonefour]] points wiser and weaker than the rest
 1,a symbiotic unimind
 1,no-one but 25% are berserk warrior-types with 2hd more than the rest and +2 damage. (These may also carry 2-handed weapons.)
 1,an surprisingly complex bureaucracy comprising a bodyguard caste as well as magic users
@@ -136,7 +136,7 @@
 1,a giant's home
 1,a strange village
 1,a river
-1,a town<br/>[Fantasy Town - Simpler.Start]
+1,a town<br/>[[Fantasy Town - Simpler.Start]]
 1,a stepwell
 1,a temple
 1,a cathedral
@@ -150,9 +150,9 @@
 1,a freakish structure resembling no human architecture
 1,a mountainous area
 1,a mountain fortress
-1,ancient ruins containing:<br/>These traps:[Traps.Start], [Traps.Start], [Traps.Start]<br/>These creatures:[Weird Fantasy Monster.Start],[Weird Fantasy Monster.Start], [Weird Fantasy Monster.Start]
+1,ancient ruins containing:<br/>These traps:[[Traps.Start]], [[Traps.Start]], [[Traps.Start]]<br/>These creatures:[[Weird Fantasy Monster.Start]],[[Weird Fantasy Monster.Start]], [[Weird Fantasy Monster.Start]]
 1,a slum
-1,an inn<br/>[Inn and Tavern Names.Start], famous for its [FantasyMenu.Descriptor][FantasyMenu.MainMeals]
+1,an inn<br/>[[Inn and Tavern Names.Start]], famous for its [[FantasyMenu.Descriptor]][[FantasyMenu.MainMeals]]
 1,the docks
 1,a laboratory
 1,a wizard's tower
@@ -161,7 +161,7 @@
 1,a lost city
 1,a madman's fortress
 1,a magical lake
-1,the mansion of a powerful NPC. Contains:<br/>[Fantasy Mansion Domestic Security Measures.Start][Fantasy Mansion Domestic Security Measures.Start]
+1,the mansion of a powerful NPC. Contains:<br/>[[Fantasy Mansion Domestic Security Measures.Start]][[Fantasy Mansion Domestic Security Measures.Start]]
 1,a military encampment
 1,the palace of the ruler or local lord
 1,a catacombs
@@ -179,13 +179,13 @@
 1,are allied to no-one
 1,are allied to no-one
 1,are allied to no-one
-1,are mounted on [Exoticmounts]
+1,are mounted on [[Exoticmounts]]
 1,breed small attack animals (dogs, boars, lizards, etc.)
 1,use swarm bombs (jars of bees, wasps, snakes, etc.)
 1,go into battle accompanied by d4+1 monsters on chains (tentacle-panthers, iron boars, etc.)
 1,go into battle with 1-2 gigantic monsters (mammoths, trolls, etc.)
 1,their priest/witch raises dead to fight with the host as zombies when they fall
-1,are allied with a group of [Race] rumored to all be [Aspect]
+1,are allied with a group of [[Race]] rumored to all be [[Aspect]]
 1,go into battle with d4+1 golems or steampunkish devices
 1,have a mutual-defense treaty or agreement with another distant local monster or group
 1,use strange monsters with weird attacks (basilisks, mushroom men, etc.) as shock troops
@@ -211,7 +211,7 @@
 1,the backs of idiotic trolls
 
 ;Leader
-20,[Racetwo] [Gender] [Class] [Level]
+20,[[Racetwo]] [[Gender]] [[Class]] [[Level]]
 1,a group of disturbing ravens
 1,a toad creature
 1,a gnoll
@@ -284,7 +284,7 @@
 1,a halfling
 1,a half-orc
 1,a half-elf
-1,[Exoticspecies]
+1,[[Exoticspecies]]
 
 ;Exoticspecies
 1,a goblinoid

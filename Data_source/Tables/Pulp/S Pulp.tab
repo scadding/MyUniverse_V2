@@ -1,6 +1,6 @@
 
 ;Start
-1,[sPulpHeroNovel]
+1,[[sPulpHeroNovel]]
 
 ;sPulpNoun
 1,SEALs
@@ -92,15 +92,15 @@
 1,and the Slaying of the
 1,in:
 1,smashes the
-1,and [sPulpAdjPositive] [sPulpMaleFirstName]'s 
+1,and [[sPulpAdjPositive]] [[sPulpMaleFirstName]]'s 
 
 ;pulpend
-1,[sPulpAdjNegative] [sPulpNoun]
+1,[[sPulpAdjNegative]] [[sPulpNoun]]
 
 ;sPulpHeroNovel
-10,[sPulpAdjPositive] [sPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[sPulpMaleFirstName] [sPulpLastName] [pulpmiddle] [pulpend]
-3,[sPulpAdjPositive] [sPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[sPulpFemaleFirstName] [sPulpLastName] [pulpmiddle] [pulpend]
+10,[[sPulpAdjPositive]] [[sPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[sPulpMaleFirstName]] [[sPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[sPulpAdjPositive]] [[sPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[sPulpFemaleFirstName]] [[sPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

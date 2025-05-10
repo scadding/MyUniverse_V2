@@ -1,6 +1,6 @@
 
 ;Start
-1,[fPulpHeroNovel]
+1,[[fPulpHeroNovel]]
 
 ;fPulpNoun
 1,Fisherman
@@ -119,15 +119,15 @@
 1,in:
 1,fights
 1,versus the
-1,and [fPulpAdjPositive] [fPulpMaleFirstName]'s 
+1,and [[fPulpAdjPositive]] [[fPulpMaleFirstName]]'s 
 
 ;pulpend
-1,[fPulpAdjNegative] [fPulpNoun]
+1,[[fPulpAdjNegative]] [[fPulpNoun]]
 
 ;fPulpHeroNovel
-10,[fPulpAdjPositive] [fPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[fPulpMaleFirstName] [fPulpLastName] [pulpmiddle] [pulpend]
-10,[fPulpAdjPositive] [fPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[fPulpFemaleFirstName] [fPulpLastName] [pulpmiddle] [pulpend]
+10,[[fPulpAdjPositive]] [[fPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[fPulpMaleFirstName]] [[fPulpLastName]] [[pulpmiddle]] [[pulpend]]
+10,[[fPulpAdjPositive]] [[fPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[fPulpFemaleFirstName]] [[fPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

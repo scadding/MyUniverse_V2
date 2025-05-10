@@ -1,46 +1,46 @@
 
 ;Start
 1,==Male dossier==<br>
-_Name :[American Census Names.male] [American Census Names.surname]<br>
+_Name :[[American Census Names.male]] [[American Census Names.surname]]<br>
 _Gender : Male<br>
-_Age :[Age]<br>
-_Location of Birth :[US Cities.simplified]<br>
-_Languages :[SomeLanguages]<br>
-_Activities :[SomeActivities]<br>
-_Interests :[SomeInterests]<br>
-_Previous work :||<sgdisplay iterations="3">[MaleAmericanJobExperience], [JobLength]<br>
-_Current organization :[MaleAmericanJobExperience] <br>
-_Area of Expertise : [AreaofExpertise]<br><br>
+_Age :[[Age]]<br>
+_Location of Birth :[[US Cities.simplified]]<br>
+_Languages :[[SomeLanguages]]<br>
+_Activities :[[SomeActivities]]<br>
+_Interests :[[SomeInterests]]<br>
+_Previous work :||<sgdisplay iterations="3">[[MaleAmericanJobExperience]], [[JobLength]]<br>
+_Current organization :[[MaleAmericanJobExperience]] <br>
+_Area of Expertise : [[AreaofExpertise]]<br><br>
 1,==Female dossier==<br>
-_Name :[American Census Names.female] [American Census Names.surname]<br>
+_Name :[[American Census Names.female]] [[American Census Names.surname]]<br>
 _Gender : Female<br>
-_Age :[Age]<br>
-_Location of Birth :[US Cities.simplified]<br>
-_Languages :[SomeLanguages]<br>
-_Activities :[SomeActivities]<br>
-_Interests :[SomeInterests]<br>
-_Previous work :||<sgdisplay iterations="3">[FemaleAmericanJobExperience], [JobLength]<br>
-_Current organization :[FemaleAmericanJobExperience] <br>
-_Area of Expertise : [AreaofExpertise]<br><br>
+_Age :[[Age]]<br>
+_Location of Birth :[[US Cities.simplified]]<br>
+_Languages :[[SomeLanguages]]<br>
+_Activities :[[SomeActivities]]<br>
+_Interests :[[SomeInterests]]<br>
+_Previous work :||<sgdisplay iterations="3">[[FemaleAmericanJobExperience]], [[JobLength]]<br>
+_Current organization :[[FemaleAmericanJobExperience]] <br>
+_Area of Expertise : [[AreaofExpertise]]<br><br>
 
 ;Age
 1,Unknown
 1,Classified
-15,2[Dice.1d8]
-15,3[Dice.1d10]
-5,4[Dice.1d10]
-1,5[Dice.1d8]
+15,2[[Tables.Utility.Dice.1d8]]
+15,3[[Tables.Utility.Dice.1d10]]
+5,4[[Tables.Utility.Dice.1d10]]
+1,5[[Tables.Utility.Dice.1d8]]
 
 ;SomeActivities
-5,[Activity] and [Activity]
-3,[Activity], [Activity], and [Activity]
-1,[Activity], [Activity], [Activity], and [Activity]
-1,[Activity], [Activity], [Activity], [Activity], and [Activity]
+5,[[Activity]] and [[Activity]]
+3,[[Activity]], [[Activity]], and [[Activity]]
+1,[[Activity]], [[Activity]], [[Activity]], and [[Activity]]
+1,[[Activity]], [[Activity]], [[Activity]], [[Activity]], and [[Activity]]
 
 ;Activity
-1,[MartialArts]
-8,[Athletics]
-2,[ExtremeSports]
+1,[[MartialArts]]
+8,[[Athletics]]
+2,[[ExtremeSports]]
 
 ;MartialArts
 1,Brazilian Jujitsu
@@ -64,7 +64,7 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 3,Muay Thai (Kickboxing)
 3,Okinawan Karate
 3,Tae Kwon Do
-4,[KungFu] Kung Fu
+4,[[KungFu]] Kung Fu
 2,Tang Soo Do
 1,Krav Maga
 
@@ -152,15 +152,15 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 1,Trans-Oceanic Racing
 
 ;SomeInterests
-1,[Interest] and [Interest]
-5,[Interest]
+1,[[Interest]] and [[Interest]]
+5,[[Interest]]
 
 ;Interest
-1,[Scientific]
-1,[LiberalArts]
-1,[Hobby]
-1,[Modern Hobby.Start]
-4,[Hobbies.Start]
+1,[[Scientific]]
+1,[[LiberalArts]]
+1,[[Hobby]]
+1,[[Modern Hobby.Start]]
+4,[[Hobbies.Start]]
 
 ;Scientific
 1,Anthropology
@@ -181,8 +181,8 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 1,Particle Physics
 
 ;LiberalArts
-6,[Language] History
-6,[Language] Literature
+6,[[Language]] History
+6,[[Language]] Literature
 1,Philosophy
 
 ;Hobby
@@ -211,18 +211,18 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 2,Cooking
 
 ;SomeLanguages
-10,[Language]
-3,[Language] and [Language]
-1,[Language], [Language], and [Language]
-1,[Language], [Language], [Language], and [Language]
-1,[Language], [Language], [Language], [Language], and [Language]
+10,[[Language]]
+3,[[Language]] and [[Language]]
+1,[[Language]], [[Language]], and [[Language]]
+1,[[Language]], [[Language]], [[Language]], and [[Language]]
+1,[[Language]], [[Language]], [[Language]], [[Language]], and [[Language]]
 
 ;Language
-7,[NonEnglishLanguage]
-1,[AncientLanguage]
+7,[[NonEnglishLanguage]]
+1,[[AncientLanguage]]
 
 ;NonEnglishLanguage
-1,[CommonLanguage]
+1,[[CommonLanguage]]
 
 ;CommonLanguage
 30,Mandarin
@@ -298,7 +298,7 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 1,Mongolian
 1,Slovak
 1,Swahili
-10,[RareLanguages]
+10,[[RareLanguages]]
 
 ;RareLanguages
 5,Guarani
@@ -388,81 +388,81 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 1,(unknown duration)
 
 ;MaleAmericanJobExperience
-1,[US Cities.Start] Police Department - [PoliceRole]
-1,[NationalLab] National Laboratory
-1,[PrivateMilitary]
-1,[PrivateIntelligence]
+1,[[US Cities.Start]] Police Department - [[PoliceRole]]
+1,[[NationalLab]] National Laboratory
+1,[[PrivateMilitary]]
+1,[[PrivateIntelligence]]
 1,Bureau of Alcohol, Tobacco, and Firearms
 1,Centers for Disease Control
-1,Central Intelligence Agency - [CIARole]
+1,Central Intelligence Agency - [[CIARole]]
 1,Drug Enforcement Agency
 1,Department of Homeland Security
 1,Defense Intelligence Agency
-1,Federal Bureau of Investigation - [FBIRole]
+1,Federal Bureau of Investigation - [[FBIRole]]
 1,French Foreign Legion
-1,United Nations - [UNRole]
+1,United Nations - [[UNRole]]
 1,National Security Agency
 1,Peace Corps
 1,Secret Service
-1,State Department - [StateRole]
-1,US Air Force - [MaleAirForceRole]
-1,US Army - [MaleArmyRole]
+1,State Department - [[StateRole]]
+1,US Air Force - [[MaleAirForceRole]]
+1,US Army - [[MaleArmyRole]]
 1,US Coast Guard
-1,US Marine Corps - [MaleMarineRole]
+1,US Marine Corps - [[MaleMarineRole]]
 1,US Marshals
-1,US Navy - [MaleNavyRole]
-1,Volunteer Firefighter - [US Cities.simplified]
-5,[Modern Profession.Start] ([US Cities.simplified])
-1,Jailed for [Crime]
-1,Unknown, Probably Spent in [World Cities.Start]
-1,Unknown, Probably Spent in [US Cities.Start]
-1,Foreign Correspondent, ([World Cities.Start])
-1,Reporter in [US Cities.Start]
-1,Student in [US Cities.Start]
-1,Student in [World Cities.Start]
-1,[OtherJob] in [US Cities.Start]
-1,[OtherJob] in [World Cities.Start]
+1,US Navy - [[MaleNavyRole]]
+1,Volunteer Firefighter - [[US Cities.simplified]]
+5,[[Modern Profession.Start]] ([[US Cities.simplified]])
+1,Jailed for [[Crime]]
+1,Unknown, Probably Spent in [[World Cities.Start]]
+1,Unknown, Probably Spent in [[US Cities.Start]]
+1,Foreign Correspondent, ([[World Cities.Start]])
+1,Reporter in [[US Cities.Start]]
+1,Student in [[US Cities.Start]]
+1,Student in [[World Cities.Start]]
+1,[[OtherJob]] in [[US Cities.Start]]
+1,[[OtherJob]] in [[World Cities.Start]]
 1,Medical Leave
 1,Defense Advanced Research Projects Agency
 
 ;FemaleAmericanJobExperience
-1,[US Cities.Start] Police Department - [PoliceRole]
-1,[NationalLab] National Laboratory
+1,[[US Cities.Start]] Police Department - [[PoliceRole]]
+1,[[NationalLab]] National Laboratory
 1,Bureau of Alcohol, Tobacco, and Firearms
 1,Centers for Disease Control
-1,Central Intelligence Agency - [CIARole]
+1,Central Intelligence Agency - [[CIARole]]
 1,Drug Enforcement Agency
 1,Department of Homeland Security
 1,Defense Intelligence Agency
-1,Federal Bureau of Investigation - [FBIRole]
+1,Federal Bureau of Investigation - [[FBIRole]]
 1,French Foreign Legion
-1,United Nations - [UNRole]
+1,United Nations - [[UNRole]]
 1,National Security Agency
-1,Peace Corps ([World Cities.Start])
+1,Peace Corps ([[World Cities.Start]])
 1,Secret Service
-1,State Department - [StateRole]
-1,US Air Force - [FemaleAirForceRole]
-1,US Army - [FemaleArmyRole]
+1,State Department - [[StateRole]]
+1,US Air Force - [[FemaleAirForceRole]]
+1,US Army - [[FemaleArmyRole]]
 1,US Coast Guard
-1,US Marine Corps - [FemaleMarineRole]
+1,US Marine Corps - [[FemaleMarineRole]]
 1,US Marshals
-1,US Navy - [FemaleNavyRole]
-1,Volunteer Firefighter - [US Cities.simplified]
-5,[Modern Profession.Start] ([US Cities.simplified])
-1,Jailed for [Crime]
-1,Unknown, Probably Spent in [World Cities.Start]
-1,Unknown, Probably Spent in [US Cities.Start]
-1,Foreign Correspondent, ([World Cities.Start])
-1,Reporter in [US Cities.Start]
-1,Student in [US Cities.Start]
-1,Student in [World Cities.Start]
+1,US Navy - [[FemaleNavyRole]]
+1,Volunteer Firefighter - [[US Cities.simplified]]
+5,[[Modern Profession.Start]] ([[US Cities.simplified]])
+1,Jailed for [[Crime]]
+1,Unknown, Probably Spent in [[World Cities.Start]]
+1,Unknown, Probably Spent in [[US Cities.Start]]
+1,Foreign Correspondent, ([[World Cities.Start]])
+1,Reporter in [[US Cities.Start]]
+1,Student in [[US Cities.Start]]
+1,Student in [[World Cities.Start]]
 1,Medical Leave
 1,Pregnancy and Family Leave
 1,Defense Advanced Research Projects Agency
-1,Antarctica - [Antarctica]
-1,[PrivateIntelligence]
-1,[OtherJob] in [US Cities.Start]
-1,[OtherJob] in [World Cities.Start]
+1,Antarctica - [[Antarctica]]
+1,[[PrivateIntelligence]]
+1,[[OtherJob]] in [[US Cities.Start]]
+1,[[OtherJob]] in [[World Cities.Start]]
 
 ;Antarctica
 3,U.S. Antarctic Program - Amundsen-Scott station
@@ -498,7 +498,7 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 1,Taxi Driver
 
 ;CIARole
-1,Intelligence Analyst ([AnalystRegion])
+1,Intelligence Analyst ([[AnalystRegion]])
 1,Special Operations Group
 1,Crime and Narcotics Center
 1,WINPAC
@@ -511,8 +511,8 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 1,Liaison, Task Force 121
 1,Liaison, Task Force 145
 1,Liaison, Task Force 6-26
-3,Liaison, [ForeignCounterTerror]
-3,Liaison, [ForeignIntel]
+3,Liaison, [[ForeignCounterTerror]]
+3,Liaison, [[ForeignIntel]]
 1,(unknown role)
 
 ;AnalystRegion
@@ -526,7 +526,7 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 
 ;FBIRole
 1,Intelligence Analyst
-1,Field Agent ([US Cities.simplified])
+1,Field Agent ([[US Cities.simplified]])
 1,Cybercrime Unit
 1,Counter-Intelligence
 1,Counter-Terrorism
@@ -539,11 +539,11 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 1,Liaison, Task Force 121
 1,Liaison, Task Force 145
 1,Liaison, Task Force 6-26
-1,Liaison, [ForeignCounterTerror]
+1,Liaison, [[ForeignCounterTerror]]
 
 ;StateRole
-1,Foreign Service ([World Cities.WorldCapital])
-1,Diplomatic Security Service ([World Cities.WorldCapital])
+1,Foreign Service ([[World Cities.WorldCapital]])
+1,Diplomatic Security Service ([[World Cities.WorldCapital]])
 1,Advisor to the Chief of Staff
 1,Advisor to the Secretariat
 1,Office of the Coordinator for Counterterrorism
@@ -553,7 +553,7 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 1,Office to Monitor and Combat Trafficking in Persons
 1,Office of War Crimes Issues
 1,Bureau of Intelligence and Research
-1,Bureau of Regional Affairs, [AnalystRegion]
+1,Bureau of Regional Affairs, [[AnalystRegion]]
 
 ;PrivateMilitary
 3,Blackwater
@@ -654,7 +654,7 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 1,Liaison, Task Force 121
 1,Liaison, Task Force 145
 1,Liaison, Task Force 6-26
-1,Liaison, [ForeignCounterTerror]
+1,Liaison, [[ForeignCounterTerror]]
 
 ;MaleNavyRole
 1,Diver
@@ -690,7 +690,7 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 
 ;MaleMarineRole
 5,Infantry
-1,Embassy Guard ([World Cities.WorldCapital])
+1,Embassy Guard ([[World Cities.WorldCapital]])
 1,1st MSOB (Camp Pendleton, CA)
 1,2nd MSOB (Camp Lejeune, NC)
 1,Marine Special Operations Advisor Group 
@@ -764,7 +764,7 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 
 ;FemaleMarineRole
 5,Infantry
-1,Embassy Guard ([World Cities.WorldCapital])
+1,Embassy Guard ([[World Cities.WorldCapital]])
 1,1st MSOB (Camp Pendleton, CA)
 1,2nd MSOB (Camp Lejeune, NC)
 1,Marine Special Operations Advisor Group 
@@ -869,8 +869,8 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 1,Bundesnachrichtendienst, Germany
 
 ;AreaofExpertise
-3,[ExpertiseSimple]
-1,[ExpertiseComplex]
+3,[[ExpertiseSimple]]
+1,[[ExpertiseComplex]]
 
 ;ExpertiseSimple
 1,Counter-Insurgency Tactics
@@ -893,10 +893,10 @@ _Area of Expertise : [AreaofExpertise]<br><br>
 1,--CLASSIFIED--
 
 ;ExpertiseComplex
-1,[ExpertiseSimple] to facilitate [ExpertiseSimple]
-1,[ExpertiseSimple] of [ExpertiseSimple]
-1,[ExpertiseSimple] to improve [ExpertiseSimple]
-1,[ExpertiseSimple] as pertaining to [ExpertiseSimple]
-1,[ExpertiseSimple] as a technique in [ExpertiseSimple]
+1,[[ExpertiseSimple]] to facilitate [[ExpertiseSimple]]
+1,[[ExpertiseSimple]] of [[ExpertiseSimple]]
+1,[[ExpertiseSimple]] to improve [[ExpertiseSimple]]
+1,[[ExpertiseSimple]] as pertaining to [[ExpertiseSimple]]
+1,[[ExpertiseSimple]] as a technique in [[ExpertiseSimple]]
 
 

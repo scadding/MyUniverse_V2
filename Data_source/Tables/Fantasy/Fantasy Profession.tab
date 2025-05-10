@@ -1,59 +1,59 @@
 
 ;display
 1,==Adventurers==<br>
-_<sgdisplay iterations="2">[adventurers]</sgdisplay><br>
+_<sgdisplay iterations="2">[[adventurers]]</sgdisplay><br>
 _==Tradesmen==<br>
-_<sgdisplay iterations="2">[tradesmen]</sgdisplay><br>
+_<sgdisplay iterations="2">[[tradesmen]]</sgdisplay><br>
 _==Smiths==<br>
-_<sgdisplay iterations="2">[smiths]</sgdisplay><br>
+_<sgdisplay iterations="2">[[smiths]]</sgdisplay><br>
 _==Merchants==<br>
-_<sgdisplay iterations="2">[merchants]</sgdisplay><br>
+_<sgdisplay iterations="2">[[merchants]]</sgdisplay><br>
 _==Performers==<br>
-_<sgdisplay iterations="2">[performers]</sgdisplay><br>
+_<sgdisplay iterations="2">[[performers]]</sgdisplay><br>
 _==Religious and Magical==<br>
-_<sgdisplay iterations="2">[religious]</sgdisplay><br>
+_<sgdisplay iterations="2">[[religious]]</sgdisplay><br>
 _==Educators and Men of Letters==<br>
-_<sgdisplay iterations="2">[educators]</sgdisplay><br>
+_<sgdisplay iterations="2">[[educators]]</sgdisplay><br>
 _==Administration, Law and Peace==<br>
-_<sgdisplay iterations="2">[law]</sgdisplay><br>
+_<sgdisplay iterations="2">[[law]]</sgdisplay><br>
 _==Upper Class and Servants==<br>
-_<sgdisplay iterations="2">[nobility]</sgdisplay><br>
+_<sgdisplay iterations="2">[[nobility]]</sgdisplay><br>
 _==Illegal Trades==<br>
-_<sgdisplay iterations="2">[illegal]</sgdisplay><br>
+_<sgdisplay iterations="2">[[illegal]]</sgdisplay><br>
 _==Commoners==<br>
-_<sgdisplay iterations="2">[commoner]</sgdisplay><br>
+_<sgdisplay iterations="2">[[commoner]]</sgdisplay><br>
 
 ;Start
-1,[adventurers]
-1,[tradesmen]
-1,[smiths]
-1,[merchants]
-1,[performers]
-1,[religious]
-1,[educators]
-1,[law]
-1,[nobility]
-1,[illegal]
-1,[commoner]
+1,[[adventurers]]
+1,[[tradesmen]]
+1,[[smiths]]
+1,[[merchants]]
+1,[[performers]]
+1,[[religious]]
+1,[[educators]]
+1,[[law]]
+1,[[nobility]]
+1,[[illegal]]
+1,[[commoner]]
 
 ;maleanyclass
-1,[profession]
+1,[[profession]]
 
 ;profession
-1,[adventurers]
-1,[tradesmen]
-1,[smiths]
-1,[merchants]
-1,[performers]
-1,[religious]
-1,[educators]
-1,[law]
-1,[nobility]
-1,[illegal]
-1,[commoner]
+1,[[adventurers]]
+1,[[tradesmen]]
+1,[[smiths]]
+1,[[merchants]]
+1,[[performers]]
+1,[[religious]]
+1,[[educators]]
+1,[[law]]
+1,[[nobility]]
+1,[[illegal]]
+1,[[commoner]]
 
 ;adventurers
-10,[magical]
+10,[[magical]]
 1,adventurer
 1,archer
 1,assassin
@@ -234,8 +234,8 @@ _<sgdisplay iterations="2">[commoner]</sgdisplay><br>
 1,writer
 
 ;religious
-1,[mundane]
-1,[magical]
+1,[[mundane]]
+1,[[magical]]
 
 ;mundane
 1,abbot
@@ -342,8 +342,8 @@ _<sgdisplay iterations="2">[commoner]</sgdisplay><br>
 1,writer
 
 ;law
-1,[administrator]
-1,[armed service]
+1,[[administrator]]
+1,[[armed service]]
 
 ;administrator
 1,adjudicator

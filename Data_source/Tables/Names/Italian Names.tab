@@ -1,13 +1,13 @@
 
 ;Start
-1,[Male] (male)
-1,[Female] (female)
+1,[[Male]] (male)
+1,[[Female]] (female)
 
 ;Male
-1,[MaleFirst] [Surname]
+1,[[MaleFirst]] [[Surname]]
 
 ;Female
-1,[FemaleFirst] [Surname]
+1,[[FemaleFirst]] [[Surname]]
 
 ;Surname
 1,Abalardi 

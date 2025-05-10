@@ -1,11 +1,11 @@
 
 ;Start
-1,[episode]
+1,[[episode]]
 
 ;episode
-5,'''''Sci-Fi Episode:'''''<br>[monster]<br>[sci-fi]<br>[humanstory]<br>[humanstory]
-5,'''''Historical Episode:'''''<br>[monster]<br>[history]<br>[humanstory]<br>[humanstory]
-1,'''''Mixed Episode:'''''<br>[monster]<br>[sci-fi]<br>[history]<br>[humanstory]
+5,'''''Sci-Fi Episode:'''''<br>[[monster]]<br>[[sci-fi]]<br>[[humanstory]]<br>[[humanstory]]
+5,'''''Historical Episode:'''''<br>[[monster]]<br>[[history]]<br>[[humanstory]]<br>[[humanstory]]
+1,'''''Mixed Episode:'''''<br>[[monster]]<br>[[sci-fi]]<br>[[history]]<br>[[humanstory]]
 ;monster
 1, An intelligence that lies dormant, waiting for its time to rise.
 1, Creatures that feed on temporal paradox.
@@ -55,9 +55,9 @@
 1, A tragic event that even time travellers dare not avert.
 1, A historical mystery, perhaps touched by alien influence.
 ;singlecard
-1, [monster]
-1, [sci-fi]
-1, [history]
-1, [humanstory]
+1, [[monster]]
+1, [[sci-fi]]
+1, [[history]]
+1, [[humanstory]]
 
 

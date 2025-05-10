@@ -1,17 +1,17 @@
 
 ;Start
-1,[WesternTown]
-1,[WesternCounty]
-1,[WesternState]
-1,[MexicanPlace]
-1,[Terrains]
+1,[[WesternTown]]
+1,[[WesternCounty]]
+1,[[WesternState]]
+1,[[MexicanPlace]]
+1,[[Terrains]]
 
 ;WesternPlace
-1,[DitV Town Name.Start]
-2,[WesternState]
-4,[WesternTown]
-5,[WesternCounty]
-1,[MexicanPlace]
+1,[[DitV Town Name.Start]]
+2,[[WesternState]]
+4,[[WesternTown]]
+5,[[WesternCounty]]
+1,[[MexicanPlace]]
 
 ;MexicanPlace
 1,Acapulco
@@ -113,7 +113,7 @@
 
 
 ;WesternCounty
-1,[County] County
+1,[[County]] County
 
 ;County
 1,Anderson

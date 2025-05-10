@@ -1,38 +1,38 @@
 # (in progress. Esp. feminine names)
 #
 # This is a name generator for the Steampunk/Post Apocalyptic 
-# roleplaying game [[http://wiki.apocalyptus.com Apocalyptus]]. 
+# roleplaying game [[[http://wiki.apocalyptus.com Apocalyptus]]]. 
 # It might also come in handy for other Steampunk applications, 
 # but it contains pretty much exclusively English names, and 
 # has a lot of silly made-up surnames.
 
 
 ;Start
-1,[Male] (male)
-1,[Female] (female)
+1,[[Male]] (male)
+1,[[Female]] (female)
 
 ;Male
-1,[MaleFirst] [Surname]
-1,[MaleFirst] [MaleFirst] [Surname]
-1,[MaleTitle] [MaleFirst] [Surname]
-1,[MaleTitle] [MaleFirst] [MaleFirst] [Surname]
-1,[MaleNick] [MaleFirst] [Surname]
-1,[MaleFirst] [MaleNick] [Surname]
-1,[MaleFirst] [Surname] [MaleHon]
-1,[MaleFirst] [MaleFirst] [Surname] [MaleHon]
-1,[MaleTitle] [MaleFirst] [Surname] [MaleHon]
-1,[Init] [MaleFirst] [Surname]
-1,[MaleFirst] [Init] [Surname]
-1,[MaleFirst] [Surname] [Surname]
+1,[[MaleFirst]] [[Surname]]
+1,[[MaleFirst]] [[MaleFirst]] [[Surname]]
+1,[[MaleTitle]] [[MaleFirst]] [[Surname]]
+1,[[MaleTitle]] [[MaleFirst]] [[MaleFirst]] [[Surname]]
+1,[[MaleNick]] [[MaleFirst]] [[Surname]]
+1,[[MaleFirst]] [[MaleNick]] [[Surname]]
+1,[[MaleFirst]] [[Surname]] [[MaleHon]]
+1,[[MaleFirst]] [[MaleFirst]] [[Surname]] [[MaleHon]]
+1,[[MaleTitle]] [[MaleFirst]] [[Surname]] [[MaleHon]]
+1,[[Init]] [[MaleFirst]] [[Surname]]
+1,[[MaleFirst]] [[Init]] [[Surname]]
+1,[[MaleFirst]] [[Surname]] [[Surname]]
 
 ;Female
-1,[FemaleFirst] [Surname]
-1,[FemaleTitle] [FemaleFirst] [Surname]
-1,[FemaleFirst] [FemaleFirst] [Surname]
-1,[Init] [FemaleFirst] [Surname]
-1,[FemaleFirst] [Init] [Surname]
-1,[FemaleTitle] [FemaleFirst] [FemaleFirst] [Surname]
-1,[FemaleTitle] [FemaleFirst] [Init] [Surname]
+1,[[FemaleFirst]] [[Surname]]
+1,[[FemaleTitle]] [[FemaleFirst]] [[Surname]]
+1,[[FemaleFirst]] [[FemaleFirst]] [[Surname]]
+1,[[Init]] [[FemaleFirst]] [[Surname]]
+1,[[FemaleFirst]] [[Init]] [[Surname]]
+1,[[FemaleTitle]] [[FemaleFirst]] [[FemaleFirst]] [[Surname]]
+1,[[FemaleTitle]] [[FemaleFirst]] [[Init]] [[Surname]]
 
 ;Surname
 1,Wrightly

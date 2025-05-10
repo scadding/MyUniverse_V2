@@ -1,71 +1,71 @@
 
 ;Start
-1,[Faerun]
+1,[[Faerun]]
 
 ;Faerun
-10,[Aglarond]
-10,[Akanul]
-10,[Amn]
-1,[Baldurs Gate]
-1,[Beastlands]
-1,[Calimshan]
-1,[Chessenta]
-1,[Chult]
-1,[Cormyr]
-1,[Dalelands]
-1,[Damara]
-1,[Dambrath]
-1,[Dragon Coast]
-1,[Durpar]
-1,[East Rift]
-1,[Elfharrow]
-1,[Elturgard]
-1,[Erlkazar]
-1,[Estagund]
-1,[Evereska]
-1,[Evermeet]
-1,[Great Dale]
-1,[Halruaa]
-1,[High Imaskar]
-1,[Hordelands]
-1,[Impiltur]
-1,[Lake of Steam]
-1,[Luruar]
-1,[Luskan]
-1,[Many-Arrows]
-1,[Moonsea]
-1,[Moonshae Isles]
-1,[Murghom]
-1,[Myth Drannor]
-1,[Najara]
-1,[Narfell]
-1,[Nelanther Isles]
-1,[Netheril]
-1,[Okoth]
-1,[Rashemen]
-1,[Raurin]
-1,[Sea of Fallen Stars]
-1,[Sembia]
-1,[Tethyr]
-1,[Thay]
-1,[Thesk]
-1,[Turmish]
-1,[Tymanther]
-1,[Vaasa]
-1,[Var the Drowned]
-1,[Velen]
-1,[Vesperin]
-1,[Vilhon Wilds]
-1,[Waterdeep]
+10,[[Aglarond]]
+10,[[Akanul]]
+10,[[Amn]]
+1,[[Baldurs Gate]]
+1,[[Beastlands]]
+1,[[Calimshan]]
+1,[[Chessenta]]
+1,[[Chult]]
+1,[[Cormyr]]
+1,[[Dalelands]]
+1,[[Damara]]
+1,[[Dambrath]]
+1,[[Dragon Coast]]
+1,[[Durpar]]
+1,[[East Rift]]
+1,[[Elfharrow]]
+1,[[Elturgard]]
+1,[[Erlkazar]]
+1,[[Estagund]]
+1,[[Evereska]]
+1,[[Evermeet]]
+1,[[Great Dale]]
+1,[[Halruaa]]
+1,[[High Imaskar]]
+1,[[Hordelands]]
+1,[[Impiltur]]
+1,[[Lake of Steam]]
+1,[[Luruar]]
+1,[[Luskan]]
+1,[[Many-Arrows]]
+1,[[Moonsea]]
+1,[[Moonshae Isles]]
+1,[[Murghom]]
+1,[[Myth Drannor]]
+1,[[Najara]]
+1,[[Narfell]]
+1,[[Nelanther Isles]]
+1,[[Netheril]]
+1,[[Okoth]]
+1,[[Rashemen]]
+1,[[Raurin]]
+1,[[Sea of Fallen Stars]]
+1,[[Sembia]]
+1,[[Tethyr]]
+1,[[Thay]]
+1,[[Thesk]]
+1,[[Turmish]]
+1,[[Tymanther]]
+1,[[Vaasa]]
+1,[[Var the Drowned]]
+1,[[Velen]]
+1,[[Vesperin]]
+1,[[Vilhon Wilds]]
+1,[[Waterdeep]]
 
 
 ;Aglarond
-2,[Aglarond Individuals]
-1,[Aglarond Relationships]
-1,[Aglarond Places]
-1,[Aglarond Events]
-1,[Aglarond Objects]
-1,[Aglarond Monsters]
+2,[[Aglarond Individuals]]
+1,[[Aglarond Relationships]]
+1,[[Aglarond Places]]
+1,[[Aglarond Events]]
+1,[[Aglarond Objects]]
+1,[[Aglarond Monsters]]
 
 ;Aglarond Individuals
 1,Seriadne, a malaugrym disguised as an elf Simbarch of Aglarond, seeking to advance her own sinister agenda.
@@ -99,12 +99,12 @@
 
 
 ;Akanul
-2,[Akanul Individuals]
-1,[Akanul Relationships]
-1,[Akanul Places]
-1,[Akanul Events]
-1,[Akanul Objects]
-1,[Akanul Monsters]
+2,[[Akanul Individuals]]
+1,[[Akanul Relationships]]
+1,[[Akanul Places]]
+1,[[Akanul Events]]
+1,[[Akanul Objects]]
+1,[[Akanul Monsters]]
 
 ;Akanul Individuals
 1,An air genasi patrolman in Airspur, Akunul, and his war-drake mount.
@@ -135,12 +135,12 @@
 1,The elves of Wildhome in the Chondalwood near Akanul, fierce defenders against human influence.
 
 ;Amn
-2,[Amn Individuals]
-1,[Amn Relationships]
-1,[Amn Places]
-1,[Amn Events]
-1,[Amn Objects]
-1,[Amn Monsters]
+2,[[Amn Individuals]]
+1,[[Amn Relationships]]
+1,[[Amn Places]]
+1,[[Amn Events]]
+1,[[Amn Objects]]
+1,[[Amn Monsters]]
 
 ;Amn Individuals
 1,The Tessarch of Amn, secret master over the notorious Shadow Theives.
@@ -172,12 +172,12 @@
 
 
 ;Baldurs Gate
-1,[Baldurs Gate Individuals]
-1,[Baldurs Gate Relationships]
-1,[Baldurs Gate Places]
-1,[Baldurs Gate Events]
-1,[Baldurs Gate Objects]
-1,[Baldurs Gate Monsters]
+1,[[Baldurs Gate Individuals]]
+1,[[Baldurs Gate Relationships]]
+1,[[Baldurs Gate Places]]
+1,[[Baldurs Gate Events]]
+1,[[Baldurs Gate Objects]]
+1,[[Baldurs Gate Monsters]]
 
 ;Baldurs Gate Individuals
 
@@ -192,12 +192,12 @@
 ;Baldurs Gate Monsters
 
 ;Beastlands
-1,[Beastlands Individuals]
-1,[Beastlands Relationships]
-1,[Beastlands Places]
-1,[Beastlands Events]
-1,[Beastlands Objects]
-1,[Beastlands Monsters]
+1,[[Beastlands Individuals]]
+1,[[Beastlands Relationships]]
+1,[[Beastlands Places]]
+1,[[Beastlands Events]]
+1,[[Beastlands Objects]]
+1,[[Beastlands Monsters]]
 
 ;Beastlands Individuals
 
@@ -212,12 +212,12 @@
 ;Beastlands Monsters
 
 ;Calimshan
-1,[Calimshan Individuals]
-1,[Calimshan Relationships]
-1,[Calimshan Places]
-1,[Calimshan Events]
-1,[Calimshan Objects]
-1,[Calimshan Monsters]
+1,[[Calimshan Individuals]]
+1,[[Calimshan Relationships]]
+1,[[Calimshan Places]]
+1,[[Calimshan Events]]
+1,[[Calimshan Objects]]
+1,[[Calimshan Monsters]]
 
 ;Calimshan Individuals
 
@@ -232,12 +232,12 @@
 ;Calimshan Monsters
 
 ;Chessenta
-1,[Chessenta Individuals]
-1,[Chessenta Relationships]
-1,[Chessenta Places]
-1,[Chessenta Events]
-1,[Chessenta Objects]
-1,[Chessenta Monsters]
+1,[[Chessenta Individuals]]
+1,[[Chessenta Relationships]]
+1,[[Chessenta Places]]
+1,[[Chessenta Events]]
+1,[[Chessenta Objects]]
+1,[[Chessenta Monsters]]
 
 ;Chessenta Individuals
 
@@ -252,12 +252,12 @@
 ;Chessenta Monsters
 
 ;Chult
-1,[Chult Individuals]
-1,[Chult Relationships]
-1,[Chult Places]
-1,[Chult Events]
-1,[Chult Objects]
-1,[Chult Monsters]
+1,[[Chult Individuals]]
+1,[[Chult Relationships]]
+1,[[Chult Places]]
+1,[[Chult Events]]
+1,[[Chult Objects]]
+1,[[Chult Monsters]]
 
 ;Chult Individuals
 
@@ -272,12 +272,12 @@
 ;Chult Monsters
 
 ;Cormyr
-1,[Cormyr Individuals]
-1,[Cormyr Relationships]
-1,[Cormyr Places]
-1,[Cormyr Events]
-1,[Cormyr Objects]
-1,[Cormyr Monsters]
+1,[[Cormyr Individuals]]
+1,[[Cormyr Relationships]]
+1,[[Cormyr Places]]
+1,[[Cormyr Events]]
+1,[[Cormyr Objects]]
+1,[[Cormyr Monsters]]
 
 ;Cormyr Individuals
 
@@ -292,12 +292,12 @@
 ;Cormyr Monsters
 
 ;Dalelands
-1,[Dalelands Individuals]
-1,[Dalelands Relationships]
-1,[Dalelands Places]
-1,[Dalelands Events]
-1,[Dalelands Objects]
-1,[Dalelands Monsters]
+1,[[Dalelands Individuals]]
+1,[[Dalelands Relationships]]
+1,[[Dalelands Places]]
+1,[[Dalelands Events]]
+1,[[Dalelands Objects]]
+1,[[Dalelands Monsters]]
 
 ;Dalelands Individuals
 
@@ -312,12 +312,12 @@
 ;Dalelands Monsters
 
 ;Damara
-1,[Damara Individuals]
-1,[Damara Relationships]
-1,[Damara Places]
-1,[Damara Events]
-1,[Damara Objects]
-1,[Damara Monsters]
+1,[[Damara Individuals]]
+1,[[Damara Relationships]]
+1,[[Damara Places]]
+1,[[Damara Events]]
+1,[[Damara Objects]]
+1,[[Damara Monsters]]
 
 ;Damara Individuals
 
@@ -332,12 +332,12 @@
 ;Damara Monsters
 
 ;Dambrath
-1,[Dambrath Individuals]
-1,[Dambrath Relationships]
-1,[Dambrath Places]
-1,[Dambrath Events]
-1,[Dambrath Objects]
-1,[Dambrath Monsters]
+1,[[Dambrath Individuals]]
+1,[[Dambrath Relationships]]
+1,[[Dambrath Places]]
+1,[[Dambrath Events]]
+1,[[Dambrath Objects]]
+1,[[Dambrath Monsters]]
 
 ;Dambrath Individuals
 
@@ -352,12 +352,12 @@
 ;Dambrath Monsters
 
 ;Dragon Coast
-1,[Dragon Coast Individuals]
-1,[Dragon Coast Relationships]
-1,[Dragon Coast Places]
-1,[Dragon Coast Events]
-1,[Dragon Coast Objects]
-1,[Dragon Coast Monsters]
+1,[[Dragon Coast Individuals]]
+1,[[Dragon Coast Relationships]]
+1,[[Dragon Coast Places]]
+1,[[Dragon Coast Events]]
+1,[[Dragon Coast Objects]]
+1,[[Dragon Coast Monsters]]
 
 ;Dragon Coast Individuals
 
@@ -372,12 +372,12 @@
 ;Dragon Coast Monsters
 
 ;Durpar
-1,[Durpar Individuals]
-1,[Durpar Relationships]
-1,[Durpar Places]
-1,[Durpar Events]
-1,[Durpar Objects]
-1,[Durpar Monsters]
+1,[[Durpar Individuals]]
+1,[[Durpar Relationships]]
+1,[[Durpar Places]]
+1,[[Durpar Events]]
+1,[[Durpar Objects]]
+1,[[Durpar Monsters]]
 
 ;Durpar Individuals
 
@@ -392,12 +392,12 @@
 ;Durpar Monsters
 
 ;East Rift
-1,[East Rift Individuals]
-1,[East Rift Relationships]
-1,[East Rift Places]
-1,[East Rift Events]
-1,[East Rift Objects]
-1,[East Rift Monsters]
+1,[[East Rift Individuals]]
+1,[[East Rift Relationships]]
+1,[[East Rift Places]]
+1,[[East Rift Events]]
+1,[[East Rift Objects]]
+1,[[East Rift Monsters]]
 
 ;East Rift Individuals
 
@@ -412,12 +412,12 @@
 ;East Rift Monsters
 
 ;Elfharrow
-1,[Elfharrow Individuals]
-1,[Elfharrow Relationships]
-1,[Elfharrow Places]
-1,[Elfharrow Events]
-1,[Elfharrow Objects]
-1,[Elfharrow Monsters]
+1,[[Elfharrow Individuals]]
+1,[[Elfharrow Relationships]]
+1,[[Elfharrow Places]]
+1,[[Elfharrow Events]]
+1,[[Elfharrow Objects]]
+1,[[Elfharrow Monsters]]
 
 ;Elfharrow Individuals
 
@@ -432,12 +432,12 @@
 ;Elfharrow Monsters
 
 ;Elturgard
-1,[Elturgard Individuals]
-1,[Elturgard Relationships]
-1,[Elturgard Places]
-1,[Elturgard Events]
-1,[Elturgard Objects]
-1,[Elturgard Monsters]
+1,[[Elturgard Individuals]]
+1,[[Elturgard Relationships]]
+1,[[Elturgard Places]]
+1,[[Elturgard Events]]
+1,[[Elturgard Objects]]
+1,[[Elturgard Monsters]]
 
 ;Elturgard Individuals
 
@@ -452,12 +452,12 @@
 ;Elturgard Monsters
 
 ;Erlkazar
-1,[Erlkazar Individuals]
-1,[Erlkazar Relationships]
-1,[Erlkazar Places]
-1,[Erlkazar Events]
-1,[Erlkazar Objects]
-1,[Erlkazar Monsters]
+1,[[Erlkazar Individuals]]
+1,[[Erlkazar Relationships]]
+1,[[Erlkazar Places]]
+1,[[Erlkazar Events]]
+1,[[Erlkazar Objects]]
+1,[[Erlkazar Monsters]]
 
 ;Erlkazar Individuals
 
@@ -472,12 +472,12 @@
 ;Erlkazar Monsters
 
 ;Estagund
-1,[Estagund Individuals]
-1,[Estagund Relationships]
-1,[Estagund Places]
-1,[Estagund Events]
-1,[Estagund Objects]
-1,[Estagund Monsters]
+1,[[Estagund Individuals]]
+1,[[Estagund Relationships]]
+1,[[Estagund Places]]
+1,[[Estagund Events]]
+1,[[Estagund Objects]]
+1,[[Estagund Monsters]]
 
 ;Estagund Individuals
 
@@ -492,12 +492,12 @@
 ;Estagund Monsters
 
 ;Evereska
-1,[Evereska Individuals]
-1,[Evereska Relationships]
-1,[Evereska Places]
-1,[Evereska Events]
-1,[Evereska Objects]
-1,[Evereska Monsters]
+1,[[Evereska Individuals]]
+1,[[Evereska Relationships]]
+1,[[Evereska Places]]
+1,[[Evereska Events]]
+1,[[Evereska Objects]]
+1,[[Evereska Monsters]]
 
 ;Evereska Individuals
 
@@ -512,12 +512,12 @@
 ;Evereska Monsters
 
 ;Evermeet
-1,[Evermeet Individuals]
-1,[Evermeet Relationships]
-1,[Evermeet Places]
-1,[Evermeet Events]
-1,[Evermeet Objects]
-1,[Evermeet Monsters]
+1,[[Evermeet Individuals]]
+1,[[Evermeet Relationships]]
+1,[[Evermeet Places]]
+1,[[Evermeet Events]]
+1,[[Evermeet Objects]]
+1,[[Evermeet Monsters]]
 
 ;Evermeet Individuals
 
@@ -532,12 +532,12 @@
 ;Evermeet Monsters
 
 ;Great Dale
-1,[Great Dale Individuals]
-1,[Great Dale Relationships]
-1,[Great Dale Places]
-1,[Great Dale Events]
-1,[Great Dale Objects]
-1,[Great Dale Monsters]
+1,[[Great Dale Individuals]]
+1,[[Great Dale Relationships]]
+1,[[Great Dale Places]]
+1,[[Great Dale Events]]
+1,[[Great Dale Objects]]
+1,[[Great Dale Monsters]]
 
 ;Great Dale Individuals
 
@@ -552,12 +552,12 @@
 ;Great Dale Monsters
 
 ;Halruaa
-1,[Halruaa Individuals]
-1,[Halruaa Relationships]
-1,[Halruaa Places]
-1,[Halruaa Events]
-1,[Halruaa Objects]
-1,[Halruaa Monsters]
+1,[[Halruaa Individuals]]
+1,[[Halruaa Relationships]]
+1,[[Halruaa Places]]
+1,[[Halruaa Events]]
+1,[[Halruaa Objects]]
+1,[[Halruaa Monsters]]
 
 ;Halruaa Individuals
 
@@ -572,12 +572,12 @@
 ;Halruaa Monsters
 
 ;High Imaskar
-1,[High Imaskar Individuals]
-1,[High Imaskar Relationships]
-1,[High Imaskar Places]
-1,[High Imaskar Events]
-1,[High Imaskar Objects]
-1,[High Imaskar Monsters]
+1,[[High Imaskar Individuals]]
+1,[[High Imaskar Relationships]]
+1,[[High Imaskar Places]]
+1,[[High Imaskar Events]]
+1,[[High Imaskar Objects]]
+1,[[High Imaskar Monsters]]
 
 ;High Imaskar Individuals
 
@@ -592,12 +592,12 @@
 ;High Imaskar Monsters
 
 ;Hordelands
-1,[Hordelands Individuals]
-1,[Hordelands Relationships]
-1,[Hordelands Places]
-1,[Hordelands Events]
-1,[Hordelands Objects]
-1,[Hordelands Monsters]
+1,[[Hordelands Individuals]]
+1,[[Hordelands Relationships]]
+1,[[Hordelands Places]]
+1,[[Hordelands Events]]
+1,[[Hordelands Objects]]
+1,[[Hordelands Monsters]]
 
 ;Hordelands Individuals
 
@@ -612,12 +612,12 @@
 ;Hordelands Monsters
 
 ;Impiltur
-1,[Impiltur Individuals]
-1,[Impiltur Relationships]
-1,[Impiltur Places]
-1,[Impiltur Events]
-1,[Impiltur Objects]
-1,[Impiltur Monsters]
+1,[[Impiltur Individuals]]
+1,[[Impiltur Relationships]]
+1,[[Impiltur Places]]
+1,[[Impiltur Events]]
+1,[[Impiltur Objects]]
+1,[[Impiltur Monsters]]
 
 ;Impiltur Individuals
 
@@ -632,12 +632,12 @@
 ;Impiltur Monsters
 
 ;Lake of Steam
-1,[Lake of Steam Individuals]
-1,[Lake of Steam Relationships]
-1,[Lake of Steam Places]
-1,[Lake of Steam Events]
-1,[Lake of Steam Objects]
-1,[Lake of Steam Monsters]
+1,[[Lake of Steam Individuals]]
+1,[[Lake of Steam Relationships]]
+1,[[Lake of Steam Places]]
+1,[[Lake of Steam Events]]
+1,[[Lake of Steam Objects]]
+1,[[Lake of Steam Monsters]]
 
 ;Lake of Steam Individuals
 
@@ -652,12 +652,12 @@
 ;Lake of Steam Monsters
 
 ;Luruar
-1,[Luruar Individuals]
-1,[Luruar Relationships]
-1,[Luruar Places]
-1,[Luruar Events]
-1,[Luruar Objects]
-1,[Luruar Monsters]
+1,[[Luruar Individuals]]
+1,[[Luruar Relationships]]
+1,[[Luruar Places]]
+1,[[Luruar Events]]
+1,[[Luruar Objects]]
+1,[[Luruar Monsters]]
 
 ;Luruar Individuals
 
@@ -672,12 +672,12 @@
 ;Luruar Monsters
 
 ;Luskan
-1,[Luskan Individuals]
-1,[Luskan Relationships]
-1,[Luskan Places]
-1,[Luskan Events]
-1,[Luskan Objects]
-1,[Luskan Monsters]
+1,[[Luskan Individuals]]
+1,[[Luskan Relationships]]
+1,[[Luskan Places]]
+1,[[Luskan Events]]
+1,[[Luskan Objects]]
+1,[[Luskan Monsters]]
 
 ;Luskan Individuals
 
@@ -692,12 +692,12 @@
 ;Luskan Monsters
 
 ;Many-Arrows
-1,[Many-Arrows Individuals]
-1,[Many-Arrows Relationships]
-1,[Many-Arrows Places]
-1,[Many-Arrows Events]
-1,[Many-Arrows Objects]
-1,[Many-Arrows Monsters]
+1,[[Many-Arrows Individuals]]
+1,[[Many-Arrows Relationships]]
+1,[[Many-Arrows Places]]
+1,[[Many-Arrows Events]]
+1,[[Many-Arrows Objects]]
+1,[[Many-Arrows Monsters]]
 
 ;Many-Arrows Individuals
 
@@ -712,12 +712,12 @@
 ;Many-Arrows Monsters
 
 ;Moonsea
-1,[Moonsea Individuals]
-1,[Moonsea Relationships]
-1,[Moonsea Places]
-1,[Moonsea Events]
-1,[Moonsea Objects]
-1,[Moonsea Monsters]
+1,[[Moonsea Individuals]]
+1,[[Moonsea Relationships]]
+1,[[Moonsea Places]]
+1,[[Moonsea Events]]
+1,[[Moonsea Objects]]
+1,[[Moonsea Monsters]]
 
 ;Moonsea Individuals
 
@@ -732,12 +732,12 @@
 ;Moonsea Monsters
 
 ;Moonshae Isles
-1,[Moonshae Isles Individuals]
-1,[Moonshae Isles Relationships]
-1,[Moonshae Isles Places]
-1,[Moonshae Isles Events]
-1,[Moonshae Isles Objects]
-1,[Moonshae Isles Monsters]
+1,[[Moonshae Isles Individuals]]
+1,[[Moonshae Isles Relationships]]
+1,[[Moonshae Isles Places]]
+1,[[Moonshae Isles Events]]
+1,[[Moonshae Isles Objects]]
+1,[[Moonshae Isles Monsters]]
 
 ;Moonshae Isles Individuals
 
@@ -752,12 +752,12 @@
 ;Moonshae Isles Monsters
 
 ;Murghom
-1,[Murghom Individuals]
-1,[Murghom Relationships]
-1,[Murghom Places]
-1,[Murghom Events]
-1,[Murghom Objects]
-1,[Murghom Monsters]
+1,[[Murghom Individuals]]
+1,[[Murghom Relationships]]
+1,[[Murghom Places]]
+1,[[Murghom Events]]
+1,[[Murghom Objects]]
+1,[[Murghom Monsters]]
 
 ;Murghom Individuals
 
@@ -772,12 +772,12 @@
 ;Murghom Monsters
 
 ;Myth Drannor
-1,[Myth Drannor Individuals]
-1,[Myth Drannor Relationships]
-1,[Myth Drannor Places]
-1,[Myth Drannor Events]
-1,[Myth Drannor Objects]
-1,[Myth Drannor Monsters]
+1,[[Myth Drannor Individuals]]
+1,[[Myth Drannor Relationships]]
+1,[[Myth Drannor Places]]
+1,[[Myth Drannor Events]]
+1,[[Myth Drannor Objects]]
+1,[[Myth Drannor Monsters]]
 
 ;Myth Drannor Individuals
 
@@ -792,12 +792,12 @@
 ;Myth Drannor Monsters
 
 ;Najara
-1,[Najara Individuals]
-1,[Najara Relationships]
-1,[Najara Places]
-1,[Najara Events]
-1,[Najara Objects]
-1,[Najara Monsters]
+1,[[Najara Individuals]]
+1,[[Najara Relationships]]
+1,[[Najara Places]]
+1,[[Najara Events]]
+1,[[Najara Objects]]
+1,[[Najara Monsters]]
 
 ;Najara Individuals
 
@@ -812,12 +812,12 @@
 ;Najara Monsters
 
 ;Narfell
-1,[Narfell Individuals]
-1,[Narfell Relationships]
-1,[Narfell Places]
-1,[Narfell Events]
-1,[Narfell Objects]
-1,[Narfell Monsters]
+1,[[Narfell Individuals]]
+1,[[Narfell Relationships]]
+1,[[Narfell Places]]
+1,[[Narfell Events]]
+1,[[Narfell Objects]]
+1,[[Narfell Monsters]]
 
 ;Narfell Individuals
 
@@ -832,12 +832,12 @@
 ;Narfell Monsters
 
 ;Nelanther Isles
-1,[Nelanther Isles Individuals]
-1,[Nelanther Isles Relationships]
-1,[Nelanther Isles Places]
-1,[Nelanther Isles Events]
-1,[Nelanther Isles Objects]
-1,[Nelanther Isles Monsters]
+1,[[Nelanther Isles Individuals]]
+1,[[Nelanther Isles Relationships]]
+1,[[Nelanther Isles Places]]
+1,[[Nelanther Isles Events]]
+1,[[Nelanther Isles Objects]]
+1,[[Nelanther Isles Monsters]]
 
 ;Nelanther Isles Individuals
 
@@ -852,12 +852,12 @@
 ;Nelanther Isles Monsters
 
 ;Netheril
-1,[Netheril Individuals]
-1,[Netheril Relationships]
-1,[Netheril Places]
-1,[Netheril Events]
-1,[Netheril Objects]
-1,[Netheril Monsters]
+1,[[Netheril Individuals]]
+1,[[Netheril Relationships]]
+1,[[Netheril Places]]
+1,[[Netheril Events]]
+1,[[Netheril Objects]]
+1,[[Netheril Monsters]]
 
 ;Netheril Individuals
 
@@ -872,12 +872,12 @@
 ;Netheril Monsters
 
 ;Okoth
-1,[Okoth Individuals]
-1,[Okoth Relationships]
-1,[Okoth Places]
-1,[Okoth Events]
-1,[Okoth Objects]
-1,[Okoth Monsters]
+1,[[Okoth Individuals]]
+1,[[Okoth Relationships]]
+1,[[Okoth Places]]
+1,[[Okoth Events]]
+1,[[Okoth Objects]]
+1,[[Okoth Monsters]]
 
 ;Okoth Individuals
 
@@ -892,12 +892,12 @@
 ;Okoth Monsters
 
 ;Rashemen
-1,[Rashemen Individuals]
-1,[Rashemen Relationships]
-1,[Rashemen Places]
-1,[Rashemen Events]
-1,[Rashemen Objects]
-1,[Rashemen Monsters]
+1,[[Rashemen Individuals]]
+1,[[Rashemen Relationships]]
+1,[[Rashemen Places]]
+1,[[Rashemen Events]]
+1,[[Rashemen Objects]]
+1,[[Rashemen Monsters]]
 
 ;Rashemen Individuals
 
@@ -912,12 +912,12 @@
 ;Rashemen Monsters
 
 ;Raurin
-1,[Raurin Individuals]
-1,[Raurin Relationships]
-1,[Raurin Places]
-1,[Raurin Events]
-1,[Raurin Objects]
-1,[Raurin Monsters]
+1,[[Raurin Individuals]]
+1,[[Raurin Relationships]]
+1,[[Raurin Places]]
+1,[[Raurin Events]]
+1,[[Raurin Objects]]
+1,[[Raurin Monsters]]
 
 ;Raurin Individuals
 
@@ -932,12 +932,12 @@
 ;Raurin Monsters
 
 ;Sea of Fallen Stars
-1,[Sea of Fallen Stars Individuals]
-1,[Sea of Fallen Stars Relationships]
-1,[Sea of Fallen Stars Places]
-1,[Sea of Fallen Stars Events]
-1,[Sea of Fallen Stars Objects]
-1,[Sea of Fallen Stars Monsters]
+1,[[Sea of Fallen Stars Individuals]]
+1,[[Sea of Fallen Stars Relationships]]
+1,[[Sea of Fallen Stars Places]]
+1,[[Sea of Fallen Stars Events]]
+1,[[Sea of Fallen Stars Objects]]
+1,[[Sea of Fallen Stars Monsters]]
 
 ;Sea of Fallen Stars Individuals
 
@@ -952,12 +952,12 @@
 ;Sea of Fallen Stars Monsters
 
 ;Sembia
-1,[Sembia Individuals]
-1,[Sembia Relationships]
-1,[Sembia Places]
-1,[Sembia Events]
-1,[Sembia Objects]
-1,[Sembia Monsters]
+1,[[Sembia Individuals]]
+1,[[Sembia Relationships]]
+1,[[Sembia Places]]
+1,[[Sembia Events]]
+1,[[Sembia Objects]]
+1,[[Sembia Monsters]]
 
 ;Sembia Individuals
 
@@ -972,12 +972,12 @@
 ;Sembia Monsters
 
 ;Tethyr
-1,[Tethyr Individuals]
-1,[Tethyr Relationships]
-1,[Tethyr Places]
-1,[Tethyr Events]
-1,[Tethyr Objects]
-1,[Tethyr Monsters]
+1,[[Tethyr Individuals]]
+1,[[Tethyr Relationships]]
+1,[[Tethyr Places]]
+1,[[Tethyr Events]]
+1,[[Tethyr Objects]]
+1,[[Tethyr Monsters]]
 
 ;Tethyr Individuals
 
@@ -992,12 +992,12 @@
 ;Tethyr Monsters
 
 ;Thay
-1,[Thay Individuals]
-1,[Thay Relationships]
-1,[Thay Places]
-1,[Thay Events]
-1,[Thay Objects]
-1,[Thay Monsters]
+1,[[Thay Individuals]]
+1,[[Thay Relationships]]
+1,[[Thay Places]]
+1,[[Thay Events]]
+1,[[Thay Objects]]
+1,[[Thay Monsters]]
 
 ;Thay Individuals
 
@@ -1012,12 +1012,12 @@
 ;Thay Monsters
 
 ;Thesk
-1,[Thesk Individuals]
-1,[Thesk Relationships]
-1,[Thesk Places]
-1,[Thesk Events]
-1,[Thesk Objects]
-1,[Thesk Monsters]
+1,[[Thesk Individuals]]
+1,[[Thesk Relationships]]
+1,[[Thesk Places]]
+1,[[Thesk Events]]
+1,[[Thesk Objects]]
+1,[[Thesk Monsters]]
 
 ;Thesk Individuals
 
@@ -1032,12 +1032,12 @@
 ;Thesk Monsters
 
 ;Turmish
-1,[Turmish Individuals]
-1,[Turmish Relationships]
-1,[Turmish Places]
-1,[Turmish Events]
-1,[Turmish Objects]
-1,[Turmish Monsters]
+1,[[Turmish Individuals]]
+1,[[Turmish Relationships]]
+1,[[Turmish Places]]
+1,[[Turmish Events]]
+1,[[Turmish Objects]]
+1,[[Turmish Monsters]]
 
 ;Turmish Individuals
 
@@ -1052,12 +1052,12 @@
 ;Turmish Monsters
 
 ;Tymanther
-1,[Tymanther Individuals]
-1,[Tymanther Relationships]
-1,[Tymanther Places]
-1,[Tymanther Events]
-1,[Tymanther Objects]
-1,[Tymanther Monsters]
+1,[[Tymanther Individuals]]
+1,[[Tymanther Relationships]]
+1,[[Tymanther Places]]
+1,[[Tymanther Events]]
+1,[[Tymanther Objects]]
+1,[[Tymanther Monsters]]
 
 ;Tymanther Individuals
 
@@ -1072,12 +1072,12 @@
 ;Tymanther Monsters
 
 ;Vaasa
-1,[Vaasa Individuals]
-1,[Vaasa Relationships]
-1,[Vaasa Places]
-1,[Vaasa Events]
-1,[Vaasa Objects]
-1,[Vaasa Monsters]
+1,[[Vaasa Individuals]]
+1,[[Vaasa Relationships]]
+1,[[Vaasa Places]]
+1,[[Vaasa Events]]
+1,[[Vaasa Objects]]
+1,[[Vaasa Monsters]]
 
 ;Vaasa Individuals
 
@@ -1092,12 +1092,12 @@
 ;Vaasa Monsters
 
 ;Var the Drowned
-1,[Var the Drowned Individuals]
-1,[Var the Drowned Relationships]
-1,[Var the Drowned Places]
-1,[Var the Drowned Events]
-1,[Var the Drowned Objects]
-1,[Var the Drowned Monsters]
+1,[[Var the Drowned Individuals]]
+1,[[Var the Drowned Relationships]]
+1,[[Var the Drowned Places]]
+1,[[Var the Drowned Events]]
+1,[[Var the Drowned Objects]]
+1,[[Var the Drowned Monsters]]
 
 ;Var the Drowned Individuals
 
@@ -1112,12 +1112,12 @@
 ;Var the Drowned Monsters
 
 ;Velen
-1,[Velen Individuals]
-1,[Velen Relationships]
-1,[Velen Places]
-1,[Velen Events]
-1,[Velen Objects]
-1,[Velen Monsters]
+1,[[Velen Individuals]]
+1,[[Velen Relationships]]
+1,[[Velen Places]]
+1,[[Velen Events]]
+1,[[Velen Objects]]
+1,[[Velen Monsters]]
 
 ;Velen Individuals
 
@@ -1132,12 +1132,12 @@
 ;Velen Monsters
 
 ;Vesperin
-1,[Vesperin Individuals]
-1,[Vesperin Relationships]
-1,[Vesperin Places]
-1,[Vesperin Events]
-1,[Vesperin Objects]
-1,[Vesperin Monsters]
+1,[[Vesperin Individuals]]
+1,[[Vesperin Relationships]]
+1,[[Vesperin Places]]
+1,[[Vesperin Events]]
+1,[[Vesperin Objects]]
+1,[[Vesperin Monsters]]
 
 ;Vesperin Individuals
 
@@ -1152,12 +1152,12 @@
 ;Vesperin Monsters
 
 ;Vilhon Wilds
-1,[Vilhon Wilds Individuals]
-1,[Vilhon Wilds Relationships]
-1,[Vilhon Wilds Places]
-1,[Vilhon Wilds Events]
-1,[Vilhon Wilds Objects]
-1,[Vilhon Wilds Monsters]
+1,[[Vilhon Wilds Individuals]]
+1,[[Vilhon Wilds Relationships]]
+1,[[Vilhon Wilds Places]]
+1,[[Vilhon Wilds Events]]
+1,[[Vilhon Wilds Objects]]
+1,[[Vilhon Wilds Monsters]]
 
 ;Vilhon Wilds Individuals
 
@@ -1172,12 +1172,12 @@
 ;Vilhon Wilds Monsters
 
 ;Waterdeep
-1,[Waterdeep Individuals]
-1,[Waterdeep Relationships]
-1,[Waterdeep Places]
-1,[Waterdeep Events]
-1,[Waterdeep Objects]
-1,[Waterdeep Monsters]
+1,[[Waterdeep Individuals]]
+1,[[Waterdeep Relationships]]
+1,[[Waterdeep Places]]
+1,[[Waterdeep Events]]
+1,[[Waterdeep Objects]]
+1,[[Waterdeep Monsters]]
 
 ;Waterdeep Individuals
 
@@ -1194,23 +1194,23 @@
 
 
 ;Returned Abeir
-1,[Dusk Ports]
-1,[Eskorn]
-1,[Fimbrul]
-1,[Melabrauth]
-1,[Relmaur]
-1,[Skelkor]
-1,[Sword Lands]
-1,[Tarmalune]
-1,[Windrise Ports]
+1,[[Dusk Ports]]
+1,[[Eskorn]]
+1,[[Fimbrul]]
+1,[[Melabrauth]]
+1,[[Relmaur]]
+1,[[Skelkor]]
+1,[[Sword Lands]]
+1,[[Tarmalune]]
+1,[[Windrise Ports]]
 
 ;Dusk Ports
-1,[Dusk Ports Individuals]
-1,[Dusk Ports Relationships]
-1,[Dusk Ports Places]
-1,[Dusk Ports Events]
-1,[Dusk Ports Objects]
-1,[Dusk Ports Monsters]
+1,[[Dusk Ports Individuals]]
+1,[[Dusk Ports Relationships]]
+1,[[Dusk Ports Places]]
+1,[[Dusk Ports Events]]
+1,[[Dusk Ports Objects]]
+1,[[Dusk Ports Monsters]]
 
 ;Dusk Ports Individuals
 
@@ -1225,12 +1225,12 @@
 ;Dusk Ports Monsters
 
 ;Eskorn
-1,[Eskorn Individuals]
-1,[Eskorn Relationships]
-1,[Eskorn Places]
-1,[Eskorn Events]
-1,[Eskorn Objects]
-1,[Eskorn Monsters]
+1,[[Eskorn Individuals]]
+1,[[Eskorn Relationships]]
+1,[[Eskorn Places]]
+1,[[Eskorn Events]]
+1,[[Eskorn Objects]]
+1,[[Eskorn Monsters]]
 
 ;Eskorn Individuals
 
@@ -1245,12 +1245,12 @@
 ;Eskorn Monsters
 
 ;Fimbrul
-1,[Fimbrul Individuals]
-1,[Fimbrul Relationships]
-1,[Fimbrul Places]
-1,[Fimbrul Events]
-1,[Fimbrul Objects]
-1,[Fimbrul Monsters]
+1,[[Fimbrul Individuals]]
+1,[[Fimbrul Relationships]]
+1,[[Fimbrul Places]]
+1,[[Fimbrul Events]]
+1,[[Fimbrul Objects]]
+1,[[Fimbrul Monsters]]
 
 ;Fimbrul Individuals
 
@@ -1265,12 +1265,12 @@
 ;Fimbrul Monsters
 
 ;Melabrauth
-1,[Melabrauth Individuals]
-1,[Melabrauth Relationships]
-1,[Melabrauth Places]
-1,[Melabrauth Events]
-1,[Melabrauth Objects]
-1,[Melabrauth Monsters]
+1,[[Melabrauth Individuals]]
+1,[[Melabrauth Relationships]]
+1,[[Melabrauth Places]]
+1,[[Melabrauth Events]]
+1,[[Melabrauth Objects]]
+1,[[Melabrauth Monsters]]
 
 ;Melabrauth Individuals
 
@@ -1285,12 +1285,12 @@
 ;Melabrauth Monsters
 
 ;Relmaur
-1,[Relmaur Individuals]
-1,[Relmaur Relationships]
-1,[Relmaur Places]
-1,[Relmaur Events]
-1,[Relmaur Objects]
-1,[Relmaur Monsters]
+1,[[Relmaur Individuals]]
+1,[[Relmaur Relationships]]
+1,[[Relmaur Places]]
+1,[[Relmaur Events]]
+1,[[Relmaur Objects]]
+1,[[Relmaur Monsters]]
 
 ;Relmaur Individuals
 
@@ -1305,12 +1305,12 @@
 ;Relmaur Monsters
 
 ;Skelkor
-1,[Skelkor Individuals]
-1,[Skelkor Relationships]
-1,[Skelkor Places]
-1,[Skelkor Events]
-1,[Skelkor Objects]
-1,[Skelkor Monsters]
+1,[[Skelkor Individuals]]
+1,[[Skelkor Relationships]]
+1,[[Skelkor Places]]
+1,[[Skelkor Events]]
+1,[[Skelkor Objects]]
+1,[[Skelkor Monsters]]
 
 ;Skelkor Individuals
 
@@ -1325,12 +1325,12 @@
 ;Skelkor Monsters
 
 ;Sword Lands
-1,[Sword Lands Individuals]
-1,[Sword Lands Relationships]
-1,[Sword Lands Places]
-1,[Sword Lands Events]
-1,[Sword Lands Objects]
-1,[Sword Lands Monsters]
+1,[[Sword Lands Individuals]]
+1,[[Sword Lands Relationships]]
+1,[[Sword Lands Places]]
+1,[[Sword Lands Events]]
+1,[[Sword Lands Objects]]
+1,[[Sword Lands Monsters]]
 
 ;Sword Lands Individuals
 
@@ -1345,12 +1345,12 @@
 ;Sword Lands Monsters
 
 ;Tarmalune
-1,[Tarmalune Individuals]
-1,[Tarmalune Relationships]
-1,[Tarmalune Places]
-1,[Tarmalune Events]
-1,[Tarmalune Objects]
-1,[Tarmalune Monsters]
+1,[[Tarmalune Individuals]]
+1,[[Tarmalune Relationships]]
+1,[[Tarmalune Places]]
+1,[[Tarmalune Events]]
+1,[[Tarmalune Objects]]
+1,[[Tarmalune Monsters]]
 
 ;Tarmalune Individuals
 
@@ -1365,12 +1365,12 @@
 ;Tarmalune Monsters
 
 ;Windrise Ports
-1,[Windrise Ports Individuals]
-1,[Windrise Ports Relationships]
-1,[Windrise Ports Places]
-1,[Windrise Ports Events]
-1,[Windrise Ports Objects]
-1,[Windrise Ports Monsters]
+1,[[Windrise Ports Individuals]]
+1,[[Windrise Ports Relationships]]
+1,[[Windrise Ports Places]]
+1,[[Windrise Ports Events]]
+1,[[Windrise Ports Objects]]
+1,[[Windrise Ports Monsters]]
 
 ;Windrise Ports Individuals
 
@@ -1387,20 +1387,20 @@
 
 
 ;Underdark
-1,[Deep Wastes]
-1,[Earthroot]
-1,[Great Bhaerynden]
-1,[Menzoberranzan]
-1,[Northdark]
-1,[Old Shanatar]
+1,[[Deep Wastes]]
+1,[[Earthroot]]
+1,[[Great Bhaerynden]]
+1,[[Menzoberranzan]]
+1,[[Northdark]]
+1,[[Old Shanatar]]
 
 ;Deep Wastes
-1,[Deep Wastes Individuals]
-1,[Deep Wastes Relationships]
-1,[Deep Wastes Places]
-1,[Deep Wastes Events]
-1,[Deep Wastes Objects]
-1,[Deep Wastes Monsters]
+1,[[Deep Wastes Individuals]]
+1,[[Deep Wastes Relationships]]
+1,[[Deep Wastes Places]]
+1,[[Deep Wastes Events]]
+1,[[Deep Wastes Objects]]
+1,[[Deep Wastes Monsters]]
 
 ;Deep Wastes Individuals
 
@@ -1415,12 +1415,12 @@
 ;Deep Wastes Monsters
 
 ;Earthroot
-1,[Earthroot Individuals]
-1,[Earthroot Relationships]
-1,[Earthroot Places]
-1,[Earthroot Events]
-1,[Earthroot Objects]
-1,[Earthroot Monsters]
+1,[[Earthroot Individuals]]
+1,[[Earthroot Relationships]]
+1,[[Earthroot Places]]
+1,[[Earthroot Events]]
+1,[[Earthroot Objects]]
+1,[[Earthroot Monsters]]
 
 ;Earthroot Individuals
 
@@ -1435,12 +1435,12 @@
 ;Earthroot Monsters
 
 ;Great Bhaerynden
-1,[Great Bhaerynden Individuals]
-1,[Great Bhaerynden Relationships]
-1,[Great Bhaerynden Places]
-1,[Great Bhaerynden Events]
-1,[Great Bhaerynden Objects]
-1,[Great Bhaerynden Monsters]
+1,[[Great Bhaerynden Individuals]]
+1,[[Great Bhaerynden Relationships]]
+1,[[Great Bhaerynden Places]]
+1,[[Great Bhaerynden Events]]
+1,[[Great Bhaerynden Objects]]
+1,[[Great Bhaerynden Monsters]]
 
 ;Great Bhaerynden Individuals
 
@@ -1455,12 +1455,12 @@
 ;Great Bhaerynden Monsters
 
 ;Menzoberranzan
-1,[Menzoberranzan Individuals]
-1,[Menzoberranzan Relationships]
-1,[Menzoberranzan Places]
-1,[Menzoberranzan Events]
-1,[Menzoberranzan Objects]
-1,[Menzoberranzan Monsters]
+1,[[Menzoberranzan Individuals]]
+1,[[Menzoberranzan Relationships]]
+1,[[Menzoberranzan Places]]
+1,[[Menzoberranzan Events]]
+1,[[Menzoberranzan Objects]]
+1,[[Menzoberranzan Monsters]]
 
 ;Menzoberranzan Individuals
 
@@ -1475,12 +1475,12 @@
 ;Menzoberranzan Monsters
 
 ;Northdark
-1,[Northdark Individuals]
-1,[Northdark Relationships]
-1,[Northdark Places]
-1,[Northdark Events]
-1,[Northdark Objects]
-1,[Northdark Monsters]
+1,[[Northdark Individuals]]
+1,[[Northdark Relationships]]
+1,[[Northdark Places]]
+1,[[Northdark Events]]
+1,[[Northdark Objects]]
+1,[[Northdark Monsters]]
 
 ;Northdark Individuals
 
@@ -1495,12 +1495,12 @@
 ;Northdark Monsters
 
 ;Old Shanatar
-1,[Old Shanatar Individuals]
-1,[Old Shanatar Relationships]
-1,[Old Shanatar Places]
-1,[Old Shanatar Events]
-1,[Old Shanatar Objects]
-1,[Old Shanatar Monsters]
+1,[[Old Shanatar Individuals]]
+1,[[Old Shanatar Relationships]]
+1,[[Old Shanatar Places]]
+1,[[Old Shanatar Events]]
+1,[[Old Shanatar Objects]]
+1,[[Old Shanatar Monsters]]
 
 ;Old Shanatar Individuals
 

@@ -1,10 +1,10 @@
 
 ;Start
-1,[A1][A2][A3][A4][A5]
-1,[B1][B2][B3][B4][B5]
-1,[C1][C2][C3][C4][C5]
-1,[D1][D2][D3][D4][D5]
-1,[E1][E2][E3][E4][E5]
+1,[[A1]][[A2]][[A3]][[A4]][[A5]]
+1,[[B1]][[B2]][[B3]][[B4]][[B5]]
+1,[[C1]][[C2]][[C3]][[C4]][[C5]]
+1,[[D1]][[D2]][[D3]][[D4]][[D5]]
+1,[[E1]][[E2]][[E3]][[E4]][[E5]]
 
 
 ;A1
@@ -18,7 +18,7 @@
 1,A Piotr Michalowski landscape painting in a gilt frame, stolen from a private collection.
 1,A valise containing German intelligence intercepts concerning the Russian army's plan to stop their offensive at the Vistula, letting the Home Army be slaughtered.
 1,SS-Hauptscharführer August Kretschmann, commandant of the Gesiówka concentration camp, in embarrassing distress.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;A2
 1,The sewers beneath Old Town.
 1,Franciszek and Maria, misguided parents.
@@ -30,7 +30,7 @@
 1,A home-made gun, greasy and covered with tiny metal lathe shavings.
 1,The cellar of the police command post in Mokotów.
 1,A beautiful midnight blue party dress with a note pinned to the hem.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;A3
 1,A serious talk about love, patriotism, and family.
 1,Maria Dunajewski, English teacher and dirty traitor.
@@ -42,7 +42,7 @@
 1,Obsession, maybe with someone else.
 1,Unterfeldwebel Walter Singer, aggressive non-commissioned officer with a battle-hardened squad.
 1,A gold wedding ring.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;A4
 1,We have a secret now and forever.
 1,Amalia Fissler, an ambitious physician's wife and ardent Nazi.
@@ -54,7 +54,7 @@
 1,The Warsaw Special Court has sentenced your cousin Antoni Pawlik to death as a collaborator and informer for the Gestapo.
 1,A thick and ancient family album, stuffed with photographs and birth certificates.
 1,A church on Karceli square, in Ochota.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;A5
 1,German police are abandoning Pawiak prison, releasing hundreds of convicts - both political prisoners and hardened criminals.
 1,Attack group Dirlewanger has fortified a building and is surrounded. Someone needs to enter and persuade the survivors to surrender.
@@ -66,7 +66,7 @@
 1,Stuka dive-bombers. Partisans are under strict orders not to waste precious ammunition shooting at them.
 1,A group of Home Army troops has been cut off and is trapped in the sewers.
 1,A badly injured German soldier, Gefreiter Horst Kuhn, is hiding in a ditch.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;B1
 1,Our families don't matter.
 1,Obergrenadier Karl Witt, drunken soldier with something to prove.
@@ -78,7 +78,7 @@
 1,Medical supplies stolen from Sr. Lazarus', the only Warsaw hospital that refuses to cooperate with the German military.
 1,A German garrison in the village of Sadyba, a Warsaw suburb.
 1,A brief and surreal moment of peace.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;B2
 1,Edmund Telakowski, dashing partisan and liar.
 1,Wlodzimierz, resourceful grandparent with a gift.
@@ -90,7 +90,7 @@
 1,The Grzybowski square checkpoint in Old Town.
 1,Rags, empty wine bottles, and ten liters of gasoline.
 1,Lacy undergarments.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;B3
 1,True friends - more than lovebirds.
 1,Our friends want us to be a couple
@@ -102,7 +102,7 @@
 1,Pranks and flirting.
 1,Some home-made vodka in shampoo bottles, terrible tasting but potent.
 1,A chaste kiss, but an important one.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;B4
 1,Karl-Heinz Lindenau, quiet sympathizer haunted by his past.
 1,Gdansk station, embarkation point for prisoners and untermensch.
@@ -114,7 +114,7 @@
 1,Wladyslaw Kostecki, wounded martyr with a tale to tell.
 1,Hearts unburdened, a passionate kiss - perhaps the last one ever.
 1,A solemn promise.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;B5
 1,Someone is lying, and she is believing.
 1,Hans-Georg Wohlgemuth, eager journalist who believes he can be apolitical.
@@ -126,7 +126,7 @@
 1,Goliath remote-controlled mine-tanks. Operated from a distance by cable, they contain 100 kilos of explosives and are driven over barricades and through doorways.
 1,An overturned tram in Mokotów's Pulawska neighborhood.
 1,The death of a hero.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;C1
 1,Jerzy Bialowiejski, irritating kid with important parents.
 1,A rail crossing outside the city.
@@ -138,7 +138,7 @@
 1,A nice private attic hideout.
 1,The park where you first met, now covered in rubble.
 1,A well-loved toy airplane.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;C2
 1,Everybody said we should get together.
 1,We can heal the rift between our families.
@@ -150,7 +150,7 @@
 1,A supervised visit.
 1,Fortune telling beneath warm August skies.
 1,A flower shop in the Dluga neighborhood in Old Town.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;C3
 1,Finishing each other's sentences.
 1,Old friends - now something more?
@@ -162,7 +162,7 @@
 1,A well-used concert bassoon in a padded case.
 1,Stolen beer, still cold.
 1,Mutual attraction can't be denied.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;C4
 1,Uncertainty and insecurity.
 1,Boating near the Palace on the Water in beautiful Lazienki park.
@@ -174,7 +174,7 @@
 1,A stack of carefully catalogued American records - Chick Webb and Count Basie at the Savoy, Artie Shaw's Moonglow, Glen Gray's Casa Loma Orchestra and others.
 1,A pilgrimage medal awarded by Pope Pius XII, tarnished by daily handling.
 1,Stacks of fake issues of supposedly German newspapers, as well as propaganda newspapers and leaflets.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;C5
 1,Hans Tollsdorff, optimistic businessman so fat he can barely stand.
 1,A brothel in the Stoleczna neighborhood of Zolibórz.
@@ -186,7 +186,7 @@
 1,Behind a barricade on Jerusalem Avenue.
 1,A torn up photograph.
 1,A Polish flag.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;D1
 1,Gustav Kleffel, stoic veteran biding his time.
 1,The Europejski hotel on Krakowskie Przedmiescie street in Old Town.
@@ -198,7 +198,7 @@
 1,A Panzerkampfwagen V "Panther" tank. The crew is forcing women to walk along side them as protection from partisan attack.
 1,The Adria hotel, German-only until this morning.
 1,Our fighting is breaking my heart.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;D2
 1,Anna Miesowicz, crippled beauty with a strange talent.
 1,Jerzy Nowicki, soft-spoken greengrocer who knows everyone.
@@ -210,7 +210,7 @@
 1,At the wall of the Powarkowska street ghetto, with a package.
 1,A tearful farewell.
 1,Jadwiga Ruffowa, patriotic slut.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;D3
 1,It's puppy love, nothing more.
 1,My parents disapprove.
@@ -222,7 +222,7 @@
 1,A drunken woman outside the Under the Palm cafe on Grus street, begging for a few zlotys "for bread for her children".
 1,An ill-considered comment and the harm it causes.
 1,A special pass to a German-only theater.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;D4
 1,Dr. Friedrich Uhlig, inquisitive police inspector with a list.
 1,Henryk Grzedzielski, reluctant hero and enthusiastic womanizer.
@@ -234,7 +234,7 @@
 1,A coward shows his true colors.
 1,We're from different worlds, you and I.
 1,The ruins of your living room.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;D5
 1,Anna Ostrowska, zealous communist and morphine addict.
 1,Powazki Cemetery in Wola, a mass execution site.
@@ -246,7 +246,7 @@
 1,A freight train carrying horses and other war materiel east.
 1,The John of God church in Old Town.
 1,A vicious rival gambles everything.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;E1
 1,The so-called Verbrennungskommando is comprised of selected Polish men, who stack and burn the victims of mass executions. These men are considered traitors, and an order has come down to deal with them before their next assignment.
 1,Tadeusz Stozek, rich coward with something to prove.
@@ -258,7 +258,7 @@
 1,A brand new carton of German cigarettes.
 1,A rucksack stuffed with post cards from Jewish "evacuees" to Auschwitz.
 1,Men, women, and children are being methodically rounded-up and executed by German police under orders from SS-Gruppenführer Heinz Reinefarth.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;E2
 1,Grenadier Gottfried Keussler, opera singer and guard.
 1,The fortified Powisle electrical plant in Sródmiescie, in Polish hands.
@@ -270,7 +270,7 @@
 1,The Panzerzug-75 armored train, on a rail siding in Gdansk station.
 1,A restaurant command post in the Polna neighborhood of Ochota.
 1,Betrayal.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;E3
 1,Aleksandr Kowalski, all-around suspicious character.
 1,A cigar box full of carefully-collected clippings and cast-offs from a Home Army forgery shop, the work of a traitor.
@@ -282,7 +282,7 @@
 1,A dog-eared pornographic magazine.
 1,A jeweled swastika brooch.
 1,A school in the Jerusalem Avenue neighborhood of Sródmiescie.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;E4
 1,Adam Lomnicki, religious bully with a secret.
 1,The 'Goose Farm' concentration camp, Gesiówka, on the site of the cleared ghetto.
@@ -294,7 +294,7 @@
 1,A box full of anti-venereal disease medical supplies.
 1,Inside newly-liberated Pawiak prison.
 1,A makeshift field hospital in the Appeals Court building on Leszno street.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;E5
 1,The Fourth Panzer Division, commanded by Generalleutnant Clemens Betzel, is rallying near Ochota for a concerted push into Old Town. Stopping them will take a miracle.
 1,SS-Gruppenführer Heinz Reinefarth, commander of the elite urban warfare unit Gruppe Reinefarth, hunting partisans like quail.
@@ -306,7 +306,7 @@
 1,A cheap ceramic sculpture stuffed with zlotys and jewelry.
 1,A matched pair of simple white gold rings, bound with a lock of hair.
 1,200 people are killed when an "abandoned" German tank, filled with thousands of pounds of explosives, detonates after German troops retreat.
-1,[LEFTOVERS]
+1,[[LEFTOVERS]]
 ;LEFTOVERS
 1,A sturdy pair of boots, spotted with blood.
 1,A uniform.

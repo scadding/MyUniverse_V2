@@ -1,6 +1,6 @@
 
 ;Start
-1,[dPulpHeroNovel]
+1,[[dPulpHeroNovel]]
 
 ;dPulpNoun
 1,Damage
@@ -162,12 +162,12 @@
 1,versus the
 
 ;pulpend
-1,[dPulpAdjNegative] [dPulpNoun]
+1,[[dPulpAdjNegative]] [[dPulpNoun]]
 
 ;dPulpHeroNovel
-10,[dPulpAdjPositive] [dPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[dPulpMaleFirstName] [dPulpLastName] [pulpmiddle] [pulpend]
-3,[dPulpAdjPositive] [dPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[dPulpFemaleFirstName] [dPulpLastName] [pulpmiddle] [pulpend]
+10,[[dPulpAdjPositive]] [[dPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[dPulpMaleFirstName]] [[dPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[dPulpAdjPositive]] [[dPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[dPulpFemaleFirstName]] [[dPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

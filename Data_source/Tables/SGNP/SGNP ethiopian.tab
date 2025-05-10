@@ -6,9 +6,9 @@
 
 
 ;Start
-1,[male] (male)
-1,[female] (female)
-1,[dishes] (dish)
+1,[[male]] (male)
+1,[[female]] (female)
+1,[[dishes]] (dish)
 
 ;male
 1,Abebe 

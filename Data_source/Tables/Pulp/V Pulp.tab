@@ -1,6 +1,6 @@
 
 ;Start
-1,[vPulpHeroNovel]
+1,[[vPulpHeroNovel]]
 
 ;vPulpNoun
 1,Vaccine
@@ -137,15 +137,15 @@
 1,and the Vanishing of the
 1,in:
 1,violates the
-1,and [vPulpAdjPositive] [vPulpMaleFirstName]'s 
+1,and [[vPulpAdjPositive]] [[vPulpMaleFirstName]]'s 
 
 ;pulpend
-1,[vPulpAdjNegative] [vPulpNoun]
+1,[[vPulpAdjNegative]] [[vPulpNoun]]
 
 ;vPulpHeroNovel
-10,[vPulpAdjPositive] [vPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[vPulpMaleFirstName] [vPulpLastName] [pulpmiddle] [pulpend]
-3,[vPulpAdjPositive] [vPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[vPulpFemaleFirstName] [vPulpLastName] [pulpmiddle] [pulpend]
+10,[[vPulpAdjPositive]] [[vPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[vPulpMaleFirstName]] [[vPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[vPulpAdjPositive]] [[vPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[vPulpFemaleFirstName]] [[vPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

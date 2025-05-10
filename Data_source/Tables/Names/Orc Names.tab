@@ -1,11 +1,11 @@
 
 ;Start
-15,[CapCons][Vowel][Cons][Vowel][Cons][More] [Title]
-15,[CapVowel][Cons][Vowel][Cons][More] [Title]
-1,[SGNP orcish.Start] [Title]
+15,[[CapCons]][[Vowel]][[Cons]][[Vowel]][[Cons]][[More]] [[Title]]
+15,[[CapVowel]][[Cons]][[Vowel]][[Cons]][[More]] [[Title]]
+1,[[SGNP orcish.Start]] [[Title]]
 
 ;More
-2,[Vowel][Cons]
+2,[[Vowel]][[Cons]]
 3,
 
 ;Cons
@@ -44,7 +44,7 @@
 
 ;Title
 3,
-1,the [Orc Tribe Name.Adj]
+1,the [[Orc Tribe Name.Adj]]
 
 
 

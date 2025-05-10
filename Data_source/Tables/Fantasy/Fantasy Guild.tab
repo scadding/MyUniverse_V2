@@ -1,13 +1,13 @@
 
 ;Start
-1,[orgname]
+1,[[orgname]]
 
 ;orgname
-20,[professionplural] [orgtype]
-7,[orgtype] of [professionplural]
-3,[orgtype] of [orgdescriptor] [professionplural]
-1,[orgtype] of [professionplural] and [professionplural]
-2,[cause] [orgtype]
+20,[[professionplural]] [[orgtype]]
+7,[[orgtype]] of [[professionplural]]
+3,[[orgtype]] of [[orgdescriptor]] [[professionplural]]
+1,[[orgtype]] of [[professionplural]] and [[professionplural]]
+2,[[cause]] [[orgtype]]
 
 ;cause
 1,Anti-Slavery
@@ -21,7 +21,7 @@
 1,Gentleman's
 1,Ladies
 1,Gaming
-2,[preservation] Preservation
+2,[[preservation]] Preservation
 1,Philosophers
 1,Sportsmens
 1,Artificers
@@ -30,8 +30,8 @@
 1,Wildlife
 1,Wilderness
 1,Village Green
-1,[Utility.CreatureTypes]
-1,[Utility.TerrainsCap]
+1,[[Utility.CreatureTypes]]
+1,[[Utility.TerrainsCap]]
 
 ;professionplural
 1,Acrobats

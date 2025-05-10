@@ -1,15 +1,15 @@
 
 ;Start
 1,===Halfling Menfolk===<br>
-_<sgdisplay iterations="20">[HalflingMale]</sgdisplay><br>
+_<sgdisplay iterations="20">[[HalflingMale]]</sgdisplay><br>
 _===Halfling Womenfolk===<br>
-_<sgdisplay iterations="20">[HalflingFemale]</sgdisplay><br>
+_<sgdisplay iterations="20">[[HalflingFemale]]</sgdisplay><br>
 
 ;HalflingMale
-1,[MaleSyllable1][MaleSyllable2][MaleSyllable3] [Surnames]
+1,[[MaleSyllable1]][[MaleSyllable2]][[MaleSyllable3]] [[Surnames]]
 
 ;HalflingFemale
-1,[FemaleSyllable1][FemaleSyllable2][FemaleSyllable3] [Surnames]
+1,[[FemaleSyllable1]][[FemaleSyllable2]][[FemaleSyllable3]] [[Surnames]]
 
 ;MaleSyllable1
 2,B
@@ -105,8 +105,8 @@ _<sgdisplay iterations="20">[HalflingFemale]</sgdisplay><br>
 1,ntea
 
 ;Surnames
-1,[SurnameCompoundStart][SurnameCompoundEnd]
-1,[SurnameCompoundStart][SurnameCompoundRole]
+1,[[SurnameCompoundStart]][[SurnameCompoundEnd]]
+1,[[SurnameCompoundStart]][[SurnameCompoundRole]]
 
 ;SurnameCompoundStart
 5,Burble

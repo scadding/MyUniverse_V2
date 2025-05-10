@@ -1,13 +1,13 @@
 
 ;Start
 1,====Deity====<br>
-_<sgdisplay iterations="5">[Diety]</sgdisplay><br>
+_<sgdisplay iterations="5">[[Diety]]</sgdisplay><br>
 _====Organization====<br>
-_<sgdisplay iterations="5">[Organization]</sgdisplay><br>
+_<sgdisplay iterations="5">[[Organization]]</sgdisplay><br>
 _====Culture====<br>
-_<sgdisplay iterations="5">[Cultures]</sgdisplay><br>
+_<sgdisplay iterations="5">[[Cultures]]</sgdisplay><br>
 _====Non-Common Language====<br>
-_<sgdisplay iterations="5">[NonCommonLanguage]</sgdisplay><br>
+_<sgdisplay iterations="5">[[NonCommonLanguage]]</sgdisplay><br>
 
 
 ;Diety
@@ -29,10 +29,10 @@ _<sgdisplay iterations="5">[NonCommonLanguage]</sgdisplay><br>
 6,Tyr
 3,Valkur
 1,Velsharoon
-1,[FiendLords]
+1,[[FiendLords]]
 
 ;DietyEvil
-5,[FiendLords]
+5,[[FiendLords]]
 1,Auril
 1,the Patient One
 1,Velsharoon
@@ -151,7 +151,7 @@ _<sgdisplay iterations="5">[NonCommonLanguage]</sgdisplay><br>
 2,The Risen
 8,The Schools of Magic
 4,The Submissive Servants of the Radiant Flame
-4,The Thieves Guilds of [Cities]
+4,The Thieves Guilds of [[Cities]]
 8,The Torchbearers
 2,The Whisperers in Darkness
 5,The Workmen
@@ -236,16 +236,16 @@ _<sgdisplay iterations="5">[NonCommonLanguage]</sgdisplay><br>
 6,The Risen
 50,The Schools of Magic
 30,The Submissive Servants of the Radiant Flame
-10,The Thieves Guilds of [Cities]
+10,The Thieves Guilds of [[Cities]]
 60,The Torchbearers
 8,The Whisperers in Darkness
 50,The Workmen
 30,The Men's Brigade
 
 ;Cities
-1,[GheronEastCities]
-1,[FarawayCities]
-1,[Fantasy Town Names.Start]
+1,[[GheronEastCities]]
+1,[[FarawayCities]]
+1,[[Fantasy Town Names.Start]]
 
 ;GheronEastCities
 50,Bryene
@@ -264,7 +264,7 @@ _<sgdisplay iterations="5">[NonCommonLanguage]</sgdisplay><br>
 2,Quom
 2,Swansea
 1,Lisano
-6,[Fantasy Town Names.Start]
+6,[[Fantasy Town Names.Start]]
 
 ;HumanNations
 10,Gheron
@@ -362,7 +362,7 @@ _<sgdisplay iterations="5">[NonCommonLanguage]</sgdisplay><br>
 4,Old Gheronese
 
 ;NonHumanLanguagesWritten
-100,[LanguageElvishDialect]
+100,[[LanguageElvishDialect]]
 60,Dwarvish
 25,Halfling
 10,Gnomish

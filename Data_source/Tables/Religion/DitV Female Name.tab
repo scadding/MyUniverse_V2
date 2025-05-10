@@ -1,12 +1,12 @@
 
 ;Start
-1,Sister [FirstName]
+1,Sister [[FirstName]]
 
 ;FirstName
-1,[Conceptual]
-5,[MormonPioneers1847]
-1,[Scriptural]
-5,[Morningstar]
+1,[[Conceptual]]
+5,[[MormonPioneers1847]]
+1,[[Scriptural]]
+5,[[Morningstar]]
 
 ;Conceptual
 1,Patience

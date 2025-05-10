@@ -1,9 +1,9 @@
 
 ;Start
-1,[Focus]: [Adverb] [Action] [Adjective] [Subject]
-1,[Focus]: [Action] [Adjective] [Subject]
-1,[Focus]: [Adverb] [Action] [Subject]
-2,[Focus]: [Action] [Subject]
+1,[[Focus]]: [[Adverb]] [[Action]] [[Adjective]] [[Subject]]
+1,[[Focus]]: [[Action]] [[Adjective]] [[Subject]]
+1,[[Focus]]: [[Adverb]] [[Action]] [[Subject]]
+2,[[Focus]]: [[Action]] [[Subject]]
 
 ;Focus
 7,Remote event

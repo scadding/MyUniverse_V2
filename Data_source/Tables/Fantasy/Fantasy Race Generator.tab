@@ -1,6 +1,6 @@
 
 ;Start
-1,This culture is made up of [race], they are known for their [hair] hair and [beards] beards.  They are known [trait1], they are usually considered [intelligence] and in battle they are known to[battleskills], their favored tactic is [favoredtactic].  They are organized into [governmentstyle] lead by a [leader] who takes his place by [electionstyle].  The race worships [religion1], they make [religion2] to their god(s).  They are known to possess[howmuchmagic].
+1,This culture is made up of [[race]], they are known for their [[hair]] hair and [[beards]] beards.  They are known [[trait1]], they are usually considered [[intelligence]] and in battle they are known to[[battleskills]], their favored tactic is [[favoredtactic]].  They are organized into [[governmentstyle]] lead by a [[leader]] who takes his place by [[electionstyle]].  The race worships [[religion1]], they make [[religion2]] to their god(s).  They are known to possess[[howmuchmagic]].
 
 ;race
 1, Dwarfs
@@ -181,8 +181,8 @@
 1, chants of empowerment daily
 
 ;howmuchmagic
-1, [magic1]
-3, [magic2] [magic3] and [magic3]
+1, [[magic1]]
+3, [[magic2]] [[magic3]] and [[magic3]]
 
 ;magic1
 1,no magic.

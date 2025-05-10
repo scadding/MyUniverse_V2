@@ -1,44 +1,44 @@
 
 
 ;Start
-1,[type]
+1,[[type]]
 
 ;type
-2,[alcoholic]
-1,[nonalcoholic]
+2,[[alcoholic]]
+1,[[nonalcoholic]]
 
 ;nonalcoholic
-4,[water] water
-3,[Utility.Fruit] juice
-3,[milk] milk 
-3,[tea] tea
+4,[[water]] water
+3,[[Utility.Fruit]] juice
+3,[[milk]] milk 
+3,[[tea]] tea
 2,coffee
 2,broth
-1,[nonalcoholicbeer]
+1,[[nonalcoholicbeer]]
 
 ;alcoholic
-15,[DrinkNames] [BeersNAles] ale
-15,[DrinkNames] [BeersNAles] beer
-3,[Utility.Fruit] Nectar
-5,[LowQualityDrinks]
-6,[CiderDescription] [CiderType] cider
-5,[LiqueurFlavor] [Liqueur]
-3,[Utility.Fruit] Schnapps
-5,[Brewnames.Start]
+15,[[DrinkNames]] [[BeersNAles]] ale
+15,[[DrinkNames]] [[BeersNAles]] beer
+3,[[Utility.Fruit]] Nectar
+5,[[LowQualityDrinks]]
+6,[[CiderDescription]] [[CiderType]] cider
+5,[[LiqueurFlavor]] [[Liqueur]]
+3,[[Utility.Fruit]] Schnapps
+5,[[Brewnames.Start]]
 1,absinthe
 1,ambrosia
 1,applejack
 2,brandy
 5,cocktail
 2,cognac
-1,[eggnog]
+1,[[eggnog]]
 3,gin
 1,mastica
-12,[mead] mead
+12,[[mead]] mead
 2,rum
-4,[vodka] vodka
-8,[whiskey] whiskey
-12,[wine] wine
+4,[[vodka]] vodka
+8,[[whiskey]] whiskey
+12,[[wine]] wine
 
 :alcoholic general
 10,Beer
@@ -90,7 +90,7 @@
 1,orange Pekoe
 1,English breakfast
 1,Irish breakfast
-1,[herbal tea]
+1,[[herbal tea]]
 
 ;herbal tea
 1,alfalfa
@@ -147,14 +147,14 @@
 1,thyme
 1,vanilla bean
 1,wild cherry
-6,[Utility.Fruit]
-10,[herbal tea]-[herbal tea]
-5,iced [herbal tea]
+6,[[Utility.Fruit]]
+10,[[herbal tea]]-[[herbal tea]]
+5,iced [[herbal tea]]
 
 ;DrinkNames
-1,[DrinkNames1]
-2,[Fantasy Names.MaleFirstName]'s
-1,[Brewnames.Start]
+1,[[DrinkNames1]]
+2,[[Fantasy Names.MaleFirstName]]'s
+1,[[Brewnames.Start]]
 4,
 
 ;DrinkNames1
@@ -168,7 +168,7 @@
 1,Summer brew
 1,Wizards
 1,Golden
-1,[Utility.Fruit]
+1,[[Utility.Fruit]]
 1,Sheppy's
 1,Dragon's brew
 1,Goblin's brew
@@ -183,9 +183,9 @@
 1,Duke's Own
 
 ;LowQualityDrinks
-4,[DrinkNames] swill
-4,[DrinkNames] grog
-1,diluted [DrinkNames1]
+4,[[DrinkNames]] swill
+4,[[DrinkNames]] grog
+1,diluted [[DrinkNames1]]
 
 ;BeersNAles
 6,Amber
@@ -202,7 +202,7 @@
 1,Highland
 4,Honeyed
 4,Lager
-5,[Utility.Fruit] Lager
+5,[[Utility.Fruit]] Lager
 3,Light
 4,Malt
 4,Orcish
@@ -218,8 +218,8 @@
 1,Trappist
 3,Wood-aged
 3,Watered-down
-3,[GruitFlavors]
-10,[nonalcoholicbeer]
+3,[[GruitFlavors]]
+10,[[nonalcoholicbeer]]
 
 ;GruitFlavors
 1,Juniper Berry
@@ -296,17 +296,17 @@
 ;eggnog
 4,eggnog (with rum)
 2,eggnog (nonalcoholic)
-1,[LiqueurFlavor] eggnog (with rum)
-1,[LiqueurFlavor] eggnog (nonalcoholic)
+1,[[LiqueurFlavor]] eggnog (with rum)
+1,[[LiqueurFlavor]] eggnog (nonalcoholic)
 
 ;mead
 2,
 1,honey mead
-1,[DrinkNames] mead
+1,[[DrinkNames]] mead
 
 ;vodka
 2,
-1,[Utility.Fruit]
+1,[[Utility.Fruit]]
 
 ;whiskey
 1,scotch
@@ -322,15 +322,15 @@
 1,moonshine
 1,bayou
 1,straight wheat
-1,blended [Utility.Fruit]
+1,blended [[Utility.Fruit]]
 
 ;wine
-20,[Utility.Fruit]
+20,[[Utility.Fruit]]
 10,red
 10,blush
 10,white
 10,port
-10,[wineflower]
+10,[[wineflower]]
 5,dry red
 5,herbed red
 5,semi-sweet red

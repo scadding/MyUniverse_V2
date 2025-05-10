@@ -2,40 +2,40 @@
 ;Start
 1,==Generators==<br>
 _===Gems===<br>
-_<sgdisplay iterations="5">[Gems]</sgdisplay><br>
+_<sgdisplay iterations="5">[[Gems]]</sgdisplay><br>
 _===Fruit===<br>
-_<sgdisplay iterations="5">[Fruit]</sgdisplay><br>
+_<sgdisplay iterations="5">[[Fruit]]</sgdisplay><br>
 _===Flower===<br>
-_<sgdisplay iterations="3">[Flower]</sgdisplay><br>
+_<sgdisplay iterations="3">[[Flower]]</sgdisplay><br>
 _===Wood===<br>
-_<sgdisplay iterations="5">[Wood]</sgdisplay><br>
+_<sgdisplay iterations="5">[[Wood]]</sgdisplay><br>
 _===Metals===<br>
-_<sgdisplay iterations="5">[MetalDecor]</sgdisplay><br>
+_<sgdisplay iterations="5">[[MetalDecor]]</sgdisplay><br>
 _===Fur===<br>
-_<sgdisplay iterations="5">[Fur] fur</sgdisplay><br>
+_<sgdisplay iterations="5">[[Fur]] fur</sgdisplay><br>
 _===Leather===<br>
-_<sgdisplay iterations="5">[LeatherHide]</sgdisplay><br>
+_<sgdisplay iterations="5">[[LeatherHide]]</sgdisplay><br>
 _===Cloth===<br>
-_<sgdisplay iterations="5">[Cloth]</sgdisplay><br>
+_<sgdisplay iterations="5">[[Cloth]]</sgdisplay><br>
 _===Symbols===<br>
-_<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
+_<sgdisplay iterations="5">[[Symbols]]</sgdisplay><br>
 
 
 ;EmptyTable
 1,
 
 ;Gems
-1,<b>Gem:</b><br> [GemType].<br><b>Quality</b> [GemQuality]<br>  
+1,<b>Gem:</b><br> [[GemType]].<br><b>Quality</b> [[GemQuality]]<br>  
 
 ;GemType
-25,[Ornamental Stones]
-25,[SemiPrecious Stones]
-15,[Fancy Stones]
-15,[Precious Stones]
-10,[Hardstones]
-1,[Shells]
-8,[notgems]
-3,[Jewels]
+25,[[Ornamental Stones]]
+25,[[SemiPrecious Stones]]
+15,[[Fancy Stones]]
+15,[[Precious Stones]]
+10,[[Hardstones]]
+1,[[Shells]]
+8,[[notgems]]
+3,[[Jewels]]
 
 ;Ornamental Stones
 2,Azurite
@@ -177,12 +177,12 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 1,Extra-Planar Emerald
 10,Star Ruby
 10,Star Sapphire
-#4,[MagicalWondrous.Gemstones]
+#4,[[MagicalWondrous.Gemstones]]
 
 ;Hardstones
 6,piece of Alabaster
 6,piece of Archon
-6,piece of [HornIvory]
+6,piece of [[HornIvory]]
 6,Iris Agate
 6,Lumachella
 6,Luspeel
@@ -230,7 +230,7 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 2,Cheese
 1,Meat, Dried
 1,Meat, Cured
-2,[Fruit]
+2,[[Fruit]]
 
 ;Fruit
 10,apple
@@ -252,8 +252,8 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 3,pomegranate
 1,Bacon-Fruit
 1,tamarind
-30,[Berry]
-6,[Citrus]
+30,[[Berry]]
+6,[[Citrus]]
 
 ;Citrus
 5,orange
@@ -325,7 +325,7 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 1,nutmeg
 1,onion
 1,paprika
-1,[Pepper]
+1,[[Pepper]]
 1,poppy seed
 1,saffron
 1,sesame
@@ -343,8 +343,8 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 1,white pepper
 
 ;HerbSpice
-1,[Herb]
-2,[Spice]
+1,[[Herb]]
+2,[[Spice]]
 
 
 ;Flower
@@ -372,18 +372,18 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 
 
 ;Wood
-20,[WoodsHard]
-20,[WoodsSoft]
-1,[WoodsRare]
+20,[[WoodsHard]]
+20,[[WoodsSoft]]
+1,[[WoodsRare]]
 
 ;WoodWeapon
-20,[WoodsHard]
-2,[WoodsSoft]
-1,[WoodsRare]
+20,[[WoodsHard]]
+2,[[WoodsSoft]]
+1,[[WoodsRare]]
 
 ;WoodDecorative
-2,[WoodsHard]
-1,[WoodsRare]
+2,[[WoodsHard]]
+1,[[WoodsRare]]
 
 ;WoodBow
 40,yew
@@ -393,7 +393,7 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 10,cherry
 8,hickory
 7,walnut
-5,specially treated [WoodWeapon]
+5,specially treated [[WoodWeapon]]
 3,darkwood
 
 ;WoodsHard
@@ -435,21 +435,21 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 1,sandalwood
 
 ;Metal
-1,[MetalSoft]
-1,[MetalHard]
+1,[[MetalSoft]]
+1,[[MetalHard]]
 
 ;MetalWeapon
-49,[MetalHard]
-2,<b>[MetalExotic]</b>
+49,[[MetalHard]]
+2,<b>[[MetalExotic]]</b>
 
 ;MetalArmor
-49,[MetalHard]
-2,<b>[MetalExoticArmor]</b>
+49,[[MetalHard]]
+2,<b>[[MetalExoticArmor]]</b>
 
 ;MetalDecor
-3,[MetalHard]
-7,[MetalPrecious]
-1,<b>[MetalExotic]</b>
+3,[[MetalHard]]
+7,[[MetalPrecious]]
+1,<b>[[MetalExotic]]</b>
 
 ;MetalSoft
 6,copper
@@ -478,8 +478,8 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 5,electrum
 6,platinum
 2,pewter
-2,<b>[MetalExotic]</b>
-2,[MetalSoft]
+2,<b>[[MetalExotic]]</b>
+2,[[MetalSoft]]
 
 ;MetalExotic
 2,Abyssal Bloodiron
@@ -587,9 +587,9 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 1,Ether
 
 ;ElementAny
-4,[Element]
-2,[ElementOriental]
-1,[ElementExotic]
+4,[[Element]]
+2,[[ElementOriental]]
+1,[[ElementExotic]]
 
 ;CompassDirection
 1,North
@@ -643,12 +643,12 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 
 ;Fur
 9,ape
-20,[LeatherAnimalType] badger
-14,[LeatherAnimalType] black bear
-14,[LeatherAnimalType] brown bear
-5,[LeatherAnimalType] polar bear
+20,[[LeatherAnimalType]] badger
+14,[[LeatherAnimalType]] black bear
+14,[[LeatherAnimalType]] brown bear
+5,[[LeatherAnimalType]] polar bear
 25,beaver
-20,[LeatherAnimalType] boar
+20,[[LeatherAnimalType]] boar
 5,camel
 3,cheetah
 3,leopard
@@ -659,9 +659,9 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 5,marten
 20,fox
 7,horse
-3,[LeatherAnimalType] lion
+3,[[LeatherAnimalType]] lion
 25,rabbit
-7,[LeatherAnimalType] rat
+7,[[LeatherAnimalType]] rat
 11,seal
 17,sheep
 10,skunk
@@ -670,10 +670,10 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 8,lynx
 15,otter
 4,sable
-2,[LeatherAnimalType] tiger
-9,[LeatherAnimalType] weasel
-15,[LeatherAnimalType] wolf
-10,[LeatherAnimalType] wolverine
+2,[[LeatherAnimalType]] tiger
+9,[[LeatherAnimalType]] weasel
+15,[[LeatherAnimalType]] wolf
+10,[[LeatherAnimalType]] wolverine
 5,worg
 2,barghest
 2,blink dog
@@ -691,41 +691,41 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 7,great wolf
 
 ;LeatherHide
-10,[LeatherShinyness][LeatherColor] [LeatherAnimalType]crocodile skin
-6,[LeatherShinyness][LeatherColor] [LeatherAnimalType]ape skin
-3,[LeatherShinyness][LeatherAnimalType]bat leather
+10,[[LeatherShinyness]][[LeatherColor]] [[LeatherAnimalType]]crocodile skin
+6,[[LeatherShinyness]][[LeatherColor]] [[LeatherAnimalType]]ape skin
+3,[[LeatherShinyness]][[LeatherAnimalType]]bat leather
 9,bison hide
-9,[LeatherAnimalType]boar hide
-11,[LeatherShinyness][LeatherColor] camel leather
-35,[LeatherShinyness][LeatherColor] deer leather
+9,[[LeatherAnimalType]]boar hide
+11,[[LeatherShinyness]][[LeatherColor]] camel leather
+35,[[LeatherShinyness]][[LeatherColor]] deer leather
 2,elephant hide
-14,[LeatherColor] horse hide
-10,[LeatherShinyness][LeatherColor] [LeatherAnimalType]lizard skin
-15,[LeatherShinyness][LeatherColor] pigskin
+14,[[LeatherColor]] horse hide
+10,[[LeatherShinyness]][[LeatherColor]] [[LeatherAnimalType]]lizard skin
+15,[[LeatherShinyness]][[LeatherColor]] pigskin
 2,rhinoceros hide
-5,[LeatherShinyness][LeatherColor] seal leather
-3,[LeatherShinyness][LeatherColor] [LeatherAnimalType]sharkskin
-15,[LeatherShinyness][LeatherColor] sheepskin leather
-10,[LeatherShinyness][LeatherColor] [LeatherAnimalType]snakeskin
-2,[LeatherShinyness]basilisk leather
+5,[[LeatherShinyness]][[LeatherColor]] seal leather
+3,[[LeatherShinyness]][[LeatherColor]] [[LeatherAnimalType]]sharkskin
+15,[[LeatherShinyness]][[LeatherColor]] sheepskin leather
+10,[[LeatherShinyness]][[LeatherColor]] [[LeatherAnimalType]]snakeskin
+2,[[LeatherShinyness]]basilisk leather
 1,behir hide
 1,bulette hide
-2,[LeatherShinyness][LeatherColor]jabberwock hide
+2,[[LeatherShinyness]][[LeatherColor]]jabberwock hide
 5,dragon hide
-5,[LeatherShinyness][LeatherColor] hydraskin
+5,[[LeatherShinyness]][[LeatherColor]] hydraskin
 1,naga skin
-2,[LeatherShinyness]purple worm hide
+2,[[LeatherShinyness]]purple worm hide
 1,remorhaz hide
-2,[LeatherShinyness]shocker lizard skin
-5,[LeatherShinyness][LeatherColor] wyvern hide
-116,[LeatherShinyness][LeatherColor] leather
-50,[LeatherShinyness][LeatherColor] calfskin
-6,[LeatherHideSentient]
+2,[[LeatherShinyness]]shocker lizard skin
+5,[[LeatherShinyness]][[LeatherColor]] wyvern hide
+116,[[LeatherShinyness]][[LeatherColor]] leather
+50,[[LeatherShinyness]][[LeatherColor]] calfskin
+6,[[LeatherHideSentient]]
 1,destrachan hide
 1,frost worm hide
 1,grick hide
 1,manticore wing leather
-40,[LeatherColor] suede
+40,[[LeatherColor]] suede
 
 ;LeatherHideSentient
 10,human skin
@@ -802,16 +802,16 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 
 ;Symbols
 1,a family crest
-3,the crest of the Noble House of [Fantasy Names.Surname]
+3,the crest of the Noble House of [[Fantasy Names.Surname]]
 1,the maker's mark
-2,the symbol of [GheronUtility.DietySymbol]
-2,the symbol of [GheronUtility.OrganizationSymbol]
-2,the image of [AnimalSymbol]
-2,the image of [CreatureSymbol]
-1,the image of [PlantSymbol]
-1,a simple [GeometricSymbol]
-1,runes in [RuneLanguage]
-1,the insignia of a military unit - the [Fantasy Military Unit.Start]
+2,the symbol of [[GheronUtility.DietySymbol]]
+2,the symbol of [[GheronUtility.OrganizationSymbol]]
+2,the image of [[AnimalSymbol]]
+2,the image of [[CreatureSymbol]]
+1,the image of [[PlantSymbol]]
+1,a simple [[GeometricSymbol]]
+1,runes in [[RuneLanguage]]
+1,the insignia of a military unit - the [[Fantasy Military Unit.Start]]
 1,the coat of arms of a city, nation, or other location
 
 ;AnimalSymbol
@@ -974,22 +974,22 @@ _<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
 
 ;GlassColors
 10,clear
-5,[BrightColors]
-2,[DarkColors]
+5,[[BrightColors]]
+2,[[DarkColors]]
 
 ;LeatherColor
 50,brown
 25,black
-25,[DarkColors]
-10,[DullColors]
-10,[BrightColors]
-2,[LightColors]
+25,[[DarkColors]]
+10,[[DullColors]]
+10,[[BrightColors]]
+2,[[LightColors]]
 
 ;Colors
-1,[BrightColors]
-1,[LightColors]
-1,[DarkColors]
-1,[DullColors]
+1,[[BrightColors]]
+1,[[LightColors]]
+1,[[DarkColors]]
+1,[[DullColors]]
 
 ;BrightColors
 1,blue

@@ -1,10 +1,10 @@
 
 ;Start
-1,[male](male)
-1,[female](female)
-1,[spirit](spirit)
-1,[beast](beast)
-1,[location](location)
+1,[[male]](male)
+1,[[female]](female)
+1,[[spirit]](spirit)
+1,[[beast]](beast)
+1,[[location]](location)
 
 ;male
 1,Pukivik

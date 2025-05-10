@@ -1,28 +1,28 @@
 
 ;Start
-1,[RankEnglishArmy]
-1,[RankEnglishNavy]
-1,[RankEnglishRoyalty]
-1,[RankEnglishSpecial]
-1,[RankForeign]
-1,[RankForeign]
-1,[RankForeign]
+1,[[RankEnglishArmy]]
+1,[[RankEnglishNavy]]
+1,[[RankEnglishRoyalty]]
+1,[[RankEnglishSpecial]]
+1,[[RankForeign]]
+1,[[RankForeign]]
+1,[[RankForeign]]
 
 ;Rank
-10,[RankEnglish]
-1,[RankForeign]
+10,[[RankEnglish]]
+1,[[RankForeign]]
 
 ;RankEnglish
-10,[RankEnglishArmy]
-5,[RankEnglishNavy]
-2,[RankEnglishRoyalty]
-1,[RankEnglishSpecial]
+10,[[RankEnglishArmy]]
+5,[[RankEnglishNavy]]
+2,[[RankEnglishRoyalty]]
+1,[[RankEnglishSpecial]]
 
 ;RankEnglishArmy
-1,Brevet [RankEnglishArmyEnlisted]
-2,Brevet [RankEnglishArmyOfficer]
-20,[RankEnglishArmyEnlisted]
-5,[RankEnglishArmyOfficer]
+1,Brevet [[RankEnglishArmyEnlisted]]
+2,Brevet [[RankEnglishArmyOfficer]]
+20,[[RankEnglishArmyEnlisted]]
+5,[[RankEnglishArmyOfficer]]
 
 ;RankEnglishArmyEnlisted
 1,Warrant Officer
@@ -56,8 +56,8 @@
 1,Cadet
 
 ;RankEnglishNavy
-5,[RankEnglishNavyEnlisted]
-1,[RankEnglishNavyOfficer]
+5,[[RankEnglishNavyEnlisted]]
+1,[[RankEnglishNavyOfficer]]
 
 ;RankEnglishNavyEnlisted
 1,Warrant Officer
@@ -79,8 +79,8 @@
 1,Midshipman
 
 ;RankEnglishRoyalty
-2,[RankEnglishRoyaltyFemale]
-5,[RankEnglishRoyaltyMale]
+2,[[RankEnglishRoyaltyFemale]]
+5,[[RankEnglishRoyaltyMale]]
 
 ;RankEnglishRoyaltyFemale
 1,Empress
@@ -109,18 +109,18 @@
 1,Viscount
 
 ;RankEnglishSpecial
-1,[RankEnglishSpecialFemale]
-5,[RankEnglishSpecialMale]
-10,[RankEnglishSpecialReligious]
+1,[[RankEnglishSpecialFemale]]
+5,[[RankEnglishSpecialMale]]
+10,[[RankEnglishSpecialReligious]]
 
 ;RankEnglishSpecialReligious
 1,Saint
-30,[RankEnglishSpecialReligiousCatholic]
-30,[RankEnglishSpecialReligiousProtestant]
+30,[[RankEnglishSpecialReligiousCatholic]]
+30,[[RankEnglishSpecialReligiousProtestant]]
 
 ;RankEnglishSpecialReligiousCatholic
-1,[RankEnglishSpecialReligiousCatholicFemale]
-20,[RankEnglishSpecialReligiousCatholicMale]
+1,[[RankEnglishSpecialReligiousCatholicFemale]]
+20,[[RankEnglishSpecialReligiousCatholicMale]]
 
 ;RankEnglishSpecialReligiousCatholicFemale
 1,Mother 
@@ -152,15 +152,15 @@
 4,Lay Minister
 
 ;RankEnglishSpecialReligiousProtestant
-1,[RankEnglishSpecialReligiousProtestantFemale]
-1,[RankEnglishSpecialReligiousProtestantMale]
+1,[[RankEnglishSpecialReligiousProtestantFemale]]
+1,[[RankEnglishSpecialReligiousProtestantMale]]
 
 ;RankEnglishSpecialReligiousProtestantFemale
 1,Sister 
 
 ;RankEnglishSpecialReligiousProtestantMale
-1,[RankEnglishSpecialReligiousProtestantMaleChurchofEngland]
-1,[RankEnglishSpecialReligiousProtestantMaleOther]
+1,[[RankEnglishSpecialReligiousProtestantMaleChurchofEngland]]
+1,[[RankEnglishSpecialReligiousProtestantMaleOther]]
 
 ;RankEnglishSpecialReligiousProtestantMaleChurchofEngland
 1,Archbishop
@@ -226,20 +226,20 @@
 1,Scout 
 
 ;RankForeign
-1,[RankFrench]
-1,[RankGerman]
-1,[RankRussian]
-1,[RankSpanish]
+1,[[RankFrench]]
+1,[[RankGerman]]
+1,[[RankRussian]]
+1,[[RankSpanish]]
 
 ;RankFrench
-1,[RankFrenchArmy]
-1,[RankFrenchNavy]
-1,[RankFrenchRoyalty]
+1,[[RankFrenchArmy]]
+1,[[RankFrenchNavy]]
+1,[[RankFrenchRoyalty]]
 
 ;RankFrenchArmy
-1,[RankFrenchArmyEngineer]
-1,[RankFrenchArmyEnlisted]
-1,[RankFrenchArmyOfficer]
+1,[[RankFrenchArmyEngineer]]
+1,[[RankFrenchArmyEnlisted]]
+1,[[RankFrenchArmyOfficer]]
 
 ;RankFrenchArmyEngineer
 1,Ingénieur Général de Première Classe 
@@ -308,13 +308,13 @@
 1,Comté
 
 ;RankGerman
-1,[RankGermanArmy]
-1,[RankGermanRoyalty]
+1,[[RankGermanArmy]]
+1,[[RankGermanRoyalty]]
 
 ;RankGermanArmy
-1,[RankGermanArmyEnlisted]
-1,[RankGermanArmyMidrank]
-1,[RankGermanArmyOfficer]
+1,[[RankGermanArmyEnlisted]]
+1,[[RankGermanArmyMidrank]]
+1,[[RankGermanArmyOfficer]]
 
 ;RankGermanArmyEnlisted
 3,Oberstabsgefreiter
@@ -360,8 +360,8 @@
 1,Offizieranwärter
 
 ;RankGermanRoyalty
-1,[RankGermanRoyaltyFemale]
-1,[RankGermanRoyaltyMale]
+1,[[RankGermanRoyaltyFemale]]
+1,[[RankGermanRoyaltyMale]]
 
 ;RankGermanRoyaltyFemale
 1,Frauline
@@ -372,8 +372,8 @@
 1,Herr
 
 ;RankRussian
-1,[RankRussianFemale]
-5,[RankRussianMale]
+1,[[RankRussianFemale]]
+5,[[RankRussianMale]]
 
 ;RankRussianFemale
 1,Czarina
@@ -384,10 +384,10 @@
 1,Czar
 
 ;RankSpanish
-5,[RankSpanishArmy]
-1,[RankSpanishFemale]
-5,[RankSpanishMale]
-5,[RankSpanishNavy]
+5,[[RankSpanishArmy]]
+1,[[RankSpanishFemale]]
+5,[[RankSpanishMale]]
+5,[[RankSpanishNavy]]
 
 ;RankSpanishArmy
 1,Capitán General

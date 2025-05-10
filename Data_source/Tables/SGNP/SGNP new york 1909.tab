@@ -1,7 +1,7 @@
 
 ;Start
-1,[male] [surname]
-1,[female] [surname]
+1,[[male]] [[surname]]
+1,[[female]] [[surname]]
 
 ;female
 1,Mary

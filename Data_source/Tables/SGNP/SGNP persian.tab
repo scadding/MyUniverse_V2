@@ -1,7 +1,7 @@
 
 ;Start
-1,[male]
-1,[female]
+1,[[male]]
+1,[[female]]
 
 ;male
 1,Mirza

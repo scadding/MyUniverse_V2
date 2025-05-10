@@ -1,13 +1,13 @@
 
 ;Start
-15,[stylechance][fiction genre 1] [show format 1] in [setting]
-6,[stylechance][fiction genre 1] [show format 1] meets [fiction genre 2] [show format 2] in [setting]
-8,[stylechance][fiction genre 1] [show format 1] / [show format 2] in [setting]
-8,[stylechance][fiction genre 1] [show format 1] with [fiction genre 2] elements in [setting]
+15,[[stylechance]][[fiction genre 1]] [[show format 1]] in [[setting]]
+6,[[stylechance]][[fiction genre 1]] [[show format 1]] meets [[fiction genre 2]] [[show format 2]] in [[setting]]
+8,[[stylechance]][[fiction genre 1]] [[show format 1]] / [[show format 2]] in [[setting]]
+8,[[stylechance]][[fiction genre 1]] [[show format 1]] with [[fiction genre 2]] elements in [[setting]]
 
 ;stylechance
 10,
-1,[style] 
+1,[[style]] 
 
 ;style
 1,Animated
@@ -33,30 +33,30 @@
 1,Oddly structured
 
 ;fiction genre 1
-3,[futuristic]Medical
-3,[futuristic]Legal
-3,[futuristic]Police
-2,[futuristic]Detective
-2,[futuristic][Crime]
-2,[futuristic]Office
-2,[futuristic]Sports
-1,[futuristic]Political
-1,[futuristic]Fantasy
-3,[futuristic][Historical]
-1,[futuristic]Western
-1,[futuristic]Military
-1,[futuristic]Soap Opera
-1,[futuristic]Science Fiction
-1,[futuristic]Superhero
-1,[futuristic]Supernatural
-1,[futuristic]Paranormal
-3,[futuristic]Family
-1,[futuristic]High School/University
-1,[futuristic]Espionage
-1,[futuristic]Romantic
-1,[futuristic]Teen
-1,[futuristic]Slice-of-Life
-1,[futuristic]Mystery
+3,[[futuristic]]Medical
+3,[[futuristic]]Legal
+3,[[futuristic]]Police
+2,[[futuristic]]Detective
+2,[[futuristic]][[Crime]]
+2,[[futuristic]]Office
+2,[[futuristic]]Sports
+1,[[futuristic]]Political
+1,[[futuristic]]Fantasy
+3,[[futuristic]][[Historical]]
+1,[[futuristic]]Western
+1,[[futuristic]]Military
+1,[[futuristic]]Soap Opera
+1,[[futuristic]]Science Fiction
+1,[[futuristic]]Superhero
+1,[[futuristic]]Supernatural
+1,[[futuristic]]Paranormal
+3,[[futuristic]]Family
+1,[[futuristic]]High School/University
+1,[[futuristic]]Espionage
+1,[[futuristic]]Romantic
+1,[[futuristic]]Teen
+1,[[futuristic]]Slice-of-Life
+1,[[futuristic]]Mystery
 
 ;futuristic
 5,
@@ -109,10 +109,10 @@
 2,Drama
 
 ;setting
-20,[thebigcity]
+20,[[thebigcity]]
 10,Suburbia
 7,a Small Town
-6,[school]
+6,[[school]]
 5,a Hospital
 4,Spaaaaaace
 2,the Old West
@@ -130,7 +130,7 @@
 4,the White House
 1,a Canadian truck stop in Burwash Landing
 1,Canada
-8,a World Like Our Own But With [Something]
+8,a World Like Our Own But With [[Something]]
 
 ;thebigcity
 4,the Big City
@@ -169,34 +169,34 @@
 1,an Elementary School
 
 ;Historical
-1,[alternate]1990s[butwith]
-1,[alternate]1980s[butwith]
-1,[alternate]1970s[butwith]
-1,[alternate]1960s[butwith]
-1,[alternate]1950s[butwith]
-1,[alternate]World-War II[butwith]
-1,[alternate]Cold War[butwith]
-1,[alternate]Great Depression-Era[butwith]
-1,[alternate]Gilded Age[butwith]
-1,[alternate]World-War I[butwith]
-1,[alternate]Victorian[butwith]
-1,[alternate]Reconstruction-Era[butwith]
-1,[alternate]Civil War-Era[butwith]
-1,[alternate]Antebellum[butwith]
-1,[alternate]Napoleonic[butwith]
-1,[alternate]Revolutionary-Era[butwith]
-1,[alternate]Regency-Era[butwith]
-1,[alternate]Renaissance[butwith]
-1,[alternate]Roman[butwith]
-1,[alternate]Ancient Egyptian[butwith]
-1,[alternate]Biblical[butwith]
-2,[alternate]Historical[butwith]
-1,[alternate]Dark Ages[butwith]
-1,[alternate]Stone Age[butwith]
+1,[[alternate]]1990s[[butwith]]
+1,[[alternate]]1980s[[butwith]]
+1,[[alternate]]1970s[[butwith]]
+1,[[alternate]]1960s[[butwith]]
+1,[[alternate]]1950s[[butwith]]
+1,[[alternate]]World-War II[[butwith]]
+1,[[alternate]]Cold War[[butwith]]
+1,[[alternate]]Great Depression-Era[[butwith]]
+1,[[alternate]]Gilded Age[[butwith]]
+1,[[alternate]]World-War I[[butwith]]
+1,[[alternate]]Victorian[[butwith]]
+1,[[alternate]]Reconstruction-Era[[butwith]]
+1,[[alternate]]Civil War-Era[[butwith]]
+1,[[alternate]]Antebellum[[butwith]]
+1,[[alternate]]Napoleonic[[butwith]]
+1,[[alternate]]Revolutionary-Era[[butwith]]
+1,[[alternate]]Regency-Era[[butwith]]
+1,[[alternate]]Renaissance[[butwith]]
+1,[[alternate]]Roman[[butwith]]
+1,[[alternate]]Ancient Egyptian[[butwith]]
+1,[[alternate]]Biblical[[butwith]]
+2,[[alternate]]Historical[[butwith]]
+1,[[alternate]]Dark Ages[[butwith]]
+1,[[alternate]]Stone Age[[butwith]]
 
 ;butwith
 2,
-4, (with [Something])
+4, (with [[Something]])
 
 ;Something
 3,Magic
@@ -205,7 +205,7 @@
 2,the Flying Car
 3,Zeppelins
 2,Time Travel
-4,[specialability][Animals]
+4,[[specialability]][[Animals]]
 1,Nazis
 1,Monkeys
 2,Dinosaurs

@@ -1,6 +1,6 @@
 
 ;Start
-1,[pPulpHeroNovel]!
+1,[[pPulpHeroNovel]]!
 
 ;pPulpNoun
 1,Pain-Ray
@@ -110,12 +110,12 @@
 1,versus the
 
 ;pulpend
-1,[pPulpAdjNegative] [pPulpNoun]
+1,[[pPulpAdjNegative]] [[pPulpNoun]]
 
 ;pPulpHeroNovel
-10,[pPulpAdjPositive] [pPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[pPulpMaleFirstName] [pPulpLastName] [pulpmiddle] [pulpend]
-3,[pPulpAdjPositive] [pPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[pPulpFemaleFirstName] [pPulpLastName] [pulpmiddle] [pulpend]
+10,[[pPulpAdjPositive]] [[pPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[pPulpMaleFirstName]] [[pPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[pPulpAdjPositive]] [[pPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[pPulpFemaleFirstName]] [[pPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

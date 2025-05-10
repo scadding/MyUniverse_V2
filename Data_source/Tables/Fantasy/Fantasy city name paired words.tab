@@ -1,39 +1,39 @@
 
 ;Start
-3,[first][second]
-5,[animals fix]
+3,[[first]][[second]]
+5,[[animals fix]]
 
 ;animals fix
-1,[flying]
-1,[gentle]
-1,[land]
-1,[sea]
-1,[monster]
-1,[insect]
+1,[[flying]]
+1,[[gentle]]
+1,[[land]]
+1,[[sea]]
+1,[[monster]]
+1,[[insect]]
 
 ;flying
-10,[flying animals][animal generic]
-10,[flying animals][flying quality]
+10,[[flying animals]][[animal generic]]
+10,[[flying animals]][[flying quality]]
 
 ;gentle
-10,[gentle animals][animal generic]
-10,[gentle animals][gentle quality]
+10,[[gentle animals]][[animal generic]]
+10,[[gentle animals]][[gentle quality]]
 
 ;land
-10,[land animals][animal generic]
-10,[land animals][land quality]
+10,[[land animals]][[animal generic]]
+10,[[land animals]][[land quality]]
 
 ;sea
-10,[sea animals][animal generic]
-10,[sea animals][sea quality]
+10,[[sea animals]][[animal generic]]
+10,[[sea animals]][[sea quality]]
 
 ;monster
-10,[monster manual animals][animal generic]
-10,[monster manual animals][monster quality]
+10,[[monster manual animals]][[animal generic]]
+10,[[monster manual animals]][[monster quality]]
 
 ;insect
-10,[insects][animal generic]
-10,[insects][insect quality]
+10,[[insects]][[animal generic]]
+10,[[insects]][[insect quality]]
 
 ;flying quality
 10,aerie
@@ -281,32 +281,32 @@
 1,wrath
 
 ;first
-1,[animals]
-3,[descriptive]
-1,[directions]
-2,[metals]
-1,[seasons]
-2,[trees]
-2,[weather]
+1,[[animals]]
+3,[[descriptive]]
+1,[[directions]]
+2,[[metals]]
+1,[[seasons]]
+2,[[trees]]
+2,[[weather]]
 
 ;second
-1,[townisms]
-1,[buildings]
-1,[roads]
+1,[[townisms]]
+1,[[buildings]]
+1,[[roads]]
 
 ;alllists
 0,this table isn't used, it's just a reference for unincorporated lists.
-1,[firsttry]
-1,[unrelated]
-1,[wealth]
-1,[weapons]
-1,[roads]
-1,[body]
-1,[colors]
-1,[river]
-1,[seaside]
-1,[hills]
-1,[unusual]
+1,[[firsttry]]
+1,[[unrelated]]
+1,[[wealth]]
+1,[[weapons]]
+1,[[roads]]
+1,[[body]]
+1,[[colors]]
+1,[[river]]
+1,[[seaside]]
+1,[[hills]]
+1,[[unusual]]
 
 ;firsttry
 1,water
@@ -648,12 +648,12 @@
 1,Tin
 
 ;animals
-10,[flying animals]
-10,[gentle animals]
-10,[land animals]
-10,[sea animals]
-10,[monster manual animals]
-10,[insects]
+10,[[flying animals]]
+10,[[gentle animals]]
+10,[[land animals]]
+10,[[sea animals]]
+10,[[monster manual animals]]
+10,[[insects]]
 
 ;flying animals
 10,Bat

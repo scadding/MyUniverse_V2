@@ -1,11 +1,11 @@
 
 ;Start
-1,'''Name:''' [combatclass], [combatclass], [combatclass]<br />'''Class Themes:''' [themes], [themes]<br />'''Key Abilities:''' [combatability], [combatability]<br />'''Weapons:''' [combatweapons]<br />'''Armor:''' [combatarmor][combatshield]<br />'''Hit Dice:''' [combathitdice]<br />
+1,'''Name:''' [[combatclass]], [[combatclass]], [[combatclass]]<br />'''Class Themes:''' [[themes]], [[themes]]<br />'''Key Abilities:''' [[combatability]], [[combatability]]<br />'''Weapons:''' [[combatweapons]]<br />'''Armor:''' [[combatarmor]][[combatshield]]<br />'''Hit Dice:''' [[combathitdice]]<br />
 
 ;combatclass
-10,{{ucfirst: [pre]}}[combatant]
-1,{{ucfirst: [combatant]}}
-3,{{ucfirst: [pre][pre] [combatant]}}
+10,{{ucfirst: [[pre]]}}[[combatant]]
+1,{{ucfirst: [[combatant]]}}
+3,{{ucfirst: [[pre]][[pre]] [[combatant]]}}
 
 ;combatability
 3,Strength
@@ -32,13 +32,13 @@
 1, Striker
 
 ;pre
-4,[element]
-4,[concept]
-3,[material]
-3,[object]
-3,[color]
-2,[place]
-2,[beast]
+4,[[element]]
+4,[[concept]]
+3,[[material]]
+3,[[object]]
+3,[[color]]
+2,[[place]]
+2,[[beast]]
 
 ;element
 1,void
@@ -190,9 +190,9 @@
 1,Angelic
 
 ;combatweapons
-6,[broadgroups]
-1,[martialweapons], [martialweapons]
-3,[martialweapons], [martialweapons], [martialweapons]
+6,[[broadgroups]]
+1,[[martialweapons]], [[martialweapons]]
+3,[[martialweapons]], [[martialweapons]], [[martialweapons]]
 
 ;broadgroups
 6,all weapons
@@ -207,8 +207,8 @@
 2,flails
 4,spear
 2,polearms
-1,[exoticweapons]
-5,[rangeweapons]
+1,[[exoticweapons]]
+5,[[rangeweapons]]
 
 ;rangeweapons
 1,javelin
@@ -237,36 +237,36 @@
 
 
 ;combathitdice
-2,d8 (d6+1)<br />'''Special Features:''' [combatfeatures], [combatfeatures], [combatfeatures], [combatfeatures], [combatfeatures]<br />
-7,d10 (d6+2)<br />'''Special Features:''' [combatfeatures], [combatfeatures], [combatfeatures], [combatfeatures]<br />
-1,d12 (d6+3)<br />'''Special Features:''' [combatfeatures], [combatfeatures], [combatfeatures]<br />
+2,d8 (d6+1)<br />'''Special Features:''' [[combatfeatures]], [[combatfeatures]], [[combatfeatures]], [[combatfeatures]], [[combatfeatures]]<br />
+7,d10 (d6+2)<br />'''Special Features:''' [[combatfeatures]], [[combatfeatures]], [[combatfeatures]], [[combatfeatures]]<br />
+1,d12 (d6+3)<br />'''Special Features:''' [[combatfeatures]], [[combatfeatures]], [[combatfeatures]]<br />
 
 ;combatfeatures
-1,attack bonus against [foes]
-1,attack bonus when [attackbonuswhen]
-1,attack bonus with [martialweapons]
-1,damage bonus against [foes]
-1,damage bonus when [damagebonuswhen]
-1,damage bonus with [martialweapons]
+1,attack bonus against [[foes]]
+1,attack bonus when [[attackbonuswhen]]
+1,attack bonus with [[martialweapons]]
+1,damage bonus against [[foes]]
+1,damage bonus when [[damagebonuswhen]]
+1,damage bonus with [[martialweapons]]
 1,bonus language
 1,bonus skill
-1,channel [Elements.4e] energy
-1,companion ([combatcompanion])
+1,channel [[Elements.4e]] energy
+1,companion ([[combatcompanion]])
 1,create magical items
-1,immune to [immunity]
+1,immune to [[immunity]]
 1,innate spell
-1,minor spellcasting ability ([Wizard schools.d20])
-1,resistant to [resistances]
-1,[Fantasy Spellcasting Class Generator.spellfeatures]
+1,minor spellcasting ability ([[Wizard schools.d20]])
+1,resistant to [[resistances]]
+1,[[Fantasy Spellcasting Class Generator.spellfeatures]]
 1,(skill ability)
 
 ;attackbonuswhen
-1,[condition]
-1,in [favored environment] environment
+1,[[condition]]
+1,in [[favored environment]] environment
 
 ;damagebonuswhen
-1,[condition]
-1,in [favored environment] environment
+1,[[condition]]
+1,in [[favored environment]] environment
 
 ;foes
 2,goblins
@@ -303,9 +303,9 @@
 1,magical beast
 
 ;resistances
-1,[Fantasy Spellcasting Class Generator.spellthemes]
-1,[immunity]
-1,[Elements.4e]
+1,[[Fantasy Spellcasting Class Generator.spellthemes]]
+1,[[immunity]]
+1,[[Elements.4e]]
 
 ;immunity
 2,disease
@@ -314,7 +314,7 @@
 3,sleep
 4,fear
 1,damage
-4,[Elements.d20]
+4,[[Elements.d20]]
 
 
 

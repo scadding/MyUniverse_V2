@@ -32,43 +32,43 @@
 # all others consonants as standard Canadian english
 
 ;Start
-1,<sgdisplay iterations = "3">[zomaword]</sgdisplay>
-1,<sgdisplay iterations = "3">[zomaname]</sgdisplay>
+1,<sgdisplay iterations = "3">[[zomaword]]</sgdisplay>
+1,<sgdisplay iterations = "3">[[zomaname]]</sgdisplay>
 
 
 ;zomaword
-1,[vowel][consonant]
-1,[consonant][vowel]
-1,[vowel][consonant][vowel]
-1,[consonant][vowel][consonant]
-1,[vowel][consonant][vowel][consonant]
-1,[consonant][vowel][consonant][vowel]
-1,[vowel][consonant][vowel][consonant][vowel]
-1,[consonant][vowel][consonant][vowel][consonant]
-1,[vowel][consonant][vowel][consonant][vowel][consonant]
-1,[consonant][vowel][consonant][vowel][consonant][vowel]
-1,[vowel][consonant][vowel][consonant][vowel][consonant][vowel]
-1,[consonant][vowel][consonant][vowel][consonant][vowel][consonant]
-1,[vowel][consonant][vowel][consonant][vowel][consonant][vowel][consonant]
-1,[consonant][vowel][consonant][vowel][consonant][vowel][consonant][vowel]
-1,[vowel][consonant][vowel][consonant][vowel][consonant][vowel][consonant][vowel]
+1,[[vowel]][[consonant]]
+1,[[consonant]][[vowel]]
+1,[[vowel]][[consonant]][[vowel]]
+1,[[consonant]][[vowel]][[consonant]]
+1,[[vowel]][[consonant]][[vowel]][[consonant]]
+1,[[consonant]][[vowel]][[consonant]][[vowel]]
+1,[[vowel]][[consonant]][[vowel]][[consonant]][[vowel]]
+1,[[consonant]][[vowel]][[consonant]][[vowel]][[consonant]]
+1,[[vowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]]
+1,[[consonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]]
+1,[[vowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]]
+1,[[consonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]]
+1,[[vowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]]
+1,[[consonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]]
+1,[[vowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]]
 
 ;zomaname
-1,[Capvowel][consonant]
-1,[Capconsonant][vowel]
-1,[Capvowel][consonant][vowel]
-1,[Capconsonant][vowel][consonant]
-1,[Capvowel][consonant][vowel][consonant]
-1,[Capconsonant][vowel][consonant][vowel]
-1,[Capvowel][consonant][vowel][consonant][vowel]
-1,[Capconsonant][vowel][consonant][vowel][consonant]
-1,[Capvowel][consonant][vowel][consonant][vowel][consonant]
-1,[Capconsonant][vowel][consonant][vowel][consonant][vowel]
-1,[Capvowel][consonant][vowel][consonant][vowel][consonant][vowel]
-1,[Capconsonant][vowel][consonant][vowel][consonant][vowel][consonant]
-1,[Capvowel][consonant][vowel][consonant][vowel][consonant][vowel][consonant]
-1,[Capconsonant][vowel][consonant][vowel][consonant][vowel][consonant][vowel]
-1,[Capvowel][consonant][vowel][consonant][vowel][consonant][vowel][consonant][vowel]
+1,[[Capvowel]][[consonant]]
+1,[[Capconsonant]][[vowel]]
+1,[[Capvowel]][[consonant]][[vowel]]
+1,[[Capconsonant]][[vowel]][[consonant]]
+1,[[Capvowel]][[consonant]][[vowel]][[consonant]]
+1,[[Capconsonant]][[vowel]][[consonant]][[vowel]]
+1,[[Capvowel]][[consonant]][[vowel]][[consonant]][[vowel]]
+1,[[Capconsonant]][[vowel]][[consonant]][[vowel]][[consonant]]
+1,[[Capvowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]]
+1,[[Capconsonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]]
+1,[[Capvowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]]
+1,[[Capconsonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]]
+1,[[Capvowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]]
+1,[[Capconsonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]]
+1,[[Capvowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]][[consonant]][[vowel]]
 
 ;vowel
 1,á

@@ -2,23 +2,23 @@
 
 ;Start
 1,The four basic elements<br>
-_<sgdisplay iterations="1">[basic]</sgdisplay><br>
+_<sgdisplay iterations="1">[[basic]]</sgdisplay><br>
 _The four para-elemental elements<br>
-_<sgdisplay iterations="1">[para]</sgdisplay><br>
+_<sgdisplay iterations="1">[[para]]</sgdisplay><br>
 _The four positive quasi-elemental elements<br>
-_<sgdisplay iterations="1">[positive]</sgdisplay><br>
+_<sgdisplay iterations="1">[[positive]]</sgdisplay><br>
 _The four negative quasi-elemental elements<br>
-_<sgdisplay iterations="1">[negative]</sgdisplay><br>
+_<sgdisplay iterations="1">[[negative]]</sgdisplay><br>
 _The eight quasi-elemental elements<br>
-_<sgdisplay iterations="1">[quasi]</sgdisplay><br>
+_<sgdisplay iterations="1">[[quasi]]</sgdisplay><br>
 _The two energy planes<br>
-_<sgdisplay iterations="1">[energy] energy</sgdisplay><br>
+_<sgdisplay iterations="1">[[energy]] energy</sgdisplay><br>
 _All the elements<br>
-_<sgdisplay iterations="1">[all]</sgdisplay><br>
+_<sgdisplay iterations="1">[[all]]</sgdisplay><br>
 _The Chinese elements<br>
-_<sgdisplay iterations="1">[China]</sgdisplay><br>
+_<sgdisplay iterations="1">[[China]]</sgdisplay><br>
 _The five standard d20 energy types<br>
-_<sgdisplay iterations="1">[d20]</sgdisplay><br>
+_<sgdisplay iterations="1">[[d20]]</sgdisplay><br>
 
 ;basicCap
 1,Air
@@ -51,18 +51,18 @@ _<sgdisplay iterations="1">[d20]</sgdisplay><br>
 1,vacuum
 
 ;quasi
-4,[positive]
-4,[negative]
+4,[[positive]]
+4,[[negative]]
 
 ;energy
 1,positive
 1,negative
 
 ;all
-4,[basic]
-4,[para]
-8,[quasi]
-2,[energy] energy
+4,[[basic]]
+4,[[para]]
+8,[[quasi]]
+2,[[energy]] energy
 
 ;China
 1,air

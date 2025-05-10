@@ -1,20 +1,20 @@
 
 ;Start
-1,[OracleResult]
+1,[[OracleResult]]
 
 ;OracleResult
-1,[Items]
-1,[Characters]
-1,[Locations]
-1,[Events]
-1,[Threats]
+1,[[Items]]
+1,[[Characters]]
+1,[[Locations]]
+1,[[Events]]
+1,[[Threats]]
 ;Items
-1,[City Items]
-1,[Countryside Items]
-1,[Magical Items]
-1,[Military Items]
-1,[Ruins Items]
-1,[Wilderness Items]
+1,[[City Items]]
+1,[[Countryside Items]]
+1,[[Magical Items]]
+1,[[Military Items]]
+1,[[Ruins Items]]
+1,[[Wilderness Items]]
 
 ;City Items
 1,A key on a broken chain, lost by the roadside. 
@@ -72,12 +72,12 @@
 1,A cursed dagger which must be doused in blood. 
 
 ;Characters
-1,[City Characters]
-1,[Countryside Characters]
-1,[Magical Characters]
-1,[Military Characters]
-1,[Ruins Characters]
-1,[Wilderness Characters]
+1,[[City Characters]]
+1,[[Countryside Characters]]
+1,[[Magical Characters]]
+1,[[Military Characters]]
+1,[[Ruins Characters]]
+1,[[Wilderness Characters]]
 
 ;City Characters 
 1,A wealthy merchant's son, refined and crafty. 
@@ -135,12 +135,12 @@
 1,A tough but patient wilderness guide leading a troupe of naive city folk.
 
 ;Locations
-1,[City Locations]
-1,[Countryside Locations]
-1,[Magical Locations]
-1,[Military Locations]
-1,[Ruins Locations]
-1,[Wilderness Locations]
+1,[[City Locations]]
+1,[[Countryside Locations]]
+1,[[Magical Locations]]
+1,[[Military Locations]]
+1,[[Ruins Locations]]
+1,[[Wilderness Locations]]
 
 ;City Locations 
 1,A rich and mighty temple, full of silver and fine goods. 
@@ -159,7 +159,7 @@
 1,A fishing village with an inn of good quality. 
 1,A slow-moving caravan, with many wagons and travelers. 
 1,A set of steps in the side of a hill, leading down into a damp underground icehouse.
-1,[Fantasy Farmstead.Start]
+1,[[Fantasy Farmstead.Start]]
 
 ;Magical Locations 
 1,The secluded home of an exiled court-wizard. 
@@ -198,12 +198,12 @@
 1,A vast precipice plunging steeply into the valley below.
 
 ;Events
-1,[City Events]
-1,[Countryside Events]
-1,[Magical Events]
-1,[Military Events]
-1,[Ruins Events]
-1,[Wilderness Events]
+1,[[City Events]]
+1,[[Countryside Events]]
+1,[[Magical Events]]
+1,[[Military Events]]
+1,[[Ruins Events]]
+1,[[Wilderness Events]]
 
 ;City Events 
 1,The celebration of a day sacred to the city's chief cult. 
@@ -260,12 +260,12 @@
 1,A flash flood sweeping through a refugee's campsite.
 
 ;Threats
-1,[City Threats]
-1,[Countryside Threats]
-1,[Magical Threats]
-1,[Military Threats]
-1,[Ruins Threats]
-1,[Wilderness Threats]
+1,[[City Threats]]
+1,[[Countryside Threats]]
+1,[[Magical Threats]]
+1,[[Military Threats]]
+1,[[Ruins Threats]]
+1,[[Wilderness Threats]]
 
 ;City Threats 
 1,A vicious gang of cut-throats and alley-thieves. 
@@ -322,12 +322,12 @@
 1,A vast, relentless army of ants, devouring everything in its path.
 
 ;Items Lcase
-1,[City Items Lcase]
-1,[Countryside Items Lcase]
-1,[Magical Items Lcase]
-1,[Military Items Lcase]
-1,[Ruins Items Lcase]
-1,[Wilderness Items Lcase]
+1,[[City Items Lcase]]
+1,[[Countryside Items Lcase]]
+1,[[Magical Items Lcase]]
+1,[[Military Items Lcase]]
+1,[[Ruins Items Lcase]]
+1,[[Wilderness Items Lcase]]
 
 ;City Items Lcase
 1,a key on a broken chain, lost by the roadside 
@@ -385,12 +385,12 @@
 1,a cursed dagger which must be doused in blood 
 
 ;Characters Lcase
-1,[City Characters Lcase]
-1,[Countryside Characters Lcase]
-1,[Magical Characters Lcase]
-1,[Military Characters Lcase]
-1,[Ruins Characters Lcase]
-1,[Wilderness Characters Lcase]
+1,[[City Characters Lcase]]
+1,[[Countryside Characters Lcase]]
+1,[[Magical Characters Lcase]]
+1,[[Military Characters Lcase]]
+1,[[Ruins Characters Lcase]]
+1,[[Wilderness Characters Lcase]]
 
 ;City Characters Lcase
 1,a wealthy merchant's son, refined and crafty 
@@ -448,12 +448,12 @@
 1,a tough but patient wilderness guide leading a troupe of naive city folk
 
 ;Locations Lcase
-1,[City Locations Lcase]
-1,[Countryside Locations Lcase]
-1,[Magical Locations Lcase]
-1,[Military Locations Lcase]
-1,[Ruins Locations Lcase]
-1,[Wilderness Locations Lcase]
+1,[[City Locations Lcase]]
+1,[[Countryside Locations Lcase]]
+1,[[Magical Locations Lcase]]
+1,[[Military Locations Lcase]]
+1,[[Ruins Locations Lcase]]
+1,[[Wilderness Locations Lcase]]
 
 ;City Locations Lcase
 1,a rich and mighty temple, full of silver and fine goods 
@@ -472,7 +472,7 @@
 1,a fishing village with an inn of good quality 
 1,a slow-moving caravan, with many wagons and travelers 
 1,a set of steps in the side of a hill, leading down into a damp underground icehouse
-1,[Fantasy Farmstead.Start]
+1,[[Fantasy Farmstead.Start]]
 
 ;Magical Locations Lcase
 1,the secluded home of an exiled court-wizard 
@@ -511,12 +511,12 @@
 1,a vast precipice plunging steeply into the valley below
 
 ;Events Lcase
-1,[City Events Lcase]
-1,[Countryside Events Lcase]
-1,[Magical Events Lcase]
-1,[Military Events Lcase]
-1,[Ruins Events Lcase]
-1,[Wilderness Events Lcase]
+1,[[City Events Lcase]]
+1,[[Countryside Events Lcase]]
+1,[[Magical Events Lcase]]
+1,[[Military Events Lcase]]
+1,[[Ruins Events Lcase]]
+1,[[Wilderness Events Lcase]]
 
 ;City Events Lcase
 1,the celebration of a day sacred to the city's chief cult 
@@ -574,12 +574,12 @@
 1,a flash flood sweeping through a refugee's campsite
 
 ;Threats Lcase
-1,[City Threats Lcase]
-1,[Countryside Threats Lcase]
-1,[Magical Threats Lcase]
-1,[Military Threats Lcase]
-1,[Ruins Threats Lcase]
-1,[Wilderness Threats Lcase]
+1,[[City Threats Lcase]]
+1,[[Countryside Threats Lcase]]
+1,[[Magical Threats Lcase]]
+1,[[Military Threats Lcase]]
+1,[[Ruins Threats Lcase]]
+1,[[Wilderness Threats Lcase]]
 
 ;City Threats Lcase
 1,a vicious gang of cut-throats and alley-thieves 

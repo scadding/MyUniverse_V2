@@ -1,45 +1,45 @@
 
-#Oracle for [http://suffadv.wikidot.com/ Sufficiently Advanced], 
+#Oracle for [[http://suffadv.wikidot.com/ Sufficiently Advanced]], 
 #a Game of the Far Future, based on the existing 
-#[http://suffadv.wikidot.com/briefing Briefing Generator] and [http://suffadv.wikidot.com/situation Situation Generator].
+#[[http://suffadv.wikidot.com/briefing Briefing Generator]] and [[http://suffadv.wikidot.com/situation Situation Generator]].
 
 ;Start
 1,<h2>Briefing from the Transcendentals</h2>
 _<sgdisplay iterations="1">
-_1. You must [You_Must] [And].<br/>
-_2. Then you will [Then_You_Will].<br/>
-_3. After which, [After_Which].
+_1. You must [[You_Must]] [[And]].<br/>
+_2. Then you will [[Then_You_Will]].<br/>
+_3. After which, [[After_Which]].
 _</sgdisplay>
 _
 _<h2>Facts on the Ground</h2>
 _<sgdisplay iterations="1">
-_<b>Red Herring:</b> [Problem]<br/>
-_<b>The Real Problem:</b> [Problem]<br/>
-_<b>Source of the Problem:</b> [Source_of_the_Problem]<br/>
-_<b>Human Complication:</b> [Human_Complication]<br/>
-_<b>Nonhuman Complication:</b> [Nonhuman_Complication]<br/>
-_<b>Inspector Hooks:</b> [Inspector_Hooks]. <br/>
-_<b>Consequences of Failure:</b> [Consequences_of_Failure]<br/>
+_<b>Red Herring:</b> [[Problem]]<br/>
+_<b>The Real Problem:</b> [[Problem]]<br/>
+_<b>Source of the Problem:</b> [[Source_of_the_Problem]]<br/>
+_<b>Human Complication:</b> [[Human_Complication]]<br/>
+_<b>Nonhuman Complication:</b> [[Nonhuman_Complication]]<br/>
+_<b>Inspector Hooks:</b> [[Inspector_Hooks]]. <br/>
+_<b>Consequences of Failure:</b> [[Consequences_of_Failure]]<br/>
 _</sgdisplay>
 _
 _<h2>Random Civiliations</h2>
 _<sgdisplay iterations="3">
-_<b>Name:</b> [Civilization_Name]<br/>
-_<b>Description:</b> [Bleakworld.Temperature], [Bleakworld.Colour] [Bleakworld.Terrain] world [Bleakworld.Function]<br/>
-_<b>Core Values:</b> [Core_Value] and [Core_Value]<br/>
-_<b>Inspector Status:</b> [Inspector_Status]<br/>
+_<b>Name:</b> [[Civilization_Name]]<br/>
+_<b>Description:</b> [[Bleakworld.Temperature]], [[Bleakworld.Colour]] [[Bleakworld.Terrain]] world [[Bleakworld.Function]]<br/>
+_<b>Core Values:</b> [[Core_Value]] and [[Core_Value]]<br/>
+_<b>Inspector Status:</b> [[Inspector_Status]]<br/>
 _</sgdisplay>
 
 ;You_Must
-1,wormhole to [Civilization]
+1,wormhole to [[Civilization]]
 1,wormhole to (location)
 1,travel to (location), which is under a wormhole interdiction field,
 1,speak with (NPC)
 1,attend (event)
-1,negotiate with (large group) of [Civilization]
-1,infiltrate (large group) of [Civilization]
+1,negotiate with (large group) of [[Civilization]]
+1,infiltrate (large group) of [[Civilization]]
 1,find and apprehend (NPC)
-1,defend the Patent Office's recent actions to [Civilization]
+1,defend the Patent Office's recent actions to [[Civilization]]
 1,defend the Patent Office's recent actions in (location)
 1,take a vacation on (world)
 
@@ -62,18 +62,18 @@ _</sgdisplay>
 
 ;Then_You_Will
 1,avoid human contact
-1,investigate the use of [Technology]
-1,prevent the activation of [Technology]
+1,investigate the use of [[Technology]]
+1,prevent the activation of [[Technology]]
 1,speak with (NPC)
-1,prevent the spread of [Technology]
+1,prevent the spread of [[Technology]]
 1,simply observe
 1,insure that intellectual property law is being followed
 1,act as mediator
-1,make contact with (small group) of [Civilization]
+1,make contact with (small group) of [[Civilization]]
 1,be the target of an attack
 
 ;Technology
-1,[Technology_Type] [Technology_Application] technology
+1,[[Technology_Type]] [[Technology_Application]] technology
 
 ;Technology_Type
 1,AI
@@ -118,24 +118,24 @@ _</sgdisplay>
 1,you will have to use your best judgment
 
 ;Civilization_Name
-4,[Fantasy Names.MaleFirstName]
-4,[Arabesque Names.Start]
-2,[Aztec Names.Start]
-3,[Centaur Names.Male]
-3,[Centaur Names.Female]
-1,[Ancient Greek Female Names.Start]
-1,[Ancient Greek Island Names.Start]
-1,[Ancient Greek Male Names.Start]
-5,[SGNP orcish.Start]
-5,[Fantasy barbarian names.Female]
-5,[Fantasy barbarian names.Male]
-2,[Afrika Names.Start]
-1,[SGNP norse.female1]
-1,[SGNP norse.female2]
-1,[SGNP norse.female3]
-1,[SGNP norse.male1]
-1,[SGNP norse.male2]
-1,[SGNP norse.male3]
+4,[[Fantasy Names.MaleFirstName]]
+4,[[Arabesque Names.Start]]
+2,[[Aztec Names.Start]]
+3,[[Centaur Names.Male]]
+3,[[Centaur Names.Female]]
+1,[[Ancient Greek Female Names.Start]]
+1,[[Ancient Greek Island Names.Start]]
+1,[[Ancient Greek Male Names.Start]]
+5,[[SGNP orcish.Start]]
+5,[[Fantasy barbarian names.Female]]
+5,[[Fantasy barbarian names.Male]]
+2,[[Afrika Names.Start]]
+1,[[SGNP norse.female1]]
+1,[[SGNP norse.female2]]
+1,[[SGNP norse.female3]]
+1,[[SGNP norse.male1]]
+1,[[SGNP norse.male2]]
+1,[[SGNP norse.male3]]
 
 ;Core_Value
 1,Accountability
@@ -212,7 +212,7 @@ _</sgdisplay>
 1,Runaway technology
 1,A lone lunatic
 1,The Darwinians
-1,[Civilization]
+1,[[Civilization]]
 1,A Civilization that some of the PCs are from
 1,A Civilization that none of the PCs are from
 1,A Society that some of the PCs are from

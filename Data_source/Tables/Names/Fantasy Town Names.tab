@@ -1,44 +1,44 @@
 
 ;Start
 1,==General==<br>
-_<sgdisplay iterations="10">[Standard]</sgdisplay><br>
+_<sgdisplay iterations="10">[[Standard]]</sgdisplay><br>
 _==Englishy==<br>
-_<sgdisplay iterations="5">[Englishy]</sgdisplay><br>
+_<sgdisplay iterations="5">[[Englishy]]</sgdisplay><br>
 
 ;Standard
-15,[Group1][Group2]
-4,[Misc][Suffix][Suffix]
-4,[Group1][Group2] [PlaceUpper]
-3,[Misc][Suffix]
-1,[Age] [Group1][Group2]
-1,[Direction] [Mineral][Group2]
-1,[Direction] [Color][Group2]
-1,[Age] [Mineral][Group2]
-1,[Age] [Color][Group2]
-1,[Prefix] [Group1][Group2]
-4,[Jobs]'s [PlaceUpper]
-3,[Fantasy Names.MaleFirstName]'s [PlaceUpper]
-5,[Englishy]
+15,[[Group1]][[Group2]]
+4,[[Misc]][[Suffix]][[Suffix]]
+4,[[Group1]][[Group2]] [[PlaceUpper]]
+3,[[Misc]][[Suffix]]
+1,[[Age]] [[Group1]][[Group2]]
+1,[[Direction]] [[Mineral]][[Group2]]
+1,[[Direction]] [[Color]][[Group2]]
+1,[[Age]] [[Mineral]][[Group2]]
+1,[[Age]] [[Color]][[Group2]]
+1,[[Prefix]] [[Group1]][[Group2]]
+4,[[Jobs]]'s [[PlaceUpper]]
+3,[[Fantasy Names.MaleFirstName]]'s [[PlaceUpper]]
+5,[[Englishy]]
 
 ;Englishy
-17,[Misc][Suffix]
-8,[Misc][Suffix][Suffix]
-1,[Direction] [Misc][Suffix]
-1,[Age] [Misc][Suffix]
-1,[Direction] [Misc][Suffix][Suffix]
-1,[Age] [Misc][Suffix][Suffix]
+17,[[Misc]][[Suffix]]
+8,[[Misc]][[Suffix]][[Suffix]]
+1,[[Direction]] [[Misc]][[Suffix]]
+1,[[Age]] [[Misc]][[Suffix]]
+1,[[Direction]] [[Misc]][[Suffix]][[Suffix]]
+1,[[Age]] [[Misc]][[Suffix]][[Suffix]]
 
 ;Group1
-1,[Mineral]
-1,[Color]
-1,[Direction]
-1,[Age]
-1,[Jobs]s
-10,[Misc]
-5,[Misc][Suffix]
+1,[[Mineral]]
+1,[[Color]]
+1,[[Direction]]
+1,[[Age]]
+1,[[Jobs]]s
+10,[[Misc]]
+5,[[Misc]][[Suffix]]
 
 ;Jobs
-5,[Secret Society Title.Title]
+5,[[Secret Society Title.Title]]
 1,Abbot
 1,Angel
 3,Baker
@@ -300,9 +300,9 @@ _<sgdisplay iterations="5">[Englishy]</sgdisplay><br>
 1,York
 
 ;Group2
-10,[Suffix]
-1,[Tree]
-2,[PlaceLower]
+10,[[Suffix]]
+1,[[Tree]]
+2,[[PlaceLower]]
 
 ;Suffix
 1,ant

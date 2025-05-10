@@ -1,6 +1,6 @@
 
 ;Start
-1,[nPulpHeroNovel]
+1,[[nPulpHeroNovel]]
 
 ;nPulpNoun
 1,Nannies
@@ -81,15 +81,15 @@
 1,and the Night of the
 1,in:
 1,versus the
-1,and [nPulpAdjPositive] [nPulpMaleFirstName]'s 
+1,and [[nPulpAdjPositive]] [[nPulpMaleFirstName]]'s 
 
 ;pulpend
-1,[nPulpAdjNegative] [nPulpNoun]
+1,[[nPulpAdjNegative]] [[nPulpNoun]]
 
 ;nPulpHeroNovel
-10,[nPulpAdjPositive] [nPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[nPulpMaleFirstName] [nPulpLastName] [pulpmiddle] [pulpend]
-3,[nPulpAdjPositive] [nPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[nPulpFemaleFirstName] [nPulpLastName] [pulpmiddle] [pulpend]
+10,[[nPulpAdjPositive]] [[nPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[nPulpMaleFirstName]] [[nPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[nPulpAdjPositive]] [[nPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[nPulpFemaleFirstName]] [[nPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

@@ -1,19 +1,19 @@
 
 ;Start
-5,[DwarfName] [Surnames]
-1,[Surnames]
+5,[[DwarfName]] [[Surnames]]
+1,[[Surnames]]
 
 ;DwarfName
-3,[HalflingHippies.MaleSyllable1][HalflingHippies.MaleSyllable2][HalflingHippies.MaleSyllable3]
-4,[Scottish Names.MaleFirst]
-1,[Surnames]
+3,[[HalflingHippies.MaleSyllable1]][[HalflingHippies.MaleSyllable2]][[HalflingHippies.MaleSyllable3]]
+4,[[Scottish Names.MaleFirst]]
+1,[[Surnames]]
 
 ;Surnames
-1,Mc[Scottish Names.Clan]
-1,Mac[Scottish Names.Clan]
-3,[SurnameStart1][SurnameEnd1]
-3,[SurnameStart2][SurnameEnd2]
-3,[SurnameStart3][SurnameEnd3]
+1,Mc[[Scottish Names.Clan]]
+1,Mac[[Scottish Names.Clan]]
+3,[[SurnameStart1]][[SurnameEnd1]]
+3,[[SurnameStart2]][[SurnameEnd2]]
+3,[[SurnameStart3]][[SurnameEnd3]]
 
 ;SurnameStart1
 1,Ale

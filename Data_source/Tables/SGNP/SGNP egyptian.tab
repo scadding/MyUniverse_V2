@@ -1,12 +1,12 @@
 
 ;Start
-1,[common_male] (common_male)
-1,[common_female] (common_female)
-1,[ancient_male] (ancient_male)
-1,[ancient_female] (ancient_female)
-1,[pharaoh] (pharaoh)
-1,[gods] (god)
-1,[goddess] (goddess)
+1,[[common_male]] (common_male)
+1,[[common_female]] (common_female)
+1,[[ancient_male]] (ancient_male)
+1,[[ancient_female]] (ancient_female)
+1,[[pharaoh]] (pharaoh)
+1,[[gods]] (god)
+1,[[goddess]] (goddess)
 
 ;common_male
 1,Chafulumisa

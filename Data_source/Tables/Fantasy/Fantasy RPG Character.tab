@@ -1,16 +1,16 @@
 
 ;Start
-1,[human]
-1,[femhuman]
-1,[elf]
-1,[femelf]
-1,[dwarf]
-1,[femdwarf]
-1,[halfling]
-1,[femhalfling]
+1,[[human]]
+1,[[femhuman]]
+1,[[elf]]
+1,[[femelf]]
+1,[[dwarf]]
+1,[[femdwarf]]
+1,[[halfling]]
+1,[[femhalfling]]
 
 ;human
-1,[human1][human2] the [physical], [social] male human [concept].
+1,[[human1]][[human2]] the [[physical]], [[social]] male human [[concept]].
 
 ;human1
 1,Al
@@ -82,7 +82,7 @@
 1,wise
 
 ;femhuman
-1,[femhuman1][femhuman2] the [physical], [social] female human [concept].
+1,[[femhuman1]][[femhuman2]] the [[physical]], [[social]] female human [[concept]].
 
 
 ;femhuman1
@@ -151,7 +151,7 @@
 1,trude
 
 ;elf
-1,[elf1][elf2] the [physical], [social] male elf [concept].
+1,[[elf1]][[elf2]] the [[physical]], [[social]] male elf [[concept]].
 
 ;elf1
 1,Aer
@@ -218,7 +218,7 @@
 1,we
 
 ;femelf
-1,[femelf1][femelf2] the [physical], [social] female elf [concept].
+1,[[femelf1]][[femelf2]] the [[physical]], [[social]] female elf [[concept]].
 
 ;femelf1
 1,Ar
@@ -278,7 +278,7 @@
 1,wine
 
 ;dwarf
-1,[dwarf1][dwarf2] the [physical], [social] male dwarf [concept].
+1,[[dwarf1]][[dwarf2]] the [[physical]], [[social]] male dwarf [[concept]].
 
 ;dwarf1
 1,Aza
@@ -336,7 +336,7 @@
 1,zad
 
 ;femdwarf
-1,[dwarf1][femdwarf2] the [physical], [social] female dwarf [concept].
+1,[[dwarf1]][[femdwarf2]] the [[physical]], [[social]] female dwarf [[concept]].
 
 ;femdwarf2
 1,as
@@ -397,7 +397,7 @@
 1,zath
 
 ;halfling
-1,[halfling1][halfling2] the [physical], [social] male halfling [concept].
+1,[[halfling1]][[halfling2]] the [[physical]], [[social]] male halfling [[concept]].
 
 ;halfling1
 1,Adel
@@ -456,7 +456,7 @@
 1,wise
 
 ;femhalfling
-1,[femhalfling1][femhalfling2] the [physical], [social] female halfling [concept].
+1,[[femhalfling1]][[femhalfling2]] the [[physical]], [[social]] female halfling [[concept]].
 
 ;femhalfling1
 1,Ada

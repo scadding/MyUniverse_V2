@@ -1,7 +1,7 @@
 
 ;Start
-1,[male] [surnames]
-1,[female] [surnames]
+1,[[male]] [[surnames]]
+1,[[female]] [[surnames]]
 
 ;male
 1,Boris (Boba, Borya) 

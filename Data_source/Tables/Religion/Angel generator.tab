@@ -1,6 +1,6 @@
 
 ;Start
-1,[Name], [Title Type]
+1,[[Name]], [[Title Type]]
 
 ;Name
 1,Raziel
@@ -22,13 +22,13 @@
 1,Musiel
 1,Ahael
 1,Rustodrazon
-4,[SGNP angels and demons.male]
-4,[SGNP angels and demons.female]
+4,[[SGNP angels and demons.male]]
+4,[[SGNP angels and demons.female]]
 
 ;Title Type
-1,Herald of [theme 1]
-4,[Title] of [theme 1]
-1,[SGNP angels and demons.title]
+1,Herald of [[theme 1]]
+4,[[Title]] of [[theme 1]]
+1,[[SGNP angels and demons.title]]
 
 ;Title
 3,Lord
@@ -39,7 +39,7 @@
 12,Bringer
 30,Knight
 20,Servant
-10,[Secret Society Title.Title]
+10,[[Secret Society Title.Title]]
 
 
 ;theme 1
@@ -57,7 +57,7 @@
 1,Heaven
 1,Celestia
 1,Beauty
-3,[Inscriptions.AbstractNounPositive]
+3,[[Inscriptions.AbstractNounPositive]]
 
 
 

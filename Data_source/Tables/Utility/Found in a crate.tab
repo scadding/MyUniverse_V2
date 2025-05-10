@@ -1,10 +1,10 @@
 
 ;Start
-2,a pair of [Color.dull] [shoe style]
-1,{{plural|[number] paintbrush}}
+2,a pair of [[Color.dull]] [[shoe style]]
+1,{{plural|[[number]] paintbrush}}
 1,a bee's nest
-1,a ball of [Color.bright] yarn
-1,{{article|[Color.hues] vest}}
+1,a ball of [[Color.bright]] yarn
+1,{{article|[[Color.hues]] vest}}
 1,a spoon
 1,a pitchfork
 1,a jar of pickles
@@ -15,30 +15,30 @@
 2,a set of fish-hooks
 1,a fishing rod
 1,a cheese knife
-3,a large [cheese_type] cheese, sealed in a [Color.dull] wax rind
+3,a large [[cheese_type]] cheese, sealed in a [[Color.dull]] wax rind
 1,a dagger
 2,parchment
 1,thread
-2,{{plural|[number] Empty burlap sacks}}
-2,{{plural|[number] potato}}
-2,{{plural|[number] apple}}
-2,{{plural|[number] orange}}
-2,{{plural|[number] edible mushroom}}
-2,{{plural|[number] wooden dowel}}
-2,{{plural|[number] empty glass bottle}}
+2,{{plural|[[number]] Empty burlap sacks}}
+2,{{plural|[[number]] potato}}
+2,{{plural|[[number]] apple}}
+2,{{plural|[[number]] orange}}
+2,{{plural|[[number]] edible mushroom}}
+2,{{plural|[[number]] wooden dowel}}
+2,{{plural|[[number]] empty glass bottle}}
 1,a quill
-1,a bottle of [Color.dark] ink
+1,a bottle of [[Color.dark]] ink
 1,a shovel
-1,{{plural|[number] silver coin}}
-2,{{plural|[number] copper coin}}
+1,{{plural|[[number]] silver coin}}
+2,{{plural|[[number]] copper coin}}
 1,a winter cap
-2,{{plural|[number] [Color.hues] candle}}
-1,{{article|[Color.bright]}} scarf
+2,{{plural|[[number]] [[Color.hues]] candle}}
+1,{{article|[[Color.bright]]}} scarf
 1,a pair of shears
 1,a hammer
 1,a tin cup
 1,a ceramic jug
-1,{{plural|[number] sack}} of flour
+1,{{plural|[[number]] sack}} of flour
 1,a whetstone
 1,a rake
 1,a hoe

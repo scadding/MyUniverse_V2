@@ -1,22 +1,22 @@
 #===Pulp Master Villain===
-#<sgdisplay iterations="1">[master] <br/><ul><li>[personality] <li> [Personality Generator.positive]-[Personality Generator.negative] #<li> [master_plan] </ul> </sgdisplay>
+#<sgdisplay iterations="1">[[master]] <br/><ul><li>[[personality]] <li> [[Personality Generator.positive]]-[[Personality Generator.negative]] #<li> [[master_plan]] </ul> </sgdisplay>
 #===Organization===
-#<sgdisplay iterations="1">[pulp villain organization.organization]</sgdisplay>
-#<sgdisplay iterations="1">[organization] </sgdisplay>
-#<sgdisplay iterations="1"><ul><li> [resources] </ul></sgdisplay>
+#<sgdisplay iterations="1">[[pulp villain organization.organization]]</sgdisplay>
+#<sgdisplay iterations="1">[[organization]] </sgdisplay>
+#<sgdisplay iterations="1"><ul><li> [[resources]] </ul></sgdisplay>
 #
 #===Other Villains===
-#<sgdisplay iterations="9">[main]</sgdisplay>
+#<sgdisplay iterations="9">[[main]]</sgdisplay>
 
 
 ;Start
-1,[nationality] [archetype] Is Motivated by [motivation_main], which in turn affects the [aim_main] <br/>
+1,[[nationality]] [[archetype]] Is Motivated by [[motivation_main]], which in turn affects the [[aim_main]] <br/>
 
 ;master
-1,[nationality] [archetype] 
+1,[[nationality]] [[archetype]] 
 
 ;personality
-1,Is Motivated by [motivation_main], which in turn affects the [aim_main]
+1,Is Motivated by [[motivation_main]], which in turn affects the [[aim_main]]
 
 ;motivation_main
 3,sense of Duty and Honor
@@ -39,9 +39,9 @@
 1,Redemption
 
 ;master_plan
-1,Villains Current [mp_type] Master Plan is to [major_plan_1] the [major_plan_2] of the [target_plan]
-1,Villains Current [mp_type] Master Plot is to [major_plot_1] the [major_plot_2] in the [target_plot]
-1,Villains Current [mp_type] Aim is to [major_aim_1] the [major_aim_2] in the [target_aim]
+1,Villains Current [[mp_type]] Master Plan is to [[major_plan_1]] the [[major_plan_2]] of the [[target_plan]]
+1,Villains Current [[mp_type]] Master Plot is to [[major_plot_1]] the [[major_plot_2]] in the [[target_plot]]
+1,Villains Current [[mp_type]] Aim is to [[major_aim_1]] the [[major_aim_2]] in the [[target_aim]]
 
 ;major_plan_1
 1,Steal 
@@ -175,9 +175,9 @@
 1,Beach
 
 ;aim_main
-2,Plotting to [plot_1] [plot_2]
-1,Planning to [plan_1] [plan_2]
-1,Aiming to [aim_1] [aim_2]
+2,Plotting to [[plot_1]] [[plot_2]]
+1,Planning to [[plan_1]] [[plan_2]]
+1,Aiming to [[aim_1]] [[aim_2]]
 
 ;plan_1
 1,steal 
@@ -223,13 +223,13 @@
 
 ;plot_2
 1,a celebrity 
-1,a [nationality] politician 
+1,a [[nationality]] politician 
 1,a bank boss 
 1,a news reporter 
 1,an author 
-1,a [nationality] scientist 
+1,a [[nationality]] scientist 
 1,a doctor 
-1,an [nationality] ace pilot
+1,an [[nationality]] ace pilot
 1,an archaeology professor
 1,an Egyptologist
 1,an explorer
@@ -240,7 +240,7 @@
 1,a playwright
 1,a police officer
 1,a smuggler
-1,a [nationality] spy
+1,a [[nationality]] spy
 2,the female population of the city
 2,the beautiful females of the city
 2,the male population of the city
@@ -267,7 +267,7 @@
 2,the people of the United States of America
 1,the leaders of government's secret service
 1,an officer
-2,the elite of the [nationality] military
+2,the elite of the [[nationality]] military
 2,the president of the United States of America
 2,the supreme court of the United States of America
 2,the labor union leaders in the United States of America
@@ -312,55 +312,55 @@
 
 ;nationality
 10,American 
-8,[european_nationality]
-6,[german_nationality]
-6,[oriental_nationality]
-6,[other_nationality]
+8,[[european_nationality]]
+6,[[german_nationality]]
+6,[[oriental_nationality]]
+6,[[other_nationality]]
 
 ;archetype 
-1,Assassin ” '' [call_sign_part1] [call_sign_part2] ''” [assassin_type] and [headquarter_mundane]
-1,Big Game Hunter [exotic_help] and [headquarter_exotic] 
-1,Veteran Soldier of fortune and [headquarter_mundane]
-1,Cat Burglar ”''[call_sign_part1] [call_sign_part2]''” [headquarter_mundane] 
-1,Corrupt Civil Servant [headquarter_mundane]
-1,Crazed Inventor with [name_part1] [name_part2] and [headquarter_strange] 
-1,Crime Lord specializing [specialty] and [headquarter_mundane]
-1,Villainous Military Officer from [military] and [headquarter_strange]
-1,Cult Leader ”''[call_sign_part1] [call_sign_part2]''” [headquarter_cult]  
-1,Diabolical Mystic ”''[call_sign_part1] [call_sign_part2]''” [headquarter_exotic]
-1,Despot [strange], with collection of [collection] [exotic_help] and [headquarter_strange]
-1,Criminal Doctor [medical] ”''[call_sign_part1] [call_sign_part2]''” [headquarter_mundane]
-1,Entertainer turned a Criminal who [method] and [headquarter_mundane] 
-1,Exiled Tyrant [strange], who has hidden his identity behind the name ”''[call_sign_part1] [call_sign_part2] ''” [headquarter_strange]
-1,Femma Fatale [strange] and [headquarter_mundane]
-1,Great War Veteran-Flying Ace ”''[call_sign_part1] [call_sign_part2]''” [headquarter_strange]
-1,Gangster specializing [specialty] and [headquarter_mundane]
-1,Hellfire Minister [headquarter_cult]
-1,Hunter of Men [strange] and collection of [collection], [headquarter_strange]
-1,Hypnotist ”''[call_sign_part1] [call_sign_part2]''” [headquarter_strange]
-1,Jungle Lord [exotic_help] and [headquarter_exotic] 
-1,Jungle Queen [exotic_help] and [headquarter_exotic]  
-1,Mad Scientist With [name_part1] [name_part2] and [headquarter_mundane]
-1,Magician called ” '' [call_sign_part1] [call_sign_part2] ''” with collection of [collection], [headquarter_strange]
-1,Mystic ” '' [call_sign_part1] [call_sign_part2] ''” [headquarter_cult]
-1,Playboy [strange] [headquarter_mundane]
-1,Poisoner ” '' [call_sign_part1] [call_sign_part2] ''” [headquarter_mundane]
-1,Ruthless Tycoon [strange] [headquarter_mundane] 
-1,Spy ” '' [call_sign_part1] [call_sign_part2] ''” [headquarter_mundane]
-1,Terrorist ” '' [call_sign_part1] [call_sign_part2] ''” [headquarter_mundane]
-1,Collector of [collection] [headquarter_exotic]
-1,Exotic Shop Owner [strange] [headquarter_mundane]
-1,Dilettente, who is in truth an Alien Agent in secret mission from Mars, [headquarter_mundane] 
-1,Wealthy Media Magnate [headquarter_mundane]
-1,Member of Elite [strange] and collection of [collection], [headquarter_mundane]
-1,Anarchist [headquarter_mundane]
-1,Archeologist [strange] [headquarter_exotic]
-1,Criminal Mastermind ” '' [call_sign_part1] [call_sign_part2] ''” [headquarter_strange]
-1,Leader of Medical Institute with [medical] and [headquarter_mundane]
-1,Villainous Explorer and Slave Trader [headquarter_exotic]
-1,Leader of Espionage Agency [headquarter_mundane] 
-1,Wealthy member of City's High Society who is Member of International Secret Society of ” '' [call_sign_part1] [call_sign_part2] ''” with collection of [collection] [headquarter_mundane]
-1,Masked Criminal [masked] , uses the name ” '' [call_sign_part1] [call_sign_part2] ''” and [headquarter_strange]
+1,Assassin ” '' [[call_sign_part1]] [[call_sign_part2]] ''” [[assassin_type]] and [[headquarter_mundane]]
+1,Big Game Hunter [[exotic_help]] and [[headquarter_exotic]] 
+1,Veteran Soldier of fortune and [[headquarter_mundane]]
+1,Cat Burglar ”''[[call_sign_part1]] [[call_sign_part2]]''” [[headquarter_mundane]] 
+1,Corrupt Civil Servant [[headquarter_mundane]]
+1,Crazed Inventor with [[name_part1]] [[name_part2]] and [[headquarter_strange]] 
+1,Crime Lord specializing [[specialty]] and [[headquarter_mundane]]
+1,Villainous Military Officer from [[military]] and [[headquarter_strange]]
+1,Cult Leader ”''[[call_sign_part1]] [[call_sign_part2]]''” [[headquarter_cult]]  
+1,Diabolical Mystic ”''[[call_sign_part1]] [[call_sign_part2]]''” [[headquarter_exotic]]
+1,Despot [[strange]], with collection of [[collection]] [[exotic_help]] and [[headquarter_strange]]
+1,Criminal Doctor [[medical]] ”''[[call_sign_part1]] [[call_sign_part2]]''” [[headquarter_mundane]]
+1,Entertainer turned a Criminal who [[method]] and [[headquarter_mundane]] 
+1,Exiled Tyrant [[strange]], who has hidden his identity behind the name ”''[[call_sign_part1]] [[call_sign_part2]] ''” [[headquarter_strange]]
+1,Femma Fatale [[strange]] and [[headquarter_mundane]]
+1,Great War Veteran-Flying Ace ”''[[call_sign_part1]] [[call_sign_part2]]''” [[headquarter_strange]]
+1,Gangster specializing [[specialty]] and [[headquarter_mundane]]
+1,Hellfire Minister [[headquarter_cult]]
+1,Hunter of Men [[strange]] and collection of [[collection]], [[headquarter_strange]]
+1,Hypnotist ”''[[call_sign_part1]] [[call_sign_part2]]''” [[headquarter_strange]]
+1,Jungle Lord [[exotic_help]] and [[headquarter_exotic]] 
+1,Jungle Queen [[exotic_help]] and [[headquarter_exotic]]  
+1,Mad Scientist With [[name_part1]] [[name_part2]] and [[headquarter_mundane]]
+1,Magician called ” '' [[call_sign_part1]] [[call_sign_part2]] ''” with collection of [[collection]], [[headquarter_strange]]
+1,Mystic ” '' [[call_sign_part1]] [[call_sign_part2]] ''” [[headquarter_cult]]
+1,Playboy [[strange]] [[headquarter_mundane]]
+1,Poisoner ” '' [[call_sign_part1]] [[call_sign_part2]] ''” [[headquarter_mundane]]
+1,Ruthless Tycoon [[strange]] [[headquarter_mundane]] 
+1,Spy ” '' [[call_sign_part1]] [[call_sign_part2]] ''” [[headquarter_mundane]]
+1,Terrorist ” '' [[call_sign_part1]] [[call_sign_part2]] ''” [[headquarter_mundane]]
+1,Collector of [[collection]] [[headquarter_exotic]]
+1,Exotic Shop Owner [[strange]] [[headquarter_mundane]]
+1,Dilettente, who is in truth an Alien Agent in secret mission from Mars, [[headquarter_mundane]] 
+1,Wealthy Media Magnate [[headquarter_mundane]]
+1,Member of Elite [[strange]] and collection of [[collection]], [[headquarter_mundane]]
+1,Anarchist [[headquarter_mundane]]
+1,Archeologist [[strange]] [[headquarter_exotic]]
+1,Criminal Mastermind ” '' [[call_sign_part1]] [[call_sign_part2]] ''” [[headquarter_strange]]
+1,Leader of Medical Institute with [[medical]] and [[headquarter_mundane]]
+1,Villainous Explorer and Slave Trader [[headquarter_exotic]]
+1,Leader of Espionage Agency [[headquarter_mundane]] 
+1,Wealthy member of City's High Society who is Member of International Secret Society of ” '' [[call_sign_part1]] [[call_sign_part2]] ''” with collection of [[collection]] [[headquarter_mundane]]
+1,Masked Criminal [[masked]] , uses the name ” '' [[call_sign_part1]] [[call_sign_part2]] ''” and [[headquarter_strange]]
 
 ;medical
 1,medical specialty in plastic surgery

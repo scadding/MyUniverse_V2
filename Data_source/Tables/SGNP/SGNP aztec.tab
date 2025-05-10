@@ -1,10 +1,10 @@
 
 ;Start
-1,[NobleMale] (Noble, Jaguar Knight, or Priest)
-1,[NobleFemale] (Priestess, Sorceress, or Lady)
-1,[Pochteca] (Pochteca or Macehualli)
-1,[FemaleCommoner] (Female Commoner)
-1,[MaleGeneric] (Male Commoner)
+1,[[NobleMale]] (Noble, Jaguar Knight, or Priest)
+1,[[NobleFemale]] (Priestess, Sorceress, or Lady)
+1,[[Pochteca]] (Pochteca or Macehualli)
+1,[[FemaleCommoner]] (Female Commoner)
+1,[[MaleGeneric]] (Male Commoner)
 
 
 ;NobleMale

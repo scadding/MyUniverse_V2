@@ -1,20 +1,20 @@
 
 ;Start
-1,[Adj] [Noun]
-1,[Body Part]-[BodypartAction]
-1,[Adj] [Body Part][BodypartAction]
+1,[[Adj]] [[Noun]]
+1,[[Body Part]]-[[BodypartAction]]
+1,[[Adj]] [[Body Part]][[BodypartAction]]
 
 ;Adj
-2,[Color]
-7,[Condition]
-2,[Other]
+2,[[Color]]
+7,[[Condition]]
+2,[[Other]]
 
 ;Noun
-3,[Body Part]
-2,[Weapon]
-2,[Thing]
-1,[Animal]
-2,[BodypartAction]
+3,[[Body Part]]
+2,[[Weapon]]
+2,[[Thing]]
+1,[[Animal]]
+2,[[BodypartAction]]
 
 ;Color
 1,Black

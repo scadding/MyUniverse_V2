@@ -1,43 +1,43 @@
 
 ;Start
-4,[Name]
-1,La Señal del [Name]
-1,[Name] [Establishment]
-1,[Establishment] del [Name]
-1,[Establishment] de [PersonName]
+4,[[Name]]
+1,La Señal del [[Name]]
+1,[[Name]] [[Establishment]]
+1,[[Establishment]] del [[Name]]
+1,[[Establishment]] de [[PersonName]]
 
 ;PersonName
-1,[Fantasy Names.MaleFirstName]
-1,[Fantasy Names.FemaleFirstName]
+1,[[Fantasy Names.MaleFirstName]]
+1,[[Fantasy Names.FemaleFirstName]]
 
 ;Name
-13,[Creature]
-6,[Person]
-6,[Item]
-6,Las armas de [Person]
-5,[Location]
-2,Vieja [Location]
-2,Cabeza de [Creature]
-6,[Number] [Creature]s
-6,[Number] [Person]s
-6,[Number] [Item]s
-20,[Creature] [Adjective]
-20,[Person] [Adjective]
-20,[Item] [Adjective]
-10,[Creature] y [Creature]
-10,[Creature] y [Person]
-10,[Creature] y [Item]
-10,[Person] y [Person]
-10,[Person] y [Creature]
-10,[Person] y [Item]
-10,[Item] y [Item]
-10,[Item] y [Person]
-10,[Item] y [Creature]
-15,[Item] de [Person]
-4,[Creature] de [Person]
-20,[Establishment] de [Person]
-5,[Establishment] de [Person] [Adjective]
-10,[Establishment] de [Creature]
+13,[[Creature]]
+6,[[Person]]
+6,[[Item]]
+6,Las armas de [[Person]]
+5,[[Location]]
+2,Vieja [[Location]]
+2,Cabeza de [[Creature]]
+6,[[Number]] [[Creature]]s
+6,[[Number]] [[Person]]s
+6,[[Number]] [[Item]]s
+20,[[Creature]] [[Adjective]]
+20,[[Person]] [[Adjective]]
+20,[[Item]] [[Adjective]]
+10,[[Creature]] y [[Creature]]
+10,[[Creature]] y [[Person]]
+10,[[Creature]] y [[Item]]
+10,[[Person]] y [[Person]]
+10,[[Person]] y [[Creature]]
+10,[[Person]] y [[Item]]
+10,[[Item]] y [[Item]]
+10,[[Item]] y [[Person]]
+10,[[Item]] y [[Creature]]
+15,[[Item]] de [[Person]]
+4,[[Creature]] de [[Person]]
+20,[[Establishment]] de [[Person]]
+5,[[Establishment]] de [[Person]] [[Adjective]]
+10,[[Establishment]] de [[Creature]]
 
 
 ;Creature
@@ -208,8 +208,8 @@
 1,Borrego
 
 ;Person
-1,[Fantasy Names.MaleFirstName]
-1,[Fantasy Names.FemaleFirstName]
+1,[[Fantasy Names.MaleFirstName]]
+1,[[Fantasy Names.FemaleFirstName]]
 1,Abad
 1,Amazona
 1,Arquero

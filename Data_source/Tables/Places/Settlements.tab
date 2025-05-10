@@ -1,13 +1,13 @@
 
 ;Start
-1,A [Type] [EnvironmentPhrase]. <br>
+1,A [[Type]] [[EnvironmentPhrase]]. <br>
 
 
 ;Type
-8,[TinyAdj] [Tiny]
-4,[SmallAdj] [Small]
-2,[Adjective] [Medium]
-1,[Adjective] [Large]
+8,[[TinyAdj]] [[Tiny]]
+4,[[SmallAdj]] [[Small]]
+2,[[Adjective]] [[Medium]]
+1,[[Adjective]] [[Large]]
 
 ;EnvironmentPhrase
 2,in the countryside
@@ -64,11 +64,11 @@
 1,monastery
 
 ;TinyAdj
-1,[Adjective]
+1,[[Adjective]]
 1, nearly-empty
 
 ;SmallAdj
-1,[Adjective]
+1,[[Adjective]]
 1, bandit-infested
 1, starving
 1, rugged

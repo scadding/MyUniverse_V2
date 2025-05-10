@@ -1,9 +1,9 @@
 
 ;Start
-3,[Syl1r][Syl2r]
-1,[Syl1r][Syl2r][Syl3r]
-6,[Syl1][Syl2]
-2,[Syl1][Syl2][Syl3]
+3,[[Syl1r]][[Syl2r]]
+1,[[Syl1r]][[Syl2r]][[Syl3r]]
+6,[[Syl1]][[Syl2]]
+2,[[Syl1]][[Syl2]][[Syl3]]
 
 ;Syl1r
 1,Ar

@@ -1,40 +1,40 @@
 
 ;Start
-2,[original]
-1,[link]
+2,[[original]]
+1,[[link]]
 
 ;original
-2,[beastsentence].
-1,[objectsentence].
-1,[groupsentence].
-2,[DesolatePlaces]
+2,[[beastsentence]].
+1,[[objectsentence]].
+1,[[groupsentence]].
+2,[[DesolatePlaces]]
 
 ;link
-1,[Fantasy Oracle Maker.beasts].
-1,[AGG Ruins]
-1,[AGG Wilderness]
+1,[[Fantasy Oracle Maker.beasts]].
+1,[[AGG Ruins]]
+1,[[AGG Wilderness]]
 
 
 ;AGG Ruins
-1,[Art Grace and Guts Oracle.Ruins Items]
-1,[Art Grace and Guts Oracle.Ruins Characters]
-1,[Art Grace and Guts Oracle.Ruins Locations]
-1,[Art Grace and Guts Oracle.Ruins Events]
-1,[Art Grace and Guts Oracle.Ruins Threats]
+1,[[Art Grace and Guts Oracle.Ruins Items]]
+1,[[Art Grace and Guts Oracle.Ruins Characters]]
+1,[[Art Grace and Guts Oracle.Ruins Locations]]
+1,[[Art Grace and Guts Oracle.Ruins Events]]
+1,[[Art Grace and Guts Oracle.Ruins Threats]]
 
 ;AGG Wilderness
-1,[Art Grace and Guts Oracle.Wilderness Items]
-1,[Art Grace and Guts Oracle.Wilderness Characters]
-1,[Art Grace and Guts Oracle.Wilderness Locations]
-1,[Art Grace and Guts Oracle.Wilderness Events]
-1,[Art Grace and Guts Oracle.Wilderness Threats]
+1,[[Art Grace and Guts Oracle.Wilderness Items]]
+1,[[Art Grace and Guts Oracle.Wilderness Characters]]
+1,[[Art Grace and Guts Oracle.Wilderness Locations]]
+1,[[Art Grace and Guts Oracle.Wilderness Events]]
+1,[[Art Grace and Guts Oracle.Wilderness Threats]]
 
 ;beastsentence
-1,[beastcap], [beastplacerelation] [place]
-1,[placecap], [placebeastrelation]
+1,[[beastcap]], [[beastplacerelation]] [[place]]
+1,[[placecap]], [[placebeastrelation]]
 
 ;objectsentence
-1,[objectcap], [objectplacerelation] [place]
+1,[[objectcap]], [[objectplacerelation]] [[place]]
 
 ;beastcap
 1,A minotaur, the deformed son of god and woman
@@ -89,7 +89,7 @@
 1,a great tree, as big around as a house, towering over all the other trees of the forest
 1,an endless sea of sand dunes
 1,a forest of trees, all turned to stone
-1,the ruins of [ruins] in [place]
+1,the ruins of [[ruins]] in [[place]]
 1,a valley of sharp pinnacles and salt columns
 1,a mess of tar pits, foul of stench and treacherous
 1,a wall of sheer cliffs, full of shrieking monkeys
@@ -114,18 +114,18 @@
 1,A great tree, as big around as a house, towering over all the other trees of the forest
 1,An endless sea of sand dunes
 1,A forest of trees, all turned to stone
-1,The ruins of [ruins] in [place]
+1,The ruins of [[ruins]] in [[place]]
 1,A valley of sharp pinnacles and salt columns
 1,A mess of tar pits, foul of stench and treacherous
 1,A wall of sheer cliffs, full of shrieking monkeys
 
 ;placebeastrelation
-1,guarded by [beast]
-1,haunted by the spirit of [beast]
-1,the lair of [beast]
-1,littered with the bones of those who sought [beast] there
-1,barren of life but for [beast]
-1,its small village ruled by [beast]
+1,guarded by [[beast]]
+1,haunted by the spirit of [[beast]]
+1,the lair of [[beast]]
+1,littered with the bones of those who sought [[beast]] there
+1,barren of life but for [[beast]]
+1,its small village ruled by [[beast]]
 
 ;ruins
 1,a fortress
@@ -147,15 +147,15 @@
 1,said to be near
 1,which rumours suppose to be close to
 1,drawn on a map alongside
-1,guarded by [beast] at
+1,guarded by [[beast]] at
 
 ;groupsentence
-1,A trade caravan, loaded with treasures and guarded by mercenaries, snaking its way past [place]
-1,A colony of lepers, shrouded in rags and reeking of death, driven to inhabit [place]
-1,A secretive tribe of elves and satyrs, tempters and tricksters by nature, who revel at [place] during the full moon
-1,A coven of snake-worshipers and their followers, at [place]
-1,A tribe of nomadic horsemen, making their way to [place]
-1,A group of monks and pilgrims traveling to [place], in search of enlightenment
+1,A trade caravan, loaded with treasures and guarded by mercenaries, snaking its way past [[place]]
+1,A colony of lepers, shrouded in rags and reeking of death, driven to inhabit [[place]]
+1,A secretive tribe of elves and satyrs, tempters and tricksters by nature, who revel at [[place]] during the full moon
+1,A coven of snake-worshipers and their followers, at [[place]]
+1,A tribe of nomadic horsemen, making their way to [[place]]
+1,A group of monks and pilgrims traveling to [[place]], in search of enlightenment
 
 ;DesolatePlaces
 0,--borrowed from other oracles--

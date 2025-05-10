@@ -1,6 +1,6 @@
 
 ;Start
-1,[lPulpHeroNovel]
+1,[[lPulpHeroNovel]]
 
 ;lPulpNoun
 1,Labyrinth
@@ -134,15 +134,15 @@
 1,and the Lost Link of the
 1,in:
 1,versus the
-1,and [lPulpAdjPositive] [lPulpMaleFirstName]'s 
+1,and [[lPulpAdjPositive]] [[lPulpMaleFirstName]]'s 
 
 ;pulpend
-1,[lPulpAdjNegative] [lPulpNoun]
+1,[[lPulpAdjNegative]] [[lPulpNoun]]
 
 ;lPulpHeroNovel
-10,[lPulpAdjPositive] [lPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[lPulpMaleFirstName] [lPulpLastName] [pulpmiddle] [pulpend]
-3,[lPulpAdjPositive] [lPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[lPulpFemaleFirstName] [lPulpLastName] [pulpmiddle] [pulpend]
+10,[[lPulpAdjPositive]] [[lPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[lPulpMaleFirstName]] [[lPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[lPulpAdjPositive]] [[lPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[lPulpFemaleFirstName]] [[lPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

@@ -1,22 +1,22 @@
 
 ;Start
-1,<strong>1d4 rolls:</strong><br/><sgdisplay iterations="1">[1d4] [1d4] [1d4] [1d4] [1d4]</sgdisplay><br>
-_<strong>1d6 rolls:</strong><br/><sgdisplay iterations="1">[1d6] [1d6] [1d6] [1d6] [1d6]</sgdisplay><br>
-_<strong>1d8 rolls:</strong><br/><sgdisplay iterations="1">[1d8] [1d8] [1d8] [1d8] [1d8]</sgdisplay><br>
-_<strong>1d10 rolls:</strong><br/><sgdisplay iterations="1">[1d10] [1d10] [1d10] [1d10] [1d10]</sgdisplay><br>
-_<strong>1d12 rolls:</strong><br/><sgdisplay iterations="1">[1d12] [1d12] [1d12] [1d12] [1d12]</sgdisplay><br>
-_<strong>1d20 rolls:</strong><br/><sgdisplay iterations="1">[1d20] [1d20] [1d20] [1d20] [1d20]</sgdisplay><br>
-_<strong>2d6 rolls:</strong><br/><sgdisplay iterations="1">[2d6] [2d6] [2d6] [2d6] [2d6] [2d6]</sgdisplay><br>
-_<strong>3d6 rolls:</strong><br/><sgdisplay iterations="1">[3d6] [3d6] [3d6] [3d6] [3d6] [3d6]</sgdisplay><br>
+1,<strong>1d4 rolls:</strong><br/><sgdisplay iterations="1">[[1d4]] [[1d4]] [[1d4]] [[1d4]] [[1d4]]</sgdisplay><br>
+_<strong>1d6 rolls:</strong><br/><sgdisplay iterations="1">[[1d6]] [[1d6]] [[1d6]] [[1d6]] [[1d6]]</sgdisplay><br>
+_<strong>1d8 rolls:</strong><br/><sgdisplay iterations="1">[[1d8]] [[1d8]] [[1d8]] [[1d8]] [[1d8]]</sgdisplay><br>
+_<strong>1d10 rolls:</strong><br/><sgdisplay iterations="1">[[1d10]] [[1d10]] [[1d10]] [[1d10]] [[1d10]]</sgdisplay><br>
+_<strong>1d12 rolls:</strong><br/><sgdisplay iterations="1">[[1d12]] [[1d12]] [[1d12]] [[1d12]] [[1d12]]</sgdisplay><br>
+_<strong>1d20 rolls:</strong><br/><sgdisplay iterations="1">[[1d20]] [[1d20]] [[1d20]] [[1d20]] [[1d20]]</sgdisplay><br>
+_<strong>2d6 rolls:</strong><br/><sgdisplay iterations="1">[[2d6]] [[2d6]] [[2d6]] [[2d6]] [[2d6]] [[2d6]]</sgdisplay><br>
+_<strong>3d6 rolls:</strong><br/><sgdisplay iterations="1">[[3d6]] [[3d6]] [[3d6]] [[3d6]] [[3d6]] [[3d6]]</sgdisplay><br>
 
 
 #Dice in this table: 1d2, 1d3, 1d4, 1d6, 1d8, 1d10, 1d12, 1d20, 2d4, 2d6, 2d8, 3d6, 4d4, 5d4, 4d6, 5d6 and "digit" (0-9).
 #
 #Example of use:
 #<code>
-#[Dice.1d2]
-#[Dice.2d6]
-#[Dice.digit]
+#[[Tables.Utility.Dice.1d2]]
+#[[Tables.Utility.Dice.2d6]]
+#[[Tables.Utility.Dice.digit]]
 #</code>
 
 ;digit
@@ -402,6 +402,6 @@ _<strong>3d6 rolls:</strong><br/><sgdisplay iterations="1">[3d6] [3d6] [3d6] [3d
 1,20
 
 ;1d100
-1,[1d10][digit]
+1,[[1d10]][[digit]]
 
 

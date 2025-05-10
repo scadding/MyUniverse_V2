@@ -1,9 +1,9 @@
 
 ;Start
-1,[people]s of the [type] [subject1]
-1,[subject1] of the [type] [people]
-1,The [type] [subject1]
-1,[subject1] of the [type] [subject2]s
+1,[[people]]s of the [[type]] [[subject1]]
+1,[[subject1]] of the [[type]] [[people]]
+1,The [[type]] [[subject1]]
+1,[[subject1]] of the [[type]] [[subject2]]s
 
 ;people
 1,Raider

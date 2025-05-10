@@ -1,8 +1,8 @@
 
 ;Start
-3,[prefix][suffix]
-1,[prefix]'[suffix]
-1,[Fish People Names.Start]
+3,[[prefix]][[suffix]]
+1,[[prefix]]'[[suffix]]
+1,[[Fish People Names.Start]]
 
 
 ;prefix

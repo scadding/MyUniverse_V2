@@ -1,8 +1,8 @@
 
 ;Start
-1,[male] [surnames]
-1,[female] [surnames]
-1,[neutral] [surnames]
+1,[[male]] [[surnames]]
+1,[[female]] [[surnames]]
+1,[[neutral]] [[surnames]]
 
 ;male
 1,Boboy  
@@ -131,10 +131,10 @@
 1,Bathaluman  
 
 ;surnames
-1,[spanish-surnames]
-1,[chinese-surnames]
-1,[indigenous-surnames]
-1,[mixed-surnames]
+1,[[spanish-surnames]]
+1,[[chinese-surnames]]
+1,[[indigenous-surnames]]
+1,[[mixed-surnames]]
 
 ;spanish-surnames
 1,Arroyo  

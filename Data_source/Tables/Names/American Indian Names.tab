@@ -1,17 +1,17 @@
 
 ;Start
-1,[male] (male)
-1,[female] (female)
+1,[[male]] (male)
+1,[[female]] (female)
 
 ;male
-5,[Firsting] [Last]
-1,[Firsts]-[Like]-[Last]
-1,He-Who-[FirstsVerb]
+5,[[Firsting]] [[Last]]
+1,[[Firsts]]-[[Like]]-[[Last]]
+1,He-Who-[[FirstsVerb]]
 
 ;female
-5,[Firsting] [FemaleLast]
-1,[Firsts]-[Like]-[Last]
-1,She-Who-[FirstsVerb]
+5,[[Firsting]] [[FemaleLast]]
+1,[[Firsts]]-[[Like]]-[[Last]]
+1,She-Who-[[FirstsVerb]]
 
 ;Like
 3,As

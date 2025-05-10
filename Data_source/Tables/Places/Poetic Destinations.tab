@@ -1,8 +1,8 @@
 
 ;Start
-3,[Place] of [Trait]
-2,[Adj] [Place]
-1,[Adj] [Place] of [Trait]
+3,[[Place]] of [[Trait]]
+2,[[Adj]] [[Place]]
+1,[[Adj]] [[Place]] of [[Trait]]
 
 ;Place
 1,Banks
@@ -66,12 +66,12 @@
 1,Vault
 1,Wall
 1,Wood
-1,[Fantasy Landmarks.postplace]
+1,[[Fantasy Landmarks.postplace]]
 
 ;Trait
-1,[NiceTrait]
-1,[NeutralTrait]
-1,[NotNiceTrait]
+1,[[NiceTrait]]
+1,[[NeutralTrait]]
+1,[[NotNiceTrait]]
 
 ;NiceTrait
 1,Arcadia

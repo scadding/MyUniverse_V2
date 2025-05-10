@@ -1,15 +1,15 @@
 
 ;Start
-10,[irishmale] [irishsurname] from [irishlocation]
-10,[irishmale] [irishsurname] of [irishpeople]
-1,[irishfemale] [irishsurname] from [irishlocation]
-1,[irishfemale] [irishsurname] of [irishpeople]
+10,[[irishmale]] [[irishsurname]] from [[irishlocation]]
+10,[[irishmale]] [[irishsurname]] of [[irishpeople]]
+1,[[irishfemale]] [[irishsurname]] from [[irishlocation]]
+1,[[irishfemale]] [[irishsurname]] of [[irishpeople]]
 
 ;male
-1,[irishmale] [irishsurname]
+1,[[irishmale]] [[irishsurname]]
 
 ;female
-1,[irishfemale] [irishsurname]
+1,[[irishfemale]] [[irishsurname]]
 
 ;irishmale
 1,Aedan

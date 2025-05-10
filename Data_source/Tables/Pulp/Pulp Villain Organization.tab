@@ -1,35 +1,35 @@
 
 ;Start
 1,===The Major Organization===<br>
-_<sgdisplay iterations="1">[OrganizationDescriptor_Major] </sgdisplay><br>
+_<sgdisplay iterations="1">[[OrganizationDescriptor_Major]] </sgdisplay><br>
 _===The Moderate Organization===<br>
-_<sgdisplay iterations="1">[OrganizationDescriptor_Moderate] </sgdisplay><br>
+_<sgdisplay iterations="1">[[OrganizationDescriptor_Moderate]] </sgdisplay><br>
 _===The Minor organization===<br>
-_<sgdisplay iterations="1">[OrganizationDescriptor_Minor]</sgdisplay><br>
+_<sgdisplay iterations="1">[[OrganizationDescriptor_Minor]]</sgdisplay><br>
 _<br>
 _===Organization Random===<br>
-_<sgdisplay iterations="1">[organization] </sgdisplay><br>
+_<sgdisplay iterations="1">[[organization]] </sgdisplay><br>
 
 
 ;organization
-1,[OrganizationDescriptor_Major]
-1,[OrganizationDescriptor_Moderate]
-1,[OrganizationDescriptor_Minor]
+1,[[OrganizationDescriptor_Major]]
+1,[[OrganizationDescriptor_Moderate]]
+1,[[OrganizationDescriptor_Minor]]
 
 ;OrganizationDescriptor_Major
-3,[physical_major] [aim_physical] [target_major] 
-2,[social_major] [aim_social] [target_major]
-1,[mystical_major] [aim_mystical] [target_major]
+3,[[physical_major]] [[aim_physical]] [[target_major]] 
+2,[[social_major]] [[aim_social]] [[target_major]]
+1,[[mystical_major]] [[aim_mystical]] [[target_major]]
 
 ;OrganizationDescriptor_Moderate
-3,[physical_moderate] [aim_physical] [target_moderate]
-2,[social_moderate] [aim_social] [target_moderate]
-1,[mystical_moderate] [aim_mystical] [target_moderate]
+3,[[physical_moderate]] [[aim_physical]] [[target_moderate]]
+2,[[social_moderate]] [[aim_social]] [[target_moderate]]
+1,[[mystical_moderate]] [[aim_mystical]] [[target_moderate]]
 
 ;OrganizationDescriptor_Minor
-3,[physical_minor] [aim_physical] [target_minor]
-2,[social_minor] [aim_social] [target_minor]
-1,[mystical_minor] [aim_mystical] [target_minor]
+3,[[physical_minor]] [[aim_physical]] [[target_minor]]
+2,[[social_minor]] [[aim_social]] [[target_minor]]
+1,[[mystical_minor]] [[aim_mystical]] [[target_minor]]
 
 ;physical_major
 1,An International League of Assassins 
@@ -46,35 +46,35 @@ _<sgdisplay iterations="1">[organization] </sgdisplay><br>
 1,A Group of Great War Veterans working together 
 
 ;physical_moderate
-1,A League of Assassins [working]
+1,A League of Assassins [[working]]
 1,A Spy Ring working for the Nazi Germany 
 1,An Oriental Organization 
-1,A Terrorist organization [working]
+1,A Terrorist organization [[working]]
 1,A Secret Society of Hunters and Soldiers of Fortunes 
 1,A Secret Society of Killers and Criminals 
 1,A Communistic Organization 
-1,A Militaristic Fascist Group [working]
+1,A Militaristic Fascist Group [[working]]
 1,A Criminal Group Led by Shadowy Mastermind 
 1,A Criminal Group Led by Shadowy Oriental Mastermind
 1,A Mafia family 
 1,A Triad Family 
 1,A Group of Great War Veterans working together 
 1,A Foreign powers Spy Network
-1,A Separatist Terrorist organization [working]
+1,A Separatist Terrorist organization [[working]]
 1,A Fast Growing Mob with Collection of Strange Leaders
-1,A White Slavery Ring [working]
+1,A White Slavery Ring [[working]]
 
 ;physical_minor
-1,A Group of Killers [working]
-1,A Group of Muggers [working]
-1,A Group of Bank Robbers [working]
-1,A Group of Kidnappers [working]
-1,A Group of Faceless minions [working]
-1,A Group of Assassins [working]
-1,A Group of desperate workers [working]
+1,A Group of Killers [[working]]
+1,A Group of Muggers [[working]]
+1,A Group of Bank Robbers [[working]]
+1,A Group of Kidnappers [[working]]
+1,A Group of Faceless minions [[working]]
+1,A Group of Assassins [[working]]
+1,A Group of desperate workers [[working]]
 1,An Underground workshop
-1,A Black Market Fixer [working]
-1,A Fight Club [working]
+1,A Black Market Fixer [[working]]
+1,A Fight Club [[working]]
 
 ;social_major
 1,An International Secret Society of Freemasons 

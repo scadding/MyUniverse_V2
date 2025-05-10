@@ -1,6 +1,6 @@
 
 ;Start
-1,[rPulpHeroNovel]
+1,[[rPulpHeroNovel]]
 
 ;rPulpNoun
 1,Rafters
@@ -89,16 +89,16 @@
 1,and the Return of the
 1,and the Revenge of the
 1,in:
-1,and [rPulpAdjPositive] [rPulpMaleFirstName]'s 
+1,and [[rPulpAdjPositive]] [[rPulpMaleFirstName]]'s 
 1,vs. the
 
 ;pulpend
-1,[rPulpAdjNegative] [rPulpNoun]
+1,[[rPulpAdjNegative]] [[rPulpNoun]]
 
 ;rPulpHeroNovel
-10,[rPulpAdjPositive] [rPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[rPulpMaleFirstName] [rPulpLastName] [pulpmiddle] [pulpend]
-3,[rPulpAdjPositive] [rPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[rPulpFemaleFirstName] [rPulpLastName] [pulpmiddle] [pulpend]
+10,[[rPulpAdjPositive]] [[rPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[rPulpMaleFirstName]] [[rPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[rPulpAdjPositive]] [[rPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[rPulpFemaleFirstName]] [[rPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

@@ -1,10 +1,10 @@
 
 ;Start
-10,[HerbalProducts.Start]
-10,[MonsterParts.StartItemOnly]
-15,[MaterialDescriptor] [Material]
-10,[Material] of [Concept]
-1,[Material] [MaterialPost]
+10,[[HerbalProducts.Start]]
+10,[[MonsterParts.StartItemOnly]]
+15,[[MaterialDescriptor]] [[Material]]
+10,[[Material]] of [[Concept]]
+1,[[Material]] [[MaterialPost]]
 
 ;MaterialDescriptor
 1,Aethereal
@@ -24,7 +24,7 @@
 1,Diabolic
 1,Heavenly
 1,Explosive
-15,[ArcaneBooks.DiscAdj]
+15,[[ArcaneBooks.DiscAdj]]
 
 ;Material
 1,Phlogiston
@@ -36,14 +36,14 @@
 1,Unguent
 1,Crystals
 1,Quintessence
-5,[HerbalProducts.Post]
+5,[[HerbalProducts.Post]]
 
 ;Concept
 1,Life
 1,Death
 1,Victory
 1,Defeat
-5,[Inscriptions.AbstractNoun]
+5,[[Inscriptions.AbstractNoun]]
 
 ;MaterialPost
 1,Vitae

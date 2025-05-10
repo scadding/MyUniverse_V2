@@ -1,8 +1,8 @@
 
 ;Start
-1,[male][titlechance]
-1,[female][titlechance]
-1,[demon][titlechance]
+1,[[male]][[titlechance]]
+1,[[female]][[titlechance]]
+1,[[demon]][[titlechance]]
 
 ;male
 1,Metatron
@@ -79,7 +79,7 @@
 
 ;titlechance
 10, 
-1,, [title]
+1,, [[title]]
 
 ;title
 1,Whose Crown Branches Out

@@ -1,7 +1,7 @@
 
 ;Start
-1,[PolishMFirst] [PolishMSurname] (male)
-1,[PolishFFirst] [PolishFSurname] (female)
+1,[[PolishMFirst]] [[PolishMSurname]] (male)
+1,[[PolishFFirst]] [[PolishFSurname]] (female)
 
 ;PolishMFirst
 1,Adam 

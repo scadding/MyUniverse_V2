@@ -1,11 +1,11 @@
 
 ;Start
-1,[scottish_male] [scottish_surnames]
-1,[scottish_female] [scottish_surnames]
-1,[irish_male] [irish_surnames]
-1,[irish_female] [irish_surnames]
-1,[british_male] [british_surnames]
-1,[british_female] [british_surnames]
+1,[[scottish_male]] [[scottish_surnames]]
+1,[[scottish_female]] [[scottish_surnames]]
+1,[[irish_male]] [[irish_surnames]]
+1,[[irish_female]] [[irish_surnames]]
+1,[[british_male]] [[british_surnames]]
+1,[[british_female]] [[british_surnames]]
 
 ;scottish_male
 1,John 

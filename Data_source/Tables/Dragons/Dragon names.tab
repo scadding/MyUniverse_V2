@@ -1,9 +1,9 @@
 
 ;Start
-16,[start][mid][mid][mid][end]
-2,[old]
-1,[Start]-[Start]
-1,[start]'[start]-[Start]
+16,[[start]][[mid]][[mid]][[mid]][[end]]
+2,[[old]]
+1,[[Start]]-[[Start]]
+1,[[start]]'[[start]]-[[Start]]
 
 ;start
 1,Aa
@@ -77,8 +77,8 @@
 1,Zap
 
 ;mid
-4,[end]
-10,[mid][mid]
+4,[[end]]
+10,[[mid]][[mid]]
 10,
 1,af
 1,at
@@ -175,7 +175,7 @@
 1,xiu
 
 ;end
-5,[mid]
+5,[[mid]]
 8,
 1,cius
 1,derius

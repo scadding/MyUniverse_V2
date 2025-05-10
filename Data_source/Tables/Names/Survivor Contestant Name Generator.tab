@@ -1,11 +1,11 @@
 
 ;Start
 1,==Tribe 1==
-_<ul><sgdisplay iterations="4"><li>[male] [surname], [age], [occupation] from [hometown] </sgdisplay></ul>
-_<ul><sgdisplay iterations="4"><li>[female] [surname], [age], [occupation] from [hometown] </sgdisplay></ul>
+_<ul><sgdisplay iterations="4"><li>[[male]] [[surname]], [[age]], [[occupation]] from [[hometown]] </sgdisplay></ul>
+_<ul><sgdisplay iterations="4"><li>[[female]] [[surname]], [[age]], [[occupation]] from [[hometown]] </sgdisplay></ul>
 1,==Tribe 2==
-_<ul><sgdisplay iterations="4"><li>[male] [surname], [age], [occupation] from [hometown] </sgdisplay></ul>
-_<ul><sgdisplay iterations="4"><li>[female] [surname], [age], [occupation] from [hometown] </sgdisplay></ul>
+_<ul><sgdisplay iterations="4"><li>[[male]] [[surname]], [[age]], [[occupation]] from [[hometown]] </sgdisplay></ul>
+_<ul><sgdisplay iterations="4"><li>[[female]] [[surname]], [[age]], [[occupation]] from [[hometown]] </sgdisplay></ul>
 
 
 ;male
@@ -490,10 +490,10 @@ _<ul><sgdisplay iterations="4"><li>[female] [surname], [age], [occupation] from 
 1,75
 
 ;occupation
-1,[Modern Profession.Start]
+1,[[Modern Profession.Start]]
 
 ;hometown
-50,[US Cities.simplified]
+50,[[US Cities.simplified]]
 1,Walnut Creek, CA
 1,Mission Hills, KS
 2,San Francisco, CA

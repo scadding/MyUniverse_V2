@@ -1,24 +1,24 @@
 
 ;Start
-1,[question]
+1,[[question]]
 
 ;question
-1,Will you let [motivebad] keep you from [motivegood]?
-1,Is [motiveneutral] going to get in the way of [motivegood]?
-1,What will you do when you have to choose between [motivegood] and [motivegood]?
-1,When [motivebad] interferes with [motiveneutral], which will you follow?
-2,Is [motiveany] [better] than [motiveany]?
-1,Is it possible to overcome [motivebad] and still end up [motivegood]?
-1,When it comes down to it, the choice is between [motivegood] and [motivegood], isn't it?
-1,Is [motiveneutral] enough to keep you from [motivegood]?
-1,Will [motiveneutral] be enough to keep you from [motivebad]?
-1,Now its just a question of which will pull you down - [motivebad] or [motivebad]?
-1,Will you give in to [motivebad] or is there still a chance of [motivegood]?
-1,Will [motivegood] be enough to keep you from [motivebad]?
-1,Once, [motivebad] nearly killed you - will [motivegood] finish the job?
-1,If it's only [motiveneutral], why are you so nervous?
-1,Is her [motivegood] enough to stop [motivebad] from destroying you?
-1,You survived [motivebad]; can you survive [motiveany]?
+1,Will you let [[motivebad]] keep you from [[motivegood]]?
+1,Is [[motiveneutral]] going to get in the way of [[motivegood]]?
+1,What will you do when you have to choose between [[motivegood]] and [[motivegood]]?
+1,When [[motivebad]] interferes with [[motiveneutral]], which will you follow?
+2,Is [[motiveany]] [[better]] than [[motiveany]]?
+1,Is it possible to overcome [[motivebad]] and still end up [[motivegood]]?
+1,When it comes down to it, the choice is between [[motivegood]] and [[motivegood]], isn't it?
+1,Is [[motiveneutral]] enough to keep you from [[motivegood]]?
+1,Will [[motiveneutral]] be enough to keep you from [[motivebad]]?
+1,Now its just a question of which will pull you down - [[motivebad]] or [[motivebad]]?
+1,Will you give in to [[motivebad]] or is there still a chance of [[motivegood]]?
+1,Will [[motivegood]] be enough to keep you from [[motivebad]]?
+1,Once, [[motivebad]] nearly killed you - will [[motivegood]] finish the job?
+1,If it's only [[motiveneutral]], why are you so nervous?
+1,Is her [[motivegood]] enough to stop [[motivebad]] from destroying you?
+1,You survived [[motivebad]]; can you survive [[motiveany]]?
 
 ;better
 1,better
@@ -26,9 +26,9 @@
 1,more important
 
 ;motiveany
-1,[motivegood]
-1,[motivebad]
-1,[motiveneutral]
+1,[[motivegood]]
+1,[[motivebad]]
+1,[[motiveneutral]]
 
 ;motivegood
 1, searching for the Truth

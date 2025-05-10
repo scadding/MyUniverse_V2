@@ -1,6 +1,6 @@
 
 ;Start
-1,[uPulpHeroNovel]
+1,[[uPulpHeroNovel]]
 
 ;uPulpNoun
 1,UHF
@@ -140,15 +140,15 @@
 1,and the Uprise of the
 1,in:
 1,usurps the
-1,and [uPulpAdjPositive] [uPulpMaleFirstName]'s 
+1,and [[uPulpAdjPositive]] [[uPulpMaleFirstName]]'s 
 
 ;pulpend
-1,[uPulpAdjNegative] [uPulpNoun]
+1,[[uPulpAdjNegative]] [[uPulpNoun]]
 
 ;uPulpHeroNovel
-10,[uPulpAdjPositive] [uPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[uPulpMaleFirstName] [uPulpLastName] [pulpmiddle] [pulpend]
-3,[uPulpAdjPositive] [uPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[uPulpFemaleFirstName] [uPulpLastName] [pulpmiddle] [pulpend]
+10,[[uPulpAdjPositive]] [[uPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[uPulpMaleFirstName]] [[uPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[uPulpAdjPositive]] [[uPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[uPulpFemaleFirstName]] [[uPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

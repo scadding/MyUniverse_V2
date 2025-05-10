@@ -1,97 +1,97 @@
 
 ;Start
-5,"[insult]", [insultspeak] [male-patro], the Norse representative from [location].
-5,"[insult]", [insultspeak] [female-patro], the Norse representative from [location].
-1,"[insult]", [insultspeak] [male-matro], the Norse representative from [location].
-1,"[insult]", [insultspeak] [male-matro], the Norse representative from [location].
+5,"[[insult]]", [[insultspeak]] [[male-patro]], the Norse representative from [[location]].
+5,"[[insult]]", [[insultspeak]] [[female-patro]], the Norse representative from [[location]].
+1,"[[insult]]", [[insultspeak]] [[male-matro]], the Norse representative from [[location]].
+1,"[[insult]]", [[insultspeak]] [[male-matro]], the Norse representative from [[location]].
 
 ;male
-1,[male-patro] (patronymic)
-1,[male-matro] (matronymic)
+1,[[male-patro]] (patronymic)
+1,[[male-matro]] (matronymic)
 
 ;female
-1,[female-matro] (patronymic)
-1,[female-patro] (matronymic)
+1,[[female-matro]] (patronymic)
+1,[[female-patro]] (matronymic)
 
 ;male-patro
-1,[male1] [male1]son
-1,[male1] [male2]son
-1,[male1] [male3]son
-1,[male2] [male1]son
-1,[male2] [male2]son
-1,[male2] [male3]son
-1,[male3] [male1]son
-1,[male3] [male2]son
-1,[male3] [male3]son
-1,[male1], son of [male1]
-1,[male1], son of [male2]
-1,[male1], son of [male3]
-1,[male2], son of [male1]
-1,[male2], son of [male2]
-1,[male2], son of [male3]
-1,[male3], son of [male1]
-1,[male3], son of [male2]
-1,[male3], son of [male3]
+1,[[male1]] [[male1]]son
+1,[[male1]] [[male2]]son
+1,[[male1]] [[male3]]son
+1,[[male2]] [[male1]]son
+1,[[male2]] [[male2]]son
+1,[[male2]] [[male3]]son
+1,[[male3]] [[male1]]son
+1,[[male3]] [[male2]]son
+1,[[male3]] [[male3]]son
+1,[[male1]], son of [[male1]]
+1,[[male1]], son of [[male2]]
+1,[[male1]], son of [[male3]]
+1,[[male2]], son of [[male1]]
+1,[[male2]], son of [[male2]]
+1,[[male2]], son of [[male3]]
+1,[[male3]], son of [[male1]]
+1,[[male3]], son of [[male2]]
+1,[[male3]], son of [[male3]]
 
 ;male-matro
-1,[male1] [female1]son
-1,[male1] [female2]son
-1,[male1] [female3]son
-1,[male2] [female1]son
-1,[male2] [female2]son
-1,[male2] [female3]son
-1,[male3] [female1]son
-1,[male3] [female2]son
-1,[male3] [female3]son
-1,[male1], son of [female1]
-1,[male1], son of [female2]
-1,[male1], son of [female3]
-1,[male2], son of [female1]
-1,[male2], son of [female2]
-1,[male2], son of [female3]
-1,[male3], son of [female1]
-1,[male3], son of [female2]
-1,[male3], son of [female3]
+1,[[male1]] [[female1]]son
+1,[[male1]] [[female2]]son
+1,[[male1]] [[female3]]son
+1,[[male2]] [[female1]]son
+1,[[male2]] [[female2]]son
+1,[[male2]] [[female3]]son
+1,[[male3]] [[female1]]son
+1,[[male3]] [[female2]]son
+1,[[male3]] [[female3]]son
+1,[[male1]], son of [[female1]]
+1,[[male1]], son of [[female2]]
+1,[[male1]], son of [[female3]]
+1,[[male2]], son of [[female1]]
+1,[[male2]], son of [[female2]]
+1,[[male2]], son of [[female3]]
+1,[[male3]], son of [[female1]]
+1,[[male3]], son of [[female2]]
+1,[[male3]], son of [[female3]]
 
 ;female-patro
-1,[female1] [male1]dottir
-1,[female1] [male2]dottir
-1,[female1] [male3]dottir
-1,[female2] [male1]dottir
-1,[female2] [male2]dottir
-1,[female2] [male3]dottir
-1,[female3] [male1]dottir
-1,[female3] [male2]dottir
-1,[female3] [male3]dottir
-1,[female1], daughter of [male1]
-1,[female1], daughter of [male2]
-1,[female1], daughter of [male3]
-1,[female2], daughter of [male1]
-1,[female2], daughter of [male2]
-1,[female2], daughter of [male3]
-1,[female3], daughter of [male1]
-1,[female3], daughter of [male2]
-1,[female3], daughter of [male3]
+1,[[female1]] [[male1]]dottir
+1,[[female1]] [[male2]]dottir
+1,[[female1]] [[male3]]dottir
+1,[[female2]] [[male1]]dottir
+1,[[female2]] [[male2]]dottir
+1,[[female2]] [[male3]]dottir
+1,[[female3]] [[male1]]dottir
+1,[[female3]] [[male2]]dottir
+1,[[female3]] [[male3]]dottir
+1,[[female1]], daughter of [[male1]]
+1,[[female1]], daughter of [[male2]]
+1,[[female1]], daughter of [[male3]]
+1,[[female2]], daughter of [[male1]]
+1,[[female2]], daughter of [[male2]]
+1,[[female2]], daughter of [[male3]]
+1,[[female3]], daughter of [[male1]]
+1,[[female3]], daughter of [[male2]]
+1,[[female3]], daughter of [[male3]]
 
 ;female-matro
-1,[female1] [female1]dottir
-1,[female1] [female2]dottir
-1,[female1] [female3]dottir
-1,[female2] [female1]dottir
-1,[female2] [female2]dottir
-1,[female2] [female3]dottir
-1,[female3] [female1]dottir
-1,[female3] [female2]dottir
-1,[female3] [female3]dottir
-1,[female1], daughter of [female1]
-1,[female1], daughter of [female2]
-1,[female1], daughter of [female3]
-1,[female2], daughter of [female1]
-1,[female2], daughter of [female2]
-1,[female2], daughter of [female3]
-1,[female3], daughter of [female1]
-1,[female3], daughter of [female2]
-1,[female3], daughter of [female3]
+1,[[female1]] [[female1]]dottir
+1,[[female1]] [[female2]]dottir
+1,[[female1]] [[female3]]dottir
+1,[[female2]] [[female1]]dottir
+1,[[female2]] [[female2]]dottir
+1,[[female2]] [[female3]]dottir
+1,[[female3]] [[female1]]dottir
+1,[[female3]] [[female2]]dottir
+1,[[female3]] [[female3]]dottir
+1,[[female1]], daughter of [[female1]]
+1,[[female1]], daughter of [[female2]]
+1,[[female1]], daughter of [[female3]]
+1,[[female2]], daughter of [[female1]]
+1,[[female2]], daughter of [[female2]]
+1,[[female2]], daughter of [[female3]]
+1,[[female3]], daughter of [[female1]]
+1,[[female3]], daughter of [[female2]]
+1,[[female3]], daughter of [[female3]]
 
 ;male1
 1,Aðalbjörn
@@ -226,8 +226,8 @@
 1,Guðfríður
 
 ;location
-1,[place1], [district]
-1,[place2], [district]
+1,[[place1]], [[district]]
+1,[[place2]], [[district]]
 
 ;place1
 1,Ætlanvik (Conception Inlet)

@@ -1,9 +1,9 @@
 
 ;Start
-1,[forest]
-1,[location]
-1,[people]
-1,[warden]
+1,[[forest]]
+1,[[location]]
+1,[[people]]
+1,[[warden]]
 
 ;forest
 1,A huge bear, recently wounded and one-eyed, killing everything it can reach.

@@ -1,7 +1,7 @@
 
 ;Start
-6,A[personality] [profession] [personal goal]
-1,[pulp hero] [personal goal]
+6,A[[personality]] [[profession]] [[personal goal]]
+1,[[pulp hero]] [[personal goal]]
 
 ;personality
 1,n alien
@@ -145,14 +145,14 @@
 
 
 ;personal goal
-4,is seeking the [legendary location].
+4,is seeking the [[legendary location]].
 1,is trying to get a date.
 1,is hoping to undo the tragedy he has wrought.
 1,is looking for redemption.
 1,is out for revenge.
 1,is trying to prove himself to his unrequited love.
 1,is searching for a holy relic.
-1,is masquerading as a[personality] [profession] who is the heir to a fortune.
+1,is masquerading as a[[personality]] [[profession]] who is the heir to a fortune.
 1,is planning the heist of the decade.
 1,is looking to take over a powerful crime syndicate.
 1,is reduced to stealing to survive.
@@ -172,16 +172,16 @@
 1,must prevent World War II from becoming a grim reality.
 1,must destroy and drive back the cannibal aliens released into the world from Bunker 13.
 1,must save the world and be back in time for supper.
-1,must save humanity from [evil].
-1,must thwart [evil] even if it costs them their life.
+1,must save humanity from [[evil]].
+1,must thwart [[evil]] even if it costs them their life.
 1,must use super science to make the world a better place.
 1,must find the legendary Necronomicon.
 1,must defeat the legions of living skeletons unleashed by the insidious Thulsa Doom.
 1,must find a cure for the Purple Plague released by the Insidious Dr. Fu Man Chu.
-1,must stop a plot by [evil] to resurrect [historical villain].
+1,must stop a plot by [[evil]] to resurrect [[historical villain]].
  
 ;legendary location
-1,[Pulp Location.Start]
+1,[[Pulp Location.Start]]
 
 ;evil
 1,alien invaders
@@ -208,8 +208,8 @@
 1,a warlike dictator
 1,brain-eating zombies
 1,a government produced super-virus
-1,a secret society known as [Secret Society Name.Start]
-1,the ghost of [historical villain]
+1,a secret society known as [[Secret Society Name.Start]]
+1,the ghost of [[historical villain]]
 
 ;historical villain
 1,Adolph Hitler

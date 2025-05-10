@@ -1,15 +1,15 @@
 
 ;Start
-1,[real]
-1,[fictional]
+1,[[real]]
+1,[[fictional]]
 
 ;real
-1,[monotheistic]
-1,[Egyptian]
-1,[Greek]
-1,[Hindu]
-1,[Norse]
-1,[Roman]
+1,[[monotheistic]]
+1,[[Egyptian]]
+1,[[Greek]]
+1,[[Hindu]]
+1,[[Norse]]
+1,[[Roman]]
 
 ;monotheistic
 1,Adonai
@@ -897,12 +897,12 @@
 1,Vulcanus
 
 ;fictional
-1,[Greyhawk]
-1,[Dragonlance]
-1,[Forgotten Realms]
-1,[Gheron]
-1,[EverQuest]
-1,[Cthulu]
+1,[[Greyhawk]]
+1,[[Dragonlance]]
+1,[[Forgotten Realms]]
+1,[[Gheron]]
+1,[[EverQuest]]
+1,[[Cthulu]]
 
 ;Greyhawk
 1,Heironeous

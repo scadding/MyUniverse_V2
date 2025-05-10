@@ -1,73 +1,73 @@
 
 
 ;Start
-1,[StartMale] (male)
-1,[StartFemale] (female)
+1,[[StartMale]] (male)
+1,[[StartFemale]] (female)
 
 ;StartNoLabel
-1,[StartMale]
-1,[StartFemale]
+1,[[StartMale]]
+1,[[StartFemale]]
 
 ;StartNoTitle
-1,[StartNoTitle]
-1,[StartFemaleNoTitle]
+1,[[StartNoTitle]]
+1,[[StartFemaleNoTitle]]
 
 ;StartMale
-1,[TitleMale] [StartNoTitle]
+1,[[TitleMale]] [[StartNoTitle]]
 
 ;StartNoTitle
-20,[MaleFirstName] [Surname]
-2,[NorthlanderMale.Start]
-1,[Turkish Names.Male]
-1,[SGNP assyrian.male]
-1,[Cornish Names.male]
-1,[Anglo-Saxon Names.male]
-1,[Welsh Names.male]
+20,[[MaleFirstName]] [[Surname]]
+2,[[NorthlanderMale.Start]]
+1,[[Turkish Names.Male]]
+1,[[SGNP assyrian.male]]
+1,[[Cornish Names.male]]
+1,[[Anglo-Saxon Names.male]]
+1,[[Welsh Names.male]]
 
 
 ;MaleFirstName
-2,[MalePrefix]
-50,[MalePrefix][MaleSuffix]
-8,[Root I][MaleSuffix]
-3,[MalePrefix][ConsonantEnd]
-1,[SGNP celtic.male]
-1,[Cornish Names.malefirst]
-1,[Anglo-Saxon Names.male]
-1,[Welsh Names.malefirst]
+2,[[MalePrefix]]
+50,[[MalePrefix]][[MaleSuffix]]
+8,[[Root I]][[MaleSuffix]]
+3,[[MalePrefix]][[ConsonantEnd]]
+1,[[SGNP celtic.male]]
+1,[[Cornish Names.malefirst]]
+1,[[Anglo-Saxon Names.male]]
+1,[[Welsh Names.malefirst]]
 
 ;StartFemale
-1,[TitleFemale] [StartFemaleNoTitle]
+1,[[TitleFemale]] [[StartFemaleNoTitle]]
 
 ;StartFemaleNoTitle
-20,[FemaleFirstName] [Surname]
-2,[NorthlanderFemale.Start]
-1,[Turkish Names.Female]
-1,[SGNP assyrian.female]
-1,[Anglo-Saxon Names.female]
+20,[[FemaleFirstName]] [[Surname]]
+2,[[NorthlanderFemale.Start]]
+1,[[Turkish Names.Female]]
+1,[[SGNP assyrian.female]]
+1,[[Anglo-Saxon Names.female]]
 
 ;FemaleFirstName
-15,[Root I][FemaleSuffix]
-3,[Root I][Root II][FemaleSuffix]
-3,[Root I][Root III][FemaleSuffix]
-1,[Root I][Root II][Root III][FemaleSuffix]
-20,[Consonant][FemaleSuffix]
-15,[CombinedConsonant][FemaleSuffix]
-70,[FemalePrefix][FemaleSuffix]
-4,[FemalePrefix][Root II][FemaleSuffix]
-3,[FemalePrefix][ConsonantEnd][FemaleSuffix]
-8,[MalePrefix][MaleSuffix][FemaleSuffix]
-8,[MalePrefix][ConsonantEnd][FemaleSuffix]
-1,[SGNP celtic.female]
-1,[Cornish Names.femalefirst]
-1,[Welsh Names.femalefirst]
+15,[[Root I]][[FemaleSuffix]]
+3,[[Root I]][[Root II]][[FemaleSuffix]]
+3,[[Root I]][[Root III]][[FemaleSuffix]]
+1,[[Root I]][[Root II]][[Root III]][[FemaleSuffix]]
+20,[[Consonant]][[FemaleSuffix]]
+15,[[CombinedConsonant]][[FemaleSuffix]]
+70,[[FemalePrefix]][[FemaleSuffix]]
+4,[[FemalePrefix]][[Root II]][[FemaleSuffix]]
+3,[[FemalePrefix]][[ConsonantEnd]][[FemaleSuffix]]
+8,[[MalePrefix]][[MaleSuffix]][[FemaleSuffix]]
+8,[[MalePrefix]][[ConsonantEnd]][[FemaleSuffix]]
+1,[[SGNP celtic.female]]
+1,[[Cornish Names.femalefirst]]
+1,[[Welsh Names.femalefirst]]
 
 ;Surname
-9,[Root I][Root II]
-9,[Root I][Root III]
-6,[Root I][Root II][Root III]
-6,[MaleFirstName]
-3,[MaleFirstName]son
-2,Mac[MaleFirstName]
+9,[[Root I]][[Root II]]
+9,[[Root I]][[Root III]]
+6,[[Root I]][[Root II]][[Root III]]
+6,[[MaleFirstName]]
+3,[[MaleFirstName]]son
+2,Mac[[MaleFirstName]]
 
 ;Consonant
 3,J

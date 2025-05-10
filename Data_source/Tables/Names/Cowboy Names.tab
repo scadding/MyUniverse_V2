@@ -1,11 +1,11 @@
 
 ;Start
-1,[CowboyBeginning] [CowboyEnd]
-2,[The] [CowboyTheBeginning] [CowboyTheEnd]
-1,[Opener] [SGNP Cowboys.male]
-1,[CowboyEnd] from [Old West Places.WesternPlace]
-1,[American Indian Names.Start], a [Western Occupation.Natives] of the[Native Tribes.Start] tribe
-1,[OpenerHisp] [Mexicano.MALE] [SGNP brazilian.SURNAMES], a [Western Occupation.Mexicanos] [ToFrom] [Old West Places.MexicanPlace]
+1,[[CowboyBeginning]] [[CowboyEnd]]
+2,[[The]] [[CowboyTheBeginning]] [[CowboyTheEnd]]
+1,[[Opener]] [[SGNP Cowboys.male]]
+1,[[CowboyEnd]] from [[Old West Places.WesternPlace]]
+1,[[American Indian Names.Start]], a [[Western Occupation.Natives]] of the[[Native Tribes.Start]] tribe
+1,[[OpenerHisp]] [[Mexicano.MALE]] [[SGNP brazilian.SURNAMES]], a [[Western Occupation.Mexicanos]] [[ToFrom]] [[Old West Places.MexicanPlace]]
 
 ;ToFrom
 1,coming to town from
@@ -23,7 +23,7 @@
 1,who got pushed out of
 1,who has a meager parcel out in
 1,who left his family back in
-1,who owns [Dice.1d4][Dice.1d4] acres out in
+1,who owns [[Tables.Utility.Dice.1d4]][[Tables.Utility.Dice.1d4]] acres out in
 
 ;Opener
 2,
@@ -121,7 +121,7 @@
 1,Yankee
 
 ;CowboyEnd
-1,[SGNP brazilian.SURNAMES]
+1,[[SGNP brazilian.SURNAMES]]
 1,Anderson
 1,Bottoms
 1,Brown
@@ -204,7 +204,7 @@
 1,One-Eyed
 1,Prairie
 1,Range
-1,[Old West Places.Terrains]
+1,[[Old West Places.Terrains]]
 1,Rawhide
 1,Red
 1,Ridin'

@@ -1,30 +1,30 @@
 
 ;Start
-1,The [Nouns1]
-1,[Nouns1]
-1,[Nouns2]
-1,[Nouns2] [Titles]
-1,The [Adjectives1] [Nouns1]
-1,The [Adjectives2] [Nouns1]
-1,[Adjectives2] [Nouns1]
-1,[Titles] [Nouns1]
-1,[Titles] [Adjectives2]
-1,[Nouns1] [Persons]
-1,[Prefixes] [Persons]
-1,[Adjectives2] [Persons]
-1,[Mythological/legendary name]
-1,[Adjectives1] [Mythological/legendary name]
-1,[Adjectives2] [Mythological/legendary name]
-1,[Titles] [Mythological/legendary name]
-1,[American Census Names.commonmale] [Nouns1]
-1,[American Census Names.female] [Adjectives2]
-1,[Nouns1] [American Census Names.surname]
-1,[Dog Names.Start]
-1,[Nouns1] the [Adjectives1] [Persons]
-1,[Colors] [Nouns1]
-1,[Colors] [Animals]
-1,[Colors] [Professions]
-1,[Adjectives2] [American Census Names.commonmale] [Nouns1]
+1,The [[Nouns1]]
+1,[[Nouns1]]
+1,[[Nouns2]]
+1,[[Nouns2]] [[Titles]]
+1,The [[Adjectives1]] [[Nouns1]]
+1,The [[Adjectives2]] [[Nouns1]]
+1,[[Adjectives2]] [[Nouns1]]
+1,[[Titles]] [[Nouns1]]
+1,[[Titles]] [[Adjectives2]]
+1,[[Nouns1]] [[Persons]]
+1,[[Prefixes]] [[Persons]]
+1,[[Adjectives2]] [[Persons]]
+1,[[Mythological/legendary name]]
+1,[[Adjectives1]] [[Mythological/legendary name]]
+1,[[Adjectives2]] [[Mythological/legendary name]]
+1,[[Titles]] [[Mythological/legendary name]]
+1,[[American Census Names.commonmale]] [[Nouns1]]
+1,[[American Census Names.female]] [[Adjectives2]]
+1,[[Nouns1]] [[American Census Names.surname]]
+1,[[Dog Names.Start]]
+1,[[Nouns1]] the [[Adjectives1]] [[Persons]]
+1,[[Colors]] [[Nouns1]]
+1,[[Colors]] [[Animals]]
+1,[[Colors]] [[Professions]]
+1,[[Adjectives2]] [[American Census Names.commonmale]] [[Nouns1]]
 
 ;Nouns1
 1,American
@@ -99,8 +99,8 @@
 1,Whizzer
 1,Wonder
 1,Yank
-1,[Animals]
-1,[Professions]
+1,[[Animals]]
+1,[[Professions]]
 
 ;Nouns2
 1,America
@@ -135,7 +135,7 @@
 1,Star-Spangled
 1,Veiled
 1,Young
-1,[Colors]
+1,[[Colors]]
 
 ;Adjectives2
 1,Air

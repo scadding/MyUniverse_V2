@@ -1,36 +1,36 @@
 
 ;Start
-10,[ArmyOrdinal] [ArmyType][ArmyGroup]
-1,[Whose] [HumanRacialWeapon]s
+10,[[ArmyOrdinal]] [[ArmyType]][[ArmyGroup]]
+1,[[Whose]] [[HumanRacialWeapon]]s
 
 ;Whose
-1,[NobilityRank]'s Own
-2,[Fantasy Names.MaleFirstName]'s
-1,[Fantasy Names.FemaleFirstName]'s
+1,[[NobilityRank]]'s Own
+2,[[Fantasy Names.MaleFirstName]]'s
+1,[[Fantasy Names.FemaleFirstName]]'s
 
 ;ArmyOrdinal
-13,[OrdinalNumber]
-2,[Whose]
-10,"[Mascot]"
+13,[[OrdinalNumber]]
+2,[[Whose]]
+10,"[[Mascot]]"
 1,Undead
 
 
 ;OrdinalNumberSeed
-5,[Dice.1d10]
-6,[Dice.1d6][Dice.digit]
+5,[[Tables.Utility.Dice.1d10]]
+6,[[Tables.Utility.Dice.1d6]][[Tables.Utility.Dice.digit]]
 1,
 
 ;OrdinalNumber
-1,[OrdinalNumberSeed]1st
-1,[OrdinalNumberSeed]2nd
-1,[OrdinalNumberSeed]3rd
-1,[OrdinalNumberSeed]4th
-1,[OrdinalNumberSeed]5th
-1,[OrdinalNumberSeed]6th
-1,[OrdinalNumberSeed]7th
-1,[OrdinalNumberSeed]8th
-1,[OrdinalNumberSeed]9th
-1,[OrdinalNumberSeed]0th
+1,[[OrdinalNumberSeed]]1st
+1,[[OrdinalNumberSeed]]2nd
+1,[[OrdinalNumberSeed]]3rd
+1,[[OrdinalNumberSeed]]4th
+1,[[OrdinalNumberSeed]]5th
+1,[[OrdinalNumberSeed]]6th
+1,[[OrdinalNumberSeed]]7th
+1,[[OrdinalNumberSeed]]8th
+1,[[OrdinalNumberSeed]]9th
+1,[[OrdinalNumberSeed]]0th
 
 ;NobilityRank
 3,Emperor
@@ -77,13 +77,13 @@
 3,Ensign
 
 ;HumanRacialWeapon
-4,[HaftedWeapons.AxeType]
-2,[HaftedWeapons.MaceType]
-2,[HaftedWeapons.FlailType]
-8,[HaftedWeapons.PolearmType]
-8,[Swords.HiltedSwordType]
-6,[Bows.BowType]
-3,[XBows.XBowType]
+4,[[HaftedWeapons.AxeType]]
+2,[[HaftedWeapons.MaceType]]
+2,[[HaftedWeapons.FlailType]]
+8,[[HaftedWeapons.PolearmType]]
+8,[[Swords.HiltedSwordType]]
+6,[[Bows.BowType]]
+3,[[XBows.XBowType]]
 
 ;HumanUnusualSteed
 1,Dragon
@@ -126,41 +126,41 @@
 1,Imp
 
 ;ArmyType
-12,[HumanRacialWeapon]
-30,[LightHeavy] Cavalry
-12,[LightHeavy] Dragoon
-35,[LightHeavy] Infantry
-15,[LightHeavy] Militia
+12,[[HumanRacialWeapon]]
+30,[[LightHeavy]] Cavalry
+12,[[LightHeavy]] Dragoon
+35,[[LightHeavy]] Infantry
+15,[[LightHeavy]] Militia
 18,Archers
 20,Army
 10,Crossbowmen
 10,Halberdier
 12,Marine
 18,Pikemen
-1,[HumanUnusualPet] Handler
-1,[HumanUnusualSteed] Cavalry
-8,[LightHeavy]
-9,[LightHeavy] [Steed]
-4,[LightHeavy] [Utility.TerrainsCap] Assault
-8,[LightHeavy] [Utility.TerrainsCap] Warfare
-1,[LightHeavy] Amphibious Assault
-2,[LightHeavy] Amphibious Warfare
-7,[LightHeavy] Arcane Warfare
-1,[LightHeavy] Assault
-2,[LightHeavy] Borderer
-4,[LightHeavy] Highlander
-5,[LightHeavy] Hussars
-5,[LightHeavy] Lancers
-8,[LightHeavy] Mercenary
-2,[LightHeavy] Sellsword
-2,[LightHeavy] Underdark Warfare
-3,[LightHeavy] Urban Warfare
-9,[LightHeavy] Yeomanry
+1,[[HumanUnusualPet]] Handler
+1,[[HumanUnusualSteed]] Cavalry
+8,[[LightHeavy]]
+9,[[LightHeavy]] [[Steed]]
+4,[[LightHeavy]] [[Utility.TerrainsCap]] Assault
+8,[[LightHeavy]] [[Utility.TerrainsCap]] Warfare
+1,[[LightHeavy]] Amphibious Assault
+2,[[LightHeavy]] Amphibious Warfare
+7,[[LightHeavy]] Arcane Warfare
+1,[[LightHeavy]] Assault
+2,[[LightHeavy]] Borderer
+4,[[LightHeavy]] Highlander
+5,[[LightHeavy]] Hussars
+5,[[LightHeavy]] Lancers
+8,[[LightHeavy]] Mercenary
+2,[[LightHeavy]] Sellsword
+2,[[LightHeavy]] Underdark Warfare
+3,[[LightHeavy]] Urban Warfare
+9,[[LightHeavy]] Yeomanry
 1,Advanced Tactics
 1,Aerial Assault
 1,Aerial Cavalry
 2,Alchemical Warfare
-3,Anti-[Counter]
+3,Anti-[[Counter]]
 7,Artillerist
 3,Ballista
 1,Battlefield Preparation
@@ -169,8 +169,8 @@
 3,Bombardier
 1,Borderguard
 5,Commando
-3,Counter-[Counter]
-5,Counter-[Utility.CreatureTypes] Warfare
+3,Counter-[[Counter]]
+5,Counter-[[Utility.CreatureTypes]] Warfare
 2,Covert Operations
 1,Disruption
 1,Divine
@@ -202,7 +202,7 @@
 5,Volunteer
 3,Warmage
 5,Colonial Infantry
-3,[LightHeavy] Jager
+3,[[LightHeavy]] Jager
 3,Jager
 
 ;LightHeavy
@@ -262,16 +262,16 @@
 ;Steed
 12,Horse
 2,Camel
-2,[HumanUnusualSteed]
+2,[[HumanUnusualSteed]]
 
 ;Mascot
-1,[MascotAnimal]
-5,[Utility.TerrainsCap] [MascotAnimal]s
-10,[MascotModifier] [MascotAnimal]s
-10,[MascotAnimal]s of [MascotObject]
+1,[[MascotAnimal]]
+5,[[Utility.TerrainsCap]] [[MascotAnimal]]s
+10,[[MascotModifier]] [[MascotAnimal]]s
+10,[[MascotAnimal]]s of [[MascotObject]]
 
 ;MascotAnimal
-3,[HumanRacialWeapon]
+3,[[HumanRacialWeapon]]
 1,Adder
 1,Angel
 2,Archon
@@ -406,9 +406,9 @@
 10,Black
 10,Blood
 10,Dark
-8,[GheronUtility.Cities]'s
-3,[GheronUtility.DietyNonEvil]'s
-4,[NobilityRank]'s
+8,[[GheronUtility.Cities]]'s
+3,[[GheronUtility.DietyNonEvil]]'s
+4,[[NobilityRank]]'s
 1,Almighty
 2,Avenging
 3,Battle
@@ -425,7 +425,7 @@
 1,Creeping
 1,Crouching
 1,Dauntless
-1,Deep[Utility.Terrains]
+1,Deep[[Utility.Terrains]]
 2,Deepwood
 1,Destroying
 1,Determined
@@ -489,11 +489,11 @@
 2,Winter
 
 ;MascotObject
-10,[GheronUtility.Cities]
-8,[GheronUtility.DietyNonEvil]
-1,[GheronUtility.DietyNonEvil]'s anger
-1,[GheronUtility.DietyNonEvil]'s justice
-1,[GheronUtility.DietyNonEvil]'s wrath
+10,[[GheronUtility.Cities]]
+8,[[GheronUtility.DietyNonEvil]]
+1,[[GheronUtility.DietyNonEvil]]'s anger
+1,[[GheronUtility.DietyNonEvil]]'s justice
+1,[[GheronUtility.DietyNonEvil]]'s wrath
 1,Annihilation
 4,Attack
 8,Battle
@@ -530,7 +530,7 @@
 1,Silver
 2,Steel
 1,Stone
-8,the [Utility.TerrainsCap]
+8,the [[Utility.TerrainsCap]]
 3,the Darkness
 1,the Deep
 5,the Night

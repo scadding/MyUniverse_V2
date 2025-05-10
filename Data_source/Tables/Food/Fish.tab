@@ -2,14 +2,14 @@
 #Baked Fish – More than a Billion Recipes (5x12x3x12x11x12x5x12x12x6=1,231,718,400)
 
 ;Start
-1,[Container]
-_[Fish]
-_[fats]
+1,[[Container]]
+_[[Fish]]
+_[[fats]]
 _
 
 ;fats
-1,[Fat] [Fat]
-1,[Fat]
+1,[[Fat]] [[Fat]]
+1,[[Fat]]
 
 ;Container
 1,Au Gratin Pan

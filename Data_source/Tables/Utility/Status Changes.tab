@@ -1,9 +1,9 @@
 
 ;Start
-1,[status_change]
+1,[[status_change]]
 
 ;status_change
-1,[change] [who] status, [rate]
+1,[[change]] [[who]] status, [[rate]]
 
 ;change
 1,Lower

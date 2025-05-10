@@ -1,6 +1,6 @@
 
 ;Start
-1,'''Planet Briefing:'''<br/>You will be dropped on planet '''[planetname]'''<br/>Planet Type: [planettype]<br/><br/>'''Intelligence Report:'''<br/>The planet is infested by [planetlifeforms]<br/>''Alien Ability(AA): ''[alienability]<br />''Alien Special Ability: ''[alienspecial]<br/><br/>'''Your Mission:''' Terminate All Alien Threats with ''Extreme Prejudice''
+1,'''Planet Briefing:'''<br/>You will be dropped on planet '''[[planetname]]'''<br/>Planet Type: [[planettype]]<br/><br/>'''Intelligence Report:'''<br/>The planet is infested by [[planetlifeforms]]<br/>''Alien Ability(AA): ''[[alienability]]<br />''Alien Special Ability: ''[[alienspecial]]<br/><br/>'''Your Mission:''' Terminate All Alien Threats with ''Extreme Prejudice''
 
 ;planetname
 1,Bosch

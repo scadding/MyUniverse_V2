@@ -1,15 +1,15 @@
 
 ;Start
-1,[OrganContainer] of [Organs]s preserved in [PreservationSubstance]
-1,[LiquidContainer] of [Liquids]
-1,[DryGoodsContainer] of [DryGoods]s [DryPackingMethod]
-1,[PowderContainer] of powdered [Powders]
+1,[[OrganContainer]] of [[Organs]]s preserved in [[PreservationSubstance]]
+1,[[LiquidContainer]] of [[Liquids]]
+1,[[DryGoodsContainer]] of [[DryGoods]]s [[DryPackingMethod]]
+1,[[PowderContainer]] of powdered [[Powders]]
 
 ;StartItemOnly
-4,[Organs]
-3,[Liquids]
-2,[DryGoods]
-1,[Powders] Powder
+4,[[Organs]]
+3,[[Liquids]]
+2,[[DryGoods]]
+1,[[Powders]] Powder
 
 ;OrganContainer
 1,large glass jar
@@ -62,7 +62,7 @@
 2,clear syrup
 1,ether
 1,an unknown preservative
-4,[Liquids]
+4,[[Liquids]]
 
 ;DryPackingMethod
 10,
@@ -75,8 +75,8 @@
 2,packed in wood shavings
 2,packed in pistachio shells
 1,packed in sawdust
-2,packed in [Powders]
-2,packed in [Utility.Metal] filings and powder
+2,packed in [[Powders]]
+2,packed in [[Utility.Metal]] filings and powder
 
 ;Organs
 3,aboleth eye
@@ -89,40 +89,40 @@
 8,aranea spinneret
 3,hound archon heart
 3,hound archon ear
-8,athach [CommonOrgans]
-3,azer [CommonOrgans]
-3,barghest [CommonOrgans]
-3,behir [CommonOrgans]
-8,basilisk [CommonOrgans]
+8,athach [[CommonOrgans]]
+3,azer [[CommonOrgans]]
+3,barghest [[CommonOrgans]]
+3,behir [[CommonOrgans]]
+8,basilisk [[CommonOrgans]]
 8,behir tongue
 8,blink dog brain stem
-3,blink dog [CommonOrgans]
+3,blink dog [[CommonOrgans]]
 3,bodak eye
-1,bulette [CommonOrgans]
+1,bulette [[CommonOrgans]]
 8,bulette tremorsensory organ
 3,chaos beast tentacle
 3,chaos beast eye
-3,chimera [CommonOrgans]
+3,chimera [[CommonOrgans]]
 8,choker tentacle
-8,choker [CommonOrgans]
+8,choker [[CommonOrgans]]
 8,chuul tentacle
-3,chuul [CommonOrgans]
-3,jabberwock [CommonOrgans]
+3,chuul [[CommonOrgans]]
+3,jabberwock [[CommonOrgans]]
 8,cockatrice head
-8,cockatrice [CommonOrgans]
-3,couatl [CommonOrgans]
-8,darkmantle [CommonOrgans]
+8,cockatrice [[CommonOrgans]]
+3,couatl [[CommonOrgans]]
+8,darkmantle [[CommonOrgans]]
 8,darkmantle tentacle
 8,darkmantle inksac
-200,[HumanoidType] [HumanoidOrgan]
-200,[MonstrousHumanoidType] [HumanoidOrgan]
-175,[GiantType] [HumanoidOrgan]
+200,[[HumanoidType]] [[HumanoidOrgan]]
+200,[[MonstrousHumanoidType]] [[HumanoidOrgan]]
+175,[[GiantType]] [[HumanoidOrgan]]
 1,destrachan vocal chords
-1,destrachan [CommonOrgans]
-3,[Dragon Type] [DragonOrgan]
+1,destrachan [[CommonOrgans]]
+3,[[Dragon Type]] [[DragonOrgan]]
 1,drider spinneret
-1,drider [CommonOrgans]
-1,ettercap [CommonOrgans]
+1,drider [[CommonOrgans]]
+1,ettercap [[CommonOrgans]]
 1,formian antennae
 1,frost worm sound nodule
 1,frost worm mandible
@@ -130,37 +130,37 @@
 1,violet fungus mushroom
 1,gibbering mouther eye
 1,gibbering mouther tongue
-1,girallon [CommonOrgans]
-1,gray render [CommonOrgans]
+1,girallon [[CommonOrgans]]
+1,gray render [[CommonOrgans]]
 1,grick tentacle
 1,grick beak
-1,grick [CommonOrgans]
-1,griffon [CommonOrgans]
-1,hell hound [CommonOrgans]
+1,grick [[CommonOrgans]]
+1,griffon [[CommonOrgans]]
+1,hell hound [[CommonOrgans]]
 1,hell hound breath weapon gland
-1,hippogriff [CommonOrgans]
-1,howler [CommonOrgans]
-1,hydra [CommonOrgans]
+1,hippogriff [[CommonOrgans]]
+1,howler [[CommonOrgans]]
+1,hydra [[CommonOrgans]]
 1,kraken tentacle
-1,kraken [CommonOrgans]
-1,krenshar [CommonOrgans]
-50,[MonsterHumanlikeAnatomy] [CommonOrgans]
-1,manticore [CommonOrgans]
+1,kraken [[CommonOrgans]]
+1,krenshar [[CommonOrgans]]
+50,[[MonsterHumanlikeAnatomy]] [[CommonOrgans]]
+1,manticore [[CommonOrgans]]
 1,medusa snakes
 5,myconid cap
 5,myconid sap
-1,naga [CommonOrgans]
+1,naga [[CommonOrgans]]
 5,gelatinous cube chunk
-1,owlbear [CommonOrgans]
+1,owlbear [[CommonOrgans]]
 1,owlbear beak
-1,pegasus [CommonOrgans]
-1,rakshasa [CommonOrgans]
-1,remorhaz [CommonOrgans]
+1,pegasus [[CommonOrgans]]
+1,rakshasa [[CommonOrgans]]
+1,remorhaz [[CommonOrgans]]
 1,rust monster antenna
-1,rust monster [CommonOrgans]
-1,skum [CommonOrgans]
-1,spider eater [CommonOrgans]
-1,triton [CommonOrgans]
+1,rust monster [[CommonOrgans]]
+1,skum [[CommonOrgans]]
+1,spider eater [[CommonOrgans]]
+1,triton [[CommonOrgans]]
 1,pyrohydra breath weapon gland
 1,cryohydra breath weapon gland
 1,otyugh tentacle
@@ -170,12 +170,12 @@
 1,salamander heart
 1,whole grig
 1,whole stirge
-4,[Vermin]
-100,[MammalianAnimal] [MammalianOrgans]
-30,[ReptilianAnimal] [ReptilianOrgans]
-20,[AvianAnimal] [AvianOrgans]
-20,[ArthropodAnimal] [ArthropodOrgans]
-20,[CephalopodAnimal] [CephalopodOrgans]
+4,[[Vermin]]
+100,[[MammalianAnimal]] [[MammalianOrgans]]
+30,[[ReptilianAnimal]] [[ReptilianOrgans]]
+20,[[AvianAnimal]] [[AvianOrgans]]
+20,[[ArthropodAnimal]] [[ArthropodOrgans]]
+20,[[CephalopodAnimal]] [[CephalopodOrgans]]
 
 ;Liquids
 3,aboleth slime
@@ -196,56 +196,56 @@
 1,hound archon tear
 8,assassin vine sap
 8,athach poison
-3,athach [HumanoidLiquids]
+3,athach [[HumanoidLiquids]]
 3,azer blood
-3,barghest [CommonLiquids]
-8,basilisk [CommonLiquids]
-3,behir [CommonLiquids]
-8,blink dog [CommonLiquids]
+3,barghest [[CommonLiquids]]
+8,basilisk [[CommonLiquids]]
+3,behir [[CommonLiquids]]
+8,blink dog [[CommonLiquids]]
 8,bulette stomach acid
 8,chuul spittle
-8,choker [CommonLiquids]
-3,chimera [CommonLiquids]
-8,cockatrice [CommonLiquids]
+8,choker [[CommonLiquids]]
+3,chimera [[CommonLiquids]]
+8,cockatrice [[CommonLiquids]]
 3,couatl poison
-200,[HumanoidType] [HumanoidLiquids]
-200,[MonstrousHumanoidType] [HumanoidLiquids]
-170,[GiantType] [HumanoidLiquids]
+200,[[HumanoidType]] [[HumanoidLiquids]]
+200,[[MonstrousHumanoidType]] [[HumanoidLiquids]]
+170,[[GiantType]] [[HumanoidLiquids]]
 3,digester fluid
-10,[Dragon Type] blood
+10,[[Dragon Type]] blood
 1,ghaele tears
 1,ghaele blood
-8,destrachan [CommonLiquids]
-20,[Dragon Type] [CommonLiquids]
-8,ettercap [CommonLiquids]
-8,girallon [CommonLiquids]
-3,gray render [CommonLiquids]
-8,grick [CommonLiquids]
-8,griffon [CommonLiquids]
-8,hell hound [CommonLiquids]
-8,hippogriff [CommonLiquids]
-8,howler [CommonLiquids]
-3,hydra [CommonLiquids]
-8,krenshar [CommonLiquids]
-50,[MonsterHumanlikeAnatomy] [CommonLiquids]
-3,manticore [CommonLiquids]
-3,medusa [CommonLiquids]
-3,naga [CommonLiquids]
-8,owlbear [CommonLiquids]
-8,pegasus [CommonLiquids]
-2,rakshasa [CommonLiquids]
-2,remorhaz [CommonLiquids]
-3,rust monster [CommonLiquids]
-3,skum [CommonLiquids]
-4,jabberwock [CommonLiquids]
+8,destrachan [[CommonLiquids]]
+20,[[Dragon Type]] [[CommonLiquids]]
+8,ettercap [[CommonLiquids]]
+8,girallon [[CommonLiquids]]
+3,gray render [[CommonLiquids]]
+8,grick [[CommonLiquids]]
+8,griffon [[CommonLiquids]]
+8,hell hound [[CommonLiquids]]
+8,hippogriff [[CommonLiquids]]
+8,howler [[CommonLiquids]]
+3,hydra [[CommonLiquids]]
+8,krenshar [[CommonLiquids]]
+50,[[MonsterHumanlikeAnatomy]] [[CommonLiquids]]
+3,manticore [[CommonLiquids]]
+3,medusa [[CommonLiquids]]
+3,naga [[CommonLiquids]]
+8,owlbear [[CommonLiquids]]
+8,pegasus [[CommonLiquids]]
+2,rakshasa [[CommonLiquids]]
+2,remorhaz [[CommonLiquids]]
+3,rust monster [[CommonLiquids]]
+3,skum [[CommonLiquids]]
+4,jabberwock [[CommonLiquids]]
 8,purple worm digestive juice
 3,treant sap
 8,troglodyte musk oil
-100,[MammalianAnimal] [MammalianLiquids]
-30,[ReptilianAnimal] [ReptilianLiquids]
-20,[AvianAnimal] [AvianLiquids]
-20,[ArthropodAnimal] [ArthropodLiquids]
-20,[CephalopodAnimal] [CephalopodLiquids]
+100,[[MammalianAnimal]] [[MammalianLiquids]]
+30,[[ReptilianAnimal]] [[ReptilianLiquids]]
+20,[[AvianAnimal]] [[AvianLiquids]]
+20,[[ArthropodAnimal]] [[ArthropodLiquids]]
+20,[[CephalopodAnimal]] [[CephalopodLiquids]]
 
 ;DryGoods
 3,achaierai feather
@@ -267,16 +267,16 @@
 5,cockatrice beak
 5,cockatrice foot
 1,couatl feather
-50,[HumanoidType] [HumanoidDryGoods]
-5,withered [HumanoidType] finger
-10,[MonstrousHumanoidType] [HumanoidDryGoods]
-6,[GiantType] [HumanoidDryGoods]
+50,[[HumanoidType]] [[HumanoidDryGoods]]
+5,withered [[HumanoidType]] finger
+10,[[MonstrousHumanoidType]] [[HumanoidDryGoods]]
+6,[[GiantType]] [[HumanoidDryGoods]]
 5,delver claw
-20,[Dragon Type] claw
-20,[Dragon Type] tooth
-20,[Dragon Type] scale
-5,[Dragon Type] gizzard stone
-5,[Dragon Type] bone
+20,[[Dragon Type]] claw
+20,[[Dragon Type]] tooth
+20,[[Dragon Type]] scale
+5,[[Dragon Type]] gizzard stone
+5,[[Dragon Type]] bone
 5,dryad hair
 5,roc feather
 5,owlbear feather
@@ -296,7 +296,7 @@
 5,drow elf ear
 5,ethereal marauder tooth
 5,ettercap claw
-5,ettercap [HumanoidDryGoods]
+5,ettercap [[HumanoidDryGoods]]
 5,formian antennae
 5,efreet horn
 5,djinnie beard hair
@@ -326,11 +326,11 @@
 5,treant leaf
 5,treant bark
 2,unicorn horn
-50,[MammalianAnimal] [MammalianDryGoods]
-20,[ReptilianAnimal] [ReptilianDryGoods]
-10,[AvianAnimal] [AvianDryGoods]
-10,[ArthropodAnimal] [ArthropodDryGoods]
-10,[CephalopodAnimal] [CephalopodDryGoods]
+50,[[MammalianAnimal]] [[MammalianDryGoods]]
+20,[[ReptilianAnimal]] [[ReptilianDryGoods]]
+10,[[AvianAnimal]] [[AvianDryGoods]]
+10,[[ArthropodAnimal]] [[ArthropodDryGoods]]
+10,[[CephalopodAnimal]] [[CephalopodDryGoods]]
 
 ;Powders
 5,achaierai talon
@@ -344,16 +344,16 @@
 5,centaur hoof
 5,chuul chitin
 5,cockatrice claw
-10,[HumanoidType] bone meal
-10,[MonstrousHumanoidType] bone meal
-6,[GiantType] bone meal
+10,[[HumanoidType]] bone meal
+10,[[MonstrousHumanoidType]] bone meal
+6,[[GiantType]] bone meal
 5,delver claw
 5,destrachan claw
 5,digester claw
-8,[Dragon Type] claw
-8,[Dragon Type] tooth
-2,[Dragon Type] bone meal
-1,[Dragon Type] scales
+8,[[Dragon Type]] claw
+8,[[Dragon Type]] tooth
+2,[[Dragon Type]] bone meal
+1,[[Dragon Type]] scales
 1,lich skull
 5,minotaur horn
 5,Pixie Dust
@@ -537,12 +537,12 @@
 1,toad
 
 ;ReptilianOrgans
-5,[CommonOrgans]
+5,[[CommonOrgans]]
 1,tongue
 1,egg
 
 ;ReptilianLiquids
-10,[CommonLiquids]
+10,[[CommonLiquids]]
 2,egg fluid
 
 ;ReptilianDryGoods
@@ -627,7 +627,7 @@
 1,chicken
 
 ;AvianOrgans
-5,[CommonOrgans]
+5,[[CommonOrgans]]
 1,beak
 3,egg
 
@@ -650,7 +650,7 @@
 1,giant eel
 
 ;IchthyoidOrgans
-5,[CommonOrgans]
+5,[[CommonOrgans]]
 3,egg
 1,fin
 1,gill
@@ -675,7 +675,7 @@
 1,monstrous scorpion
 
 ;ArthropodOrgans
-5,[CommonOrgans]
+5,[[CommonOrgans]]
 3,egg
 
 ;ArthropodLiquids
@@ -713,7 +713,7 @@
 1,sky kraken
 
 ;CephalopodOrgans
-5,[CommonOrgans]
+5,[[CommonOrgans]]
 5,tentacle
 3,egg
 3,luminescent organs

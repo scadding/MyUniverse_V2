@@ -1,21 +1,21 @@
 
 ;Start
-1,<b>[Title]</b>: [Parable Title.Premise]
+1,<b>[[Title]]</b>: [[Parable Title.Premise]]
 
 ;Title
-2,The [Animal] and the [Animal]
-1,The [Animal] and the [Object]
-1,The [Animal] that [didSomething]
-1,The [Person] and the [Animal]
-1,The [Person] and the [Person]
-1,The [Person], the [Person], and the [Person]
-1,The [Person] that [didSomething]
-1,The [Person] and the [Object]
-1,The [Person] and the [Nature]
-1,The [Nature] and the [Animal]
-1,The [Nature] and the [Nature]
-1,The [Person]'s [Animal]
-1,The [Person]'s [Animal] and the [Person]
+2,The [[Animal]] and the [[Animal]]
+1,The [[Animal]] and the [[Object]]
+1,The [[Animal]] that [[didSomething]]
+1,The [[Person]] and the [[Animal]]
+1,The [[Person]] and the [[Person]]
+1,The [[Person]], the [[Person]], and the [[Person]]
+1,The [[Person]] that [[didSomething]]
+1,The [[Person]] and the [[Object]]
+1,The [[Person]] and the [[Nature]]
+1,The [[Nature]] and the [[Animal]]
+1,The [[Nature]] and the [[Nature]]
+1,The [[Person]]'s [[Animal]]
+1,The [[Person]]'s [[Animal]] and the [[Person]]
 
 ;Person
 1,Angel
@@ -143,20 +143,20 @@
 1,Stone Wall
 
 ;didSomething
-1,lived with the [Animal]
-1,made fun of the [Animal]
-1,thought he was a [Animal]
-1,thought she was a [Animal]
-1,wanted to be a [Animal]
-1,wanted to be a [Person]
-1,wished he were the [Nature]
-1,wished she were the [Nature]
-1,loved the [Nature]
-1,fell in love with the [Nature]
-1,fell in love with the [Person]
-1,who searched for the [Person]
-1,who hunted a [Animal]
-1,who lost their [Object]
+1,lived with the [[Animal]]
+1,made fun of the [[Animal]]
+1,thought he was a [[Animal]]
+1,thought she was a [[Animal]]
+1,wanted to be a [[Animal]]
+1,wanted to be a [[Person]]
+1,wished he were the [[Nature]]
+1,wished she were the [[Nature]]
+1,loved the [[Nature]]
+1,fell in love with the [[Nature]]
+1,fell in love with the [[Person]]
+1,who searched for the [[Person]]
+1,who hunted a [[Animal]]
+1,who lost their [[Object]]
 
 ;Nature
 1,Clouds
@@ -178,5 +178,5 @@
 1,Sun
 1,Thunder
 1,Wind
-3,[Compass direction.4] Wind
+3,[[Compass direction.4]] Wind
 

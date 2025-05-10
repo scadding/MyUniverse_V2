@@ -1,36 +1,36 @@
 
 ;Start
-5,[multicharacters].
-1,The [relationeither] of [Fantasy Scene.Character] at [Fantasy Scene.Location].
-3,[Canonical Oracles]
-2,[Fan Oracles]
-1,[beasts]
-1,[Fantasy Town Event.Start]
+5,[[multicharacters]].
+1,The [[relationeither]] of [[Fantasy Scene.Character]] at [[Fantasy Scene.Location]].
+3,[[Canonical Oracles]]
+2,[[Fan Oracles]]
+1,[[beasts]]
+1,[[Fantasy Town Event.Start]]
 
 ;Canonical Oracles
-1,[Art Grace and Guts Oracle.OracleResult]
-1,[Blood and Sex Oracle.Start]
-1,[God Kings of War Oracle.Start]
-1,[The Unquiet Past Oracle.Start]
-1,[A Nest of Vipers Oracle.Start]
+1,[[Art Grace and Guts Oracle.OracleResult]]
+1,[[Blood and Sex Oracle.Start]]
+1,[[God Kings of War Oracle.Start]]
+1,[[The Unquiet Past Oracle.Start]]
+1,[[A Nest of Vipers Oracle.Start]]
 
 ;Fan Oracles
 0,----Only Genre-Appropriate, Please!----
-1,[Wuxia Oracle.Start]
-2,[Shakespeare Oracle.Start]
-2,[Conan Oracle.Start]
-1,[Exalted - Age of Sorrows.Start]
+1,[[Wuxia Oracle.Start]]
+2,[[Shakespeare Oracle.Start]]
+2,[[Conan Oracle.Start]]
+1,[[Exalted - Age of Sorrows.Start]]
 
 
 ;multicharacters
-1,The [femalerelation] of a [maleperson], [femalerelationphrase]
-1,The [malerelation] of a [femaleperson], [malerelationphrase]
-1,A [maleperson], [malerelationphrase]
-1,A [femaleperson], [femalerelationphrase]
+1,The [[femalerelation]] of a [[maleperson]], [[femalerelationphrase]]
+1,The [[malerelation]] of a [[femaleperson]], [[malerelationphrase]]
+1,A [[maleperson]], [[malerelationphrase]]
+1,A [[femaleperson]], [[femalerelationphrase]]
 
 ;relationeither
-1,[femalerelation]
-1,[malerelation]
+1,[[femalerelation]]
+1,[[malerelation]]
 
 ;femalerelation
 1,daughter
@@ -51,12 +51,12 @@
 1,chief servant
 
 ;maleperson
-1,[maleadj] [maleprofession]
-1,[malestockchars]
+1,[[maleadj]] [[maleprofession]]
+1,[[malestockchars]]
 
 ;femaleperson
-1,[femaleadjcons] [femaleprofession]
-1,[femalestockchars]
+1,[[femaleadjcons]] [[femaleprofession]]
+1,[[femalestockchars]]
 
 ;maleadj
 1,vicious
@@ -111,17 +111,17 @@
 1,vizier to the king
 1,yeoman farmer
 1,fisherman
-5,[Fantasy Profession.maleanyclass]
+5,[[Fantasy Profession.maleanyclass]]
 
 ;femalerelationphrase
-1,taken prisoner by a [maleperson]
+1,taken prisoner by a [[maleperson]]
 1,secretly the power behind the throne
-1,sworn to commit vengeance on a [maleperson]
-1,planning to run away with a [maleperson]
-1,carrying the child of the [maleperson]
-1,secretly in love with a [maleperson]
-1,and a [maleperson], secretly in love with her
-1,desiring to seduce a [maleperson]
+1,sworn to commit vengeance on a [[maleperson]]
+1,planning to run away with a [[maleperson]]
+1,carrying the child of the [[maleperson]]
+1,secretly in love with a [[maleperson]]
+1,and a [[maleperson]], secretly in love with her
+1,desiring to seduce a [[maleperson]]
 
 ;malestockchars
 1,lovelorn poet
@@ -166,13 +166,13 @@
 1,courtesan
 
 ;malerelationphrase
-1,secretly in love with a [femaleperson]
-1,fleeing his home to be with a [femaleperson]
-1,preparing to become a [maleperson]
-1,sworn to kill a [maleperson] in the name of honor
-1,hoping to seduce a [femaleperson]
-1,preparing to murder a [maleperson]
-1,secretly spying on a [femaleperson]
+1,secretly in love with a [[femaleperson]]
+1,fleeing his home to be with a [[femaleperson]]
+1,preparing to become a [[maleperson]]
+1,sworn to kill a [[maleperson]] in the name of honor
+1,hoping to seduce a [[femaleperson]]
+1,preparing to murder a [[maleperson]]
+1,secretly spying on a [[femaleperson]]
 
 ;femalestockchars
 1,soothsayer hag
@@ -182,7 +182,7 @@
 1,humble peasant girl
 
 ;beasts
-1,A [beastadj] [beast], [beastphrase]
+1,A [[beastadj]] [[beast]], [[beastphrase]]
 
 ;beastadj
 1,grotesque
@@ -204,15 +204,15 @@
 ;beastphrase
 1,seeking whom he might devour
 1,stealing livestock from local farms to feed a ravenous hunger
-1,intending to kill a [maleperson] to avenge an old wound
-1,the secret protector of a [femaleperson]
-1,bound to a [femaleperson] by strange magicks
+1,intending to kill a [[maleperson]] to avenge an old wound
+1,the secret protector of a [[femaleperson]]
+1,bound to a [[femaleperson]] by strange magicks
 1,king of its ilk, hunted by men of every description
-1,greviously wounded by a [maleperson]
-1,devourer of the [femalerelation] of a [maleperson]
-1,feasting on the remains of the [relationeither] of a [maleperson]
+1,greviously wounded by a [[maleperson]]
+1,devourer of the [[femalerelation]] of a [[maleperson]]
+1,feasting on the remains of the [[relationeither]] of a [[maleperson]]
 
 ;title
-1,The [Secret Society Title.NounDescriptor] [Secret Society Title.Noun]
+1,The [[Secret Society Title.NounDescriptor]] [[Secret Society Title.Noun]]
 
 

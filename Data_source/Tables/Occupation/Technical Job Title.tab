@@ -1,12 +1,12 @@
 
 ;Start
-1,[rank] [field] [specialty] [position]
-1,[field] [specialty] [position]
-1,[specialty] [position]
-1,[field] [position]
-1,[rank] [specialty] [position]
-1,[rank] [field] [position]
-1,[rank] [position]
+1,[[rank]] [[field]] [[specialty]] [[position]]
+1,[[field]] [[specialty]] [[position]]
+1,[[specialty]] [[position]]
+1,[[field]] [[position]]
+1,[[rank]] [[specialty]] [[position]]
+1,[[rank]] [[field]] [[position]]
+1,[[rank]] [[position]]
 
 ;rank
 1,Senior

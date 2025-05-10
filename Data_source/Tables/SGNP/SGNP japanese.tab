@@ -1,7 +1,7 @@
 
 ;Start
-1,[MALE NAMES] [SURNAMES] (Male)
-1,[FEMALE NAMES] [SURNAMES] (Female)
+1,[[MALE NAMES]] [[SURNAMES]] (Male)
+1,[[FEMALE NAMES]] [[SURNAMES]] (Female)
 
 ;SURNAMES
 1,Takeda

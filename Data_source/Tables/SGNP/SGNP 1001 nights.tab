@@ -1,20 +1,20 @@
 
 ;Start
-1,<sgdisplay iterations="25">[Startshowgender]</sgdisplay><br>
+1,<sgdisplay iterations="25">[[Startshowgender]]</sgdisplay><br>
 _===Food===<br>
-_<sgdisplay iterations="5">[food]</sgdisplay><br>
+_<sgdisplay iterations="5">[[food]]</sgdisplay><br>
 
 ;Startshowgender
-1,[male] (male)
-1,[female] (female)
+1,[[male]] (male)
+1,[[female]] (female)
 
 ;male
-5,[malefirst] [malesurname]
-1,[malefirst]
+5,[[malefirst]] [[malesurname]]
+1,[[malefirst]]
 
 ;female
-5,[femalefirst] [femalesurname]
-1,Umm [malefirst], [femalefirst]
+5,[[femalefirst]] [[femalesurname]]
+1,Umm [[malefirst]], [[femalefirst]]
 
 ;malefirst
 1,Ahmed
@@ -61,8 +61,8 @@ _<sgdisplay iterations="5">[food]</sgdisplay><br>
 1,Zoulika
 
 ;cities
-1,[Arabcities]
-1,[Othercities]
+1,[[Arabcities]]
+1,[[Othercities]]
 
 ;Arabcities
 1,Aden
@@ -150,13 +150,13 @@ _<sgdisplay iterations="5">[food]</sgdisplay><br>
 1,Sharm
 
 ;malesurname
-10,ibn [malefirst]
-5,Al-[alsurnames]
-3,Fi [cities]
-1,Al [Arabcities]i
+10,ibn [[malefirst]]
+5,Al-[[alsurnames]]
+3,Fi [[cities]]
+1,Al [[Arabcities]]i
 
 ;femalesurname
-1,bint [malefirst]
+1,bint [[malefirst]]
 
 ;alsurnames
 1,Rashid (line of Rashid)

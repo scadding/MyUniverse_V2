@@ -1,32 +1,32 @@
 
 ;Start
-1,{{ucfirst:[pre][material]}} {{ucfirst:[separatesuffix]}}
-1,{{ucfirst:[pre][material]}} {{ucfirst:[beast]}}
-1,{{ucfirst:[pre][suffix]}}
-1,{{ucfirst:[pre]}} {{ucfirst:[separatesuffix]}}
-1,{{ucfirst:[pre]}} {{ucfirst:[beast]}}
-1,{{ucfirst:[pre][beast]}}
-1,{{ucfirst:[pre][beast]}} {{ucfirst:[separatesuffix]}}
-1,{{ucfirst:[material]}} {{ucfirst:[beast]}}
-1,{{ucfirst:[material][suffix]}} {{ucfirst:[beast]}}
-1,{{ucfirst:[material][beast]}}
-1,{{ucfirst:[material][beast]}} {{ucfirst:[separatesuffix]}}
-1,{{ucfirst:[material]}} {{ucfirst:[separatesuffix]}}
-1,{{ucfirst:[material][suffix]}} {{ucfirst:[separatesuffix]}}
-1,{{ucfirst:[beast][suffix]}} {{ucfirst:[separatesuffix]}}
-1,{{ucfirst:[beast][suffix]}} {{ucfirst:[pre][suffix]}}
-1,{{ucfirst:[beast]}} {{ucfirst:[separatesuffix]}}
-1,{{ucfirst:[beast][beast]}}
-1,{{ucfirst:[beast][suffix]}}
-1,{{ucfirst:[beast][beast]}} {{ucfirst:[separatesuffix]}}
-1,{{ucfirst:[beast][suffix]}} {{ucfirst:[separatesuffix]}}
-1,{{ucfirst:[separatepre]}} {{ucfirst:[material][beast]}}
-1,{{ucfirst:[separatepre]}} {{ucfirst:[pre][beast]}}
-1,{{ucfirst:[separatepre]}} {{ucfirst:[pre][material]}} {{ucfirst:[beast]}}
-1,{{ucfirst:[separatepre]}} {{ucfirst:[pre][suffix]}}
-1,{{ucfirst:[Compound Word.Start]}} {{ucfirst:[beast]}}
-1,{{ucfirst:[Compound Word.Start]}} {{ucfirst:[separatesuffix]}}
-1,{{ucfirst:[Compound Word.Start]}} {{ucfirst:[beast][beast]}}
+1,{{ucfirst:[[pre]][[material]]}} {{ucfirst:[[separatesuffix]]}}
+1,{{ucfirst:[[pre]][[material]]}} {{ucfirst:[[beast]]}}
+1,{{ucfirst:[[pre]][[suffix]]}}
+1,{{ucfirst:[[pre]]}} {{ucfirst:[[separatesuffix]]}}
+1,{{ucfirst:[[pre]]}} {{ucfirst:[[beast]]}}
+1,{{ucfirst:[[pre]][[beast]]}}
+1,{{ucfirst:[[pre]][[beast]]}} {{ucfirst:[[separatesuffix]]}}
+1,{{ucfirst:[[material]]}} {{ucfirst:[[beast]]}}
+1,{{ucfirst:[[material]][[suffix]]}} {{ucfirst:[[beast]]}}
+1,{{ucfirst:[[material]][[beast]]}}
+1,{{ucfirst:[[material]][[beast]]}} {{ucfirst:[[separatesuffix]]}}
+1,{{ucfirst:[[material]]}} {{ucfirst:[[separatesuffix]]}}
+1,{{ucfirst:[[material]][[suffix]]}} {{ucfirst:[[separatesuffix]]}}
+1,{{ucfirst:[[beast]][[suffix]]}} {{ucfirst:[[separatesuffix]]}}
+1,{{ucfirst:[[beast]][[suffix]]}} {{ucfirst:[[pre]][[suffix]]}}
+1,{{ucfirst:[[beast]]}} {{ucfirst:[[separatesuffix]]}}
+1,{{ucfirst:[[beast]][[beast]]}}
+1,{{ucfirst:[[beast]][[suffix]]}}
+1,{{ucfirst:[[beast]][[beast]]}} {{ucfirst:[[separatesuffix]]}}
+1,{{ucfirst:[[beast]][[suffix]]}} {{ucfirst:[[separatesuffix]]}}
+1,{{ucfirst:[[separatepre]]}} {{ucfirst:[[material]][[beast]]}}
+1,{{ucfirst:[[separatepre]]}} {{ucfirst:[[pre]][[beast]]}}
+1,{{ucfirst:[[separatepre]]}} {{ucfirst:[[pre]][[material]]}} {{ucfirst:[[beast]]}}
+1,{{ucfirst:[[separatepre]]}} {{ucfirst:[[pre]][[suffix]]}}
+1,{{ucfirst:[[Compound Word.Start]]}} {{ucfirst:[[beast]]}}
+1,{{ucfirst:[[Compound Word.Start]]}} {{ucfirst:[[separatesuffix]]}}
+1,{{ucfirst:[[Compound Word.Start]]}} {{ucfirst:[[beast]][[beast]]}}
 
 ;pre
 1,sword

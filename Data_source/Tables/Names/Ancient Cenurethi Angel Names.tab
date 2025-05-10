@@ -1,10 +1,10 @@
 
 ;Start
-1,[part1][part2][end]
+1,[[part1]][[part2]][[end]]
 
 ;part1
-3,[part2][part2]
-2,[part2][part2][part2]
+3,[[part2]][[part2]]
+2,[[part2]][[part2]][[part2]]
 5,
 1,Ba
 1,BA

@@ -5,13 +5,13 @@
 # it'll serve as an external generator for an encyclopedia-style entry generator.
 
 ;Start
-1, [casename]
+1, [[casename]]
 
 ;casename
-1,The [haintplace] [haintmanifest]
+1,The [[haintplace]] [[haintmanifest]]
 
 ;haintplace
-1,[haintbrit][haintbritsfx][haintloc]
+1,[[haintbrit]][[haintbritsfx]][[haintloc]]
 
 ;haintmanifest
 1,Accord

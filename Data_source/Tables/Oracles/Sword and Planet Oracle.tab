@@ -1,13 +1,13 @@
 
 ;Start
-1,[OracleResult]
+1,[[OracleResult]]
 
 ;OracleResult
-1,A [mainphysical], [weapon]-wielding [occupation]
-1,A [personality] [occupation], [fate]
-1,Only the [occupation]'s unusual knowledge of [skill] allows survival
-1,The [alienphysical], [alienmental] natives have [adjective] [alienpower]
-1,In [placedesc] [place], the [personality] [occupation] must [activity] to [goal]!
+1,A [[mainphysical]], [[weapon]]-wielding [[occupation]]
+1,A [[personality]] [[occupation]], [[fate]]
+1,Only the [[occupation]]'s unusual knowledge of [[skill]] allows survival
+1,The [[alienphysical]], [[alienmental]] natives have [[adjective]] [[alienpower]]
+1,In [[placedesc]] [[place]], the [[personality]] [[occupation]] must [[activity]] to [[goal]]!
 
 ;adjective
 1,mysterious
@@ -26,7 +26,7 @@
 1,survive
 1,escape
 1,return home
-1,make a place in [placedesc] [place]
+1,make a place in [[placedesc]] [[place]]
 
 ;alienpower
 1,powers
@@ -47,9 +47,9 @@
 1,friendly
 
 ;alienphysical
-1,[color]-skinned
+1,[[color]]-skinned
 1,tentacled
-1,[color]-eyed
+1,[[color]]-eyed
 1,gaunt
 1,lithe
 1,fanged
@@ -69,8 +69,8 @@
 1,opal
 
 ;fate
-1,marooned in [placedesc] [place]
-1,transported to [placedesc] [place]
+1,marooned in [[placedesc]] [[place]]
+1,transported to [[placedesc]] [[place]]
 
 ;placedesc
 1,an unfamiliar

@@ -1,34 +1,34 @@
 
 ;Start
-2,[Gerund] the [AlchemyNoun] of [AbstractSubstance][AuthorChance]
-1,[Experiments] [AbstractSubstance][AuthorChance]
-1,[Experiments] [ArcaneSubstance][AuthorChance]
-10,[Intro] [Discipline][AuthorChance]
+2,[[Gerund]] the [[AlchemyNoun]] of [[AbstractSubstance]][[AuthorChance]]
+1,[[Experiments]] [[AbstractSubstance]][[AuthorChance]]
+1,[[Experiments]] [[ArcaneSubstance]][[AuthorChance]]
+10,[[Intro]] [[Discipline]][[AuthorChance]]
 
 ;Intro
-1,[IntroAdj] Principles of
+1,[[IntroAdj]] Principles of
 1,Secrets of
-1,[IntroAdj] Foundations of
-1,[IntroAdj] Concepts of
-1,[IntroAdj] Basis of
+1,[[IntroAdj]] Foundations of
+1,[[IntroAdj]] Concepts of
+1,[[IntroAdj]] Basis of
 1,Getting Started with
 1,Learning About
-1,[IntroAdj] Research on
-1,[IntroAdj] Manual on
-1,[IntroAdj] Textbook of
+1,[[IntroAdj]] Research on
+1,[[IntroAdj]] Manual on
+1,[[IntroAdj]] Textbook of
 1,Inquiry into
-1,[IntroAdj] Investigations of
-1,[IntroAdj] Techniques in
+1,[[IntroAdj]] Investigations of
+1,[[IntroAdj]] Techniques in
 1,Recent Advances in
 1,Guide to
 1,Solving Problems with
-1,[IntroAdj] Theory of
-1,[IntroAdj]
-1,[IntroAdj] Models of
-1,[IntroAdj] Writings Concerning
+1,[[IntroAdj]] Theory of
+1,[[IntroAdj]]
+1,[[IntroAdj]] Models of
+1,[[IntroAdj]] Writings Concerning
 1,An Introduction to
 1,A Child's Guide to
-1,[HumorousIntro]
+1,[[HumorousIntro]]
 
 ;HumorousIntro
 1,How to Catch Fish with
@@ -69,21 +69,21 @@
 5,
 
 ;Discipline
-15,[AbstractSubstance]
-1,[DiscAdj] Mechanics
+15,[[AbstractSubstance]]
+1,[[DiscAdj]] Mechanics
 1,Thaumaturgy
 1,Sorcery
 1,Alchemy
 1,Demonology
 1,Diabolism
-1,[DiscAdj] Hierarchy
-1,the Orders of [DiscAdj] Beings
-1,[DiscAdj] Models
+1,[[DiscAdj]] Hierarchy
+1,the Orders of [[DiscAdj]] Beings
+1,[[DiscAdj]] Models
 1,Construct Creation
 1,Chirurgery
 1,Astrology
 1,Astronomy
-1,[DiscAdj] Structures
+1,[[DiscAdj]] Structures
 1,Occultism
 1,Cryptology
 1,Numerology
@@ -92,28 +92,28 @@
 1,Anatomy
 1,Magical Crossbreeding
 1,Potionbrewing
-1,[Utility.CreatureTypes] Dissection
-1,[Utility.CreatureTypes] Sentience
-1,[Utility.CreatureTypes] Crossbreeding
+1,[[Utility.CreatureTypes]] Dissection
+1,[[Utility.CreatureTypes]] Sentience
+1,[[Utility.CreatureTypes]] Crossbreeding
 1,Alienistic Magic
 1,Spellcraft
 1,Spellcasting
-1,Summoning [Utility.CreatureTypes]s
+1,Summoning [[Utility.CreatureTypes]]s
 1,Planar Travel
 1,Chronomancy
 1,Ley Lines
 1,Binding Rituals
-3,[DiscAdj] Energies
-1,[DiscAdj] Power
-2,[DiscAdj] Symbols
-1,[DiscAdj] Runes
+3,[[DiscAdj]] Energies
+1,[[DiscAdj]] Power
+2,[[DiscAdj]] Symbols
+1,[[DiscAdj]] Runes
 1,Rune Magic
 1,Elementalism
 1,Fetish Magic
 1,Theurgy
-1,[DiscAdj] Knowledge
-5,[DivinationType]
-1, Communication with [Utility.CreatureTypes]s
+1,[[DiscAdj]] Knowledge
+5,[[DivinationType]]
+1, Communication with [[Utility.CreatureTypes]]s
 
 ;DivinationType
 1,Aeromancy
@@ -257,9 +257,9 @@
 1,Research on
 1,Analysis of
 1,Uses for
-1,Magnifying [Wizard schools.Start] Spells with
+1,Magnifying [[Wizard schools.Start]] Spells with
 1,A Theory on the Nature of
-1,Rethinking the [AlchemyNoun] of
+1,Rethinking the [[AlchemyNoun]] of
 
 ;AlchemyNoun
 1,Basis
@@ -276,7 +276,7 @@
 1,Spirits
 1,Titration
 1,Uses
-10,[AlchemyAdjective] [AlchemyNoun]
+10,[[AlchemyAdjective]] [[AlchemyNoun]]
 
 ;AlchemyAdjective
 1,Hidden
@@ -308,25 +308,25 @@
 1,Examining
 1,Examining the Origins of
 1,Understanding
-9,[Experiments]
+9,[[Experiments]]
 
 ;AbstractSubstance
-1,the Element of {{ucfirst:[Elements.all]}}
-1,{{ucfirst:[Wizard schools.Start]}} Magic
+1,the Element of {{ucfirst:[[Elements.all]]}}
+1,{{ucfirst:[[Wizard schools.Start]]}} Magic
 
 ;ArcaneSubstance
-1,[Arcane Substance.Start]
+1,[[Arcane Substance.Start]]
 
 ;AuthorChance
 1,
-2,, by [ArcaneAuthor]
+2,, by [[ArcaneAuthor]]
 
 ;ArcaneAuthor
-1,[Fantasy Names.MaleFirstName] the [Honorific]
-1,[Fantasy Names.MaleFirstName], the [Secret Society Title.TitleDescriptor] [ArcaneProfession]
-1,[Fantasy Names.MaleFirstName], [Secret Society Title.Start]
-1,[Fantasy Names.MaleFirstName] the [ArcaneProfession]
-1,[Fantasy Names.MaleFirstName], [ArcaneProfession] [ArcaneRank]
+1,[[Fantasy Names.MaleFirstName]] the [[Honorific]]
+1,[[Fantasy Names.MaleFirstName]], the [[Secret Society Title.TitleDescriptor]] [[ArcaneProfession]]
+1,[[Fantasy Names.MaleFirstName]], [[Secret Society Title.Start]]
+1,[[Fantasy Names.MaleFirstName]] the [[ArcaneProfession]]
+1,[[Fantasy Names.MaleFirstName]], [[ArcaneProfession]] [[ArcaneRank]]
 
 ;Honorific
 1,Magnificent
@@ -338,7 +338,7 @@
 1,Black
 1,Red
 1,Forbidden
-10,[Secret Society Title.TitleDescriptor]
+10,[[Secret Society Title.TitleDescriptor]]
 
 ;ArcaneProfession
 5,Wizard
@@ -371,5 +371,5 @@
 1,of the Tenth Circle
 1,of the Eleventh Circle
 1,of the Twelfth Circle
-10,of the [Secret Society Title.NounDescriptor] [Secret Society Title.Noun]
+10,of the [[Secret Society Title.NounDescriptor]] [[Secret Society Title.Noun]]
 

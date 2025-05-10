@@ -1,7 +1,7 @@
 
 ;Start
-22,[MajorArcana]
-56,[TarotValue] of [TarotSuit][Facing]
+22,[[MajorArcana]]
+56,[[TarotValue]] of [[TarotSuit]][[Facing]]
 
 ;TarotSuit
 1,Wands

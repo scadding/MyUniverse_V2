@@ -1,6 +1,6 @@
 
 ;Start
-1,[iPulpHeroNovel]
+1,[[iPulpHeroNovel]]
 
 ;iPulpNoun
 1,Ice Storm
@@ -98,12 +98,12 @@
 1,versus the
 
 ;pulpend
-1,[iPulpAdjNegative] [iPulpNoun]
+1,[[iPulpAdjNegative]] [[iPulpNoun]]
 
 ;iPulpHeroNovel
-10,[iPulpAdjPositive] [iPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[iPulpMaleFirstName] [iPulpLastName] [pulpmiddle] [pulpend]
-3,[iPulpAdjPositive] [iPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[iPulpFemaleFirstName] [iPulpLastName] [pulpmiddle] [pulpend]
+10,[[iPulpAdjPositive]] [[iPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[iPulpMaleFirstName]] [[iPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[iPulpAdjPositive]] [[iPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[iPulpFemaleFirstName]] [[iPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

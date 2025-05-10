@@ -1,30 +1,30 @@
 
 ;Start
 1,===Daily Specials:===<br>
-_<sgdisplay iterations="8">[maincourse] <br/></sgdisplay><br>
-_<sgdisplay iterations="8">[maincourse] <br/></sgdisplay><br>
-_<sgdisplay iterations="8">[maincourse] <br/></sgdisplay><br>
-_<sgdisplay iterations="8">[maincourse] <br/></sgdisplay><br>
+_<sgdisplay iterations="8">[[maincourse]] <br/></sgdisplay><br>
+_<sgdisplay iterations="8">[[maincourse]] <br/></sgdisplay><br>
+_<sgdisplay iterations="8">[[maincourse]] <br/></sgdisplay><br>
+_<sgdisplay iterations="8">[[maincourse]] <br/></sgdisplay><br>
 _===(Mostly) Vegetarian Entrees:===<br>
-_<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
-_<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
-_<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
-_<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
+_<sgdisplay iterations="8">[[veggiemain]] <br/></sgdisplay><br>
+_<sgdisplay iterations="8">[[veggiemain]] <br/></sgdisplay><br>
+_<sgdisplay iterations="8">[[veggiemain]] <br/></sgdisplay><br>
+_<sgdisplay iterations="8">[[veggiemain]] <br/></sgdisplay><br>
 
 
 
 ;maincourse
-10,[Descriptor][MainMeals][DescriptiveAdjectives2][WithSide]
-4,[Descriptor][MainMeals][DescriptiveAdjectives2][WithSide], served with [ExtrasRoll]
-1,[SGNP 1001 nights.food]
+10,[[Descriptor]][[MainMeals]][[DescriptiveAdjectives2]][[WithSide]]
+4,[[Descriptor]][[MainMeals]][[DescriptiveAdjectives2]][[WithSide]], served with [[ExtrasRoll]]
+1,[[SGNP 1001 nights.food]]
 
 ;veggiemain
-5,[Descriptor][VeggiesCookable][DescriptiveAdjectives2][WithSide]
-2,[Descriptor][VeggiesCookable][DescriptiveAdjectives2][WithSide], served with [ExtrasRoll]
+5,[[Descriptor]][[VeggiesCookable]][[DescriptiveAdjectives2]][[WithSide]]
+2,[[Descriptor]][[VeggiesCookable]][[DescriptiveAdjectives2]][[WithSide]], served with [[ExtrasRoll]]
 
 ;Descriptor
-1,[CookingAdjectives]
-1,[DescriptiveAdjective1]
+1,[[CookingAdjectives]]
+1,[[DescriptiveAdjective1]]
 
 ;CookingAdjectives
 3,Toasted
@@ -86,14 +86,14 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 5, Ham 
 8, Boar 
 2, Boar Ribs
-10, [VeggiesCookable]
+10, [[VeggiesCookable]]
 6, Goat 
 2, Goat Leg
 4, Kid 
 3, Rabbit
 3, Coney
 3, Hare
-9, [FreshwaterFish]
+9, [[FreshwaterFish]]
 3, Sheep 
 6, Mutton 
 6, Venison 
@@ -106,10 +106,10 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 4, Elk 
 1, Elk Ribs
 2, Cheese 
-8, [MainMeals] Sausage 
-3, [MainMealsExotic] Sausage 
-10, [MainMealsExotic]
-7, [SaltwaterFish]
+8, [[MainMeals]] Sausage 
+3, [[MainMealsExotic]] Sausage 
+10, [[MainMealsExotic]]
+7, [[SaltwaterFish]]
 
 ;MainMealsExotic
 3, Alligator
@@ -162,13 +162,13 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 1, Woodcock
 
 ;Veggies
-50,[VeggiesCookable]
-7,[RawOnlyVeggies]
+50,[[VeggiesCookable]]
+7,[[RawOnlyVeggies]]
 
 ;Veggies2
-50,[CookingAdjectives] [VeggiesCookable]
-7,[RawOnlyVeggies]
-3,Raw [VeggiesCookable]
+50,[[CookingAdjectives]] [[VeggiesCookable]]
+7,[[RawOnlyVeggies]]
+3,Raw [[VeggiesCookable]]
 
 ;VeggiesCookable
 1, Arugula
@@ -209,7 +209,7 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 1, Squash
 1, Tomatoes
 1, Zucchini
-1, [Fruit]
+1, [[Fruit]]
 2, Asparagus
 2, Cabbage
 2, Eggplant
@@ -218,7 +218,7 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 1, Pearl Onions
 1, Shallots
 1, Red Onions
-2, [VeggiesCookable] and [VeggiesCookable]
+2, [[VeggiesCookable]] and [[VeggiesCookable]]
 3, Carrots
 3, Green Beans
 3, Turnips
@@ -238,11 +238,11 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 
 ;WithSide
 5,
-4, with [CookingAdjectives][VeggiesCookable]
-4, on a bed of [CookingAdjectives][VeggiesCookable]
+4, with [[CookingAdjectives]][[VeggiesCookable]]
+4, on a bed of [[CookingAdjectives]][[VeggiesCookable]]
 
 ;Fruit
-1, [Utility.Fruit]s
+1, [[Utility.Fruit]]s
 
 ;FreshwaterFish
 1, Bass
@@ -251,7 +251,7 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 1, Giant Catfish
 1, Crayfish
 1, Eel
-1, Giant [FreshwaterFish]
+1, Giant [[FreshwaterFish]]
 1, Minnows
 1, Panfish
 1, Perch
@@ -325,31 +325,31 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 5, special
 5, parcels
 3, salad
-4, stuffed with [VeggiesCookable]
-2, with [Utility.Fruit] reduction sauce
+4, stuffed with [[VeggiesCookable]]
+2, with [[Utility.Fruit]] reduction sauce
 2, with Wine reduction sauce
-7, with [SavorySauces]
-1, in an omelette with [VeggiesCookable]
+7, with [[SavorySauces]]
+1, in an omelette with [[VeggiesCookable]]
 
 
 ;Extras
-1, a small helping of [Descriptor] [MainMeals]
-5, [Sides]
+1, a small helping of [[Descriptor]] [[MainMeals]]
+5, [[Sides]]
 
 ;Sides
-3, [cheese]
-10, [Breads] with [BreadSpreads]
-4, [NutsVerb] [Nuts]s
-3, [Pastas]
+3, [[cheese]]
+10, [[Breads]] with [[BreadSpreads]]
+4, [[NutsVerb]] [[Nuts]]s
+3, [[Pastas]]
 3, Chips
-10, [Desserts]
-2, Scones with [BreadSpreads]
-4, [Salads]
-3, [Utility.Fruit]s
-2, [Tapas]
-1, Dried [MainMeals] Jerky
-1, [Pickles]
-1, [Eggs]
+10, [[Desserts]]
+2, Scones with [[BreadSpreads]]
+4, [[Salads]]
+3, [[Utility.Fruit]]s
+2, [[Tapas]]
+1, Dried [[MainMeals]] Jerky
+1, [[Pickles]]
+1, [[Eggs]]
 3, Porridge
 
 ;Pastas
@@ -369,7 +369,7 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 1,Crackers
 1,Black Bread
 1,Rye Bread
-1,[Utility.Fruit] Bread
+1,[[Utility.Fruit]] Bread
 1,Oatmeal Bread
 1,Sweet Bread
 1,Wheat Bread
@@ -378,21 +378,21 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 1,Foccacia
 1,Dumplings
 1,Muffins
-1,[Utility.Fruit] Muffins
-1,[Utility.Fruit] and [Nuts] Muffins
+1,[[Utility.Fruit]] Muffins
+1,[[Utility.Fruit]] and [[Nuts]] Muffins
 1,Rolls
 1,Crescent Rolls
 3,Flatbread
 1,Toast
 1,Peasant Bread
 1,Pita Bread
-1,[Nuts] Bread
-1,[Sweeteners] Bread
+1,[[Nuts]] Bread
+1,[[Sweeteners]] Bread
 1,Frybread
 
 ;cheese
-1, [CheeseProcess] [CheeseType] [CheeseOrigin] Cheese
-1, [Cheeses.Start]
+1, [[CheeseProcess]] [[CheeseType]] [[CheeseOrigin]] Cheese
+1, [[Cheeses.Start]]
 
 ;CheeseProcess
 1,Fresh
@@ -403,7 +403,7 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 1,Peppercorn-encrusted
 1,Pastry-encrusted
 1,Herb-encrusted
-1,[Nuts]-encrusted
+1,[[Nuts]]-encrusted
 1,Farmstead-Style
 10,
 
@@ -463,15 +463,15 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 5,fresh-churned butter
 4,herb butter
 4,honey butter
-3,[Utility.Fruit] jam
-3,[Utility.Fruit] jelly
-1,[Utility.Citrus] marmalade
-1,[Utility.Citrus] curd
-1,[FruitButters] butter
-1,fresh-ground [Nuts] butter
-1,[SpiceButters] butter
-1,[Sweeteners] butter
-4,melted [cheese]
+3,[[Utility.Fruit]] jam
+3,[[Utility.Fruit]] jelly
+1,[[Utility.Citrus]] marmalade
+1,[[Utility.Citrus]] curd
+1,[[FruitButters]] butter
+1,fresh-ground [[Nuts]] butter
+1,[[SpiceButters]] butter
+1,[[Sweeteners]] butter
+4,melted [[cheese]]
 
 ;FruitButters
 5,apple
@@ -500,21 +500,21 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 1,cinnamon cake
 1,doughnut
 1,eclair
-1,[Utility.Fruit] fritters
-3,[Utility.Fruit] tarts
-5,[Utility.Fruit] pie
-1,[Utility.Fruit] cake
+1,[[Utility.Fruit]] fritters
+3,[[Utility.Fruit]] tarts
+5,[[Utility.Fruit]] pie
+1,[[Utility.Fruit]] cake
 1,honey rolls
-1,[Utility.Fruit] strudel
-1,[Utility.Fruit] torte
-1,cheese and [Utility.Fruit] blintz
-1,candied [Utility.Fruit]
-1,[Utility.Fruit] cobbler
+1,[[Utility.Fruit]] strudel
+1,[[Utility.Fruit]] torte
+1,cheese and [[Utility.Fruit]] blintz
+1,candied [[Utility.Fruit]]
+1,[[Utility.Fruit]] cobbler
 1,creme brulee
 1,custard
 1,pastries
-1,[Utility.Fruit] pudding
-1,bread pudding with [Utility.Fruit] sauce
+1,[[Utility.Fruit]] pudding
+1,bread pudding with [[Utility.Fruit]] sauce
 1,dwarven rock candy
 1,gnomish sweetbread
 
@@ -545,33 +545,33 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 1,soft-boiled eggs
 1,poached eggs
 1,fried eggs
-1,scrambled eggs with [VeggiesCookable]
+1,scrambled eggs with [[VeggiesCookable]]
 1,deviled eggs
 
 ;ExtrasRoll
-10,[Extras]
-7,[Extras] and [Extras]
-5,[Extras], [Extras], and [Extras]
-3,[Extras], [Extras], [Extras], and [Extras]
-1,[Extras], [Extras], [Extras], [Extras], and [Extras]
+10,[[Extras]]
+7,[[Extras]] and [[Extras]]
+5,[[Extras]], [[Extras]], and [[Extras]]
+3,[[Extras]], [[Extras]], [[Extras]], and [[Extras]]
+1,[[Extras]], [[Extras]], [[Extras]], [[Extras]], and [[Extras]]
 
 ;Tapas
-1,Fried [VeggiesCookable] with roasted garlic-yogurt sauce
-1,Olive Oil marinated baby [VeggiesCookable] stuffed with [Nuts] and [Veggies]
-1,marinated roasted [VeggiesCookable] with [cheese]
-1,[VeggiesCookable]-cheese patties with caper-yogurt sauce
-1,roasted [VeggiesCookable] and olives with balsamic vinegar and olive oil
-1,fava beans with [VeggiesCookable]s, capers and lemon juice
-1,sauteed wild mushrooms with [Nuts] sauce & demi-glace
-1,cabbage paquetes stuffed with rice and [VeggiesCookable]
-1,[VeggiesCookable], [Utility.Fruit], and [Nuts] fritters with [Nuts] sauce
-1,fried light pastry with [cheese] and [Nuts]s
-1,roasted [VeggiesCookable] with [cheese] and [Nuts]s
-1,spicy sausage in a sauce of [VeggiesCookable], [VeggiesCookable], and [VeggiesCookable] sauce
-1,croquettes of [SaltwaterFish] with [VeggiesCookable] and [VeggiesCookable]
-1,steamed [FreshwaterFish] with a creamy lemon-garlic sauce
-1,thin-sliced cured [MainMeals] and [Veggies] with a [VeggiesCookable]-cream sauce
-1,[SaltwaterFish] ceviche in [Utility.Citrus] juice with [Veggies] and [Veggies]
+1,Fried [[VeggiesCookable]] with roasted garlic-yogurt sauce
+1,Olive Oil marinated baby [[VeggiesCookable]] stuffed with [[Nuts]] and [[Veggies]]
+1,marinated roasted [[VeggiesCookable]] with [[cheese]]
+1,[[VeggiesCookable]]-cheese patties with caper-yogurt sauce
+1,roasted [[VeggiesCookable]] and olives with balsamic vinegar and olive oil
+1,fava beans with [[VeggiesCookable]]s, capers and lemon juice
+1,sauteed wild mushrooms with [[Nuts]] sauce & demi-glace
+1,cabbage paquetes stuffed with rice and [[VeggiesCookable]]
+1,[[VeggiesCookable]], [[Utility.Fruit]], and [[Nuts]] fritters with [[Nuts]] sauce
+1,fried light pastry with [[cheese]] and [[Nuts]]s
+1,roasted [[VeggiesCookable]] with [[cheese]] and [[Nuts]]s
+1,spicy sausage in a sauce of [[VeggiesCookable]], [[VeggiesCookable]], and [[VeggiesCookable]] sauce
+1,croquettes of [[SaltwaterFish]] with [[VeggiesCookable]] and [[VeggiesCookable]]
+1,steamed [[FreshwaterFish]] with a creamy lemon-garlic sauce
+1,thin-sliced cured [[MainMeals]] and [[Veggies]] with a [[VeggiesCookable]]-cream sauce
+1,[[SaltwaterFish]] ceviche in [[Utility.Citrus]] juice with [[Veggies]] and [[Veggies]]
 
 ;Salads
 5,salad greens
@@ -586,13 +586,13 @@ _<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
 1,pepper & onion salad
 1,walnut & raspberry salad
 1,fruit salad
-1,spinach salad with [Utility.Fruit] viniagrette
-1,[Veggies] & [cheese] salad
-2,[Utility.Fruit] & [Nuts] salad
-2,[RawOnlyVeggies] & [Veggies] salad
-2,egg salad with [Veggies]
-2,potato salad with [Veggies] & [Veggies]
-2,chicken salad with [Veggies] & [Veggies]
+1,spinach salad with [[Utility.Fruit]] viniagrette
+1,[[Veggies]] & [[cheese]] salad
+2,[[Utility.Fruit]] & [[Nuts]] salad
+2,[[RawOnlyVeggies]] & [[Veggies]] salad
+2,egg salad with [[Veggies]]
+2,potato salad with [[Veggies]] & [[Veggies]]
+2,chicken salad with [[Veggies]] & [[Veggies]]
 
 ;SavorySauces
 1,horseradish sauce

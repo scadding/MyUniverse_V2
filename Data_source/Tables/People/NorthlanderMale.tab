@@ -1,6 +1,6 @@
 
 ;Start
-1,[NorthlanderMaleFirstName] [NorthlanderMaleSurname]
+1,[[NorthlanderMaleFirstName]] [[NorthlanderMaleSurname]]
 
 ;NorthlanderMaleFirstName
 1,Abi
@@ -1255,11 +1255,11 @@
 1,Øssur
 
 ;NorthlanderMaleSurname
-8,[NorthlanderMaleFirstName]sen
-4,[NorthlanderMaleFirstName]ssen
-7,[NorthlanderMaleFirstName]son
-4,[NorthlanderMaleFirstName]sson
-1,[NorthlanderMaleFirstName]sin
-1,[NorthlanderMaleFirstName]ssin
+8,[[NorthlanderMaleFirstName]]sen
+4,[[NorthlanderMaleFirstName]]ssen
+7,[[NorthlanderMaleFirstName]]son
+4,[[NorthlanderMaleFirstName]]sson
+1,[[NorthlanderMaleFirstName]]sin
+1,[[NorthlanderMaleFirstName]]ssin
 
 

@@ -1,14 +1,14 @@
 
 ;Start
-1,[hobby]
+1,[[hobby]]
 
 ;hobby
-2,[Collection]Collecting
-2,[Games]
-2,[Sports]
+2,[[Collection]]Collecting
+2,[[Games]]
+2,[[Sports]]
 1,Movies
 1,Music
-2,[Outdoors]
+2,[[Outdoors]]
 1,Theater
 1,Travel
 1,Animal Rescue
@@ -31,8 +31,8 @@
 1,Autograph 
 
 ;Games
-1,[Board Games]
-1,[Card Games]
+1,[[Board Games]]
+1,[[Card Games]]
 1,Roleplaying Games
 1,Computer Games
 
@@ -44,7 +44,7 @@
 1,Board Games
 
 ;Card Games
-3,[Poker]
+3,[[Poker]]
 1,Blackjack
 1,Uno
 1,Illuminati
@@ -58,14 +58,14 @@
 1,Seven Card Draw Poker
 
 ;Sports
-4,Watching [sport]
-1,Playing [noningsport]
-3,[ingsport]
-1,[sport]
+4,Watching [[sport]]
+1,Playing [[noningsport]]
+3,[[ingsport]]
+1,[[sport]]
 
 ;sport
-1,[noningsport]
-1,[ingsport]
+1,[[noningsport]]
+1,[[ingsport]]
 
 ;noningsport
 3,Baseball

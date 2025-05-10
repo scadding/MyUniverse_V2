@@ -1,7 +1,7 @@
 
 ;Start
-1,[male] [surname] (male)
-1,[female] [surname] (female)
+1,[[male]] [[surname]] (male)
+1,[[female]] [[surname]] (female)
 
 ;male
 1,Arkady (Archie)

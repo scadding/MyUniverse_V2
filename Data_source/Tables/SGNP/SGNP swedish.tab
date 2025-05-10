@@ -1,9 +1,9 @@
 
 ;Start
-4,[male] [surname] (male)
-4,[female] [surname] (female)
-1,[lads] [surname] (male, smuggler)
-1,[lasses] [surname] (female, smuggler)
+4,[[male]] [[surname]] (male)
+4,[[female]] [[surname]] (female)
+1,[[lads]] [[surname]] (male, smuggler)
+1,[[lasses]] [[surname]] (female, smuggler)
 
 ;male
 1,Oscar

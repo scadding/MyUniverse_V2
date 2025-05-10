@@ -4,9 +4,9 @@
 #Created using Lexgen, http://tmt.sourceforge.net/lexgen/, using Hawaiian phonemes as a base and adding some Nahuatl love #for weirdness.
 
 ;Start
-1,[male](male)
-1,[female](female)
-1,[location](location)
+1,[[male]](male)
+1,[[female]](female)
+1,[[location]](location)
 
 ;male
 1,Maho

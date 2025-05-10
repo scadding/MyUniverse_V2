@@ -1,18 +1,18 @@
 
 #==People==
-#<sgdisplay iterations="10">[main]</sgdisplay>
+#<sgdisplay iterations="10">[[main]]</sgdisplay>
 #
 #
 #==Soccer Stars==
-#<sgdisplay iterations="4">[SOCCER SUPERSTARS]</sgdisplay>
+#<sgdisplay iterations="4">[[SOCCER SUPERSTARS]]</sgdisplay>
 #
 #==Amazon Tribes==
-#<sgdisplay iterations="4">[TRIBES OF THE AMAZON BASIN]</sgdisplay>
+#<sgdisplay iterations="4">[[TRIBES OF THE AMAZON BASIN]]</sgdisplay>
 
 
 ;Start
-1,[MALE] [SURNAMES] (Male)
-1,[FEMALE] [SURNAMES] (Female)
+1,[[MALE]] [[SURNAMES]] (Male)
+1,[[FEMALE]] [[SURNAMES]] (Female)
 
 ;MALE
 1,Rui

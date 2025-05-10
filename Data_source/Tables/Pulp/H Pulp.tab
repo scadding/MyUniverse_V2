@@ -1,6 +1,6 @@
 
 ;Start
-1,[hPulpHeroNovel]
+1,[[hPulpHeroNovel]]
 
 ;hPulpNoun
 1,Hailstorm
@@ -104,12 +104,12 @@
 1,versus the
 
 ;pulpend
-1,[hPulpAdjNegative] [hPulpNoun]
+1,[[hPulpAdjNegative]] [[hPulpNoun]]
 
 ;hPulpHeroNovel
-10,[hPulpAdjPositive] [hPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[hPulpMaleFirstName] [hPulpLastName] [pulpmiddle] [pulpend]
-3,[hPulpAdjPositive] [hPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[hPulpFemaleFirstName] [hPulpLastName] [pulpmiddle] [pulpend]
+10,[[hPulpAdjPositive]] [[hPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[hPulpMaleFirstName]] [[hPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[hPulpAdjPositive]] [[hPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[hPulpFemaleFirstName]] [[hPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

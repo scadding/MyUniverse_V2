@@ -1,19 +1,19 @@
 
 ;Start
-10,[male] [surname] (male)
-10,[female] [surname] (female)
-5,[surfGuitarBands] (surf band)
-5,[soldiers] (soldier)
-5,[sceneSubject] [scenePredicate] (scene)
+10,[[male]] [[surname]] (male)
+10,[[female]] [[surname]] (female)
+5,[[surfGuitarBands]] (surf band)
+5,[[soldiers]] (soldier)
+5,[[sceneSubject]] [[scenePredicate]] (scene)
 
 ;soldiers
-1,[male] [surname] - 4th Infantry, [armyunits4ID]
-1,[male] "[nickname]" [surname] - 4th Infantry, [armyunits4ID]
-1,[male] [surname] - 1st Cav, [armyunits1CD]
-1,[male] "[nickname]" [surname] - 1st Cav, [armyunits1CD]
+1,[[male]] [[surname]] - 4th Infantry, [[armyunits4ID]]
+1,[[male]] "[[nickname]]" [[surname]] - 4th Infantry, [[armyunits4ID]]
+1,[[male]] [[surname]] - 1st Cav, [[armyunits1CD]]
+1,[[male]] "[[nickname]]" [[surname]] - 1st Cav, [[armyunits1CD]]
 
 ;scene
-1,[sceneSubject] [scenePredicate]
+1,[[sceneSubject]] [[scenePredicate]]
 
 ;male
 1,James   
@@ -237,8 +237,8 @@
 1,228th Aviation Battalion
 1,"A" Trp, 1st Squadron, 9th Cavalry
 1,"C" Trp, 1st Squadron, 9th Cavalry
-8,[armyunits5CD]
-8,[armyunits12CD]
+8,[[armyunits5CD]]
+8,[[armyunits12CD]]
 
 ;armyunits5CD
 1,1st Battalion 5th Cav HHC
@@ -268,7 +268,7 @@
 1,2nd Battalion 12th Cav, E Company
 
 ;nickname
-1,[Vietnam Nicknames.Start]
+1,[[Vietnam Nicknames.Start]]
 
 ;sceneSubject
 1,A civilian							

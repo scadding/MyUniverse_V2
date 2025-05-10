@@ -1,23 +1,23 @@
 
 ;Start
-4,[MalePirateName]
-1,[FemalePirateName]
+4,[[MalePirateName]]
+1,[[FemalePirateName]]
 
 ;MalePirateName
-4,[PirateFlairFirstName] [MalePirateFirstName]
-4,[PirateRank] [MalePirateLastName] of [Ship Names.Start]
-3,[MalePirateFirstName] [PirateFlairEnder]
-3,[PirateRank] [MalePirateFirstName]
-2,[MalePirateFirstName] "[PirateFlairFirstName]" [MalePirateLastName]
-2,[PirateRank] [MalePirateFirstName] "[PirateFlairFirstName]" [MalePirateLastName] [PirateFlairEnder]
-1,Long [MalePirateFirstName] [Metal]
+4,[[PirateFlairFirstName]] [[MalePirateFirstName]]
+4,[[PirateRank]] [[MalePirateLastName]] of [[Ship Names.Start]]
+3,[[MalePirateFirstName]] [[PirateFlairEnder]]
+3,[[PirateRank]] [[MalePirateFirstName]]
+2,[[MalePirateFirstName]] "[[PirateFlairFirstName]]" [[MalePirateLastName]]
+2,[[PirateRank]] [[MalePirateFirstName]] "[[PirateFlairFirstName]]" [[MalePirateLastName]] [[PirateFlairEnder]]
+1,Long [[MalePirateFirstName]] [[Metal]]
 
 ;PirateFlairFirstName
 1,Bandanna
 1,Barnacle
 1,Bawdy
 1,Beady-Eyed
-1,Bilge [SeaCreature]
+1,Bilge [[SeaCreature]]
 1,Blind
 1,Bootstrap
 1,Broadsides
@@ -38,7 +38,7 @@
 1,Lightning
 1,Limey
 1,Lusty
-1,[Metal]shanks
+1,[[Metal]]shanks
 1,Moldy
 1,Muttonchops
 1,Old
@@ -104,13 +104,13 @@
 1,The Rat
 1,The Red
 1,The Rum Guzzler
-3,The Rusty [PirateSword]
+3,The Rusty [[PirateSword]]
 1,The Salty
 1,The Salty Dog
 1,The Scalliwag
-1,The [Scourge] of the [SeaPlace]
+1,The [[Scourge]] of the [[SeaPlace]]
 1,The Scurvy
-3,The Sea [SeaCreature]
+3,The Sea [[SeaCreature]]
 1,The Shark
 1,The Storm Chaser
 1,The Swabby
@@ -189,37 +189,37 @@
 
 ;MalePirateFirstName
 1,Ahab
-3,[American Census Names.male]
+3,[[American Census Names.male]]
 1,Davey
-1,[DitV Male Name.FirstName]
+1,[[DitV Male Name.FirstName]]
 1,Esteban
 1,Ishmael
 1,Jack
 1,Pete
 1,Rick
 1,Ron
-2,[Portuguese Names.portuguesemale]
+2,[[Portuguese Names.portuguesemale]]
 
 ;MalePirateLastName
 1,Albert
 1,Alberts
 1,Black
-1,[BeardColor]balls
-1,[BeardColor]beard
+1,[[BeardColor]]balls
+1,[[BeardColor]]beard
 1,Blood
-1,[German Male.germansurname]
+1,[[German Male.germansurname]]
 1,Hook
-1,[Italian Names.Surname]
+1,[[Italian Names.Surname]]
 1,Jones
-1,Mc[MalePirateFirstName]
+1,Mc[[MalePirateFirstName]]
 1,Montalban
 1,Morgan
 1,Nemo
 1,Peters
-1,[Portuguese Names.portuguesesurname]
+1,[[Portuguese Names.portuguesesurname]]
 1,Roberts
 1,Ryan
-1,[ScottishMale.ScottishClan]
+1,[[ScottishMale.ScottishClan]]
 1,Sparrow
 
 ;BeardColor
@@ -233,16 +233,16 @@
 1,White
 
 ;FemalePirateName
-3,[PirateFlairFirstName] [FemalePirateFirstName]
-3,[PirateRank] [FemalePirateFirstName] of [Ship Names.Start]
-2,[FemalePirateFirstName] [PirateFlairEnder]
+3,[[PirateFlairFirstName]] [[FemalePirateFirstName]]
+3,[[PirateRank]] [[FemalePirateFirstName]] of [[Ship Names.Start]]
+2,[[FemalePirateFirstName]] [[PirateFlairEnder]]
 
 ;FemalePirateFirstName
-3,[American Census Names.female]
-1,[ScottishFemale.Start]
-1,[ScottishFemale.ScottishFemaleFirstName]
-3,[Italian Names.FemaleFirst]
-2,[German Female.germanfemale]
-2,[Portuguese Names.portuguesefemale]
+3,[[American Census Names.female]]
+1,[[ScottishFemale.Start]]
+1,[[ScottishFemale.ScottishFemaleFirstName]]
+3,[[Italian Names.FemaleFirst]]
+2,[[German Female.germanfemale]]
+2,[[Portuguese Names.portuguesefemale]]
 1,Kitty
 

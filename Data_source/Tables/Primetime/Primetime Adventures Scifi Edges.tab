@@ -1,16 +1,16 @@
 
 ;Start
-1,[Profession]
+1,[[Profession]]
 
 ;Profession
-1,[Ship Profession]
-1,Owns A [Condition][Thing]
-1,[Criminal]
-1,[Other]
-1,[Super Power]
-1,[Psionic Power]
-1,[Race]
-1,[Robot]
+1,[[Ship Profession]]
+1,Owns A [[Condition]][[Thing]]
+1,[[Criminal]]
+1,[[Other]]
+1,[[Super Power]]
+1,[[Psionic Power]]
+1,[[Race]]
+1,[[Robot]]
 
 ;Ship Profession
 1,Pilot
@@ -22,7 +22,7 @@
 1,Mercenary
 1,Space Marine
 1,Space Trooper
-1,[Scientist]
+1,[[Scientist]]
 1,Engineer
 1,Mechanic
 1,Tac Ops Specialist
@@ -44,8 +44,8 @@
 3,Sloppy Looking But Well Maintained 
 
 ;Thing
-3,[Ship Type]
-1,[Robot]
+3,[[Ship Type]]
+1,[[Robot]]
 
 ;Ship Type
 1,Tramp Freighter
@@ -139,8 +139,8 @@
 1,Mutant
 
 ;Robot
-1,[Bot]Bot
-1,[Android]Android
+1,[[Bot]]Bot
+1,[[Android]]Android
 
 ;Bot
 1,Security-

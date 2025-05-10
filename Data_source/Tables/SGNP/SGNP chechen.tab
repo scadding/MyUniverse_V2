@@ -1,7 +1,7 @@
 
 ;Start
-1,[male] [surname]. Nickname: [nickname]
-1,[female] [surname]. Nickname: [nickname]
+1,[[male]] [[surname]]. Nickname: [[nickname]]
+1,[[female]] [[surname]]. Nickname: [[nickname]]
 
 ;male
 1,Sutarbi (greedy)

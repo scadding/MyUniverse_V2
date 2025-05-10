@@ -1,6 +1,6 @@
 
 ;Start
-1,[NorthlanderFemaleFirstName] [NorthlanderFemaleSurname]
+1,[[NorthlanderFemaleFirstName]] [[NorthlanderFemaleSurname]]
 
 ;NorthlanderFemaleFirstName
 1,Aesa
@@ -369,9 +369,9 @@
 1,Ása
 1,Ásgerd
 ;NorthlanderFemaleSurname
-1,[NorthlanderMale.NorthlanderMaleFirstName]sdottir
-1,[NorthlanderMale.NorthlanderMaleFirstName]sdotter
-1,[NorthlanderMale.NorthlanderMaleFirstName]sdattir
-1,[NorthlanderMale.NorthlanderMaleFirstName]sdatter
+1,[[NorthlanderMale.NorthlanderMaleFirstName]]sdottir
+1,[[NorthlanderMale.NorthlanderMaleFirstName]]sdotter
+1,[[NorthlanderMale.NorthlanderMaleFirstName]]sdattir
+1,[[NorthlanderMale.NorthlanderMaleFirstName]]sdatter
 
 

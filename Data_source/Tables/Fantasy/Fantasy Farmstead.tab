@@ -1,12 +1,12 @@
 
 ;Start
-1,A [SettlementType] where they [Product]. In addition to [FarmhouseType], there is [SomeOutbuildings].
+1,A [[SettlementType]] where they [[Product]]. In addition to [[FarmhouseType]], there is [[SomeOutbuildings]].
 
 ;SomeOutbuildings
-1,[Outbuildings]
-1,[Outbuildings] and [Outbuildings]
-1,[Outbuildings], [Outbuildings], and [Outbuildings]
-1,[Outbuildings], [Outbuildings], [Outbuildings] and [OtherBuildings]
+1,[[Outbuildings]]
+1,[[Outbuildings]] and [[Outbuildings]]
+1,[[Outbuildings]], [[Outbuildings]], and [[Outbuildings]]
+1,[[Outbuildings]], [[Outbuildings]], [[Outbuildings]] and [[OtherBuildings]]
 
 ;SettlementType
 1,borough
@@ -25,29 +25,29 @@
 2,plantation
 
 ;Product
-1,grow [AgricultureProduct]
-1,grow [AgricultureProduct] and [AgricultureProduct]
-1,raise [AnimalProduct]
-1,raise [AnimalProduct] and [AnimalProduct]
-1,grow [AgricultureProduct] and raise [AnimalProduct]
+1,grow [[AgricultureProduct]]
+1,grow [[AgricultureProduct]] and [[AgricultureProduct]]
+1,raise [[AnimalProduct]]
+1,raise [[AnimalProduct]] and [[AnimalProduct]]
+1,grow [[AgricultureProduct]] and raise [[AnimalProduct]]
 
 ;AgricultureProduct
-23,[grain]
+23,[[grain]]
 3,tobacco
 1,grapes
 2,squash
-7,[Fruits]
+7,[[Fruits]]
 2,cotton
 1,hemp
 3,potatoes
 3,assorted vegetables
-4,[FantasyMenu.Veggies]
+4,[[FantasyMenu.Veggies]]
 1,hops
-3,[Herbs]
+3,[[Herbs]]
 
 ;Fruits
-5,several varieties of fruit, especially [Fruit] and [Fruit]
-3,[Fruit]
+5,several varieties of fruit, especially [[Fruit]] and [[Fruit]]
+3,[[Fruit]]
 
 ;Fruit
 7,apples
@@ -67,8 +67,8 @@
 1,persimmons
 1,pomegranates
 1,tamarind
-30,[Berry]
-6,[Citrus]
+30,[[Berry]]
+6,[[Citrus]]
 
 ;Citrus
 5,oranges
@@ -100,8 +100,8 @@
 1,whortleberries
 
 ;Herbs
-1,several types of herbs such as [Herb] and [Herb]
-1,[Herb]
+1,several types of herbs such as [[Herb]] and [[Herb]]
+1,[[Herb]]
 
 ;Herb
 5,garlic
@@ -148,7 +148,7 @@
 4,sheep
 1,swine
 2,turkeys
-1,[UnusualAnimalProduct]
+1,[[UnusualAnimalProduct]]
 
 ;UnusualAnimalProduct
 1,birds as tall as a man
@@ -190,11 +190,11 @@
 1,a weaver's loom
 1,a woodshed
 3,an outhouse
-3,[OtherBuildings]
+3,[[OtherBuildings]]
 
 ;OtherBuildings
 2,a smithy
-2,a chapel for worshipping mainly [Fantasy Pantheon.Start] and [Fantasy Pantheon.Start]
+2,a chapel for worshipping mainly [[Fantasy Pantheon.Start]] and [[Fantasy Pantheon.Start]]
 2,a guesthouse
 1,a fishing pond
 1,a druidic stone circle
@@ -202,12 +202,12 @@
 1,a cemetery
 1,an animal fighting pit
 1,a tinker's cottage
-1,a shrine to [Fantasy Pantheon.Start]
+1,a shrine to [[Fantasy Pantheon.Start]]
 1,a well-manicured ornamental garden
 1,an extensive vegetable garden
 1,a well-stocked herb garden
 1,a large refuse pile
 1,a large rune-carved menhir
-1,a statue of [Fantasy Male Military Hero.Start]
+1,a statue of [[Fantasy Male Military Hero.Start]]
 
 

@@ -8,10 +8,10 @@
 5,[F]
 
 ;A
-1,[Intro]  I had just [WentTo] [Restaurant] and ordered [RestaurantOrder].  So in [Walks] [Contact] - looking for me as usual.  Turns out [Victim] got [Killed]. [Weapon]. [Time]
+1,[[Intro]]  I had just [[WentTo]] [[Restaurant]] and ordered [[RestaurantOrder]].  So in [[Walks]] [[Contact]] - looking for me as usual.  Turns out [[Victim]] got [[Killed]]. [[Weapon]]. [[Time]]
 
 ;Intro
-1,This one could bring the [Dice.1d8][Th] Precinct to its knees, and maybe the whole city down with it.
+1,This one could bring the [[Tables.Utility.Dice.1d8]][[Th]] Precinct to its knees, and maybe the whole city down with it.
 1,It was a crisp day, and the breeze was stiff and brisk.  Leaves mingled with trash as they blew through the alleys and side streets.
 1,It was brisk.  The wind blew right through your jacket like it was a seive.
 1,It was blustery out.  The snow was coming in sideways, hard.  It had only been a few hours and the streets were already a cold, brown mush.
@@ -19,7 +19,7 @@
 1,It was freezing.  I nearly slipped on the ice outside the door.
 1,It was bitterly cold out on the streets... at least the wind had died down for the moment.
 1,Snow.  Since when the hell did it snow around here?  And it was coming down in buckets.
-1,It was cold out.  So cold it even drove the beggars inside.  My gloves stuck to the door handle for a moment as I was getting out of [TheCar].
+1,It was cold out.  So cold it even drove the beggars inside.  My gloves stuck to the door handle for a moment as I was getting out of [[TheCar]].
 1,It was a dark and stormy night.
 1,It was a bad week in a bad month; maybe even a bad year.  The Times were calling it the worst crime spike the city had ever seen.
 1,It was a dark day in the big city.  Normal for this time of year, but something felt darker today... something more sinister.
@@ -34,7 +34,7 @@
 1,I remember this one case... I was fresh on the Force.  Had a thin mustache and a thinner wallet... but even back then I had a sharp nose for hot leads.
 1,It was a few years back.  I had just gotten on the Force.
 1,I remember when I was still just a rookie, just another gumshoe bumbling his way through the concrete jungle.
-1,It was an oppressively hot day in the city.  The blacktop was baking, and the broads on 1[Th] and Main were wearing even less than usual.
+1,It was an oppressively hot day in the city.  The blacktop was baking, and the broads on 1[[Th]] and Main were wearing even less than usual.
 1,It was as hot as I'd ever remembered it.  Just blistering.  You could cook breakfast right on the sidewalk; that is, if you could bear to eat off of the filthiest imaginable surface on earth.
 1,It was a heat wave; worst in years.  Scalding, scorching, sweltering heat... it was so hot the newsies had gone on strike.  Hell, even the thermometers had gone on strike... about 20 degrees ago.
 1,Well, this is how it all went down.
@@ -156,13 +156,13 @@
 1,comes
 
 ;Contact
-1,[PoliceRank] [American Census Names.surname]
-1,[PoliceRank] [Italian Names.Surname]
-1,[PoliceRank] Mac[ScottishMale.ScottishClan]
-1,[PoliceRank] Mc[ScottishMale.ScottishClan]
-1,[Italian Names.MaleFirst] [ShadyContact]
-1,[American Census Names.commonmale] [ShadyContact]
-1,[American Census Names.commonmale] [American Census Names.surname]
+1,[[PoliceRank]] [[American Census Names.surname]]
+1,[[PoliceRank]] [[Italian Names.Surname]]
+1,[[PoliceRank]] Mac[[ScottishMale.ScottishClan]]
+1,[[PoliceRank]] Mc[[ScottishMale.ScottishClan]]
+1,[[Italian Names.MaleFirst]] [[ShadyContact]]
+1,[[American Census Names.commonmale]] [[ShadyContact]]
+1,[[American Census Names.commonmale]] [[American Census Names.surname]]
 
 ;ShadyContact
 1,the Snitch
@@ -198,17 +198,17 @@
 1,Brother
 
 ;Victim
-3,[American Census Names.surname]
-2,[American Census Names.female]
-4,[American Census Names.commonmale]
-2,[American Census Names.uncommonmale]
-4,[American Census Names.female] [American Census Names.surname]
-5,[American Census Names.commonmale] [American Census Names.surname]
-1,[American Census Names.uncommonmale] [American Census Names.surname]
-4,[Contact]
-1,Father [Italian Names.Surname]
-1,Father Mac[ScottishMale.ScottishClan]
-1,Father Mc[ScottishMale.ScottishClan]
+3,[[American Census Names.surname]]
+2,[[American Census Names.female]]
+4,[[American Census Names.commonmale]]
+2,[[American Census Names.uncommonmale]]
+4,[[American Census Names.female]] [[American Census Names.surname]]
+5,[[American Census Names.commonmale]] [[American Census Names.surname]]
+1,[[American Census Names.uncommonmale]] [[American Census Names.surname]]
+4,[[Contact]]
+1,Father [[Italian Names.Surname]]
+1,Father Mac[[ScottishMale.ScottishClan]]
+1,Father Mc[[ScottishMale.ScottishClan]]
 
 ;Killed
 3,axed
@@ -260,9 +260,9 @@
 1,Whoever did it tried to burn the body, but musta got scared off
 1,Whoever did it tried to bury the body, but got spooked and ran
 1,Whoever did it tried to bury the evidence, but got spooked before they could finish the job
-1,Seemed there was a small explosion - it had blown the victim's [BodyPart] clear off
-1,Body had lots of issues - drugs, [Dice.2d4] stab wounds, and broken bones
-1,Body had lots of issues - drugs, [Dice.2d4] stab wounds, and the face looked like it took a shotgun shell at point-blank range
+1,Seemed there was a small explosion - it had blown the victim's [[BodyPart]] clear off
+1,Body had lots of issues - drugs, [[Tables.Utility.Dice.2d4]] stab wounds, and broken bones
+1,Body had lots of issues - drugs, [[Tables.Utility.Dice.2d4]] stab wounds, and the face looked like it took a shotgun shell at point-blank range
 1,Body had multiple bullet wounds, execution-style
 1,Had a single bullet wound through the base of the neck, execution-style
 1,It was a stabbing
@@ -308,14 +308,14 @@
 1,legs
 
 ;Time
-1,[Happened] just last night.  "[AnotherOne]" I thought out loud.
-1,[Happened] within the past 24 hours.  I briefly glanced out the window, then loaded my [Gun].  The rounds found their way home with a satisfying click.
-1,[Happened] just yesterday.  "[AnotherOne]" I thought out loud, grabbing my [Gun].
-1,[Happened] not more than an hour ago.  "[AnotherOne]" I thought out loud, loading my [Gun].
-1,[Happened] earlier that week.  "[AnotherOne]" I muttered to myself.
-1,[Happened] on Thursday.  I jotted down the details and got ready for a grisly new case.
-1,[Happened] just a few hours ago.  No suspects as of yet. "[AnotherOne]" I muttered.
-1,[Happened] early in the morning.  I dusted off my jacket, lit up my last cigar, grabbed my hat and walked out.  "[AnotherOne]" I said on my way out the door.
+1,[[Happened]] just last night.  "[[AnotherOne]]" I thought out loud.
+1,[[Happened]] within the past 24 hours.  I briefly glanced out the window, then loaded my [[Gun]].  The rounds found their way home with a satisfying click.
+1,[[Happened]] just yesterday.  "[[AnotherOne]]" I thought out loud, grabbing my [[Gun]].
+1,[[Happened]] not more than an hour ago.  "[[AnotherOne]]" I thought out loud, loading my [[Gun]].
+1,[[Happened]] earlier that week.  "[[AnotherOne]]" I muttered to myself.
+1,[[Happened]] on Thursday.  I jotted down the details and got ready for a grisly new case.
+1,[[Happened]] just a few hours ago.  No suspects as of yet. "[[AnotherOne]]" I muttered.
+1,[[Happened]] early in the morning.  I dusted off my jacket, lit up my last cigar, grabbed my hat and walked out.  "[[AnotherOne]]" I said on my way out the door.
 
 ;Happened
 1,They just found the body
@@ -334,9 +334,9 @@
 1,Apparently, this all went down
 
 ;B
-4,[Intro]  I had just [TalkedToLady] [LadyIKnew] [LadyName].  She was looking [GoodLooking].  But then, just as [GettingCozy], she goes and tells me [Victim]'s been [Killed].  [Outtro]
-4,[Intro]  [LadyName]  [WalkedIn] through my door like [WalkStyle] — [HairColor] with [Legs] [LegLength]. No dame her age could afford a [Coat] like that, [TheReason].  She had bad news written on her like [BadNews].  The dame was all business - before I could [OfferCig] she goes and tells me [Victim]'s been [Killed].
-1,[Intro]  [LadyName]  [WalkedIn] through my door like [WalkStyle] — [HairColor] with [Legs] [LegLength]. No dame her age could afford a [Coat] like that, [TheReason].  She was to bad news what apple pie was to America.  The dame was all business - before I could [OfferCig] she goes and tells me [Victim]'s been [Killed].
+4,[[Intro]]  I had just [[TalkedToLady]] [[LadyIKnew]] [[LadyName]].  She was looking [[GoodLooking]].  But then, just as [[GettingCozy]], she goes and tells me [[Victim]]'s been [[Killed]].  [[Outtro]]
+4,[[Intro]]  [[LadyName]]  [[WalkedIn]] through my door like [[WalkStyle]] — [[HairColor]] with [[Legs]] [[LegLength]]. No dame her age could afford a [[Coat]] like that, [[TheReason]].  She had bad news written on her like [[BadNews]].  The dame was all business - before I could [[OfferCig]] she goes and tells me [[Victim]]'s been [[Killed]].
+1,[[Intro]]  [[LadyName]]  [[WalkedIn]] through my door like [[WalkStyle]] — [[HairColor]] with [[Legs]] [[LegLength]]. No dame her age could afford a [[Coat]] like that, [[TheReason]].  She was to bad news what apple pie was to America.  The dame was all business - before I could [[OfferCig]] she goes and tells me [[Victim]]'s been [[Killed]].
 
 ;Coat
 4,coat
@@ -389,35 +389,35 @@
 1,the best pair of high heels these streets will ever feel,
 1,the bewitching
 1,the definition of femme fatale,
-1,the entrancing wife of the late [American Census Names.uncommonmale] [American Census Names.surname],
+1,the entrancing wife of the late [[American Census Names.uncommonmale]] [[American Census Names.surname]],
 1,the lovely
-1,the lovely daughter of the late [American Census Names.uncommonmale] [American Census Names.surname],
+1,the lovely daughter of the late [[American Census Names.uncommonmale]] [[American Census Names.surname]],
 
 ;LadyName
-1,Miss [American Census Names.female]
-1,Miss [American Census Names.female] [American Census Names.surname]
-1,Madame [American Census Names.female]
-1,Madame [American Census Names.female] [American Census Names.surname]
-1,Mrs. [American Census Names.female]
-1,Mrs. [American Census Names.female] [American Census Names.surname]
-1,[American Census Names.female]
-1,[American Census Names.female] [American Census Names.surname]
-2,Miss Alotta [LadyLast]
-2,Miss Bella [LadyLast]
-2,Miss Eva [LadyLast]
-1,Miss Holly [LadyLast]
-2,Miss Juliette [LadyLast]
-2,Miss Kitty [LadyLast]
-2,Miss Lillian [LadyLast]
-2,Miss Monica [LadyLast]
-1,Miss Penny [LadyLast]
-1,Miss Pussy [LadyLast]
-2,Miss Rose [LadyLast]
-2,Miss Scarlett [LadyLast]
-2,Miss Veronica [LadyLast]
-2,Miss Tiffany [LadyLast]
-2,Miss Tilly [LadyLast]
-2,Miss Vivian [LadyLast]
+1,Miss [[American Census Names.female]]
+1,Miss [[American Census Names.female]] [[American Census Names.surname]]
+1,Madame [[American Census Names.female]]
+1,Madame [[American Census Names.female]] [[American Census Names.surname]]
+1,Mrs. [[American Census Names.female]]
+1,Mrs. [[American Census Names.female]] [[American Census Names.surname]]
+1,[[American Census Names.female]]
+1,[[American Census Names.female]] [[American Census Names.surname]]
+2,Miss Alotta [[LadyLast]]
+2,Miss Bella [[LadyLast]]
+2,Miss Eva [[LadyLast]]
+1,Miss Holly [[LadyLast]]
+2,Miss Juliette [[LadyLast]]
+2,Miss Kitty [[LadyLast]]
+2,Miss Lillian [[LadyLast]]
+2,Miss Monica [[LadyLast]]
+1,Miss Penny [[LadyLast]]
+1,Miss Pussy [[LadyLast]]
+2,Miss Rose [[LadyLast]]
+2,Miss Scarlett [[LadyLast]]
+2,Miss Veronica [[LadyLast]]
+2,Miss Tiffany [[LadyLast]]
+2,Miss Tilly [[LadyLast]]
+2,Miss Vivian [[LadyLast]]
 
 ;LadyLast
 1,Fachina
@@ -438,11 +438,11 @@
 1,just like she did in the pictures
 1,just as good as I remember
 1,just as good as always
-1,as good as ever.  I played the gentleman, and let her into [TheCar]
-1,just like she did in the pictures.  I figured we'd take [TheCar] out to [Restaurant]
-1,just as good as I remember.  We took [TheCar] out to [Restaurant] for [RestaurantOrder]
-1,just as good as always.  We went to [Restaurant]; she didn't want to walk so we took [TheCar]
-1,just as good as always.  We went to [Restaurant]; she said she was cold so we took [TheCar]
+1,as good as ever.  I played the gentleman, and let her into [[TheCar]]
+1,just like she did in the pictures.  I figured we'd take [[TheCar]] out to [[Restaurant]]
+1,just as good as I remember.  We took [[TheCar]] out to [[Restaurant]] for [[RestaurantOrder]]
+1,just as good as always.  We went to [[Restaurant]]; she didn't want to walk so we took [[TheCar]]
+1,just as good as always.  We went to [[Restaurant]]; she said she was cold so we took [[TheCar]]
 1,great.  She smelled like roses, chocolate, and lust
 1,sultry and smooth, in a little black dress that was more little than dress
 1,like she hadn't been with anyone in a while
@@ -517,8 +517,8 @@
 1,Looks like I'm back on case.
 1,Looks like I've got a new case.
 1,Looks like another gruesome mystery.
-1,"[AnotherOne]" I said, loading my [Gun].
-1,"[AnotherOne]" I muttered under my breath.  I went for a cigarette but realized I had left my lighter back at [TheOffice].
+1,"[[AnotherOne]]" I said, loading my [[Gun]].
+1,"[[AnotherOne]]" I muttered under my breath.  I went for a cigarette but realized I had left my lighter back at [[TheOffice]].
 1,I asked where the murder happened, then lit up a cigarette.  I forgot to offer one to the dame.
 1,I asked her where it happened, then lit up a cigarette.  I offered one to the dame, but she said she didn't smoke.  Not the last lie I would expect from her.
 
@@ -540,8 +540,8 @@
 1,Very interesting,
 1,Just great,
 1,Just my luck,
-1,Sounds just like the [American Census Names.surname] case,
-1,Same damn thing happened to [Victim],
+1,Sounds just like the [[American Census Names.surname]] case,
+1,Same damn thing happened to [[Victim]],
 1,What a way to go,
 1,What a way to end the week,
 1,What a way to start the week,
@@ -580,7 +580,7 @@
 1,double-barrel
 
 ;C
-1,[Intro] I didn't have much to go off of this time... but [TheBoys] did [DigUp]. [Noir Oracle - Down These Mean Streets.Start] Oh, and the victim - [Victim] - was found [Killed]. [Time]
+1,[[Intro]] I didn't have much to go off of this time... but [[TheBoys]] did [[DigUp]]. [[Noir Oracle - Down These Mean Streets.Start]] Oh, and the victim - [[Victim]] - was found [[Killed]]. [[Time]]
 
 ;TheBoys
 1,the boys
@@ -589,7 +589,7 @@
 1,the feds
 1,my partner
 1,the new kid
-1,[Contact]
+1,[[Contact]]
 1,an old contact
 1,my insider
 1,I
@@ -611,7 +611,7 @@
 1,manage to find something interesting
 
 ;D
-1,[Intro]  I had just [WentTo] [TheOffice].  As soon as I [MadeCoffee] I [GetARing] from [Contact].  Turns out [Victim] got [Killed]. [Weapon]. [Time]
+1,[[Intro]]  I had just [[WentTo]] [[TheOffice]].  As soon as I [[MadeCoffee]] I [[GetARing]] from [[Contact]].  Turns out [[Victim]] got [[Killed]]. [[Weapon]]. [[Time]]
 
 ;TheOffice
 1,the office
@@ -638,14 +638,14 @@
 ;GetARing
 1,get a ring
 1,get this call
-1,[See] a note on the desk
-1,[See] a hand-cranked note
-1,[See] this handwritten note
-1,[See] a hand-jammed letter
-1,[See] this typed letter
-1,[See] a note on the door
-1,[See] a lone letter in the inbox
-1,[See] a hand-written note on top of the inbox
+1,[[See]] a note on the desk
+1,[[See]] a hand-cranked note
+1,[[See]] this handwritten note
+1,[[See]] a hand-jammed letter
+1,[[See]] this typed letter
+1,[[See]] a note on the door
+1,[[See]] a lone letter in the inbox
+1,[[See]] a hand-written note on top of the inbox
 
 ;See
 1,see
@@ -654,7 +654,7 @@
 1,eye
 
 ;E
-1,[Intro]  I picked up the phone before it even finished the first ring. It was [LadyIKnew] [LadyName]. She sounded [Sounded]. "[Pulp Oracle - I Love A Mystery.Start]" Then [PhoneCallInterrupt]. [Outtro]
+1,[[Intro]]  I picked up the phone before it even finished the first ring. It was [[LadyIKnew]] [[LadyName]]. She sounded [[Sounded]]. "[[Pulp Oracle - I Love A Mystery.Start]]" Then [[PhoneCallInterrupt]]. [[Outtro]]
 
 ;Sounded
 1,concerned
@@ -676,22 +676,22 @@
 1,sirens approaching. "I'll explain later," she hurried, and hung up
 
 ;F
-1,[Intro]  [TheNewKid]
+1,[[Intro]]  [[TheNewKid]]
 
 ;TheNewKid
-1,"A mole...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not a mole," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
-1,"A vigilante...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not a vigilante," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
-1,"Attacked by an animal or something...?" [Partner] asked [Nervously].  "An animal or something?  How about we just stick with the 'or something' part," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]."
-1,"An inside job...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not an inside job," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
-1,"Could it be two shooters...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not two shooters," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
-1,"Drug overdose...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not a damned drug overdose," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
-1,"Is it a forgery...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not a forgery," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
-1,"Looks like it was the Mexicans...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not the way the Mexicans would do it," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]."
-1,"Maybe a dirty cop...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not a cop.  Nothing about this one says cop." I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
-1,"Maybe it was just an accident...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not JUST an accident," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
-1,"Out-of-towners...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not out-of-towners," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
-1,"The mob, maybe...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not the mob," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
-1,"Think it's a suicide...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not suicide," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
+1,"A mole...?" [[Partner]] asked [[Nervously]].  "[[GreatIdea]]No[[Not]] not a mole," I [[Mutter]].  [[Thought]]  [[TellYouWhat]] I said, "How about I just [[Take]] this one myself and you head down to [[Restaurant]] and grab a [[Food]]." 
+1,"A vigilante...?" [[Partner]] asked [[Nervously]].  "[[GreatIdea]]No[[Not]] not a vigilante," I [[Mutter]].  [[Thought]]  [[TellYouWhat]] I said, "How about I just [[Take]] this one myself and you head down to [[Restaurant]] and grab a [[Food]]." 
+1,"Attacked by an animal or something...?" [[Partner]] asked [[Nervously]].  "An animal or something?  How about we just stick with the 'or something' part," I [[Mutter]].  [[Thought]]  [[TellYouWhat]] I said, "How about I just [[Take]] this one myself and you head down to [[Restaurant]] and grab a [[Food]]."
+1,"An inside job...?" [[Partner]] asked [[Nervously]].  "[[GreatIdea]]No[[Not]] not an inside job," I [[Mutter]].  [[Thought]]  [[TellYouWhat]] I said, "How about I just [[Take]] this one myself and you head down to [[Restaurant]] and grab a [[Food]]." 
+1,"Could it be two shooters...?" [[Partner]] asked [[Nervously]].  "[[GreatIdea]]No[[Not]] not two shooters," I [[Mutter]].  [[Thought]]  [[TellYouWhat]] I said, "How about I just [[Take]] this one myself and you head down to [[Restaurant]] and grab a [[Food]]." 
+1,"Drug overdose...?" [[Partner]] asked [[Nervously]].  "[[GreatIdea]]No[[Not]] not a damned drug overdose," I [[Mutter]].  [[Thought]]  [[TellYouWhat]] I said, "How about I just [[Take]] this one myself and you head down to [[Restaurant]] and grab a [[Food]]." 
+1,"Is it a forgery...?" [[Partner]] asked [[Nervously]].  "[[GreatIdea]]No[[Not]] not a forgery," I [[Mutter]].  [[Thought]]  [[TellYouWhat]] I said, "How about I just [[Take]] this one myself and you head down to [[Restaurant]] and grab a [[Food]]." 
+1,"Looks like it was the Mexicans...?" [[Partner]] asked [[Nervously]].  "[[GreatIdea]]No[[Not]] not the way the Mexicans would do it," I [[Mutter]].  [[Thought]]  [[TellYouWhat]] I said, "How about I just [[Take]] this one myself and you head down to [[Restaurant]] and grab a [[Food]]."
+1,"Maybe a dirty cop...?" [[Partner]] asked [[Nervously]].  "[[GreatIdea]]No[[Not]] not a cop.  Nothing about this one says cop." I [[Mutter]].  [[Thought]]  [[TellYouWhat]] I said, "How about I just [[Take]] this one myself and you head down to [[Restaurant]] and grab a [[Food]]." 
+1,"Maybe it was just an accident...?" [[Partner]] asked [[Nervously]].  "[[GreatIdea]]No[[Not]] not JUST an accident," I [[Mutter]].  [[Thought]]  [[TellYouWhat]] I said, "How about I just [[Take]] this one myself and you head down to [[Restaurant]] and grab a [[Food]]." 
+1,"Out-of-towners...?" [[Partner]] asked [[Nervously]].  "[[GreatIdea]]No[[Not]] not out-of-towners," I [[Mutter]].  [[Thought]]  [[TellYouWhat]] I said, "How about I just [[Take]] this one myself and you head down to [[Restaurant]] and grab a [[Food]]." 
+1,"The mob, maybe...?" [[Partner]] asked [[Nervously]].  "[[GreatIdea]]No[[Not]] not the mob," I [[Mutter]].  [[Thought]]  [[TellYouWhat]] I said, "How about I just [[Take]] this one myself and you head down to [[Restaurant]] and grab a [[Food]]." 
+1,"Think it's a suicide...?" [[Partner]] asked [[Nervously]].  "[[GreatIdea]]No[[Not]] not suicide," I [[Mutter]].  [[Thought]]  [[TellYouWhat]] I said, "How about I just [[Take]] this one myself and you head down to [[Restaurant]] and grab a [[Food]]." 
 
 ;GreatIdea
 6,
@@ -716,7 +716,7 @@
 3,What? 
 
 ;Partner
-1,[American Census Names.surname]
+1,[[American Census Names.surname]]
 
 ;Not
 1,,
@@ -724,8 +724,8 @@
 1,.  Absolutely not.  Definitely
 1,.  Definitely
 1,...
-1,... I [Dont] know much, but I know it's
-1,... I [Dont] know much, but I know it's definitely
+1,... I [[Dont]] know much, but I know it's
+1,... I [[Dont]] know much, but I know it's definitely
 1,... this is definitely
 
 ;Dont
@@ -759,21 +759,21 @@
 1,By now I was done babysitting.
 1,By now I was done with the amateur act.
 1,He couldn't put two and two together if you let him use both hands and a leg.
-3,He was not what you'd call [Sharpest].
-3,He was not the [Sharpest].
-3,I always landed the [Rocks] in the Department, but this was worse than usual.
+3,He was not what you'd call [[Sharpest]].
+3,He was not the [[Sharpest]].
+3,I always landed the [[Rocks]] in the Department, but this was worse than usual.
 1,I could barely contain myself with the new kid.
-2,I couldn't help wondering [If] my partner had [Actually] graduated the academy, let alone earned his position.
+2,I couldn't help wondering [[If]] my partner had [[Actually]] graduated the academy, let alone earned his position.
 1,I was at a loss with this kid.
 1,I was fed up.  Actually, I was fed up about two hours ago.  I don't even know what I was now.
 1,I was going to kill the kid.
-3,I was visibly [Disappointed].
+3,I was visibly [[Disappointed]].
 1,Oh ya.  The new kid was really on the ball.  Just like they said when they pawned him off on me.
 1,They graduate a worse class each year.
 1,This was going to be a long month.
 3,This was the beginning of a very short partnership.
-3,This kid was sharp as [CueBall].
-2,Why do I always get the [Rocks]?
+3,This kid was sharp as [[CueBall]].
+2,Why do I always get the [[Rocks]]?
 1,You'd figure he'd at least have some brains, cuz he certainly didn't score in the looks department.
 2,You'd figure he'd at least have some smarts, cuz they certainly didn't graduate him on looks.
 
@@ -814,7 +814,7 @@
 ;TellYouWhat
 1,"Hey listen,"
 1,"Hey look,"
-1,"[American Census Names.commonmale],"
+1,"[[American Census Names.commonmale]],"
 1,"I got an idea,"
 1,"Listen,"
 1,"Look,"
@@ -829,15 +829,15 @@
 1,work
 
 ;Food
-3,big plate of [GoAway]
-3,big order of [GoAway]
+3,big plate of [[GoAway]]
+3,big order of [[GoAway]]
 1,bite
 1,bite to eat
-3,double order of [GoAway]
+3,double order of [[GoAway]]
 1,drink
 1,drink or two
 1,glass or two
-3,glass or two of [GoAway]
+3,glass or two of [[GoAway]]
 2,Get The Hell Out of My Office Special
 3,Get The Hell Out of My Way Sandwich and a Coke
 3,Get The Hell Out of My Way Sandwich and some fries
@@ -847,8 +847,8 @@
 3,Stay The Hell Out of My Way Sandwich and a Coke
 3,Stay The Hell Out of My Way Sandwich and some fries
 2,Stay The Hell Out of My Way Special
-3,steaming hot plate of [GoAway]
-3,tall glass of [GoAway]
+3,steaming hot plate of [[GoAway]]
+3,tall glass of [[GoAway]]
 1,tall one
 
 ;GoAway

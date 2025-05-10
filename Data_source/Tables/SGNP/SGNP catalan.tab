@@ -1,12 +1,12 @@
 
 ;Start
-1,[MALE] (male)
-1,[FEMALE] (female)
+1,[[MALE]] (male)
+1,[[FEMALE]] (female)
 ;MALE
-1,[MALEFIRST] [SURNAME]
+1,[[MALEFIRST]] [[SURNAME]]
 
 ;FEMALE
-1,[FEMALEFIRST] [SURNAME]
+1,[[FEMALEFIRST]] [[SURNAME]]
 
 ;MALEFIRST
 1,Francesc

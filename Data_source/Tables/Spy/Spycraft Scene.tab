@@ -1,11 +1,11 @@
 
 ;Start
-3,You're with [character] [locationindoor], when [situationindoor]...
-1,You're with [character] [locationoutdoor], when [situationoutdoor]...
+3,You're with [[character]] [[locationindoor]], when [[situationindoor]]...
+1,You're with [[character]] [[locationoutdoor]], when [[situationoutdoor]]...
 
 ;character
-3,[Quick NPC.NPCDescriptor] [nationality] [profession]
-1,[Quick NPC.NPCDescriptor] [nationality] [profession] and [Quick NPC.NPCDescriptor] [nationality] [profession]
+3,[[Quick NPC.NPCDescriptor]] [[nationality]] [[profession]]
+1,[[Quick NPC.NPCDescriptor]] [[nationality]] [[profession]] and [[Quick NPC.NPCDescriptor]] [[nationality]] [[profession]]
 
 ;nationality
 1,Afghan
@@ -80,8 +80,8 @@
 1,author
 1,biochemist
 1,bodyguard
-1,[business] magnate
-1,[business] mogul
+1,[[business]] magnate
+1,[[business]] mogul
 1,case officer
 1,circus performer
 1,con man
@@ -111,7 +111,7 @@
 1,mercenary
 1,middleman
 1,mobster
-3,[model]
+3,[[model]]
 1,musician
 1,native guide
 1,neurosurgeon
@@ -138,7 +138,7 @@
 1,transvestite
 1,undercover cop
 1,venture capitalist
-2,[writer] writer
+2,[[writer]] writer
 1,celebrity
 
 ;business
@@ -194,29 +194,29 @@
 ;previousencounter
 1,at a diplomatic party
 1,at a cocktail party
-1,at a high-stakes [game] tournament
+1,at a high-stakes [[game]] tournament
 1,at that gunfight
 1,during that deal that went wrong
 1,as the other party in a double-booked assassination 
 1,at a 'trade show' 
 1,during a bodyguard detail you worked together
 1,during the 'late unpleasantness'
-1,when you both did a job for that [nationality] [profession]
+1,when you both did a job for that [[nationality]] [[profession]]
 1,during a 'training exercise'
-1,in that [nationality] prison
+1,in that [[nationality]] prison
 1,in a half-remembered blur of interrogations and beatings
 
 ;locationindoor
-1,at a concert in [World Cities.Start], backstage before the show
+1,at a concert in [[World Cities.Start]], backstage before the show
 1,in a dimly lit aquarium hallway looking in on the shark tank
 1,at a high-stakes poker game, down to your last chips
-1,at a loud and crazy nightclub in [World Cities.Start], about to win the dance contest
+1,at a loud and crazy nightclub in [[World Cities.Start]], about to win the dance contest
 1,at a members-only dining establishment having a quiet dinner
 1,at a penthouse suite, waiting for room service
 1,on a private yacht, about to leave the party together
 1,at a ski lodge having hot chocolate
 1,at the opera house in a private box, talking business
-1,at a hotel cafe, about to begin an operation against [Spycraft Triggering Event.badpeople]
+1,at a hotel cafe, about to begin an operation against [[Spycraft Triggering Event.badpeople]]
 1,at a strip club, counting the small bills in your wallet
 1,in a spacious library, looking for a particular book
 1,at a train station, wondering why the 9:18 hasn't arrived yet
@@ -227,15 +227,15 @@
 1,in a back room at a club teaching rich kids how to play poker
 1,at the craps table in Monte Carlo, about to throw the dice
 1,at a safehouse, checking to make sure nothing has been disturbed
-1,in a stall in the bazaar in Istanbul, where your host [Turkish Names.MaleFirst] has just sent for hot tea
+1,in a stall in the bazaar in Istanbul, where your host [[Turkish Names.MaleFirst]] has just sent for hot tea
 1,at a gun market somewhere near the Khyber Pass, getting ready to squeeze off a few test rounds from an AK-47
-1,at a government records office, trying to obtain the blueprints for the offices of the [nationality] company you suspect is a front
-1,in the conference room of a [nationality] [business] conglomerate, recruiting an industrial spy from within its ranks
+1,at a government records office, trying to obtain the blueprints for the offices of the [[nationality]] company you suspect is a front
+1,in the conference room of a [[nationality]] [[business]] conglomerate, recruiting an industrial spy from within its ranks
 1,in the entrance to a diamond mine in Botswana, about to descend the elevators into darkness
 1,riding the London Underground, wondering why your train has stopped moving
 1,in the ruins of a Scottish castle, trying to distinguish the figures coming towards you through the morning mist
-1,at a busy casino, having a good run of luck at [game]
-1,at an art gallery opening in [World Cities.Start], about to show off your unique way of opening a champagne bottle
+1,at a busy casino, having a good run of luck at [[game]]
+1,at an art gallery opening in [[World Cities.Start]], about to show off your unique way of opening a champagne bottle
 
 ;locationoutdoor
 1,at a rooftop overlook of the city
@@ -262,10 +262,10 @@
 1,outside the Deli Pu train station in Budapest
 1,on the busy streets of Antwerp, clutching the pouch of uncut diamonds in your pocket
 1,leading a team of stubborn mules through a pass in the mountains of Waziristan
-1,on a rooftop in Casablanca, trying to keep track of [character] in the busy street below
+1,on a rooftop in Casablanca, trying to keep track of [[character]] in the busy street below
 1,on a bench in Central Park, feeding the pigeons and waiting for someone to exchange attache cases with you
 1,in a Ferris wheel at a county fair, making out
-1,at a protest for disaffected [nationality] youth, passing out brass knuckles and gasmasks in the hopes you can spark violence
+1,at a protest for disaffected [[nationality]] youth, passing out brass knuckles and gasmasks in the hopes you can spark violence
 1,in a Palestinian refugee camp, looking for your contact
 1,on the roof of a hotel in Macao with a sniper rifle and binoculars, waiting for the right limo to arrive at the casino across the street
 1,in the jungles of Borneo, praying that you're reading what's left of your map correctly
@@ -273,7 +273,7 @@
 
 
 ;situationindoor
-10,[situationany]
+10,[[situationany]]
 1,black-clad commandos crash through the windows with submachine guns at the ready
 1,a man bursts in, fully engulfed in flames
 1,a knife hits the wall by your head
@@ -285,10 +285,10 @@
 1,a frightened woman hands you a sweaty, crumbled note
 1,you distinctly smell natural gas
 1,a nervous-looking man approaches you and asks you to light his cigarette
-1,you feel a gun at your back and the voice of the [nationality] [profession] telling you to keep calm and act normal. Dammit! You never should have trusted [himher]
+1,you feel a gun at your back and the voice of the [[nationality]] [[profession]] telling you to keep calm and act normal. Dammit! You never should have trusted [[himher]]
 
 ;situationoutdoor
-10,[situationany]
+10,[[situationany]]
 1,it begins to rain heavily
 1,the earth begins to tremble
 1,bird poo lands on your shirt
@@ -301,10 +301,10 @@
 
 
 ;situationany
-1,you suddenly remember what the [profession] said before she died, and you realize it's all a setup
-1,you realize it had to have been the [profession] who sold you out
-1,[Quick NPC.NPCDescriptor] ex-lover shows up unexpectedly
-1,an old rival shows up unexpectedly: its The [nationality]. This could be very bad.
+1,you suddenly remember what the [[profession]] said before she died, and you realize it's all a setup
+1,you realize it had to have been the [[profession]] who sold you out
+1,[[Quick NPC.NPCDescriptor]] ex-lover shows up unexpectedly
+1,an old rival shows up unexpectedly: its The [[nationality]]. This could be very bad.
 1,armed thugs arrive, firing guns into the air
 1,the red dot of a laser sight begins to creep across your companion's face
 1,smoke from an unknown source begins to seep into the area
@@ -319,7 +319,7 @@
 1,you begin to wonder which side you're really working for
 1,you notice an earpiece in your companion's ear
 1,your palms begin to sweat; always a bad sign
-1,you notice your companion's unusual tattoo - the same one the  [nationality] [profession] that you met [previousencounter] had
+1,you notice your companion's unusual tattoo - the same one the  [[nationality]] [[profession]] that you met [[previousencounter]] had
 1,you smell gunpowder and a woman's perfume
 1,floodlights come on instantly, blinding you
 1,your companion mutters a code phrase under their breath
@@ -330,7 +330,7 @@
 1,you realize the gun you were carrying is no longer in its shoulder holster
 1,you are engulfed in tear gas as canisters fall all around you
 1,you notice the case with the cash in it somehow feels different
-1,you see that [nationality] [profession] that you met [previousencounter], but how could [heshe] have survived?
-1,you realize that the '[profession]' you're there to meet with is no such thing: you've seen [himher] before, [Dice.2d4] years ago, [previousencounter] in [World Cities.Start]
+1,you see that [[nationality]] [[profession]] that you met [[previousencounter]], but how could [[heshe]] have survived?
+1,you realize that the '[[profession]]' you're there to meet with is no such thing: you've seen [[himher]] before, [[Tables.Utility.Dice.2d4]] years ago, [[previousencounter]] in [[World Cities.Start]]
 
 

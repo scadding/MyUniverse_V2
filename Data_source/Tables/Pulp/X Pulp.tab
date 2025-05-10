@@ -1,6 +1,6 @@
 
 ;Start
-1,[xPulpHeroNovel]
+1,[[xPulpHeroNovel]]
 
 ;xPulpNoun
 1,Xenophile
@@ -84,15 +84,15 @@
 1,against the
 5,and the
 1,in:
-1,and [xPulpAdjPositive] [xPulpMaleFirstName]'s 
+1,and [[xPulpAdjPositive]] [[xPulpMaleFirstName]]'s 
 
 ;pulpend
-1,[xPulpAdjNegative] [xPulpNoun]
+1,[[xPulpAdjNegative]] [[xPulpNoun]]
 
 ;xPulpHeroNovel
-10,[xPulpAdjPositive] [xPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[xPulpMaleFirstName] [xPulpLastName] [pulpmiddle] [pulpend]
-3,[xPulpAdjPositive] [xPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[xPulpFemaleFirstName] [xPulpLastName] [pulpmiddle] [pulpend]
+10,[[xPulpAdjPositive]] [[xPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[xPulpMaleFirstName]] [[xPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[xPulpAdjPositive]] [[xPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[xPulpFemaleFirstName]] [[xPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

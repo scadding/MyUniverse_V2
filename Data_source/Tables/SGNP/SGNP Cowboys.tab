@@ -1,14 +1,14 @@
 
 ;Start
-1,[male] (male)
-1,[female] (female)
+1,[[male]] (male)
+1,[[female]] (female)
 
 ;male
-1,[prefix] [malefirst] [surname]
-3,[malefirst] [surname]
+1,[[prefix]] [[malefirst]] [[surname]]
+3,[[malefirst]] [[surname]]
 
 ;female
-1,[femalefirst] [surname]
+1,[[femalefirst]] [[surname]]
 
 ;malefirst
 1,Al 

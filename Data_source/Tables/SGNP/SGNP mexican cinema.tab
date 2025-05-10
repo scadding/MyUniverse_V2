@@ -1,11 +1,11 @@
 
 ;Start
-1,Movie Titles-[titles]
-1,Actors-[actors]
-1,Actresses-[actresses]
-1,Luchadores[luchadores]
-1,Bit Parts[bit-parts]
-1,Writers And Directors-[writer-directors]
+1,Movie Titles-[[titles]]
+1,Actors-[[actors]]
+1,Actresses-[[actresses]]
+1,Luchadores[[luchadores]]
+1,Bit Parts[[bit-parts]]
+1,Writers And Directors-[[writer-directors]]
 
 ;titles
 1,Hercules versus Nostradamus, genie of darkness! 

@@ -1,13 +1,13 @@
 
 ;Start
-1,[Romance of the Three Kingdoms]
-1,[Water Margin]
-1,[Journey to the West]
-1,[Dream of the Red Chamber]
-1,[Jin Ping Mei]
+1,[[Romance of the Three Kingdoms]]
+1,[[Water Margin]]
+1,[[Journey to the West]]
+1,[[Dream of the Red Chamber]]
+1,[[Jin Ping Mei]]
 
 ;Romance of the Three Kingdoms
-1,[Romance of the Three Kingdoms.Start]
+1,[[Romance of the Three Kingdoms.Start]]
 
 ;Water Margin
 1,
@@ -19,10 +19,10 @@
 1,
 
 ;Jin Ping Mei
-1,[The Plum in the Golden Vase.Start]
+1,[[The Plum in the Golden Vase.Start]]
 
 ;Female Name
-1,[ChineseFemaleFirst] [ChineseFemaleLast]
+1,[[ChineseFemaleFirst]] [[ChineseFemaleLast]]
 
 ;ChineseFemaleFirst
 1,Bee Fu
@@ -49,11 +49,11 @@
 1,Yu-lou
 
 ;Male Name
-10,[ChineseMaleFirst] [ChineseMaleLast]
-5,[Japanese names.MALE NAMES] [SGNP japanese.SURNAMES]
-5,[SGNP japanese.MALE NAMES] [SGNP japanese.SURNAMES]
-1,[SGNP japanese.MALE NAMES] [SGNP japanese.SAMURAI-ERA NOBLE SURNAMES]
-1,[SGNP japanese.MALE NAMES] [SGNP japanese.SAMURAI-ERA BUSHI SURNAMES]
+10,[[ChineseMaleFirst]] [[ChineseMaleLast]]
+5,[[Japanese names.MALE NAMES]] [[SGNP japanese.SURNAMES]]
+5,[[SGNP japanese.MALE NAMES]] [[SGNP japanese.SURNAMES]]
+1,[[SGNP japanese.MALE NAMES]] [[SGNP japanese.SAMURAI-ERA NOBLE SURNAMES]]
+1,[[SGNP japanese.MALE NAMES]] [[SGNP japanese.SAMURAI-ERA BUSHI SURNAMES]]
 
 ;ChineseMaleFirst
 1,Cao
@@ -194,10 +194,10 @@
 1,Zhou
 
 ;Place
-10,[County] County
-10,[Province] Province
-10,[District] District
-10,[City] City
+10,[[County]] County
+10,[[Province]] Province
+10,[[District]] District
+10,[[City]] City
 1,Beijing
 1,Chang'an
 1,Changsha

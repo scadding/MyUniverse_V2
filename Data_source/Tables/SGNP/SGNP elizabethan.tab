@@ -1,7 +1,7 @@
 
 ;Start
-1,[male][surname] from [londonareas]
-1,[female][surname] from [londonareas]
+1,[[male]][[surname]] from [[londonareas]]
+1,[[female]][[surname]] from [[londonareas]]
 
 ;male
 1,Peter

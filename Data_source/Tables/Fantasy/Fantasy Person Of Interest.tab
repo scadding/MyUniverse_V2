@@ -1,6 +1,6 @@
 
 ;Start
-1,A[Gender] [Race] [Job], [Relationtwo] [Relationone]
+1,A[[Gender]] [[Race]] [[Job]], [[Relationtwo]] [[Relationone]]
 
 ;Relationone
 3,& rumored to be possessed
@@ -8,30 +8,30 @@
 1,& rumored to be a demon
 1,& rumored to be a vampire
 1,& rumored to be a doppelganger
-7,& rumored to actually be a[Gender] [Race] [Job] in disguise
-5,& rumored to be [Leader]
-5,& rumored to be allied to a group of [Humanoids]
-5,& rumored to possess [Found in a crate.Start] of unusual properties
-5,& rumored to possess a magical [Weapon]
+7,& rumored to actually be a[[Gender]] [[Race]] [[Job]] in disguise
+5,& rumored to be [[Leader]]
+5,& rumored to be allied to a group of [[Humanoids]]
+5,& rumored to possess [[Found in a crate.Start]] of unusual properties
+5,& rumored to possess a magical [[Weapon]]
 5,& rumored to possess an important book
-8,& rumored to be the lover of a powerful [Job]
+8,& rumored to be the lover of a powerful [[Job]]
 20,
 
 ;Relationtwo
-5,spouse to a powerful [Job]
-5,ex-lover of a powerful [Job]
-5,lover of a powerful [Job]
-5,soon to be wed to a powerful [Job]
+5,spouse to a powerful [[Job]]
+5,ex-lover of a powerful [[Job]]
+5,lover of a powerful [[Job]]
+5,soon to be wed to a powerful [[Job]]
 5,possessor of an important book
-5,possessor of a magical [Weapon]
-5,possessor of [Found in a crate.Start] of unusual properties
+5,possessor of a magical [[Weapon]]
+5,possessor of [[Found in a crate.Start]] of unusual properties
 1,secretly a doppelganger
-5,secretly a[Gender] [Race] [Job] in disguise
-1,secretly a(n) [Weird Fantasy Monster.Start]
-5,secretly allied to a group of [Humanoids]
-5,secretly [Leader]
+5,secretly a[[Gender]] [[Race]] [[Job]] in disguise
+1,secretly a(n) [[Weird Fantasy Monster.Start]]
+5,secretly allied to a group of [[Humanoids]]
+5,secretly [[Leader]]
 1,actually an automaton
-5,sibling of a powerful [Job]
+5,sibling of a powerful [[Job]]
 5,spouse of an NPC known to the players
 5,lover of an NPC known to the players
 5,ex-lover of an NPC known to the players
@@ -156,49 +156,49 @@
 
 ;Job
 1,harlot
-1,cleric ([Level])
-1,fighter ([Level])
-1,paladin ([Level])
-1,barbarian ([Level])
-1,wizard ([Level])
-1,thief ([Level])
-1,assassin ([Level])
-1,druid ([Level])
-1,ranger ([Level])
-1,witch ([Level])
-1,archer ([Level])
-1,assassin ([Level])
-1,bandit ([Level])
+1,cleric ([[Level]])
+1,fighter ([[Level]])
+1,paladin ([[Level]])
+1,barbarian ([[Level]])
+1,wizard ([[Level]])
+1,thief ([[Level]])
+1,assassin ([[Level]])
+1,druid ([[Level]])
+1,ranger ([[Level]])
+1,witch ([[Level]])
+1,archer ([[Level]])
+1,assassin ([[Level]])
+1,bandit ([[Level]])
 1,jester 
-1,battlemage ([Level])
-1,battlepriest ([Level])
-1,caravan leader ([Level])
-1,cavalier ([Level])
-1,cleric ([Level])
-1,duelist ([Level])
+1,battlemage ([[Level]])
+1,battlepriest ([[Level]])
+1,caravan leader ([[Level]])
+1,cavalier ([[Level]])
+1,cleric ([[Level]])
+1,duelist ([[Level]])
 1,exorcist
 1,explorer
 1,geomancer
 1,guide
 1,healer
-1,hunter ([Level])
-1,huntsman ([Level])
-1,knight ([Level])
-1,mercenary ([Level])
-1,pirate ([Level])
-1,priest ([Level])
-1,raider ([Level])
-1,ranger ([Level])
+1,hunter ([[Level]])
+1,huntsman ([[Level]])
+1,knight ([[Level]])
+1,mercenary ([[Level]])
+1,pirate ([[Level]])
+1,priest ([[Level]])
+1,raider ([[Level]])
+1,ranger ([[Level]])
 1,sailor
 1,scout
-1,ship's captain ([Level] fighter)
-1,soldier ([Level])
-1,soldier of fortune ([Level])
+1,ship's captain ([[Level]] fighter)
+1,soldier ([[Level]])
+1,soldier of fortune ([[Level]])
 1,strategist
-1,swashbuckler ([Level])
-1,templar ([Level])
-1,warlord ([Level])
-1,warrior ([Level])
+1,swashbuckler ([[Level]])
+1,templar ([[Level]])
+1,warlord ([[Level]])
+1,warrior ([[Level]])
 1,armorer
 1,armorsmith
 1,blacksmith
@@ -318,18 +318,18 @@
 1,wrestler
 1,writer
 1,abbot 
-1,battlepriest ([Level])
+1,battlepriest ([[Level]])
 1,chanter
-1,cleric ([Level])
+1,cleric ([[Level]])
 1,clerk
 1,counselor
-1,cultist ([Level] cleric)
-1,fanatic ([Level] cleric) 
+1,cultist ([[Level]] cleric)
+1,fanatic ([[Level]] cleric) 
 1,healer
 1,heirophant
 1,herbalist
 1,hermit
-1,high priest ([Level] cleric)
+1,high priest ([[Level]] cleric)
 1,inquisitor
 1,itinerant
 1,medic
@@ -338,7 +338,7 @@
 1,pardoner
 1,philosopher
 1,pilgrim
-1,priest ([Level])
+1,priest ([[Level]])
 1,prophet
 1,religious fanatic
 1,sage
@@ -349,34 +349,34 @@
 1,thaumaturge
 1,vicar
 1,zealot
-1,aeromancer ([Level])
-1,alchemist ([Level])
-1,archmage ([Level])
-1,battlemage ([Level])
-1,blood mage ([Level])
+1,aeromancer ([[Level]])
+1,alchemist ([[Level]])
+1,archmage ([[Level]])
+1,battlemage ([[Level]])
+1,blood mage ([[Level]])
 1,bonecaster 
-1,conjurer ([Level])
-1,demonologist ([Level])
+1,conjurer ([[Level]])
+1,demonologist ([[Level]])
 1,diviner
-1,druid ([Level])
-1,enchanter ([Level])
-1,evoker ([Level])
-1,exorcist ([Level])
-1,geomancer ([Level])
-1,hedge witch ([Level])
-1,hex witch ([Level])
-1,hydromancer ([Level])
-1,illusionist ([Level])
-1,invoker ([Level])
-1,mage ([Level])
-1,necromancer ([Level])
+1,druid ([[Level]])
+1,enchanter ([[Level]])
+1,evoker ([[Level]])
+1,exorcist ([[Level]])
+1,geomancer ([[Level]])
+1,hedge witch ([[Level]])
+1,hex witch ([[Level]])
+1,hydromancer ([[Level]])
+1,illusionist ([[Level]])
+1,invoker ([[Level]])
+1,mage ([[Level]])
+1,necromancer ([[Level]])
 1,oracle 
-1,pyromancer ([Level])
+1,pyromancer ([[Level]])
 1,rune caster 
-1,sorcerer ([Level])
-1,warlock ([Level])
-1,witch ([Level])
-5,wizard ([Level])
+1,sorcerer ([[Level]])
+1,warlock ([[Level]])
+1,witch ([[Level]])
+5,wizard ([[Level]])
 1,academic
 1,alchemist
 1,author
@@ -435,28 +435,28 @@
 1,tax collector
 1,torturer
 1,warden
-1,archer ([Level])
-1,bodyguard ([Level])
-1,captain ([Level])
-1,cavalier ([Level])
-1,chief of the watch ([Level])
-1,constable ([Level])
-1,gatekeeper ([Level])
-1,general ([Level])
-1,guard ([Level])
-1,hunter ([Level])
-1,huntsman ([Level])
-1,master of hounds ([Level])
-1,militia ([Level])
-1,ranger ([Level])
+1,archer ([[Level]])
+1,bodyguard ([[Level]])
+1,captain ([[Level]])
+1,cavalier ([[Level]])
+1,chief of the watch ([[Level]])
+1,constable ([[Level]])
+1,gatekeeper ([[Level]])
+1,general ([[Level]])
+1,guard ([[Level]])
+1,hunter ([[Level]])
+1,huntsman ([[Level]])
+1,master of hounds ([[Level]])
+1,militia ([[Level]])
+1,ranger ([[Level]])
 1,recruiter
-1,sailor ([Level])
-1,scout ([Level])
-1,sharpshooter ([Level])
-1,soldier ([Level])
-1,warlord ([Level])
-1,warrior ([Level])
-1,watchman ([Level])
+1,sailor ([[Level]])
+1,scout ([[Level]])
+1,sharpshooter ([[Level]])
+1,soldier ([[Level]])
+1,warlord ([[Level]])
+1,warrior ([[Level]])
+1,watchman ([[Level]])
 1,accountant
 1,aristocrat
 1,banker
@@ -478,7 +478,7 @@
 1,husbandryman
 1,interpreter
 1,king/queen
-1,knight ([Level])
+1,knight ([[Level]])
 1,landlord
 1,landowner
 1,lord/lady
@@ -493,19 +493,19 @@
 1,slavemaster
 1,usurer
 1,arsonist 
-1,assassin ([Level])
-1,bandit ([Level])
+1,assassin ([[Level]])
+1,bandit ([[Level]])
 1,beggar
 1,lunatic
 1,idiot
 1,brawler
-1,burglar ([Level])
+1,burglar ([[Level]])
 1,cad
 1,con artist
-1,crime lord ([Level])
-1,criminal mastermind ([Level])
-1,crook ([Level])
-1,cutpurse ([Level])
+1,crime lord ([[Level]])
+1,criminal mastermind ([[Level]])
+1,crook ([[Level]])
+1,cutpurse ([[Level]])
 1,drug dealer
 1,escaped convict
 1,fortune teller
@@ -513,15 +513,15 @@
 1,grave robber
 1,gypsy
 1,hired hand
-1,highwayman ([Level])
-1,kidnapper ([Level] thief)
-1,mercenary ([Level])
-1,pickpocket ([Level])
-1,pirate ([Level] fighter ([Level]) thief)
+1,highwayman ([[Level]])
+1,kidnapper ([[Level]] thief)
+1,mercenary ([[Level]])
+1,pickpocket ([[Level]])
+1,pirate ([[Level]] fighter ([[Level]]) thief)
 1,prankster
 1,saboteur
-1,swashbuckler ([Level])
-1,thief ([Level])
+1,swashbuckler ([[Level]])
+1,thief ([[Level]])
 1,thug
 1,vagabond
 1,wastrel
@@ -544,7 +544,7 @@
 1,gardener
 1,gravedigger
 1,handyman
-1,hunter ([Level])
+1,hunter ([[Level]])
 1,immigrant
 1,indentured servant
 1,innkeeper

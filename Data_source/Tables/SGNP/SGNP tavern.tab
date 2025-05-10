@@ -1,13 +1,13 @@
 
 ;Start
-1,[taverns_a] [taverns_b]
+1,[[taverns_a]] [[taverns_b]]
 
 ;male
-1,[regulars] [surnames]
+1,[[regulars]] [[surnames]]
 
 ;female
-19,[wench_epithets] [wenches] [surnames]
-1,[wench_epithets] [wenches] [wench_epithets]
+19,[[wench_epithets]] [[wenches]] [[surnames]]
+1,[[wench_epithets]] [[wenches]] [[wench_epithets]]
 
 ;regulars 
 1,Arp 

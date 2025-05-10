@@ -1,9 +1,9 @@
 
 ;Start
-1,[diamonds]
-1,[hearts]
-1,[clubs]
-1,[spades]
+1,[[diamonds]]
+1,[[hearts]]
+1,[[clubs]]
+1,[[spades]]
 
 ;diamonds
 1,A Diamonds - A hermit piling stones on the sides of an ancient crumbling tower, building his defenses against a coming battle.

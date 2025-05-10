@@ -51,7 +51,7 @@
 1,universal
 1,voodoo
 1,witchcraft
-5,[Elements.basic]
+5,[[Elements.basic]]
 
 ;d20
 1,abjuration
@@ -64,14 +64,14 @@
 1,transmutation
 
 ;d20 official sub
-1,[abjuration]
-5,[conjuration]
-2,[divination]
-2,[enchantment]
-1,[evocation]
-5,[illusion]
-1,[necromancy]
-1,[transmutation]
+1,[[abjuration]]
+5,[[conjuration]]
+2,[[divination]]
+2,[[enchantment]]
+1,[[evocation]]
+5,[[illusion]]
+1,[[necromancy]]
+1,[[transmutation]]
 
 ;abjuration
 1,abjuration
@@ -108,14 +108,14 @@
 1,transmutation
 
 ;d20 variant sub
-5,[varabjuration]
-5,[conjuration]
-5,[vardivination]
-3,[varenchantment]
-5,[varevocation]
-5,[illusion]
-6,[varnecromancy]
-4,[vartransmutation]
+5,[[varabjuration]]
+5,[[conjuration]]
+5,[[vardivination]]
+3,[[varenchantment]]
+5,[[varevocation]]
+5,[[illusion]]
+6,[[varnecromancy]]
+4,[[vartransmutation]]
 
 ;varabjuration
 1,barrier

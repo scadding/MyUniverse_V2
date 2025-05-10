@@ -1,18 +1,18 @@
 
 
 ;Start
-1,[male]
-1,[female]
+1,[[male]]
+1,[[female]]
 
 ;male
-5,[malepart1][malepart2]
-1,[singleelement]
-1,[malepart1][diminutivemale]
+5,[[malepart1]][[malepart2]]
+1,[[singleelement]]
+1,[[malepart1]][[diminutivemale]]
 
 ;female
-3,[femalepart1][femalepart2]
-1,[singleelement]
-1,[femalepart1][diminutivefemale]
+3,[[femalepart1]][[femalepart2]]
+1,[[singleelement]]
+1,[[femalepart1]][[diminutivefemale]]
 
 ;diminutivemale
 3,

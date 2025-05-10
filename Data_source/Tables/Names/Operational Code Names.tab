@@ -1,6 +1,6 @@
 
 ;Start
-1,[dod_first] [dod_second] [suffix]
+1,[[dod_first]] [[dod_second]] [[suffix]]
 
 ;dod_first
 1,PRESENTER
@@ -423,6 +423,6 @@
 1,BRAVO
 1,CHARLIE
 1,DELTA
-5,[dod_second]
+5,[[dod_second]]
 
 

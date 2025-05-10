@@ -1,13 +1,13 @@
 
 ;Start
-1,[male] (male)
-1,[female] (female)
+1,[[male]] (male)
+1,[[female]] (female)
 
 ;male
-1,[portuguesemale] [portuguesesurname]
+1,[[portuguesemale]] [[portuguesesurname]]
 
 ;female
-1,[portuguesefemale] [portuguesesurname]
+1,[[portuguesefemale]] [[portuguesesurname]]
 
 ;portuguesemale
 1,Abel

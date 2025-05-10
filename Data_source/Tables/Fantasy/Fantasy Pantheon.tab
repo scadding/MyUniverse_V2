@@ -1,71 +1,71 @@
 
 ;Start
-1,[Fantasy Names.MaleFirstName], [DeityMale]
-1,[DeityRoleMale] [DeityMale]
-1,[Fantasy Names.FemaleFirstName], [DeityFemale]
-1,[DeityRoleFemale], [DeityFemale]
+1,[[Fantasy Names.MaleFirstName]], [[DeityMale]]
+1,[[DeityRoleMale]] [[DeityMale]]
+1,[[Fantasy Names.FemaleFirstName]], [[DeityFemale]]
+1,[[DeityRoleFemale]], [[DeityFemale]]
 
 ;fulldescription
-5,[Fantasy Names.MaleFirstName], [DeityMale], [AppearancePhrase] [MaleForm]
-1,The [Secret Society Title.NounDescriptor] God, [AppearancePhrase] [MaleForm]
-1,The [Secret Society Title.NounDescriptor] Goddess, [AppearancePhrase] [FemaleForm]
-5,[Fantasy Names.FemaleFirstName], [DeityFemale], [AppearancePhrase] [FemaleForm]
+5,[[Fantasy Names.MaleFirstName]], [[DeityMale]], [[AppearancePhrase]] [[MaleForm]]
+1,The [[Secret Society Title.NounDescriptor]] God, [[AppearancePhrase]] [[MaleForm]]
+1,The [[Secret Society Title.NounDescriptor]] Goddess, [[AppearancePhrase]] [[FemaleForm]]
+5,[[Fantasy Names.FemaleFirstName]], [[DeityFemale]], [[AppearancePhrase]] [[FemaleForm]]
 
 ;unnamed
-1,[DeityMale]
-1,[DeityFemale]
+1,[[DeityMale]]
+1,[[DeityFemale]]
 
 ;DeityGender
 1,God
 1,Goddess
 
 ;DeityMale
-1,the God of [Domains]
-1,the God of [Domains] and [Domains]
-1,the God of [Domains] and [DeityRoleMale]
-1,[DeityRoleMale]
+1,the God of [[Domains]]
+1,the God of [[Domains]] and [[Domains]]
+1,the God of [[Domains]] and [[DeityRoleMale]]
+1,[[DeityRoleMale]]
 
 ;DeityFemale
-1,the Goddess of [Domains]
-1,the Goddess  of [Domains] and [Domains]
-1,the Goddess of [Domains] and [DeityRoleFemale]
-1,[DeityRoleFemale]
+1,the Goddess of [[Domains]]
+1,the Goddess  of [[Domains]] and [[Domains]]
+1,the Goddess of [[Domains]] and [[DeityRoleFemale]]
+1,[[DeityRoleFemale]]
 
 ;DeityRoleMale
-10,the [Secret Society Title.NounDescriptor] God
-2,[Secret Society Title.Start]
-2,[DeityRoleEither]
-2,King of [Domains]
-2,Father of [Domains]
-2,Lord of [Domains]
-1,Master of [Domains]
-1,Prince of [Domains]
+10,the [[Secret Society Title.NounDescriptor]] God
+2,[[Secret Society Title.Start]]
+2,[[DeityRoleEither]]
+2,King of [[Domains]]
+2,Father of [[Domains]]
+2,Lord of [[Domains]]
+1,Master of [[Domains]]
+1,Prince of [[Domains]]
 1,Father of the Gods
 
 ;DeityRoleFemale
-10,the [Secret Society Title.NounDescriptor] Goddess
-1,[DeityRoleEither]
-2,Queen of [Domains]
-2,Mother of [Domains]
-2,Lady of [Domains]
-1,Mistress of [Domains]
-1,Princess of [Domains]
+10,the [[Secret Society Title.NounDescriptor]] Goddess
+1,[[DeityRoleEither]]
+2,Queen of [[Domains]]
+2,Mother of [[Domains]]
+2,Lady of [[Domains]]
+1,Mistress of [[Domains]]
+1,Princess of [[Domains]]
 1,Mother of the Gods
 
 ;DeityRoleEither
 1,Judge of the Dead
 1,Herald of the Gods
 1,Messenger of the Gods
-3,Patron of [Fantasy Profession.Start]s
-2,Protector of [Fantasy Profession.Start]s
+3,Patron of [[Fantasy Profession.Start]]s
+2,Protector of [[Fantasy Profession.Start]]s
 
 ;Domains
-1,[AbstractPositive]
-1,[AbstractNegative]
-1,[Natural]
+1,[[AbstractPositive]]
+1,[[AbstractNegative]]
+1,[[Natural]]
 
 ;AbstractPositive
-10,[Inscriptions.AbstractNounPositive]
+10,[[Inscriptions.AbstractNounPositive]]
 1,Agriculture
 1,Athletics
 1,Beauty
@@ -106,7 +106,7 @@
 1,Wisdom
 
 ;AbstractNegative
-10,[Inscriptions.AbstractNounNegative]
+10,[[Inscriptions.AbstractNounNegative]]
 1,Agony
 1,Battle
 1,Betrayal
@@ -142,8 +142,8 @@
 1,War
 
 ;Natural
-4,[Elements.basicCap]
-3,[Utility.TerrainsCap]s
+4,[[Elements.basicCap]]
+3,[[Utility.TerrainsCap]]s
 1,Autumn
 1,Beasts
 1,Cats
@@ -185,12 +185,12 @@
 1,visible to mortals only as
 
 ;MaleForm
-3,[SpiritForm.HumanFormMainMale]
-1,[SpiritForm.AnimalFormMain]
+3,[[SpiritForm.HumanFormMainMale]]
+1,[[SpiritForm.AnimalFormMain]]
 
 ;FemaleForm
-3,[SpiritForm.HumanFormMainFemale]
-1,[SpiritForm.AnimalFormMain]
+3,[[SpiritForm.HumanFormMainFemale]]
+1,[[SpiritForm.AnimalFormMain]]
 
 
 

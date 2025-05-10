@@ -4,8 +4,8 @@
 # maybe isolated space colonists or something.
 
 ;Start
-1,[male]
-1,[female]
+1,[[male]]
+1,[[female]]
 
 ;male
 1,Adam 

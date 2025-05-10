@@ -1,23 +1,23 @@
 
 ;Start
-1,[story]
+1,[[story]]
 
 
 ;story
-1,[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]
-2,[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]
-4,[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]
-6,[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]
-4,[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]
-2,[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]
-1,[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]<br/><br/>[paragraph]
+1,[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]
+2,[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]
+4,[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]
+6,[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]
+4,[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]
+2,[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]
+1,[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]<br/><br/>[[paragraph]]
 
 ;paragraph
-1,[sentence]
-2,[sentence] [sentence]
-4,[sentence] [sentence] [sentence]
-2,[sentence] [sentence] [sentence] [sentence]
-1,[sentence] [sentence] [sentence] [sentence] [sentence]
+1,[[sentence]]
+2,[[sentence]] [[sentence]]
+4,[[sentence]] [[sentence]] [[sentence]]
+2,[[sentence]] [[sentence]] [[sentence]] [[sentence]]
+1,[[sentence]] [[sentence]] [[sentence]] [[sentence]] [[sentence]]
 
 ;sentence
 1,The coppers smashed my father's printer when I was eight. 

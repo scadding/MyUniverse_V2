@@ -1,15 +1,15 @@
 
 ;Start
-1,[EarlyVignetteOracleResult]
+1,[[EarlyVignetteOracleResult]]
 
 ;EarlyVignetteOracleResult
-1,[People] (Person)
-1,[Places] (Location)
-1,[Things] (Thing)
-1,[Events] (Event)
+1,[[People]] (Person)
+1,[[Places]] (Location)
+1,[[Things]] (Thing)
+1,[[Events]] (Event)
 ;People
-1,[Youth People]
-1,[Experience People]
+1,[[Youth People]]
+1,[[Experience People]]
 ;Youth People
 1,Finishing each other\'s sentences.
 1,Old friends - now something more?
@@ -26,8 +26,8 @@
 1,A serious talk about love, patriotism, and family.
 
 ;Places
-1,[Youth Places]
-1,[Experience Places]
+1,[[Youth Places]]
+1,[[Experience Places]]
 ;Youth Places
 1,Grandfather\'s house, in Mokotów\'s Pulawska neighborhood.
 1,The Polonia football grounds on Konwiktorska street.
@@ -45,8 +45,8 @@ _seems to feed half of Warsaw for free.
 1,A flower shop in the Dluga neighborhood in Old Town.
 
 ;Things
-1,[Youth Things]
-1,[Experience Things]
+1,[[Youth Things]]
+1,[[Experience Things]]
 ;Youth Things
 1,Stolen beer, still cold.
 1,A hastily-written love note.
@@ -63,8 +63,8 @@ _seems to feed half of Warsaw for free.
 1,Home-distilled 190 proof "bimber", mixed with raspberry juice.
 
 ;Events
-1,[Youth Events]
-1,[Experience Events]
+1,[[Youth Events]]
+1,[[Experience Events]]
 ;Youth Events
 1,The world can wait.  We\'re footloose and fancy-free!
 1,Writing a very serious note.

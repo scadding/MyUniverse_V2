@@ -1,6 +1,6 @@
 
 ;Start
-1,[mPulpHeroNovel]
+1,[[mPulpHeroNovel]]
 
 ;mPulpNoun
 1,Maggots
@@ -120,15 +120,15 @@
 1,in:
 1,maddens
 1,versus the
-1,and [mPulpAdjPositive] [mPulpMaleFirstName]'s 
+1,and [[mPulpAdjPositive]] [[mPulpMaleFirstName]]'s 
 
 ;pulpend
-1,[mPulpAdjNegative] [mPulpNoun]
+1,[[mPulpAdjNegative]] [[mPulpNoun]]
 
 ;mPulpHeroNovel
-10,[mPulpAdjPositive] [mPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[mPulpMaleFirstName] [mPulpLastName] [pulpmiddle] [pulpend]
-3,[mPulpAdjPositive] [mPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[mPulpFemaleFirstName] [mPulpLastName] [pulpmiddle] [pulpend]
+10,[[mPulpAdjPositive]] [[mPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[mPulpMaleFirstName]] [[mPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[mPulpAdjPositive]] [[mPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[mPulpFemaleFirstName]] [[mPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

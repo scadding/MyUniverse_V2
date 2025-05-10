@@ -1,20 +1,20 @@
 
 ;Start
-1,[when], [badpeople] [donesomethingbad] [supportchance] '''OPERATION [Operational Code Names.Start]''': [operational goal]. [alliedsupport]
+1,[[when]], [[badpeople]] [[donesomethingbad]] [[supportchance]] '''OPERATION [[Operational Code Names.Start]]''': [[operational goal]]. [[alliedsupport]]
 
 ;when
-4,This morning at 0[Dice.digit]00 hours
+4,This morning at 0[[Tables.Utility.Dice.digit]]00 hours
 1,Late last night
 1,Three days ago
 1,A week ago
 1,A few minutes ago
 
 ;badpeople
-20,[terroristsplace]
-2,agents of the government of [roguestates]
-2,[criminals]
-5,terrorists associated with [terroristorgs]
-1,terrorists associated with [smallerterroristorgs]
+20,[[terroristsplace]]
+2,agents of the government of [[roguestates]]
+2,[[criminals]]
+5,terrorists associated with [[terroristorgs]]
+1,terrorists associated with [[smallerterroristorgs]]
 
 ;terroristsplace
 1,HAMAS in the Gaza Strip
@@ -35,15 +35,15 @@
 1,Janjaween militia in the Darfur Region of Sudan
 1,Maoist guerillas in Nepal
 1,Jemayiah Islamiyah in Indonesia
-2,'Homegrown Terrorists' in [friendlycountry]
-1,the Environmental Liberation Front in [friendlycountry]
+2,'Homegrown Terrorists' in [[friendlycountry]]
+1,the Environmental Liberation Front in [[friendlycountry]]
 1,the Tamil Tigers in Sri Lanka
 1,Neo-Nazi militants in Germany
 1,Iraqi insurgents in Baghdad
 1,Iraqi insurgents in Mosul
 1,Iraqi insurgents in Fallujah
 1,Iraqi insurgents in Basra
-1,unknown terrorists in [friendlycountry]
+1,unknown terrorists in [[friendlycountry]]
 
 ;criminals
 1,Columbian Cocaine cartels
@@ -65,8 +65,8 @@
 1,Nigeria
 
 ;donesomethingbad
-1,[badverbpeople] a[friendlynationality] [profession].
-1,[badverbplace] [targetplace].
+1,[[badverbpeople]] a[[friendlynationality]] [[profession]].
+1,[[badverbplace]] [[targetplace]].
 
 ;badverbpeople
 1,kidnapped
@@ -149,15 +149,15 @@
 1,intelligence operative
 1,arms dealer
 1,undercover operative
-3,[Spycraft Scene.profession]
+3,[[Spycraft Scene.profession]]
 
 
 ;targetplace
 1,a crowded market
 1,an airport
-1,the Embassy of [friendlycountry]
+1,the Embassy of [[friendlycountry]]
 1,a school full of children
-1,a[friendlynationality]-owned hotel
+1,a[[friendlynationality]]-owned hotel
 1,a wedding party
 1,a tourist resort
 1,a crowded bus
@@ -176,9 +176,9 @@
 
 ;supportchance
 8, 
-1,It is possible they received [supporttype] from [badpeople].
-1,They may have cooperated with [badpeople] for [supporttype].
-1,The [supporttype] involved in the operation would seem to be typical of [badpeople].
+1,It is possible they received [[supporttype]] from [[badpeople]].
+1,They may have cooperated with [[badpeople]] for [[supporttype]].
+1,The [[supporttype]] involved in the operation would seem to be typical of [[badpeople]].
 
 ;supporttype
 1,money
@@ -297,28 +297,28 @@
 
 ;operational goal
 1, Terminate with extreme prejudice
-1, Disguised as operatives of [badpeople], infiltrate and destroy
+1, Disguised as operatives of [[badpeople]], infiltrate and destroy
 1, Secure and exfiltrate any survivors
 1, Leave none to tell the tale
-1, Secure the area before [before]
-1, Bring in the leaders for questioning if possible, but make sure you get them before [before]
-1, Make it look like it was the work of [badpeople]
-1, Lay the groundwork for a successful mission by the [Spycraft Scene.nationality] military task force that is on its way - we need them to think they did it on their own
-1, After you have secured our safehouse in the area and destroyed any remaining documents, see if there's anything you can do to lessen the impact before [before]
+1, Secure the area before [[before]]
+1, Bring in the leaders for questioning if possible, but make sure you get them before [[before]]
+1, Make it look like it was the work of [[badpeople]]
+1, Lay the groundwork for a successful mission by the [[Spycraft Scene.nationality]] military task force that is on its way - we need them to think they did it on their own
+1, After you have secured our safehouse in the area and destroyed any remaining documents, see if there's anything you can do to lessen the impact before [[before]]
 
 ;before
 1,it becomes part of the news cycle
 1,any politicians in Washington hear about it
-1,the [Spycraft Scene.nationality] forces arrive on the scene
+1,the [[Spycraft Scene.nationality]] forces arrive on the scene
 1,its too late
 1,any more damage can be done
-1,they find the [Spycraft Scene.nationality] [Spycraft Scene.profession]
-1,[badpeople] arrive on the scene and complicate matters further
+1,they find the [[Spycraft Scene.nationality]] [[Spycraft Scene.profession]]
+1,[[badpeople]] arrive on the scene and complicate matters further
 
 ;alliedsupport
 3,
 1,Assemble your own team.
-1,For reasons that will become clear later, we are sending [Spycraft Scene.character] with you.
-1,We have a standing contract with [Dossier.PrivateMilitary] contractors that should supply most of your operational needs.
+1,For reasons that will become clear later, we are sending [[Spycraft Scene.character]] with you.
+1,We have a standing contract with [[Dossier.PrivateMilitary]] contractors that should supply most of your operational needs.
 
 

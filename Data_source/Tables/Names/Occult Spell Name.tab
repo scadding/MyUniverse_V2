@@ -6,10 +6,10 @@
 # into some other pages, if possible.
 
 ;Start
-1,[spellname]
+1,[[spellname]]
 
 ;spellname
-1,The [Occulty] [Spelly] [ofOccAuth]
+1,The [[Occulty]] [[Spelly]] [[ofOccAuth]]
 
 ;Occulty
 1,Greater

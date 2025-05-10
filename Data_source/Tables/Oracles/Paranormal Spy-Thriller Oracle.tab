@@ -1,7 +1,7 @@
 
 ;Start
-1,[mundane]
-1,[strange]
+1,[[mundane]]
+1,[[strange]]
 
 ;mundane
 1,A skilled but aging spy-master forced to retire.
@@ -14,7 +14,7 @@
 1,A clerk dousing desk, computer and cabinets with kerosene while smoke wafts in from other offices already burning.
 1,A betrayed agent gone AWOL, seeking revenge against his handlers.
 1,A double-agent, cover blown, attempting covert extraction.
-1,A [personality] [person] selling secrets to the other side.
+1,A [[personality]] [[person]] selling secrets to the other side.
 1,An infamous and efficient assassin casing his latest target.
 1,An undisclosed training facility: fluorescent lights and quiet corridors. 
 1,A dilapidated safe-house in a red-light district, marked for demolition.
@@ -33,24 +33,24 @@
 1,A missed rendezvous with no sign of the second party.
 1,The signing of a tentative treaty between two countries.
 1,The controversial decommission of a senior agent for alleged fraternization with an enemy agent.
-1,An internal [agency] document on the desk of an investigative reporter, its pages listing active field agents.
+1,An internal [[agency]] document on the desk of an investigative reporter, its pages listing active field agents.
 1,The murder of an activist while delivering humanitarian aid, designed to look like local hostility. 
 1,A long-used dead-drop, compromised by foreign agents.
 1,A partisan putting the final touches on the the wiring on a explosive device.
 1,The arrival of an unexpected limo, VIP and security detail.
 1,A fugitive pursued into the night forest; guards, dogs and search-lights.
-1,A [personality] warden overseeing a secret prisoner exchange.
-1,A [person] charged with treason attempting to flee the country.
-1,A [personality] special forces captain seeking to regain the trust of his men.
+1,A [[personality]] warden overseeing a secret prisoner exchange.
+1,A [[person]] charged with treason attempting to flee the country.
+1,A [[personality]] special forces captain seeking to regain the trust of his men.
 1,A driver and passenger exchange blows as their car speeds down the Autobahn.
 1,A local law enforcement officer stumbling across a 'false flag' operation intended to frame his government for a terrorist act.
 1,A blogger is found shot to death in his home, his last entry written in code.
 
 ;strange
 1,Two sets of fingerprints taken from the same man twenty years apart... that don't match.
-1,An internal [agency] document on the desk of an investigative reporter, its pages listing active paranormal agents.
+1,An internal [[agency]] document on the desk of an investigative reporter, its pages listing active paranormal agents.
 1,Two satellite photos of same man -- one on a Paris street corner, the other at the Kremlin -- timestamped a minute apart.
-1,A poor [thirdworld] boy amusing his friends by raising pencils off his desk without touching them.
+1,A poor [[thirdworld]] boy amusing his friends by raising pencils off his desk without touching them.
 1,A victim fallen from a twelfth-story balcony, stumbling into a nearby alley uninjured.
 1,A sniper waiting patiently on a rooftop, his eyes blind with white cataracts.
 1,A sleeper agent, brainwashed by the other side, a trigger-word buried in his subconscious.
@@ -61,10 +61,10 @@
 1,A West-African warlord who leads his men into battle naked.  It is whispered his skin cannot be pierced.
 1,An old dead-drop, disused since the Cold War, receives a message from a presumed-dead operative.
 1,An airliner traveling from Rio to Paris, simply vanished after reporting strange lights over the ocean.
-1,Strange lights moving over a [nationality] military installation.
-1,A [nationality] covert operative fleeing in the night from strange lights in the sky.
-1,A dusty [agency] document on UFOs found in an unrelated file of a government archive.
-1,A dead [nationality] operative's body vanishes from a locked mortuary overnight.
+1,Strange lights moving over a [[nationality]] military installation.
+1,A [[nationality]] covert operative fleeing in the night from strange lights in the sky.
+1,A dusty [[agency]] document on UFOs found in an unrelated file of a government archive.
+1,A dead [[nationality]] operative's body vanishes from a locked mortuary overnight.
 1,A spectral figure appears near the historic Checkpoint Charlie every night at two o'clock.
 1,A foreign operative is found dead with all his hair and teeth missing.
 1,An operative's routine physical reveals a strange metal object embedded in the bone behind his right ear.

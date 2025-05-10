@@ -35,8 +35,8 @@
 1,Low Passage,0
 1,Intelligence
 1,Education
-1,[Traveller.Blade]
-1,[Traveller.Gun]
+1,[[Traveller.Blade]]
+1,[[Traveller.Gun]]
 1,Scout Ship,0
 2,Cash,20000
 2,Cash,30000

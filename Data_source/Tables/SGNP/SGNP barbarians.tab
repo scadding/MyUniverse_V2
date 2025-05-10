@@ -1,7 +1,7 @@
 
 ;Start
-1,[BarbarianFirst] [BarbarianSurname] (barbarian)
-1,[EnchantressFirst] [EnchantressSurname] (enchantress)
+1,[[BarbarianFirst]] [[BarbarianSurname]] (barbarian)
+1,[[EnchantressFirst]] [[EnchantressSurname]] (enchantress)
 
 ;BarbarianFirst
 1,Grimdar

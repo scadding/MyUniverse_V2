@@ -1,6 +1,6 @@
 
 ;Start
-1, The heroes must [action] [target] [preposition] [location], but have to contend with [contention], and opposition from [opposition] trying to [opposing action] [opposing target]
+1, The heroes must [[action]] [[target]] [[preposition]] [[location]], but have to contend with [[contention]], and opposition from [[opposition]] trying to [[opposing action]] [[opposing target]]
 
 ;action
 1, aid

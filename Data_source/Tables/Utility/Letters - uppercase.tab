@@ -1,8 +1,8 @@
 
 ;Start
-98,[normal]
-1,[special]
-1,[all]
+98,[[normal]]
+1,[[special]]
+1,[[all]]
 
 ;normal
 1,A
@@ -65,8 +65,8 @@
 1,&#222;
 
 ;all
-1,[normal]
-1,[special]
+1,[[normal]]
+1,[[special]]
 
 
 

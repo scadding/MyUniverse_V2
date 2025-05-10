@@ -1,6 +1,6 @@
 
 ;Start
-1,[kPulpHeroNovel]
+1,[[kPulpHeroNovel]]
 
 ;kPulpNoun
 1,Kabbalists
@@ -102,15 +102,15 @@
 1,and the Killing of the
 1,in:
 1,versus the
-1,and [kPulpAdjPositive] [kPulpMaleFirstName]'s 
+1,and [[kPulpAdjPositive]] [[kPulpMaleFirstName]]'s 
 
 ;pulpend
-1,[kPulpAdjNegative] [kPulpNoun]
+1,[[kPulpAdjNegative]] [[kPulpNoun]]
 
 ;kPulpHeroNovel
-10,[kPulpAdjPositive] [kPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[kPulpMaleFirstName] [kPulpLastName] [pulpmiddle] [pulpend]
-3,[kPulpAdjPositive] [kPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[kPulpFemaleFirstName] [kPulpLastName] [pulpmiddle] [pulpend]
+10,[[kPulpAdjPositive]] [[kPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[kPulpMaleFirstName]] [[kPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[kPulpAdjPositive]] [[kPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[kPulpFemaleFirstName]] [[kPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

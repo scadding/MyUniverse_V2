@@ -1,17 +1,17 @@
 
 ;Start
-1,[Name], a [MilitaryUnprofession]. [MartialSentence]
+1,[[Name]], a [[MilitaryUnprofession]]. [[MartialSentence]]
 
 ;Name
-10,[Fantasy Names.StartNoTitle] the [Dishonorific]
-5,[ScottishMale.Start] the [Dishonorific]
-5,[German Male.Start] the [Dishonorific]
-5,[Catholic Saint Names.Start] the [Dishonorific]
-3,[German Male.germanmale] the [Dishonorific]
-1,[Dishonorific] [Fantasy Names.StartNoTitle]
-1,[Dishonorific] [ScottishMale.Start]
-1,[Dishonorific] [German Male.germanmale]
-1,[Dishonorific] [ScottishMale.ScottishMaleFirstName]
+10,[[Fantasy Names.StartNoTitle]] the [[Dishonorific]]
+5,[[ScottishMale.Start]] the [[Dishonorific]]
+5,[[German Male.Start]] the [[Dishonorific]]
+5,[[Catholic Saint Names.Start]] the [[Dishonorific]]
+3,[[German Male.germanmale]] the [[Dishonorific]]
+1,[[Dishonorific]] [[Fantasy Names.StartNoTitle]]
+1,[[Dishonorific]] [[ScottishMale.Start]]
+1,[[Dishonorific]] [[German Male.germanmale]]
+1,[[Dishonorific]] [[ScottishMale.ScottishMaleFirstName]]
 
 ;Dishonorific
 1,Abject
@@ -235,34 +235,34 @@
 1,Yellow-Bellied
 
 ;MilitaryUnprofession
-1,[MilitaryRank] in the [Fantasy Military Unit.Start]
+1,[[MilitaryRank]] in the [[Fantasy Military Unit.Start]]
 
 ;MartialSentence
-3,[MartialIndistinguishment] he [FoughtAdverb] [FoughtVerb] a [Group] the [TribalHumanoids], [WarReason].
-3,[MartialIndistinguishment] he [FoughtAdverb] [FoughtVerb] [IndividualEnemy], [WarReason].
-4,[MartialIndistinguishment] he [DidSomethingStupid], [WarReason].
+3,[[MartialIndistinguishment]] he [[FoughtAdverb]] [[FoughtVerb]] a [[Group]] the [[TribalHumanoids]], [[WarReason]].
+3,[[MartialIndistinguishment]] he [[FoughtAdverb]] [[FoughtVerb]] [[IndividualEnemy]], [[WarReason]].
+4,[[MartialIndistinguishment]] he [[DidSomethingStupid]], [[WarReason]].
 
 ;DidSomethingStupid
-4,traded all of his unit's [Provisions] for [Flair]
-3,led an entire [Unit] patrol [LedWrong] because [LostReason]
-3,[UsedProvisions]
-3,[MagicUser]
+4,traded all of his unit's [[Provisions]] for [[Flair]]
+3,led an entire [[Unit]] patrol [[LedWrong]] because [[LostReason]]
+3,[[UsedProvisions]]
+3,[[MagicUser]]
 1,forgot to put on his pantaloons before going to role call
 1,piddled his armor after seeing his own shadow
 
 ;MagicUser
-1,[Honed] his [MagicalPowers] to add bounce and volume to his hair
-1,[Honed] his [MagicalPowers] to makes his whites whiter and his brights brighter
-1,[Honed] his [MagicalPowers] to put some real pop in his pep
-1,[Honed] his [MagicalPowers] to cheat his whole squad on poker nights
-1,[Honed] his [MagicalPowers] to evade doing any real work
-1,[Honed] his [MagicalPowers] to keep his hands soft, moisturized, and pleasant-smelling
-1,[Honed] his [MagicalPowers] to hide at the first sign of the enemy
-1,[Honed] his [MagicalPowers] to unsuccessfully increase his chances with women-folk
-1,[Honed] his [MagicalPowers] to turn his armor into a glittery, zinc-studded leather jumpsuit
-1,[Honed] his [MagicalPowers] to turn into (more of) a fairy and fly away from the enemy
-1,[Honed] his [MagicalPowers] to make his arrows never miss, but it had the opposite effect
-1,[Honed] his [MagicalPowers] to cause the general to evacuate the whole camp
+1,[[Honed]] his [[MagicalPowers]] to add bounce and volume to his hair
+1,[[Honed]] his [[MagicalPowers]] to makes his whites whiter and his brights brighter
+1,[[Honed]] his [[MagicalPowers]] to put some real pop in his pep
+1,[[Honed]] his [[MagicalPowers]] to cheat his whole squad on poker nights
+1,[[Honed]] his [[MagicalPowers]] to evade doing any real work
+1,[[Honed]] his [[MagicalPowers]] to keep his hands soft, moisturized, and pleasant-smelling
+1,[[Honed]] his [[MagicalPowers]] to hide at the first sign of the enemy
+1,[[Honed]] his [[MagicalPowers]] to unsuccessfully increase his chances with women-folk
+1,[[Honed]] his [[MagicalPowers]] to turn his armor into a glittery, zinc-studded leather jumpsuit
+1,[[Honed]] his [[MagicalPowers]] to turn into (more of) a fairy and fly away from the enemy
+1,[[Honed]] his [[MagicalPowers]] to make his arrows never miss, but it had the opposite effect
+1,[[Honed]] his [[MagicalPowers]] to cause the general to evacuate the whole camp
 
 ;Honed
 1,abused
@@ -272,7 +272,7 @@
 1,used
 
 ;MagicalPowers
-1,[Magical] [Powers]
+1,[[Magical]] [[Powers]]
 
 ;Magical
 1,arcane
@@ -291,20 +291,20 @@
 1,skills
 
 ;UsedProvisions
-1,ate his entire unit's food rations in one [UsedTime]
-1,drank his entire unit's beer rations in one [UsedTime]
-1,drank his entire unit's water supply in one [UsedTime]
-1,ate his entire unit's food rations in one [UsedPatrol]
-1,drank his entire unit's beer rations in one [UsedPatrol]
-1,drank his entire unit's water supply in one [UsedPatrol]
-1,gambled away his entire unit's payroll money in one [UsedTime]
-1,spent his entire year's payroll money in one [UsedTime]
+1,ate his entire unit's food rations in one [[UsedTime]]
+1,drank his entire unit's beer rations in one [[UsedTime]]
+1,drank his entire unit's water supply in one [[UsedTime]]
+1,ate his entire unit's food rations in one [[UsedPatrol]]
+1,drank his entire unit's beer rations in one [[UsedPatrol]]
+1,drank his entire unit's water supply in one [[UsedPatrol]]
+1,gambled away his entire unit's payroll money in one [[UsedTime]]
+1,spent his entire year's payroll money in one [[UsedTime]]
 1,gambled away his entire unit's payroll money in one game
-1,accidentally lost all his unit's horses in one [UsedTime]
+1,accidentally lost all his unit's horses in one [[UsedTime]]
 1,gambled away his whole unit's horses in one game
-1,sold all his unit's horses to pay for his freakishly outlandish [Addiction]
-1,spent his entire year's payroll money on his [Addiction]
-1,spent his entire unit's payroll money on his [Addiction]
+1,sold all his unit's horses to pay for his freakishly outlandish [[Addiction]]
+1,spent his entire year's payroll money on his [[Addiction]]
+1,spent his entire unit's payroll money on his [[Addiction]]
 
 ;Addiction
 1,brothel dues
@@ -334,8 +334,8 @@
 1,he had the map upside down
 1,he knew the way by heart
 1,he lost the map at a latrine break
-1,he smudged the map after using it as a [Mapkin]
-1,he sold the map for [Flair]
+1,he smudged the map after using it as a [[Mapkin]]
+1,he sold the map for [[Flair]]
 1,he was going on instinct
 1,he wouldn't listen to his sergeant
 1,he wouldn't stop for directions
@@ -353,7 +353,7 @@
 1,back to his own capitol
 1,back through his own lines
 1,over a cliff
-1,around in circles for [Circles]
+1,around in circles for [[Circles]]
 1,right into the hands of the enemy
 1,to its demise
 1,to certain doom
@@ -386,8 +386,8 @@
 1,weapons and equipment
 
 ;Flair
-1,a [Phony] [FlairFake]
-1,a [FlairCool] [FlairItem]
+1,a [[Phony]] [[FlairFake]]
+1,a [[FlairCool]] [[FlairItem]]
 
 ;Phony
 1,phony
@@ -463,13 +463,13 @@
 1,He lost his family's honor after
 1,He disappeared from human society after
 1,He fled the service after
-1,His cowardice was comemmorated in a [WrittenRemembrances] after
-1,He is mainly known through the sarcastic and satirical [WrittenRemembrances] about the incident when
-1,As a joke, his unit commissioned a [WrittenRemembrances] written about the time
-1,He was [Abused] in a [WrittenRemembrances] written about the time
-1,He [Protested] the writing of a [WrittenRemembrances] about the time
-1,He became a household laughingstock because of the [WrittenRemembrances] written about the time
-1,He is mockingly depicted in a [ArtworkRemembrances] about the time
+1,His cowardice was comemmorated in a [[WrittenRemembrances]] after
+1,He is mainly known through the sarcastic and satirical [[WrittenRemembrances]] about the incident when
+1,As a joke, his unit commissioned a [[WrittenRemembrances]] written about the time
+1,He was [[Abused]] in a [[WrittenRemembrances]] written about the time
+1,He [[Protested]] the writing of a [[WrittenRemembrances]] about the time
+1,He became a household laughingstock because of the [[WrittenRemembrances]] written about the time
+1,He is mockingly depicted in a [[ArtworkRemembrances]] about the time
 1,He is infamous for the occasion on which
 1,He is worst-known for the occasion on which
 1,He is remembered in drinking songs for the time
@@ -579,7 +579,7 @@
 1,three-volume novel
 
 ;ArtworkRemembrances
-1,[ArtworkAdj] [ArtworkType]
+1,[[ArtworkAdj]] [[ArtworkType]]
 
 ;ArtworkAdj
 1,shoddily crafted
@@ -598,8 +598,8 @@
 3,training manual
 
 ;IndividualEnemy
-15,[Orc Names.Start], [MilitaryRank] of the [Orc Tribe Name.Start] [TribalHumanoids]
-7,[Fantasy Names.StartNoTitle], who led the [TribalHumanoids]
+15,[[Orc Names.Start]], [[MilitaryRank]] of the [[Orc Tribe Name.Start]] [[TribalHumanoids]]
+7,[[Fantasy Names.StartNoTitle]], who led the [[TribalHumanoids]]
 
 ;TribalHumanoids
 1,brownies
@@ -609,25 +609,25 @@
 1,pixies
 1,street children
 1,women-folk
-1,[Number] Amputee [Unit]
-1,[Number] Blind Bowmen's [Unit]
-1,[Number] Bowling [Unit]
-1,[Number] Children's [Unit]
-1,[Number] Crippled Auxiliary [Unit]
-1,[Number] Elderly Support [Unit]
-1,[Number] Laundry And Sewing [Unit]
-1,[Number] Nearsighted Archer's [Unit]
-1,[Number] One-Legged Skirmisher [Unit]
-1,[Number] Peace [Unit]
-1,[Number] Peaceful Protest [Unit]
-1,[Number] Peacetime Defense [Unit]
-1,[Number] Retired Pacifist's [Unit]
-1,[Number] Retiree [Unit]
-1,[Number] Runaway Youth [Unit]
-1,[Number] Washer-Women's [Unit]
-1,[Number] Women's Reserve [Unit]
-1,[Number] Wounded Veteran's [Unit]
-1,[Number] Youth Scout [Unit]
+1,[[Number]] Amputee [[Unit]]
+1,[[Number]] Blind Bowmen's [[Unit]]
+1,[[Number]] Bowling [[Unit]]
+1,[[Number]] Children's [[Unit]]
+1,[[Number]] Crippled Auxiliary [[Unit]]
+1,[[Number]] Elderly Support [[Unit]]
+1,[[Number]] Laundry And Sewing [[Unit]]
+1,[[Number]] Nearsighted Archer's [[Unit]]
+1,[[Number]] One-Legged Skirmisher [[Unit]]
+1,[[Number]] Peace [[Unit]]
+1,[[Number]] Peaceful Protest [[Unit]]
+1,[[Number]] Peacetime Defense [[Unit]]
+1,[[Number]] Retired Pacifist's [[Unit]]
+1,[[Number]] Retiree [[Unit]]
+1,[[Number]] Runaway Youth [[Unit]]
+1,[[Number]] Washer-Women's [[Unit]]
+1,[[Number]] Women's Reserve [[Unit]]
+1,[[Number]] Wounded Veteran's [[Unit]]
+1,[[Number]] Youth Scout [[Unit]]
 
 ;Number
 1,1st
@@ -639,15 +639,15 @@
 1,7th
 1,8th
 1,9th
-1,[Dice.1d8][Dice.1d8]1st
-1,[Dice.1d8][Dice.1d8]2nd
-1,[Dice.1d8][Dice.1d8]3rd
-1,[Dice.1d8][Dice.1d8]4th
-1,[Dice.1d8][Dice.1d8]5th
-1,[Dice.1d8][Dice.1d8]6th
-1,[Dice.1d8][Dice.1d8]7th
-1,[Dice.1d8][Dice.1d8]8th
-1,[Dice.1d8][Dice.1d8]9th
+1,[[Tables.Utility.Dice.1d8]][[Tables.Utility.Dice.1d8]]1st
+1,[[Tables.Utility.Dice.1d8]][[Tables.Utility.Dice.1d8]]2nd
+1,[[Tables.Utility.Dice.1d8]][[Tables.Utility.Dice.1d8]]3rd
+1,[[Tables.Utility.Dice.1d8]][[Tables.Utility.Dice.1d8]]4th
+1,[[Tables.Utility.Dice.1d8]][[Tables.Utility.Dice.1d8]]5th
+1,[[Tables.Utility.Dice.1d8]][[Tables.Utility.Dice.1d8]]6th
+1,[[Tables.Utility.Dice.1d8]][[Tables.Utility.Dice.1d8]]7th
+1,[[Tables.Utility.Dice.1d8]][[Tables.Utility.Dice.1d8]]8th
+1,[[Tables.Utility.Dice.1d8]][[Tables.Utility.Dice.1d8]]9th
 
 ;Unit
 1,Army
@@ -663,51 +663,51 @@
 1,Team
 
 ;WarReason
-1,while attempting to [Flee] from his [HumanSettlement] against enemy incursions
-1,while attempting to [Flee] from his [HumanSettlement] against enemy invasions
-1,while [Flee]ing from his [HumanSettlement] against enemy ravages
-1,as he [Fled] from his [HumanSettlement]
-1,as he [Fled] from his [HumanSettlement] from the enemy's constant raids
-1,while [Flee]ing from his [HumanSettlement] against enemy aggression
+1,while attempting to [[Flee]] from his [[HumanSettlement]] against enemy incursions
+1,while attempting to [[Flee]] from his [[HumanSettlement]] against enemy invasions
+1,while [[Flee]]ing from his [[HumanSettlement]] against enemy ravages
+1,as he [[Fled]] from his [[HumanSettlement]]
+1,as he [[Fled]] from his [[HumanSettlement]] from the enemy's constant raids
+1,while [[Flee]]ing from his [[HumanSettlement]] against enemy aggression
 1,while enroute to go and cry in a nearby well
-1,while trying to [Surrender] after the destruction of his village at enemy hands
-1,as he [Fled] from an imagined foe
-1,as he [Fled] from some make-believe enemy force
-1,while surrendering his entire [HumanSettlement]
-1,adding to the dishonour of his [HumanSettlement]
+1,while trying to [[Surrender]] after the destruction of his village at enemy hands
+1,as he [[Fled]] from an imagined foe
+1,as he [[Fled]] from some make-believe enemy force
+1,while surrendering his entire [[HumanSettlement]]
+1,adding to the dishonour of his [[HumanSettlement]]
 1,dishonoring both the gods and his ancestors
-1,as he tried to [Surrender] after the death of his lover at enemy hands
+1,as he tried to [[Surrender]] after the death of his lover at enemy hands
 1,but thankfully died of a paper-cut a few days later
 1,but died a few days later when he slipped on a banana peel
 1,but exactly 24 hours later fell down dead for no apparent reason
 1,in order to cower behind a nearby rock
 1,for many years until he died of shame
 1,until he was found shivering inside a closet
-1,until he was [Executed] for his infamy
-5,and was well-known for his comical lack of skill with the [HumanRacialWeapon]
-1,and was distinctive for the [Color.bright] [HumanRacialWeapon] that he never used
-1,and was distinctive for the [Color.bright] [HumanRacialWeapon] that he only used as a walking stick
-1,and was said to go to war with a fake [HumanRacialWeapon]
+1,until he was [[Executed]] for his infamy
+5,and was well-known for his comical lack of skill with the [[HumanRacialWeapon]]
+1,and was distinctive for the [[Color.bright]] [[HumanRacialWeapon]] that he never used
+1,and was distinctive for the [[Color.bright]] [[HumanRacialWeapon]] that he only used as a walking stick
+1,and was said to go to war with a fake [[HumanRacialWeapon]]
 2,and was easily recognizable for his rainbow-colored armor
-1,and was said to regularly forget his [HumanRacialWeapon] in the latrine
+1,and was said to regularly forget his [[HumanRacialWeapon]] in the latrine
 1,until they captured him while he fled
 1,until they captured him while running from his own lines
-10,and was known for his [AdmirableQuality]
+10,and was known for his [[AdmirableQuality]]
 1,because he was never popular as a child
 1,despite orders from his commander to attack the enemy
 1,despite orders from his commander to charge the enemy
 1,despite orders from his commander to hold the line
 1,despite orders from his commander to not retreat
 1,in a feat of stupidity that is sung about to this day
-5,proving his skill with the [HumanRacialWeapon] to be the slapstick stuff of a true court jester
+5,proving his skill with the [[HumanRacialWeapon]] to be the slapstick stuff of a true court jester
 1,until he had to rejoin his men because he forgot his weapon in the latrine
 1,until the remaining enemies laughed at him
 1,until the remaining enemies belittled and scorned him
 1,a feat for which he gave complete blame to his fellow soldiers
 1,and was despised by the men he served with
-3,and was easily recognizable because he rode a miniature [HumanUnusualSteed] into the field
-5,and was easily recognizable because he rode a [HumanUnusualSteed] into the field
-5,and was distinctive for his cute little pet [HumanUnusualPet], which accompanied him into the field
+3,and was easily recognizable because he rode a miniature [[HumanUnusualSteed]] into the field
+5,and was easily recognizable because he rode a [[HumanUnusualSteed]] into the field
+5,and was distinctive for his cute little pet [[HumanUnusualPet]], which accompanied him into the field
 
 ;Executed
 1,beheaded
@@ -720,14 +720,14 @@
 1,summarily executed
 
 ;Surrender
-1,[Beg] an armistice
-1,[Beg] a ceasefire
-1,[Beg] an end to aggressions
-1,[Beg] a peace agreement
-1,[Beg] for mercy
-1,[Beg] for peace
-1,[Beg] a truce
-1,[Beg] a treaty
+1,[[Beg]] an armistice
+1,[[Beg]] a ceasefire
+1,[[Beg]] an end to aggressions
+1,[[Beg]] a peace agreement
+1,[[Beg]] for mercy
+1,[[Beg]] for peace
+1,[[Beg]] a truce
+1,[[Beg]] a treaty
 1,surrender
 1,unconditionally surrender
 
@@ -768,7 +768,7 @@
 1,unfounded tales of bravery about battles he never participated in
 1,beard so long it dipped into his soup
 1,ability to be baffled by simple children's games
-1,lazy eye and never-used [HumanRacialWeapon]
+1,lazy eye and never-used [[HumanRacialWeapon]]
 1,record-shattering failure at the military academy
 1,complete abuse of pay, equipment and supplies
 1,thin, laughable moustache
@@ -791,10 +791,10 @@
 8,village
 
 ;HumanRacialWeapon
-1,[Swords.StartNoDescription]
-1,[Bows.BowType]
-1,[XBows.XBowType]
-1,[Lances.StartNoDescription]
+1,[[Swords.StartNoDescription]]
+1,[[Bows.BowType]]
+1,[[XBows.XBowType]]
+1,[[Lances.StartNoDescription]]
 
 ;HumanUnusualSteed
 1,calf
@@ -828,7 +828,7 @@
 1,wiener dog
 
 ;FoughtVerb
-10,[Fled] from
+10,[[Fled]] from
 1,refrained from fighting
 1,was ambushed by
 1,slept through an attack by
@@ -837,8 +837,8 @@
 1,raised the white flag against
 1,defected to
 1,was captured by
-1,lost an easily-defendable [Utility.Terrains] from
-1,gave an easily-defendable [Utility.Terrains] to
+1,lost an easily-defendable [[Utility.Terrains]] from
+1,gave an easily-defendable [[Utility.Terrains]] to
 1,muttered under his breath about having to fight
 1,thought about maybe conducting raids against
 1,was insulted by

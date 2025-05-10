@@ -1,7 +1,7 @@
 
 
 ;Start
-1,<sgdisplay iterations="10">[climate] [terrain]; there is [hexfeature]</sgdisplay><br>
+1,<sgdisplay iterations="10">[[climate]] [[terrain]]; there is [[hexfeature]]</sgdisplay><br>
 
 ;climate
 1,Cold
@@ -14,12 +14,12 @@
 1,Hills
 1,Mountains
 1,Plains
-1,Wetland ([Wetlandterrain])
+1,Wetland ([[Wetlandterrain]])
 
 ;hexfeature
-3,a [lairmonster] lair here
-2,a settlement here, a [Settlements.Type]
-2,a landmark here, the [Fantasy Landmarks.Start]
+3,a [[lairmonster]] lair here
+2,a settlement here, a [[Settlements.Type]]
+2,a landmark here, the [[Fantasy Landmarks.Start]]
 1,a fortification here
 3,an encounter here
 1,a ruin here

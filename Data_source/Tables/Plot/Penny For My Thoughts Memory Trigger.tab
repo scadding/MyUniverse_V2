@@ -1,20 +1,20 @@
 
 ;Start
-3,[SpecificTrigger]
-2,The [adverb] [sense] of [nominalsuffix]
-1,The [sense] of [nominalsuffix]
-1,The [sense] of [activity]
-1,A [item]
-1,A [colour] [item]
-1,Your [relative]
-2,Your [relative]'s [item]
-2,Your [relative]'s [hobby]
-3,Your [relative] [when]
-1,[when]
-1,[place]
-2,[place] [when]
-1,[activity] in [place]
-2,[activity] [when]
+3,[[SpecificTrigger]]
+2,The [[adverb]] [[sense]] of [[nominalsuffix]]
+1,The [[sense]] of [[nominalsuffix]]
+1,The [[sense]] of [[activity]]
+1,A [[item]]
+1,A [[colour]] [[item]]
+1,Your [[relative]]
+2,Your [[relative]]'s [[item]]
+2,Your [[relative]]'s [[hobby]]
+3,Your [[relative]] [[when]]
+1,[[when]]
+1,[[place]]
+2,[[place]] [[when]]
+1,[[activity]] in [[place]]
+2,[[activity]] [[when]]
 
 
 ;SpecificTrigger
@@ -43,7 +43,7 @@
 1,A door slamming
 1,A pain in my stomach
 1,Swimming naked in the lake
-1,Swimming naked in the lake [when]
+1,Swimming naked in the lake [[when]]
 1,Canon in D
 1,The sound of a bell tower ringing
 1,The sound of our basement door squeaking
@@ -62,13 +62,13 @@
 1,A sequestered jury
 1,A dollhouse
 1,A standoff
-1,Not wanting to get up because a [animal] is sleeping on my lap
+1,Not wanting to get up because a [[animal]] is sleeping on my lap
 1,Want to run out in the rain, not allowed
 1,Room service hamburger and fries, stone cold
 1,A doctor
 1,Poetry
 1,The sound of chalk on a black board
-1,The boy with the [colour] [clothing]
+1,The boy with the [[colour]] [[clothing]]
 
 ;adverb
 1,mild
@@ -93,8 +93,8 @@
 1,in the Fall
 1,after the Wake
 1,the day before your birthday
-1,when your [relative] returned
-1,the day your [relative] died
+1,when your [[relative]] returned
+1,the day your [[relative]] died
 1,on graduation day
 1,when the sky turned black
 1,when you almost drowned
@@ -108,13 +108,13 @@
 1,after she dumped you
 1,after he dumped you
 1,when you stopped shaking
-1,when you found the [item]
+1,when you found the [[item]]
 1,on St. Patrick's Day
 1,after everyone had gone home
 1,in the rain
 1,in the snow
 1,on a cloudy day
-1,when you wore the [colour] [clothing]
+1,when you wore the [[colour]] [[clothing]]
 
 ;place
 1,the Grand Canyon
@@ -124,7 +124,7 @@
 1,the Office
 1,the ski slopes
 1,the park
-1,your [relative]'s bed
+1,your [[relative]]'s bed
 1,the grounds of the old house
 1,outside
 1,the dining room
@@ -134,7 +134,7 @@
 1,next to the phone
 1,the lake
 1,the Clanton's place
-1,your [relative]'s house
+1,your [[relative]]'s house
 1,the library
 1,a cabin in the woods
 1,London
@@ -199,20 +199,20 @@
 1,fresh baked bread
 1,stagnent water
 1,evil
-3,wet [animal]s
-1,[animal] droppings
+3,wet [[animal]]s
+1,[[animal]] droppings
 1,sour milk
 1,lye
 1,urine
-1,rotting [Utility.Fruit]
-#1,shouting [shouts]
+1,rotting [[Utility.Fruit]]
+#1,shouting [[shouts]]
 1,footsteps
-1,clashing [clashes]
-1,falling [falls]
-3,your [relative]'s [item]
+1,clashing [[clashes]]
+1,falling [[falls]]
+3,your [[relative]]'s [[item]]
 1,laughter
 1,falling
-1,the [item]
+1,the [[item]]
 1,fresh baked cookies
 1,clean sheets
 1,strong mustard
@@ -307,7 +307,7 @@
 1,boot
 1,spoon
 1,hat
-1,topiary [animal]
+1,topiary [[animal]]
 1,Skull
 1,toy
 1,ink
@@ -324,7 +324,7 @@
 1,yacht
 1,ski lodge
 1,sack
-5,[animal]
+5,[[animal]]
 1,broom
 1,book
 

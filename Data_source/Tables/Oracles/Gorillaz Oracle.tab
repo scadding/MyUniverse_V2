@@ -1,9 +1,9 @@
 
 ;Start
-1,[clubs]
-1,[hearts]
-1,[diamonds]
-1,[spades]
+1,[[clubs]]
+1,[[hearts]]
+1,[[diamonds]]
+1,[[spades]]
 ;clubs
 1,A man is thrust into a dark place where swords gleam and told to fake it.
 1,A company of thieves is cursed never to sleep again...

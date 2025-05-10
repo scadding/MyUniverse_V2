@@ -1,13 +1,13 @@
 
 ;Start
-5,[DitV Male Name.FirstName]'s [Geography]
-5,[FloraFauna] [Geography]
-5,[WesternTheme] [Geography]
-10,[ReligiousTheme] [Geography]
-1,[DitV Male Name.FirstName]'s [EventType]
-3,[ScripturePlaces] [Geography]
-1,New [ScripturePlaces]
-1,[Modifier] [Start]
+5,[[DitV Male Name.FirstName]]'s [[Geography]]
+5,[[FloraFauna]] [[Geography]]
+5,[[WesternTheme]] [[Geography]]
+10,[[ReligiousTheme]] [[Geography]]
+1,[[DitV Male Name.FirstName]]'s [[EventType]]
+3,[[ScripturePlaces]] [[Geography]]
+1,New [[ScripturePlaces]]
+1,[[Modifier]] [[Start]]
 
 ;Geography
 1,Arch
@@ -235,7 +235,7 @@
 1,Whiskey
 1,Wilderness
 1,Wroughtiron
-4,[WaterType]water
+4,[[WaterType]]water
 2,Pioneer
 
 ;WaterType

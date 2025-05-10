@@ -1,30 +1,30 @@
 
 ;Start
-1,[DefiniteNoun]
-1,[AbstractNoun]
-3,[Secret Society Title.TitleDescriptor] [DefiniteNoun]
-5,[Secret Society Title.TitleDescriptor] [AbstractNoun]
-5,[DefiniteNoun] of [AbstractNoun]
-5,[AbstractNoun]'s [AbstractNoun]
-3,[AbstractNoun] of [Creatures]
-3,[Secret Society Title.Title] of [AbstractNoun]
-3,[Secret Society Title.Title] of [DefiniteNoun]s
-1,[AbstractNounPositive][SuffixPositive]
-1,[AbstractNounNegative][SuffixPositive]
-1,[AbstractNounPositive][SuffixNegative]
-1,[AbstractNounNegative][SuffixNegative]
-5,[DefiniteNoun][SuffixNegative]
-25,[Advice]
+1,[[DefiniteNoun]]
+1,[[AbstractNoun]]
+3,[[Secret Society Title.TitleDescriptor]] [[DefiniteNoun]]
+5,[[Secret Society Title.TitleDescriptor]] [[AbstractNoun]]
+5,[[DefiniteNoun]] of [[AbstractNoun]]
+5,[[AbstractNoun]]'s [[AbstractNoun]]
+3,[[AbstractNoun]] of [[Creatures]]
+3,[[Secret Society Title.Title]] of [[AbstractNoun]]
+3,[[Secret Society Title.Title]] of [[DefiniteNoun]]s
+1,[[AbstractNounPositive]][[SuffixPositive]]
+1,[[AbstractNounNegative]][[SuffixPositive]]
+1,[[AbstractNounPositive]][[SuffixNegative]]
+1,[[AbstractNounNegative]][[SuffixNegative]]
+5,[[DefiniteNoun]][[SuffixNegative]]
+25,[[Advice]]
 
 ;Creatures
-1,the [DefiniteNoun]
-1,Ten [DefiniteNoun]s
-1,a Hundred [DefiniteNoun]s
-1,a Thousand [DefiniteNoun]s
+1,the [[DefiniteNoun]]
+1,Ten [[DefiniteNoun]]s
+1,a Hundred [[DefiniteNoun]]s
+1,a Thousand [[DefiniteNoun]]s
 
 ;AbstractNoun
-2,[AbstractNounPositive]
-1,[AbstractNounNegative]
+2,[[AbstractNounPositive]]
+1,[[AbstractNounNegative]]
 
 ;AbstractNounPositive
 5,Battle
@@ -305,12 +305,12 @@
 1,Wyvern
 
 ;AdjPosNeut
-2,[AdjectivePositive]
-1,[AdjectiveNeutral]
+2,[[AdjectivePositive]]
+1,[[AdjectiveNeutral]]
 
 ;AdjNegNeut
-2,[AdjectiveNegative]
-1,[AdjectiveNeutral]
+2,[[AdjectiveNegative]]
+1,[[AdjectiveNeutral]]
 
 ;AdjectivePositive
 1,Admirable
@@ -587,34 +587,34 @@
 1,'s Wrath
 
 ;Advice
-5,Beware the [AdjNegNeut] [DefiniteNoun]
-5,He who [VerbageThirdPerson] [AbstractNoun] also [VerbageThirdPerson] [AbstractNoun]
-5,He who [VerbageThirdPerson] [AbstractNoun] is as [AdjectivePositive] as the [DefiniteNoun]
-3,Only through [AbstractNounPositive] can [AbstractNounPositive] be achieved
-3,The [EssenceWord] [AbstractNoun] is [AbstractNoun]
-2,The [TimePeriod] of [AbstractNoun] is [TimeProximity]
-3,Those who seek [AbstractNounPositive] are doomed to [AbstractNounNegative]
-2,Trust in the [AbstractNoun] of the [AdjPosNeut] [DefiniteNoun] and [AbstractNounPositive] shall be yours
-3,Trust in the [AdjPosNeut] [DefiniteNoun] and [AbstractNounPositive] shall be yours
-3,When faced with [AbstractNounNegative] or [AbstractNounNegative], choose [AbstractNounPositive]
-3,Who can have [AbstractNounPositive] when confronted with [AbstractNounNegative]?
-3,Without [AbstractNounPositive] there can be no [AbstractNounPositive]
-2,[AbstractNounNegative] can never break my [AbstractNounPositive]
-5,[AbstractNounPositive] comes to He who has the [AbstractNounPositive] of the [AdjPosNeut] [DefiniteNoun]
-3,[AbstractNounPositive] precedes [AbstractNounPositive]
-1,[AbstractNounPositive] can only be gained by [AbstractNoun]
-3,[AbstractNounPositive] will overcome [AbstractNounNegative]
-3,[AbstractNounNegative] only begets [AbstractNounNegative]
-5,[AbstractNoun] comes from [AbstractNoun], not from [AbstractNoun]
-5,[AbstractNoun] is worth more than [AbstractNoun]
-#1,[DesireWord] [FamousPeople.HumanRacialEnemies] Blood!
-5,[GuardWord] against the [AdjNegNeut] [DefiniteNoun]
-5,[GuardWord] ye well this [AdjPosNeut] [AbstractNounPositive]
-5,[OnlyWord] [AbstractNoun] [ImportanceVerb]
-5,[OnlyWord] the [AdjectivePositive] [VerbEffect]
-5,[TrustWord] the [AdjPosNeut] [DefiniteNoun] for [AbstractNounPositive]
-5,[VerbageSecondPerson1] [VerbageSecondPerson2] the [AbstractNoun], lest it [Effect]
-15,[AbstractNoun] is the [Relationship] [AbstractNoun]
+5,Beware the [[AdjNegNeut]] [[DefiniteNoun]]
+5,He who [[VerbageThirdPerson]] [[AbstractNoun]] also [[VerbageThirdPerson]] [[AbstractNoun]]
+5,He who [[VerbageThirdPerson]] [[AbstractNoun]] is as [[AdjectivePositive]] as the [[DefiniteNoun]]
+3,Only through [[AbstractNounPositive]] can [[AbstractNounPositive]] be achieved
+3,The [[EssenceWord]] [[AbstractNoun]] is [[AbstractNoun]]
+2,The [[TimePeriod]] of [[AbstractNoun]] is [[TimeProximity]]
+3,Those who seek [[AbstractNounPositive]] are doomed to [[AbstractNounNegative]]
+2,Trust in the [[AbstractNoun]] of the [[AdjPosNeut]] [[DefiniteNoun]] and [[AbstractNounPositive]] shall be yours
+3,Trust in the [[AdjPosNeut]] [[DefiniteNoun]] and [[AbstractNounPositive]] shall be yours
+3,When faced with [[AbstractNounNegative]] or [[AbstractNounNegative]], choose [[AbstractNounPositive]]
+3,Who can have [[AbstractNounPositive]] when confronted with [[AbstractNounNegative]]?
+3,Without [[AbstractNounPositive]] there can be no [[AbstractNounPositive]]
+2,[[AbstractNounNegative]] can never break my [[AbstractNounPositive]]
+5,[[AbstractNounPositive]] comes to He who has the [[AbstractNounPositive]] of the [[AdjPosNeut]] [[DefiniteNoun]]
+3,[[AbstractNounPositive]] precedes [[AbstractNounPositive]]
+1,[[AbstractNounPositive]] can only be gained by [[AbstractNoun]]
+3,[[AbstractNounPositive]] will overcome [[AbstractNounNegative]]
+3,[[AbstractNounNegative]] only begets [[AbstractNounNegative]]
+5,[[AbstractNoun]] comes from [[AbstractNoun]], not from [[AbstractNoun]]
+5,[[AbstractNoun]] is worth more than [[AbstractNoun]]
+#1,[[DesireWord]] [[FamousPeople.HumanRacialEnemies]] Blood!
+5,[[GuardWord]] against the [[AdjNegNeut]] [[DefiniteNoun]]
+5,[[GuardWord]] ye well this [[AdjPosNeut]] [[AbstractNounPositive]]
+5,[[OnlyWord]] [[AbstractNoun]] [[ImportanceVerb]]
+5,[[OnlyWord]] the [[AdjectivePositive]] [[VerbEffect]]
+5,[[TrustWord]] the [[AdjPosNeut]] [[DefiniteNoun]] for [[AbstractNounPositive]]
+5,[[VerbageSecondPerson1]] [[VerbageSecondPerson2]] the [[AbstractNoun]], lest it [[Effect]]
+15,[[AbstractNoun]] is the [[Relationship]] [[AbstractNoun]]
 
 ;Relationship
 1,True Source of
@@ -682,7 +682,7 @@
 
 ;VerbEffect
 10,Survive
-2,Can Withstand My [AbstractNoun]
+2,Can Withstand My [[AbstractNoun]]
 1,Endure
 2,Shall Live
 2,Shall Prosper
@@ -692,7 +692,7 @@
 5,Become your Master
 5,Become your downfall
 5,Find you unprepared
-5,Lead to [AbstractNounNegative]
+5,Lead to [[AbstractNounNegative]]
 5,Rule over you
 5,Take from you that which you hold most dear
 
@@ -764,7 +764,7 @@
 1,Nothing but
 
 ;Language
-4,[GheronUtility.HumanLanguagesWritten]
-1,[GheronUtility.NonHumanLanguagesWritten]
+4,[[GheronUtility.HumanLanguagesWritten]]
+1,[[GheronUtility.NonHumanLanguagesWritten]]
 
 

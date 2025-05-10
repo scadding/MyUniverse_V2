@@ -1,13 +1,13 @@
 
 ;Start
-1,[pangender]
-1,[pancultural]
+1,[[pangender]]
+1,[[pancultural]]
 
 ;sentence
-1,[main] and [main] are fighting over the last of the [cuisine].
-1,"What are you doing tonight?", [main] asked. "[activities]," [main] replied.
-1,[main] and [main] are fighting over [nest] for their nests.
-1,[main] and [main] are fighting over [pellets] found in [main]'s pellets.
+1,[[main]] and [[main]] are fighting over the last of the [[cuisine]].
+1,"What are you doing tonight?", [[main]] asked. "[[activities]]," [[main]] replied.
+1,[[main]] and [[main]] are fighting over [[nest]] for their nests.
+1,[[main]] and [[main]] are fighting over [[pellets]] found in [[main]]'s pellets.
 
 ;pangender
 1,Stevelyn

@@ -1,9 +1,9 @@
 
 ;Start
-1,[Monster]
+1,[[Monster]]
 
 ;Monster
-20,[Race] [Gender] [Class] [Level]
+20,[[Race]] [[Gender]] [[Class]] [[Level]]
 1,a goblin
 1,a hobgoblin
 1,a lizardperson
@@ -23,8 +23,8 @@
 1,an iron golem
 1,a stone golem
 1,a goat centaur
-1,[Rider] riding a dinosaur
-1,[Rider] riding a skeletal horse
+1,[[Rider]] riding a dinosaur
+1,[[Rider]] riding a skeletal horse
 1,a flailceratops (or other modified dinosaur)
 1,a hag
 1,a lamia
@@ -350,7 +350,7 @@
 1,a Marilith
 1,a mechanism
 1,a mold
-1,[Rider] riding a snake
+1,[[Rider]] riding a snake
 1,a mushroom man
 1,a nymph
 1,a evil peacock

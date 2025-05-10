@@ -1,25 +1,25 @@
 
 ;Start
-1,[tolkienweapon]
-2,[conanweapon]
+1,[[tolkienweapon]]
+2,[[conanweapon]]
 
 ;tolkienweapon
-1,[Syll1][Syll3][Syll3]
-1,[Syll1][Syll3]
+1,[[Syll1]][[Syll3]][[Syll3]]
+1,[[Syll1]][[Syll3]]
 
 ;conanweapon
-1,[SoftBodyPart][SoftVerb]
-1,[SoftBodyPart][SoftVerbCap]
-1,[HardBodyPart][HardVerb]
-1,[HardBodyPart][HardVerbCap]
-1,[huntquarry][huntverb]
-1,[huntquarry][huntverbcap]
-1,[Inscriptions.AbstractNounPositive][Inscriptions.SuffixPositive]
-1,[Inscriptions.AbstractNounNegative][Inscriptions.SuffixPositive]
-1,[Inscriptions.AbstractNounPositive][Inscriptions.SuffixNegative]
-1,[Inscriptions.AbstractNounNegative][Inscriptions.SuffixNegative]
-2,[Inscriptions.DefiniteNoun][Inscriptions.SuffixNegative]
-2,[Orc Tribe Name.Body Part]-[Orc Tribe Name.BodypartAction]
+1,[[SoftBodyPart]][[SoftVerb]]
+1,[[SoftBodyPart]][[SoftVerbCap]]
+1,[[HardBodyPart]][[HardVerb]]
+1,[[HardBodyPart]][[HardVerbCap]]
+1,[[huntquarry]][[huntverb]]
+1,[[huntquarry]][[huntverbcap]]
+1,[[Inscriptions.AbstractNounPositive]][[Inscriptions.SuffixPositive]]
+1,[[Inscriptions.AbstractNounNegative]][[Inscriptions.SuffixPositive]]
+1,[[Inscriptions.AbstractNounPositive]][[Inscriptions.SuffixNegative]]
+1,[[Inscriptions.AbstractNounNegative]][[Inscriptions.SuffixNegative]]
+2,[[Inscriptions.DefiniteNoun]][[Inscriptions.SuffixNegative]]
+2,[[Orc Tribe Name.Body Part]]-[[Orc Tribe Name.BodypartAction]]
 
 ;Syll1
 1,Andu

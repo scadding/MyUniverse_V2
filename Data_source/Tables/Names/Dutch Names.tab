@@ -1,13 +1,13 @@
 
 ;Start
-1,[dutchmale] [dutchsurname] (male)
-1,[dutchfemale] [dutchsurname] (female)
+1,[[dutchmale]] [[dutchsurname]] (male)
+1,[[dutchfemale]] [[dutchsurname]] (female)
 
 ;male
-1,[dutchmale] [dutchsurname]
+1,[[dutchmale]] [[dutchsurname]]
 
 ;female
-1,[dutchfemale] [dutchsurname]
+1,[[dutchfemale]] [[dutchsurname]]
 
 ;dutchfemale
 1,Adelheid

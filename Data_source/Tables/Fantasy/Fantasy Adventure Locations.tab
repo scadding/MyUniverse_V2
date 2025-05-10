@@ -1,79 +1,79 @@
 
 ;Start
-1,[Places]
+1,[[Places]]
 
 ;Places
-10,'[Pulp Fantasy Nation.Start]'--a strange and distant place
-1,'an alternate plane' where everything is [Planeadjective]
-20,'a cosmopolitan city', known for its [Citythingy] as well as its [cityadj] buildings
+10,'[[Pulp Fantasy Nation.Start]]'--a strange and distant place
+1,'an alternate plane' where everything is [[Planeadjective]]
+20,'a cosmopolitan city', known for its [[Citythingy]] as well as its [[cityadj]] buildings
 10,'an island'
-10,'an obscure part of the sea' where our heroes find [Seathings]
-8,'an underground complex' containing <br/>These traps: [Traps.Start], [Traps.Start], [Traps.Start]<br/>These creatures: [Weird Fantasy Monster.Start], [Weird Fantasy Monster.Start], [Weird Fantasy Monster.Start]
+10,'an obscure part of the sea' where our heroes find [[Seathings]]
+8,'an underground complex' containing <br/>These traps: [[Traps.Start]], [[Traps.Start]], [[Traps.Start]]<br/>These creatures: [[Weird Fantasy Monster.Start]], [[Weird Fantasy Monster.Start]], [[Weird Fantasy Monster.Start]]
 5,'a cave complex'
-10,'a classic dungeon' featuring: [obstacle] and containing:<br/>These traps: [Traps.Start], [Traps.Start], [Traps.Start]<br/>These creatures: [Weird Fantasy Monster.Start], [Weird Fantasy Monster.Start], [Weird Fantasy Monster.Start]
-9,'the docks' where all life is [cityadj]
+10,'a classic dungeon' featuring: [[obstacle]] and containing:<br/>These traps: [[Traps.Start]], [[Traps.Start]], [[Traps.Start]]<br/>These creatures: [[Weird Fantasy Monster.Start]], [[Weird Fantasy Monster.Start]], [[Weird Fantasy Monster.Start]]
+9,'the docks' where all life is [[cityadj]]
 2,'a laboratory'
 3,'a wizard's tower'
-4,'a fortress:'<br/>[Random Fortress.Start]
-5,'a legendary forest' home to the [simplecolor] [Animal.Weirdsymbol]
+4,'a fortress:'<br/>[[Random Fortress.Start]]
+5,'a legendary forest' home to the [[simplecolor]] [[Animal.Weirdsymbol]]
 5,'a lost city'
-5,'a lunatic's fortress'<br/>[Random Fortress.Start]
-2,'a magical lake' [Freshwaterproperties]
-9,'the mansion of a powerful NPC' Contains:<br/>[Fantasy Mansion Domestic Security Measures.Start][Fantasy Mansion Domestic Security Measures.Start]
+5,'a lunatic's fortress'<br/>[[Random Fortress.Start]]
+2,'a magical lake' [[Freshwaterproperties]]
+9,'the mansion of a powerful NPC' Contains:<br/>[[Fantasy Mansion Domestic Security Measures.Start]][[Fantasy Mansion Domestic Security Measures.Start]]
 4,'a military encampment'
-3,'the palace of the ruler or local lord'<br/>[Random Fortress.Start]<br/>Also:[Fantasy Mansion Domestic Security Measures.Start]
-4,'ancient ruins' containing:<br/>These traps:[Traps.Start], [Traps.Start], [Traps.Start]<br/>These creatures: [Weird Fantasy Monster.Start], [Weird Fantasy Monster.Start], [Weird Fantasy Monster.Start]
-3,'a slum' where all life is [cityadj]
-10,'an inn'<br/>[Inn and Tavern Names.Start], famous for its [FantasyMenu.Descriptor][FantasyMenu.MainMeals]
-15,'a [cityadj] temple' of [Religion] based on the worship of [Worship]
-5,'the [cityadj] cathedral' of [Religion] based on the worship of [Worship]
-3,'a desert' where death comes in the form of [Worshipped] and [Worshipped], full of [simplecolor] scorpions and [simplecolor] lizards
+3,'the palace of the ruler or local lord'<br/>[[Random Fortress.Start]]<br/>Also:[[Fantasy Mansion Domestic Security Measures.Start]]
+4,'ancient ruins' containing:<br/>These traps:[[Traps.Start]], [[Traps.Start]], [[Traps.Start]]<br/>These creatures: [[Weird Fantasy Monster.Start]], [[Weird Fantasy Monster.Start]], [[Weird Fantasy Monster.Start]]
+3,'a slum' where all life is [[cityadj]]
+10,'an inn'<br/>[[Inn and Tavern Names.Start]], famous for its [[FantasyMenu.Descriptor]][[FantasyMenu.MainMeals]]
+15,'a [[cityadj]] temple' of [[Religion]] based on the worship of [[Worship]]
+5,'the [[cityadj]] cathedral' of [[Religion]] based on the worship of [[Worship]]
+3,'a desert' where death comes in the form of [[Worshipped]] and [[Worshipped]], full of [[simplecolor]] scorpions and [[simplecolor]] lizards
 3,'a hill-strewn area'
 3,'a swamp'
-3,'a wasteland' where death comes in the form of [Worshipped] and [Worshipped]
-1,'a [cityadj] monastery' of [Religion] based on the worship of [Worship]
-1,'a prison' where everything is [cityadj] and the cells are [cityadj]
+3,'a wasteland' where death comes in the form of [[Worshipped]] and [[Worshipped]]
+1,'a [[cityadj]] monastery' of [[Religion]] based on the worship of [[Worship]]
+1,'a prison' where everything is [[cityadj]] and the cells are [[cityadj]]
 1,'a necropolis'
 1,'a freakish structure' resembling no human architecture
-3,'a jungle' overrun with [Animal.Weirdsymbol]s
+3,'a jungle' overrun with [[Animal.Weirdsymbol]]s
 3,'a mountainous area'
-3,'a mountain fortress'<br/>[Random Fortress.Start]
-3,'a plain' where [Tribals]
+3,'a mountain fortress'<br/>[[Random Fortress.Start]]
+3,'a plain' where [[Tribals]]
 3,'the steppe'
 1,'the tundra'
-3,'a forest', [Forestfork]
+3,'a forest', [[Forestfork]]
 1,'the corpse of a colossal creature'
-1,'a mist-bound valley' where the secrets of [Worshipped] are hidden
+1,'a mist-bound valley' where the secrets of [[Worshipped]] are hidden
 1,'a site of an ancient battle'
 1,'a giant's home'
-1,'a strange village' where the people are [cityadj]<br/>[Fantasy Town - Simpler.Start]
+1,'a strange village' where the people are [[cityadj]]<br/>[[Fantasy Town - Simpler.Start]]
 5,'a river'
-1,'a town'<br/>[Fantasy Town - Simpler.Start]
+1,'a town'<br/>[[Fantasy Town - Simpler.Start]]
 1,'a stepwell'
-2,'a strange city' known for its [Citythingy] as well as its [cityadj] buildings
+2,'a strange city' known for its [[Citythingy]] as well as its [[cityadj]] buildings
 1,'an enemy encampment'
-1,'the lair of a horde of evil humanoids'<br/>[Random Humanoid Horde.Start]
+1,'the lair of a horde of evil humanoids'<br/>[[Random Humanoid Horde.Start]]
 
 ;Forestfork
-1,where [Tribals]
-1,home to the [simplecolor] [Animal.Weirdsymbol]
-1,overrun with [Animal.Weirdsymbol]s
+1,where [[Tribals]]
+1,home to the [[simplecolor]] [[Animal.Weirdsymbol]]
+1,overrun with [[Animal.Weirdsymbol]]s
 
 ;Tribals
-1,amazons ride [Exoticmounts]
-1,barbarians ride [Exoticmounts]
+1,amazons ride [[Exoticmounts]]
+1,barbarians ride [[Exoticmounts]]
 1,armored knights do battle
-1,highland warriors ride [Exoticmounts]
-1,roving armies ride [Exoticmounts]
-1,[Random Humanoid Horde.Race] ride [Exoticmounts]
-1,strangely-armored knights ride [Exoticmounts]
-1,[Animal.Weirdsymbol] centaurs roam
-4,the grass is [simplecolor] and the women are [cityadj]
-1,a horde of gibbering loons pursued by [Exoticmounts]
-1,shamans initiating children in the ways of [Worshipped]
-1,shamans summons [simplecolor] [Animal.Weirdsymbol] as familiars and pets
-1,hunters tracking [Exoticmounts]
-1,hunters tracking [Animal.Weirdsymbol]
+1,highland warriors ride [[Exoticmounts]]
+1,roving armies ride [[Exoticmounts]]
+1,[[Random Humanoid Horde.Race]] ride [[Exoticmounts]]
+1,strangely-armored knights ride [[Exoticmounts]]
+1,[[Animal.Weirdsymbol]] centaurs roam
+4,the grass is [[simplecolor]] and the women are [[cityadj]]
+1,a horde of gibbering loons pursued by [[Exoticmounts]]
+1,shamans initiating children in the ways of [[Worshipped]]
+1,shamans summons [[simplecolor]] [[Animal.Weirdsymbol]] as familiars and pets
+1,hunters tracking [[Exoticmounts]]
+1,hunters tracking [[Animal.Weirdsymbol]]
 
 ;Exoticmounts
 10,rhinoceroses
@@ -104,7 +104,7 @@
 2,spiders with human hands and faces that sing mournfully
 2,donkeys
 5,skinless gorillas
-4,albino scorpions with [ColorAdj] [color] eyes
+4,albino scorpions with [[ColorAdj]] [[color]] eyes
 2,floating discs
 1,giant eyeless sloths with runes burned into their pelts
 1,steam-powered horses
@@ -123,11 +123,11 @@
 2,an unyielding creed
 
 ;Worship
-1,[Worshipped]
-1,a god associated with [Worshipped]
+1,[[Worshipped]]
+1,a god associated with [[Worshipped]]
 1,a god devoted to opposing principles
-1,a god devoted to devouring [Worshipped]
-1,a god with power over [Worshipped] and [Worshipped]
+1,a god devoted to devouring [[Worshipped]]
+1,a god with power over [[Worshipped]] and [[Worshipped]]
 
 ;Worshipped
 1,despair
@@ -172,12 +172,12 @@
 1,tigers
 1,insects
 1,maggots
-10,[Weird Fantasy Monster.Start]
+10,[[Weird Fantasy Monster.Start]]
 1,swords
 1,knives
 1,daggers
 1,morningstars
-3,[Found in a crate.Start]
+3,[[Found in a crate.Start]]
 1,fire
 1,fire and strife
 1,the PCs
@@ -189,7 +189,7 @@
 1,the underworld
 1,prophecy
 1,oracles
-1,a [Fantasy NPC - Basic.Start]
+1,a [[Fantasy NPC - Basic.Start]]
 1,thieves
 1,liars
 1,earthquakes
@@ -211,8 +211,8 @@
 2,noise
 1,extremely attractive women
 1,silence
-10,a(n) [Animal.Weirdsymbol] 
-10,[Animal.Weirdsymbol]s
+10,a(n) [[Animal.Weirdsymbol]] 
+10,[[Animal.Weirdsymbol]]s
 1,buildings
 1,metal objects
 1,ranged weapons
@@ -306,9 +306,9 @@
 1,a drifting ironclad, which is nearly all one giant cannon shaped like great dragon mawed tuba. It is unmanned and its engines cold, with gun unloaded and no indication of what fuel or ammunition it used. 
 1,the remnants of battle between ships, the ships now fused together, like half melted wax, some joined by long thin strands.
 1,a ship crewed by ships vermin, their minds switched with that of the original sailors, who now scuttled below deck, and are dangerous the new bodied crew. The sailor-minded vermin are accepting of their lot. Or insane.
-1,a raft, completely empty except for the remains of a [Weird Fantasy Monster.Start]
-1,a raft, completely empty except for the corpse of a [Fantasy NPC - Basic.Start] and its belongings
-1,a raft, completely empty except for the burned body of a [Animal.Weirdsymbol] with a sacrificial dagger stuck in it.
+1,a raft, completely empty except for the remains of a [[Weird Fantasy Monster.Start]]
+1,a raft, completely empty except for the corpse of a [[Fantasy NPC - Basic.Start]] and its belongings
+1,a raft, completely empty except for the burned body of a [[Animal.Weirdsymbol]] with a sacrificial dagger stuck in it.
 
 ;obstacle
 1,doors stuck due to moisture
@@ -363,7 +363,7 @@
 1,ever-changing
 1,modified in some steampunkish way
 1,tiny
-1,[color]
+1,[[color]]
 1,frozen in time
 1,like this world, but eternally just emptied of all life
 1,hateful and burning
@@ -410,26 +410,26 @@
 1,scintillating
 
 ;Citythingy
-1,[cityadj] thieves' guild
-1,[cityadj] sorceror's guild
-1,[cityadj] public games
-1,[cityadj] ruling caste
-1,[cityadj] statues
-1,[cityadj] cuisine
-1,[cityadj] art and culture
-1,history of [cityadj] violence
-1,[cityadj] code of laws
-1,[cityadj] religion
-1,[cityadj] sacred tome
-1,[cityadj] gladiator arena
-1,[cityadj] sewer
-1,[cityadj] necropolis
-1,[cityadj] alley ways
-1,[cityadj] fountains, [Freshwaterproperties]
-1,[cityadj] markets
-1,[cityadj] casino
-1,[cityadj] fest-hall/brothels 
-1,[cityadj] canals
+1,[[cityadj]] thieves' guild
+1,[[cityadj]] sorceror's guild
+1,[[cityadj]] public games
+1,[[cityadj]] ruling caste
+1,[[cityadj]] statues
+1,[[cityadj]] cuisine
+1,[[cityadj]] art and culture
+1,history of [[cityadj]] violence
+1,[[cityadj]] code of laws
+1,[[cityadj]] religion
+1,[[cityadj]] sacred tome
+1,[[cityadj]] gladiator arena
+1,[[cityadj]] sewer
+1,[[cityadj]] necropolis
+1,[[cityadj]] alley ways
+1,[[cityadj]] fountains, [[Freshwaterproperties]]
+1,[[cityadj]] markets
+1,[[cityadj]] casino
+1,[[cityadj]] fest-hall/brothels 
+1,[[cityadj]] canals
 
 ;cityadj
 5,bioengineered
@@ -478,8 +478,8 @@
 1,deadly
 
 ;Freshwaterproperties
-1,which causes strange effects in any who drink its [simplecolor] water
-1,which causes strange effects in any who bathe in its [simplecolor] water
+1,which causes strange effects in any who drink its [[simplecolor]] water
+1,which causes strange effects in any who bathe in its [[simplecolor]] water
 1,which contains water sprites or fairies
 1,which contains malevolent amphibious creatures
 1,an enormous creature hides beneath the surface

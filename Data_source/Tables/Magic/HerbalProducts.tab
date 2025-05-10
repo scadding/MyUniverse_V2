@@ -1,13 +1,13 @@
 
 ;Start
-2,[Pre] [Herb Names.Start]
-4,[Herb Names.Start] [Post]
-2,[Mix] of [Herb Names.Start] and [Herb Names.Start]
-1,[Mix] of [Herb Names.Start], [Herb Names.Start][List of Herb Names]and [Herb Names.Start]
+2,[[Pre]] [[Herb Names.Start]]
+4,[[Herb Names.Start]] [[Post]]
+2,[[Mix]] of [[Herb Names.Start]] and [[Herb Names.Start]]
+1,[[Mix]] of [[Herb Names.Start]], [[Herb Names.Start]][[List of Herb Names]]and [[Herb Names.Start]]
 
 ;List of Herb Names
 10,, 
-3,, [Herb Names.Start][List of Herb Names]
+3,, [[Herb Names.Start]][[List of Herb Names]]
 
 ;Pre
 1,Infusion of

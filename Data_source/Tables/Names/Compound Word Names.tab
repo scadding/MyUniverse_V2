@@ -1,44 +1,44 @@
 
 ;Start
-5,[Noun][Noun]
-5,[Noun][Verb]
-10,[Adjective][Noun]
-1,[Verb][Noun]
-1,[Verb][Verb]
-1,[Adjective][Verb]
-1,[Noun][Adjective]
-1,[Verb][Adjective]
+5,[[Noun]][[Noun]]
+5,[[Noun]][[Verb]]
+10,[[Adjective]][[Noun]]
+1,[[Verb]][[Noun]]
+1,[[Verb]][[Verb]]
+1,[[Adjective]][[Verb]]
+1,[[Noun]][[Adjective]]
+1,[[Verb]][[Adjective]]
 
 ;whitelist
-1,[wl-nn]
-1,[wl-an]
-1,[wl-na]
-1,[wl-nv]
+1,[[wl-nn]]
+1,[[wl-an]]
+1,[[wl-na]]
+1,[[wl-nv]]
 
 ;wl-an
-1,[NaturalAdj][MartialNoun]
-1,[Color][ConcreteNoun]
-1,[IlluminationAdj][ConcreteNoun]
-99,[Adjective][ConcreteNoun]
+1,[[NaturalAdj]][[MartialNoun]]
+1,[[Color]][[ConcreteNoun]]
+1,[[IlluminationAdj]][[ConcreteNoun]]
+99,[[Adjective]][[ConcreteNoun]]
 
 ;wl-na
-1,[ConcreteNoun][IlluminationAdj]
+1,[[ConcreteNoun]][[IlluminationAdj]]
 
 ;wl-nv
-1,[MartialNoun][ViolentVerb]
-1,[NaturalNoun][PeacefulVerb]
+1,[[MartialNoun]][[ViolentVerb]]
+1,[[NaturalNoun]][[PeacefulVerb]]
 
 
 ;wl-nn
-1,[NaturalNoun][NaturalNoun]
+1,[[NaturalNoun]][[NaturalNoun]]
 
 
 ;Adjective
-10,[Color.bright]
-5,[IlluminationAdj]
-5,[Boast]
-3,[NaturalAdj]
-1,[EvilAdj]
+10,[[Color.bright]]
+5,[[IlluminationAdj]]
+5,[[Boast]]
+3,[[NaturalAdj]]
+1,[[EvilAdj]]
 1,Old
 1,New
 1,High
@@ -47,7 +47,7 @@
 1,Cold
 
 ;NaturalAdj
-1,[WoodAdj]
+1,[[WoodAdj]]
 1,Earthen
 
 ;WoodAdj
@@ -106,16 +106,16 @@
 1,Fast
 
 ;Noun
-10,[ConcreteNoun]
-1,[AbstractNoun]
-5,[EvilNoun]
+10,[[ConcreteNoun]]
+1,[[AbstractNoun]]
+5,[[EvilNoun]]
 
 ;ConcreteNoun
-1,[BodyPart]
-2,[NaturalNoun]
-1,[MartialNoun]
-1,[Structure]
-1,[MiscObject]
+1,[[BodyPart]]
+2,[[NaturalNoun]]
+1,[[MartialNoun]]
+1,[[Structure]]
+1,[[MiscObject]]
 
 ;AbstractNoun
 1,Void
@@ -176,8 +176,8 @@
 1,Battle
 
 ;Verb
-1,[ViolentVerb]
-1,[PeacefulVerb]
+1,[[ViolentVerb]]
+1,[[PeacefulVerb]]
 
 ;ViolentVerb
 1,Burn
@@ -226,9 +226,9 @@
 1,Light
 1,Dawn
 1,Dusk
-10,[ElementalNoun]
-5,[Plant]
-5,[Animal]
+10,[[ElementalNoun]]
+5,[[Plant]]
+5,[[Animal]]
 
 ;ElementalNoun
 1,Earth
@@ -248,9 +248,9 @@
 1,Wood
 1,Smoke
 1,Fog
-10,[Metal]
-3,[Gemstone]
-3,[MiscSubstance]
+10,[[Metal]]
+3,[[Gemstone]]
+3,[[MiscSubstance]]
 
 ;MiscSubstance
 1,Brick

@@ -1,7 +1,7 @@
 
 ;Start
-1,[MALE] (Male)
-1,[FEMALE] (Female)
+1,[[MALE]] (Male)
+1,[[FEMALE]] (Female)
 
 ;MALE
 1,Ace

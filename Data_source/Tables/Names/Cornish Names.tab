@@ -1,16 +1,16 @@
 
 ;Start
 1,===Men===<br>
-_<sgdisplay iterations="10">[male]</sgdisplay><br>
+_<sgdisplay iterations="10">[[male]]</sgdisplay><br>
 _===Women===<br>
-_<sgdisplay iterations="10">[female]</sgdisplay><br>
+_<sgdisplay iterations="10">[[female]]</sgdisplay><br>
 
 
 ;male
-1,[malefirst] [surname]
+1,[[malefirst]] [[surname]]
 
 ;female
-1,[femalefirst] [surname]
+1,[[femalefirst]] [[surname]]
 
 ;malefirst
 5,Daveth
@@ -265,7 +265,7 @@ _<sgdisplay iterations="10">[female]</sgdisplay><br>
 1,Zethar
 
 ;surname
-20,[patronymic]
+20,[[patronymic]]
 5,Berriman
 5,Care
 5,Curnow
@@ -530,8 +530,8 @@ _<sgdisplay iterations="10">[female]</sgdisplay><br>
 1,Yourand
 
 ;patronymic
-1,[malefirst]oc
-1,[malefirst]ok
-1,[malefirst]sek
+1,[[malefirst]]oc
+1,[[malefirst]]ok
+1,[[malefirst]]sek
 
 

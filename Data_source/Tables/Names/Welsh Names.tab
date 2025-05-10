@@ -1,17 +1,17 @@
 
 ;Start
 1,===Male===<br>
-_[male]<br>
+_[[male]]<br>
 _===Female===<br>
-_[female]<br>
+_[[female]]<br>
 
 ;male
-4,[malefirst] [surname]
-1,[malefirst] [malefirst] [surname]
+4,[[malefirst]] [[surname]]
+1,[[malefirst]] [[malefirst]] [[surname]]
 
 ;female
-4,[femalefirst] [surname]
-1,[femalefirst] [femalefirst] [surname]
+4,[[femalefirst]] [[surname]]
+1,[[femalefirst]] [[femalefirst]] [[surname]]
 
 ;malefirst
 5,Alun

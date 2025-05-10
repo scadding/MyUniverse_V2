@@ -1,9 +1,9 @@
 
 ;Start
-3,[multicharacters]
-7,[Core Pirate Oracles]
-2,[ships]
-1,[beasts]
+3,[[multicharacters]]
+7,[[Core Pirate Oracles]]
+2,[[ships]]
+1,[[beasts]]
 
 ;Core Pirate Oracles
 1,A swashbuckling pirate captain, who has lost his ship.
@@ -216,16 +216,16 @@
 1,A man who, they say, is the very spitting image of a famous (and famously dead) pirate -- it is as if the scoundrel were reborn into new flesh.
 
 ;multicharacters
-2,The [femalerelation] of a [maleperson], [femalerelationphrase]
-2,The [malerelation] of a [maleperson], [malerelationphrase]
-1,The [femalerelation] of a [femaleperson], [femalerelationphrase]
-1,The [malerelation] of a [femaleperson], [malerelationphrase]
-2,A [maleperson], [malerelationphrase]
-2,A [femaleperson], [femalerelationphrase]
+2,The [[femalerelation]] of a [[maleperson]], [[femalerelationphrase]]
+2,The [[malerelation]] of a [[maleperson]], [[malerelationphrase]]
+1,The [[femalerelation]] of a [[femaleperson]], [[femalerelationphrase]]
+1,The [[malerelation]] of a [[femaleperson]], [[malerelationphrase]]
+2,A [[maleperson]], [[malerelationphrase]]
+2,A [[femaleperson]], [[femalerelationphrase]]
 
 ;relationeither
-1,[femalerelation]
-1,[malerelation]
+1,[[femalerelation]]
+1,[[malerelation]]
 
 ;femalerelation
 1,daughter
@@ -247,16 +247,16 @@
 1,chief servant
 
 ;person
-1,[maleperson]
-2,[femaleperson]
+1,[[maleperson]]
+2,[[femaleperson]]
 
 ;maleperson
-1,[maleadj] [maleprofession]
-1,[malestockchars]
+1,[[maleadj]] [[maleprofession]]
+1,[[malestockchars]]
 
 ;femaleperson
-1,[femaleadj] [femaleprofession]
-1,[femalestockchars]
+1,[[femaleadj]] [[femaleprofession]]
+1,[[femalestockchars]]
 
 ;maleadj
 1,vicious
@@ -323,16 +323,16 @@
 1,spy
 
 ;femalerelationphrase
-1,taken prisoner by a [maleperson].
+1,taken prisoner by a [[maleperson]].
 1,secretly the power behind the throne.
-1,sworn to commit vengeance on a [maleperson].
-1,planning to run away with a [maleperson].
-1,carrying the child of a [maleperson].
-1,secretly in love with a [maleperson].
-1,and a [maleperson], secretly in love with her.
-1,desiring to seduce a [maleperson].
-1,on the trail of a [person].
-1,disguised as a [person].
+1,sworn to commit vengeance on a [[maleperson]].
+1,planning to run away with a [[maleperson]].
+1,carrying the child of a [[maleperson]].
+1,secretly in love with a [[maleperson]].
+1,and a [[maleperson]], secretly in love with her.
+1,desiring to seduce a [[maleperson]].
+1,on the trail of a [[person]].
+1,disguised as a [[person]].
 
 ;malestockchars
 1,lovelorn poet
@@ -393,15 +393,15 @@
 1,spy
 
 ;malerelationphrase
-1,secretly in love with a [femaleperson].
-1,fleeing his home to be with a [femaleperson].
-1,preparing to become a [maleperson].
-1,sworn to kill a [maleperson] in the name of honor.
-1,hoping to seduce a [femaleperson].
-1,preparing to murder a [maleperson].
-1,secretly spying on a [femaleperson].
-1,on the trail of a [person].
-1,mistaken for a [malestockchars].
+1,secretly in love with a [[femaleperson]].
+1,fleeing his home to be with a [[femaleperson]].
+1,preparing to become a [[maleperson]].
+1,sworn to kill a [[maleperson]] in the name of honor.
+1,hoping to seduce a [[femaleperson]].
+1,preparing to murder a [[maleperson]].
+1,secretly spying on a [[femaleperson]].
+1,on the trail of a [[person]].
+1,mistaken for a [[malestockchars]].
 
 ;femalestockchars
 1,gypsy fortuneteller
@@ -413,7 +413,7 @@
 1,n exotic native beauty
 
 ;beasts
-1,A [beastadj] [beast], [beastphrase]
+1,A [[beastadj]] [[beast]], [[beastphrase]]
 
 ;beastadj
 1,grotesque
@@ -437,17 +437,17 @@
 ;beastphrase
 1,seeking whom it might devour.
 1,destroying ships and drawing sailors down to their doom.
-1,intending to kill a [maleperson] to avenge an old wound.
+1,intending to kill a [[maleperson]] to avenge an old wound.
 1,guarding the passage to a great fortune.
-1,bound to a [femaleperson] by strange magicks.
+1,bound to a [[femaleperson]] by strange magicks.
 1,king of its ilk, hunted by many sailors.
-1,greviously wounded by a [maleperson].
-1,devourer of the [femalerelation] of a [maleperson].
+1,greviously wounded by a [[maleperson]].
+1,devourer of the [[femalerelation]] of a [[maleperson]].
 
 ;ships
-2,A [shiptype], flying a[nationality] flag, [shipphrase].
-1,A Man-o-War, flying a[nationality] flag, [shipphrase].
-3,A[nationality] [shiptype], carrying [cargotype], bound for [location].
+2,A [[shiptype]], flying a[[nationality]] flag, [[shipphrase]].
+1,A Man-o-War, flying a[[nationality]] flag, [[shipphrase]].
+3,A[[nationality]] [[shiptype]], carrying [[cargotype]], bound for [[location]].
 
 ;shiptype
 1,sloop
@@ -520,6 +520,6 @@
 1,bearing Letters of Marque and Reprisal
 
 ;title
-1,The [Secret Society Title.NounDescriptor] [Secret Society Title.Noun]
+1,The [[Secret Society Title.NounDescriptor]] [[Secret Society Title.Noun]]
 
 

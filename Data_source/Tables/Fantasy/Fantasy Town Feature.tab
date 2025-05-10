@@ -1,59 +1,59 @@
 
 ;Start
 1,==Sections of Town==<br>
-_<sgdisplay iterations="5">[inspiration] [sections]</sgdisplay><br>
+_<sgdisplay iterations="5">[[inspiration]] [[sections]]</sgdisplay><br>
 _<br>
 _==General Features==<br>
-_<sgdisplay iterations="15">[Start]</sgdisplay><br>
+_<sgdisplay iterations="15">[[Start]]</sgdisplay><br>
 _<br>
 _==Noteworthy Streets==<br>
-_<sgdisplay iterations="5">[inspiration] [streets]</sgdisplay><br>
+_<sgdisplay iterations="5">[[inspiration]] [[streets]]</sgdisplay><br>
 _<br>
 _==Buildings of Note==<br>
-_<sgdisplay iterations="5">[inspiration] [buildings]</sgdisplay><br>
+_<sgdisplay iterations="5">[[inspiration]] [[buildings]]</sgdisplay><br>
 _<br>
 _==Standalones==<br>
-_<sgdisplay iterations="5">[inspiration] [standalones]</sgdisplay><br>
+_<sgdisplay iterations="5">[[inspiration]] [[standalones]]</sgdisplay><br>
 _<br>
 _==Outer Defenses==<br>
-_<sgdisplay iterations="5">[inspiration] [defenses]</sgdisplay><br>
+_<sgdisplay iterations="5">[[inspiration]] [[defenses]]</sgdisplay><br>
 _<br>
 _==Shipping Facilities==<br>
-_<sgdisplay iterations="5">[inspiration] [shipping]</sgdisplay><br>
+_<sgdisplay iterations="5">[[inspiration]] [[shipping]]</sgdisplay><br>
 _<br>
 _==Near Water==<br>
-_<sgdisplay iterations="5">[inspiration] [water]</sgdisplay><br>
+_<sgdisplay iterations="5">[[inspiration]] [[water]]</sgdisplay><br>
 _<br>
 _==Open Areas==<br>
-_<sgdisplay iterations="5">[inspiration] [openarea]</sgdisplay><br>
+_<sgdisplay iterations="5">[[inspiration]] [[openarea]]</sgdisplay><br>
 _<br>
 _==Religious Buildings==<br>
-_<sgdisplay iterations="5">[inspiration] [religious]</sgdisplay><br>
+_<sgdisplay iterations="5">[[inspiration]] [[religious]]</sgdisplay><br>
 _<br>
 _==Places of the Dead==<br>
-_<sgdisplay iterations="5">[inspiration] [deadpeople]</sgdisplay><br>
+_<sgdisplay iterations="5">[[inspiration]] [[deadpeople]]</sgdisplay><br>
 _<br>
 
 ;Start
-6,[Fantasy Landmarks.inspiration] [feature]
-1,[feature] of the [Fantasy Landmarks.inspiration][Fantasy Landmarks.plural]
-1,[religiousplace]
+6,[[Fantasy Landmarks.inspiration]] [[feature]]
+1,[[feature]] of the [[Fantasy Landmarks.inspiration]][[Fantasy Landmarks.plural]]
+1,[[religiousplace]]
 
 ;inspiration
-1,[Fantasy Landmarks.inspiration]
-1,[Fantasy Town Names.Englishy]
+1,[[Fantasy Landmarks.inspiration]]
+1,[[Fantasy Town Names.Englishy]]
 
 ;feature
-10,[streets]
-10,[buildings]
-5,[standalones]
-5,[defenses]
-3,[shipping]
-5,[water]
-5,[openarea]
-2,[sections]
-2,[religious]
-5,[deadpeople]
+10,[[streets]]
+10,[[buildings]]
+5,[[standalones]]
+5,[[defenses]]
+3,[[shipping]]
+5,[[water]]
+5,[[openarea]]
+2,[[sections]]
+2,[[religious]]
+5,[[deadpeople]]
 
 ;streets
 2,Alley
@@ -240,9 +240,9 @@ _<br>
 2,Warren
 
 ;religiousplace
-1,St. [Catholic Saint Names.Start]'s [religious]
-1,[religious] of St. [Catholic Saint Names.Start]
-1,[Fantasy Town Names.Misc][Fantasy Town Names.Suffix] [religious]
+1,St. [[Catholic Saint Names.Start]]'s [[religious]]
+1,[[religious]] of St. [[Catholic Saint Names.Start]]
+1,[[Fantasy Town Names.Misc]][[Fantasy Town Names.Suffix]] [[religious]]
 
 ;religious
 1,Abbey
@@ -279,7 +279,7 @@ _<br>
 1,Catacomb
 1,Cemetery
 1,Charnel
-1,Crypt[Fantasy Landmarks.plural]
+1,Crypt[[Fantasy Landmarks.plural]]
 1,Graves
 1,Graveyard
 1,Mausoleum

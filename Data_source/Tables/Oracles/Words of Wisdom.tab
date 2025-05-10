@@ -1,11 +1,11 @@
 
 ;Start
-1,[Demonstrative1] [Noun1] [Verb1] the [Noun2] of [Demonstrative2] [Adjective1] [Noun3].<br>
-1,[Question1] [Noun1] be the [Noun2] of [Demonstrative2] [Adjective1] [Noun3]?<br>
-1,A [Noun1] [Verb1] [Noun2]:  [LeadIn1] [Adjective1] [Noun3].<br>
-1,[Demonstrative3] [Adjective1] [Noun3] [Verb1] [Demonstrative2] [Noun2].<br>
-1,[Demonstrative3] [Adjective1] [Noun3] [Verb1] [Demonstrative2] [Noun2] which [Verb1] the [Adjective1] [Noun1].<br>
-1,[Demonstrative4] [Noun4] [Verb1] the [Noun2] of [Demonstrative2] [Adjective1] [Noun3].<br>
+1,[[Demonstrative1]] [[Noun1]] [[Verb1]] the [[Noun2]] of [[Demonstrative2]] [[Adjective1]] [[Noun3]].<br>
+1,[[Question1]] [[Noun1]] be the [[Noun2]] of [[Demonstrative2]] [[Adjective1]] [[Noun3]]?<br>
+1,A [[Noun1]] [[Verb1]] [[Noun2]]:  [[LeadIn1]] [[Adjective1]] [[Noun3]].<br>
+1,[[Demonstrative3]] [[Adjective1]] [[Noun3]] [[Verb1]] [[Demonstrative2]] [[Noun2]].<br>
+1,[[Demonstrative3]] [[Adjective1]] [[Noun3]] [[Verb1]] [[Demonstrative2]] [[Noun2]] which [[Verb1]] the [[Adjective1]] [[Noun1]].<br>
+1,[[Demonstrative4]] [[Noun4]] [[Verb1]] the [[Noun2]] of [[Demonstrative2]] [[Adjective1]] [[Noun3]].<br>
 
 
 ;Book

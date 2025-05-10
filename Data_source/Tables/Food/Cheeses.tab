@@ -1,6 +1,6 @@
 
 ;Start
-1,[CheeseProcess] [CheeseType] [CheeseOrigin] Cheese
+1,[[CheeseProcess]] [[CheeseType]] [[CheeseOrigin]] Cheese
 
 ;CheeseProcess
 1,Fresh
@@ -11,7 +11,7 @@
 1,Peppercorn-encrusted
 1,Pastry-encrusted
 1,Herb-encrusted
-1,[FantasyMenu.Nuts]-encrusted
+1,[[FantasyMenu.Nuts]]-encrusted
 1,Farmstead-Style
 
 ;CheeseOrigin
@@ -37,12 +37,12 @@
 1,Hard
 1,Creamy
 1,Smoky
-1,[Cheeseadj] cheddar
-1,[Cheeseadj] cheese
-1,[Cheeseadj] swiss
-1,[Cheeseadj] muenster
-1,[Cheeseadj] gorgonzola
-1,[Cheeseadj] Edam
+1,[[Cheeseadj]] cheddar
+1,[[Cheeseadj]] cheese
+1,[[Cheeseadj]] swiss
+1,[[Cheeseadj]] muenster
+1,[[Cheeseadj]] gorgonzola
+1,[[Cheeseadj]] Edam
 
 ;Cheeseadj
 1,exotic

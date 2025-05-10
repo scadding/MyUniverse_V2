@@ -1,23 +1,23 @@
 
 
 ;Start
-90,[proper]
-1,An illusion of [proper].
-1,The mouldering corpse of once infamous [proper].
+90,[[proper]]
+1,An illusion of [[proper]].
+1,The mouldering corpse of once infamous [[proper]].
 
 ;proper
-10,[fullname], a two-headed [dragon] with heads that breathe [breath] and [breath][special].
-50,[fullname], a [dragon] that breathes [breath][special].
-1,[fullname], a ten-headed [dragon] with heads that all breathe [breath][special].
-1,[fullname] and [fullname], a pair of identical dragons. Each is a [dragon] that breathes [breath][special].
+10,[[fullname]], a two-headed [[dragon]] with heads that breathe [[breath]] and [[breath]][[special]].
+50,[[fullname]], a [[dragon]] that breathes [[breath]][[special]].
+1,[[fullname]], a ten-headed [[dragon]] with heads that all breathe [[breath]][[special]].
+1,[[fullname]] and [[fullname]], a pair of identical dragons. Each is a [[dragon]] that breathes [[breath]][[special]].
 ;fullname
-3,[name] the [awful]
-1,[name]
+3,[[name]] the [[awful]]
+1,[[name]]
 
 ;name
-50,[name1][name2][name3]
-10,[name1][name2][name3] [name1][name2][name3]
-3,[name1][name2][name3][name2][name3]
+50,[[name1]][[name2]][[name3]]
+10,[[name1]][[name2]][[name3]] [[name1]][[name2]][[name3]]
+3,[[name1]][[name2]][[name3]][[name2]][[name3]]
 
 ;name1
 1,Anc
@@ -127,11 +127,11 @@
 1,lightning
 
 ;dragon
-8,[horned][colour][sex] dragon
-1,striped[horned][colour] and[colour][sex] dragon
-1,[horned][colour][sex] dragon with[colour] spots
-1,[horned][colour][sex] dragon with a[colour] head
-1,[horned][colour][sex] dragon with a[colour] tail
+8,[[horned]][[colour]][[sex]] dragon
+1,striped[[horned]][[colour]] and[[colour]][[sex]] dragon
+1,[[horned]][[colour]][[sex]] dragon with[[colour]] spots
+1,[[horned]][[colour]][[sex]] dragon with a[[colour]] head
+1,[[horned]][[colour]][[sex]] dragon with a[[colour]] tail
 
 ;sex
 9,
@@ -163,8 +163,8 @@
 
 ;special
 1,
-1,, who [specialList]
-1,, who [specialList] and [specialList]
+1,, who [[specialList]]
+1,, who [[specialList]] and [[specialList]]
 
 ;specialList
 1,has the power of speech
@@ -172,7 +172,7 @@
 1,has spikes along its back
 1,is covered in slime
 1,has a mighty tail whose strike causes earthquakes
-1,can appear in the guise of a [sex2]
+1,can appear in the guise of a [[sex2]]
 1,is a mighty sorceror
 1,been alive since the dawn of time
 1,has escaped from the depths of the earth

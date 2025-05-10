@@ -1,8 +1,8 @@
 
 ;Start
-1,[male]
-1,[female]
-1,[surnames]
+1,[[male]]
+1,[[female]]
+1,[[surnames]]
 
 ;male
 1,Amhale

@@ -1,8 +1,8 @@
 
 ;Start
-1,<span style="text-transform: capitalize;">[Monosyllabic][Monosyllabic]</span>
-1,<span style="text-transform: capitalize;">[Polysyllabic][Monosyllabic]</span>
-1,<span style="text-transform: capitalize;">[Monosyllabic][Polysyllabic]</span>
+1,<span style="text-transform: capitalize;">[[Monosyllabic]][[Monosyllabic]]</span>
+1,<span style="text-transform: capitalize;">[[Polysyllabic]][[Monosyllabic]]</span>
+1,<span style="text-transform: capitalize;">[[Monosyllabic]][[Polysyllabic]]</span>
 
 ;Monosyllabic
 1,ash

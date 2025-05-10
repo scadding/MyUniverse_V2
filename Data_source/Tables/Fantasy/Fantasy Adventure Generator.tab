@@ -1,6 +1,6 @@
 
 ;Start
-1,A[Theme] tale where the party attempts to [Goal]. They are drawn in because of [Hook]. It mostly takes place [GeneralSetting], with key events also at [SpecificSetting] and [SpecificSetting]. Aided by [AlliesNeutrals] but opposed by the [MasterVillains] and his minions, the [MinorVillains] and the [MinorVillains], the basic plot is [Plot], ending with [Climax]. Along the way, they will have to fight a [MonsterEncounters], deal with a [CharacterEncounters], and maybe even avoid getting caught in a [Traps].<br><br>  
+1,A[[Theme]] tale where the party attempts to [[Goal]]. They are drawn in because of [[Hook]]. It mostly takes place [[GeneralSetting]], with key events also at [[SpecificSetting]] and [[SpecificSetting]]. Aided by [[AlliesNeutrals]] but opposed by the [[MasterVillains]] and his minions, the [[MinorVillains]] and the [[MinorVillains]], the basic plot is [[Plot]], ending with [[Climax]]. Along the way, they will have to fight a [[MonsterEncounters]], deal with a [[CharacterEncounters]], and maybe even avoid getting caught in a [[Traps]].<br><br>  
 
 ;Theme
 8,n Action/Adventure
@@ -67,8 +67,8 @@
 3,the slums
 10,a tavern or inn
 10,a temple or church
-15,[Art Grace and Guts Oracle.Locations Lcase]
-4,[Poetic Destinations.Start]
+15,[[Art Grace and Guts Oracle.Locations Lcase]]
+4,[[Poetic Destinations.Start]]
 
 ;AlliesNeutrals
 2,Absent-minded expert
@@ -116,7 +116,7 @@
 2,Moronic muscleman
 2,Single-minded soldier
 1,Snivelling vizier
-1,[Secret Society Title.SecretSocietyName]
+1,[[Secret Society Title.SecretSocietyName]]
 1,Corrupted relative
 
 ;Plot
@@ -125,11 +125,11 @@
 1,The Event
 2,Geographic progression
 1,Series of villains
-1,a [MinorVillains] pretends to ally with the heroes before stabbing them in the back
+1,a [[MinorVillains]] pretends to ally with the heroes before stabbing them in the back
 
 ;Climax
 1,Bloody battle
-2,Chase to ground ([Chase])
+2,Chase to ground ([[Chase]])
 1,Divine retribution
 2,Prevented deed
 2,Scattered duels

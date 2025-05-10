@@ -1,18 +1,18 @@
 
 ;Start
-1,The [TableA] [TableB]
-1,The [TableA] [TableD] [TableB]
-1,The [TableA] [TableE] [TableB]
-1,The [TableA] [TableB] of [TableC]
-1,The [TableA] [TableB] of [TableD] [TableC]
-1,The [TableA] [TableB] of [TableE] [TableC]
-1,The [TableA] [TableD] [TableC]
-1,The [TableA] [TableE] [TableC]
-1,The [TableA] [TableD] [TableE] [TableC]
-1,The [TableB] of [TableC]
-1,The [TableB] of [TableD] [TableC]
-1,The [TableB] of [TableE] [TableC]
-1,The [TableB] of [TableD] [TableE] [TableC]
+1,The [[TableA]] [[TableB]]
+1,The [[TableA]] [[TableD]] [[TableB]]
+1,The [[TableA]] [[TableE]] [[TableB]]
+1,The [[TableA]] [[TableB]] of [[TableC]]
+1,The [[TableA]] [[TableB]] of [[TableD]] [[TableC]]
+1,The [[TableA]] [[TableB]] of [[TableE]] [[TableC]]
+1,The [[TableA]] [[TableD]] [[TableC]]
+1,The [[TableA]] [[TableE]] [[TableC]]
+1,The [[TableA]] [[TableD]] [[TableE]] [[TableC]]
+1,The [[TableB]] of [[TableC]]
+1,The [[TableB]] of [[TableD]] [[TableC]]
+1,The [[TableB]] of [[TableE]] [[TableC]]
+1,The [[TableB]] of [[TableD]] [[TableE]] [[TableC]]
 
 ;TableA
 1,Black
@@ -393,8 +393,8 @@
 1,Painful
 1,Tumultuous
 1,Singing
-1,[Color]
-1,[Energy] 
+1,[[Color]]
+1,[[Energy]] 
 1,Cluttered
 1,Draconian
 1,Dissagreable

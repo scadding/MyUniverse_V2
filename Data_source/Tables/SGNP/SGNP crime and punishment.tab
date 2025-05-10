@@ -1,4 +1,4 @@
-# This generator is part of the [[Story Games Name Project]]. The following are 
+# This generator is part of the [[[Story Games Name Project]]]. The following are 
 # lists of serial killers, titles of law enforcement authorities, crime scene 
 # locations, murder weapons, poisons, prisons and forensic techniques. The titles 
 # may be combined with any country's modern lists (E.g. Modern American or 
@@ -6,13 +6,13 @@
 # whatever is required. It was compiled by Moyra Turkington
 
 ;Start
-1,serial killers: [serial killers]
-1,authority titles: [authority titles]
-1,crime scene locations: [crime scene locations]
-1,murder weapons: [murder weapons]
-1,poisons:''' [poisons]
-1,prisons: [prisons]
-1,forensic techniques: [forensic techniques]
+1,serial killers: [[serial killers]]
+1,authority titles: [[authority titles]]
+1,crime scene locations: [[crime scene locations]]
+1,murder weapons: [[murder weapons]]
+1,poisons:''' [[poisons]]
+1,prisons: [[prisons]]
+1,forensic techniques: [[forensic techniques]]
 
 ;serial killers
 1,The Cadillac Killer

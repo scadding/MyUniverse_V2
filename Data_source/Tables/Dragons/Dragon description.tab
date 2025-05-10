@@ -1,6 +1,6 @@
 
 ;Start
-1,[Dragon names.Start] the [age] [type] has [Color.all] [scales], [head], [legnumber] legs, [wings] wings and [tailtype] tail. It has [eyes]. [breathchance] [special]
+1,[[Dragon names.Start]] the [[age]] [[type]] has [[Color.all]] [[scales]], [[head]], [[legnumber]] legs, [[wings]] wings and [[tailtype]] tail. It has [[eyes]]. [[breathchance]] [[special]]
 
 ;age
 1,hatchling
@@ -28,11 +28,11 @@
 1,feathers
 
 ;head
-10,[headfeature]
-1,[manyheads] with [headfeature]
+10,[[headfeature]]
+1,[[manyheads]] with [[headfeature]]
 
 ;headfeature
-1,[headfeature] and [headfeature]
+1,[[headfeature]] and [[headfeature]]
 1,a unicorn's horn
 2,horns like those of a bull
 1,large sacks of venom just under the lower jaw
@@ -53,11 +53,11 @@
 1,countless heads
 
 ;legnumber
-4,four [legtype]
-2,two [legtype]
+4,four [[legtype]]
+2,two [[legtype]]
 2,no
-1,six [legtype]
-1,eight [legtype]
+1,six [[legtype]]
+1,eight [[legtype]]
 
 ;legtype
 10,reptilian
@@ -89,11 +89,11 @@
 ;eyes
 1,reptilian eyes
 1,snake-like eyes
-1,eyes like swirling [Color.metallic] pools
+1,eyes like swirling [[Color.metallic]] pools
 
 ;breathchance
-3,It can exhale a [breathtype] of [breath].
-2,It can exhale a [breathtype] of [breath] and [breath]
+3,It can exhale a [[breathtype]] of [[breath]].
+2,It can exhale a [[breathtype]] of [[breath]] and [[breath]]
 1,
 
 ;breathtype
@@ -109,7 +109,7 @@
 2,lightning
 3,acid
 1,water
-3,[poison] poison
+3,[[poison]] poison
 3,wind
 3,ice
 2,despair
@@ -130,10 +130,10 @@
 
 ;special
 5,
-4,[special] [special]
+4,[[special]] [[special]]
 1,It can possess a human with a mere glance.
 1,It understands every language ever spoken or written.
-1,It has scales as hard as [Utility.MetalArmor].
+1,It has scales as hard as [[Utility.MetalArmor]].
 1,It can take the shape of men and beasts alike.
 1,It can hear thoughts.
 1,It can smell secrets and deception.

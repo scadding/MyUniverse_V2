@@ -1,9 +1,9 @@
 
 ;Start
-1,"Clear for emergency traffic. [code]. [reportingsource] [report] [crimephrase], [location]. [detail] Respond."
-1,"[code]. [reportingsource] [report] [crimephrase], [location]. [detail] Over."
-1,"Calling patrol vehicle. I have a [code]. [reportingsource] [report] [crimephrase], [location]. Interview possible witness, [witnessrace] [gender][isminor], [location]. Please acknowledge."
-1,"Attention mobile unit.  [reportingsource] [report] [crimephrase], [location].  This is a [code]. [detail] Please respond."
+1,"Clear for emergency traffic. [[code]]. [[reportingsource]] [[report]] [[crimephrase]], [[location]]. [[detail]] Respond."
+1,"[[code]]. [[reportingsource]] [[report]] [[crimephrase]], [[location]]. [[detail]] Over."
+1,"Calling patrol vehicle. I have a [[code]]. [[reportingsource]] [[report]] [[crimephrase]], [[location]]. Interview possible witness, [[witnessrace]] [[gender]][[isminor]], [[location]]. Please acknowledge."
+1,"Attention mobile unit.  [[reportingsource]] [[report]] [[crimephrase]], [[location]].  This is a [[code]]. [[detail]] Please respond."
 
 ;code
 1,Code 1, respond at your convenience
@@ -76,16 +76,16 @@
 1,provides information regarding possible
 
 ;crimephrase
-1,attempted [crime]
-1,solicited [crime]
-1,conspiracy to commit [crime]
-1,facilitation of [crime]
-1,[crime] in progress
-1,attempted [crime] in progress
-1,solicitation of [crime] in progress
-1,conspiracy to commit [crime] in progress
-1,facilitation of [crime] in progress
-10,[crime]
+1,attempted [[crime]]
+1,solicited [[crime]]
+1,conspiracy to commit [[crime]]
+1,facilitation of [[crime]]
+1,[[crime]] in progress
+1,attempted [[crime]] in progress
+1,solicitation of [[crime]] in progress
+1,conspiracy to commit [[crime]] in progress
+1,facilitation of [[crime]] in progress
+10,[[crime]]
 
 ;crime
 1,Premeditated Murder
@@ -96,7 +96,7 @@
 1,Threatening and Intimidating
 1,Assault
 1,Aggravated Assault
-1,Aggravated Assault With Dangerous Instrument, [dangerousinstrument]
+1,Aggravated Assault With Dangerous Instrument, [[dangerousinstrument]]
 1,Aggravated Assault On Peace Officer
 1,Poisoning
 1,Assault by Vicious Animal
@@ -113,7 +113,7 @@
 1,Sexual Assault
 1,Molestation of a Child
 1,Bestiality
-1,Sexual Assault Accompanied By Dangerous Instrument, [dangerousinstrument]
+1,Sexual Assault Accompanied By Dangerous Instrument, [[dangerousinstrument]]
 1,Voyeurism
 1,Criminal Trespass, Remaining Unlawfully On Property After Reasonable Request to Leave
 1,Criminal Trespass
@@ -139,7 +139,7 @@
 1,Unlawful Alteration of Receipt
 1,Robbery
 1,Robbery with Accomplices Present
-1,Armed Robbery With [dangerousinstrument]
+1,Armed Robbery With [[dangerousinstrument]]
 1,Forgery
 1,Criminal Possession of a Forgery Device
 1,Theft of Credit Card
@@ -253,7 +253,7 @@
 1,Provision of Obscene Materials to Minors
 1,Sexual Exploitation of a Minor
 1,Domestic Violence
-1,Domestic Violence with a Dangerous Instrument, [dangerousinstrument]
+1,Domestic Violence with a Dangerous Instrument, [[dangerousinstrument]]
 1,Incest
 1,Bigamy
 1,Contributing to the Delinquency of a Minor
@@ -280,22 +280,22 @@
 1,an Unknown Instrument
 
 ;location
-1,on [direction] [streetname] [streettype]
-1,[direction] of [streetname] [streettype]
-1,in [neighborhood]
+1,on [[direction]] [[streetname]] [[streettype]]
+1,[[direction]] of [[streetname]] [[streettype]]
+1,in [[neighborhood]]
 1,location unknown
 1,location to follow
 1,at City Hall
 1,near your location
 1,in your patrol sector
-1,at gas station just off interstate exit [Dice.1d8][Dice.1d8], which is the [streetname] [streettype] exit
-1,at the corner of [direction] [streetname] and [streetname] [streettype]
-1,in residential area of [neighborhood]
-1,in private residence on [direction] [streetname] [streettype]
-1,in public park in [neighborhood]
-1,at business address on [direction] [streetname] [streettype]
-1,in [Dice.1d8]00 block of [streetname] [streettype]
-1,in [Dice.1d8][Dice.1d8]00 block of [streetname] [streettype]
+1,at gas station just off interstate exit [[Tables.Utility.Dice.1d8]][[Tables.Utility.Dice.1d8]], which is the [[streetname]] [[streettype]] exit
+1,at the corner of [[direction]] [[streetname]] and [[streetname]] [[streettype]]
+1,in residential area of [[neighborhood]]
+1,in private residence on [[direction]] [[streetname]] [[streettype]]
+1,in public park in [[neighborhood]]
+1,at business address on [[direction]] [[streetname]] [[streettype]]
+1,in [[Tables.Utility.Dice.1d8]]00 block of [[streetname]] [[streettype]]
+1,in [[Tables.Utility.Dice.1d8]][[Tables.Utility.Dice.1d8]]00 block of [[streetname]] [[streettype]]
 1,location provided on your screen
 1,location provided via TAC-COM
 
@@ -351,13 +351,13 @@
 1,Place
 
 ;detail
-11,Suspect is [race] [gender], [features]
-3,Suspect is [race] [gender], [features] Suspect has left the area.
-3,Suspect is [race] [gender], [features] Last seen in a vehicle on [streetname] [streettype].
-3,Suspect is [race] [gender], [features] Last seen on foot, [moving] [direction]bound on [streetname] [streettype].
-3,Suspect is [race] [gender], [features] Last seen riding a [Color.dull] bicycle [direction]bound on [streetname] [streettype].
-1,Suspect is [race] Male, with [Female Appearance.FacialHairMale], [features]
-1,Suspect is [race] Female, wearing heavy makeup and a [Color.bright] dress.
+11,Suspect is [[race]] [[gender]], [[features]]
+3,Suspect is [[race]] [[gender]], [[features]] Suspect has left the area.
+3,Suspect is [[race]] [[gender]], [[features]] Last seen in a vehicle on [[streetname]] [[streettype]].
+3,Suspect is [[race]] [[gender]], [[features]] Last seen on foot, [[moving]] [[direction]]bound on [[streetname]] [[streettype]].
+3,Suspect is [[race]] [[gender]], [[features]] Last seen riding a [[Color.dull]] bicycle [[direction]]bound on [[streetname]] [[streettype]].
+1,Suspect is [[race]] Male, with [[Female Appearance.FacialHairMale]], [[features]]
+1,Suspect is [[race]] Female, wearing heavy makeup and a [[Color.bright]] dress.
 1,No known information regarding suspect.
 1,Evidence left at scene.
 1,Possible involvement with federal court case.
@@ -372,9 +372,9 @@
 1,Citizen holding suspect.
 1,Suspect also wanted in connection with unrelated felony.
 1,Suspect may be armed and dangerous.
-1,Suspect is 390, clearly intoxicated [race] male, [features]
-1,Suspect is 390W, clearly intoxicated [race] female, [features]
-1,Suspect is clearly mentally ill [race] [gender], [features]
+1,Suspect is 390, clearly intoxicated [[race]] male, [[features]]
+1,Suspect is 390W, clearly intoxicated [[race]] female, [[features]]
+1,Suspect is clearly mentally ill [[race]] [[gender]], [[features]]
 1,Emergency medical support en route.
 1,Air support providing assistance.
 1,High speed chase in progress.
@@ -387,7 +387,7 @@
 1,Fire trucks en route.
 1,Fire Department on scene.
 1,Emergency medical support on scene.
-1,Tactical command set up on [direction] [streetname] [streettype].
+1,Tactical command set up on [[direction]] [[streetname]] [[streettype]].
 1,Automobile collision reported.
 1,Tow truck on scene.
 1,Hostage situation in progress.
@@ -439,7 +439,7 @@
 1,has significant birthmark on face.
 1,wearing a thong swimsuit.
 1,wearing an athletic jersey and sweatpants.
-1,wearing only [Color.dull] clothing.
+1,wearing only [[Color.dull]] clothing.
 1,with shaved head.
 1,accompanied by unknown female.
 1,carrying a baseball bat.

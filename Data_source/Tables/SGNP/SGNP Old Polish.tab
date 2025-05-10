@@ -1,7 +1,7 @@
 
 ;Start
-1,[OldPolishMFirst] [OldPolishMSurname] (male)
-1,[OldPolishFFirst] [OldPolishFSurname] (female)
+1,[[OldPolishMFirst]] [[OldPolishMSurname]] (male)
+1,[[OldPolishFFirst]] [[OldPolishFSurname]] (female)
 
 ;OldPolishMFirst
 1,Achacy

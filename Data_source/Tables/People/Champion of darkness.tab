@@ -1,18 +1,18 @@
 
 ;Start
-1,[champion] [verb] to [goal], using [lair] as a [lairterm].
+1,[[champion]] [[verb]] to [[goal]], using [[lair]] as a [[lairterm]].
 
 ;champion
-3,[Fantasy Names.Start] the [description] [almosthuman]
-2,[Demon generator.Start] the [description] [demonic]
-1,The [description] [beast]
-1,The [Orc Tribe Name.Start] tribe, led by [SGNP orcish.Start],
-2,[Secret Society Name.Start], led by its [Secret Society Title.Start], 
-2,[Fantasy Names.Start], the [Secret Society Title.Start],
-1,[Dragon names.Start] the dragon
+3,[[Fantasy Names.Start]] the [[description]] [[almosthuman]]
+2,[[Demon generator.Start]] the [[description]] [[demonic]]
+1,The [[description]] [[beast]]
+1,The [[Orc Tribe Name.Start]] tribe, led by [[SGNP orcish.Start]],
+2,[[Secret Society Name.Start]], led by its [[Secret Society Title.Start]], 
+2,[[Fantasy Names.Start]], the [[Secret Society Title.Start]],
+1,[[Dragon names.Start]] the dragon
 
 ;description
-5,[description] and [description]
+5,[[description]] and [[description]]
 1,evil
 1,horrible
 1,terrible
@@ -26,21 +26,21 @@
 1,insane
 1,wicked
 1,horrid
-2,[Synistars Personality Generator.negative]
-3,[Random Fantasy Plot.BAD_ADJ]
+2,[[Synistars Personality Generator.negative]]
+3,[[Random Fantasy Plot.BAD_ADJ]]
 
 ;almosthuman
-1,[Undead Software Programmer Character Concept.undeadType]
+1,[[Undead Software Programmer Character Concept.undeadType]]
 1,blackguard
 1,sorcerer
 1,summoner
 1,assassin
-1,[Art Grace and Guts Oracle.Magical Characters]
-1,[Character Concept of Mu.profession]
+1,[[Art Grace and Guts Oracle.Magical Characters]]
+1,[[Character Concept of Mu.profession]]
 1,barbarian warlord
 1,slavemaster
 1,vizier
-2,[Random Fantasy Plot.VILLAIN]
+2,[[Random Fantasy Plot.VILLAIN]]
 1,giant
 1,witch
 1,death knight
@@ -52,12 +52,12 @@
 1,necromancer
 
 ;demonic
-2,[demonic] [demontitle]
+2,[[demonic]] [[demontitle]]
 1,balor
 1,succubus
 1,incubus
-1,possessed [almosthuman]
-1,demonic [beast]
+1,possessed [[almosthuman]]
+1,demonic [[beast]]
 1,demon
 1,devil
 1,fiend
@@ -74,10 +74,10 @@
 
 ;beast
 1,gorgon
-1,giant [SpiritForm.AnimalForm]
+1,giant [[SpiritForm.AnimalForm]]
 1,naga
-1,[New Monster Name.Start]
-1,intelligent [Orc Tribe Name.Animal]
+1,[[New Monster Name.Start]]
+1,intelligent [[Orc Tribe Name.Animal]]
 1,sphinx
 1,manticore
 1,hydra
@@ -95,14 +95,14 @@
 1,has started
 
 ;goal
-4,[placegoal] the [place]
+4,[[placegoal]] the [[place]]
 2,kill and destroy everything it can reach
-3,corrupt [corrupttarget]
-4,[itemgoal] [item]
-2,[threat]
-1,addict mankind to [Herb Names.Start]
-3,[goal] to [goal]
-1,control [Secret Society Name.Start]
+3,corrupt [[corrupttarget]]
+4,[[itemgoal]] [[item]]
+2,[[threat]]
+1,addict mankind to [[Herb Names.Start]]
+3,[[goal]] to [[goal]]
+1,control [[Secret Society Name.Start]]
 1,be redeemed (no, really, do trust it)
 
 ;placegoal
@@ -116,17 +116,17 @@
 1,burn
 
 ;place
-18,[lair]
+18,[[lair]]
 1,everything
 1,kingdom
 1,world
 
 ;corrupttarget
-2,everything that is good and [good]
-1,Saint [Catholic Saint Names.Start]
-2,[angel]
-2,[Random Fantasy Plot.HERO_ADJ] [Random Fantasy Plot.HERO]
-1,[Fantasy Names.StartFemale]
+2,everything that is good and [[good]]
+1,Saint [[Catholic Saint Names.Start]]
+2,[[angel]]
+2,[[Random Fantasy Plot.HERO_ADJ]] [[Random Fantasy Plot.HERO]]
+1,[[Fantasy Names.StartFemale]]
 
 ;good
 1,holy
@@ -138,40 +138,40 @@
 1,glorious
 
 ;angel
-5,[Angel generator.Start]
-1,[SGNP angels and demons.male], [SGNP angels and demons.titlechance]
-1,[SGNP angels and demons.female], [SGNP angels and demons.titlechance]
+5,[[Angel generator.Start]]
+1,[[SGNP angels and demons.male]], [[SGNP angels and demons.titlechance]]
+1,[[SGNP angels and demons.female]], [[SGNP angels and demons.titlechance]]
 
 ;itemgoal
-1,[Pickpocket.StealVerb]
+1,[[Pickpocket.StealVerb]]
 1,find
 1,destroy
 1,devastate
 1,protect
 
 ;item
-2,[ArcaneBooks.Start]
-3,[Art Grace and Guts Oracle.Magical Items]
-2,[Art Grace and Guts Oracle.Military Items]
-1,[MonsterParts.Start]
-1,[FantasyBooks.Start]
+2,[[ArcaneBooks.Start]]
+3,[[Art Grace and Guts Oracle.Magical Items]]
+2,[[Art Grace and Guts Oracle.Military Items]]
+1,[[MonsterParts.Start]]
+1,[[FantasyBooks.Start]]
 
 ;threat
-1,take control of [Art Grace and Guts Oracle.Threats]
-1,make [Art Grace and Guts Oracle.Threats] unstoppable
-1,demand tribute from [Art Grace and Guts Oracle.Threats]
-1,use [Art Grace and Guts Oracle.Threats] to [goal]
+1,take control of [[Art Grace and Guts Oracle.Threats]]
+1,make [[Art Grace and Guts Oracle.Threats]] unstoppable
+1,demand tribute from [[Art Grace and Guts Oracle.Threats]]
+1,use [[Art Grace and Guts Oracle.Threats]] to [[goal]]
 
 ;lair
-5,[Art Grace and Guts Oracle.Locations]
-2,[Fantasy Campsite.Type]
-5,[Fantasy Adventure Generator.SpecificSetting]
-3,[Fantasy Landmarks.Start]
-3,[Fantasy Town Names.Start]
-2,[Fantasy Town Feature.Start]
-2,[Inn and Tavern Names.Start]
-5,[Poetic Destinations.Start]
-1,[Pulp Character Concept.legendary location]
+5,[[Art Grace and Guts Oracle.Locations]]
+2,[[Fantasy Campsite.Type]]
+5,[[Fantasy Adventure Generator.SpecificSetting]]
+3,[[Fantasy Landmarks.Start]]
+3,[[Fantasy Town Names.Start]]
+2,[[Fantasy Town Feature.Start]]
+2,[[Inn and Tavern Names.Start]]
+5,[[Poetic Destinations.Start]]
+1,[[Pulp Character Concept.legendary location]]
 
 ;lairterm
 1,home base

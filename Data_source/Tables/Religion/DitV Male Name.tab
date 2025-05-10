@@ -1,13 +1,13 @@
 
 ;Start
-1,Brother [FirstName]
+1,Brother [[FirstName]]
 
 ;FirstName
-10,[Biblical]
-10,[Morningstar]
-1,[BoM]
-4,[Conceptual]
-14,[MormonPioneers1847]
+10,[[Biblical]]
+10,[[Morningstar]]
+1,[[BoM]]
+4,[[Conceptual]]
+14,[[MormonPioneers1847]]
 
 ;Biblical
 1,Aaron

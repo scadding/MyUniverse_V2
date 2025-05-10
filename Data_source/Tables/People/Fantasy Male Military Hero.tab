@@ -1,12 +1,12 @@
 
 ;Start
-1,[Name], a [HumanMaleMilitaryProfession]. [HumanMaleMartialSentence]
+1,[[Name]], a [[HumanMaleMilitaryProfession]]. [[HumanMaleMartialSentence]]
 
 ;Name
-1,[Fantasy Names.MaleFirstName] of [Fantasy Town Names.Start]
-1,[Fantasy Names.MaleFirstName] of [Fantasy Town Names.Englishy]
-1,[Fantasy Names.StartNoTitle] the [MaleHonorific]
-1,[Fantasy Names.StartNoTitle]
+1,[[Fantasy Names.MaleFirstName]] of [[Fantasy Town Names.Start]]
+1,[[Fantasy Names.MaleFirstName]] of [[Fantasy Town Names.Englishy]]
+1,[[Fantasy Names.StartNoTitle]] the [[MaleHonorific]]
+1,[[Fantasy Names.StartNoTitle]]
 
 ;MaleHonorific
 1,Grey
@@ -30,16 +30,16 @@
 1,Mad
 1,Humble
 1,Bloody
-50,[Secret Society Title.TitleDescriptor]
+50,[[Secret Society Title.TitleDescriptor]]
 
 ;HumanMaleMilitaryProfession
-7,soldier in the [Fantasy Military Unit.Start]
-8,[MilitaryRank] in the [Fantasy Military Unit.Start]
+7,soldier in the [[Fantasy Military Unit.Start]]
+8,[[MilitaryRank]] in the [[Fantasy Military Unit.Start]]
 
 ;HumanMaleMartialSentence
-10,[HumanMaleMartialDistinguishment] he [FoughtAdverb] [FoughtVerb] a [Group] of [NegativeAdjChance] [HumanRacialEnemies]s [HumanMaleWarReason].
-2,[HumanMaleMartialDistinguishment] he [FoughtAdverb] [FoughtVerb] [IndividualEnemy] [HumanMaleWarReason].
-1,[HumanMaleMartialSentence] [HumanMaleMartialSentence]
+10,[[HumanMaleMartialDistinguishment]] he [[FoughtAdverb]] [[FoughtVerb]] a [[Group]] of [[NegativeAdjChance]] [[HumanRacialEnemies]]s [[HumanMaleWarReason]].
+2,[[HumanMaleMartialDistinguishment]] he [[FoughtAdverb]] [[FoughtVerb]] [[IndividualEnemy]] [[HumanMaleWarReason]].
+1,[[HumanMaleMartialSentence]] [[HumanMaleMartialSentence]]
 
 ;HumanMaleMartialDistinguishment
 5,He distinguished himself when
@@ -48,14 +48,14 @@
 5,He became a local hero when
 1,He regained his family's lost honor after
 5,He was knighted after
-2,He was comemmorated in [WrittenRemembrances] about the time
-2,He is mainly known through the [WrittenRemembrances] about the incident when
-1,He commissioned [WrittenRemembrances] written about the time
-2,He was celebrated  in a [WrittenRemembrances] written about the time
-1,He personally wrote a [WrittenRemembrances] about the time
-1,He became a household name for a time because of the [WrittenRemembrances] written about the time
-5,He is depicted in a [ArtworkRemembrances] about the time
-2,He commissioned a [ArtworkRemembrances] about the time
+2,He was comemmorated in [[WrittenRemembrances]] about the time
+2,He is mainly known through the [[WrittenRemembrances]] about the incident when
+1,He commissioned [[WrittenRemembrances]] written about the time
+2,He was celebrated  in a [[WrittenRemembrances]] written about the time
+1,He personally wrote a [[WrittenRemembrances]] about the time
+1,He became a household name for a time because of the [[WrittenRemembrances]] written about the time
+5,He is depicted in a [[ArtworkRemembrances]] about the time
+2,He commissioned a [[ArtworkRemembrances]] about the time
 5,He is famous for the occasion on which
 4,He is best-known for the occasion on which
 3,He is sung about in bards' tales for the time
@@ -173,7 +173,7 @@
 1,three-volume novel
 
 ;ArtworkRemembrances
-1,[ArtworkAdj] [ArtworkType]
+1,[[ArtworkAdj]] [[ArtworkType]]
 
 ;ArtworkAdj
 1,finely crafted
@@ -191,16 +191,16 @@
 4,tapestry
 
 ;IndividualEnemy
-15,[Orc Names.Start], leader of the [NegativeAdjChance] [Orc Tribe Name.Start] [TribalHumanoids] tribe
-7,[MilitaryRankCap] [Fantasy Names.StartNoTitle], who led the [NegativeAdjChance] [Fantasy Military Unit.Start],
-1,the [ArcaneEnemy] [ArcaneBooks.ArcaneAuthor]
-1,[Fantasy Names.StartNoTitle], the [Secret Society Title.Start]
+15,[[Orc Names.Start]], leader of the [[NegativeAdjChance]] [[Orc Tribe Name.Start]] [[TribalHumanoids]] tribe
+7,[[MilitaryRankCap]] [[Fantasy Names.StartNoTitle]], who led the [[NegativeAdjChance]] [[Fantasy Military Unit.Start]],
+1,the [[ArcaneEnemy]] [[ArcaneBooks.ArcaneAuthor]]
+1,[[Fantasy Names.StartNoTitle]], the [[Secret Society Title.Start]]
 
 ;ArcaneEnemy
-1,[NegativeAdj] [ArcaneTitle]
+1,[[NegativeAdj]] [[ArcaneTitle]]
 
 ;NegativeAdjChance
-1,[NegativeAdj]
+1,[[NegativeAdj]]
 1,
 
 ;NegativeAdj
@@ -254,7 +254,7 @@
 15,orc
 10,troll
 4,Northlander
-5,[GheronUtility.CulturesHuman] soldier
+5,[[GheronUtility.CulturesHuman]] soldier
 4,bandit
 9,bugbear
 1,centaur
@@ -280,16 +280,16 @@
 3,underdenizen
 
 ;HumanMaleWarReason
-5,to defend his [HumanSettlement] against their incursions
-1,to protect his [HumanSettlement] against their invasions
-1,to defend his [HumanSettlement] against their ravages
-1,to avenge the pillaging of his [HumanSettlement]
-1,to shield his [HumanSettlement] from their constant raids
+5,to defend his [[HumanSettlement]] against their incursions
+1,to protect his [[HumanSettlement]] against their invasions
+1,to defend his [[HumanSettlement]] against their ravages
+1,to avenge the pillaging of his [[HumanSettlement]]
+1,to shield his [[HumanSettlement]] from their constant raids
 1,to stem the tide of their onslaught
 1,to seek revenge for the death of his children at their hands
-1,to defend his [HumanSettlement] against their aggression
-1,to bring glory and prestige to his [HumanSettlement]
-1,to erase the dishonour of his [HumanSettlement]
+1,to defend his [[HumanSettlement]] against their aggression
+1,to bring glory and prestige to his [[HumanSettlement]]
+1,to erase the dishonour of his [[HumanSettlement]]
 1,to honor the gods and his ancestors
 1,to fullfill his lover's wishes
 1,to avenge the death of his lover at their hands
@@ -298,33 +298,33 @@
 1,for many years until he was killed in battle
 1,until his death in battle
 1,for many years until the war was finished
-1,until he was killed when his [HumanSettlement] fell
-4,and was known for his skill with the [HumanRacialWeapon]
-2,and was distinctive for the unique [HumanRacialWeapon] that he used
-1,and was said to posess a magical [HumanRacialWeapon]
-2,who invaded his [HumanSettlement]
-1,who terrorized his [HumanSettlement]
+1,until he was killed when his [[HumanSettlement]] fell
+4,and was known for his skill with the [[HumanRacialWeapon]]
+2,and was distinctive for the unique [[HumanRacialWeapon]] that he used
+1,and was said to posess a magical [[HumanRacialWeapon]]
+2,who invaded his [[HumanSettlement]]
+1,who terrorized his [[HumanSettlement]]
 1,until their agents had him assassinated
 1,until they captured him in battle and executed him
 1,until they captured and enslaved him
-10,and was known for his [AdmirableQuality]
-1,and is still admired by many for his [AdmirableQuality]
-1,and is still considered unmatched for his [AdmirableQuality]
-1,and was the envy of many in his day for his [AdmirableQuality]
+10,and was known for his [[AdmirableQuality]]
+1,and is still admired by many for his [[AdmirableQuality]]
+1,and is still considered unmatched for his [[AdmirableQuality]]
+1,and was the envy of many in his day for his [[AdmirableQuality]]
 1,in the hopes that he could inspire others to do the same
 1,because he was inspired by the legends of antiquity
 1,despite orders from his commander to hold back
 1,in a feat of self-sacrifice that is sung about to this day
 1,to avenge his fallen friends
-1,proving his skill with the [HumanRacialWeapon] to be the stuff of legend
+1,proving his skill with the [[HumanRacialWeapon]] to be the stuff of legend
 1,until he had to retreat in order to save his men from certain death at their hands
 1,until the remaining enemies surrendered to him
 1,until the remaining enemies scattered and fled
 1,until his troops scattered and fled, leaving him alone to die at the hands of his enemies
 1,,a feat for which he gave complete credit to his fellow soldiers
 1,and was well liked by the soldiers he served with
-1,and was easily recognizable because he rode a [HumanUnusualSteed] into combat
-1,and was distinctive for his pet [HumanUnusualPet], which accompanied him into combat
+1,and was easily recognizable because he rode a [[HumanUnusualSteed]] into combat
+1,and was distinctive for his pet [[HumanUnusualPet]], which accompanied him into combat
 1,
 
 ;AdmirableQuality
@@ -337,7 +337,7 @@
 1,calmness under pressure
 1,unassailable integrity 
 1,ability to predict the enemy's movements
-1,keen eye and quick [HumanRacialWeapon]
+1,keen eye and quick [[HumanRacialWeapon]]
 1,mastery of military strategy
 1,clever use of spies and deception
 1,enviable moustache
@@ -367,14 +367,14 @@
 8,village
 
 ;HumanRacialWeapon
-4,[HaftedWeapons.AxeType]
-2,[HaftedWeapons.MaceType]
-2,[HaftedWeapons.FlailType]
-8,[HaftedWeapons.PolearmType]
-14,[Swords.StartNoDescription]
-6,[Bows.BowType]
-3,[XBows.XBowType]
-1,[Lances.StartNoDescription]
+4,[[HaftedWeapons.AxeType]]
+2,[[HaftedWeapons.MaceType]]
+2,[[HaftedWeapons.FlailType]]
+8,[[HaftedWeapons.PolearmType]]
+14,[[Swords.StartNoDescription]]
+6,[[Bows.BowType]]
+3,[[XBows.XBowType]]
+1,[[Lances.StartNoDescription]]
 
 ;HumanUnusualSteed
 3,dire boar
@@ -422,7 +422,7 @@
 4,battled
 1,captured a bridge from
 1,captured a leader of
-2,captured an important [Utility.Terrains] from
+2,captured an important [[Utility.Terrains]] from
 3,clashed with
 1,conducted raids against
 1,cut off supplies from

@@ -1,17 +1,17 @@
 
 
 ;Start
-1,At first, the PCs will see [Numberonetwelve] towers. Each has about [Numberonefour] defender(s) visible (there are actually [Numberonetwelve] times that number total) and about [Numberonefour] will arrive per round in the case of an alarm. The outer walls are [Threedtwentyptone][Threedtwentypttwo] feet tall and the towers extend [Numberonetwenty] feet above them.<br />*If it's a seafront fort, there will be [Numberonefour][Threedtwentypttwo] feet of [Terraintype] ground before the walls start.<br />*Due to the condition of the walls, climb checks are at [Climbchecknumber]. <br />*The lowest windows are [Dtwentyplusthirtydigitone][Threedtwentypttwo] feet up.<br />*The initial volley from the towers in case of an unexpected attack will be [Missiletype]. The second volley in case of a siege, an anticipated attack, or a small but persistent raiding party (like a bunch of PCs) will consist of [Secondaryfire]--unless it is a goblin fortress, in which case the response will consist of [Goblinfire].<br />*''Additional security measures include:'' <br />[Barbican] [Stair] [Moat] [Secondarywalls]<br />*''Also:''<br /> [Complications] [Complicationstwentyfive] [Complicationstwentyfive] [Complicationstwentyfive]<br><br>
+1,At first, the PCs will see [[Numberonetwelve]] towers. Each has about [[Numberonefour]] defender(s) visible (there are actually [[Numberonetwelve]] times that number total) and about [[Numberonefour]] will arrive per round in the case of an alarm. The outer walls are [[Threedtwentyptone]][[Threedtwentypttwo]] feet tall and the towers extend [[Numberonetwenty]] feet above them.<br />*If it's a seafront fort, there will be [[Numberonefour]][[Threedtwentypttwo]] feet of [[Terraintype]] ground before the walls start.<br />*Due to the condition of the walls, climb checks are at [[Climbchecknumber]]. <br />*The lowest windows are [[Dtwentyplusthirtydigitone]][[Threedtwentypttwo]] feet up.<br />*The initial volley from the towers in case of an unexpected attack will be [[Missiletype]]. The second volley in case of a siege, an anticipated attack, or a small but persistent raiding party (like a bunch of PCs) will consist of [[Secondaryfire]]--unless it is a goblin fortress, in which case the response will consist of [[Goblinfire]].<br />*''Additional security measures include:'' <br />[[Barbican]] [[Stair]] [[Moat]] [[Secondarywalls]]<br />*''Also:''<br /> [[Complications]] [[Complicationstwentyfive]] [[Complicationstwentyfive]] [[Complicationstwentyfive]]<br><br>
 
 ;Complications
-1,There is a secret entrance located at [Numberonetwelve] o'clock on the map.
+1,There is a secret entrance located at [[Numberonetwelve]] o'clock on the map.
 1,The fortress garrison is being attacked by a local faction when PCs arrive.
 1,The fortress garrison is being attacked by a monster when PCs arrive.
 1,The fortress garrison is dealing werewolf/changeling/The Thing, other "enemy-within" type monster when PCs arrive.
 1,The fortress garrison is a bunch of lazy drunken debaucherous irresponsible louts.
 1,A crazy dangerous beast is being transported to the capital and being housed here in the meantime.
-1,Mad treasure is kept below: [Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo] gp worth.
-1,Interesting treasure is kept below: [Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo]gp worth plus one magic item.
+1,Mad treasure is kept below: [[Threedtwentypttwo]][[Threedtwentypttwo]][[Threedtwentypttwo]][[Threedtwentypttwo]] gp worth.
+1,Interesting treasure is kept below: [[Threedtwentypttwo]][[Threedtwentypttwo]][[Threedtwentypttwo]][[Threedtwentypttwo]][[Threedtwentypttwo]]gp worth plus one magic item.
 1,There is internecine warfare within the garrison.
 1,The garrison has a horrible disease.
 1,Important prisoners are kept in the dungeon.
@@ -42,14 +42,14 @@
 
 ;Complicationstwentyfive
 75,
-1,There is a secret entrance located at [Numberonetwelve] o'clock on the map.
+1,There is a secret entrance located at [[Numberonetwelve]] o'clock on the map.
 1,The fortress garrison is being attacked by a local faction when PCs arrive.
 1,The fortress garrison is being attacked by a monster when PCs arrive.
 1,The fortress garrison is dealing werewolf/changeling/The Thing, other "enemy-within" type monster when PCs arrive.
 1,The fortress garrison is a bunch of lazy drunken debaucherous irresponsible louts.
 1,A crazy dangerous beast is being transported to the capital and being housed here in the meantime.
-1,Mad treasure is kept below: [Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo] gp worth.
-1,Interesting treasure is kept below: [Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo]gp worth plus one magic item.
+1,Mad treasure is kept below: [[Threedtwentypttwo]][[Threedtwentypttwo]][[Threedtwentypttwo]][[Threedtwentypttwo]] gp worth.
+1,Interesting treasure is kept below: [[Threedtwentypttwo]][[Threedtwentypttwo]][[Threedtwentypttwo]][[Threedtwentypttwo]][[Threedtwentypttwo]]gp worth plus one magic item.
 1,There is internecine warfare within the garrison.
 1,The garrison has a horrible disease.
 1,Important prisoners are kept in the dungeon.
@@ -86,20 +86,20 @@
 1,A gatehouse with inner portcullises that cut off the gatehouse at both ends.
 1,A gatehouse with arrow slits.
 1,A gatehouse with murder holes,
-1,A barbican with murder holes and arrow slits in front of the gatehouse [Roof].
-1,A barbican with murder holes and arrow slits in front of the gatehouse [Roof] as well as portcullises that cut off escape.
+1,A barbican with murder holes and arrow slits in front of the gatehouse [[Roof]].
+1,A barbican with murder holes and arrow slits in front of the gatehouse [[Roof]] as well as portcullises that cut off escape.
 
 ;Stair
 3,
 1,A winding staircase 80 feet long in front of the front gate.
 
 ;Moat
-1,A moat [Dsixplusfourtimesten] feet across [Withmonster] [Causeway]. [Moathazard]
+1,A moat [[Dsixplusfourtimesten]] feet across [[Withmonster]] [[Causeway]]. [[Moathazard]]
 1,
 
 ;Secondarywalls
 2,
-1,A series of secondary walls--[Numberonetwenty] feet higher than the outer walls. There are [Numberonefour] fewer inner towers than outer ones.
+1,A series of secondary walls--[[Numberonetwenty]] feet higher than the outer walls. There are [[Numberonefour]] fewer inner towers than outer ones.
 
 
 ;Roof
@@ -118,7 +118,7 @@
 
 ;Causeway
 3,
-1,and a [Zeroone][Threedtwentypttwo][Threedtwentypttwo] foot curving causeway across it
+1,and a [[Zeroone]][[Threedtwentypttwo]][[Threedtwentypttwo]] foot curving causeway across it
 
 ;Zeroone
 1,
@@ -140,13 +140,13 @@
 
 ;Goblinfire
 1,green slime vats
-1,an assault by [Numberonefour] pig balloon riders
-1,an assault by [Numberonefour] trained, dyed, drugged war-baboons (per tower)
+1,an assault by [[Numberonefour]] pig balloon riders
+1,an assault by [[Numberonefour]] trained, dyed, drugged war-baboons (per tower)
 1,floating, biting, gas-spore like beings w/hallucinogenic spores
 1,a goblin witch casting a spell
-1,an attack by a goblin alchemist with [Numberonefour] weird devices
+1,an attack by a goblin alchemist with [[Numberonefour]] weird devices
 1,a goblin maggot priest
-1,[Numberonefour] snake with hands for heads and eyes embedded in their palms (per tower)
+1,[[Numberonefour]] snake with hands for heads and eyes embedded in their palms (per tower)
 
 ;Missiletype
 6,crossbow fire

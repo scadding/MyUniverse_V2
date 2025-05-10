@@ -1,25 +1,25 @@
 
 ;Start
 1,Bright colors<br>
-_<sgdisplay iterations="1">[bright]</sgdisplay><br>
+_<sgdisplay iterations="1">[[bright]]</sgdisplay><br>
 _Dull colors<br>
-_<sgdisplay iterations="1">[dull]</sgdisplay><br>
+_<sgdisplay iterations="1">[[dull]]</sgdisplay><br>
 _Light colors<br>
-_<sgdisplay iterations="1">[light]</sgdisplay><br>
+_<sgdisplay iterations="1">[[light]]</sgdisplay><br>
 _Dark colors<br>
-_<sgdisplay iterations="1">[dark]</sgdisplay><br>
+_<sgdisplay iterations="1">[[dark]]</sgdisplay><br>
 _Metallic colors<br>
-_<sgdisplay iterations="1">[metallic]</sgdisplay><br>
+_<sgdisplay iterations="1">[[metallic]]</sgdisplay><br>
 _Hues<br>
-_<sgdisplay iterations="1">[hues]</sgdisplay><br>
+_<sgdisplay iterations="1">[[hues]]</sgdisplay><br>
 _All colors<br>
-_<sgdisplay iterations="1">[all]</sgdisplay><br>
+_<sgdisplay iterations="1">[[all]]</sgdisplay><br>
 _Color in color<br>
-_<sgdisplay iterations="1">[color in color]</sgdisplay><br>
+_<sgdisplay iterations="1">[[color in color]]</sgdisplay><br>
 _Color in color simple<br>
-_<sgdisplay iterations="1">[color in color simple]</sgdisplay><br>
+_<sgdisplay iterations="1">[[color in color simple]]</sgdisplay><br>
 _Eye color<br>
-_<sgdisplay iterations="1">[eye] eyes</sgdisplay><br>
+_<sgdisplay iterations="1">[[eye]] eyes</sgdisplay><br>
 
 
 ;bright
@@ -147,20 +147,20 @@ _<sgdisplay iterations="1">[eye] eyes</sgdisplay><br>
 1,Lavender
 
 ;all
-1,[bright]
-1,[dull]
-1,[dark]
-1,[light]
-1,[metallic]
-1,[hues]
+1,[[bright]]
+1,[[dull]]
+1,[[dark]]
+1,[[light]]
+1,[[metallic]]
+1,[[hues]]
 
 ;allCap
-1,[brightCap]
-1,[dullCap]
-1,[darkCap]
-1,[lightCap]
-1,[metallicCap]
-1,[huesCap]
+1,[[brightCap]]
+1,[[dullCap]]
+1,[[darkCap]]
+1,[[lightCap]]
+1,[[metallicCap]]
+1,[[huesCap]]
 
 ;color in color
 1,<span style="color:#000000;">black</span>

@@ -3,10 +3,10 @@
 0, next
 
 ;Start
-3,[random]
-2,[general]
-10,[One sentence fantasy NPC.Start]
-1,[modernscifi]
+3,[[random]]
+2,[[general]]
+10,[[One sentence fantasy NPC.Start]]
+1,[[modernscifi]]
 
 ;general
 1,A beautiful genius with a penchant for complex plots but never quite in control of her hair-trigger temper.

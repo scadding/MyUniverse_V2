@@ -1,6 +1,6 @@
 
 ;Start
-1,[yPulpHeroNovel]
+1,[[yPulpHeroNovel]]
 
 ;yPulpNoun
 1,Yak
@@ -51,15 +51,15 @@
 1,against the
 5,and the
 1,in:
-1,and [yPulpAdjPositive] [yPulpMaleFirstName]'s 
+1,and [[yPulpAdjPositive]] [[yPulpMaleFirstName]]'s 
 
 ;pulpend
-1,[yPulpAdjNegative] [yPulpNoun]
+1,[[yPulpAdjNegative]] [[yPulpNoun]]
 
 ;yPulpHeroNovel
-10,[yPulpAdjPositive] [yPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[yPulpMaleFirstName] [yPulpLastName] [pulpmiddle] [pulpend]
-3,[yPulpAdjPositive] [yPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[yPulpFemaleFirstName] [yPulpLastName] [pulpmiddle] [pulpend]
+10,[[yPulpAdjPositive]] [[yPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[yPulpMaleFirstName]] [[yPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[yPulpAdjPositive]] [[yPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[yPulpFemaleFirstName]] [[yPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

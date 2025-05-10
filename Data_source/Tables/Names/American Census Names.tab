@@ -1,11 +1,11 @@
 
 ;Start
-1,[male] [surname] (male)
-1,[female] [surname] (female)
+1,[[male]] [[surname]] (male)
+1,[[female]] [[surname]] (female)
 
 ;male
-50,[commonmale]
-1,[uncommonmale]
+50,[[commonmale]]
+1,[[uncommonmale]]
 
 ;commonmale
 34,James

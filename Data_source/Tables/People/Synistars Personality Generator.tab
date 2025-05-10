@@ -1,15 +1,15 @@
 ;Start
-1,Positive: [positive]<br/>Negative: [negative]*<br/>Mask: [mask]<br/>
-1,Positive: [positive]*<br/>Negative: [negative]<br/>Mask: [mask]<br/>
-1,Positive: [positive]<br/>Negative: [negative]<br/>Mask: [mask]<br/>
-1,Positive: [positive]<br/>Negative: [negative]*<br/>
-1,Positive: [positive]*<br/>Negative: [negative]<br/>
-1,Positive: [positive]<br/>Negative: [negative]<br/>
+1,Positive: [[positive]]<br/>Negative: [[negative]]*<br/>Mask: [[mask]]<br/>
+1,Positive: [[positive]]*<br/>Negative: [[negative]]<br/>Mask: [[mask]]<br/>
+1,Positive: [[positive]]<br/>Negative: [[negative]]<br/>Mask: [[mask]]<br/>
+1,Positive: [[positive]]<br/>Negative: [[negative]]*<br/>
+1,Positive: [[positive]]*<br/>Negative: [[negative]]<br/>
+1,Positive: [[positive]]<br/>Negative: [[negative]]<br/>
 
 ;all
-1,[positive]
-1,[negative]
-1,[mask]
+1,[[positive]]
+1,[[negative]]
+1,[[mask]]
 
 ;positive
 1,Self-Disciplined

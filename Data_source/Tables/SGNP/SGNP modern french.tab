@@ -1,13 +1,13 @@
 
 ;Start
-1,[male] (male)
-1,[female] (female)
+1,[[male]] (male)
+1,[[female]] (female)
 
 ;male
-1,[frenchmale] [frenchsurname]
+1,[[frenchmale]] [[frenchsurname]]
 
 ;female
-1,[frenchfemale] [frenchsurname]
+1,[[frenchfemale]] [[frenchsurname]]
 
 ;frenchmale
 1,Adalard

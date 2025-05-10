@@ -1,6 +1,6 @@
 
 ;Start
-1,[wPulpHeroNovel]
+1,[[wPulpHeroNovel]]
 
 ;wPulpNoun
 1,Warriors
@@ -86,15 +86,15 @@
 5,and the
 1,and the War of the
 1,in:
-1,and [wPulpAdjPositive] [wPulpMaleFirstName]'s 
+1,and [[wPulpAdjPositive]] [[wPulpMaleFirstName]]'s 
 
 ;pulpend
-1,[wPulpAdjNegative] [wPulpNoun]
+1,[[wPulpAdjNegative]] [[wPulpNoun]]
 
 ;wPulpHeroNovel
-10,[wPulpAdjPositive] [wPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[wPulpMaleFirstName] [wPulpLastName] [pulpmiddle] [pulpend]
-3,[wPulpAdjPositive] [wPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[wPulpFemaleFirstName] [wPulpLastName] [pulpmiddle] [pulpend]
+10,[[wPulpAdjPositive]] [[wPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[wPulpMaleFirstName]] [[wPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[wPulpAdjPositive]] [[wPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[wPulpFemaleFirstName]] [[wPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

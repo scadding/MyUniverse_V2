@@ -1,15 +1,15 @@
 
 ;Start
-1,[StartFemale]
+1,[[StartFemale]]
 
 ;DescriptionText
-1,She has [FemaleHairStyleColor] with [Eyes]. [FemaleFacialExpressionSentence].
+1,She has [[FemaleHairStyleColor]] with [[Eyes]]. [[FemaleFacialExpressionSentence]].
 
 ;StartFemale
-1,[DescriptionText] [DistinguishingFeaturesChance] [TattooChanceFemale] [PiercingChanceFemale] [ScarChance]
+1,[[DescriptionText]] [[DistinguishingFeaturesChance]] [[TattooChanceFemale]] [[PiercingChanceFemale]] [[ScarChance]]
 
 ;StartMale
-1,[Start]
+1,[[Start]]
 
 ;HairColor
 1,ash blonde
@@ -34,7 +34,7 @@
 1,warm golden blonde
 1,light blonde
 1,near-white
-1,[HairColorUnusual]
+1,[[HairColorUnusual]]
 
 ;HairColorUnusual
 1,pink
@@ -46,8 +46,8 @@
 1,olive green
 
 ;Eyes
-150,[EyeColor] eyes
-1,<b>[EyeColorUnusual]</b>
+150,[[EyeColor]] eyes
+1,<b>[[EyeColorUnusual]]</b>
 
 ;EyeColor
 2,aquamarine
@@ -71,7 +71,7 @@
 2,warm brown
 1,yellow green
 1,indigo
-1,different colored (right: [EyeColor], left: [EyeColor])
+1,different colored (right: [[EyeColor]], left: [[EyeColor]])
 
 ;EyeColorUnusual
 1,eyes that are all black with white pupils
@@ -85,27 +85,27 @@
 1,eyes with irises that look like burning flames
 
 ;FemaleHairStyleColor
-10,short [HairCurve] [HairColor] hair
-5,pixie-cut [HairColor] hair
-10,chin-length [HairCurve] [HairColor] hair
-10,shoulder-length [HairCurve] [HairColor] hair
-11,long [HairCurve] [HairColor] hair
-5,[HairColor] hair in pigtails
-5,[HairColor] hair in a ponytail
-5,[HairColor] hair in two long braids
-5,[HairColor] hair in a single braid
-4,unkept [HairCurve] [HairColor] hair
-2,[HairColor] hair in dreadlocks
-4,[HairCurve] [HairColor] hair parted in the middle
-4,[HairColor] hair in a topknot
-4,[HairColor] hair in a bun
-2,[HairColor] hair cut close to her head
-1,[HairColor] hair in a large mohawk
-1,[HairColor] hair pulled behind a headband
-1,[HairColor] hair held back by a tortoiseshell comb
-6,very long [HairCurve] [HairColor] hair
-10,long, braided [HairColor] hair
-4,greasy, limp [HairColor] hair
+10,short [[HairCurve]] [[HairColor]] hair
+5,pixie-cut [[HairColor]] hair
+10,chin-length [[HairCurve]] [[HairColor]] hair
+10,shoulder-length [[HairCurve]] [[HairColor]] hair
+11,long [[HairCurve]] [[HairColor]] hair
+5,[[HairColor]] hair in pigtails
+5,[[HairColor]] hair in a ponytail
+5,[[HairColor]] hair in two long braids
+5,[[HairColor]] hair in a single braid
+4,unkept [[HairCurve]] [[HairColor]] hair
+2,[[HairColor]] hair in dreadlocks
+4,[[HairCurve]] [[HairColor]] hair parted in the middle
+4,[[HairColor]] hair in a topknot
+4,[[HairColor]] hair in a bun
+2,[[HairColor]] hair cut close to her head
+1,[[HairColor]] hair in a large mohawk
+1,[[HairColor]] hair pulled behind a headband
+1,[[HairColor]] hair held back by a tortoiseshell comb
+6,very long [[HairCurve]] [[HairColor]] hair
+10,long, braided [[HairColor]] hair
+4,greasy, limp [[HairColor]] hair
 
 ;HairCurve
 5,straight
@@ -116,30 +116,30 @@
 1,unkempt
 
 ;MaleHair
-8,has [MaleHairStyleColor]
+8,has [[MaleHairStyleColor]]
 1,is bald
-1,has thinning, receding [MaleHairStyleColor]
+1,has thinning, receding [[MaleHairStyleColor]]
 
 ;MaleHairStyleColor
-10,short-cropped [HairColor] hair
-4,wavy [HairColor] hair
-4,long [HairColor] hair
-3,[HairColor] hair in a ponytail
-1,"monk-cut" [HairColor] hair
+10,short-cropped [[HairColor]] hair
+4,wavy [[HairColor]] hair
+4,long [[HairColor]] hair
+3,[[HairColor]] hair in a ponytail
+1,"monk-cut" [[HairColor]] hair
 
 ;FemaleFacialExpressionSentence
-5,She has a[ExpressionAdjective] expression on her face
-5,She has an expression of [ExpressionNoun] on her face
-5,She seems [ExpressionAdjective]
-5,She seems [ExpressionAdjective]
-5,Her expression shows her inner [ExpressionNoun]
+5,She has a[[ExpressionAdjective]] expression on her face
+5,She has an expression of [[ExpressionNoun]] on her face
+5,She seems [[ExpressionAdjective]]
+5,She seems [[ExpressionAdjective]]
+5,Her expression shows her inner [[ExpressionNoun]]
 
 ;MaleFacialExpressionSentence
-5,He has a[ExpressionAdjective] expression on his face
-5,He has an expression of [ExpressionNoun] on his face
-5,He seems [ExpressionAdjective]
-5,He looks [ExpressionAdjective]
-5,His expression shows his inner [ExpressionNoun]
+5,He has a[[ExpressionAdjective]] expression on his face
+5,He has an expression of [[ExpressionNoun]] on his face
+5,He seems [[ExpressionAdjective]]
+5,He looks [[ExpressionAdjective]]
+5,His expression shows his inner [[ExpressionNoun]]
 
 ;ExpressionAdjective
 1,n aggressive
@@ -240,14 +240,14 @@
 
 ;Deformities
 1,humped back
-1,withered [Utility.LeftRight] hand
-1,withered [Utility.LeftRight] arm
-1,missing [Utility.LeftRight] hand
-1,missing [Utility.LeftRight] arm
-1,missing [Utility.LeftRight] leg
-2,withered [Finger] on [Utility.LeftRight] hand
-2,missing [Finger] on [Utility.LeftRight] hand
-1,extra finger on [Utility.LeftRight] hand
+1,withered [[Utility.LeftRight]] hand
+1,withered [[Utility.LeftRight]] arm
+1,missing [[Utility.LeftRight]] hand
+1,missing [[Utility.LeftRight]] arm
+1,missing [[Utility.LeftRight]] leg
+2,withered [[Finger]] on [[Utility.LeftRight]] hand
+2,missing [[Finger]] on [[Utility.LeftRight]] hand
+1,extra finger on [[Utility.LeftRight]] hand
 
 ;Finger
 5,thumb
@@ -257,24 +257,24 @@
 5,pinky
 
 ;DistinguishingFeaturesChance
-5,You immediately notice her [DistinguishingFeaturesFemale].
+5,You immediately notice her [[DistinguishingFeaturesFemale]].
 2,
 
 ;DistinguishingFeaturesMale
-10,[NoseShape] nose
-10,[FacialFeaturesMale]
-1,[Deformities]
-10,[FacialHairMale]
-10,[Build] build
-5,[DistinguishingFeaturesMale] and his [DistinguishingFeaturesMale]
+10,[[NoseShape]] nose
+10,[[FacialFeaturesMale]]
+1,[[Deformities]]
+10,[[FacialHairMale]]
+10,[[Build]] build
+5,[[DistinguishingFeaturesMale]] and his [[DistinguishingFeaturesMale]]
 
 ;DistinguishingFeaturesFemale
-10,[NoseShape] nose
-10,[FacialFeaturesFemale]
-3,[TorsoFeaturesFemale]
-1,[Deformities]
-10,[Build] build
-8,[DistinguishingFeaturesFemale] and her [DistinguishingFeaturesFemale]
+10,[[NoseShape]] nose
+10,[[FacialFeaturesFemale]]
+3,[[TorsoFeaturesFemale]]
+1,[[Deformities]]
+10,[[Build]] build
+8,[[DistinguishingFeaturesFemale]] and her [[DistinguishingFeaturesFemale]]
 
 ;FacialHairMale
 1,handlebar mustache
@@ -314,7 +314,7 @@
 1,bad acne
 1,lazy eye
 1,hairy upper lip
-3,[Utility.LeftRight] eye is covered by an eyepatch
+3,[[Utility.LeftRight]] eye is covered by an eyepatch
 1,shaved eyebrows
 1,chiseled facial features
 1,missing teeth
@@ -334,7 +334,7 @@
 1,pockmarked cheeks
 1,cleft chin
 1,dimples
-1,[Utility.LeftRight] eye has cataracts
+1,[[Utility.LeftRight]] eye has cataracts
 1,prominent freckles
 1,buck teeth
 1,pudgy cheeks
@@ -343,7 +343,7 @@
 1,missing teeth
 1,bad acne
 1,lazy eye
-3,[Utility.LeftRight] eye is covered by an eyepatch
+3,[[Utility.LeftRight]] eye is covered by an eyepatch
 1,shaved eyebrows
 1,chiseled facial features
 1,missing teeth
@@ -363,33 +363,33 @@
 1,obvious pregnancy
 
 ;TattooChance
-1,[TattooChanceFemale]
+1,[[TattooChanceFemale]]
 
 ;TattooChanceMale
 8,
-1,[Tattoos.Malemain]
+1,[[Tattoos.Malemain]]
 
 ;TattooChanceFemale
 7,
-1,[Tattoos.Femalemain].
+1,[[Tattoos.Femalemain]].
 
 ;PiercingChanceMale
 15,
-1,[PiercingsMale.Start]
+1,[[PiercingsMale.Start]]
 
 ;PiercingChanceFemale
 3,
-1,[Piercings.Femalemain]
+1,[[Piercings.Femalemain]]
 
 
 ;ScarChance
 10,
-1,She has a [ScarSize] scar on her [Scars].
+1,She has a [[ScarSize]] scar on her [[Scars]].
 
 ;Scars
-1,[FacialScars]
-1,[LimbScars]
-1,[TorsoScars]
+1,[[FacialScars]]
+1,[[LimbScars]]
+1,[[TorsoScars]]
 
 ;ScarSize
 5,small
@@ -398,30 +398,30 @@
 1,disfiguring
 
 ;FacialScars
-1,[Utility.LeftRight] cheek
-1,[Utility.LeftRight] side of the neck
-1,across the [Utility.LeftRight] eye area
-1,[Utility.LeftRight] lip
-1,[Utility.LeftRight] forehead
-1,[Utility.LeftRight] ear
+1,[[Utility.LeftRight]] cheek
+1,[[Utility.LeftRight]] side of the neck
+1,across the [[Utility.LeftRight]] eye area
+1,[[Utility.LeftRight]] lip
+1,[[Utility.LeftRight]] forehead
+1,[[Utility.LeftRight]] ear
 
 ;LimbScars
-1,upper [Utility.LeftRight] arm
-1,[Utility.LeftRight] elbow
-1,lower [Utility.LeftRight] arm
-1,[Utility.LeftRight] hand
-1,[Utility.LeftRight] thigh
-1,[Utility.LeftRight] calf
-1,[Utility.LeftRight] knee
-1,[Utility.LeftRight] foot
+1,upper [[Utility.LeftRight]] arm
+1,[[Utility.LeftRight]] elbow
+1,lower [[Utility.LeftRight]] arm
+1,[[Utility.LeftRight]] hand
+1,[[Utility.LeftRight]] thigh
+1,[[Utility.LeftRight]] calf
+1,[[Utility.LeftRight]] knee
+1,[[Utility.LeftRight]] foot
 
 ;TorsoScars
-1,upper [Utility.LeftRight] side of the chest
-1,lower [Utility.LeftRight] ribcage
-1,[Utility.LeftRight] shoulder
-1,upper [Utility.LeftRight] back
-1,lower [Utility.LeftRight] back
-1,[Utility.LeftRight] stomach area
-1,[Utility.LeftRight] buttock
+1,upper [[Utility.LeftRight]] side of the chest
+1,lower [[Utility.LeftRight]] ribcage
+1,[[Utility.LeftRight]] shoulder
+1,upper [[Utility.LeftRight]] back
+1,lower [[Utility.LeftRight]] back
+1,[[Utility.LeftRight]] stomach area
+1,[[Utility.LeftRight]] buttock
 
 

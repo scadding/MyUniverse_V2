@@ -1,17 +1,17 @@
 
 ;Start
-1,[who] is reading [what] (written in [ancientlanguages]) at [campuslocations].
-1,[who] is translating [what] from [ancientlanguages] into [ancientlanguages] at [campuslocations].
-1,[who] is secretly in love with [who].
-1,[who] is plagiarizing the work of [who].
+1,[[who]] is reading [[what]] (written in [[ancientlanguages]]) at [[campuslocations]].
+1,[[who]] is translating [[what]] from [[ancientlanguages]] into [[ancientlanguages]] at [[campuslocations]].
+1,[[who]] is secretly in love with [[who]].
+1,[[who]] is plagiarizing the work of [[who]].
 ;who
-1,[maleprofessor]
-1,[femaleprofessor]
-1,[malestudent]
-1,[femalestudent]
+1,[[maleprofessor]]
+1,[[femaleprofessor]]
+1,[[malestudent]]
+1,[[femalestudent]]
 ;what
-2,[realmagicaltexts]
-1,[imaginarymagicaltexts]
+2,[[realmagicaltexts]]
+1,[[imaginarymagicaltexts]]
 ;maleprofessor
 1,Underwood Mayfield-Carter 
 1,Juan Santiago Ramos-Torres 

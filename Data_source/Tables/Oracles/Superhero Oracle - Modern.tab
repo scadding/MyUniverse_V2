@@ -1,13 +1,13 @@
 
 ;Start
-1,'''Structured''':<br>[origins]<br>[events]<br>[stuff]<br>[villiany]
-1,'''Potpourri''':<br>[sub]<br>[sub]<br>[sub]<br>[sub]
+1,'''Structured''':<br>[[origins]]<br>[[events]]<br>[[stuff]]<br>[[villiany]]
+1,'''Potpourri''':<br>[[sub]]<br>[[sub]]<br>[[sub]]<br>[[sub]]
 
 ;sub
-1,[origins]
-1,[events]
-1,[stuff]
-1,[villiany]
+1,[[origins]]
+1,[[events]]
+1,[[stuff]]
+1,[[villiany]]
 
 ;origins
 1,1H - The citizen of a long hidden nation braving the unknown of the wider world.

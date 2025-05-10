@@ -1,36 +1,36 @@
 
 ;Start
-3,Name: [genderfirstname] [surname]<br/> <br/> [edgecon]  <br/> Arc: [arc]  <br/> Issue: [issue]  <br/> [secretchance][NemesisChance]<br/> <hr>
+3,Name: [[genderfirstname]] [[surname]]<br/> <br/> [[edgecon]]  <br/> Arc: [[arc]]  <br/> Issue: [[issue]]  <br/> [[secretchance]][[NemesisChance]]<br/> <hr>
 
 ;secretchance
 3,
-2,Secret: [secret] <br/> 
+2,Secret: [[secret]] <br/> 
 
 ;edgecon
-5,Edges:<ul><li>[edge]<li>[edge]</ul>Connection:<ul><li>[connection]</ul>
-5,Edge:<ul><li>[edge]</ul>Connections:<ul><li>[connection]<li>[connection]</ul>
+5,Edges:<ul><li>[[edge]]<li>[[edge]]</ul>Connection:<ul><li>[[connection]]</ul>
+5,Edge:<ul><li>[[edge]]</ul>Connections:<ul><li>[[connection]]<li>[[connection]]</ul>
 
 ;NemesisChance
 3,
-1,[Nemesis]<br/>
+1,[[Nemesis]]<br/>
 
 ;genderfirstname
-1,[American Census Names.male]
-1,[American Census Names.female]
+1,[[American Census Names.male]]
+1,[[American Census Names.female]]
 
 ;surname
-1,[American Census Names.surname]
+1,[[American Census Names.surname]]
 
 ;edge
-4,[fakeornot] [profession]
-2,[Modern Hobby.hobby]
+4,[[fakeornot]] [[profession]]
+2,[[Modern Hobby.hobby]]
 
 ;fakeornot
 15,
 1,Fake
 
 ;profession
-20,[Primetime Adventures Scifi Edges.Profession]
+20,[[Primetime Adventures Scifi Edges.Profession]]
 1,Mysterious Past
 1,Amnesiac
 
@@ -40,29 +40,29 @@
 1,Crooked
 
 ;connection
-2,Mother [neverknew]
-2,Father [neverknew]
+2,Mother [[neverknew]]
+2,Father [[neverknew]]
 2,Best Friend
-1,Best Friend From [past]
-2,Old Flame (a/an [edge])
+1,Best Friend From [[past]]
+2,Old Flame (a/an [[edge]])
 2,Significant Other
-2,Child [neverknew]
+2,Child [[neverknew]]
 2,Old Master
 2,Old Teacher
 2,Pilot
-1,[Modern Profession.Military]
-1,[Modern Profession.Medical]
+1,[[Modern Profession.Military]]
+1,[[Modern Profession.Medical]]
 2,Surgeon
 2,Priest
 2,Kid
-1,[school] Sweetheart
-1,[Modern Profession.Academic]
+1,[[school]] Sweetheart
+1,[[Modern Profession.Academic]]
 2,Lawyer
-1,[Modern Profession.Federal Agent]
-1,[Modern Profession.Cop]
+1,[[Modern Profession.Federal Agent]]
+1,[[Modern Profession.Cop]]
 2,Private Eye
-1,[Super Connection]
-1,[Supernatural Connection]
+1,[[Super Connection]]
+1,[[Supernatural Connection]]
 
 ;neverknew
 3,
@@ -88,15 +88,15 @@
 
 ;secret
 1,Once Killed Someone
-1,Slept With Friend's [Spouse]
-1,Is Sleeping With Friend's [Spouse]
-1,Cheated On [Significant Other]
-1,Is Cheating On [Significant Other]
-1,[Drug] Addict
+1,Slept With Friend's [[Spouse]]
+1,Is Sleeping With Friend's [[Spouse]]
+1,Cheated On [[Significant Other]]
+1,Is Cheating On [[Significant Other]]
+1,[[Drug]] Addict
 1,Alcoholic
 1,Has A Criminal Record
-1,Had A Homosexual Relationship In [past]
-1,Once Appeared In A Pornographic [vorm]
+1,Had A Homosexual Relationship In [[past]]
+1,Once Appeared In A Pornographic [[vorm]]
 1,Amnesiac
 1,Sold His/Her Soul To The Devil
 
@@ -105,7 +105,7 @@
 1,Wife
 
 ;Significant Other
-1,[Spouse]
+1,[[Spouse]]
 1,Boyfriend
 1,Girlfriend
 
@@ -115,8 +115,8 @@
 1,Web Site
 
 ;past
-1,[school]
-1,the [Modern Profession.Service]
+1,[[school]]
+1,the [[Modern Profession.Service]]
 1,the War
 1,the Academy
 
@@ -184,9 +184,9 @@
 1,Psychic
 1,Superhero
 1,Martial Arts Expert
-1,[Super Power]
+1,[[Super Power]]
 1,Super Weapon
-1,[Psionic Power]
+1,[[Psionic Power]]
 1,Super Vehicle
 
 ;Super Connection
@@ -237,5 +237,5 @@
 1,Morphine
 
 ;Nemesis
-1,Nemesis: [genderfirstname] [surname], [profession]
+1,Nemesis: [[genderfirstname]] [[surname]], [[profession]]
 

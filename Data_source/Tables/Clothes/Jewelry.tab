@@ -1,59 +1,59 @@
-#The Jewelry generator creates random valuable items that may be worn or carried on a person. Items are typically made of metal, though not exclusively, and includes <sgdisplay iterations="1">actual wearable jewelry ([Wearable], [Wearable]), trinkets ([Trinkets], [Trinkets]), tools and weapons ([ToolsAndWeapons], [ToolsAndWeapons]) and simple armor ([ArmorPieces], [ArmorPieces]).</sgdisplay> 
+#The Jewelry generator creates random valuable items that may be worn or carried on a person. Items are typically made of metal, though not exclusively, and includes <sgdisplay iterations="1">actual wearable jewelry ([[Wearable]], [[Wearable]]), trinkets ([[Trinkets]], [[Trinkets]]), tools and weapons ([[ToolsAndWeapons]], [[ToolsAndWeapons]]) and simple armor ([[ArmorPieces]], [[ArmorPieces]]).</sgdisplay> 
 #
-#For predominantly cloth wearable items, see the [[ClothingMale]] or [[ClothingFemale]]. For more complex weapons and armor, see [[Weapon]] and [[Armor]] or other associated tables. For items you might find in a household, see [[Household Treasures]].
+#For predominantly cloth wearable items, see the [[[ClothingMale]]] or [[[ClothingFemale]]]. For more complex weapons and armor, see [[[Weapon]]] and [[[Armor]]] or other associated tables. For items you might find in a household, see [[[Household Treasures]]].
 #
 #==Random Pieces of Jewelry:==
-#<sgdisplay iterations="5">{{ia|[Start]}}</sgdisplay>
+#<sgdisplay iterations="5">{{ia|[[Start]]}}</sgdisplay>
 #
 #==Without extra description:==
-#<sgdisplay iterations="5">{{ia|[startItemOnly]}}</sgdisplay>
+#<sgdisplay iterations="5">{{ia|[[startItemOnly]]}}</sgdisplay>
 #
 #==Wearable Jewelry Only==
-#<sgdisplay iterations="5">{{ia|[StartWearableOnly]}}</sgdisplay>
+#<sgdisplay iterations="5">{{ia|[[StartWearableOnly]]}}</sgdisplay>
 #
 #==Nonwearable Jewelry Only==
-#<sgdisplay iterations="5">{{ia|[StartNonwearableOnly]}}</sgdisplay>
+#<sgdisplay iterations="5">{{ia|[[StartNonwearableOnly]]}}</sgdisplay>
 #
 #==Armor Pieces Only==
-#<sgdisplay iterations="5">{{ia|[StartArmorPiecesOnly]}}</sgdisplay>
+#<sgdisplay iterations="5">{{ia|[[StartArmorPiecesOnly]]}}</sgdisplay>
 #
 #==Rings Only==
-#<sgdisplay iterations="5">{{ia|[JewelryMaterialClause]}} ring [Predicate]</sgdisplay>
+#<sgdisplay iterations="5">{{ia|[[JewelryMaterialClause]]}} ring [[Predicate]]</sgdisplay>
 
 
 ;Start
-5,[JewelryMaterialClause] [Item][Predicate]
-1,matching pair of [JewelryMaterialClause] [Item]s, each [Predicate]
+5,[[JewelryMaterialClause]] [[Item]][[Predicate]]
+1,matching pair of [[JewelryMaterialClause]] [[Item]]s, each [[Predicate]]
 
 ;StartItemOnly
-1,[JewelryMaterialClause] [Item]
+1,[[JewelryMaterialClause]] [[Item]]
 
 ;Predicate
-4, set with {{ia|[Utility.GemType]}}. [Craftsmanship]
-3, set with {{plural|[Dice.2d6] [Utility.GemType]}}. [Craftsmanship]
-4, [Design]. [Craftsmanship]
-2, [Design] and set with {{ia|[Utility.GemType]}}. [Craftsmanship]
-2, [Design] and set with {{plural|[Dice.2d6] [Utility.GemType]}}. [Craftsmanship]
-4, with [Utility.Symbols]. [Craftsmanship]
-2, with [Utility.Symbols] and set with {{ia|[Utility.GemType]}}. [Craftsmanship]
-2, with [Utility.Symbols] and set with {{plural|[Dice.1d12] [Utility.GemType]}}. [Craftsmanship]
-2, with the inscription "[Inscriptions.Start]" written in [Inscriptions.Language]. [Craftsmanship]
-2, with the inscription "[Inscriptions.Start]" written in [Inscriptions.Language] and set with {{plural|[Dice.2d6] [Utility.GemType]}}. [Craftsmanship]
+4, set with {{ia|[[Utility.GemType]]}}. [[Craftsmanship]]
+3, set with {{plural|[[Tables.Utility.Dice.2d6]] [[Utility.GemType]]}}. [[Craftsmanship]]
+4, [[Design]]. [[Craftsmanship]]
+2, [[Design]] and set with {{ia|[[Utility.GemType]]}}. [[Craftsmanship]]
+2, [[Design]] and set with {{plural|[[Tables.Utility.Dice.2d6]] [[Utility.GemType]]}}. [[Craftsmanship]]
+4, with [[Utility.Symbols]]. [[Craftsmanship]]
+2, with [[Utility.Symbols]] and set with {{ia|[[Utility.GemType]]}}. [[Craftsmanship]]
+2, with [[Utility.Symbols]] and set with {{plural|[[Tables.Utility.Dice.1d12]] [[Utility.GemType]]}}. [[Craftsmanship]]
+2, with the inscription "[[Inscriptions.Start]]" written in [[Inscriptions.Language]]. [[Craftsmanship]]
+2, with the inscription "[[Inscriptions.Start]]" written in [[Inscriptions.Language]] and set with {{plural|[[Tables.Utility.Dice.2d6]] [[Utility.GemType]]}}. [[Craftsmanship]]
 
 ;StartWearableOnly
-4,[JewelryMaterialClause] [Wearable], [Predicate]
-1,matching pair of [JewelryMaterialClause] [Wearable]s, each [Predicate]
+4,[[JewelryMaterialClause]] [[Wearable]], [[Predicate]]
+1,matching pair of [[JewelryMaterialClause]] [[Wearable]]s, each [[Predicate]]
 
 ;StartNonwearableOnly
-4,[JewelryMaterialClause] [Nonwearable], [Predicate]
-1,matching pair of [JewelryMaterialClause] [Nonwearable]s, each [Predicate]
+4,[[JewelryMaterialClause]] [[Nonwearable]], [[Predicate]]
+1,matching pair of [[JewelryMaterialClause]] [[Nonwearable]]s, each [[Predicate]]
 
 ;StartArmorPiecesOnly
-1,[JewelryMaterialClause] [ArmorPieces], [Predicate]
+1,[[JewelryMaterialClause]] [[ArmorPieces]], [[Predicate]]
 
 ;JewelryMaterialClause
-5,[JewelryMaterial]
-2,[MaterialAdj] [JewelryMaterial]
+5,[[JewelryMaterial]]
+2,[[MaterialAdj]] [[JewelryMaterial]]
 
 ;MaterialAdj
 1,twisted
@@ -70,10 +70,10 @@
 1,gaudy
 
 ;Item
-6,[Wearable]
-3,[Trinkets]
-2,[ToolsAndWeapons]
-1,[ArmorPieces]
+6,[[Wearable]]
+3,[[Trinkets]]
+2,[[ToolsAndWeapons]]
+1,[[ArmorPieces]]
 
 ;Wearable
 2,amulet
@@ -156,9 +156,9 @@
 1,shoulder clasp
 
 ;Nonwearable
-3,[Trinkets]
-2,[ToolsAndWeapons]
-2,[Kitchenware]
+3,[[Trinkets]]
+2,[[ToolsAndWeapons]]
+2,[[Kitchenware]]
 
 ;Kitchenware
 1,bottle
@@ -190,7 +190,7 @@
 1,salt shaker
 1,serving fork
 1,serving spoon
-1,set of [Dice.2d4] nested bowls
+1,set of [[Tables.Utility.Dice.2d4]] nested bowls
 1,spoon
 1,stein
 1,tankard
@@ -256,7 +256,7 @@
 1,screen
 4,scroll tube
 1,seal
-1,set of [Dice.2d4] buttons
+1,set of [[Tables.Utility.Dice.2d4]] buttons
 1,skull
 1,small animal cage
 1,small box
@@ -274,8 +274,8 @@
 
 
 ;ToolsAndWeapons
-3,[Dice.1d10] foot chain with [Dice.1d4] inch links
-1,[Dice.1d4] sewing needle(s)
+3,[[Tables.Utility.Dice.1d10]] foot chain with [[Tables.Utility.Dice.1d4]] inch links
+1,[[Tables.Utility.Dice.1d4]] sewing needle(s)
 1,abacus
 1,arrowhead
 1,astrolabe
@@ -288,7 +288,7 @@
 1,cane
 2,dagger
 1,dagger sheath
-1,[Dice.2d6] arrowheads
+1,[[Tables.Utility.Dice.2d6]] arrowheads
 4,eating knife
 1,fishhook
 1,fishing rod
@@ -328,30 +328,30 @@
 
 
 ;Design
-1,[DesignForm] with strange symbols
-1,[DesignForm] with concentric circles
-1,[DesignForm] with a twisting, vine-like pattern
-4,inlaid with a pattern of [Utility.MetalPrecious]
-1,inlaid with a pattern of [Utility.MetalExotic]
-1,[DesignForm] with an ancient proverb: "[Inscriptions.Advice]"
-1,[DesignForm] with a dragon-like shape
-1,[DesignForm] with the likeness of an ancient king
-1,[DesignForm] with the figures of the old gods
-1,[DesignForm] with a curious map
-1,[DesignForm] with a genealogical record of the maker's family
-1,[DesignForm] with the figure of naked woman
-1,covered in a web-like pattern of [DesignForm] lines
-1,[DesignForm] with an image of the sun
-1,inlaid with [Utility.StoneDecorative]
-1,inlaid with [Utility.Chitin] chitin
-1,inlaid with [Utility.HornIvory]
-4,[DesignForm] with folk symbols said to [FolkSymbolEffects]
-3,[DesignForm] with [SpiritForm.Start]
-1,[DesignForm] with the name of the creature whose essence is in it: [SGNP angels and demons.Start]
-1,with [Utility.MetalPrecious] inlay
-1,with [Utility.MetalPrecious] filigree
-1,with [Utility.MetalPrecious] mounting in the shape of [SpiritForm.Start]
-1,with [Utility.MetalPrecious] accents
+1,[[DesignForm]] with strange symbols
+1,[[DesignForm]] with concentric circles
+1,[[DesignForm]] with a twisting, vine-like pattern
+4,inlaid with a pattern of [[Utility.MetalPrecious]]
+1,inlaid with a pattern of [[Utility.MetalExotic]]
+1,[[DesignForm]] with an ancient proverb: "[[Inscriptions.Advice]]"
+1,[[DesignForm]] with a dragon-like shape
+1,[[DesignForm]] with the likeness of an ancient king
+1,[[DesignForm]] with the figures of the old gods
+1,[[DesignForm]] with a curious map
+1,[[DesignForm]] with a genealogical record of the maker's family
+1,[[DesignForm]] with the figure of naked woman
+1,covered in a web-like pattern of [[DesignForm]] lines
+1,[[DesignForm]] with an image of the sun
+1,inlaid with [[Utility.StoneDecorative]]
+1,inlaid with [[Utility.Chitin]] chitin
+1,inlaid with [[Utility.HornIvory]]
+4,[[DesignForm]] with folk symbols said to [[FolkSymbolEffects]]
+3,[[DesignForm]] with [[SpiritForm.Start]]
+1,[[DesignForm]] with the name of the creature whose essence is in it: [[SGNP angels and demons.Start]]
+1,with [[Utility.MetalPrecious]] inlay
+1,with [[Utility.MetalPrecious]] filigree
+1,with [[Utility.MetalPrecious]] mounting in the shape of [[SpiritForm.Start]]
+1,with [[Utility.MetalPrecious]] accents
 
 
 ;DesignForm
@@ -382,7 +382,7 @@
 2,protect against lycanthropes
 1,protect against the evil eye
 2,protect against the undead
-1,protect the owner against [Utility.CreatureTypes]s
+1,protect the owner against [[Utility.CreatureTypes]]s
 1,protect the owner from drowning
 1,protect the owner from lightning
 1,ward against evil spirits
@@ -390,20 +390,20 @@
 5,ward off evil
 
 ;JewelryMaterial
-1,[Utility.Chitin] chitin
-40,[Utility.MetalPrecious]
-3,[Utility.MetalExotic]
-3,[Utility.StoneDecorative]
-3,[Utility.HornIvory]
-4,[Utility.MetalPrecious] and [JewelryMaterial]
+1,[[Utility.Chitin]] chitin
+40,[[Utility.MetalPrecious]]
+3,[[Utility.MetalExotic]]
+3,[[Utility.StoneDecorative]]
+3,[[Utility.HornIvory]]
+4,[[Utility.MetalPrecious]] and [[JewelryMaterial]]
 
 ;Craftsmanship
 7,
-3,It is of [workmanshiptype] workmanship.
-1,Its design is reminiscent of other, similar pieces known to have been made by [craftculture]
-1,It seems to be a relatively recent replica of an older style made famous by [craftculture]
-1,It appears to have been made by [craftculture]
-1,[ValueDerivation]
+3,It is of [[workmanshiptype]] workmanship.
+1,Its design is reminiscent of other, similar pieces known to have been made by [[craftculture]]
+1,It seems to be a relatively recent replica of an older style made famous by [[craftculture]]
+1,It appears to have been made by [[craftculture]]
+1,[[ValueDerivation]]
 
 ;workmanshiptype
 2,ancient
@@ -438,9 +438,9 @@
 ;ValueDerivation
 1,Much of the piece's value comes from the fact that it is obviously quite old.
 1,Much of the piece's value comes from the rarity of the style it is done in.
-1,Much of the piece's value is due to the fame of the crafter, [Fantasy Names.Start].
-1,Much of its value stems from the fact that it was famously owned by [Fantasy Names.Start].
-1,The piece is valuable because it was involved in [Art Grace and Guts Oracle.Events Lcase].
-1,The piece would be worth much less had it not been used to deter [Art Grace and Guts Oracle.Threats Lcase].
+1,Much of the piece's value is due to the fame of the crafter, [[Fantasy Names.Start]].
+1,Much of its value stems from the fact that it was famously owned by [[Fantasy Names.Start]].
+1,The piece is valuable because it was involved in [[Art Grace and Guts Oracle.Events Lcase]].
+1,The piece would be worth much less had it not been used to deter [[Art Grace and Guts Oracle.Threats Lcase]].
 
 

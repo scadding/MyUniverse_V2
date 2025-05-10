@@ -1,18 +1,18 @@
 
 
 ;Start
-1,[countryname]
+1,[[countryname]]
 
 
 ;countryname
-2,[syllable] the [placename] of [descriptorb]
-2,[syllable]'[syllable] the [placename] of [descriptorb]
-2,[syllable]'[syllable] the [descriptora] [placename]
-1,[syllable]'[syllable]
-2,[syllable]-[syllable]
-1,[syllable]'[syllable]'[syllable]
-4,The [descriptora] [placename]
-2,The [placename] of [descriptorb]
+2,[[syllable]] the [[placename]] of [[descriptorb]]
+2,[[syllable]]'[[syllable]] the [[placename]] of [[descriptorb]]
+2,[[syllable]]'[[syllable]] the [[descriptora]] [[placename]]
+1,[[syllable]]'[[syllable]]
+2,[[syllable]]-[[syllable]]
+1,[[syllable]]'[[syllable]]'[[syllable]]
+4,The [[descriptora]] [[placename]]
+2,The [[placename]] of [[descriptorb]]
 
 
 ;syllable

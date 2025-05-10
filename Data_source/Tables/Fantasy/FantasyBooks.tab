@@ -1,53 +1,53 @@
 
 
 ;Start
-7,[GeneralBook]
-2,[ReligiousBook]
-5,[BiographyBook]
-2,[HistoryBook]
-2,[AbstractBook]
-1,[Cookbook]
-2,[Howto]
+7,[[GeneralBook]]
+2,[[ReligiousBook]]
+5,[[BiographyBook]]
+2,[[HistoryBook]]
+2,[[AbstractBook]]
+1,[[Cookbook]]
+2,[[Howto]]
 
 ;GeneralBook
-5,[Article][Type] [Preposition] [Subject] [TranslationChance]
-5,[Article][Type] [Preposition] [Subject], by [Author] [TranslationChance]
-3,[Author]'s [Type] [Preposition] [Subject] [TranslationChance]
+5,[[Article]][[Type]] [[Preposition]] [[Subject]] [[TranslationChance]]
+5,[[Article]][[Type]] [[Preposition]] [[Subject]], by [[Author]] [[TranslationChance]]
+3,[[Author]]'s [[Type]] [[Preposition]] [[Subject]] [[TranslationChance]]
 
 ;ReligiousBook
-5,[Article][Type] [Preposition] [ReligiousSubject] [TranslationChance]
-5,[Article][Type] [Preposition] [ReligiousSubject], by [Author] [TranslationChance]
-3,[Author]'s [Type] [Preposition] [ReligiousSubject] [TranslationChance]
-1,The [ReligiousSubject], by [Author] [TranslationChance]
+5,[[Article]][[Type]] [[Preposition]] [[ReligiousSubject]] [[TranslationChance]]
+5,[[Article]][[Type]] [[Preposition]] [[ReligiousSubject]], by [[Author]] [[TranslationChance]]
+3,[[Author]]'s [[Type]] [[Preposition]] [[ReligiousSubject]] [[TranslationChance]]
+1,The [[ReligiousSubject]], by [[Author]] [[TranslationChance]]
 
 ;BiographyBook
-3,The [Biographical] of [Person], by [Author] [TranslationChance]
-1,The [Biographical] of [Person] [TranslationChance]
-2,[Travel] of [Person] [TranslationChance]
+3,The [[Biographical]] of [[Person]], by [[Author]] [[TranslationChance]]
+1,The [[Biographical]] of [[Person]] [[TranslationChance]]
+2,[[Travel]] of [[Person]] [[TranslationChance]]
 
 ;HistoryBook
-1,[History] of [Subject], by [Author] [TranslationChance]
-1,[History] of [Subject] [TranslationChance]
+1,[[History]] of [[Subject]], by [[Author]] [[TranslationChance]]
+1,[[History]] of [[Subject]] [[TranslationChance]]
 
 ;Cookbook
-1,[Dice.1d10][Dice.1d10][Dice.1d10] [DeliciousWord] [GheronUtility.CulturesHuman] Recipes
-1,[SelectionCriteria] [GheronUtility.CulturesHuman] Recipes
-1,Cooking in the [GheronUtility.CulturesHuman] Style
-1,[GheronUtility.CulturesHuman] Cuisine Made Easy
-10,[SelectionCriteria] Recipes for [FantasyMenu.MainMeals], by [Author] [TranslationChance]
-6,[SelectionCriteria] Recipes from the Kitchen of [Author]
-6,[Fantasy Names.MaleFirstName]'s [FantasyMenu.Descriptor] [FantasyMenu.MainMeals] and other [DeliciousWord] Recipes
-4,[Dice.3d6] Ways to Prepare [FantasyMenu.MainMeals], by [Author] [TranslationChance]
+1,[[Tables.Utility.Dice.1d10]][[Tables.Utility.Dice.1d10]][[Tables.Utility.Dice.1d10]] [[DeliciousWord]] [[GheronUtility.CulturesHuman]] Recipes
+1,[[SelectionCriteria]] [[GheronUtility.CulturesHuman]] Recipes
+1,Cooking in the [[GheronUtility.CulturesHuman]] Style
+1,[[GheronUtility.CulturesHuman]] Cuisine Made Easy
+10,[[SelectionCriteria]] Recipes for [[FantasyMenu.MainMeals]], by [[Author]] [[TranslationChance]]
+6,[[SelectionCriteria]] Recipes from the Kitchen of [[Author]]
+6,[[Fantasy Names.MaleFirstName]]'s [[FantasyMenu.Descriptor]] [[FantasyMenu.MainMeals]] and other [[DeliciousWord]] Recipes
+4,[[Tables.Utility.Dice.3d6]] Ways to Prepare [[FantasyMenu.MainMeals]], by [[Author]] [[TranslationChance]]
 
 ;Howto
-3,[SucceedArtsCraftsWord] [ArtsCrafts], by [Author] [TranslationChance]
-1,[SucceedArtsCraftsWord] [GheronUtility.Cultures] [MethodsType] of [ArtsCrafts], by [Author] [TranslationChance]
-1,[HowtoWord] Join [GheronUtility.Organization], by [Author] [TranslationChance]
-1,[HowtoWord] Grow [FantasyMenu.VeggiesCookable], by [Author] [TranslationChance]
-1,[HowtoWord] [TerrainHowto] the [Utility.Terrains], by [Author] [TranslationChance]
-3,[HowtoWord] [TerrainHowto] the [Destination], by [Author] [TranslationChance]
-1,[Author]'s Guide to More [Inscriptions.AbstractNounPositive] in Your Life[ExclamationChance]
-1,[Author]'s Guide to Less [Inscriptions.AbstractNounNegative] in Your Life[ExclamationChance]
+3,[[SucceedArtsCraftsWord]] [[ArtsCrafts]], by [[Author]] [[TranslationChance]]
+1,[[SucceedArtsCraftsWord]] [[GheronUtility.Cultures]] [[MethodsType]] of [[ArtsCrafts]], by [[Author]] [[TranslationChance]]
+1,[[HowtoWord]] Join [[GheronUtility.Organization]], by [[Author]] [[TranslationChance]]
+1,[[HowtoWord]] Grow [[FantasyMenu.VeggiesCookable]], by [[Author]] [[TranslationChance]]
+1,[[HowtoWord]] [[TerrainHowto]] the [[Utility.Terrains]], by [[Author]] [[TranslationChance]]
+3,[[HowtoWord]] [[TerrainHowto]] the [[Destination]], by [[Author]] [[TranslationChance]]
+1,[[Author]]'s Guide to More [[Inscriptions.AbstractNounPositive]] in Your Life[[ExclamationChance]]
+1,[[Author]]'s Guide to Less [[Inscriptions.AbstractNounNegative]] in Your Life[[ExclamationChance]]
 
 ;Type
 10,Book
@@ -62,10 +62,10 @@
 10,Manuscript
 10,Tome
 10,Treatise
-10,[SelectionCriteria] Stories
-10,[SelectionCriteria] Tales
-10,[SelectionCriteria] Works
-10,[SelectionCriteria] Writings
+10,[[SelectionCriteria]] Stories
+10,[[SelectionCriteria]] Tales
+10,[[SelectionCriteria]] Works
+10,[[SelectionCriteria]] Writings
 9,Almanac
 1,Background
 2,Basics
@@ -96,16 +96,16 @@
 4,Thesis
 1,Varieties
 3,Volume
-8,[Completeness] Guide
-9,[SelectionCriteria] Essays
-8,[SelectionCriteria] Knowledge
-4,[SelectionCriteria] Legends
-8,[SelectionCriteria] Notes
-4,[SelectionCriteria] Plays
-8,[SelectionCriteria] Poems
-8,[SelectionCriteria] Songs
-5,[SelectionCriteria] Studies
-7,[SelectionCriteria] Wisdom
+8,[[Completeness]] Guide
+9,[[SelectionCriteria]] Essays
+8,[[SelectionCriteria]] Knowledge
+4,[[SelectionCriteria]] Legends
+8,[[SelectionCriteria]] Notes
+4,[[SelectionCriteria]] Plays
+8,[[SelectionCriteria]] Poems
+8,[[SelectionCriteria]] Songs
+5,[[SelectionCriteria]] Studies
+7,[[SelectionCriteria]] Wisdom
 
 ;Preposition
 1,on
@@ -116,37 +116,37 @@
 1,Pertaining to
 
 ;AbstractBook
-1,The [Type] of [AbstractSubject] [TranslationChance]
-1,The [SelectionCriteria] [Type] of [AbstractSubject] [TranslationChance]
-1,[Author]'s [Type] of [Inscriptions.AbstractNoun]
-1,[Inscriptions.AbstractNoun]: The [SelectionCriteria] [Type]
-1,[Type] [Preposition] [AbstractSubject]
+1,The [[Type]] of [[AbstractSubject]] [[TranslationChance]]
+1,The [[SelectionCriteria]] [[Type]] of [[AbstractSubject]] [[TranslationChance]]
+1,[[Author]]'s [[Type]] of [[Inscriptions.AbstractNoun]]
+1,[[Inscriptions.AbstractNoun]]: The [[SelectionCriteria]] [[Type]]
+1,[[Type]] [[Preposition]] [[AbstractSubject]]
 
 ;AbstractSubject
-25,[Inscriptions.AbstractNoun]
+25,[[Inscriptions.AbstractNoun]]
 1,the Dead
 1,Days
 1,Years
 1,Circles
 
 ;ReligiousSubject
-14,the Church of [List of gods.Start]
-15,the [ReligiousWords] of the Church of [List of gods.Start]
+14,the Church of [[List of gods.Start]]
+15,the [[ReligiousWords]] of the Church of [[List of gods.Start]]
 1,Dark Gods
 1,Pagan Gods
-5,[List of gods.Start]'s [ReligiousWords]
-5,[ReligiousWords] of [GheronUtility.Organization]
-5,[ReligiousWords] of [Secret Society Title.SecretSocietyName]
-2,the [SelectionCriteria] Hymns of [List of gods.Start]
+5,[[List of gods.Start]]'s [[ReligiousWords]]
+5,[[ReligiousWords]] of [[GheronUtility.Organization]]
+5,[[ReligiousWords]] of [[Secret Society Title.SecretSocietyName]]
+2,the [[SelectionCriteria]] Hymns of [[List of gods.Start]]
 
 ;Subject
-30,[ArtsCrafts]
-55,[GheronUtility.Cultures] [ArtsCrafts]
-15,[GheronUtility.Organization]
-10,[Compass direction.4]ern [ArtsCrafts]
+30,[[ArtsCrafts]]
+55,[[GheronUtility.Cultures]] [[ArtsCrafts]]
+15,[[GheronUtility.Organization]]
+10,[[Compass direction.4]]ern [[ArtsCrafts]]
 1,Alchemy
 1,Ancient Empires
-6,Ancient [ArtsCrafts]
+6,Ancient [[ArtsCrafts]]
 1,Artifacts and Relics
 1,Assassination
 1,Astrology
@@ -172,24 +172,24 @@
 1,Undead Lore
 1,Unholy Rites
 1,Weather
-5,[Adjective] Followers of [List of gods.Start]
-5,[Adjective] Leaders of [GheronUtility.Organization]
-5,[Adjective] [GheronUtility.Cultures] Folk Heroes
-6,[Fantasy Town Names.Start]
-5,[Secret Society Title.SecretSocietyName]
-4,[Compass direction.4]ern [ReligiousWords]
-6,{{ucfirst:[Wizard schools.Start]}}
-1,[Utility.RuneLanguage] Runes
+5,[[Adjective]] Followers of [[List of gods.Start]]
+5,[[Adjective]] Leaders of [[GheronUtility.Organization]]
+5,[[Adjective]] [[GheronUtility.Cultures]] Folk Heroes
+6,[[Fantasy Town Names.Start]]
+5,[[Secret Society Title.SecretSocietyName]]
+4,[[Compass direction.4]]ern [[ReligiousWords]]
+6,{{ucfirst:[[Wizard schools.Start]]}}
+1,[[Utility.RuneLanguage]] Runes
 1,the Heavens
 1,the Illithid War
 1,the Sea
 1,the Stars
 1,the Underdark
-5,the [Adjective] [Plans] between [GheronUtility.Organization] and [GheronUtility.Organization] 
-2,the [Adjective] [Plans] between [GheronUtility.Organization] and [Secret Society Title.SecretSocietyName]
-9,the [GheronUtility.Cultures] Nation
-6,the [GheronUtility.Cultures]-[GheronUtility.Cultures] Wars
-5,the [GheronUtility.Cultures]-[GheronUtility.Cultures] [Plans]
+5,the [[Adjective]] [[Plans]] between [[GheronUtility.Organization]] and [[GheronUtility.Organization]] 
+2,the [[Adjective]] [[Plans]] between [[GheronUtility.Organization]] and [[Secret Society Title.SecretSocietyName]]
+9,the [[GheronUtility.Cultures]] Nation
+6,the [[GheronUtility.Cultures]]-[[GheronUtility.Cultures]] Wars
+5,the [[GheronUtility.Cultures]]-[[GheronUtility.Cultures]] [[Plans]]
 
 ;ArtsCrafts
 15,Culture
@@ -306,7 +306,7 @@
 5,Short
 3,Treasury of
 3,Unabridged
-5,[Completeness]
+5,[[Completeness]]
 
 ;Completeness
 5,Complete
@@ -342,7 +342,7 @@
 2,Unforgettable
 3,Unknown
 2,Unusual
-10,[Secret Society Title.TitleDescriptor]
+10,[[Secret Society Title.TitleDescriptor]]
 
 ;Plans
 1,Agenda
@@ -379,7 +379,7 @@
 
 ;Biographical
 20,Life
-10,[Adjective] Story
+10,[[Adjective]] Story
 2,Accomplishments
 1,Adventures
 2,Ballad
@@ -412,24 +412,24 @@
 1,Trials
 1,Unique Philosophy
 2,Works
-2,[Adjective] Tale
-5,[Biographical] and [Biographical]
-6,[Biographical] and [Travel]
-5,[LifeEvent]
-2,[SelectionCriteria] Epistles
-2,[SelectionCriteria] Letters
-2,[SelectionCriteria] Plays
-3,[SelectionCriteria] Poems
-1,[SelectionCriteria] Prophecies
-1,[SelectionCriteria] Proverbs
-3,[SelectionCriteria] Songs
-1,[SelectionCriteria] Speeches
-4,[SelectionCriteria] Tales
-2,[SelectionCriteria] Treatises
-1,[SelectionCriteria] Visions
-3,[SelectionCriteria] Wisdom
-1,[SelectionCriteria] Writings
-4,[Travel] and [LifeEvent]
+2,[[Adjective]] Tale
+5,[[Biographical]] and [[Biographical]]
+6,[[Biographical]] and [[Travel]]
+5,[[LifeEvent]]
+2,[[SelectionCriteria]] Epistles
+2,[[SelectionCriteria]] Letters
+2,[[SelectionCriteria]] Plays
+3,[[SelectionCriteria]] Poems
+1,[[SelectionCriteria]] Prophecies
+1,[[SelectionCriteria]] Proverbs
+3,[[SelectionCriteria]] Songs
+1,[[SelectionCriteria]] Speeches
+4,[[SelectionCriteria]] Tales
+2,[[SelectionCriteria]] Treatises
+1,[[SelectionCriteria]] Visions
+3,[[SelectionCriteria]] Wisdom
+1,[[SelectionCriteria]] Writings
+4,[[Travel]] and [[LifeEvent]]
 
 ;LifeEvent
 1,Battles
@@ -462,7 +462,7 @@
 1,Founder
 1,Follower
 1,Disciple
-4,[Secret Society Title.Title]
+4,[[Secret Society Title.Title]]
 
 ;Article
 1,The 
@@ -470,7 +470,7 @@
 
 ;History
 5,History
-1,[SelectionCriteria] History
+1,[[SelectionCriteria]] History
 1,Abridged History
 1,Best Loved Tales 
 1,Well-Known Stories
@@ -481,12 +481,12 @@
 2,Chronology
 
 ;Author
-4,[Fantasy Names.StartMale]
-1,[Fantasy Names.StartFemale]
+4,[[Fantasy Names.StartMale]]
+1,[[Fantasy Names.StartFemale]]
 
 ;Person
-3,[Fantasy Names.StartMale]
-1,[Fantasy Names.StartFemale]
+3,[[Fantasy Names.StartMale]]
+1,[[Fantasy Names.StartFemale]]
 
 ;Travel
 1,Days
@@ -500,13 +500,13 @@
 1,Travels
 1,Voyages
 1,Wanderings
-1,[Travel] and [Biographical]
-1,[Travel] and [Travel]
+1,[[Travel]] and [[Biographical]]
+1,[[Travel]] and [[Travel]]
 
 ;ReligiousWords
-2,Ancient [ReligiousWords]
+2,Ancient [[ReligiousWords]]
 1,Apocrypha
-2,Apocryphal [ReligiousWords]
+2,Apocryphal [[ReligiousWords]]
 2,Beliefs
 1,Blessings
 2,Catechism
@@ -518,7 +518,7 @@
 1,Devotees
 3,Doctrine
 2,Dogma
-2,Early [ReligiousWords]
+2,Early [[ReligiousWords]]
 1,Followers
 1,Heroes
 2,High Priests
@@ -557,14 +557,14 @@
 2,Traditions
 1,Vestments
 1,Wisdom
-4,[ReligiousWords] and [ReligiousWords]
+4,[[ReligiousWords]] and [[ReligiousWords]]
 
 ;TranslationChance
-2,, [TranslationWords] by [Author]
+2,, [[TranslationWords]] by [[Author]]
 20,
 
 ;TranslationWords
-10,translated from the original [GheronUtility.NonCommonLanguage]
+10,translated from the original [[GheronUtility.NonCommonLanguage]]
 5,annotated
 5,compiled
 5,edited
@@ -573,10 +573,10 @@
 1,selected
 1,translation
 1,updated
-10,with [Inclusions]
+10,with [[Inclusions]]
 
 ;Inclusions
-3,[Inclusions] and [Inclusions]
+3,[[Inclusions]] and [[Inclusions]]
 1,additional commentary
 1,afterword
 1,annotations
@@ -606,7 +606,7 @@
 4,Sumptuous
 4,Tasty
 2,Yummy
-4,[GheronUtility.CulturesHuman]
+4,[[GheronUtility.CulturesHuman]]
 
 ;HowtoWord
 4,How to
@@ -614,7 +614,7 @@
 1,The Best Way to
 1,What You'll Need to
 1,You Too Can
-1,[Dice.3d6] Ways to
+1,[[Tables.Utility.Dice.3d6]] Ways to
 
 ;TerrainHowto
 10,Survive in
@@ -633,7 +633,7 @@
 2,Earn a Living
 1,Flourish
 1,Get Ahead
-1,Learn to [SucceedProfessionWord]
+1,Learn to [[SucceedProfessionWord]]
 2,Make a Living
 2,Make it
 2,Prosper
@@ -675,8 +675,8 @@
 5,The Art of
 2,The Beginner's Guide to
 1,The Power of 
-2,The [Secret Society Title.OrgDescriptor] Art of
-1,[Dice.3d6] Lessons for Successful
+2,The [[Secret Society Title.OrgDescriptor]] Art of
+1,[[Tables.Utility.Dice.3d6]] Lessons for Successful
 
 ;ExclamationChance
 1,!
@@ -695,8 +695,8 @@
 2,Types
 
 ;Destination
-1,[Fantasy Town Names.Start]
-1,[Fantasy Landmarks.Start]
-1,[Fantasy Town Feature.Start]
-1,[Poetic Destinations.Start]
+1,[[Fantasy Town Names.Start]]
+1,[[Fantasy Landmarks.Start]]
+1,[[Fantasy Town Feature.Start]]
+1,[[Poetic Destinations.Start]]
 

@@ -1,28 +1,28 @@
 
 ;Start
-1,[StartMale] (male)
-1,[StartFemale] (female)
+1,[[StartMale]] (male)
+1,[[StartFemale]] (female)
 
 ;StartNoLabel
-1,[StartMale]
-1,[StartFemale]
+1,[[StartMale]]
+1,[[StartFemale]]
 
 ;StartMale
-1,[TitleMale][StartNoTitle]
+1,[[TitleMale]][[StartNoTitle]]
 
 ;StartFemale
-1,[TitleFemale][StartFemaleNoTitle]
+1,[[TitleFemale]][[StartFemaleNoTitle]]
 
 ;StartNoTitle
-20,[Fantasy Names.MaleFirstName] [Surname]
+20,[[Fantasy Names.MaleFirstName]] [[Surname]]
 
 ;StartFemaleNoTitle
-20,[Fantasy Names.FemaleFirstName] [Surname]
+20,[[Fantasy Names.FemaleFirstName]] [[Surname]]
 
 ;Surname
-9,[Root I][Root II]
-1,[Root I][Root II]son
-1,Mac[Root I][Root II]
+9,[[Root I]][[Root II]]
+1,[[Root I]][[Root II]]son
+1,Mac[[Root I]][[Root II]]
 
 ;Root I
 1,Autumn

@@ -1,23 +1,23 @@
 
 ;Start
-1,[male] (male)
-1,[female] (female)
+1,[[male]] (male)
+1,[[female]] (female)
 
 ;male
-8,[male1] [surname]
-8,[male2] [surname]
-1,[male1] [male1] [surname]
-1,[male1] [male2] [surname]
-1,[male2] [male1] [surname]
-1,[male2] [male2] [surname]
+8,[[male1]] [[surname]]
+8,[[male2]] [[surname]]
+1,[[male1]] [[male1]] [[surname]]
+1,[[male1]] [[male2]] [[surname]]
+1,[[male2]] [[male1]] [[surname]]
+1,[[male2]] [[male2]] [[surname]]
 
 ;female
-8,[female1] [surname]
-8,[female2] [surname]
-1,[female1] [female1] [surname]
-1,[female1] [female2] [surname]
-1,[female2] [female1] [surname]
-1,[female2] [female2] [surname]
+8,[[female1]] [[surname]]
+8,[[female2]] [[surname]]
+1,[[female1]] [[female1]] [[surname]]
+1,[[female1]] [[female2]] [[surname]]
+1,[[female2]] [[female1]] [[surname]]
+1,[[female2]] [[female2]] [[surname]]
 
 ;male1
 1,Magnus

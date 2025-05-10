@@ -1,7 +1,7 @@
 
 ;Start
-5,[Pre][Suf]
-1,[Pre][Suf] [Mid] [Pre][Suf]
+5,[[Pre]][[Suf]]
+1,[[Pre]][[Suf]] [[Mid]] [[Pre]][[Suf]]
 
 ;Mid
 1,Al

@@ -1,6 +1,6 @@
 
 ;Start
-1,[jPulpHeroNovel]
+1,[[jPulpHeroNovel]]
 
 ;jPulpNoun
 1,Jackal
@@ -100,15 +100,15 @@
 1,and the Jinx of the
 1,in:
 1,versus the
-1,and [jPulpAdjPositive] [jPulpMaleFirstName]'s 
+1,and [[jPulpAdjPositive]] [[jPulpMaleFirstName]]'s 
 
 ;pulpend
-1,[jPulpAdjNegative] [jPulpNoun]
+1,[[jPulpAdjNegative]] [[jPulpNoun]]
 
 ;jPulpHeroNovel
-10,[jPulpAdjPositive] [jPulpMaleFirstName] [pulpmiddle] [pulpend]
-1,[jPulpMaleFirstName] [jPulpLastName] [pulpmiddle] [pulpend]
-3,[jPulpAdjPositive] [jPulpFemaleFirstName] [pulpmiddle] [pulpend]
-1,[jPulpFemaleFirstName] [jPulpLastName] [pulpmiddle] [pulpend]
+10,[[jPulpAdjPositive]] [[jPulpMaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[jPulpMaleFirstName]] [[jPulpLastName]] [[pulpmiddle]] [[pulpend]]
+3,[[jPulpAdjPositive]] [[jPulpFemaleFirstName]] [[pulpmiddle]] [[pulpend]]
+1,[[jPulpFemaleFirstName]] [[jPulpLastName]] [[pulpmiddle]] [[pulpend]]
 
 

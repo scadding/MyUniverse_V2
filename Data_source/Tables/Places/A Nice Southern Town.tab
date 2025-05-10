@@ -1,22 +1,22 @@
 
 ;Start
-1,<strong>It's a nice southern town, mostly.  Except for [relationship] - they're [trouble]. <br/></strong><br><br>
+1,<strong>It's a nice southern town, mostly.  Except for [[relationship]] - they're [[trouble]]. <br/></strong><br><br>
 
 ;relationship
-1,[family]
-1,[work] 
-1,[friendship]
-1,[romance]
-1,[crime]
-1,[community] 
+1,[[family]]
+1,[[work]] 
+1,[[friendship]]
+1,[[romance]]
+1,[[crime]]
+1,[[community]] 
 
 ;family
-1,[inlaws] 
-1,[distant_kin]
-1,[siblings]
-1,[parent_child] 
-1,[grands] 
-1,[weird_kin]
+1,[[inlaws]] 
+1,[[distant_kin]]
+1,[[siblings]]
+1,[[parent_child]] 
+1,[[grands]] 
+1,[[weird_kin]]
 
 ;inlaws
 1,this father-in-law and his son-in-law
@@ -53,12 +53,12 @@
 1,this old man and his rich step-uncle or something
 
 ;work 
-1,this pair or losers that used to work together [workplace]
-2,this wonder team of co-workers [workplace]
-3,this supervisor [workplace] and his employee
-4,this couple - one's always calling the other for some [blue_collar]
+1,this pair or losers that used to work together [[workplace]]
+2,this wonder team of co-workers [[workplace]]
+3,this supervisor [[workplace]] and his employee
+4,this couple - one's always calling the other for some [[blue_collar]]
 5,this funny pair - one's a salesman and the other likes to buy stuff 
-6,this big-shot [white_collar] around here and his goofy friend 
+6,this big-shot [[white_collar]] around here and his goofy friend 
 
 ;blue_collar
 1,painting
@@ -95,10 +95,10 @@
 ;crime 
 1,this dirty alderman and his friend the local big shot
 2,this crazy gambler and his bookie
-3,[thieves]
+3,[[thieves]]
 4,this total con man and his poor mark
-5,[hoodlums] 
-6,[drugs]
+5,[[hoodlums]] 
+6,[[drugs]]
 
 ;thieves
 1,these pathetic shoplifters
@@ -118,11 +118,11 @@
 1,this whacked-out drug chemist and his wife
 
 ;community 
-1,This [elected] and his pal the [elected2]
-2,[civic_vols] 
-3,the [church_vols] and the [church_vols2]
+1,This [[elected]] and his pal the [[elected2]]
+2,[[civic_vols]] 
+3,the [[church_vols]] and the [[church_vols2]]
 4,These two guys in the rec league
-5,This loser and [services]
+5,This loser and [[services]]
 6,This Narcanon sponsor and his druggie follower 
 
 ;elected
