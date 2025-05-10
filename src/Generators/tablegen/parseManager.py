@@ -187,7 +187,8 @@ class parseManager(object):
             if not node.loaded:
                 self.loadtable(node)
             return sub, node
-        raise Exception('bad table')
+        print("bad table - " + exp)
+        raise Exception("bad table")
     def parseTable(self, node, exp):
         args = dict()
         args['@'] = 0

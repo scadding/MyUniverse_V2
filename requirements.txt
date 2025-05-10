@@ -26,4 +26,4 @@ zope.interface==6.1
 configparser==7.1
 
 sqlalchemy
-
+mysqlclient

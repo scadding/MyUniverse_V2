@@ -20,7 +20,7 @@ from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter, NodeMixin
 
 
 class tableNode(NodeMixin):
-    def __init__(self, name, parent=None, children=None, uuid=None, loaded=False, filename=None, **kwargs):
+    def __init__(self, name, parent=None, children=None, uuid=None, loaded=False, filename=None, type=None, **kwargs):
         self.__dict__.update(kwargs)
         self.name = name
         self.parent = parent
@@ -29,6 +29,7 @@ class tableNode(NodeMixin):
         self.uuid = uuid
         self.loaded = loaded
         self.filename=filename
+        self.type = type
     def getNode(self, name, type=None):
         parent = self
         for c in parent.children:

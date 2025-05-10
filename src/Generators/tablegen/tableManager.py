@@ -38,12 +38,12 @@ class tableMgr(variableManager, parseManager):
         self.metadata_obj = MetaData()
         self.metadata_obj.reflect(self.engine)
         with self.engine.connect() as conn:
-            if not self.engine.dialect.has_table(conn, 'Tables'):
+            if not self.engine.dialect.has_table(conn, 'universe.Tables'):
                 self.createDatabase()
                 return
         self.loadTree(self.tree)
     def loadTree(self, node : tableNode):
-        table = self.metadata_obj.tables['Nodes']
+        table = self.metadata_obj.tables['universe.Nodes']
         statement = select(table.c.Node, table.c.Name).where(table.c.Parent == None)
         with orm.Session(self.engine) as session:
             row = session.execute(statement).first()
@@ -51,28 +51,29 @@ class tableMgr(variableManager, parseManager):
                 return
             node.uuid = uuid.UUID(row[0])
             self.loadChildren(session, node)
+        session.close()
     def loadChildren(self, session : orm.Session, parent : tableNode):
-        table = self.metadata_obj.tables['Nodes']
+        table = self.metadata_obj.tables['universe.Nodes']
         statement = select(table.c.Node, table.c.Name).where(table.c.Parent == parent.uuid)
         for row in session.execute(statement):
             node = tableNode(row[1], parent=parent, table=None, display=True, uuid=uuid.UUID(row[0]))
             self.loadChildren(session, node)
     def prepareMetaData(self):
         objects = Table(
-            "Objects",
+            "universe.Objects",
             self.metadata_obj,
             Column("Object", Uuid, primary_key=True),
             Column("Node", Uuid, nullable=False),
         )
         Variables = Table(
-            "Variables",
+            "universe.Variables",
             self.metadata_obj,
             Column("Object", Uuid, nullable=False),
             Column("Name", Text, nullable=False),
             Column("Value", Text, nullable=False),
         )
         TableVariables = Table(
-            "TableVariables",
+            "universe.TableVariables",
             self.metadata_obj,
             Column("Node", Uuid, nullable=False),
             Column("TableName", Text, nullable=False),
@@ -80,7 +81,7 @@ class tableMgr(variableManager, parseManager):
             Column("Value", Text, nullable=False),
         )
         TableLines = Table(
-            "TableLines",
+            "universe.TableLines",
             self.metadata_obj,
             Column("Node", Uuid, nullable=False),
             Column("TableName", Text, nullable=False),
@@ -89,7 +90,7 @@ class tableMgr(variableManager, parseManager):
             Column("Line", Text, nullable=False),
         )
         Tables = Table(
-            "Tables",
+            "universe.Tables",
             self.metadata_obj,
             Column("Node", Uuid, nullable=False),
             Column("TableName", Text, nullable=False),
@@ -98,7 +99,7 @@ class tableMgr(variableManager, parseManager):
             Column("Length", Integer, nullable=False),
         )
         Nodes = Table(
-            "Nodes",
+            "universe.Nodes",
             self.metadata_obj,
             Column("Node", Uuid, primary_key=True),
             Column("Name", Text, nullable=False),
@@ -106,54 +107,68 @@ class tableMgr(variableManager, parseManager):
         )
     def createDatabase(self):
         self.prepareMetaData()
-        self.metadata_obj.create_all(self.engine)
         with self.engine.connect() as conn:
-            self.importNode(conn, self.tree)
+            self.metadata_obj.create_all(conn)
             conn.commit()
-    def importTable(self, conn : Connection, node : tableNode, id : uuid):
+            conn.close()
+        self.importNode(self.tree)
+    def importTable(self, node : tableNode, id : uuid):
         self.checkload(node)
         t : tableFile = node.table
-        self.importVariables(conn, node, id)
+        self.importVariables(node, id)
         for subTable in t.table:
-            self.importSubTable(conn, subTable, node, id)
-    def importSubTable(self, conn : Connection, name, node : tableNode, id : uuid):
+            self.importSubTable(subTable, node, id)
+    def importSubTable(self, name, node : tableNode, id : uuid):
         subTable = node.table.table[name]
         if subTable.csvflag:
             ttype = 'csv'
         else:
             ttype = 'continuous'
-        statement = self.metadata_obj.tables['Tables'].insert().values(Node=id, TableName=node.name, SubTableName=name, Type=ttype, Length=subTable.index)
-        conn.execute(statement)
-        for index in subTable.values:
-            if not  subTable.csvflag:
-                line = subTable.values[index][0]
-            else:
-                line = ''
-                i = 0
-                for k in subTable.values[index]:
-                    if i > 0:
-                        line = line + ', '
-                    line = line + k
-                    i += 1
-            statement = self.metadata_obj.tables['TableLines'].insert().values(Node=id, TableName=node.name, SubTableName=name, Roll=index, Line=line)
+        statement = self.metadata_obj.tables['universe.Tables'].insert().values(Node=id, TableName=node.name, SubTableName=name, Type=ttype, Length=subTable.index)
+        with self.engine.connect() as conn:
             conn.execute(statement)
-    def importVariables(self, conn : Connection, node : tableNode, id : uuid):
+            count = 0
+            for index in subTable.values:
+                if not  subTable.csvflag:
+                    line = subTable.values[index][0]
+                else:
+                    line = ''
+                    i = 0
+                    for k in subTable.values[index]:
+                        if i > 0:
+                            line = line + ', '
+                        line = line + k
+                        i += 1
+                statement = self.metadata_obj.tables['universe.TableLines'].insert().values(Node=id, TableName=node.name, SubTableName=name, Roll=index, Line=line)
+                conn.execute(statement)
+                count += 1
+                if count > 2000:
+                    conn.commit()
+                    count = 0
+            conn.commit()
+            conn.close()
+    def importVariables(self, node : tableNode, id : uuid):
         rootVariableNode = self.getVariableNode(self.base, node)
         for name in rootVariableNode.variabledict:
             value = rootVariableNode.variabledict[name]
-            statement = self.metadata_obj.tables['TableVariables'].insert().values(Node=id, TableName=node.name, Name=name, Value=value)
-            conn.execute(statement)
-    def importNode(self, conn : Connection, node : tableNode, parent : uuid=None):
+            statement = self.metadata_obj.tables['universe.TableVariables'].insert().values(Node=id, TableName=node.name, Name=name, Value=value)
+            with self.engine.connect() as conn:
+                conn.execute(statement)
+                conn.commit()
+                conn.close()
+    def importNode(self, node : tableNode, parent : uuid=None):
         id = uuid.uuid4()
-        self.metadata_obj.tables['Nodes']
-        statement = self.metadata_obj.tables['Nodes'].insert().values(Node=id, Name=node.name, Parent=parent)
-        conn.execute(statement)
+        self.metadata_obj.tables['universe.Nodes']
+        statement = self.metadata_obj.tables['universe.Nodes'].insert().values(Node=id, Name=node.name, Parent=parent)
+        with self.engine.connect() as conn:
+            conn.execute(statement)
+            conn.commit()
+            conn.close()
         if node.is_leaf and node.type == "tab":
             print('imorting table - %s' % node.filename)
-            self.importTable(conn, node, id)
-            conn.commit()
+            self.importTable(node, id)
         for child in node.children:
-            self.importNode(conn, child, parent=id)
+            self.importNode(child, parent=id)
     def walktree(self, top : str, load=False, node=None):
         for filename in os.listdir(top):
             path = os.path.join(top, filename)

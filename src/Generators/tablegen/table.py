@@ -75,28 +75,32 @@ class tableDB(tableGroup):
         self.loadVariables()
         return self.run()
     def loadVariables(self):
-        table = self.tm.metadata_obj.tables['TableVariables']
+        table = self.tm.metadata_obj.tables['universe.TableVariables']
         statement = select(table.c.Name, table.c.Value).where(table.c.Node == self.uuid)
         with orm.Session(self.tm.engine) as session:
             for row in session.execute(statement):
                 self.tm.setBaseVariable(self.node, row[0], row[1])
+            session.close()
     def getType(self, t):
-        table = self.tm.metadata_obj.tables['Tables']
+        table = self.tm.metadata_obj.tables['universe.Tables']
         statement = select(table.c.Type).where(table.c.Node == self.uuid).where(table.c.SubTableName == t)
         with orm.Session(self.tm.engine) as session:
             for row in session.execute(statement):
+                session.close()
                 return row[0]
+        session.close()
         return 0
     def getCount(self, t):
-        table = self.tm.metadata_obj.tables['Tables']
+        table = self.tm.metadata_obj.tables['universe.Tables']
         statement = select(table.c.Length).where(table.c.Node == self.uuid).where(table.c.SubTableName == t)
         with orm.Session(self.tm.engine) as session:
             for row in session.execute(statement):
+                session.close()
                 return row[0]
         return 0
     def getLines(self, t='Start'):
         retval = list()
-        table = self.tm.metadata_obj.tables['TableLines']
+        table = self.tm.metadata_obj.tables['universe.TableLines']
         statement = select(table.c.Roll, table.c.Line).where(table.c.Node == self.uuid).where(table.c.SubTableName == t).order_by(table.c.Roll)
         isCsv = self.getType(t)
         with orm.Session(self.tm.engine) as session:
@@ -113,6 +117,8 @@ class tableDB(tableGroup):
                     l.append(row[0])
                     l.append(row[1])
                 retval.append(l)
+                session.close()
+        session.close()
         return retval
     def run(self, t='Start', roll=-1, column=0):
         retVal = u''
@@ -121,11 +127,12 @@ class tableDB(tableGroup):
             return ''
         if roll == -1:
             roll = rand.randrange(length) + 1
-        table = self.tm.metadata_obj.tables['TableLines']
+        table = self.tm.metadata_obj.tables['universe.TableLines']
         statement = select(table.c.Line).where(table.c.Node == self.uuid).where(table.c.SubTableName == t).where(table.c.Roll >= roll).order_by(table.c.Roll)
         with orm.Session(self.tm.engine) as session:
             row = session.execute(statement).first()
             retVal = row[0]
+        session.close()
         if self.getType(t) == 'csv':
             l = retVal.split(',')
             if len(l) < (column + 1):
