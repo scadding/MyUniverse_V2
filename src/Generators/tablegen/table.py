@@ -71,9 +71,20 @@ class tableDB(tableGroup):
     def __init__(self, node : tableNode, tm):
         tableGroup.__init__(self, tm, node)
         self.uuid = node.uuid
-    def start(self):
+        self.count = dict()
+        self.type = dict()
+        self.tables = list()
         self.loadVariables()
-        return self.run()
+        self.getMetaData()
+    def getMetaData(self):
+        table = self.tm.metadata_obj.tables['universe.Tables']
+        statement = select(table.c.SubTableName, table.c.Type, table.c.Length).where(table.c.Node == self.uuid)
+        with orm.Session(self.tm.engine) as session:
+            for row in session.execute(statement):
+                self.tables.append(row[0])
+                self.type[row[0]] = row[1]
+                self.count[row[0]] = row[2]
+            session.close()
     def loadVariables(self):
         table = self.tm.metadata_obj.tables['universe.TableVariables']
         statement = select(table.c.Name, table.c.Value).where(table.c.Node == self.uuid)
@@ -82,22 +93,9 @@ class tableDB(tableGroup):
                 self.tm.setBaseVariable(self.node, row[0], row[1])
             session.close()
     def getType(self, t):
-        table = self.tm.metadata_obj.tables['universe.Tables']
-        statement = select(table.c.Type).where(table.c.Node == self.uuid).where(table.c.SubTableName == t)
-        with orm.Session(self.tm.engine) as session:
-            for row in session.execute(statement):
-                session.close()
-                return row[0]
-        session.close()
-        return 0
+        return self.type[t]
     def getCount(self, t):
-        table = self.tm.metadata_obj.tables['universe.Tables']
-        statement = select(table.c.Length).where(table.c.Node == self.uuid).where(table.c.SubTableName == t)
-        with orm.Session(self.tm.engine) as session:
-            for row in session.execute(statement):
-                session.close()
-                return row[0]
-        return 0
+        return self.count[t]
     def getLines(self, t='Start'):
         retval = list()
         table = self.tm.metadata_obj.tables['universe.TableLines']
@@ -117,10 +115,13 @@ class tableDB(tableGroup):
                     l.append(row[0])
                     l.append(row[1])
                 retval.append(l)
-                session.close()
         session.close()
         return retval
+    def start(self):
+        return self.run()
     def run(self, t='Start', roll=-1, column=0):
+        if t not in self.tables:
+            return self.autorunStart()
         retVal = u''
         length = self.getCount(t)
         if length == 0:
@@ -132,7 +133,7 @@ class tableDB(tableGroup):
         with orm.Session(self.tm.engine) as session:
             row = session.execute(statement).first()
             retVal = row[0]
-        session.close()
+            session.close()
         if self.getType(t) == 'csv':
             l = retVal.split(',')
             if len(l) < (column + 1):
@@ -142,6 +143,12 @@ class tableDB(tableGroup):
         return retVal
         print('Error: *** No [' + t + '] Table***', file=sys.stderr)
         return ''
+    def autorunStart(self):
+        s = ''
+        for t in self.tables:
+            s = s + '<b>' + t + ': </b><br>'
+            s = s + self.run(t) + '<br><br>'
+        return s
     def get_random_index(self, t='Start'):
         if t in self.length:
             return rand.randrange(self.length[t]) + 1
