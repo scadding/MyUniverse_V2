@@ -39,9 +39,11 @@ class tableMgr(variableManager, parseManager):
         self.metadata_obj.reflect(self.engine)
         with self.engine.connect() as conn:
             if not self.engine.dialect.has_table(conn, 'universe.Tables'):
+                conn.close()
                 self.createDatabase()
-                return
-        self.loadTree(self.tree)
+            else:
+                conn.close()
+                self.loadTree(self.tree)
     def loadTree(self, node : tableNode):
         table = self.metadata_obj.tables['universe.Nodes']
         statement = select(table.c.Node, table.c.Name).where(table.c.Parent == None)
@@ -109,8 +111,8 @@ class tableMgr(variableManager, parseManager):
         self.prepareMetaData()
         with self.engine.connect() as conn:
             self.metadata_obj.create_all(conn)
-            conn.commit()
-            conn.close()
+        conn.commit()
+        conn.close()
         self.importNode(self.tree)
     def importTable(self, node : tableNode, id : uuid):
         self.checkload(node)
@@ -142,9 +144,6 @@ class tableMgr(variableManager, parseManager):
                 statement = self.metadata_obj.tables['universe.TableLines'].insert().values(Node=id, TableName=node.name, SubTableName=name, Roll=index, Line=line)
                 conn.execute(statement)
                 count += 1
-                if count > 2000:
-                    conn.commit()
-                    count = 0
             conn.commit()
             conn.close()
     def importVariables(self, node : tableNode, id : uuid):
