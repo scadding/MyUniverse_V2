@@ -12,11 +12,11 @@
 5,net
 
 ;OtherWeaponsType
-10,[[Swords.Quality]] pair of [[Tables.Utility.MetalWeapon]] gauntlets.
-2,[[Swords.Quality]] pair of [[Tables.Utility.MetalWeapon]] spiked gauntlets
+10,[[Tables.Weapons.Swords.Quality]] pair of [[Tables.Utility.MetalWeapon]] gauntlets.
+2,[[Tables.Weapons.Swords.Quality]] pair of [[Tables.Utility.MetalWeapon]] spiked gauntlets
 8,[[MonkWeapons]].
-7,[[Swords.Quality]] net.
-3,[[Swords.Quality]] sap made of [[Tables.Utility.LeatherHide]].
+7,[[Tables.Weapons.Swords.Quality]] net.
+3,[[Tables.Weapons.Swords.Quality]] sap made of [[Tables.Utility.LeatherHide]].
 3,A bag of caltrops. The bag is made of [[BagMaterial]] and the caltrops are made of [[Tables.Utility.MetalWeapon]].
 
 ;BagMaterial
@@ -26,11 +26,11 @@
 2,heavy [[Tables.Utility.Color.dark]] canvas
 
 ;MonkWeapons
-1-5,[[Swords.Quality]] siangham
-6-10,[[Swords.Quality]] kama with a head made of [[Tables.Utility.MetalWeapon]] and a haft of [[Tables.Utility.WoodWeapon]]
-11-16,[[Swords.Quality]] pair of nunchaku made of [[Tables.Utility.WoodWeapon]] with a chain of [[Tables.Utility.MetalWeapon]]
-17-21,[[Swords.Quality]] sai made of [[Tables.Utility.MetalWeapon]]
-22-25,[[Swords.Quality]] [[Tables.Utility.Dice.2d6]]-pointed shuriken made of [[Tables.Utility.MetalWeapon]]
-26-29,[[Swords.Quality]] latajang made of [[Tables.Utility.WoodWeapon]] with [[Tables.Utility.MetalWeapon]] blades at each end.
+1-5,[[Tables.Weapons.Swords.Quality]] siangham
+6-10,[[Tables.Weapons.Swords.Quality]] kama with a head made of [[Tables.Utility.MetalWeapon]] and a haft of [[Tables.Utility.WoodWeapon]]
+11-16,[[Tables.Weapons.Swords.Quality]] pair of nunchaku made of [[Tables.Utility.WoodWeapon]] with a chain of [[Tables.Utility.MetalWeapon]]
+17-21,[[Tables.Weapons.Swords.Quality]] sai made of [[Tables.Utility.MetalWeapon]]
+22-25,[[Tables.Weapons.Swords.Quality]] [[Tables.Utility.Dice.2d6]]-pointed shuriken made of [[Tables.Utility.MetalWeapon]]
+26-29,[[Tables.Weapons.Swords.Quality]] latajang made of [[Tables.Utility.WoodWeapon]] with [[Tables.Utility.MetalWeapon]] blades at each end.
 
 

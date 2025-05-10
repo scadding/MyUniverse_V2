@@ -37,8 +37,8 @@
 10,The bowstring is made of [[StringLeather]].
 3,The bowstring is missing.
 3,The bowstring is missing, save for a small piece tied at the topnotch.
-3,The bowstring is actually a fine chain made of [[Swords.Quality]] [[Tables.Utility.MetalDecor]].
-1,The bowstring is actually a single wire made of [[Swords.Quality]] [[Tables.Utility.MetalDecor]].
+3,The bowstring is actually a fine chain made of [[Tables.Weapons.Swords.Quality]] [[Tables.Utility.MetalDecor]].
+1,The bowstring is actually a single wire made of [[Tables.Weapons.Swords.Quality]] [[Tables.Utility.MetalDecor]].
 
 ;StringLeather
 1,[[Tables.Utility.LeatherShinyness]][[Tables.Utility.LeatherColor]] bat leather

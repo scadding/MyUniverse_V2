@@ -239,8 +239,8 @@
 
 ;FemalePirateFirstName
 3,[[Tables.Names.American Census Names.female]]
-1,[[ScottishFemale.Start]]
-1,[[ScottishFemale.ScottishFemaleFirstName]]
+1,[[Tables.People.ScottishFemale.Start]]
+1,[[Tables.People.ScottishFemale.ScottishFemaleFirstName]]
 3,[[Tables.Names.Italian Names.FemaleFirst]]
 2,[[German Female.germanfemale]]
 2,[[Portuguese Names.portuguesefemale]]

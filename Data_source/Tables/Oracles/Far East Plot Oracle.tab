@@ -50,10 +50,10 @@
 
 ;Male Name
 10,[[ChineseMaleFirst]] [[ChineseMaleLast]]
-5,[[Japanese names.MALE NAMES]] [[SGNP japanese.SURNAMES]]
-5,[[SGNP japanese.MALE NAMES]] [[SGNP japanese.SURNAMES]]
-1,[[SGNP japanese.MALE NAMES]] [[SGNP japanese.SAMURAI-ERA NOBLE SURNAMES]]
-1,[[SGNP japanese.MALE NAMES]] [[SGNP japanese.SAMURAI-ERA BUSHI SURNAMES]]
+5,[[Tables.Names.Japanese names.MALE NAMES]] [[Tables.SGNP.SGNP japanese.SURNAMES]]
+5,[[Tables.SGNP.SGNP japanese.MALE NAMES]] [[Tables.SGNP.SGNP japanese.SURNAMES]]
+1,[[Tables.SGNP.SGNP japanese.MALE NAMES]] [[Tables.SGNP.SGNP japanese.SAMURAI-ERA NOBLE SURNAMES]]
+1,[[Tables.SGNP.SGNP japanese.MALE NAMES]] [[Tables.SGNP.SGNP japanese.SAMURAI-ERA BUSHI SURNAMES]]
 
 ;ChineseMaleFirst
 1,Cao

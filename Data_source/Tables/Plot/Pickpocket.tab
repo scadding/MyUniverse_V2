@@ -200,8 +200,8 @@
 2,[[LessThanNothing]]
 
 ;OtherTables
-1,[[Swords.DaggerStart]]
-1,[[Jewelry.Start]]
+1,[[Tables.Weapons.Swords.DaggerStart]]
+1,[[Tables.Clothes.Jewelry.Start]]
 1,[[HerbalProducts.Start]]
 1,a book: [[Tables.Fantasy.FantasyBooks.Start]]
 
@@ -264,7 +264,7 @@
 1,a reliquary containing a piece of splintered bone
 1,prayer beads
 1,a charm against thieves
-1,a charm to [[Jewelry.FolkSymbolEffects]]
+1,a charm to [[Tables.Clothes.Jewelry.FolkSymbolEffects]]
 1,a good luck charm
 1,a lucky rabbit's foot
 1,a painted icon of a saint or other religious subject

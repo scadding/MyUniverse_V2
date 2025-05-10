@@ -1,6 +1,6 @@
 
 ;Start
-50,[[Swords.Start]]<br>
+50,[[Tables.Weapons.Swords.Start]]<br>
 50,[[HaftedWeapons.Start]]<br>
 10,[[Tables.Weapons.Bows.Start]]<br>
 7,[[XBows.Start]]<br>
@@ -11,7 +11,7 @@
 8,[[AmmunitionThrown.Start]]<br>
 
 ;NoDescription
-50,[[Swords.NoDescription]]
+50,[[Tables.Weapons.Swords.NoDescription]]
 50,[[HaftedWeapons.NoDescription]]
 10,[[Tables.Weapons.Bows.NoDescription]]
 7,[[XBows.NoDescription]]
@@ -44,6 +44,6 @@
 7,[[Tables.Organization.Fantasy Military Unit.MilitaryRank]]s of the [[Tables.Organization.Fantasy Military Unit.Start]]
 
 ;Quality
-1,[[Swords.Quality]]
+1,[[Tables.Weapons.Swords.Quality]]
 
 

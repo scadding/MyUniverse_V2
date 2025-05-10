@@ -59,7 +59,7 @@ _[[OtherHaftedStart]] [[HaftDecor]] [[Weapon.MilitaryIssueChance]]<br>
 ;AxeHeadSpike
 1,The axe haft is not capped, but is even with the top of the axe head.
 1,The axe haft is capped with a sharpened spike.
-1,The axe haft is capped with [[Swords.PommelShapes]].
+1,The axe haft is capped with [[Tables.Weapons.Swords.PommelShapes]].
 
 ;PolearmStart
 1,[[Quality]] [[PolearmType]] with a haft of [[Tables.Utility.WoodWeapon]] and a head made of [[Tables.Utility.MetalWeapon]].
@@ -244,6 +244,6 @@ _[[OtherHaftedStart]] [[HaftDecor]] [[Weapon.MilitaryIssueChance]]<br>
 
 ;Quality
 1,{{ucfirst:a}} 
-1,{{ucfirst:a}} [[Swords.Quality]]
+1,{{ucfirst:a}} [[Tables.Weapons.Swords.Quality]]
 
 

@@ -21,12 +21,12 @@
 3,The staff has grips wrapped in [[Tables.Utility.LeatherHide]].
 1,The staff has numerous small studs made of [[Tables.Utility.MetalWeapon]] protruding from it.
 1,The staff is octagonal in shape and has been well oiled.
-3,The staff is capped on one end with a small [[Tables.Utility.MetalWeapon]] carving of [[Swords.PommelShapes]].
+3,The staff is capped on one end with a small [[Tables.Utility.MetalWeapon]] carving of [[Tables.Weapons.Swords.PommelShapes]].
 4,The staff is [[Tables.Utility.MetalWeapon]]-shodded.
 
 ;Club
 35,[[HaftedWeapons.Quality]] [[ClubType]] made of [[Tables.Utility.WoodWeapon]] wood. [[ClubDecor]]
-1,A length of metal that may be used as [[Swords.Quality]] [[ClubType]]. It is made of [[Tables.Utility.MetalWeapon]]. 
+1,A length of metal that may be used as [[Tables.Weapons.Swords.Quality]] [[ClubType]]. It is made of [[Tables.Utility.MetalWeapon]]. 
 
 ;ClubType
 10,club
