@@ -58,6 +58,8 @@ class ConfigBase:
         for key in self.config['Data']:
             print(key)
     def getValue(self, set, name):
+        if set not in self.config or name not in self.config[set]:
+            return None
         return self.config[set][name]
     def write(self, filename=defaultfile):
         config = configparser.ConfigParser()
