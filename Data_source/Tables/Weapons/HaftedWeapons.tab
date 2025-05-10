@@ -40,7 +40,7 @@ _[[OtherHaftedStart]] [[HaftDecor]] [[Weapon.MilitaryIssueChance]]<br>
 1,The axe head is decorated with spiraling engravings.
 1,The axe head is decorated with runes in [[Utility.RuneLanguage]] that convey the meaning <b>"[[Inscriptions.Start]]"</b>.
 1,The axe head is decorated with knotwork.
-1,The axe head is painted with shiny [[Color.dark]] enamel.
+1,The axe head is painted with shiny [[Tables.Utility.Color.dark]] enamel.
 1,The axe head has been carbonized with a flat black paint to keep it from reflecting light except along the edges.
 3,The axe head is inscribed with the word(s) <b>"[[Inscriptions.Start]]"</b> in [[Inscriptions.Language]].
 1,[[AxeHeadDepictionChance]] [[AxeHeadDepictionChance]]
@@ -203,12 +203,12 @@ _[[OtherHaftedStart]] [[HaftDecor]] [[Weapon.MilitaryIssueChance]]<br>
 ;HaftDecor
 1,
 1,The haft is simple and unadorned.
-3,The haft is stained [[Color.dark]].
-3,The haft is stained [[Color.dull]].
-2,The haft is painted [[Color.dark]].
-2,The haft is painted [[Color.dull]].
-2,The haft is painted [[Color.bright]].
-1,The haft is engraved with cryptic runes in [[Utility.RuneLanguage]] that glow faintly with a [[Color.hues]] light when [[Utility.CreatureTypes]]s are nearby.
+3,The haft is stained [[Tables.Utility.Color.dark]].
+3,The haft is stained [[Tables.Utility.Color.dull]].
+2,The haft is painted [[Tables.Utility.Color.dark]].
+2,The haft is painted [[Tables.Utility.Color.dull]].
+2,The haft is painted [[Tables.Utility.Color.bright]].
+1,The haft is engraved with cryptic runes in [[Utility.RuneLanguage]] that glow faintly with a [[Tables.Utility.Color.hues]] light when [[Utility.CreatureTypes]]s are nearby.
 1,The haft is engraved with cryptic runes in [[Utility.RuneLanguage]] that glow brightly with a [[Utility.LightColors]] light when [[Utility.CreatureTypes]]s are nearby.
 1,The haft is engraved with illegible runes.
 1,The haft has a brief engraving in the runes of a long-lost language.
@@ -238,9 +238,9 @@ _[[OtherHaftedStart]] [[HaftDecor]] [[Weapon.MilitaryIssueChance]]<br>
 4,The grip section of the haft is wrapped in battle-worn [[Utility.LeatherHide]].
 
 ;FletchingColor
-2,[[Color.dark]]
-1,[[Color.dull]]
-1,[[Color.bright]]
+2,[[Tables.Utility.Color.dark]]
+1,[[Tables.Utility.Color.dull]]
+1,[[Tables.Utility.Color.bright]]
 
 ;Quality
 1,{{ucfirst:a}} 

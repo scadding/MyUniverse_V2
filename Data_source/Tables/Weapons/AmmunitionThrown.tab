@@ -42,9 +42,9 @@
 
 ;ShaftColor
 10,in its natural color
-12,painted [[Color.dark]]
-4,painted [[Color.dull]]
-4,painted [[Color.bright]]
+12,painted [[Tables.Utility.Color.dark]]
+4,painted [[Tables.Utility.Color.dull]]
+4,painted [[Tables.Utility.Color.bright]]
 1,engraved with runes in [[Utility.RuneLanguage]]
 1,engraved with knotwork
 
@@ -53,9 +53,9 @@
 2,fletching of two [[FletchingColor]] feathers and one [[FletchingColor]] feather
 
 ;FletchingColor
-2,[[Color.dark]]
-1,[[Color.dull]]
-1,[[Color.bright]]
+2,[[Tables.Utility.Color.dark]]
+1,[[Tables.Utility.Color.dull]]
+1,[[Tables.Utility.Color.bright]]
 
 ;Bolt
 1,[[Tables.Utility.Dice.1d3]][[Tables.Utility.Dice.digit]] [[BoltType]] with shafts of [[Utility.WoodWeapon]] wood [[ShaftColor]] and [[Fletching]]

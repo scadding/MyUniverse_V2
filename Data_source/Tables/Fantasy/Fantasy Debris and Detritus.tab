@@ -58,7 +58,7 @@
 ;leftpaper
 2,
 1,with some letters in [[Utility.RuneLanguage]] on it
-1,with a blot of [[Color.all]] ink
+1,with a blot of [[Tables.Utility.Color.all]] ink
 1,with the words ''[[Magic Incantation.Start]]'' [[WriteTypes]]
 
 ;WriteTypes
@@ -67,7 +67,7 @@
 
 ;sometimesink
 5,
-1,in [[Color.all]] ink
+1,in [[Tables.Utility.Color.all]] ink
 1,in a shakey hand
 
 ;papertype

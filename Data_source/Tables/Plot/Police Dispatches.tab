@@ -355,9 +355,9 @@
 3,Suspect is [[race]] [[gender]], [[features]] Suspect has left the area.
 3,Suspect is [[race]] [[gender]], [[features]] Last seen in a vehicle on [[streetname]] [[streettype]].
 3,Suspect is [[race]] [[gender]], [[features]] Last seen on foot, [[moving]] [[direction]]bound on [[streetname]] [[streettype]].
-3,Suspect is [[race]] [[gender]], [[features]] Last seen riding a [[Color.dull]] bicycle [[direction]]bound on [[streetname]] [[streettype]].
-1,Suspect is [[race]] Male, with [[Female Appearance.FacialHairMale]], [[features]]
-1,Suspect is [[race]] Female, wearing heavy makeup and a [[Color.bright]] dress.
+3,Suspect is [[race]] [[gender]], [[features]] Last seen riding a [[Tables.Utility.Color.dull]] bicycle [[direction]]bound on [[streetname]] [[streettype]].
+1,Suspect is [[race]] Male, with [[Tables.People.Female Appearance.FacialHairMale]], [[features]]
+1,Suspect is [[race]] Female, wearing heavy makeup and a [[Tables.Utility.Color.bright]] dress.
 1,No known information regarding suspect.
 1,Evidence left at scene.
 1,Possible involvement with federal court case.
@@ -439,7 +439,7 @@
 1,has significant birthmark on face.
 1,wearing a thong swimsuit.
 1,wearing an athletic jersey and sweatpants.
-1,wearing only [[Color.dull]] clothing.
+1,wearing only [[Tables.Utility.Color.dull]] clothing.
 1,with shaved head.
 1,accompanied by unknown female.
 1,carrying a baseball bat.

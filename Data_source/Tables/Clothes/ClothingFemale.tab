@@ -333,17 +333,17 @@
 1,chambermaid
 
 ;MilitaryUniformGeneric
-5,horseman's dress uniform consisting of [[Utility.LeatherHide]] riding boots, [[Utility.LeatherHide]] gauntlets, [[ClothingColors]] wool breeches lined with [[Utility.LeatherHide]],[[Military Uniform.MilitaryAccessoriesChance]] and a tailed jacket made of [[ClothingColors]] wool with [[Color.metallic]] braided epaulets and embroidery and buttons of shiny [[Utility.MetalDecor]].
-5,foot soldier's dress uniform consisting of [[Utility.LeatherHide]] boots, [[ClothingColors]] canvas breeches lined with [[MaterialsFancy]],[[Military Uniform.MilitaryAccessoriesChance]] and a jacket made of [[ClothingColors]] wool with [[Color.metallic]] embroidery and buttons of shiny [[Utility.MetalDecor]].
-5,guard's dress uniform consisting of [[Utility.LeatherHide]] boots, [[MaterialsCommon]] breeches lined with [[MaterialsFancy]],[[Military Uniform.MilitaryAccessoriesChance]] and a jacket made of [[ClothingColors]] wool with [[Color.metallic]] embroidery and buttons of shiny [[Utility.MetalDecor]].
-5,pikeman's dress uniform consisting of [[Utility.LeatherHide]] boots, [[MaterialsCommon]] breeches lined with [[MaterialsFancy]],[[Military Uniform.MilitaryAccessoriesChance]] and a jacket made of [[ClothingColors]] wool with [[Color.metallic]] embroidery and buttons of shiny [[Utility.MetalDecor]].
-1,sapper's uniform consisting of [[Utility.LeatherHide]] boots, a thick [[Utility.LeatherHide]] apron, [[MaterialsCommon]] breeches lined with [[MaterialsFancy]], and a jacket made of [[ClothingColors]] wool with [[Color.metallic]] embroidery and buttons of shiny [[Utility.MetalDecor]].
+5,horseman's dress uniform consisting of [[Utility.LeatherHide]] riding boots, [[Utility.LeatherHide]] gauntlets, [[ClothingColors]] wool breeches lined with [[Utility.LeatherHide]],[[Military Uniform.MilitaryAccessoriesChance]] and a tailed jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] braided epaulets and embroidery and buttons of shiny [[Utility.MetalDecor]].
+5,foot soldier's dress uniform consisting of [[Utility.LeatherHide]] boots, [[ClothingColors]] canvas breeches lined with [[MaterialsFancy]],[[Military Uniform.MilitaryAccessoriesChance]] and a jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] embroidery and buttons of shiny [[Utility.MetalDecor]].
+5,guard's dress uniform consisting of [[Utility.LeatherHide]] boots, [[MaterialsCommon]] breeches lined with [[MaterialsFancy]],[[Military Uniform.MilitaryAccessoriesChance]] and a jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] embroidery and buttons of shiny [[Utility.MetalDecor]].
+5,pikeman's dress uniform consisting of [[Utility.LeatherHide]] boots, [[MaterialsCommon]] breeches lined with [[MaterialsFancy]],[[Military Uniform.MilitaryAccessoriesChance]] and a jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] embroidery and buttons of shiny [[Utility.MetalDecor]].
+1,sapper's uniform consisting of [[Utility.LeatherHide]] boots, a thick [[Utility.LeatherHide]] apron, [[MaterialsCommon]] breeches lined with [[MaterialsFancy]], and a jacket made of [[ClothingColors]] wool with [[Tables.Utility.Color.metallic]] embroidery and buttons of shiny [[Utility.MetalDecor]].
 
 ;ClothingColors
-4,[[Color.dark]]
-4,[[Color.dull]]
-3,[[brightadj]] [[Color.bright]]
-2,[[Color.light]]
+4,[[Tables.Utility.Color.dark]]
+4,[[Tables.Utility.Color.dull]]
+3,[[brightadj]] [[Tables.Utility.Color.bright]]
+2,[[Tables.Utility.Color.light]]
 
 ;brightadj
 3,

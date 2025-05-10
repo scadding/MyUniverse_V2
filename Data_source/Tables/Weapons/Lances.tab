@@ -15,10 +15,10 @@
 ;LanceDecor
 6,
 3,The lance has a[[StreamerQuality]] streamer of[[StreamerColor]] [[Utility.ClothFancy]].
-3,The lance has been painted with spiraling [[Color.dark]] and [[Color.bright]].
-1,The lance is painted solid [[Color.bright]].
-1,The lance is painted solid [[Color.dark]].
-1,The lance has stripes of [[Color.bright]] and [[Color.dark]].
+3,The lance has been painted with spiraling [[Tables.Utility.Color.dark]] and [[Tables.Utility.Color.bright]].
+1,The lance is painted solid [[Tables.Utility.Color.bright]].
+1,The lance is painted solid [[Tables.Utility.Color.dark]].
+1,The lance has stripes of [[Tables.Utility.Color.bright]] and [[Tables.Utility.Color.dark]].
 
 ;StreamerQuality
 5,

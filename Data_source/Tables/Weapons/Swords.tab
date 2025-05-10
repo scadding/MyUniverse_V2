@@ -103,7 +103,7 @@
 2,There is a scabbard of [[Utility.MetalDecor]] with [[Tables.Utility.Dice.1d12]] [[Utility.RelativeSize]] [[Utility.GemQuality]] [[Utility.GemType]] stones embedded in it.
 2,There is a simple scabbard of [[Utility.MetalHard]].
 2,There is a scabbard of [[Utility.Fur]] fur with [[Utility.LeatherHide]] accents and [[Utility.MetalDecor]] trim.
-1,There is a scabbard of [[Utility.MetalHard]], painted with shiny [[Color.dark]] enamel.
+1,There is a scabbard of [[Utility.MetalHard]], painted with shiny [[Tables.Utility.Color.dark]] enamel.
 2,There is a scabbard of [[Utility.WoodWeapon]] wood inlaid with [[Utility.HornIvory]].
 1,There is a scabbard of <b>[[Utility.Chitin]] chitin</b> with [[Utility.LeatherHide]] accents and [[Utility.MetalDecor]] trim.
 1,There is a scabbard of beaten [[Utility.MetalSoft]].
@@ -117,7 +117,7 @@
 4,The blade is decorated with runes in [[Utility.RuneLanguage]] that convey the meaning <b>"[[Inscriptions.Start]]"</b>. <b>[[RuneGlowChance]]</b>
 2,The blade is decorated with knotwork.
 2,The blade is decorated with an etched depiction.
-2,The blade is painted with shiny [[Color.dark]] enamel.
+2,The blade is painted with shiny [[Tables.Utility.Color.dark]] enamel.
 1,The blade has been carbonized with a flat black paint to keep it from reflecting light except along the edges.
 10,The blade is inscribed with the word(s) <b>"[[Inscriptions.Start]]"</b> in [[Inscriptions.Language]]. <b>[[RuneGlowChance]]</b>
 6,The blade is inscribed with the name <b>[[Weapon Names.Start]]</b>. <b>[[RuneGlowChance]]</b>
@@ -249,12 +249,12 @@
 
 ;RuneGlowChance
 8,
-1,The inscription glows faintly with a [[Color.hues]] light.
-1,The inscription glows brightly with a [[Color.hues]] light.
-1,The inscription glows faintly with a [[Color.hues]] light when [[Utility.CreatureTypes]]s are nearby.
-1,The inscription glows brightly with a [[Color.hues]] light when [[Utility.CreatureTypes]]s are nearby.
-1,The inscription glows faintly with a [[Color.hues]] light if monsters are nearby.
-1,The inscription glows brightly with a [[Color.hues]] light if evil is nearby.
+1,The inscription glows faintly with a [[Tables.Utility.Color.hues]] light.
+1,The inscription glows brightly with a [[Tables.Utility.Color.hues]] light.
+1,The inscription glows faintly with a [[Tables.Utility.Color.hues]] light when [[Utility.CreatureTypes]]s are nearby.
+1,The inscription glows brightly with a [[Tables.Utility.Color.hues]] light when [[Utility.CreatureTypes]]s are nearby.
+1,The inscription glows faintly with a [[Tables.Utility.Color.hues]] light if monsters are nearby.
+1,The inscription glows brightly with a [[Tables.Utility.Color.hues]] light if evil is nearby.
 
 ;HistoryChance
 5,

@@ -22,8 +22,8 @@
 ;BagMaterial
 1,[[Utility.LeatherHide]]
 1,[[Utility.Fur]] fur
-12,[[Color.dark]] cloth
-2,heavy [[Color.dark]] canvas
+12,[[Tables.Utility.Color.dark]] cloth
+2,heavy [[Tables.Utility.Color.dark]] canvas
 
 ;MonkWeapons
 1-5,[[Swords.Quality]] siangham

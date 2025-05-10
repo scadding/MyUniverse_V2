@@ -1,10 +1,10 @@
 
 ;Start
-2,a pair of [[Color.dull]] [[shoe style]]
+2,a pair of [[Tables.Utility.Color.dull]] [[shoe style]]
 1,{{plural|[[number]] paintbrush}}
 1,a bee's nest
-1,a ball of [[Color.bright]] yarn
-1,{{article|[[Color.hues]] vest}}
+1,a ball of [[Tables.Utility.Color.bright]] yarn
+1,{{article|[[Tables.Utility.Color.hues]] vest}}
 1,a spoon
 1,a pitchfork
 1,a jar of pickles
@@ -15,7 +15,7 @@
 2,a set of fish-hooks
 1,a fishing rod
 1,a cheese knife
-3,a large [[cheese_type]] cheese, sealed in a [[Color.dull]] wax rind
+3,a large [[cheese_type]] cheese, sealed in a [[Tables.Utility.Color.dull]] wax rind
 1,a dagger
 2,parchment
 1,thread
@@ -27,13 +27,13 @@
 2,{{plural|[[number]] wooden dowel}}
 2,{{plural|[[number]] empty glass bottle}}
 1,a quill
-1,a bottle of [[Color.dark]] ink
+1,a bottle of [[Tables.Utility.Color.dark]] ink
 1,a shovel
 1,{{plural|[[number]] silver coin}}
 2,{{plural|[[number]] copper coin}}
 1,a winter cap
-2,{{plural|[[number]] [[Color.hues]] candle}}
-1,{{article|[[Color.bright]]}} scarf
+2,{{plural|[[number]] [[Tables.Utility.Color.hues]] candle}}
+1,{{article|[[Tables.Utility.Color.bright]]}} scarf
 1,a pair of shears
 1,a hammer
 1,a tin cup
