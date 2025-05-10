@@ -230,8 +230,27 @@ class tableMgr(variableManager, parseManager):
             self.loadtable(node)
     def rollDB(self, node : tableNode, subTable = 'start'):
         return ''
+    def rollAll(self, node : tableNode):
+        path = ''
+        retval = ''
+        for ancestor in node.path:
+            path += ancestor.name + '.'
+        print(path[:-1])
+        retval += '<br><br><b>'
+        retval += path[:-1]
+        retval += ':</b><br>'
+        if node.children:
+            for c in node.children:
+                retval += self.rollAll(c)
+        elif node.type == 'tab':
+            retval += self.roll(node)
+        return retval
     def roll(self, node : tableNode):
         if type(node) != tableNode:
+            print(type(node))
+            return ''
+        if node.children:
+            return self.rollAll(node)
             raise TypeError
         self.checkload(node)
         s = ''

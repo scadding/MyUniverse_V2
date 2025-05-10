@@ -97,9 +97,8 @@ class GeneratorPanel(wx.Panel):
         for n in self.generator.parameters:
             value = ""
             if type(self.fields[n]) is wx.TreeCtrl:
-                if not self.fields[n].ItemHasChildren(self.fields[n].GetFocusedItem()):
-                    value = self.fields[n].GetItemText(self.fields[n].GetFocusedItem())
-                    value = self.fields[n].GetItemData(self.fields[n].GetFocusedItem())
+                value = self.fields[n].GetItemText(self.fields[n].GetFocusedItem())
+                value = self.fields[n].GetItemData(self.fields[n].GetFocusedItem())
             elif type(self.fields[n]) is wx.ListBox:
                 value = self.fields[n].GetStrings()[self.fields[n].GetSelection()]
             else:

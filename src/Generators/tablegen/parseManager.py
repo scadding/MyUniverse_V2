@@ -182,12 +182,13 @@ class parseManager(object):
         if m:
             exp = m.group(1)
             sub = m.group(2)
-        node = node.pathToNode(exp)
-        if node is not None:
-            if not node.loaded:
-                self.loadtable(node)
-            return sub, node
-        print("bad table - " + exp)
+        target = node.pathToNode(exp)
+        if target is not None:
+            if not target.loaded:
+                self.loadtable(target)
+            return sub, target
+        message = "bad table - '%s' in '%s'" % (exp, node.name)
+        print(message)
         raise Exception("bad table")
     def parseTable(self, node, exp):
         args = dict()
