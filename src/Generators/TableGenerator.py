@@ -49,5 +49,6 @@ class Generator:
         f.close()
         if type(t) == tableNode:
             t = t.name
+        # fix this
         return t, filename
         

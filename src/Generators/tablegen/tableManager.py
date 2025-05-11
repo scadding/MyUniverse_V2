@@ -246,6 +246,7 @@ class tableMgr(variableManager, parseManager):
             retval += self.roll(node)
         return retval
     def roll(self, node : tableNode):
+        # fix this
         if type(node) != tableNode:
             print(type(node))
             return ''

@@ -19,6 +19,16 @@ class parseManager(object):
                                 pyparsing.ZeroOrMore(ret | content) + pyparsing.Suppress(closer))
         return ret
     def parse(self, node, exp):
+        # fix this - this will be the first key
+        # god!  I am going to have to build atoms
+        # I need to parse, not linear.
+        # who are my lowest level atoms?
+        # any internal atoms?
+        # low level vs current?
+        # pre-parse?
+        # find self-contained elements
+        # switch to c?
+        # flex/yacc?
         found = True
         ret = exp
         while found:
@@ -28,12 +38,14 @@ class parseManager(object):
             found, ret = self.expandTable(node, ret)
             if found:
                 continue
+            # change this
             found, ret = self.expandTemplate(node, ret)
             if found:
                 continue
             found, ret = self.expandVariable(node, ret)
             if found:
                 continue
+            # get rid of this ...
             found, ret = self.expandVariableAlt(node, ret)
         return ret
     def expandFunction(self, node, text):

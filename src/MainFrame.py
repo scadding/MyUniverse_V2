@@ -259,6 +259,7 @@ class MainFrame(wx.Frame):
         self.Close(True)
     
     def OnRoll(self, e):
+        # fix this
         while self.rolling:
             wx.Yield()
             time.sleep(0.1)

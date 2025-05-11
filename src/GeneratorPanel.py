@@ -105,4 +105,5 @@ class GeneratorPanel(wx.Panel):
                 value = self.fields[n].GetValue()
             if value != "":
                 p[n] = value
+        # change this
         return self.generator.roll(p, numRolls)
