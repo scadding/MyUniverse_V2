@@ -793,7 +793,7 @@
 ;HumanRacialWeapon
 1,[[Tables.Weapons.Swords.StartNoDescription]]
 1,[[Tables.Weapons.Bows.BowType]]
-1,[[XBows.XBowType]]
+1,[[Tables.Weapons.XBows.XBowType]]
 1,[[Lances.StartNoDescription]]
 
 ;HumanUnusualSteed

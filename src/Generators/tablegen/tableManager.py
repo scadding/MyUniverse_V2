@@ -235,7 +235,7 @@ class tableMgr(variableManager, parseManager):
         retval = ''
         for ancestor in node.path:
             path += ancestor.name + '.'
-        print(path[:-1])
+        #print(path[:-1])
         retval += '<br><br><b>'
         retval += path[:-1]
         retval += ':</b><br>'
@@ -257,7 +257,7 @@ class tableMgr(variableManager, parseManager):
         if node.table:
             s = node.table.start()
             s = self.parse(node, s)
-        self.printVariableTree()
+        #self.printVariableTree()
         self.clearVariables(node)
         return s
     def saveState(self, node, path, name):

@@ -337,8 +337,8 @@
 1,a bottle of good wine
 1,a bottle of brandy
 1,a skin of goat's milk
-1,a flask of [[FantasyDrinks.alcoholic general]]
-1,a waterskin full of [[FantasyDrinks.nonalcoholic]]
+1,a flask of [[Tables.Food.FantasyDrinks.alcoholic general]]
+1,a waterskin full of [[Tables.Food.FantasyDrinks.nonalcoholic]]
 
 ;MidRecreational
 3,a small bag containing a smokable narcotic
@@ -375,9 +375,9 @@
 1,a skin of fine wine
 1,a bottle of rich dwarven stout
 1,a crystal decanter of brandy
-1,a flask of [[FantasyDrinks.alcoholic general]]
+1,a flask of [[Tables.Food.FantasyDrinks.alcoholic general]]
 1,a bottle of fine wine
-1,a waterskin full of [[FantasyDrinks.nonalcoholic]]
+1,a waterskin full of [[Tables.Food.FantasyDrinks.nonalcoholic]]
 
 ;RichRecreational
 3,a small bag containing a smokable narcotic

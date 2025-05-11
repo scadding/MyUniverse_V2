@@ -28,9 +28,6 @@ class parseManager(object):
             found, ret = self.expandTable(node, ret)
             if found:
                 continue
-            found, ret = self.expandTableAlt(node, ret)
-            if found:
-                continue
             found, ret = self.expandTemplate(node, ret)
             if found:
                 continue
@@ -62,21 +59,6 @@ class parseManager(object):
             last = e
             for i in t:
                 l = self.parseList(i, start='[[', finish=']]')
-                c = self.parseTable(node, self.parse(node, l[0]))
-                n = n + c
-                found = True
-        ret = n + text[last:]
-        return found, ret
-    def expandTableAlt(self, node, text):
-        last = 0
-        n = ''
-        found = False
-        nestedItems = self.nestedExpr("[", "]")
-        for t, s, e in nestedItems.scanString(text):
-            n = n + text[last:s]
-            last = e
-            for i in t:
-                l = self.parseList(i, start='[', finish=']')
                 c = self.parseTable(node, self.parse(node, l[0]))
                 n = n + c
                 found = True
@@ -197,7 +179,14 @@ class parseManager(object):
         exp = self.getArguments(node, exp, args)
         column = args['@']
         roll = args['()']
-        sub, node = self.getSubAndNode(node, exp)
+        try:
+            sub, node = self.getSubAndNode(node, exp)
+            if sub is None or node is None or node.table is None:
+                print(exp)
+                return ''
+        except:
+            print(exp)
+            return ''
         return self.parse(node, node.table.run(sub, roll, column))
         raise Exception('bad table')
     def parseList(self, l, start='{{', finish='}}'):

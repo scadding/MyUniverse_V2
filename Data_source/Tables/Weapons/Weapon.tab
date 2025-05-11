@@ -3,7 +3,7 @@
 50,[[Tables.Weapons.Swords.Start]]<br>
 50,[[Tables.Weapons.HaftedWeapons.Start]]<br>
 10,[[Tables.Weapons.Bows.Start]]<br>
-7,[[XBows.Start]]<br>
+7,[[Tables.Weapons.XBows.Start]]<br>
 5,[[Lances.Start]]<br>
 25,[[StaffClub.Start]]<br>
 5,[[WeaponsOther.Start]]<br>
@@ -14,7 +14,7 @@
 50,[[Tables.Weapons.Swords.NoDescription]]
 50,[[Tables.Weapons.HaftedWeapons.NoDescription]]
 10,[[Tables.Weapons.Bows.NoDescription]]
-7,[[XBows.NoDescription]]
+7,[[Tables.Weapons.XBows.NoDescription]]
 5,[[Lances.NoDescription]]
 25,[[StaffClub.NoDescription]]
 5,[[WeaponsOther.NoDescription]]
