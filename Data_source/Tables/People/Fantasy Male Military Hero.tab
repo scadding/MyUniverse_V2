@@ -367,10 +367,10 @@
 8,village
 
 ;HumanRacialWeapon
-4,[[HaftedWeapons.AxeType]]
-2,[[HaftedWeapons.MaceType]]
-2,[[HaftedWeapons.FlailType]]
-8,[[HaftedWeapons.PolearmType]]
+4,[[Tables.Weapons.HaftedWeapons.AxeType]]
+2,[[Tables.Weapons.HaftedWeapons.MaceType]]
+2,[[Tables.Weapons.HaftedWeapons.FlailType]]
+8,[[Tables.Weapons.HaftedWeapons.PolearmType]]
 14,[[Tables.Weapons.Swords.StartNoDescription]]
 6,[[Tables.Weapons.Bows.BowType]]
 3,[[XBows.XBowType]]

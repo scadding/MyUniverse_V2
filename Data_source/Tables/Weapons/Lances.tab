@@ -1,7 +1,7 @@
 
 ;Start
-5,[[HaftedWeapons.Quality]] [[LanceType]] lance made of [[Tables.Utility.WoodWeapon]]. [[LanceDecor]][[Weapon.MilitaryIssueChance]]
-2,[[HaftedWeapons.Quality]] [[LanceType]] lance made of [[Tables.Utility.WoodWeapon]] and tipped with [[Tables.Utility.MetalWeapon]]. [[LanceDecor]][[Weapon.MilitaryIssueChance]]
+5,[[Tables.Weapons.HaftedWeapons.Quality]] [[LanceType]] lance made of [[Tables.Utility.WoodWeapon]]. [[LanceDecor]][[Weapon.MilitaryIssueChance]]
+2,[[Tables.Weapons.HaftedWeapons.Quality]] [[LanceType]] lance made of [[Tables.Utility.WoodWeapon]] and tipped with [[Tables.Utility.MetalWeapon]]. [[LanceDecor]][[Weapon.MilitaryIssueChance]]
 
 ;StartNoDescription
 1,[[LanceType]] lance

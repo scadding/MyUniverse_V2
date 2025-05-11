@@ -25,7 +25,7 @@
 4,The staff is [[Tables.Utility.MetalWeapon]]-shodded.
 
 ;Club
-35,[[HaftedWeapons.Quality]] [[ClubType]] made of [[Tables.Utility.WoodWeapon]] wood. [[ClubDecor]]
+35,[[Tables.Weapons.HaftedWeapons.Quality]] [[ClubType]] made of [[Tables.Utility.WoodWeapon]] wood. [[ClubDecor]]
 1,A length of metal that may be used as [[Tables.Weapons.Swords.Quality]] [[ClubType]]. It is made of [[Tables.Utility.MetalWeapon]]. 
 
 ;ClubType
