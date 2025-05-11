@@ -29,16 +29,16 @@
 1,[[JewelryMaterialClause]] [[Item]]
 
 ;Predicate
-4, set with {{ia|[[Tables.Utility.GemType]]}}. [[Craftsmanship]]
-3, set with {{plural|[[Tables.Utility.Dice.2d6]] [[Tables.Utility.GemType]]}}. [[Craftsmanship]]
+4, set with {{ia|[[Tables.Utility.Utility.GemType]]}}. [[Craftsmanship]]
+3, set with {{plural|[[Tables.Utility.Dice.2d6]] [[Tables.Utility.Utility.GemType]]}}. [[Craftsmanship]]
 4, [[Design]]. [[Craftsmanship]]
-2, [[Design]] and set with {{ia|[[Tables.Utility.GemType]]}}. [[Craftsmanship]]
-2, [[Design]] and set with {{plural|[[Tables.Utility.Dice.2d6]] [[Tables.Utility.GemType]]}}. [[Craftsmanship]]
-4, with [[Tables.Utility.Symbols]]. [[Craftsmanship]]
-2, with [[Tables.Utility.Symbols]] and set with {{ia|[[Tables.Utility.GemType]]}}. [[Craftsmanship]]
-2, with [[Tables.Utility.Symbols]] and set with {{plural|[[Tables.Utility.Dice.1d12]] [[Tables.Utility.GemType]]}}. [[Craftsmanship]]
+2, [[Design]] and set with {{ia|[[Tables.Utility.Utility.GemType]]}}. [[Craftsmanship]]
+2, [[Design]] and set with {{plural|[[Tables.Utility.Dice.2d6]] [[Tables.Utility.Utility.GemType]]}}. [[Craftsmanship]]
+4, with [[Tables.Utility.Utility.Symbols]]. [[Craftsmanship]]
+2, with [[Tables.Utility.Utility.Symbols]] and set with {{ia|[[Tables.Utility.Utility.GemType]]}}. [[Craftsmanship]]
+2, with [[Tables.Utility.Utility.Symbols]] and set with {{plural|[[Tables.Utility.Dice.1d12]] [[Tables.Utility.Utility.GemType]]}}. [[Craftsmanship]]
 2, with the inscription "[[Tables.Utility.Inscriptions.Start]]" written in [[Tables.Utility.Inscriptions.Language]]. [[Craftsmanship]]
-2, with the inscription "[[Tables.Utility.Inscriptions.Start]]" written in [[Tables.Utility.Inscriptions.Language]] and set with {{plural|[[Tables.Utility.Dice.2d6]] [[Tables.Utility.GemType]]}}. [[Craftsmanship]]
+2, with the inscription "[[Tables.Utility.Inscriptions.Start]]" written in [[Tables.Utility.Inscriptions.Language]] and set with {{plural|[[Tables.Utility.Dice.2d6]] [[Tables.Utility.Utility.GemType]]}}. [[Craftsmanship]]
 
 ;StartWearableOnly
 4,[[JewelryMaterialClause]] [[Wearable]], [[Predicate]]
@@ -331,8 +331,8 @@
 1,[[DesignForm]] with strange symbols
 1,[[DesignForm]] with concentric circles
 1,[[DesignForm]] with a twisting, vine-like pattern
-4,inlaid with a pattern of [[Tables.Utility.MetalPrecious]]
-1,inlaid with a pattern of [[Tables.Utility.MetalExotic]]
+4,inlaid with a pattern of [[Tables.Utility.Utility.MetalPrecious]]
+1,inlaid with a pattern of [[Tables.Utility.Utility.MetalExotic]]
 1,[[DesignForm]] with an ancient proverb: "[[Tables.Utility.Inscriptions.Advice]]"
 1,[[DesignForm]] with a dragon-like shape
 1,[[DesignForm]] with the likeness of an ancient king
@@ -342,16 +342,16 @@
 1,[[DesignForm]] with the figure of naked woman
 1,covered in a web-like pattern of [[DesignForm]] lines
 1,[[DesignForm]] with an image of the sun
-1,inlaid with [[Tables.Utility.StoneDecorative]]
-1,inlaid with [[Tables.Utility.Chitin]] chitin
-1,inlaid with [[Tables.Utility.HornIvory]]
+1,inlaid with [[Tables.Utility.Utility.StoneDecorative]]
+1,inlaid with [[Tables.Utility.Utility.Chitin]] chitin
+1,inlaid with [[Tables.Utility.Utility.HornIvory]]
 4,[[DesignForm]] with folk symbols said to [[FolkSymbolEffects]]
 3,[[DesignForm]] with [[Tables.Religion.SpiritForm.Start]]
 1,[[DesignForm]] with the name of the creature whose essence is in it: [[Tables.SGNP.SGNP angels and demons.Start]]
-1,with [[Tables.Utility.MetalPrecious]] inlay
-1,with [[Tables.Utility.MetalPrecious]] filigree
-1,with [[Tables.Utility.MetalPrecious]] mounting in the shape of [[Tables.Religion.SpiritForm.Start]]
-1,with [[Tables.Utility.MetalPrecious]] accents
+1,with [[Tables.Utility.Utility.MetalPrecious]] inlay
+1,with [[Tables.Utility.Utility.MetalPrecious]] filigree
+1,with [[Tables.Utility.Utility.MetalPrecious]] mounting in the shape of [[Tables.Religion.SpiritForm.Start]]
+1,with [[Tables.Utility.Utility.MetalPrecious]] accents
 
 
 ;DesignForm
@@ -382,7 +382,7 @@
 2,protect against lycanthropes
 1,protect against the evil eye
 2,protect against the undead
-1,protect the owner against [[Tables.Utility.CreatureTypes]]s
+1,protect the owner against [[Tables.Utility.Utility.CreatureTypes]]s
 1,protect the owner from drowning
 1,protect the owner from lightning
 1,ward against evil spirits
@@ -390,12 +390,12 @@
 5,ward off evil
 
 ;JewelryMaterial
-1,[[Tables.Utility.Chitin]] chitin
-40,[[Tables.Utility.MetalPrecious]]
-3,[[Tables.Utility.MetalExotic]]
-3,[[Tables.Utility.StoneDecorative]]
-3,[[Tables.Utility.HornIvory]]
-4,[[Tables.Utility.MetalPrecious]] and [[JewelryMaterial]]
+1,[[Tables.Utility.Utility.Chitin]] chitin
+40,[[Tables.Utility.Utility.MetalPrecious]]
+3,[[Tables.Utility.Utility.MetalExotic]]
+3,[[Tables.Utility.Utility.StoneDecorative]]
+3,[[Tables.Utility.Utility.HornIvory]]
+4,[[Tables.Utility.Utility.MetalPrecious]] and [[JewelryMaterial]]
 
 ;Craftsmanship
 7,

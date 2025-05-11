@@ -71,8 +71,8 @@
 1,an old leather
 1,an ordinary
 1,an unremarkable
-1,a [[Tables.Utility.Cloth]]
-1,a [[Tables.Utility.RelativeSize]]
+1,a [[Tables.Utility.Utility.Cloth]]
+1,a [[Tables.Utility.Utility.RelativeSize]]
 10,a
 
 ;MidBagDescriptor
@@ -113,8 +113,8 @@
 1,an embroidered
 1,an ordinary
 1,an unremarkable
-1,a [[Tables.Utility.Cloth]]
-1,a [[Tables.Utility.RelativeSize]]
+1,a [[Tables.Utility.Utility.Cloth]]
+1,a [[Tables.Utility.Utility.RelativeSize]]
 1,a [[Tables.Utility.Color.dull]]
 10,a
 
@@ -158,10 +158,10 @@
 1,an indigo
 1,an ornate
 1,an ostentatious
-1,a [[Tables.Utility.ClothFancy]]
-1,a [[Tables.Utility.RelativeSize]]
-1,a [[Tables.Utility.LeatherColor]]
-1,a [[Tables.Utility.LeatherColor]] Leather
+1,a [[Tables.Utility.Utility.ClothFancy]]
+1,a [[Tables.Utility.Utility.RelativeSize]]
+1,a [[Tables.Utility.Utility.LeatherColor]]
+1,a [[Tables.Utility.Utility.LeatherColor]] Leather
 10,a
 
 ;Bag
@@ -240,10 +240,10 @@
 
 ;Art
 1,[[Tables.Utility.Dice.1d10]] glass bead(s)
-1,a [[Tables.Utility.MetalPrecious]] figurine of [[Image]]
-1,a [[Tables.Utility.StoneDecorative]] figurine of [[Image]]
-1,a statuette of [[Image]] carved out of [[Tables.Utility.Wood]]
-1,a statuette of [[Image]] carved out of [[Tables.Utility.HornIvory]]
+1,a [[Tables.Utility.Utility.MetalPrecious]] figurine of [[Image]]
+1,a [[Tables.Utility.Utility.StoneDecorative]] figurine of [[Image]]
+1,a statuette of [[Image]] carved out of [[Tables.Utility.Utility.Wood]]
+1,a statuette of [[Image]] carved out of [[Tables.Utility.Utility.HornIvory]]
 1,a jade amulet carved with [[Decoration]]
 1,a small bag containing [[Tables.Utility.Dice.2d6]] crystal beads
 1,a small crystal prism
@@ -255,8 +255,8 @@
 ;CharmsReligion
 1,a pouch of incense
 1,a tarot card: [[Tables.Magic.Tarot Card Draw.Start]]
-1,a [[Tables.Utility.MetalPrecious]] statuette of a god ([[Tables.Religion.SpiritForm.DisplaySpirits]])
-1,a statuette of a god ([[Tables.Religion.SpiritForm.DisplaySpirits]]) carved out of [[Tables.Utility.Wood]]
+1,a [[Tables.Utility.Utility.MetalPrecious]] statuette of a god ([[Tables.Religion.SpiritForm.DisplaySpirits]])
+1,a statuette of a god ([[Tables.Religion.SpiritForm.DisplaySpirits]]) carved out of [[Tables.Utility.Utility.Wood]]
 1,a bit of holy text written on parchment
 1,a holy symbol
 1,a prayer book
@@ -449,7 +449,7 @@
 
 ;PoorMiscellaneous
 1,[[Tables.Utility.Dice.1d10]] glass bead(s)
-3,a statuette of [[Image]] carved out of [[Tables.Utility.Wood]]
+3,a statuette of [[Image]] carved out of [[Tables.Utility.Utility.Wood]]
 3,a half-whittled figurine of [[Image]] and a small carving knife
 1,a pair of weighted dice
 3,a pair of dice
@@ -635,7 +635,7 @@
 1,a comb
 1,a curly wig
 1,a fur cap
-1,a cap made of [[Tables.Utility.Fur]] fur
+1,a cap made of [[Tables.Utility.Utility.Fur]] fur
 1,a glass eye
 1,a handkerchief embroidered with [[Decoration]]
 1,a hearing trumpet
@@ -679,7 +679,7 @@
 5,a piece of lapis lazuli
 5,a piece of malachite
 5,a piece of quartz
-5,a piece of [[Tables.Utility.Ornamental Stones]]
+5,a piece of [[Tables.Utility.Utility.Ornamental Stones]]
 1,a ruby
 1,an emerald
 1,[[Tables.Utility.Dice.3d6]] freshwater pearls
@@ -716,7 +716,7 @@
 3,a ruby
 1,a small bag containing [[Tables.Utility.Dice.3d6]] precious gems
 1,a small velvet-lined box containing a single perfect diamond
-1,a small velvet-lined box containing a single perfect [[Tables.Utility.Jewels]]
+1,a small velvet-lined box containing a single perfect [[Tables.Utility.Utility.Jewels]]
 1,a string of [[Tables.Utility.Dice.2d6]] white pearls
 3,an emerald
 3,[[Tables.Utility.Dice.2d6]] freshwater pearls
@@ -775,28 +775,28 @@
 1,a sheet of paper bearing the fable of [[Tables.Oracles.Parable Title.Title]]
 1,a sheet of paper bearing the fable of [[Tables.People.1001 Nights Story Title.Title]]
 2,a list of phrases translated from [[LanguageTranslate]]
-2,a letter written in [[Tables.Utility.RuneLanguage]]
+2,a letter written in [[Tables.Utility.Utility.RuneLanguage]]
 3,an old well-read letter from a loved one
 
 ;LanguageTranslate
-1,Common to [[Tables.Utility.RuneLanguage]]
-1,[[Tables.Utility.RuneLanguage]] to Common
-1,[[Tables.Utility.RuneLanguage]] to [[Tables.Utility.RuneLanguage]]
+1,Common to [[Tables.Utility.Utility.RuneLanguage]]
+1,[[Tables.Utility.Utility.RuneLanguage]] to Common
+1,[[Tables.Utility.Utility.RuneLanguage]] to [[Tables.Utility.Utility.RuneLanguage]]
 
 ;Decoration
 1,a family crest
-1,the image of [[Tables.Utility.AnimalSymbol]]
-1,the image of [[Tables.Utility.CreatureSymbol]]
-1,the image of [[Tables.Utility.PlantSymbol]]
+1,the image of [[Tables.Utility.Utility.AnimalSymbol]]
+1,the image of [[Tables.Utility.Utility.CreatureSymbol]]
+1,the image of [[Tables.Utility.Utility.PlantSymbol]]
 1,the image of [[Tables.Religion.SpiritForm.DisplaySpirits]]
-1,a simple [[Tables.Utility.GeometricSymbol]]
+1,a simple [[Tables.Utility.Utility.GeometricSymbol]]
 1,the insignia of a military unit
 1,the coat of arms of a city, nation, or other location
 
 ;Image
-1,[[Tables.Utility.AnimalSymbol]]
-1,[[Tables.Utility.CreatureSymbol]]
-1,[[Tables.Utility.PlantSymbol]]
+1,[[Tables.Utility.Utility.AnimalSymbol]]
+1,[[Tables.Utility.Utility.CreatureSymbol]]
+1,[[Tables.Utility.Utility.PlantSymbol]]
 1,[[Tables.Religion.SpiritForm.DisplaySpirits]]
 
 ;Name

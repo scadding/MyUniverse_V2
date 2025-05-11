@@ -18,7 +18,7 @@
 ;StartNoTitle
 20,[[MaleFirstName]] [[Surname]]
 2,[[Tables.People.NorthlanderMale.Start]]
-1,[[Turkish Names.Male]]
+1,[[Tables.Names.Turkish Names.Male]]
 1,[[Tables.SGNP.SGNP assyrian.male]]
 1,[[Cornish Names.male]]
 1,[[Anglo-Saxon Names.male]]
@@ -41,7 +41,7 @@
 ;StartFemaleNoTitle
 20,[[FemaleFirstName]] [[Surname]]
 2,[[Tables.People.NorthlanderFemale.Start]]
-1,[[Turkish Names.Female]]
+1,[[Tables.Names.Turkish Names.Female]]
 1,[[Tables.SGNP.SGNP assyrian.female]]
 1,[[Anglo-Saxon Names.female]]
 

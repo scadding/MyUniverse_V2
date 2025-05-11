@@ -26,21 +26,21 @@
 
 ;PiercingLocation
 3,lip is
-25,lower [[Tables.Utility.LeftRight]] ear is
-10,upper [[Tables.Utility.LeftRight]] ear is
+25,lower [[Tables.Utility.Utility.LeftRight]] ear is
+10,upper [[Tables.Utility.Utility.LeftRight]] ear is
 25,lower ears are each
-3,[[Tables.Utility.LeftRight]] nostril is
+3,[[Tables.Utility.Utility.LeftRight]] nostril is
 1,nose-bridge is
-3,[[Tables.Utility.LeftRight]] nipple is
-1,[[Tables.Utility.LeftRight]] eyebrow is
+3,[[Tables.Utility.Utility.LeftRight]] nipple is
+1,[[Tables.Utility.Utility.LeftRight]] eyebrow is
 3,tongue is
-1,[[Tables.Utility.LeftRight]] cheek is 
+1,[[Tables.Utility.Utility.LeftRight]] cheek is 
 10,navel is
 
 ;PiercingObject
-5, [[Tables.Utility.MetalDecor]] ring
+5, [[Tables.Utility.Utility.MetalDecor]] ring
 2, smooth piece of bone or ivory
-4, small [[Tables.Utility.MetalDecor]] stud
-4, small [[Tables.Utility.MetalDecor]] stud with a [[Tables.Utility.GemType]] stone
-4, large [[Tables.Utility.MetalDecor]] stud or "barbell"
+4, small [[Tables.Utility.Utility.MetalDecor]] stud
+4, small [[Tables.Utility.Utility.MetalDecor]] stud with a [[Tables.Utility.Utility.GemType]] stone
+4, large [[Tables.Utility.Utility.MetalDecor]] stud or "barbell"
 

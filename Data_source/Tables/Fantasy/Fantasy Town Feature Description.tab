@@ -164,7 +164,7 @@
 2,Way
 
 ;Gang Names
-1,[[Motorcycle Gang.Start]]
+1,[[Tables.People.Motorcycle Gang.Start]]
 3,the [[Tables.Organization.Orc Tribe Name.Start]]
 3,[[Tables.Organization.Secret Society Name.Start]]
 3,the [[Tables.Fantasy.Fantasy Town Feature.inspiration]] [[Tables.Fantasy.Fantasy Town Feature.streets]] Gang
@@ -198,9 +198,9 @@
 1,a large [[StatueMaterial]] statue of [[StatueSubject]]
 
 ;StatueMaterial
-1,[[Tables.Utility.MetalPrecious]]
+1,[[Tables.Utility.Utility.MetalPrecious]]
 1,bronze
-2,[[Tables.Utility.StoneDecorative]]
+2,[[Tables.Utility.Utility.StoneDecorative]]
 
 ;StatueSubject
 1,[[Tables.People.Fantasy Male Military Hero.Start]]

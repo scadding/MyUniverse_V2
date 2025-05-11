@@ -141,8 +141,8 @@
 1,[[HumanUnusualSteed]] Cavalry
 8,[[LightHeavy]]
 9,[[LightHeavy]] [[Steed]]
-4,[[LightHeavy]] [[Tables.Utility.TerrainsCap]] Assault
-8,[[LightHeavy]] [[Tables.Utility.TerrainsCap]] Warfare
+4,[[LightHeavy]] [[Tables.Utility.Utility.TerrainsCap]] Assault
+8,[[LightHeavy]] [[Tables.Utility.Utility.TerrainsCap]] Warfare
 1,[[LightHeavy]] Amphibious Assault
 2,[[LightHeavy]] Amphibious Warfare
 7,[[LightHeavy]] Arcane Warfare
@@ -170,7 +170,7 @@
 1,Borderguard
 5,Commando
 3,Counter-[[Counter]]
-5,Counter-[[Tables.Utility.CreatureTypes]] Warfare
+5,Counter-[[Tables.Utility.Utility.CreatureTypes]] Warfare
 2,Covert Operations
 1,Disruption
 1,Divine
@@ -266,7 +266,7 @@
 
 ;Mascot
 1,[[MascotAnimal]]
-5,[[Tables.Utility.TerrainsCap]] [[MascotAnimal]]s
+5,[[Tables.Utility.Utility.TerrainsCap]] [[MascotAnimal]]s
 10,[[MascotModifier]] [[MascotAnimal]]s
 10,[[MascotAnimal]]s of [[MascotObject]]
 
@@ -425,7 +425,7 @@
 1,Creeping
 1,Crouching
 1,Dauntless
-1,Deep[[Tables.Utility.Terrains]]
+1,Deep[[Tables.Utility.Utility.Terrains]]
 2,Deepwood
 1,Destroying
 1,Determined
@@ -530,7 +530,7 @@
 1,Silver
 2,Steel
 1,Stone
-8,the [[Tables.Utility.TerrainsCap]]
+8,the [[Tables.Utility.Utility.TerrainsCap]]
 3,the Darkness
 1,the Deep
 5,the Night

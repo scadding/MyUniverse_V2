@@ -92,13 +92,13 @@
 1,Anatomy
 1,Magical Crossbreeding
 1,Potionbrewing
-1,[[Tables.Utility.CreatureTypes]] Dissection
-1,[[Tables.Utility.CreatureTypes]] Sentience
-1,[[Tables.Utility.CreatureTypes]] Crossbreeding
+1,[[Tables.Utility.Utility.CreatureTypes]] Dissection
+1,[[Tables.Utility.Utility.CreatureTypes]] Sentience
+1,[[Tables.Utility.Utility.CreatureTypes]] Crossbreeding
 1,Alienistic Magic
 1,Spellcraft
 1,Spellcasting
-1,Summoning [[Tables.Utility.CreatureTypes]]s
+1,Summoning [[Tables.Utility.Utility.CreatureTypes]]s
 1,Planar Travel
 1,Chronomancy
 1,Ley Lines
@@ -113,7 +113,7 @@
 1,Theurgy
 1,[[DiscAdj]] Knowledge
 5,[[DivinationType]]
-1, Communication with [[Tables.Utility.CreatureTypes]]s
+1, Communication with [[Tables.Utility.Utility.CreatureTypes]]s
 
 ;DivinationType
 1,Aeromancy

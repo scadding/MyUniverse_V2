@@ -44,7 +44,7 @@
 1,[[SucceedArtsCraftsWord]] [[Tables.Utility.GheronUtility.Cultures]] [[MethodsType]] of [[ArtsCrafts]], by [[Author]] [[TranslationChance]]
 1,[[HowtoWord]] Join [[Tables.Utility.GheronUtility.Organization]], by [[Author]] [[TranslationChance]]
 1,[[HowtoWord]] Grow [[Tables.Food.FantasyMenu.VeggiesCookable]], by [[Author]] [[TranslationChance]]
-1,[[HowtoWord]] [[TerrainHowto]] the [[Tables.Utility.Terrains]], by [[Author]] [[TranslationChance]]
+1,[[HowtoWord]] [[TerrainHowto]] the [[Tables.Utility.Utility.Terrains]], by [[Author]] [[TranslationChance]]
 3,[[HowtoWord]] [[TerrainHowto]] the [[Destination]], by [[Author]] [[TranslationChance]]
 1,[[Author]]'s Guide to More [[Tables.Utility.Inscriptions.AbstractNounPositive]] in Your Life[[ExclamationChance]]
 1,[[Author]]'s Guide to Less [[Tables.Utility.Inscriptions.AbstractNounNegative]] in Your Life[[ExclamationChance]]
@@ -179,7 +179,7 @@
 5,[[Tables.Organization.Secret Society Title.SecretSocietyName]]
 4,[[Tables.Utility.Compass direction.4]]ern [[ReligiousWords]]
 6,{{ucfirst:[[Tables.Organization.Wizard schools.Start]]}}
-1,[[Tables.Utility.RuneLanguage]] Runes
+1,[[Tables.Utility.Utility.RuneLanguage]] Runes
 1,the Heavens
 1,the Illithid War
 1,the Sea

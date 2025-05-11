@@ -16,68 +16,68 @@
 4,On the small of his back
 20,On his entire back
 10,On his shoulders
-6,On his [[Tables.Utility.LeftRight]] shoulderblade area
-10,On his [[Tables.Utility.LeftRight]] shoulder
-8,On the [[Tables.Utility.LeftRight]] side of his neck
-2,Under his [[Tables.Utility.LeftRight]] eye
-8,On his [[Tables.Utility.LeftRight]] hand
-10,On his [[Tables.Utility.LeftRight]] upper arm
-20,On his [[Tables.Utility.LeftRight]] lower arm
-5,On his [[Tables.Utility.LeftRight]] ribcage
+6,On his [[Tables.Utility.Utility.LeftRight]] shoulderblade area
+10,On his [[Tables.Utility.Utility.LeftRight]] shoulder
+8,On the [[Tables.Utility.Utility.LeftRight]] side of his neck
+2,Under his [[Tables.Utility.Utility.LeftRight]] eye
+8,On his [[Tables.Utility.Utility.LeftRight]] hand
+10,On his [[Tables.Utility.Utility.LeftRight]] upper arm
+20,On his [[Tables.Utility.Utility.LeftRight]] lower arm
+5,On his [[Tables.Utility.Utility.LeftRight]] ribcage
 8,On his sternum
 3,On his upper chest
 1,Near his navel
-1,On his [[Tables.Utility.LeftRight]] thigh
-1,On his [[Tables.Utility.LeftRight]] calf
-1,On his [[Tables.Utility.LeftRight]] ankle
-1,On his [[Tables.Utility.LeftRight]] foot
+1,On his [[Tables.Utility.Utility.LeftRight]] thigh
+1,On his [[Tables.Utility.Utility.LeftRight]] calf
+1,On his [[Tables.Utility.Utility.LeftRight]] ankle
+1,On his [[Tables.Utility.Utility.LeftRight]] foot
 6,On the back of his neck
-5,On his [[Tables.Utility.LeftRight]] wrist
-4,On his [[Tables.Utility.LeftRight]] palm
-1,On his [[Tables.Utility.LeftRight]] hip
+5,On his [[Tables.Utility.Utility.LeftRight]] wrist
+4,On his [[Tables.Utility.Utility.LeftRight]] palm
+1,On his [[Tables.Utility.Utility.LeftRight]] hip
 3,On his forehead
 2,Inbetween his shoulderblades
-3,On the [[Tables.Utility.LeftRight]] side of his chest
-2,On the back of his [[Tables.Utility.LeftRight]] hand
+3,On the [[Tables.Utility.Utility.LeftRight]] side of his chest
+2,On the back of his [[Tables.Utility.Utility.LeftRight]] hand
 
 ;LocationFemale
 10,On the small of her back
 2,On her entire back
 1,On her shoulders
-4,On her [[Tables.Utility.LeftRight]] shoulderblade area
-3,On her [[Tables.Utility.LeftRight]] shoulder
-1,On the [[Tables.Utility.LeftRight]] side of her neck
-2,Under her [[Tables.Utility.LeftRight]] eye
-2,On her [[Tables.Utility.LeftRight]] hand
-2,On her [[Tables.Utility.LeftRight]] upper arm
-2,On her [[Tables.Utility.LeftRight]] lower arm
-5,On her [[Tables.Utility.LeftRight]] ribcage
+4,On her [[Tables.Utility.Utility.LeftRight]] shoulderblade area
+3,On her [[Tables.Utility.Utility.LeftRight]] shoulder
+1,On the [[Tables.Utility.Utility.LeftRight]] side of her neck
+2,Under her [[Tables.Utility.Utility.LeftRight]] eye
+2,On her [[Tables.Utility.Utility.LeftRight]] hand
+2,On her [[Tables.Utility.Utility.LeftRight]] upper arm
+2,On her [[Tables.Utility.Utility.LeftRight]] lower arm
+5,On her [[Tables.Utility.Utility.LeftRight]] ribcage
 2,On her sternum
 3,On her upper chest
 10,Around her navel
-8,On her [[Tables.Utility.LeftRight]] thigh
-6,On her [[Tables.Utility.LeftRight]] calf
-6,On her [[Tables.Utility.LeftRight]] ankle
-3,On her [[Tables.Utility.LeftRight]] foot
+8,On her [[Tables.Utility.Utility.LeftRight]] thigh
+6,On her [[Tables.Utility.Utility.LeftRight]] calf
+6,On her [[Tables.Utility.Utility.LeftRight]] ankle
+3,On her [[Tables.Utility.Utility.LeftRight]] foot
 6,On the back of her neck
-2,On her [[Tables.Utility.LeftRight]] wrist
-4,On her [[Tables.Utility.LeftRight]] breast
-8,On her [[Tables.Utility.LeftRight]] buttock
-1,On her [[Tables.Utility.LeftRight]] palm
-10,On her [[Tables.Utility.LeftRight]] hip
+2,On her [[Tables.Utility.Utility.LeftRight]] wrist
+4,On her [[Tables.Utility.Utility.LeftRight]] breast
+8,On her [[Tables.Utility.Utility.LeftRight]] buttock
+1,On her [[Tables.Utility.Utility.LeftRight]] palm
+10,On her [[Tables.Utility.Utility.LeftRight]] hip
 1,On her forehead
 4,Inbetween her shoulderblades
-2,On the back of her [[Tables.Utility.LeftRight]] hand
+2,On the back of her [[Tables.Utility.Utility.LeftRight]] hand
 
 ;Depiction
 1,a family crest
 5,the symbol of [[Tables.Utility.GheronUtility.DietySymbol]]
 5,the symbol of [[Tables.Utility.GheronUtility.OrganizationSymbol]]
-7,[[Tables.Utility.AnimalSymbol]]
-7,[[Tables.Utility.CreatureSymbol]]
-2,[[Tables.Utility.PlantSymbol]]
-2,a simple [[Tables.Utility.GeometricSymbol]]
-2,runes in [[Tables.Utility.RuneLanguage]]
+7,[[Tables.Utility.Utility.AnimalSymbol]]
+7,[[Tables.Utility.Utility.CreatureSymbol]]
+2,[[Tables.Utility.Utility.PlantSymbol]]
+2,a simple [[Tables.Utility.Utility.GeometricSymbol]]
+2,runes in [[Tables.Utility.Utility.RuneLanguage]]
 4,the insignia of the [[Tables.Organization.Fantasy Military Unit.Start]]
 
 

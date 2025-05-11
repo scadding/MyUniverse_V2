@@ -159,7 +159,7 @@
 1,A fishing village with an inn of good quality. 
 1,A slow-moving caravan, with many wagons and travelers. 
 1,A set of steps in the side of a hill, leading down into a damp underground icehouse.
-1,[[Fantasy Farmstead.Start]]
+1,[[Tables.Fantasy.Fantasy Farmstead.Start]]
 
 ;Magical Locations 
 1,The secluded home of an exiled court-wizard. 
@@ -472,7 +472,7 @@
 1,a fishing village with an inn of good quality 
 1,a slow-moving caravan, with many wagons and travelers 
 1,a set of steps in the side of a hill, leading down into a damp underground icehouse
-1,[[Fantasy Farmstead.Start]]
+1,[[Tables.Fantasy.Fantasy Farmstead.Start]]
 
 ;Magical Locations Lcase
 1,the secluded home of an exiled court-wizard 

@@ -13,10 +13,10 @@
 5,[[Tables.SGNP.SGNP assyrian.female]]
 5,[[Tables.SGNP.SGNP barbarians.EnchantressFirst]]
 5,[[Tables.SGNP.SGNP celtic.female]]
-1,[[Amazon Names.Start]]
+1,[[Tables.Names.Amazon Names.Start]]
 1,[[Tables.Names.Arabesque Names.Start]]
-1,[[SGNP apijan.female]]
-1,[[SGNP amazon.Start]]
+1,[[Tables.SGNP.SGNP apijan.female]]
+1,[[Tables.SGNP.SGNP amazon.Start]]
 1,[[Tables.SGNP.SGNP orcish.female]]
 
 ;Male
@@ -29,7 +29,7 @@
 5,[[Tables.SGNP.SGNP arthurian.MALE]]
 5,[[Tables.SGNP.SGNP barbarians.BarbarianFirst]]
 5,[[Tables.SGNP.SGNP celtic.male]]
-1,[[SGNP apijan.male]]
+1,[[Tables.SGNP.SGNP apijan.male]]
 1,[[Tables.SGNP.SGNP assyrian.male]]
 1,[[Tables.SGNP.SGNP orcish.Start]]
 

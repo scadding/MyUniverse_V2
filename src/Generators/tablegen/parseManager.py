@@ -45,7 +45,10 @@ class parseManager(object):
             ret = ret + text[last:s]
             last = e
             for i in t:
-                ret = ret + self.handleBrace(node, i)
+                try:
+                    ret = ret + self.handleBrace(node, i)
+                except:
+                    print('exception expandFunction(%s, %s' % (node.name, i))
                 found = True
         ret = ret + text[last:]
         return found, ret
@@ -152,7 +155,7 @@ class parseManager(object):
         return exp
     def getSubAndNode(self, node, exp):
         # subtable
-        subtable = re.compile(r'([\w -\.]+)\.([\w -]+)$')
+        subtable = re.compile(r'([\w \-\.]+)\.([\w \-\+]+)$')
         single = re.compile(r'([\w -]+)$')
         # local subtable
         m = single.match(exp)

@@ -3,7 +3,7 @@
 1,[[Places]]
 
 ;Places
-10,'[[Pulp Fantasy Nation.Start]]'--a strange and distant place
+10,'[[Tables.Pulp.Pulp Fantasy Nation.Start]]'--a strange and distant place
 1,'an alternate plane' where everything is [[Planeadjective]]
 20,'a cosmopolitan city', known for its [[Citythingy]] as well as its [[cityadj]] buildings
 10,'an island'
@@ -52,7 +52,7 @@
 1,'a stepwell'
 2,'a strange city' known for its [[Citythingy]] as well as its [[cityadj]] buildings
 1,'an enemy encampment'
-1,'the lair of a horde of evil humanoids'<br/>[[Random Humanoid Horde.Start]]
+1,'the lair of a horde of evil humanoids'<br/>[[Tables.People.Random Humanoid Horde.Start]]
 
 ;Forestfork
 1,where [[Tribals]]
@@ -65,7 +65,7 @@
 1,armored knights do battle
 1,highland warriors ride [[Exoticmounts]]
 1,roving armies ride [[Exoticmounts]]
-1,[[Random Humanoid Horde.Race]] ride [[Exoticmounts]]
+1,[[Tables.People.Random Humanoid Horde.Race]] ride [[Exoticmounts]]
 1,strangely-armored knights ride [[Exoticmounts]]
 1,[[Tables.Animals.Animal.Weirdsymbol]] centaurs roam
 4,the grass is [[simplecolor]] and the women are [[cityadj]]

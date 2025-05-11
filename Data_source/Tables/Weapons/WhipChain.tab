@@ -11,20 +11,20 @@
 5,spiked chain
 
 ;Whip
-1,[[Tables.Weapons.Swords.Quality]] whip made of [[Tables.Utility.LeatherHide]].
+1,[[Tables.Weapons.Swords.Quality]] whip made of [[Tables.Utility.Utility.LeatherHide]].
 
 ;Scourge
-10,[[Tables.Weapons.Swords.Quality]] single-stranded scourge made of [[Tables.Utility.LeatherHide]] and embedded with [[ScourgeBits]].
-10,[[Tables.Weapons.Swords.Quality]] multi-stranded scourge (cat o'nine tails) made of [[Tables.Utility.LeatherHide]] and embedded with [[ScourgeBits]].
+10,[[Tables.Weapons.Swords.Quality]] single-stranded scourge made of [[Tables.Utility.Utility.LeatherHide]] and embedded with [[ScourgeBits]].
+10,[[Tables.Weapons.Swords.Quality]] multi-stranded scourge (cat o'nine tails) made of [[Tables.Utility.Utility.LeatherHide]] and embedded with [[ScourgeBits]].
 1,[[Tables.Weapons.Swords.Quality]] scorpion-tail whip with a hilt wrapped in [[Tables.Weapons.Swords.SwordHiltWrapping]].
 
 ;ScourgeBits
 2,shards of glass
-1,bits of [[Tables.Utility.MetalWeapon]]
+1,bits of [[Tables.Utility.Utility.MetalWeapon]]
 1,shards of bone
 1,briars and thorns
 
 ;SpikedChain
-1,[[Tables.Weapons.Swords.Quality]] spiked chain made of [[Tables.Utility.MetalWeapon]].
+1,[[Tables.Weapons.Swords.Quality]] spiked chain made of [[Tables.Utility.Utility.MetalWeapon]].
 
 

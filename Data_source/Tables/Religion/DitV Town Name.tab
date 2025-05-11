@@ -1,10 +1,10 @@
 
 ;Start
-5,[[DitV Male Name.FirstName]]'s [[Geography]]
+5,[[Tables.Religion.DitV Male Name.FirstName]]'s [[Geography]]
 5,[[FloraFauna]] [[Geography]]
 5,[[WesternTheme]] [[Geography]]
 10,[[ReligiousTheme]] [[Geography]]
-1,[[DitV Male Name.FirstName]]'s [[EventType]]
+1,[[Tables.Religion.DitV Male Name.FirstName]]'s [[EventType]]
 3,[[ScripturePlaces]] [[Geography]]
 1,New [[ScripturePlaces]]
 1,[[Modifier]] [[Start]]

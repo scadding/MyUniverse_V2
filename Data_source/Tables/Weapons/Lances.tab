@@ -1,7 +1,7 @@
 
 ;Start
-5,[[Tables.Weapons.HaftedWeapons.Quality]] [[LanceType]] lance made of [[Tables.Utility.WoodWeapon]]. [[LanceDecor]][[Weapon.MilitaryIssueChance]]
-2,[[Tables.Weapons.HaftedWeapons.Quality]] [[LanceType]] lance made of [[Tables.Utility.WoodWeapon]] and tipped with [[Tables.Utility.MetalWeapon]]. [[LanceDecor]][[Weapon.MilitaryIssueChance]]
+5,[[Tables.Weapons.HaftedWeapons.Quality]] [[LanceType]] lance made of [[Tables.Utility.Utility.WoodWeapon]]. [[LanceDecor]][[Weapon.MilitaryIssueChance]]
+2,[[Tables.Weapons.HaftedWeapons.Quality]] [[LanceType]] lance made of [[Tables.Utility.Utility.WoodWeapon]] and tipped with [[Tables.Utility.Utility.MetalWeapon]]. [[LanceDecor]][[Weapon.MilitaryIssueChance]]
 
 ;StartNoDescription
 1,[[LanceType]] lance
@@ -14,7 +14,7 @@
 
 ;LanceDecor
 6,
-3,The lance has a[[StreamerQuality]] streamer of[[StreamerColor]] [[Tables.Utility.ClothFancy]].
+3,The lance has a[[StreamerQuality]] streamer of[[StreamerColor]] [[Tables.Utility.Utility.ClothFancy]].
 3,The lance has been painted with spiraling [[Tables.Utility.Color.dark]] and [[Tables.Utility.Color.bright]].
 1,The lance is painted solid [[Tables.Utility.Color.bright]].
 1,The lance is painted solid [[Tables.Utility.Color.dark]].
@@ -30,12 +30,12 @@
 
 ;StreamerColor
 1,
-1, [[Tables.Utility.DarkColors]]
-1, [[Tables.Utility.DarkColors]] and [[Tables.Utility.BrightColors]]
-1, [[Tables.Utility.DarkColors]] and [[Tables.Utility.LightColors]]
-1, [[Tables.Utility.DullColors]]
-1, [[Tables.Utility.DullColors]] and [[Tables.Utility.BrightColors]]
-1, [[Tables.Utility.BrightColors]]
-1, [[Tables.Utility.LightColors]]
+1, [[Tables.Utility.Utility.DarkColors]]
+1, [[Tables.Utility.Utility.DarkColors]] and [[Tables.Utility.Utility.BrightColors]]
+1, [[Tables.Utility.Utility.DarkColors]] and [[Tables.Utility.Utility.LightColors]]
+1, [[Tables.Utility.Utility.DullColors]]
+1, [[Tables.Utility.Utility.DullColors]] and [[Tables.Utility.Utility.BrightColors]]
+1, [[Tables.Utility.Utility.BrightColors]]
+1, [[Tables.Utility.Utility.LightColors]]
 
 

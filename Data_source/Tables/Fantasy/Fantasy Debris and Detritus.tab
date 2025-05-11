@@ -7,8 +7,8 @@
 1,a smudge of [[impromptuInk]]
 1,[[Marks]] in the [[MarkLocales]]
 1,[[leftpaper2]] piece of [[papertype]] [[leftpaper]]
-1,shaved bits of {{ia|[[Tables.Utility.HornIvory]]}}
-1,filings perhaps of [[Tables.Utility.Metal]]
+1,shaved bits of {{ia|[[Tables.Utility.Utility.HornIvory]]}}
+1,filings perhaps of [[Tables.Utility.Utility.Metal]]
 
 
 #these may be more 'stuff' and belong in Sights
@@ -30,13 +30,13 @@
 1,a pinch of powdered [[Tables.Utility.MonsterParts.Powders]]
 
 ;MaterialLeftovers
-1,[[leftfabric]] [[Tables.Utility.Cloth]]
-1,[[leftfabric]] [[Tables.Utility.LeatherHide]]
-1,[[leftwood]] [[Tables.Utility.Wood]]
-1,[[leftstone]] [[Tables.Utility.StoneDecorative]]
+1,[[leftfabric]] [[Tables.Utility.Utility.Cloth]]
+1,[[leftfabric]] [[Tables.Utility.Utility.LeatherHide]]
+1,[[leftwood]] [[Tables.Utility.Utility.Wood]]
+1,[[leftstone]] [[Tables.Utility.Utility.StoneDecorative]]
 
 ;FoodStuffs
-1,[[leftfruit]] [[Tables.Utility.Fruit]]
+1,[[leftfruit]] [[Tables.Utility.Utility.Fruit]]
 1,[[leftfood]] {{lc:[[Tables.Food.FantasyMenu.MainMeals]]}}
 
 ;AnimalTraces
@@ -57,7 +57,7 @@
 
 ;leftpaper
 2,
-1,with some letters in [[Tables.Utility.RuneLanguage]] on it
+1,with some letters in [[Tables.Utility.Utility.RuneLanguage]] on it
 1,with a blot of [[Tables.Utility.Color.all]] ink
 1,with the words ''[[Tables.Magic.Magic Incantation.Start]]'' [[WriteTypes]]
 

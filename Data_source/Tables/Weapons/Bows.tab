@@ -1,7 +1,7 @@
 
 ;Start
-50,A [[BowType]] made of [[Tables.Utility.WoodBow]] wood. [[BowDecor]] [[BowString]] [[Quiver]]<br>
-1,A broken [[BowType]] made of [[Tables.Utility.WoodBow]] wood. [[BowDecor]] [[BowDecor]] [[Quiver]]<br>
+50,A [[BowType]] made of [[Tables.Utility.Utility.WoodBow]] wood. [[BowDecor]] [[BowString]] [[Quiver]]<br>
+1,A broken [[BowType]] made of [[Tables.Utility.Utility.WoodBow]] wood. [[BowDecor]] [[BowDecor]] [[Quiver]]<br>
 
 ;BowType
 50,shortbow
@@ -17,48 +17,48 @@
 1,Elven double bow
 
 ;BowDecor
-10,The grip is wrapped in [[Tables.Utility.LeatherHide]].
-6,The grip is wrapped in[[GripColor]] [[Tables.Utility.Cloth]].
+10,The grip is wrapped in [[Tables.Utility.Utility.LeatherHide]].
+6,The grip is wrapped in[[GripColor]] [[Tables.Utility.Utility.Cloth]].
 2,The grip is unwrapped, but smooth and comfortable from regular use.
 2,The grip is unwrapped and rough, making the weapon impractical in combat.
-1,The grip is wrapped in[[GripColor]] [[Tables.Utility.ClothFancy]].
+1,The grip is wrapped in[[GripColor]] [[Tables.Utility.Utility.ClothFancy]].
 
 ;GripColor
 1,
-1, [[Tables.Utility.DarkColors]]
-1, [[Tables.Utility.DarkColors]] and [[Tables.Utility.BrightColors]]
-1, [[Tables.Utility.DarkColors]] and [[Tables.Utility.LightColors]]
-1, [[Tables.Utility.DullColors]]
-1, [[Tables.Utility.DullColors]] and [[Tables.Utility.BrightColors]]
-1, [[Tables.Utility.BrightColors]]
-1, [[Tables.Utility.LightColors]]
+1, [[Tables.Utility.Utility.DarkColors]]
+1, [[Tables.Utility.Utility.DarkColors]] and [[Tables.Utility.Utility.BrightColors]]
+1, [[Tables.Utility.Utility.DarkColors]] and [[Tables.Utility.Utility.LightColors]]
+1, [[Tables.Utility.Utility.DullColors]]
+1, [[Tables.Utility.Utility.DullColors]] and [[Tables.Utility.Utility.BrightColors]]
+1, [[Tables.Utility.Utility.BrightColors]]
+1, [[Tables.Utility.Utility.LightColors]]
 
 ;BowString
 10,The bowstring is made of [[StringLeather]].
 3,The bowstring is missing.
 3,The bowstring is missing, save for a small piece tied at the topnotch.
-3,The bowstring is actually a fine chain made of [[Tables.Weapons.Swords.Quality]] [[Tables.Utility.MetalDecor]].
-1,The bowstring is actually a single wire made of [[Tables.Weapons.Swords.Quality]] [[Tables.Utility.MetalDecor]].
+3,The bowstring is actually a fine chain made of [[Tables.Weapons.Swords.Quality]] [[Tables.Utility.Utility.MetalDecor]].
+1,The bowstring is actually a single wire made of [[Tables.Weapons.Swords.Quality]] [[Tables.Utility.Utility.MetalDecor]].
 
 ;StringLeather
-1,[[Tables.Utility.LeatherShinyness]][[Tables.Utility.LeatherColor]] bat leather
-1,[[Tables.Utility.LeatherShinyness]][[Tables.Utility.LeatherColor]] camel leather
-1,[[Tables.Utility.LeatherShinyness]][[Tables.Utility.LeatherColor]] catgut
-1,[[Tables.Utility.LeatherShinyness]][[Tables.Utility.LeatherColor]] deer leather
-1,[[Tables.Utility.LeatherShinyness]][[Tables.Utility.LeatherColor]] horse hide
-1,[[Tables.Utility.LeatherShinyness]][[Tables.Utility.LeatherColor]] pigskin
-1,[[Tables.Utility.LeatherShinyness]][[Tables.Utility.LeatherColor]] sheepskin leather
-10,[[Tables.Utility.LeatherShinyness]][[Tables.Utility.LeatherColor]] leather
-1,[[Tables.Utility.LeatherShinyness]][[Tables.Utility.LeatherColor]] calfskin
-1,[[Tables.Utility.LeatherColor]] suede
+1,[[Tables.Utility.Utility.LeatherShinyness]][[Tables.Utility.Utility.LeatherColor]] bat leather
+1,[[Tables.Utility.Utility.LeatherShinyness]][[Tables.Utility.Utility.LeatherColor]] camel leather
+1,[[Tables.Utility.Utility.LeatherShinyness]][[Tables.Utility.Utility.LeatherColor]] catgut
+1,[[Tables.Utility.Utility.LeatherShinyness]][[Tables.Utility.Utility.LeatherColor]] deer leather
+1,[[Tables.Utility.Utility.LeatherShinyness]][[Tables.Utility.Utility.LeatherColor]] horse hide
+1,[[Tables.Utility.Utility.LeatherShinyness]][[Tables.Utility.Utility.LeatherColor]] pigskin
+1,[[Tables.Utility.Utility.LeatherShinyness]][[Tables.Utility.Utility.LeatherColor]] sheepskin leather
+10,[[Tables.Utility.Utility.LeatherShinyness]][[Tables.Utility.Utility.LeatherColor]] leather
+1,[[Tables.Utility.Utility.LeatherShinyness]][[Tables.Utility.Utility.LeatherColor]] calfskin
+1,[[Tables.Utility.Utility.LeatherColor]] suede
 
 ;Quiver
 30,
-10,Accompanying the bow is a quiver of [[Tables.Utility.LeatherHide]] with [[Tables.Utility.Fur]] fur trim. It contains [[AmmunitionThrown.Arrow]].
-5,Accompanying the bow is a quiver of [[Tables.Utility.LeatherHide]]. It contains [[AmmunitionThrown.Arrow]].
-5,Accompanying the bow is a quiver of [[Tables.Utility.Fur]] fur with [[Tables.Utility.LeatherHide]] trim. It contains [[AmmunitionThrown.Arrow]].
-5,Accompanying the bow is a two-fingered archer's glove[[ArcherHand]], made of [[Tables.Utility.LeatherHide]].
-3,Accompanying the bow is a[[ArcherShieldType]] archer's shield made of [[Tables.Utility.WoodWeapon]][[ArcherShieldColor]].  The shield has a staked bottom and can stand upright if set in soft ground.
+10,Accompanying the bow is a quiver of [[Tables.Utility.Utility.LeatherHide]] with [[Tables.Utility.Utility.Fur]] fur trim. It contains [[AmmunitionThrown.Arrow]].
+5,Accompanying the bow is a quiver of [[Tables.Utility.Utility.LeatherHide]]. It contains [[AmmunitionThrown.Arrow]].
+5,Accompanying the bow is a quiver of [[Tables.Utility.Utility.Fur]] fur with [[Tables.Utility.Utility.LeatherHide]] trim. It contains [[AmmunitionThrown.Arrow]].
+5,Accompanying the bow is a two-fingered archer's glove[[ArcherHand]], made of [[Tables.Utility.Utility.LeatherHide]].
+3,Accompanying the bow is a[[ArcherShieldType]] archer's shield made of [[Tables.Utility.Utility.WoodWeapon]][[ArcherShieldColor]].  The shield has a staked bottom and can stand upright if set in soft ground.
 
 ;ArcherHand
 20,

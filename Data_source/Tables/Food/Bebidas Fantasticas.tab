@@ -8,7 +8,7 @@
 
 ;nonalcoholic
 4,Agua [[water]]
-3,[[Tables.Utility.Fruit]] Zumo
+3,[[Tables.Utility.Utility.Fruit]] Zumo
 3,Leche [[milk]]
 3,Te [[tea]]
 2,Café
@@ -18,11 +18,11 @@
 ;alcoholic
 15,[[DrinkNames]] [[BeersNAles]] ale
 15,[[DrinkNames]] [[BeersNAles]] cerveza
-3,Néctar de [[Tables.Utility.Fruit]]
+3,Néctar de [[Tables.Utility.Utility.Fruit]]
 5,[[LowQualityDrinks]]
 6,[[CiderDescription]] [[CiderType]] Sidra
 5,[[LiqueurFlavor]] [[Liqueur]]
-3,[[Tables.Utility.Fruit]] Aguardiente
+3,[[Tables.Utility.Utility.Fruit]] Aguardiente
 5,[[Tables.Names.Brewnames.Start]]
 1,Absenta
 1,Ambrosía
@@ -146,7 +146,7 @@
 1,thyme
 1,vanilla bean
 1,wild cherry
-6,[[Tables.Utility.Fruit]]
+6,[[Tables.Utility.Utility.Fruit]]
 10,[[herbal tea]]-[[herbal tea]]
 5,iced [[herbal tea]]
 
@@ -167,7 +167,7 @@
 1,Summer brew
 1,Wizards
 1,Golden
-1,[[Tables.Utility.Fruit]]
+1,[[Tables.Utility.Utility.Fruit]]
 1,Sheppy's
 1,Dragon's brew
 1,Goblin's brew
@@ -201,7 +201,7 @@
 1,Highland
 4,Honeyed
 4,Lager
-5,[[Tables.Utility.Fruit]] Lager
+5,[[Tables.Utility.Utility.Fruit]] Lager
 3,Light
 4,Malt
 4,Orcish
@@ -305,7 +305,7 @@
 
 ;vodka
 2,
-1,[[Tables.Utility.Fruit]]
+1,[[Tables.Utility.Utility.Fruit]]
 
 ;whiskey
 1,scotch
@@ -321,10 +321,10 @@
 1,moonshine
 1,bayou
 1,straight wheat
-1,blended [[Tables.Utility.Fruit]]
+1,blended [[Tables.Utility.Utility.Fruit]]
 
 ;wine
-20,[[Tables.Utility.Fruit]]
+20,[[Tables.Utility.Utility.Fruit]]
 10,red
 10,blush
 10,white

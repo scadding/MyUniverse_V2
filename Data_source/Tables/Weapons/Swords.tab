@@ -9,7 +9,7 @@
 2,[[BasketedSwordType]]
 
 ;DaggerStart
-1,{{ucfirst:a}} [[Quality]] [[DaggerType]] that has a blade of [[Tables.Utility.MetalWeapon]] with a hilt wrapped in [[SwordHiltWrapping]]. [[Pommel]] [[DecorMetal]]
+1,{{ucfirst:a}} [[Quality]] [[DaggerType]] that has a blade of [[Tables.Utility.Utility.MetalWeapon]] with a hilt wrapped in [[SwordHiltWrapping]]. [[Pommel]] [[DecorMetal]]
 
 ;Quality
 5,normal
@@ -43,8 +43,8 @@
 1,main-gauche
 
 ;SwordStart
-4,{{ucfirst:a}} [[Quality]] [[HiltedSwordType]] that has a blade of [[Tables.Utility.MetalWeapon]] with a hilt wrapped in [[SwordHiltWrapping]]. [[SwordBladeDecor]] [[SwordBladeStyle]] [[Pommel]] [[Quillions]] [[DecorMetal]] [[Scabbard]]
-1,{{ucfirst:a}} [[Quality]] [[BasketedSwordType]] that has a blade of [[Tables.Utility.MetalWeapon]] with a hilt wrapped in [[SwordHiltWrapping]]. [[SwordBladeDecor]] [[SwordBladeStyle]] [[Pommel]] [[Basket]] [[DecorMetal]] [[Scabbard]]
+4,{{ucfirst:a}} [[Quality]] [[HiltedSwordType]] that has a blade of [[Tables.Utility.Utility.MetalWeapon]] with a hilt wrapped in [[SwordHiltWrapping]]. [[SwordBladeDecor]] [[SwordBladeStyle]] [[Pommel]] [[Quillions]] [[DecorMetal]] [[Scabbard]]
+1,{{ucfirst:a}} [[Quality]] [[BasketedSwordType]] that has a blade of [[Tables.Utility.Utility.MetalWeapon]] with a hilt wrapped in [[SwordHiltWrapping]]. [[SwordBladeDecor]] [[SwordBladeStyle]] [[Pommel]] [[Basket]] [[DecorMetal]] [[Scabbard]]
 
 ;HiltedSwordType
 50,short sword
@@ -88,33 +88,33 @@
 5,cutlass
 
 ;SwordHiltWrapping
-30,[[Tables.Utility.LeatherHide]]
-10,[[Tables.Utility.MetalDecor]] wire
-5,[[Tables.Utility.WoodWeapon]] with [[Tables.Utility.MetalDecor]] rivets
-5,[[Tables.Utility.LeatherHide]] with [[Tables.Utility.MetalDecor]] wire
-2,[[Tables.Utility.LeatherHide]] with [[Tables.Utility.MetalDecor]] studs
-2,[[Tables.Utility.HornIvory]] with [[Tables.Utility.MetalDecor]] rivets
-1,[[Tables.Utility.LeatherHide]] <b>embedded with numerous small [[Tables.Utility.GemType]]s</b>
+30,[[Tables.Utility.Utility.LeatherHide]]
+10,[[Tables.Utility.Utility.MetalDecor]] wire
+5,[[Tables.Utility.Utility.WoodWeapon]] with [[Tables.Utility.Utility.MetalDecor]] rivets
+5,[[Tables.Utility.Utility.LeatherHide]] with [[Tables.Utility.Utility.MetalDecor]] wire
+2,[[Tables.Utility.Utility.LeatherHide]] with [[Tables.Utility.Utility.MetalDecor]] studs
+2,[[Tables.Utility.Utility.HornIvory]] with [[Tables.Utility.Utility.MetalDecor]] rivets
+1,[[Tables.Utility.Utility.LeatherHide]] <b>embedded with numerous small [[Tables.Utility.Utility.GemType]]s</b>
 
 ;Scabbard
 5,There is no scabbard present.
-2,There is a scabbard of [[Tables.Utility.LeatherHide]] with [[Tables.Utility.MetalDecor]] accents.
-1,There is a scabbard of [[Tables.Utility.LeatherHide]] with [[Tables.Utility.Fur]] fur trim.
-2,There is a scabbard of [[Tables.Utility.MetalDecor]] with [[Tables.Utility.Dice.1d12]] [[Tables.Utility.RelativeSize]] [[Tables.Utility.GemQuality]] [[Tables.Utility.GemType]] stones embedded in it.
-2,There is a simple scabbard of [[Tables.Utility.MetalHard]].
-2,There is a scabbard of [[Tables.Utility.Fur]] fur with [[Tables.Utility.LeatherHide]] accents and [[Tables.Utility.MetalDecor]] trim.
-1,There is a scabbard of [[Tables.Utility.MetalHard]], painted with shiny [[Tables.Utility.Color.dark]] enamel.
-2,There is a scabbard of [[Tables.Utility.WoodWeapon]] wood inlaid with [[Tables.Utility.HornIvory]].
-1,There is a scabbard of <b>[[Tables.Utility.Chitin]] chitin</b> with [[Tables.Utility.LeatherHide]] accents and [[Tables.Utility.MetalDecor]] trim.
-1,There is a scabbard of beaten [[Tables.Utility.MetalSoft]].
-1,There is an ornate scabbard of [[Tables.Utility.MetalDecor]] inlaid with [[Tables.Utility.Ornamental Stones]].
+2,There is a scabbard of [[Tables.Utility.Utility.LeatherHide]] with [[Tables.Utility.Utility.MetalDecor]] accents.
+1,There is a scabbard of [[Tables.Utility.Utility.LeatherHide]] with [[Tables.Utility.Utility.Fur]] fur trim.
+2,There is a scabbard of [[Tables.Utility.Utility.MetalDecor]] with [[Tables.Utility.Dice.1d12]] [[Tables.Utility.Utility.RelativeSize]] [[Tables.Utility.Utility.GemQuality]] [[Tables.Utility.Utility.GemType]] stones embedded in it.
+2,There is a simple scabbard of [[Tables.Utility.Utility.MetalHard]].
+2,There is a scabbard of [[Tables.Utility.Utility.Fur]] fur with [[Tables.Utility.Utility.LeatherHide]] accents and [[Tables.Utility.Utility.MetalDecor]] trim.
+1,There is a scabbard of [[Tables.Utility.Utility.MetalHard]], painted with shiny [[Tables.Utility.Color.dark]] enamel.
+2,There is a scabbard of [[Tables.Utility.Utility.WoodWeapon]] wood inlaid with [[Tables.Utility.Utility.HornIvory]].
+1,There is a scabbard of <b>[[Tables.Utility.Utility.Chitin]] chitin</b> with [[Tables.Utility.Utility.LeatherHide]] accents and [[Tables.Utility.Utility.MetalDecor]] trim.
+1,There is a scabbard of beaten [[Tables.Utility.Utility.MetalSoft]].
+1,There is an ornate scabbard of [[Tables.Utility.Utility.MetalDecor]] inlaid with [[Tables.Utility.Utility.Ornamental Stones]].
 
 ;SwordBladeDecor
 2,The blade is decorated with a flame motif.
 2,The blade is decorated with a lightning motif.
 2,The blade is decorated with etched serpents.
 2,Serpentine runes run up and down the blade.
-4,The blade is decorated with runes in [[Tables.Utility.RuneLanguage]] that convey the meaning <b>"[[Tables.Utility.Inscriptions.Start]]"</b>. <b>[[RuneGlowChance]]</b>
+4,The blade is decorated with runes in [[Tables.Utility.Utility.RuneLanguage]] that convey the meaning <b>"[[Tables.Utility.Inscriptions.Start]]"</b>. <b>[[RuneGlowChance]]</b>
 2,The blade is decorated with knotwork.
 2,The blade is decorated with an etched depiction.
 2,The blade is painted with shiny [[Tables.Utility.Color.dark]] enamel.
@@ -138,9 +138,9 @@
 10,A small rounded pommel provides balance.
 5,A brass cap with 6 evenly spaced studs serves as the pommel.
 2,The pommel is of "skullcrusher" shape, allowing its use as a bludgeoning weapon.
-4,The large, round pommel is stamped with [[Tables.Utility.Symbols]].
+4,The large, round pommel is stamped with [[Tables.Utility.Utility.Symbols]].
 5,The pommel is in the shape of [[PommelShapes]].
-2,The pommel contains a [[Tables.Utility.RelativeSize]] [[Tables.Utility.GemQuality]] [[Tables.Utility.GemType]].
+2,The pommel contains a [[Tables.Utility.Utility.RelativeSize]] [[Tables.Utility.Utility.GemQuality]] [[Tables.Utility.Utility.GemType]].
 3,The pommel consists only of a lanyard ring.
 1,The pommel is in the shape of [[PommelShapes]] and screws off to reveal a hollow hilt. 
 1,The hilt ends in a sharp blade where a pommel would normally be.
@@ -149,11 +149,11 @@
 1,There are straight [[QuillionShape]] quillions at the crossbar with a large ring protruding from one of the blade sides.
 1,There are arched quillions protruding toward the blade end.
 1,There are straight, unremarkable [[QuillionShape]] quillions at the crossbar.
-2,The [[QuillionShape]] quillions and center of the crossbar on each side contain matching [[Tables.Utility.RelativeSize]] [[Tables.Utility.GemQuality]] [[Tables.Utility.GemType]] stones.
-3,The [[QuillionShape]] quillions are unremarkable, but the crossbar is stamped with [[Tables.Utility.Symbols]].
+2,The [[QuillionShape]] quillions and center of the crossbar on each side contain matching [[Tables.Utility.Utility.RelativeSize]] [[Tables.Utility.Utility.GemQuality]] [[Tables.Utility.Utility.GemType]] stones.
+3,The [[QuillionShape]] quillions are unremarkable, but the crossbar is stamped with [[Tables.Utility.Utility.Symbols]].
 1,This sword has no quillions; the blade widens towards the base, then tapers as it passes straight into the hilt wrapping.
 1,The quillions and crossbar are engraved in a leaf motif.
-1,The [[QuillionShape]] quillions end in large circles, which match the crossbar circle. All are stamped with [[Tables.Utility.Symbols]].
+1,The [[QuillionShape]] quillions end in large circles, which match the crossbar circle. All are stamped with [[Tables.Utility.Utility.Symbols]].
 1,The quillions are shaped like eagle talons, each clutching a sphere. 
 1,One quillion arches upward, the other downward, forming an S shape.
 1,The quillions are in the shape of serpent necks and heads.
@@ -165,8 +165,8 @@
 1,The quillions are larger than normal and each precisely matches the main hilt and pommel.
 1,The [[QuillionShape]] quillions protrude about two inches on either side, then turn sharply downward for about 5 inches.
 4,The simple [[QuillionShape]] quillions each end in [[PommelShapes]], and the crossbar has an engraving of the same in a circle.
-2,The simple [[QuillionShape]] quillions each end in [[PommelShapes]], and the crossbar is stamped with [[Tables.Utility.Symbols]].
-2,The simple [[QuillionShape]] quillions each end in [[PommelShapes]], and the crossbar contains a [[Tables.Utility.RelativeSize]] [[Tables.Utility.GemQuality]] [[Tables.Utility.GemType]].
+2,The simple [[QuillionShape]] quillions each end in [[PommelShapes]], and the crossbar is stamped with [[Tables.Utility.Utility.Symbols]].
+2,The simple [[QuillionShape]] quillions each end in [[PommelShapes]], and the crossbar contains a [[Tables.Utility.Utility.RelativeSize]] [[Tables.Utility.Utility.GemQuality]] [[Tables.Utility.Utility.GemType]].
 
 ;QuillionShape
 6,round
@@ -192,7 +192,7 @@
 
 ;DecorMetal
 5,
-3,The decorative elements of the sword are composed of [[Tables.Utility.MetalDecor]].
+3,The decorative elements of the sword are composed of [[Tables.Utility.Utility.MetalDecor]].
 
 ;PommelShapes
 1,the head of an Illithid, it's tentacles wrapping around the hilt[[PommelEyes]]
@@ -245,14 +245,14 @@
 
 ;PommelEyes
 5,
-1,, with eyes made out of small [[Tables.Utility.GemType]]s
+1,, with eyes made out of small [[Tables.Utility.Utility.GemType]]s
 
 ;RuneGlowChance
 8,
 1,The inscription glows faintly with a [[Tables.Utility.Color.hues]] light.
 1,The inscription glows brightly with a [[Tables.Utility.Color.hues]] light.
-1,The inscription glows faintly with a [[Tables.Utility.Color.hues]] light when [[Tables.Utility.CreatureTypes]]s are nearby.
-1,The inscription glows brightly with a [[Tables.Utility.Color.hues]] light when [[Tables.Utility.CreatureTypes]]s are nearby.
+1,The inscription glows faintly with a [[Tables.Utility.Color.hues]] light when [[Tables.Utility.Utility.CreatureTypes]]s are nearby.
+1,The inscription glows brightly with a [[Tables.Utility.Color.hues]] light when [[Tables.Utility.Utility.CreatureTypes]]s are nearby.
 1,The inscription glows faintly with a [[Tables.Utility.Color.hues]] light if monsters are nearby.
 1,The inscription glows brightly with a [[Tables.Utility.Color.hues]] light if evil is nearby.
 

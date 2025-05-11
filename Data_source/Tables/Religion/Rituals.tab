@@ -324,10 +324,10 @@
 4,wear only clothing of [[clothingRestriction]]
 
 ;clothingRestriction
-2,[[ClothingFemale.MaterialsCommon]]
-1,[[ClothingFemale.MaterialsFancy]]
-5,[[ClothingFemale.ClothingColors]]
-2,[[Tables.Utility.Cloth]]
+2,[[Tables.Clothes.ClothingFemale.MaterialsCommon]]
+1,[[Tables.Clothes.ClothingFemale.MaterialsFancy]]
+5,[[Tables.Clothes.ClothingFemale.ClothingColors]]
+2,[[Tables.Utility.Utility.Cloth]]
 ;riteFoodDrink
 1,drink a lot of alcohol
 1,host a great feast
@@ -379,8 +379,8 @@
 1,learn a new secret handshake
 1,learn a new dance
 1,learn a new song
-1,make a new coat of [[Tables.Utility.LeatherHide]]
-1,make a new garment of [[Tables.Utility.Cloth]]
+1,make a new coat of [[Tables.Utility.Utility.LeatherHide]]
+1,make a new garment of [[Tables.Utility.Utility.Cloth]]
 
 ;riteCompetitive
 5,participate in single combat against a wild beast
@@ -422,12 +422,12 @@
 1,be flogged with [[Tables.Utility.Dice.2d6]] lashes
 1,be burned alive
 1,be stoned to death
-1,be pelted with rotten [[Tables.Utility.Fruit]]s
+1,be pelted with rotten [[Tables.Utility.Utility.Fruit]]s
 1,cut off a finger
 1,cut off a toe
 1,be blinded
 1,be bled
-1,have the [[Tables.Utility.LeftRight]] eye put out with a burning stick
+1,have the [[Tables.Utility.Utility.LeftRight]] eye put out with a burning stick
 
 ;timePeriodAny
 1,[[timePeriodShort]]
@@ -473,8 +473,8 @@
 1,a prisoner of war
 
 ;specificFood
-1,[[Tables.Utility.Fruit]]s
-1,[[Fantasy Farmstead.AgricultureProduct]]
+1,[[Tables.Utility.Utility.Fruit]]s
+1,[[Tables.Fantasy.Fantasy Farmstead.AgricultureProduct]]
 1,[[Tables.Food.FantasyMenu.MainMeals]]
 1,[[Tables.Food.FantasyMenu.Veggies]]
 
@@ -526,7 +526,7 @@
 1,seek a mate
 1,vote in council
 1,bear weaponry
-1,wear a [[Tables.Utility.Colors]] garment
+1,wear a [[Tables.Utility.Utility.Colors]] garment
 1,own slaves
 1,go on a boat for the first time
 1,own livestock

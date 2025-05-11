@@ -8,7 +8,7 @@
 1,[[ClubType]]
 
 ;Staff
-1,{{ucfirst:a}} [[StaffType]] made of [[Tables.Utility.WoodWeapon]] wood. [[StaffDecor]]
+1,{{ucfirst:a}} [[StaffType]] made of [[Tables.Utility.Utility.WoodWeapon]] wood. [[StaffDecor]]
 
 ;StaffType
 5,quarterstaff
@@ -18,15 +18,15 @@
 ;StaffDecor
 10,
 1,The staff is hexagonal in shape and has been well oiled.
-3,The staff has grips wrapped in [[Tables.Utility.LeatherHide]].
-1,The staff has numerous small studs made of [[Tables.Utility.MetalWeapon]] protruding from it.
+3,The staff has grips wrapped in [[Tables.Utility.Utility.LeatherHide]].
+1,The staff has numerous small studs made of [[Tables.Utility.Utility.MetalWeapon]] protruding from it.
 1,The staff is octagonal in shape and has been well oiled.
-3,The staff is capped on one end with a small [[Tables.Utility.MetalWeapon]] carving of [[Tables.Weapons.Swords.PommelShapes]].
-4,The staff is [[Tables.Utility.MetalWeapon]]-shodded.
+3,The staff is capped on one end with a small [[Tables.Utility.Utility.MetalWeapon]] carving of [[Tables.Weapons.Swords.PommelShapes]].
+4,The staff is [[Tables.Utility.Utility.MetalWeapon]]-shodded.
 
 ;Club
-35,[[Tables.Weapons.HaftedWeapons.Quality]] [[ClubType]] made of [[Tables.Utility.WoodWeapon]] wood. [[ClubDecor]]
-1,A length of metal that may be used as [[Tables.Weapons.Swords.Quality]] [[ClubType]]. It is made of [[Tables.Utility.MetalWeapon]]. 
+35,[[Tables.Weapons.HaftedWeapons.Quality]] [[ClubType]] made of [[Tables.Utility.Utility.WoodWeapon]] wood. [[ClubDecor]]
+1,A length of metal that may be used as [[Tables.Weapons.Swords.Quality]] [[ClubType]]. It is made of [[Tables.Utility.Utility.MetalWeapon]]. 
 
 ;ClubType
 10,club
@@ -36,8 +36,8 @@
 
 ;ClubDecor
 20,
-4,Large spikes made of [[Tables.Utility.MetalWeapon]] have been driven through the wood, allowing piercing damage.
-2,Bands of [[Tables.Utility.MetalWeapon]] are wrapped around the club.
-3,Studs of [[Tables.Utility.MetalWeapon]] protrude from the surface of the club.
+4,Large spikes made of [[Tables.Utility.Utility.MetalWeapon]] have been driven through the wood, allowing piercing damage.
+2,Bands of [[Tables.Utility.Utility.MetalWeapon]] are wrapped around the club.
+3,Studs of [[Tables.Utility.Utility.MetalWeapon]] protrude from the surface of the club.
 
 

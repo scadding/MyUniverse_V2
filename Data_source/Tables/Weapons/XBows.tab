@@ -1,6 +1,6 @@
 
 ;Start
-1,{{ucfirst:a}} [[Tables.Weapons.Swords.Quality]] [[XBowType]] made of [[Tables.Utility.WoodWeapon]], with the bow made of [[Tables.Utility.WoodBow]]. [[XBowStockDecor]] [[BoltQuiver]]<br>
+1,{{ucfirst:a}} [[Tables.Weapons.Swords.Quality]] [[XBowType]] made of [[Tables.Utility.Utility.WoodWeapon]], with the bow made of [[Tables.Utility.Utility.WoodBow]]. [[XBowStockDecor]] [[BoltQuiver]]<br>
 
 ;XBowType
 5,hand crossbow
@@ -12,14 +12,14 @@
 
 ;XBowStockDecor
 4,
-1,The stock has a depiction of [[Tables.Utility.Symbols]].
+1,The stock has a depiction of [[Tables.Utility.Utility.Symbols]].
 
 ;BoltQuiver
 6,
-2,Accompanying the crossbow is a quiver of [[Tables.Utility.LeatherHide]] with [[Tables.Utility.Fur]] fur trim. It contains [[AmmunitionThrown.Bolt]]
-1,Accompanying the crossbow is a quiver of [[Tables.Utility.LeatherHide]]. It contains [[AmmunitionThrown.Bolt]]
-1,Accompanying the crossbow is a quiver of [[Tables.Utility.Fur]] fur with [[Tables.Utility.LeatherHide]] trim. It contains [[AmmunitionThrown.Bolt]]
-2,Accompanying the crossbow is a quiver of [[Tables.Utility.LeatherHide]] with [[Tables.Utility.MetalDecor]] trim. It contains [[AmmunitionThrown.Bolt]]
+2,Accompanying the crossbow is a quiver of [[Tables.Utility.Utility.LeatherHide]] with [[Tables.Utility.Utility.Fur]] fur trim. It contains [[AmmunitionThrown.Bolt]]
+1,Accompanying the crossbow is a quiver of [[Tables.Utility.Utility.LeatherHide]]. It contains [[AmmunitionThrown.Bolt]]
+1,Accompanying the crossbow is a quiver of [[Tables.Utility.Utility.Fur]] fur with [[Tables.Utility.Utility.LeatherHide]] trim. It contains [[AmmunitionThrown.Bolt]]
+2,Accompanying the crossbow is a quiver of [[Tables.Utility.Utility.LeatherHide]] with [[Tables.Utility.Utility.MetalDecor]] trim. It contains [[AmmunitionThrown.Bolt]]
 
 
 
