@@ -20,7 +20,7 @@ class parseManager(object):
         return ret
     def parse(self, node, exp):
         # fix this - this will be the first key
-        # god!  I am going to have to build atoms
+        # I am going to have to build atoms
         # I need to parse, not linear.
         # who are my lowest level atoms?
         # any internal atoms?
@@ -49,77 +49,85 @@ class parseManager(object):
             found, ret = self.expandVariableAlt(node, ret)
         return ret
     def expandFunction(self, node, text):
-        ret = ''
+        retval = ''
         last = 0
         found = False
         nestedItems = self.nestedExpr("{{", "}}")
-        for t, s, e in nestedItems.scanString(text):
-            ret = ret + text[last:s]
-            last = e
-            for i in t:
+        for tokens, start, end in nestedItems.scanString(text):
+            retval = retval + text[last:start]
+            last = end
+            for i in tokens:
                 try:
-                    ret = ret + self.handleBrace(node, i)
+                    retval = retval + self.handleBrace(node, i)
                 except:
                     print('exception expandFunction(%s, %s' % (node.name, i))
                 found = True
-        ret = ret + text[last:]
-        return found, ret
+            break
+        retval = retval + text[last:]
+        return found, retval
     def expandTable(self, node, text):
         last = 0
-        n = ''
+        retval = ''
         found = False
         nestedItems = self.nestedExpr("[[", "]]")
-        for t, s, e in nestedItems.scanString(text):
-            n = n + text[last:s]
-            last = e
-            for i in t:
+        for tokens, start, end in nestedItems.scanString(text):
+            retval = retval + text[last:start]
+            last = end
+            for i in tokens:
                 l = self.parseList(i, start='[[', finish=']]')
                 c = self.parseTable(node, self.parse(node, l[0]))
-                n = n + c
+                retval = retval + c
                 found = True
-        ret = n + text[last:]
-        return found, ret
+            break
+        retval = retval + text[last:]
+        return found, retval
     def expandVariable(self, node, text):
         last = 0
-        n = ''
+        retval = ''
         found = False
-        q = pyparsing.QuotedString('<<', multiline=False, unquoteResults=True, endQuoteChar='>>')
-        for t, s, e in q.scanString(text):
-            n = n + text[last:s]
-            last = e
-            n = n + self.parseVariable(node, t[0])
+        quoted = pyparsing.QuotedString('<<', multiline=False, unquoteResults=True, endQuoteChar='>>')
+        for tokens, start, end in quoted.scanString(text):
+            retval = retval + text[last:start]
+            last = end
+            retval = retval + self.parseVariable(node, tokens[0])
             found = True
-        ret = n + text[last:]
+            break
+        ret = retval + text[last:]
         return found, ret
     def expandTemplate(self, node, text):
         last = 0
-        n = ''
+        retval = ''
         found = False
-        q = pyparsing.QuotedString('@@', multiline=False, unquoteResults=True, endQuoteChar='@@')
-        for t, s, e in q.scanString(text):
-            n = n + text[last:s]
-            last = e
-            node = self.parseTemplate(node, t[0])
-            if node:
-                for l in open(node.filename):
-                    n = n + l
-                found = True
-        ret = n + text[last:]
-        return found, ret
+        quoted = pyparsing.QuotedString('@@', multiline=False, unquoteResults=True, endQuoteChar='@@')
+        for tokens, start, end in quoted.scanString(text):
+            retval = retval + text[last:start]
+            last = end
+            retval = retval + self.parseTemplate(node, tokens[0])
+            break
+        retval = retval + text[last:]
+        return found, retval
     def expandVariableAlt(self, node, text):
         last = 0
-        n = ''
+        retval = ''
         found = False
-        q = pyparsing.QuotedString('%%', multiline=False, unquoteResults=True, endQuoteChar='%%')
-        for t, s, e in q.scanString(text):
-            n = n + text[last:s]
-            last = e
-            n = n + self.parseVariable(node, t[0])
+        quoted = pyparsing.QuotedString('%%', multiline=False, unquoteResults=True, endQuoteChar='%%')
+        for tokens, start, end in quoted.scanString(text):
+            retval = retval + text[last:start]
+            last = end
+            retval = retval + self.parseVariable(node, tokens[0])
             found = True
-        ret = n + text[last:]
-        return found, ret
+            break
+        retval = retval + text[last:]
+        return found, retval
     def parseTemplate(self, node, exp, type='tml'):
-        return node.pathToNode(exp, type)
+        tnode = node.pathToNode(exp, type)
+        retval = ''
+        if tnode:
+            for line in open(tnode.filename):
+                retval = retval + line
+        else:
+            print("unkonwn template - %s in [%s]" % (exp, node.name))
+        return retval
     def parseSubAndPath(self, node, exp):
         sub = ""
         path = None
