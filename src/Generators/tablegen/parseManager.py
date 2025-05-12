@@ -56,12 +56,11 @@ class parseManager(object):
         for tokens, start, end in nestedItems.scanString(text):
             retval = retval + text[last:start]
             last = end
-            for i in tokens:
-                try:
-                    retval = retval + self.handleBrace(node, i)
-                except:
-                    print('exception expandFunction(%s, %s' % (node.name, i))
-                found = True
+            try:
+                retval = retval + self.handleBrace(node, tokens[0])
+            except:
+                print('exception expandFunction(%s, %s' % (node.name, tokens[0]))
+            found = True
             break
         retval = retval + text[last:]
         return found, retval
@@ -73,11 +72,10 @@ class parseManager(object):
         for tokens, start, end in nestedItems.scanString(text):
             retval = retval + text[last:start]
             last = end
-            for i in tokens:
-                l = self.parseList(i, start='[[', finish=']]')
-                c = self.parseTable(node, self.parse(node, l[0]))
-                retval = retval + c
-                found = True
+            l = self.parseList(tokens[0], start='[[', finish=']]')
+            c = self.parseTable(node, self.parse(node, l[0]))
+            retval = retval + c
+            found = True
             break
         retval = retval + text[last:]
         return found, retval
