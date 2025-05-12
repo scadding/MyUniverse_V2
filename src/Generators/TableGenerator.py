@@ -20,7 +20,7 @@ class Generator:
     def Update(self, p):
         config = Configuration()
         self.tm = tableMgr()
-        self.tm.walktree(config.getValue("Data", "directory"), self.tm.addfile, load=False)
+        self.tm.walktree(config.getValue("Data", "directory"), load=False)
         self.parameters['Generators'] = self.tm.getTree()
         pass
     def GetGeneratorList(self, p):
