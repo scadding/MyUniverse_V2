@@ -141,7 +141,7 @@ class tableDB(tableGroup):
             else:
                 retVal = l[column].strip()
         return retVal
-        print('Error: *** No [' + t + '] Table***', file=sys.stderr)
+        print('Error: *** No [' + t + '] Table from [' + self.node.name + '] ***')
         return ''
     def autorunStart(self):
         s = ''
@@ -234,7 +234,7 @@ class tableFile(tableGroup):
             return self.table[t].roll(column=column, roll=roll)
         elif t == 'Start':
             return self.autorunStart()
-        print('Error: *** No [' + t + '] Table***', file=sys.stderr)
+        print('Error: *** No [' + t + '] Table from [' + self.node.name + '] ***')
         return ''
     def autorunStart(self):
         s = ''
