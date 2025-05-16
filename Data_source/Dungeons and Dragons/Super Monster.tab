@@ -1,16 +1,16 @@
 
 <<Roll>> = {{dice~3d6}}
 
-<<Tiny>>=1
-<<Small>>=2
-<<Man-sized>>=3
-<<Large>>=4
-<<Huge>>=5
-<<Gargantuan>>=6
+<<Tiny>>=0
+<<Small>>=1
+<<Man-sized>>=2
+<<Large>>=3
+<<Huge>>=4
+<<Gargantuan>>=5
 
 :Start
-1,  <<Roll>> [Monster Strength Scores(<<Roll>>)@<<Tiny>>] [Monster Strength Scores(<<Roll>>)@<<Gargantuan>>]
-100, @@Super Monster@@ [Monster Strength Scores(<<Roll>>)@<<Tiny>>] [Monster Strength Scores(<<Roll>>)@<<Gargantuan>>]
+1,  <<Roll>> Tiny: [[Monster Strength Scores(<<Roll>>)@<<Tiny>>]] Giant: [[Monster Strength Scores(<<Roll>>)@<<Gargantuan>>]]
+100, @@Super Monster@@ Tiny: [[Monster Strength Scores(<<Roll>>)@<<Tiny>>]] Giant: [[Monster Strength Scores(<<Roll>>)@<<Gargantuan>>]]
 
 @Monster Strength Scores
 # Score T S M L H G 

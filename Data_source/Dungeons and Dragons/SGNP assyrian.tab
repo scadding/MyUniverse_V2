@@ -5,9 +5,9 @@
 <<template>>=abcd
 
 ;Start
-1,[the female@0({{dice|d6}})] (female) <<junk>> <<junk>>
-1,[male] (male) <<stuff>>
-1,{{for:loop, 0,<<loop>>, [the female] <br>}}
+1,[[the female@0({{dice|d6}})]] (female) <<junk>> <<junk>>
+1,[[male]] (male) <<stuff>>
+1,{{for:loop, 0,<<loop>>, [[the female]] <br>}}
 1,<<loop>> eval test {{eval:{{dice:3d6}}*4+<<loop>>}} {{dice:d100.setMinimum(25)}}
 1,if {{if|6 > 3,6 < 3}}
 

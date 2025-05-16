@@ -2,33 +2,33 @@
 # ; delta offset
 # : indexed offset
 # @ csv
-# [tablename]
-# [tablename(value for index)]
-# [tablename@column]  from 0
+# [[tablename]]
+# [[tablename(value for index)]]
+# [[tablename@column]]  from 0
 # {{dice~parameter}} call function with parameter(s)
-# %variable=value    #declaration
-# %variable%         #usage
-# template_file.tml  # read in as variable %template_file%
+# %%variable=value    #declaration
+# %%variable%%         #usage
+# template_file.tml  # read in as variable %%template_file%%
 # for
 # if
 # assign
 
 
-# [the female@0({{dice|d6}})] (female) %junk% %junk%
-# [male] (male) %stuff%
-# {{for:1,%loop%, [the female] }}
-# %loop% {{eval:{{dice:3d6}}*4+%loop%}}  %%02 {{dice:d100.setMinimum(25)}}
+# [[the female@0({{dice|d6}})]] (female) %%junk%% %%junk%%
+# [[male]] (male) %%stuff%%
+# {{for:1,%%loop%%, [[the female]] }}
+# %%loop%% {{eval:{{dice:3d6}}*4+%%loop%%}}  02 {{dice:d100.setMinimum(25)}}
 # if {{if|6 > 3,6 < 3}}
 
 
 
 ;Start
-1, This is a campaign level [Demographics]
-1, High Level adversary [HighLevel]
-1, [Magical Ratings(3)]
-1, [Magical Ratings({{dice~2d10}})]
-1, [Technological Ratings({{dice~2d10}})]
-100, [Ecological Ratings({{dice~2d10}})]
+1, This is a campaign level [[Demographics]]
+1, High Level adversary [[HighLevel]]
+1, [[Magical Ratings(3)]]
+1, [[Magical Ratings({{dice~2d10}})]]
+1, [[Technological Ratings({{dice~2d10}})]]
+100, [[Ecological Ratings({{dice~2d10}})]]
 
 
 ;Demographics
