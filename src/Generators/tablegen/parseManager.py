@@ -18,106 +18,87 @@ class parseManager(object):
         ret <<= pyparsing.Group(pyparsing.Suppress(opener) +
                                 pyparsing.ZeroOrMore(ret | content) + pyparsing.Suppress(closer))
         return ret
-    def parse(self, node, exp):
-        # fix this - this will be the first key
-        # I am going to have to build atoms
-        # I need to parse, not linear.
-        # who are my lowest level atoms?
-        # any internal atoms?
-        # low level vs current?
-        # pre-parse?
-        # find self-contained elements
-        # switch to c?
-        # flex/yacc?
-        found = True
-        ret = exp
-        while found:
-            found, ret = self.expandFunction(node, ret)
-            if found:
-                continue
-            found, ret = self.expandTable(node, ret)
-            if found:
-                continue
-            # change this
-            found, ret = self.expandTemplate(node, ret)
-            if found:
-                continue
-            found, ret = self.expandVariable(node, ret)
-            if found:
-                continue
-            # get rid of this ...
-            found, ret = self.expandVariableAlt(node, ret)
-        return ret
-    def expandFunction(self, node, text):
+    def prepareParsing(self):
+        self.myParseDict = dict()
+        self.myParseDict['function'] = dict()
+        self.myParseDict['function']['start'] = '{{'
+        self.myParseDict['function']['end'] = '}}'
+        self.myParseDict['function']['parse'] = False
+        self.myParseDict['function']['handler'] = self.parseFunction
+        self.myParseDict['table'] = dict()
+        self.myParseDict['table']['start'] = '[['
+        self.myParseDict['table']['end'] = ']]'
+        self.myParseDict['table']['parse'] = True
+        self.myParseDict['table']['handler'] = self.parseTable
+        self.myParseDict['template'] = dict()
+        self.myParseDict['template']['start'] = '@@'
+        self.myParseDict['template']['end'] = '@@'
+        self.myParseDict['template']['parse'] = True
+        self.myParseDict['template']['handler'] = self.parseTemplate
+        self.myParseDict['variable'] = dict()
+        self.myParseDict['variable']['start'] = '<<'
+        self.myParseDict['variable']['end'] = '>>'
+        self.myParseDict['variable']['parse'] = True
+        self.myParseDict['variable']['handler'] = self.parseVariable
+        self.myParseDict['variableAlt'] = dict()
+        self.myParseDict['variableAlt']['start'] = '%%'
+        self.myParseDict['variableAlt']['end'] = '%%'
+        self.myParseDict['variableAlt']['parse'] = True
+        self.myParseDict['variableAlt']['handler'] = self.parseVariable
+        for p in self.myParseDict:
+            if self.myParseDict[p]['start'] != self.myParseDict[p]['end']:
+                self.myParseDict[p]['isNested'] = True
+                self.myParseDict[p]['parser'] = self.nestedExpr(self.myParseDict[p]['start'], self.myParseDict[p]['end'])
+            else:
+                self.myParseDict[p]['isNested'] = False
+                self.myParseDict[p]['parser'] = pyparsing.QuotedString(self.myParseDict[p]['start'],
+                                                                       multiline=False, unquoteResults=True,
+                                                                       endQuoteChar=self.myParseDict[p]['end']
+                                                                       )
+    def parse(self, node : tableNode, text):
+        self.level += 1
+        indent = '  ' * self.level
+        exp = text
+        lParser = None
+        while len(exp):
+            index = len(exp)
+            for p in self.myParseDict:
+                i = exp.find(self.myParseDict[p]['start'])
+                if i != -1 and i < index:
+                    index = i
+                if i == 0:
+                    if exp.find(self.myParseDict[p]['end']) == -1:
+                        raise ValueError
+                    lParser = p
+                    break
+            if index == 0:
+                l = len(self.myParseDict[lParser]['start'])
+                for tokens, start, end in self.myParseDict[p]['parser'].scanString(exp):
+                    arguments = exp[start + l:end - l]
+                    if self.myParseDict[lParser]['parse']:
+                        arguments = ''
+                        for atom in self.parse(node, exp[start + l:end - l]):
+                            arguments = arguments + atom
+                    try:
+                        result = self.myParseDict[lParser]['handler'](node, arguments)
+                        exp = result + exp[end:]
+                    except:
+                        exp = ''
+                        raise
+                    if exp == text:
+                        raise ValueError
+                    break
+            else:
+                retVal = exp[:index]
+                exp = exp[index:]
+                yield retVal
+        self.level -= 1
+    def parseSingle(self, node : tableNode, exp):
         retval = ''
-        last = 0
-        found = False
-        nestedItems = self.nestedExpr("{{", "}}")
-        for tokens, start, end in nestedItems.scanString(text):
-            retval = retval + text[last:start]
-            last = end
-            try:
-                retval = retval + self.handleBrace(node, tokens[0])
-            except:
-                print('exception expandFunction(%s, %s' % (node.name, tokens[0]))
-            found = True
-            break
-        retval = retval + text[last:]
-        return found, retval
-    def expandTable(self, node, text):
-        last = 0
-        retval = ''
-        found = False
-        nestedItems = self.nestedExpr("[[", "]]")
-        for tokens, start, end in nestedItems.scanString(text):
-            retval = retval + text[last:start]
-            last = end
-            l = self.parseList(tokens[0], start='[[', finish=']]')
-            c = self.parseTable(node, self.parse(node, l[0]))
-            retval = retval + c
-            found = True
-            break
-        retval = retval + text[last:]
-        return found, retval
-    def expandVariable(self, node, text):
-        last = 0
-        retval = ''
-        found = False
-        quoted = pyparsing.QuotedString('<<', multiline=False, unquoteResults=True, endQuoteChar='>>')
-        for tokens, start, end in quoted.scanString(text):
-            retval = retval + text[last:start]
-            last = end
-            retval = retval + self.parseVariable(node, tokens[0])
-            found = True
-            break
-        ret = retval + text[last:]
-        return found, ret
-    def expandTemplate(self, node, text):
-        last = 0
-        retval = ''
-        found = False
-        quoted = pyparsing.QuotedString('@@', multiline=False, unquoteResults=True, endQuoteChar='@@')
-        for tokens, start, end in quoted.scanString(text):
-            retval = retval + text[last:start]
-            last = end
-            retval = retval + self.parseTemplate(node, tokens[0])
-            break
-        retval = retval + text[last:]
-        return found, retval
-    def expandVariableAlt(self, node, text):
-        last = 0
-        retval = ''
-        found = False
-        quoted = pyparsing.QuotedString('%%', multiline=False, unquoteResults=True, endQuoteChar='%%')
-        for tokens, start, end in quoted.scanString(text):
-            retval = retval + text[last:start]
-            last = end
-            retval = retval + self.parseVariable(node, tokens[0])
-            found = True
-            break
-        retval = retval + text[last:]
-        return found, retval
-    def parseTemplate(self, node, exp, type='tml'):
+        for s in self.parse(node, exp):
+            retval = retval + s
+        return retval
+    def parseTemplate(self, node : tableNode, exp, type='tml'):
         tnode = node.pathToNode(exp, type)
         retval = ''
         if tnode:
@@ -126,7 +107,7 @@ class parseManager(object):
         else:
             print("unkonwn template - %s in [%s]" % (exp, node.name))
         return retval
-    def parseSubAndPath(self, node, exp):
+    def parseSubAndPath(self, node : tableNode, exp):
         sub = ""
         path = None
         # sub
@@ -143,18 +124,19 @@ class parseManager(object):
             path = m.group(1)
             sub = m.group(2)
         return path, sub
-    def parseVariable(self, node : tableNode, exp):
+    def parseVariable(self, node : tableNode, text):
+        exp = text
         # parse args
         # get node
         tablenode = node
-        exp = self.parse(tablenode, exp)
+        exp = self.parseSingle(tablenode, exp)
         path, sub = self.parseSubAndPath(tablenode, exp)
         if path:
             node = tablenode.pathToNode(path)
         n = self.getVariable(tablenode, sub)
         if n == "":
             # initialize variable
-            n = self.parse(tablenode, self.getBaseVariable(tablenode, sub))
+            n = self.parseSingle(tablenode, self.getBaseVariable(tablenode, sub))
             self.setVariable(tablenode, sub, n)
         return n
     def getArguments(self, node, exp, args):
@@ -169,9 +151,10 @@ class parseManager(object):
         m = at_arg.match(exp)
         if m:
             exp = m.group(1) + m.group(3)
-            args['@'] = int(self.parse(node, m.group(2)))
+            args['@'] = int(self.parseSingle(node, m.group(2)))
         return exp
     def getSubAndNode(self, node, exp):
+        text = exp
         # subtable
         subtable = re.compile(r'([\w \-\.]+)\.([\w \-\+]+)$')
         single = re.compile(r'([\w -]+)$')
@@ -190,10 +173,10 @@ class parseManager(object):
             if not target.loaded:
                 self.loadtable(target)
             return sub, target
-        message = "bad table - '%s' in '%s'" % (exp, node.name)
+        message = "bad table - '%s' in '%s'" % (text, node.name)
         print(message)
         raise Exception("bad table")
-    def parseTable(self, node, exp):
+    def parseTable(self, node : tableNode, exp):
         args = dict()
         args['@'] = 0
         args['()'] = -1
@@ -206,100 +189,93 @@ class parseManager(object):
                 print(exp)
                 return ''
         except:
-            print(exp)
-            return ''
-        return self.parse(node, node.table.run(sub, roll, column))
-        raise Exception('bad table')
-    def parseList(self, l, start='{{', finish='}}'):
-        n = None
-        for i in l:
-            if i.__class__.__name__ == 'ParseResults':
-                s = start + self.listToString(i) + finish
-                if n == None:
-                    n = list()
-                    n.append(s)
-                else:
-                    n[-1] = n[-1] + s
-            else:
-                t = i.rsplit(',')
-                if n == None:
-                    n = t
-                else:
-                    n[-1] = n[-1] + t[0]
-                    n.extend(t[1:])
-        return n
-    def listToString(self, l):
-        s = ''
-        for i in l:
-            if i.__class__.__name__ == 'ParseResults':
-                s = '{{' + self.listToString(i) + '}}'
-            else:
-                s = s + i
-        return s
-    def handleBrace(self, node, l):
-        n = list()
-        s = ''
+            message = "bad table - '%s' in '%s'" % (exp, node.name)
+            print(message)
+            raise Exception('bad table')
+        return self.parseSingle(node, node.table.run(sub, roll, column))
+    def parseParameters(self, parameterString : str):
+        parameters = list()
+        remove = list()
+        commas = [m.start() for m in re.finditer(',', parameterString)]
+        
+        for token, start, end in self.myParseDict['function']['parser'].scanString(parameterString):
+            for l in commas:
+                if l > start and l < end:
+                    remove.append(l)
+        for r in remove:
+            commas.remove(r)
+        start = 0
+        for l in commas:
+            parameters.append(parameterString[start:l].strip())
+            start = l + 1
+        parameters.append(parameterString[start:].strip())
+        return parameters
+
+    def parseFunction(self, node : tableNode, exp):
         r1 = re.compile(r'(.*?)(\:|[|]|~)(.*)')
-        m = r1.match(l[0])
+        m = r1.match(exp)
         if m == None:
             print('malformed function')
             return ''
-        f = m.group(1)
-        l[0] = m.group(3)
-        n = self.parseList(l)
-        if f == "for":
-            variable = self.parse(node, n[0])
-            start = int(self.parse(node, n[1]))
-            stop = int(self.parse(node, n[2]))
+        functionName = m.group(1).strip()
+        parameterString = m.group(3)
+        parameters = self.parseParameters(parameterString)
+        return self.callFunction(node, functionName, parameters)
+    def callFunction(self, node : tableNode, functionName, parameters):
+        retval = ''
+        if functionName == "for":
+            variable = self.parseSingle(node, parameters[0])
+            start = int(self.parseSingle(node, parameters[1]))
+            stop = int(self.parseSingle(node, parameters[2]))
             for x in range(start, stop + 1):
-                self.setVariable(node, n[0], str(x))
-                s = s + self.parse(node, n[3])           
-        elif f == "ifstr":
-            logic = self.parse(node, n[0]).strip()
+                self.setVariable(node, parameters[0], str(x))
+                retval = retval + self.parseSingle(node, parameters[3])           
+        elif functionName == "ifstr":
+            logic = self.parseSingle(node, parameters[0]).strip()
             l = [char for char in logic]
             for i in range(len(l)):
                 if l[i] == '=' and l[i + 1] == '=':
                     s1 = ''.join(l[:i]).strip()
                     s2 = ''.join(l[i+2:]).strip()
                     if s1 == s2:
-                        s = s + self.parse(node, n[1])
+                        retval = self.parseSingle(node, parameters[1])
                 elif l[i] == '!' and l[i + 1] == '=':
                     s1 = ''.join(l[:i]).strip()
                     s2 = ''.join(l[i+2:]).strip()
                     if s1 != s2:
-                        s = s + self.parse(node, n[1])
-        elif f == "if":
+                        retval = self.parseSingle(node, parameters[1])
+        elif functionName == "if":
             logic = list()
-            logic.append(self.parse(node, n[0]))
+            logic.append(self.parseSingle(node, parameters[0]))
             if tableFunctions.eval(logic) == "True":
-                s = s + self.parse(node, n[1])
-        elif f == "assign":
-            variable = self.parse(node, n[0])
-            value = self.parse(node, n[1])
+                retval = self.parseSingle(node, parameters[1])
+        elif functionName == "assign":
+            variable = self.parseSingle(node, parameters[0])
+            value = self.parseSingle(node, parameters[1])
             self.setVariable(node, variable, value)
-        elif f == "state":
-            path = self.parse(node, n[0])
-            name = self.parse(node, n[1])
+        elif functionName == "state":
+            path = self.parseSingle(node, parameters[0])
+            name = self.parseSingle(node, parameters[1])
             self.saveState(node, path, name)
-        elif f == "table":
-            tableName = self.parse(node, n[0])
-            highroll = self.parse(node, n[1])
+        elif functionName == "table":
+            tableName = self.parseSingle(node, parameters[0])
+            highroll = self.parseSingle(node, parameters[1])
             sub, tnode = self.getSubAndNode(node, tableName)
             index = tnode.table.getCount(sub)
             self.setVariable(node, highroll, str(index))
-            s = s + str(index)
-        elif f == "find":
-            tableName = self.parse(node, n[0])
-            column = int(self.parse(node, n[1]))
-            value = self.parse(node, n[2]).strip()
-            retcol = int(self.parse(node, n[3]))
+            retval = str(index)
+        elif functionName == "find":
+            tableName = self.parseSingle(node, parameters[0])
+            column = int(self.parseSingle(node, parameters[1]))
+            value = self.parseSingle(node, parameters[2]).strip()
+            retcol = int(self.parseSingle(node, parameters[3]))
             sub, tnode = self.getSubAndNode(node, tableName)
             for line in tnode.table.getLines(sub):
                 if line[1][column] == value:
-                    return line[1][retcol].strip()
+                    retval = line[1][retcol].strip()
         else:
             p = list()
-            for i in n:
-                p.append(self.parse(node, i))
-            s = s + getattr(tableFunctions, f)(p)
-        return s
+            for i in parameters:
+                p.append(self.parseSingle(node, i))
+            retval = getattr(tableFunctions, functionName)(p)
+        return retval
