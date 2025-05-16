@@ -98,8 +98,8 @@ class parseManager(object):
         for s in self.parse(node, exp):
             retval = retval + s
         return retval
-    def parseTemplate(self, node : tableNode, exp, type='tml'):
-        tnode = node.pathToNode(exp, type)
+    def parseTemplate(self, node : tableNode, exp):
+        tnode = node.pathToNode(exp)
         retval = ''
         if tnode:
             for line in open(tnode.filename):

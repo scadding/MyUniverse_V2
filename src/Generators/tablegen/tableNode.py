@@ -40,7 +40,7 @@ class tableNode(NodeMixin):
                 else:
                     return c
         return None
-    def pathToNode(self, exp, type=None):
+    def pathToNode(self, exp):
         target = None
         # table path
         absolute = re.compile(r'([\w -]+)\.(.*)$')
