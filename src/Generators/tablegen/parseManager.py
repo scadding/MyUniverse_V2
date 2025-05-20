@@ -19,41 +19,41 @@ class parseManager(object):
                                 pyparsing.ZeroOrMore(ret | content) + pyparsing.Suppress(closer))
         return ret
     def prepareParsing(self):
-        self.myParseDict = dict()
-        self.myParseDict['function'] = dict()
-        self.myParseDict['function']['start'] = '{{'
-        self.myParseDict['function']['end'] = '}}'
-        self.myParseDict['function']['parse'] = False
-        self.myParseDict['function']['handler'] = self.parseFunction
-        self.myParseDict['table'] = dict()
-        self.myParseDict['table']['start'] = '[['
-        self.myParseDict['table']['end'] = ']]'
-        self.myParseDict['table']['parse'] = True
-        self.myParseDict['table']['handler'] = self.parseTable
-        self.myParseDict['template'] = dict()
-        self.myParseDict['template']['start'] = '@@'
-        self.myParseDict['template']['end'] = '@@'
-        self.myParseDict['template']['parse'] = True
-        self.myParseDict['template']['handler'] = self.parseTemplate
-        self.myParseDict['variable'] = dict()
-        self.myParseDict['variable']['start'] = '<<'
-        self.myParseDict['variable']['end'] = '>>'
-        self.myParseDict['variable']['parse'] = True
-        self.myParseDict['variable']['handler'] = self.parseVariable
-        self.myParseDict['variableAlt'] = dict()
-        self.myParseDict['variableAlt']['start'] = '%%'
-        self.myParseDict['variableAlt']['end'] = '%%'
-        self.myParseDict['variableAlt']['parse'] = True
-        self.myParseDict['variableAlt']['handler'] = self.parseVariable
-        for p in self.myParseDict:
-            if self.myParseDict[p]['start'] != self.myParseDict[p]['end']:
-                self.myParseDict[p]['isNested'] = True
-                self.myParseDict[p]['parser'] = self.nestedExpr(self.myParseDict[p]['start'], self.myParseDict[p]['end'])
+        self.parseDict = dict()
+        self.parseDict['function'] = dict()
+        self.parseDict['function']['start'] = '{{'
+        self.parseDict['function']['end'] = '}}'
+        self.parseDict['function']['parse'] = False
+        self.parseDict['function']['handler'] = self.parseFunction
+        self.parseDict['table'] = dict()
+        self.parseDict['table']['start'] = '[['
+        self.parseDict['table']['end'] = ']]'
+        self.parseDict['table']['parse'] = True
+        self.parseDict['table']['handler'] = self.parseTable
+        self.parseDict['template'] = dict()
+        self.parseDict['template']['start'] = '@@'
+        self.parseDict['template']['end'] = '@@'
+        self.parseDict['template']['parse'] = True
+        self.parseDict['template']['handler'] = self.parseTemplate
+        self.parseDict['variable'] = dict()
+        self.parseDict['variable']['start'] = '<<'
+        self.parseDict['variable']['end'] = '>>'
+        self.parseDict['variable']['parse'] = True
+        self.parseDict['variable']['handler'] = self.parseVariable
+        self.parseDict['variableAlt'] = dict()
+        self.parseDict['variableAlt']['start'] = '%%'
+        self.parseDict['variableAlt']['end'] = '%%'
+        self.parseDict['variableAlt']['parse'] = True
+        self.parseDict['variableAlt']['handler'] = self.parseVariable
+        for p in self.parseDict:
+            if self.parseDict[p]['start'] != self.parseDict[p]['end']:
+                self.parseDict[p]['isNested'] = True
+                self.parseDict[p]['parser'] = self.nestedExpr(self.parseDict[p]['start'], self.parseDict[p]['end'])
             else:
-                self.myParseDict[p]['isNested'] = False
-                self.myParseDict[p]['parser'] = pyparsing.QuotedString(self.myParseDict[p]['start'],
+                self.parseDict[p]['isNested'] = False
+                self.parseDict[p]['parser'] = pyparsing.QuotedString(self.parseDict[p]['start'],
                                                                        multiline=False, unquoteResults=True,
-                                                                       endQuoteChar=self.myParseDict[p]['end']
+                                                                       endQuoteChar=self.parseDict[p]['end']
                                                                        )
     def parse(self, node : tableNode, text):
         self.level += 1
@@ -62,25 +62,25 @@ class parseManager(object):
         lParser = None
         while len(exp):
             index = len(exp)
-            for p in self.myParseDict:
-                i = exp.find(self.myParseDict[p]['start'])
+            for p in self.parseDict:
+                i = exp.find(self.parseDict[p]['start'])
                 if i != -1 and i < index:
                     index = i
                 if i == 0:
-                    if exp.find(self.myParseDict[p]['end']) == -1:
+                    if exp.find(self.parseDict[p]['end']) == -1:
                         raise ValueError
                     lParser = p
                     break
             if index == 0:
-                l = len(self.myParseDict[lParser]['start'])
-                for tokens, start, end in self.myParseDict[p]['parser'].scanString(exp):
+                l = len(self.parseDict[lParser]['start'])
+                for tokens, start, end in self.parseDict[p]['parser'].scanString(exp):
                     arguments = exp[start + l:end - l]
-                    if self.myParseDict[lParser]['parse']:
+                    if self.parseDict[lParser]['parse']:
                         arguments = ''
                         for atom in self.parse(node, exp[start + l:end - l]):
                             arguments = arguments + atom
                     try:
-                        result = self.myParseDict[lParser]['handler'](node, arguments)
+                        result = self.parseDict[lParser]['handler'](node, arguments)
                         exp = result + exp[end:]
                     except:
                         exp = ''
@@ -198,7 +198,7 @@ class parseManager(object):
         remove = list()
         commas = [m.start() for m in re.finditer(',', parameterString)]
         
-        for token, start, end in self.myParseDict['function']['parser'].scanString(parameterString):
+        for token, start, end in self.parseDict['function']['parser'].scanString(parameterString):
             for l in commas:
                 if l > start and l < end:
                     remove.append(l)

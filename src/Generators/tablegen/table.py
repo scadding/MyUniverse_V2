@@ -169,7 +169,7 @@ class tableFile(tableGroup):
     pragmadeclaration = re.compile(r'^/.*$')
     namespec = re.compile(r'^[/\w _~,-]*/(.*)\.tab$')
     filename = ''
-    def __init__(self, filename, tm, node):
+    def __init__(self, filename, tm, node : tableNode):
         tableGroup.__init__(self, tm, node)
         self.table = dict()
         self.filename = filename
