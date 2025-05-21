@@ -49,6 +49,15 @@ class variableManager(metaclass=Singleton):
     def setStateVariable(self, node, name, var, val):
         variablenode = self.getVariableNode(self.state, node, name=name)
         variablenode.setVariable(var, val)
+    def saveState(self, node, name):
+        variableNode = self.getVariableNode(self.current, node)
+        for n in variableNode.variabledict:
+            if n[0] == '_':
+                # temp variable
+                continue
+            v = variableNode.variabledict[n]
+            print('<<%s>> = "%s"' % (n, v))
+            self.setStateVariable(node, name, n, v)
     def getVariable(self, node, var):
         variablenode = self.getVariableNode(self.current, node)
         return variablenode.getVariable(var)
