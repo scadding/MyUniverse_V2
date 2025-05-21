@@ -3,8 +3,9 @@
 
 from src.Generators.tablegen.tableNode import tableVariableNode
 from anytree import RenderTree
+from src.Singleton import Singleton
 
-class variableManager(object):
+class variableManager(metaclass=Singleton):
     variables : tableVariableNode
     globals : tableVariableNode
     state : tableVariableNode
@@ -57,3 +58,4 @@ class variableManager(object):
     def clearVariables(self, node):
         variablenode = self.getVariableNode(self.current, node)
         variablenode.clearVariables()
+

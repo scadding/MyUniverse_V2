@@ -17,7 +17,7 @@ from src.Generators.tablegen.parseManager import parseManager
 from src.Generators.tablegen.variableManager import variableManager
 from src.Configuration import Configuration
 
-class tableMgr(variableManager, parseManager):
+class tableMgr(parseManager):
     ignoredir = ["__pycache__"]
     ignoreext = ['.tml']
     _instance = None
@@ -26,7 +26,7 @@ class tableMgr(variableManager, parseManager):
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super(tableMgr, cls).__new__(cls)
-            variableManager.__init__(cls)
+            cls.variableManager = variableManager()
             parseManager.__init__(cls)
             cls.tree = tableNode("Root", uuid=None)
             cls.config = Configuration()
@@ -261,25 +261,24 @@ class tableMgr(variableManager, parseManager):
         if node.table:
             for retval in self.parse(node, junk):
                 test = test + retval
-        #self.printVariableTree()
-        self.clearVariables(node)
+        self.variableManager.printVariableTree()
+        self.variableManager.clearVariables(node)
         self.level = 0
         return test
-    def saveState(self, node, path, name):
-        variableNode = self.getVariableNode(self.current, node)
-        rootVariableNode = self.getVariableNode(self.base, node)
-        for n in rootVariableNode.variabledict:
+    def saveState(self, node, name):
+        variableNode = self.variableManager.getVariableNode(self.variableManager.current, node)
+        baseVariableNode = self.variableManager.getVariableNode(self.variableManager.base, node)
+        for n in baseVariableNode.variabledict:
             if n in variableNode.variabledict:
                 v = self.parseSingle(node, variableNode.variabledict[n])
             else:
-                v = self.parseSingle(node, rootVariableNode.variabledict[n])
-            self.setStateVariable(node, name, n, v)
+                v = self.parseSingle(node, baseVariableNode.variabledict[n])
+            self.variableManager.setStateVariable(node, name, n, v)
         for n in variableNode.variabledict:
-            if n in rootVariableNode.variabledict:
-                v = self.parseSingle(node, rootVariableNode.variabledict[n])
+            if n in baseVariableNode.variabledict:
+                v = self.parseSingle(node, baseVariableNode.variabledict[n])
             else:
                 v = self.parseSingle(node, variableNode.variabledict[n])
-                self.setStateVariable(node, name, n, v)
-
+                self.variableManager.setStateVariable(node, name, n, v)
 
     

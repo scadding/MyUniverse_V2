@@ -5,6 +5,7 @@ import re
 from src.Generators.tablegen import tableFunctions
 import pyparsing
 from src.Generators.tablegen.tableNode import tableNode
+from src.Generators.tablegen.variableManager import variableManager
 
 class parseManager(object):
     def __init__(self):
@@ -133,11 +134,11 @@ class parseManager(object):
         path, sub = self.parseSubAndPath(tablenode, exp)
         if path:
             node = tablenode.pathToNode(path)
-        n = self.getVariable(tablenode, sub)
+        n = self.variableManager.getVariable(tablenode, sub)
         if n == "":
             # initialize variable
-            n = self.parseSingle(tablenode, self.getBaseVariable(tablenode, sub))
-            self.setVariable(tablenode, sub, n)
+            n = self.parseSingle(tablenode, self.variableManager.getBaseVariable(tablenode, sub))
+            self.variableManager.setVariable(tablenode, sub, n)
         return n
     def getArguments(self, node, exp, args):
         # table args
@@ -228,7 +229,7 @@ class parseManager(object):
             start = int(self.parseSingle(node, parameters[1]))
             stop = int(self.parseSingle(node, parameters[2]))
             for x in range(start, stop + 1):
-                self.setVariable(node, parameters[0], str(x))
+                self.variableManager.setVariable(node, parameters[0], str(x))
                 retval = retval + self.parseSingle(node, parameters[3])           
         elif functionName == "ifstr":
             logic = self.parseSingle(node, parameters[0]).strip()
@@ -252,17 +253,17 @@ class parseManager(object):
         elif functionName == "assign":
             variable = self.parseSingle(node, parameters[0])
             value = self.parseSingle(node, parameters[1])
-            self.setVariable(node, variable, value)
+            self.variableManager.setVariable(node, variable, value)
         elif functionName == "state":
             path = self.parseSingle(node, parameters[0])
             name = self.parseSingle(node, parameters[1])
-            self.saveState(node, path, name)
+            self.saveState(node, name)
         elif functionName == "table":
             tableName = self.parseSingle(node, parameters[0])
             highroll = self.parseSingle(node, parameters[1])
             sub, tnode = self.getSubAndNode(node, tableName)
             index = tnode.table.getCount(sub)
-            self.setVariable(node, highroll, str(index))
+            self.variableManager.setVariable(node, highroll, str(index))
             retval = str(index)
         elif functionName == "find":
             tableName = self.parseSingle(node, parameters[0])

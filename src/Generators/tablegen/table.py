@@ -12,6 +12,7 @@ import csv
 import sys
 import codecs
 from src.Generators.tablegen.tableNode import tableNode
+from src.Generators.tablegen.variableManager import variableManager
 
 from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter, NodeMixin
 
@@ -61,6 +62,7 @@ class Table(object):
 
 class tableGroup(object):
     def __init__(self, tm, node):
+        self.variableManager = variableManager()
         self.tm = tm
         self.node = node
     def start(self):
@@ -220,9 +222,9 @@ class tableFile(tableGroup):
             d = int(m7.group(2))
             self.table[self.tablename].add(d, m7.group(3))
         elif m8: # variable declaration
-            self.tm.setBaseVariable(self.node, m8.group(1), m8.group(2))
+            self.variableManager.setBaseVariable(self.node, m8.group(1), m8.group(2))
         elif m8a: # variable declaration
-            self.tm.setBaseVariable(self.node, m8a.group(1), m8a.group(2))
+            self.variableManager.setBaseVariable(self.node, m8a.group(1), m8a.group(2))
         elif m9: #parameter declaration
             pass
         elif m10: #pragma declaration
