@@ -2,14 +2,21 @@
 # -*- coding: utf-8 -*-
 
 import re
+import os
+import sys
+import importlib
+from src.Generators.tablegen.table import tableFile, tableDB
 from src.Generators.tablegen import tableFunctions
 import pyparsing
 from src.Generators.tablegen.tableNode import tableNode
 from src.Generators.tablegen.variableManager import variableManager
+from src.Singleton import Singleton
 
-class parseManager(object):
+class parseManager(metaclass=Singleton):
     def __init__(self):
-        pass
+        self.variableManager = variableManager()
+        self.prepareParsing()
+        self.level = 0
     def nestedExpr(self, opener, closer):
         content = (pyparsing.Combine(pyparsing.OneOrMore(
             ~pyparsing.Literal(opener) +
@@ -257,7 +264,7 @@ class parseManager(object):
         elif functionName == "state":
             path = self.parseSingle(node, parameters[0])
             name = self.parseSingle(node, parameters[1])
-            self.saveState(node, name)
+            self.variableManager.saveState(node, name)
         elif functionName == "table":
             tableName = self.parseSingle(node, parameters[0])
             highroll = self.parseSingle(node, parameters[1])
@@ -280,3 +287,21 @@ class parseManager(object):
                 p.append(self.parseSingle(node, i))
             retval = getattr(tableFunctions, functionName)(p)
         return retval
+    def loadtable(self, node : tableNode):
+        node.loaded = True
+        if node.uuid:
+            node.table = tableDB(node, self)
+            return
+        extension = os.path.splitext(node.filename)[1]
+        if extension == '.tab' or extension == '.tml':
+            node.table = tableFile(node.filename, self, node)
+            return node.table
+        elif extension == '.py':
+            spec = importlib.util.spec_from_file_location(node.name, node.filename)
+            module = importlib.util.module_from_spec(spec)
+            sys.modules[node.name] = module
+            spec.loader.exec_module(module)
+            node.table = module.generator()
+            if node.table.version() > 1.0:
+                node.table.SetManager(self)
+            return node.table
