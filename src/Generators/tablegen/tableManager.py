@@ -16,23 +16,20 @@ from src.Generators.tablegen.tableNode import tableNode
 from src.Generators.tablegen.parseManager import parseManager
 from src.Generators.tablegen.variableManager import variableManager
 from src.Configuration import Configuration
+from src.Singleton import Singleton
 
-class tableMgr(object):
+class tableMgr(metaclass=Singleton):
     ignoredir = ["__pycache__"]
     ignoreext = ['.tml']
-    _instance = None
     tree : tableNode
     config : Configuration
-    def __new__(cls):
-        if cls._instance is None:
-            cls._instance = super(tableMgr, cls).__new__(cls)
-            cls.variableManager = variableManager()
-            cls.parseManager = parseManager()
-            cls.tree = tableNode("Root", uuid=None)
-            cls.config = Configuration()
-            cls._instance.walktree(cls.config.getValue("Data", "directory"), load=False, node=cls.tree)
-            cls._instance.loaddb()
-        return cls._instance
+    def __init__(self):
+        self.variableManager = variableManager()
+        self.parseManager = parseManager()
+        self.tree = tableNode("Root", uuid=None)
+        self.config = Configuration()
+        self.walktree(self.config.getValue("Data", "directory"), load=False, node=self.tree)
+        self.loaddb()
     def loaddb(self):
         if not self.config.getValue("Data", "dbconnection"):
             return
