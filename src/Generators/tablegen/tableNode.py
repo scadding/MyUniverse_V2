@@ -44,7 +44,6 @@ class tableNode(NodeMixin):
         target = None
         # table path
         absolute = re.compile(r'([\w -]+)\.(.*)$')
-        relative = re.compile(r'\.([\w -]*)\.(.*)$')
         local = re.compile(r'([\w -]+)$')
         m = absolute.match(exp)
         if m:
@@ -54,14 +53,6 @@ class tableNode(NodeMixin):
             parent = target
             target = target.getNode(m.group(1))
             m = absolute.match(m.group(2))
-        if target:
-            return target.getNode(exp)
-        m = relative.match(exp)
-        if m:
-            target = self.parent
-        while m:
-            target = target.getNode(m.group(1))
-            m = relative.match(m.group(2))
         if target:
             return target.getNode(exp)
         m = local.match(exp)
