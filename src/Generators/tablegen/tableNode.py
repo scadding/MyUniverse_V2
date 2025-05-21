@@ -68,7 +68,7 @@ class tableNode(NodeMixin):
         if m:
             target = self.parent
             return target.getNode(m.group(1))
-        return None
+        raise Exception('Bad Path')
     def nodePath(self):
         path = []
         for p in self.path[1:]:
