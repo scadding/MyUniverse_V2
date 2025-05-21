@@ -1,5 +1,6 @@
 
 import configparser
+from src.Singleton import Singleton
 
 '''
 ##  write
@@ -35,14 +36,6 @@ config['forge.example']['ForwardX11']'
 '''
 
 defaultfile = "./MyUniverse.ini"
-
-class Singleton(type):
-    _instances = {}
-    def __call__(cls, *args, **kwargs):
-        if cls not in cls._instances:
-            cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
-        return cls._instances[cls]
-
 
 class ConfigBase:
     config = None
