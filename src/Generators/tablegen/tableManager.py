@@ -200,7 +200,7 @@ class tableMgr(object):
             display = False
         if name.startswith("_"):
             display = False
-        node = tableNode(name, parent=parent, table=None, loaded=load, type=extension[1:], filename=filename, display=display, uuid=None)
+        node = tableNode(name, parent=parent, table=None, type=extension[1:], filename=filename, display=display, uuid=None)
         if not(extension == '.py' or extension == '.tab'):
             return
         if load:
