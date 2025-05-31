@@ -2,16 +2,17 @@
 import wx
 import codecs
 from src.Generators.tablegen.tableNode import tableNode
-from src.Generators.tablegen.tableManager import tableMgr
+from src.Generators.tablegen.stateManager import stateManager
 
 class Generator:
+    sm : stateManager
     def __init__(self):
-        self.tm = tableMgr()
+        self.sm = stateManager()
         self.parameters = dict()
-        self.parameters['Generators'] = self.tm.getTree()
-        self.pList = ['Generators']
+        self.parameters['Seed'] = ['', '0']
+        self.parameters['Generators'] = self.sm.getTree()
+        self.pList = ['Seed', 'Generators']
     def Update(self, p):
-        self.parameters['Generators'] = self.tm.getTree()
         pass
     def GetGeneratorList(self, p):
         # Get list of generators
@@ -22,6 +23,8 @@ class Generator:
         return genList
     def roll(self, p, numRolls):
         t = u''
+        if 'Seed' in p:
+            self.tm.setSeed(int(p['Seed']))
         if 'Generators' in p:
             t = p['Generators']
         if type(t) == tableNode:
@@ -37,5 +40,6 @@ class Generator:
         f.close()
         if type(t) == tableNode:
             t = t.name
+        # fix this
         return t, filename
         
