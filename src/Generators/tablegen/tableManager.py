@@ -5,9 +5,6 @@ import os
 from stat import S_ISDIR, S_ISREG
 import random as rand
 import importlib
-from sqlalchemy import create_engine, text, MetaData, Connection, orm
-from sqlalchemy import Table, Column, Integer, String, Text, Uuid
-from sqlalchemy import select, column, func, table
 import uuid
 
 import sys
@@ -172,7 +169,7 @@ class tableMgr(metaclass=Singleton):
         if node.table:
             for retval in self.parseManager.parse(node, junk):
                 test = test + retval
-        self.variableManager.printVariableTree()
+        #self.variableManager.printVariableTree()
         self.variableManager.clearVariables(node)
         return test
 

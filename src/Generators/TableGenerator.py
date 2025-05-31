@@ -1,27 +1,18 @@
 
-from src.Generators.tablegen import table
 import wx
 import codecs
-from src.Configuration import Configuration
 from src.Generators.tablegen.tableNode import tableNode
 from src.Generators.tablegen.tableManager import tableMgr
 
 class Generator:
+    tm : tableMgr
     def __init__(self):
         self.tm = tableMgr()
         self.parameters = dict()
         self.parameters['Seed'] = ['', '0']
         self.parameters['Generators'] = self.tm.getTree()
         self.pList = ['Seed', 'Generators']
-
-        #self.parameters['Group'] = self.GetGeneratorGroups()
-        #self.parameters['Generators'] = []
-        #self.pList = ['Seed', 'Group', 'Generators']
     def Update(self, p):
-        config = Configuration()
-        self.tm = tableMgr()
-        self.tm.walktree(config.getValue("Data", "directory"), load=False)
-        self.parameters['Generators'] = self.tm.getTree()
         pass
     def GetGeneratorList(self, p):
         # Get list of generators
