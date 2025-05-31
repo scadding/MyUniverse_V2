@@ -290,11 +290,11 @@ class parseManager(metaclass=Singleton):
     def loadtable(self, node : tableNode):
         node.loaded = True
         if node.uuid:
-            node.table = tableDB(node, self)
+            node.table = tableDB(node)
             return
         extension = os.path.splitext(node.filename)[1]
         if extension == '.tab' or extension == '.tml':
-            node.table = tableFile(node.filename, self, node)
+            node.table = tableFile(node.filename, node)
             return node.table
         elif extension == '.py':
             spec = importlib.util.spec_from_file_location(node.name, node.filename)

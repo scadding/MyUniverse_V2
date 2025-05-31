@@ -15,6 +15,7 @@ from src.Generators.tablegen.table import tableFile, tableDB
 from src.Generators.tablegen.tableNode import tableNode
 from src.Generators.tablegen.parseManager import parseManager
 from src.Generators.tablegen.variableManager import variableManager
+from src.Generators.tablegen.databaseManager import databaseManager
 from src.Configuration import Configuration
 from src.Singleton import Singleton
 
@@ -25,94 +26,14 @@ class tableMgr(metaclass=Singleton):
     config : Configuration
     def __init__(self):
         self.variableManager = variableManager()
+        self.databaseManager = databaseManager()
         self.parseManager = parseManager()
         self.tree = tableNode("Root", uuid=None)
         self.config = Configuration()
         self.walktree(self.config.getValue("Data", "directory"), load=False, node=self.tree)
-        self.loaddb()
-    def loaddb(self):
-        if not self.config.getValue("Data", "dbconnection"):
-            return
-        self.engine = create_engine(self.config.getValue("Data", "dbconnection"), echo=False)
-        self.metadata_obj = MetaData()
-        self.metadata_obj.reflect(self.engine)
-        with self.engine.connect() as conn:
-            if not self.engine.dialect.has_table(conn, 'universe.Tables'):
-                conn.close()
-                self.createDatabase()
-            else:
-                conn.close()
-                self.loadTree(self.tree)
-    def loadTree(self, node : tableNode):
-        table = self.metadata_obj.tables['universe.Nodes']
-        statement = select(table.c.Node, table.c.Name).where(table.c.Parent == None)
-        with orm.Session(self.engine) as session:
-            row = session.execute(statement).first()
-            if not row:
-                return
-            node.uuid = uuid.UUID(row[0])
-            self.loadChildren(session, node)
-        session.close()
-    def loadChildren(self, session : orm.Session, parent : tableNode):
-        table = self.metadata_obj.tables['universe.Nodes']
-        statement = select(table.c.Node, table.c.Name).where(table.c.Parent == parent.uuid)
-        for row in session.execute(statement):
-            node = tableNode(row[1], parent=parent, table=None, display=True, uuid=uuid.UUID(row[0]))
-            self.loadChildren(session, node)
-    def prepareMetaData(self):
-        objects = Table(
-            "universe.Objects",
-            self.metadata_obj,
-            Column("Object", Uuid, primary_key=True),
-            Column("Node", Uuid, nullable=False),
-        )
-        Variables = Table(
-            "universe.Variables",
-            self.metadata_obj,
-            Column("Object", Uuid, nullable=False),
-            Column("Name", Text, nullable=False),
-            Column("Value", Text, nullable=False),
-        )
-        TableVariables = Table(
-            "universe.TableVariables",
-            self.metadata_obj,
-            Column("Node", Uuid, nullable=False),
-            Column("TableName", Text, nullable=False),
-            Column("Name", Text, nullable=False),
-            Column("Value", Text, nullable=False),
-        )
-        TableLines = Table(
-            "universe.TableLines",
-            self.metadata_obj,
-            Column("Node", Uuid, nullable=False),
-            Column("TableName", Text, nullable=False),
-            Column("SubTableName", Text, nullable=False),
-            Column("Roll", Integer, nullable=False),
-            Column("Line", Text, nullable=False),
-        )
-        Tables = Table(
-            "universe.Tables",
-            self.metadata_obj,
-            Column("Node", Uuid, nullable=False),
-            Column("TableName", Text, nullable=False),
-            Column("SubTableName", Text, nullable=False),
-            Column("Type", Text, nullable=False),
-            Column("Length", Integer, nullable=False),
-        )
-        Nodes = Table(
-            "universe.Nodes",
-            self.metadata_obj,
-            Column("Node", Uuid, primary_key=True),
-            Column("Name", Text, nullable=False),
-            Column("Parent", Uuid),
-        )
-    def createDatabase(self):
-        self.prepareMetaData()
-        with self.engine.connect() as conn:
-            self.metadata_obj.create_all(conn)
-        conn.commit()
-        conn.close()
-        self.importNode(self.tree)
+        # temp only
+        # self.importNode(self.tree)
+        self.databaseManager.loadTree(self.tree)
     def importTable(self, node : tableNode, id : uuid):
         self.checkload(node)
         t : tableFile = node.table
@@ -125,8 +46,8 @@ class tableMgr(metaclass=Singleton):
             ttype = 'csv'
         else:
             ttype = 'continuous'
-        statement = self.metadata_obj.tables['universe.Tables'].insert().values(Node=id, TableName=node.name, SubTableName=name, Type=ttype, Length=subTable.index)
-        with self.engine.connect() as conn:
+        statement = self.databaseManager.metadata_obj.tables['universe.Tables'].insert().values(Node=id, TableName=node.name, SubTableName=name, Type=ttype, Length=subTable.index)
+        with self.databaseManager.engine.connect() as conn:
             conn.execute(statement)
             count = 0
             for index in subTable.values:
@@ -140,25 +61,23 @@ class tableMgr(metaclass=Singleton):
                             line = line + ', '
                         line = line + k
                         i += 1
-                statement = self.metadata_obj.tables['universe.TableLines'].insert().values(Node=id, TableName=node.name, SubTableName=name, Roll=index, Line=line)
+                statement = self.databaseManager.metadata_obj.tables['universe.TableLines'].insert().values(Node=id, TableName=node.name, SubTableName=name, Roll=index, Line=line)
                 conn.execute(statement)
                 count += 1
             conn.commit()
             conn.close()
     def importVariables(self, node : tableNode, id : uuid):
-        rootVariableNode = self.getVariableNode(self.base, node)
-        for name in rootVariableNode.variabledict:
-            value = rootVariableNode.variabledict[name]
-            statement = self.metadata_obj.tables['universe.TableVariables'].insert().values(Node=id, TableName=node.name, Name=name, Value=value)
-            with self.engine.connect() as conn:
+        for name, value in self.variableManager.getAllBaseVariables(node):            
+            statement = self.databaseManager.metadata_obj.tables['universe.TableVariables'].insert().values(Node=id, TableName=node.name, Name=name, Value=value)
+            with self.databaseManager.engine.connect() as conn:
                 conn.execute(statement)
                 conn.commit()
                 conn.close()
     def importNode(self, node : tableNode, parent : uuid=None):
-        id = uuid.uuid4()
-        self.metadata_obj.tables['universe.Nodes']
-        statement = self.metadata_obj.tables['universe.Nodes'].insert().values(Node=id, Name=node.name, Parent=parent)
-        with self.engine.connect() as conn:
+        id = uuid.uuid4().hex
+        self.databaseManager.metadata_obj.tables['universe.Nodes']
+        statement = self.databaseManager.metadata_obj.tables['universe.Nodes'].insert().values(Node=id, Name=node.name, Parent=parent)
+        with self.databaseManager.engine.connect() as conn:
             conn.execute(statement)
             conn.commit()
             conn.close()
@@ -206,11 +125,11 @@ class tableMgr(metaclass=Singleton):
     def loadtable(self, node : tableNode):
         node.loaded = True
         if node.uuid:
-            node.table = tableDB(node, self)
+            node.table = tableDB(node)
             return
         extension = os.path.splitext(node.filename)[1]
         if extension == '.tab' or extension == '.tml':
-            node.table = tableFile(node.filename, self, node)
+            node.table = tableFile(node.filename, node)
             return node.table
         elif extension == '.py':
             spec = importlib.util.spec_from_file_location(node.name, node.filename)

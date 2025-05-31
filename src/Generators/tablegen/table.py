@@ -13,6 +13,7 @@ import sys
 import codecs
 from src.Generators.tablegen.tableNode import tableNode
 from src.Generators.tablegen.variableManager import variableManager
+from src.Generators.tablegen.databaseManager import databaseManager
 
 from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter, NodeMixin
 
@@ -61,17 +62,16 @@ class Table(object):
     
 
 class tableGroup(object):
-    def __init__(self, tm, node):
+    def __init__(self, node):
         self.variableManager = variableManager()
-        self.tm = tm
         self.node = node
     def start(self):
         return self.run('Start')
 
 
 class tableDB(tableGroup):
-    def __init__(self, node : tableNode, tm):
-        tableGroup.__init__(self, tm, node)
+    def __init__(self, node : tableNode):
+        tableGroup.__init__(self, node)
         self.uuid = node.uuid
         self.count = dict()
         self.type = dict()
@@ -79,20 +79,20 @@ class tableDB(tableGroup):
         self.loadVariables()
         self.getMetaData()
     def getMetaData(self):
-        table = self.tm.metadata_obj.tables['universe.Tables']
+        table = databaseManager().metadata_obj.tables['universe.Tables']
         statement = select(table.c.SubTableName, table.c.Type, table.c.Length).where(table.c.Node == self.uuid)
-        with orm.Session(self.tm.engine) as session:
+        with orm.Session(databaseManager().engine) as session:
             for row in session.execute(statement):
                 self.tables.append(row[0])
                 self.type[row[0]] = row[1]
                 self.count[row[0]] = row[2]
             session.close()
     def loadVariables(self):
-        table = self.tm.metadata_obj.tables['universe.TableVariables']
+        table = databaseManager().metadata_obj.tables['universe.TableVariables']
         statement = select(table.c.Name, table.c.Value).where(table.c.Node == self.uuid)
-        with orm.Session(self.tm.engine) as session:
+        with orm.Session(databaseManager().engine) as session:
             for row in session.execute(statement):
-                self.tm.setBaseVariable(self.node, row[0], row[1])
+                variableManager().setBaseVariable(self.node, row[0], row[1])
             session.close()
     def getType(self, t):
         return self.type[t]
@@ -100,10 +100,10 @@ class tableDB(tableGroup):
         return self.count[t]
     def getLines(self, t='Start'):
         retval = list()
-        table = self.tm.metadata_obj.tables['universe.TableLines']
+        table = databaseManager().metadata_obj.tables['universe.TableLines']
         statement = select(table.c.Roll, table.c.Line).where(table.c.Node == self.uuid).where(table.c.SubTableName == t).order_by(table.c.Roll)
         isCsv = self.getType(t)
-        with orm.Session(self.tm.engine) as session:
+        with orm.Session(databaseManager().engine) as session:
             for row in session.execute(statement):
                 l = list()
                 if isCsv:
@@ -130,9 +130,9 @@ class tableDB(tableGroup):
             return ''
         if roll == -1:
             roll = rand.randrange(length) + 1
-        table = self.tm.metadata_obj.tables['universe.TableLines']
+        table = databaseManager().metadata_obj.tables['universe.TableLines']
         statement = select(table.c.Line).where(table.c.Node == self.uuid).where(table.c.SubTableName == t).where(table.c.Roll >= roll).order_by(table.c.Roll)
-        with orm.Session(self.tm.engine) as session:
+        with orm.Session(databaseManager().engine) as session:
             row = session.execute(statement).first()
             retVal = row[0]
             session.close()
@@ -171,8 +171,8 @@ class tableFile(tableGroup):
     pragmadeclaration = re.compile(r'^/.*$')
     namespec = re.compile(r'^[/\w _~,-]*/(.*)\.tab$')
     filename = ''
-    def __init__(self, filename, tm, node : tableNode):
-        tableGroup.__init__(self, tm, node)
+    def __init__(self, filename, node : tableNode):
+        tableGroup.__init__(self, node)
         self.table = dict()
         self.filename = filename
         self.tablename = ''

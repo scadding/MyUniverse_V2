@@ -37,6 +37,10 @@ class variableManager(metaclass=Singleton):
             else:
                 variablenode = tableVariableNode(n, parent = variablenode)
         return variablenode
+    def getAllBaseVariables(self, node):
+        rootVariableNode = self.getVariableNode(self.base, node)
+        for name in rootVariableNode.variabledict:
+            yield name, rootVariableNode.variabledict[name]
     def getBaseVariable(self, node, var):
         variablenode = self.getVariableNode(self.base, node)
         return variablenode.getVariable(var)
