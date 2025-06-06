@@ -82,10 +82,10 @@ class variableManager(metaclass=Singleton):
     def clearVariables(self, node : tableNode):
         variablenode = self.getVariableNode(self.current, node)
         variablenode.clearVariables()
-    def importVariables(self, node : tableNode, id : uuid):
-        for name, value in self.variableManager.getAllBaseVariables(node):            
-            statement = self.databaseManager.metadata_obj.tables['universe.TableVariables'].insert().values(Node=id, TableName=node.name, Name=name, Value=value)
-            with self.databaseManager.engine.connect() as conn:
+    def importVariables(self, node : tableNode, id : uuid.UUID):
+        for name, value in self.getAllBaseVariables(node):            
+            statement = databaseManager().metadata_obj.tables['universe.TableVariables'].insert().values(Node=id, TableName=node.name, Name=name, Value=value)
+            with databaseManager().engine.connect() as conn:
                 conn.execute(statement)
                 conn.commit()
                 conn.close()
