@@ -1,6 +1,28 @@
 
 
-@race
+;race
+30, [[race man]]
+20, [[race elf]]
+20, Dwarf
+20, Halfling
+7, [[race orc]]
+3, Troll
+
+;race man
+65, Common Man
+35, High Man
+
+;race elf
+40, Half-Elf
+30, Wood Elf
+17, High Elf
+13, Fair Elf
+
+;race orc
+70, Orc
+30, Greater Orc
+
+@race bonuses
 #                 ST, CO,  QU,  AG,  SD,  PR,  IN,  EM,  ME,  RE
 2,  Common Man,   5,   0,   0,   0,   5,   0,   0,   0,   0,   0
 3,  High Man,    10,  10,  -5,  -5,   0,  10,   0,   0,   0,   0
@@ -42,3 +64,169 @@
 1, Greater Orc
 1, Troll
 
+;Common Man Profession
+1, Fighter
+1, Thief
+1, Rogue
+1, Warrior Monk
+
+1, Magician
+1, Illusionist
+1, Alchemist
+
+1, Cleric
+1, Animist
+1, Healer
+
+1, Mentalist
+1, Lay Healer
+1, Seer
+
+1, Sorceror
+1, Mystic
+1, Astrologer
+
+1, Monk
+1, Ranger
+1, Bard
+
+
+;High Man Profession
+1, Fighter
+1, Thief
+1, Rogue
+1, Warrior Monk
+
+1, Magician
+1, Illusionist
+1, Alchemist
+
+1, Cleric
+1, Animist
+1, Healer
+
+1, Mentalist
+1, Lay Healer
+1, Seer
+
+1, Sorceror
+1, Mystic
+1, Astrologer
+
+1, Monk
+1, Ranger
+1, Bard
+
+
+;Half-Elf Profession
+1, Fighter
+1, Thief
+1, Rogue
+
+1, Magician
+1, Illusionist
+1, Alchemist
+
+1, Cleric
+1, Animist
+1, Healer
+
+1, Sorceror
+1, Mystic
+1, Astrologer
+
+1, Ranger
+1, Bard
+
+;Wood Elf Profession
+1, Fighter
+1, Thief
+1, Rogue
+
+1, Magician
+1, Illusionist
+1, Alchemist
+
+1, Cleric
+1, Animist
+1, Healer
+
+1, Sorceror
+1, Mystic
+1, Astrologer
+
+1, Ranger
+1, Bard
+
+;High Elf Profession
+1, Fighter
+1, Thief
+1, Rogue
+
+1, Magician
+1, Illusionist
+1, Alchemist
+
+1, Cleric
+1, Animist
+1, Healer
+
+1, Sorceror
+1, Mystic
+1, Astrologer
+
+1, Ranger
+1, Bard
+
+;Fair Elf Profession
+1, Fighter
+1, Thief
+1, Rogue
+
+1, Magician
+1, Illusionist
+1, Alchemist
+
+1, Cleric
+1, Animist
+1, Healer
+
+1, Sorceror
+1, Mystic
+1, Astrologer
+
+1, Ranger
+1, Bard
+
+;Dwarf Profession
+1, Fighter
+1, Thief
+1, Rogue
+
+1, Cleric
+1, Animist
+1, Healer
+
+;Halfling Profession
+1, Fighter
+1, Thief
+1, Rogue
+
+1, Cleric
+1, Animist
+1, Healer
+
+1, Ranger
+
+;Orc Profession
+1, Fighter
+1, Thief
+1, Rogue
+
+;Greater Orc Profession
+1, Fighter
+1, Thief
+1, Rogue
+
+;Troll Profession
+1, Fighter

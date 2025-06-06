@@ -1,27 +1,33 @@
 
 
 @profession
+# arms
 1, Fighter,      CO, ST
 2, Thief,        QU, AG
 3, Rogue,        ST, AG
 4, Warrior Monk, QU, SD 
 
+# essence
 5, Magician,     EM, RE
 6, Illusionist,  EM, RE
 7, Alchemist,    EM, RE
 
+# channeling
 8, Cleric,       IN, ME
 9, Animist,      IN, ME
 10, Healer,      IN, ME
 
+# mentalism
 11, Mentalist,   SD, PR
 12, Lay Healer,  SD, PR
 13, Seer,        SD, PR
 
+# combined magics
 14, Sorceror,    EM, IN
 15, Mystic,      EM, PR
 16, Astrologer,  PR, IN
 
+# combined arms and magic
 17, Monk,        EM, SD
 18, Ranger,      IN, CO
 19, Bard,        PR, ME

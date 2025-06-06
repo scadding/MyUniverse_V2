@@ -4,8 +4,7 @@
 <<genre>> = Fantasy
 <<sex>> = {{ucfirst|[[sex]]}}
 
-<<race>> = [[Rolemaster.<<genre>>.Races.race(<<race index>>)@0]]
-<<race index>> = {{dice|d{{table:Rolemaster.<<genre>>.Races.race, _junk}}}}
+<<race>> = [[Rolemaster.<<genre>>.Races.race]]
 
 <<last name>> = [[Tables.Names.<<genre>> Names.Surname]]
 <<first name>> = [[Tables.Names.<<genre>> Names.<<sex>>FirstName]]
@@ -30,7 +29,7 @@ _[[Rolemaster.stats.stat bonuses(<<self discipline>>)@2]] +
 _[[Rolemaster.stats.stat bonuses(<<memory>>)@2]] +
 _[[Rolemaster.stats.stat bonuses(<<reasoning>>)@2]]}}
 
-<<profession>> = [[Rolemaster.<<genre>>.Profession.profession@0]]
+<<profession>> = [[Rolemaster.<<genre>>.Races.<<race>> Profession]]
 
 <<prime requisite 1>> = {{find:attribute, 1, {{find:Rolemaster.<<genre>>.Profession.profession, 0, <<profession>>, 1}}, 0}}
 <<prime requisite 2>> = {{find:attribute, 1, {{find:Rolemaster.<<genre>>.Profession.profession, 0, <<profession>>, 2}}, 0}}
@@ -45,6 +44,8 @@ _<b>Development Points:</b> <<development points>><br><br>
 _<b>Profession:</b> <<profession>> <b>Sex:</b> <<sex>> <b>Race:</b> <<race>><br>
 _<b>Title:</b> <<title>> <b>Last Name:</b> <<last name>> <b>First Name:</b> <<first name>> <br>
 _<b>Prime Requisite:</b> <<prime requisite 1>> / <<prime requisite 2>>
+_{{assign:{{lc:<<prime requisite 1>>}}, {{dice~d100.setMinimum(90)}}}}
+_{{assign:{{lc:<<prime requisite 2>>}}, {{dice~d100.setMinimum(90)}}}}
 
 ;stats
 1, {{for:_loop, 1, 10, [[stat line]]<br>}}
@@ -62,7 +63,7 @@ _<<[[attribute(<<_loop>>)@0]] stat bonus>>
 
 :racial bonus
 1, {{assign:[[attribute(<<_loop>>)@0]] race bonus, 
-_[[Rolemaster.<<genre>>.Races.race(<<race index>>)@<<_loop>>]]}} 
+_{{find:Rolemaster.<<genre>>.Races.race bonuses, 0, <<race>>, <<_loop>>}}}}
 _<<[[attribute(<<_loop>>)@0]] race bonus>>
 
 
