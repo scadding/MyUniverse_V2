@@ -21,7 +21,7 @@ class parseManager(metaclass=Singleton):
         content = (pyparsing.Combine(pyparsing.OneOrMore(
             ~pyparsing.Literal(opener) +
             ~pyparsing.Literal(closer) + pyparsing.CharsNotIn('\n\r', exact=1))
-                                    ).setParseAction(lambda t: t[0].strip()))
+                                    ).setParseAction(lambda t: t[0]))
         ret = pyparsing.Forward()
         ret <<= pyparsing.Group(pyparsing.Suppress(opener) +
                                 pyparsing.ZeroOrMore(ret | content) + pyparsing.Suppress(closer))
@@ -139,8 +139,6 @@ class parseManager(metaclass=Singleton):
         tablenode = node
         exp = self.parseSingle(tablenode, exp)
         path, sub = self.parseSubAndPath(tablenode, exp)
-        if path:
-            node = tablenode.pathToNode(path)
         n = self.variableManager.getVariable(tablenode, sub)
         if n == "":
             # initialize variable
