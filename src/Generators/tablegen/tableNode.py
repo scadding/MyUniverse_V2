@@ -20,7 +20,8 @@ from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter, NodeMixin
 
 
 class tableNode(NodeMixin):
-    def __init__(self, name, parent=None, children=None, uuid=None, loaded=False, filename=None, type=None, **kwargs):
+    filename : str
+    def __init__(self, name, parent=None, children=None, uuid=None, loaded=False, filename=None, type=None, table=None, **kwargs):
         self.__dict__.update(kwargs)
         self.name = name
         self.parent = parent
@@ -28,8 +29,10 @@ class tableNode(NodeMixin):
             self.children = children
         self.uuid = uuid
         self.loaded = loaded
-        self.filename=filename
+        if filename:
+            self.filename=filename
         self.type = type
+        self.table = table
     def getNode(self, name, type=None):
         parent = self
         for c in parent.children:
@@ -41,13 +44,11 @@ class tableNode(NodeMixin):
                     return c
         return None
     def pathToNode(self, exp):
-        target = None
+        target = self.root
         # table path
         absolute = re.compile(r'([\w -]+)\.(.*)$')
         local = re.compile(r'([\w -]+)$')
         m = absolute.match(exp)
-        if m:
-            target = self.root
         while m:
             exp = m.group(2)
             parent = target
