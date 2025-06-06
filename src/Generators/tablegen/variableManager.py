@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from src.Generators.tablegen.tableNode import tableVariableNode
+from src.Generators.tablegen.tableNode import tableNode, tableVariableNode, tableStateNode
 from anytree import RenderTree
 from src.Singleton import Singleton
+import uuid
+from sqlalchemy import create_engine, text, MetaData, Connection, orm
+from sqlalchemy import Table, Column, Integer, String, Text, Uuid
+from sqlalchemy import select, column, func, table
+
+from src.Generators.tablegen.databaseManager import databaseManager
 
 class variableManager(metaclass=Singleton):
     variables : tableVariableNode
@@ -14,14 +20,16 @@ class variableManager(metaclass=Singleton):
     def __init__(self):
         self.variables = tableVariableNode("Variables")
         self.globals = tableVariableNode("Globals", parent=self.variables)
-        self.state = tableVariableNode("State", parent=self.variables)
+        self.state = tableStateNode("State", parent=self.variables)
         self.current = tableVariableNode("Current", parent=self.variables)
         self.base = tableVariableNode("Base", parent=self.variables)
-    def printVariableTree(self):
-        for pre, _, n in RenderTree(self.variables):
+    def printVariableTree(self, tree = None):
+        if tree is None:
+            tree = self.variables
+        for pre, _, n in RenderTree(tree):
             treestr = u"%s%s" % (pre, n.name)
             print(treestr.ljust(8))
-    def getVariableNode(self, root, node, name=None):
+    def getVariableNode(self, root, node : tableNode, name=None):
         path = node.nodePath()
         if name:
             path.append(name)
@@ -34,41 +42,58 @@ class variableManager(metaclass=Singleton):
                     break
             if matchNode:
                 variablenode = matchNode
+            elif type(variablenode) is tableStateNode:
+                variablenode = tableStateNode(n, parent = variablenode)
             else:
                 variablenode = tableVariableNode(n, parent = variablenode)
         return variablenode
-    def getAllBaseVariables(self, node):
+    def getAllBaseVariables(self, node : tableNode):
         rootVariableNode = self.getVariableNode(self.base, node)
         for name in rootVariableNode.variabledict:
             yield name, rootVariableNode.variabledict[name]
-    def getBaseVariable(self, node, var):
+    def getBaseVariable(self, node : tableNode, var):
         variablenode = self.getVariableNode(self.base, node)
         return variablenode.getVariable(var)
-    def setBaseVariable(self, node, var, val):
+    def setBaseVariable(self, node : tableNode, var, val):
         variablenode = self.getVariableNode(self.base, node)
         variablenode.setVariable(var, val)
-    def getStateVariable(self, node, name, var):
+    def getStateVariable(self, node : tableNode, name, var):
         variablenode = self.getVariableNode(self.state, node, name=name)
         return variablenode.getVariable(var)
-    def setStateVariable(self, node, name, var, val):
+    def setStateVariable(self, node : tableNode, name, var, val):
         variablenode = self.getVariableNode(self.state, node, name=name)
         variablenode.setVariable(var, val)
-    def saveState(self, node, name):
+    def saveState(self, node : tableNode, name):
         variableNode = self.getVariableNode(self.current, node)
-        for n in variableNode.variabledict:
-            if n[0] == '_':
+        for variableName in variableNode.variabledict:
+            if variableName[0] == '_':
                 # temp variable
                 continue
-            v = variableNode.variabledict[n]
-            print('<<%s>> = "%s"' % (n, v))
-            self.setStateVariable(node, name, n, v)
-    def getVariable(self, node, var):
+            value = variableNode.variabledict[variableName]
+            print('<<%s>> = "%s"' % (variableName, value))
+            self.setStateVariable(node, name, variableName, value)
+        self.printVariableTree(self.state)
+    def getVariable(self, node : tableNode, var):
         variablenode = self.getVariableNode(self.current, node)
         return variablenode.getVariable(var)
-    def setVariable(self, node, var, val):
+    def setVariable(self, node : tableNode, var, val):
         variablenode = self.getVariableNode(self.current, node)
         variablenode.setVariable(var, val)
-    def clearVariables(self, node):
+    def clearVariables(self, node : tableNode):
         variablenode = self.getVariableNode(self.current, node)
         variablenode.clearVariables()
+    def importVariables(self, node : tableNode, id : uuid):
+        for name, value in self.variableManager.getAllBaseVariables(node):            
+            statement = self.databaseManager.metadata_obj.tables['universe.TableVariables'].insert().values(Node=id, TableName=node.name, Name=name, Value=value)
+            with self.databaseManager.engine.connect() as conn:
+                conn.execute(statement)
+                conn.commit()
+                conn.close()
+    def loadVariables(self):
+        table = databaseManager().metadata_obj.tables['universe.TableVariables']
+        statement = select(table.c.Name, table.c.Value).where(table.c.Node == self.uuid)
+        with orm.Session(databaseManager().engine) as session:
+            for row in session.execute(statement):
+                variableManager().setBaseVariable(self.node, row[0], row[1])
+            session.close()
 

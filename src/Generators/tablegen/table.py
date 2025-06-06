@@ -168,12 +168,13 @@ class tableFile(tableGroup):
     variabledeclarationAlt = re.compile(r'^\s*%%(.*)%%\s*=\s*(.*)$')
     variabledeclaration = re.compile(r'^\s*<<(.*)>>\s*=\s*(.*)$')
     parameterdeclaration = re.compile(r'^\s*@.*$')
-    pragmadeclaration = re.compile(r'^/.*$')
+    pragmadeclaration = re.compile(r'^\.(.*)\:(.*)$')
     namespec = re.compile(r'^[/\w _~,-]*/(.*)\.tab$')
     filename = ''
     def __init__(self, filename, node : tableNode):
         tableGroup.__init__(self, node)
         self.table = dict()
+        self.pragmas = dict()
         self.filename = filename
         self.tablename = ''
         current = ''
@@ -228,9 +229,13 @@ class tableFile(tableGroup):
         elif m9: #parameter declaration
             pass
         elif m10: #pragma declaration
-            pass
+            self.pragmas[m10.group(1)] = m10.group(2)
         else:
             print('Error: unidentified line ' + self.filename + ' - ' + line)
+    def pragma(self, pragma):
+        if pragma in self.pragmas:
+            return self.pragmas[pragma]
+        return None
     def run(self, t='Start', roll=-1, column=0):
         if self.table.get(t):
             return self.table[t].roll(column=column, roll=roll)

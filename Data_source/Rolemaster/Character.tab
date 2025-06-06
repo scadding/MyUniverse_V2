@@ -1,4 +1,6 @@
 
+.state:<<first name>> <<last name>>
+
 <<genre>> = Fantasy
 <<sex>> = {{ucfirst|[[sex]]}}
 
@@ -37,7 +39,6 @@ _[[Rolemaster.stats.stat bonuses(<<reasoning>>)@2]]}}
 1,[[Headline]]<br><br>
 _[[stats]]<br>
 _<b>Development Points:</b> <<development points>><br><br>
-_{{state:state.character, <<first name>> <<last name>>}}
 
 ;Headline
 1,<b>Genre:</b> <<genre>><br>

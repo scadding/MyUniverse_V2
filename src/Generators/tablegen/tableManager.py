@@ -167,9 +167,14 @@ class tableMgr(metaclass=Singleton):
         test = ''
         retval = ''
         if node.table:
+            state = node.table.pragma('state')
             for retval in self.parseManager.parse(node, junk):
                 test = test + retval
-        #self.variableManager.printVariableTree()
+            if state:
+                name = ''
+                for retval in self.parseManager.parse(node, state):
+                    name = name + retval
+                self.variableManager.saveState(node, name)
         self.variableManager.clearVariables(node)
         return test
 

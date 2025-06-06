@@ -69,13 +69,9 @@ class tableNode(NodeMixin):
 
 class tableVariableNode(tableNode):
     variabledict : dict
-    basevariabledict : dict
     def __init__(self, name, parent=None, children=None):
         super().__init__(name, parent=parent, children=children)
         self.variabledict = dict()
-        self.basevariabledict = dict()
-    def create(self, name):
-        return tableVariableNode(name, parent=self)
     def getVariable(self, var):
         if var in self.variabledict:
             return self.variabledict[var]
@@ -87,3 +83,13 @@ class tableVariableNode(tableNode):
     def clearVariables(self):
         self.variabledict = dict()
 
+class tableStateNode(tableVariableNode):
+    def __init__(self, name, parent=None, children=None, template=None):
+        super().__init__(name, parent=parent, children=children)
+        self.template = template
+    def getVariable(self, var):
+        if var in self.variabledict:
+            return self.variabledict[var]
+        return ""
+    def setVariable(self, var, val):
+        self.variabledict[var] = val
