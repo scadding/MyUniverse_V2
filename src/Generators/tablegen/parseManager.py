@@ -295,8 +295,8 @@ class parseManager(metaclass=Singleton):
             node.table = tableFile(node.filename, node)
             return node.table
         elif extension == '.py':
-            spec = importlib.util.spec_from_file_location(node.name, node.filename)
-            module = importlib.util.module_from_spec(spec)
+            spec = importlib.util.spec_from_file_location(node.name, node.filename) # type: ignore
+            module = importlib.util.module_from_spec(spec) # type: ignore
             sys.modules[node.name] = module
             spec.loader.exec_module(module)
             node.table = module.generator()

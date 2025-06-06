@@ -17,7 +17,7 @@ from src.Generators.tablegen.databaseManager import databaseManager
 
 from anytree import Node, RenderTree, AsciiStyle, LevelOrderIter, NodeMixin
 
-class Table(object):
+class SubTable(object):
     def __init__(self, tablename, continuous, csvflag=False):
         self.values = dict()
         self.index = 0
@@ -122,6 +122,7 @@ class tableDB(tableGroup):
     def start(self):
         return self.run()
     def run(self, t='Start', roll=-1, column=0):
+        t=t.strip()
         if t not in self.tables:
             return self.autorunStart()
         retVal = u''
@@ -210,13 +211,13 @@ class tableFile(tableGroup):
             pass
         elif m3: # Table declaration
             self.tablename = m3.group(1)
-            self.table[self.tablename] = Table(self.tablename, True)
+            self.table[self.tablename] = SubTable(self.tablename, True)
         elif m4: # Alternate Table Declaration
             self.tablename = m4.group(1)
-            self.table[self.tablename] = Table(self.tablename, False)
+            self.table[self.tablename] = SubTable(self.tablename, False)
         elif m5: # Csv table declaration
             self.tablename = m5.group(1)
-            self.table[self.tablename] = Table(self.tablename, True, True)
+            self.table[self.tablename] = SubTable(self.tablename, True, True)
         elif m6: #table line
             self.table[self.tablename].add(int(m6.group(1)), m6.group(2))
         elif m7: #alternate table line
@@ -237,6 +238,7 @@ class tableFile(tableGroup):
             return self.pragmas[pragma]
         return None
     def run(self, t='Start', roll=-1, column=0):
+        t = t.strip()
         if self.table.get(t):
             return self.table[t].roll(column=column, roll=roll)
         elif t == 'Start':

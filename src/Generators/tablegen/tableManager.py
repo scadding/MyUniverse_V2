@@ -31,13 +31,13 @@ class tableMgr(metaclass=Singleton):
         # temp only
         # self.importNode(self.tree)
         self.databaseManager.loadTree(self.tree)
-    def importTable(self, node : tableNode, id : uuid):
+    def importTable(self, node : tableNode, id : uuid.UUID):
         self.checkload(node)
         t : tableFile = node.table
         self.importVariables(node, id)
         for subTable in t.table:
             self.importSubTable(subTable, node, id)
-    def importSubTable(self, name, node : tableNode, id : uuid):
+    def importSubTable(self, name, node : tableNode, id : uuid.UUID):
         subTable = node.table.table[name]
         if subTable.csvflag:
             ttype = 'csv'
@@ -63,14 +63,14 @@ class tableMgr(metaclass=Singleton):
                 count += 1
             conn.commit()
             conn.close()
-    def importVariables(self, node : tableNode, id : uuid):
+    def importVariables(self, node : tableNode, id : uuid.UUID):
         for name, value in self.variableManager.getAllBaseVariables(node):            
             statement = self.databaseManager.metadata_obj.tables['universe.TableVariables'].insert().values(Node=id, TableName=node.name, Name=name, Value=value)
             with self.databaseManager.engine.connect() as conn:
                 conn.execute(statement)
                 conn.commit()
                 conn.close()
-    def importNode(self, node : tableNode, parent : uuid=None):
+    def importNode(self, node : tableNode, parent : uuid.UUID=None):
         id = uuid.uuid4().hex
         self.databaseManager.metadata_obj.tables['universe.Nodes']
         statement = self.databaseManager.metadata_obj.tables['universe.Nodes'].insert().values(Node=id, Name=node.name, Parent=parent)
@@ -129,8 +129,8 @@ class tableMgr(metaclass=Singleton):
             node.table = tableFile(node.filename, node)
             return node.table
         elif extension == '.py':
-            spec = importlib.util.spec_from_file_location(node.name, node.filename)
-            module = importlib.util.module_from_spec(spec)
+            spec = importlib.util.spec_from_file_location(node.name, node.filename) # type: ignore
+            module = importlib.util.module_from_spec(spec) # type: ignore
             sys.modules[node.name] = module
             spec.loader.exec_module(module)
             node.table = module.generator()
