@@ -89,11 +89,11 @@ class variableManager(metaclass=Singleton):
                 conn.execute(statement)
                 conn.commit()
                 conn.close()
-    def loadVariables(self):
+    def loadVariables(self, node : tableNode, id : uuid.UUID):
         table = databaseManager().metadata_obj.tables['universe.TableVariables']
-        statement = select(table.c.Name, table.c.Value).where(table.c.Node == self.uuid)
+        statement = select(table.c.Name, table.c.Value).where(table.c.Node == uuid)
         with orm.Session(databaseManager().engine) as session:
             for row in session.execute(statement):
-                variableManager().setBaseVariable(self.node, row[0], row[1])
+                variableManager().setBaseVariable(node, row[0], row[1])
             session.close()
 
