@@ -32,11 +32,10 @@ class GeneratorPanel(wx.Panel):
                                     #| wx.TR_HIDE_ROOT
                                     )
                 self.fields[n] = tree
-                isz = (16,16)
-                il = wx.ImageList(isz[0], isz[1])
-                fldridx     = il.Add(wx.ArtProvider.GetBitmap(wx.ART_FOLDER,      wx.ART_OTHER, isz))
-                fldropenidx = il.Add(wx.ArtProvider.GetBitmap(wx.ART_FOLDER_OPEN, wx.ART_OTHER, isz))
-                fileidx     = il.Add(wx.ArtProvider.GetBitmap(wx.ART_NORMAL_FILE, wx.ART_OTHER, isz))
+                il = wx.ImageList(16, 16)
+                fldridx     = il.Add(wx.ArtProvider.GetBitmap(wx.ART_FOLDER,      wx.ART_OTHER))
+                fldropenidx = il.Add(wx.ArtProvider.GetBitmap(wx.ART_FOLDER_OPEN, wx.ART_OTHER))
+                fileidx     = il.Add(wx.ArtProvider.GetBitmap(wx.ART_NORMAL_FILE, wx.ART_OTHER))
                 smileidx    = il.Add(images.Smiles.GetBitmap())
 
                 self.fields[n].SetImageList(il)
