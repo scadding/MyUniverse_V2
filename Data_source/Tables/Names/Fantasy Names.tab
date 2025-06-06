@@ -31,9 +31,9 @@
 8,[[Root I]][[MaleSuffix]]
 3,[[MalePrefix]][[ConsonantEnd]]
 1,[[Tables.SGNP.SGNP celtic.male]]
-1,[[Tables.People.Cornish Names.malefirst]]
-1,[[Tables.People.Anglo-Saxon Names.male]]
-1,[[Tables.People.Welsh Names.malefirst]]
+1,[[Tables.Names.Cornish Names.malefirst]]
+1,[[Tables.Names.Anglo-Saxon Names.male]]
+1,[[Tables.Names.Welsh Names.malefirst]]
 
 ;StartFemale
 1,[[TitleFemale]] [[StartFemaleNoTitle]]
@@ -43,7 +43,7 @@
 2,[[Tables.People.NorthlanderFemale.Start]]
 1,[[Tables.Names.Turkish Names.Female]]
 1,[[Tables.SGNP.SGNP assyrian.female]]
-1,[[Tables.People.Anglo-Saxon Names.female]]
+1,[[Tables.Names.Anglo-Saxon Names.female]]
 
 ;FemaleFirstName
 15,[[Root I]][[FemaleSuffix]]
