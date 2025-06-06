@@ -219,14 +219,14 @@
 1, Ranger
 
 ;Orc Profession
-1, Fighter
+5, Fighter
 1, Thief
-1, Rogue
+4, Rogue
 
 ;Greater Orc Profession
-1, Fighter
-1, Thief
-1, Rogue
+5, Fighter
+3, Thief
+2, Rogue
 
 ;Troll Profession
 1, Fighter

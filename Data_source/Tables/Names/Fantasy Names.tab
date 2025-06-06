@@ -58,8 +58,8 @@
 8,[[MalePrefix]][[MaleSuffix]][[FemaleSuffix]]
 8,[[MalePrefix]][[ConsonantEnd]][[FemaleSuffix]]
 1,[[Tables.SGNP.SGNP celtic.female]]
-1,[[Cornish Names.femalefirst]]
-1,[[Welsh Names.femalefirst]]
+1,[[Tables.Names.Cornish Names.femalefirst]]
+1,[[Tables.Names.Welsh Names.femalefirst]]
 
 ;Surname
 9,[[Root I]][[Root II]]

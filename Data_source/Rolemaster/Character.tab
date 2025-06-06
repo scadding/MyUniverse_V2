@@ -1,5 +1,6 @@
 
-.state:<<first name>> <<last name>>
+<<_title>> = {{ifstr:<<title>> != (no title), <<title>>}}
+.state: <<_title>> <<first name>> <<last name>>
 
 <<genre>> = Fantasy
 <<sex>> = {{ucfirst|[[sex]]}}
