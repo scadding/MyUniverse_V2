@@ -10,14 +10,14 @@ from src.Singleton import Singleton
 
 class databaseManager(metaclass=Singleton):
     config : Configuration
-    metadata_obj : MetaData = None
+    metadata_obj : MetaData = None # type: ignore
     def __init__(self):
         self.config = Configuration()
         self.loaddb()
     def loaddb(self):
         if not self.config.getValue("Data", "dbconnection"):
             return
-        self.engine = create_engine(self.config.getValue("Data", "dbconnection"), echo=False)
+        self.engine = create_engine(self.config.getValue("Data", "dbconnection"), echo=False) # type: ignore
         self.metadata_obj = MetaData()
         self.metadata_obj.reflect(self.engine)
         with self.engine.connect() as conn:
