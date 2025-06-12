@@ -1,6 +1,6 @@
 
 <<_title>> = {{ifstr:<<title>> != (no title), <<title>>}}
-.state: <<_title>> <<first name>> <<last name>>
+.state: <<profession>>.<<race>>.<<_title>> <<first name>> <<last name>>
 
 <<genre>> = Fantasy
 <<sex>> = {{ucfirst|[[sex]]}}
@@ -45,8 +45,10 @@ _<b>Development Points:</b> <<development points>><br><br>
 _<b>Profession:</b> <<profession>> <b>Sex:</b> <<sex>> <b>Race:</b> <<race>><br>
 _<b>Title:</b> <<title>> <b>Last Name:</b> <<last name>> <b>First Name:</b> <<first name>> <br>
 _<b>Prime Requisite:</b> <<prime requisite 1>> / <<prime requisite 2>>
-_{{assign:{{lc:<<prime requisite 1>>}}, {{dice~d100.setMinimum(90)}}}}
-_{{assign:{{lc:<<prime requisite 2>>}}, {{dice~d100.setMinimum(90)}}}}
+_{{if:<<{{lc:<<prime requisite 1>>}}>> < 90,
+_{{assign:{{lc:<<prime requisite 1>>}}, {{dice~d100.setMinimum(90)}}}}}}
+_{{if:<<{{lc:<<prime requisite 2>>}}>> < 90,
+_{{assign:{{lc:<<prime requisite 2>>}}, {{dice~d100.setMinimum(90)}}}}}}
 
 ;stats
 1, {{for:_loop, 1, 10, [[stat line]]<br>}}
@@ -57,15 +59,15 @@ _<b>Stat Bonus:</b> [[stat bonus]]
 _<b>Racial Bonus:</b> [[racial bonus]]
 
 :stat bonus
-1, {{assign:[[attribute(<<_loop>>)@0]] stat bonus, 
+1, {{assign:_[[attribute(<<_loop>>)@0]] stat bonus, 
 _[[Rolemaster.stats.stat bonuses([[attribute(<<_loop>>)@2]])@0]]}}
-_<<[[attribute(<<_loop>>)@0]] stat bonus>>
+_<<_[[attribute(<<_loop>>)@0]] stat bonus>>
 
 
 :racial bonus
-1, {{assign:[[attribute(<<_loop>>)@0]] race bonus, 
+1, {{assign:_[[attribute(<<_loop>>)@0]] race bonus, 
 _{{find:Rolemaster.<<genre>>.Races.race bonuses, 0, <<race>>, <<_loop>>}}}}
-_<<[[attribute(<<_loop>>)@0]] race bonus>>
+_<<_[[attribute(<<_loop>>)@0]] race bonus>>
 
 
 @attribute
