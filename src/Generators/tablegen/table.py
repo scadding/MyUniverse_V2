@@ -163,6 +163,9 @@ class tableFile(tableGroup):
     tabledeclaration = re.compile(r'^\s*:([!,/\'\w \+-]*)$')
     tabledeclarationalt = re.compile(r'^\s*;([!,/\'\w \+-]*)$')
     tabledeclarationcsv = re.compile(r'^\s*@([!,/\'\w \+-]*)$')
+    # veritcal |
+    # horizontal -
+    # action *
     tableline = re.compile(r'^\s*(\d*)\s*,(.*)')
     tablelinealt = re.compile(r'^\s*(\d*)-(\d*)\s*,(.*)')
     continuation = re.compile(r'^_(.*)$')
@@ -194,43 +197,32 @@ class tableFile(tableGroup):
                 previous = current
             self.addTableLine(previous)
     def addTableLine(self, line):
-        m1 = self.comment.match(line)
-        m2 = self.whitespace.match(line)
-        m3 = self.tabledeclaration.match(line)
-        m4 = self.tabledeclarationalt.match(line)
-        m5 = self.tabledeclarationcsv.match(line)
-        m6 = self.tableline.match(line)
-        m7 = self.tablelinealt.match(line)
-        m8 = self.variabledeclaration.match(line)
-        m8a = self.variabledeclarationAlt.match(line)
-        m9 = self.parameterdeclaration.match(line)
-        m10 = self.pragmadeclaration.match(line)
-        if m1: #comment
+        if self.comment.match(line): #comment
             pass
-        elif m2: #whitespace
+        elif self.whitespace.match(line):
             pass
-        elif m3: # Table declaration
-            self.tablename = m3.group(1)
+        elif m := self.tabledeclaration.match(line):
+            self.tablename = m.group(1)
             self.table[self.tablename] = SubTable(self.tablename, True)
-        elif m4: # Alternate Table Declaration
-            self.tablename = m4.group(1)
+        elif m := self.tabledeclarationalt.match(line):
+            self.tablename = m.group(1)
             self.table[self.tablename] = SubTable(self.tablename, False)
-        elif m5: # Csv table declaration
-            self.tablename = m5.group(1)
+        elif m := self.tabledeclarationcsv.match(line):
+            self.tablename = m.group(1)
             self.table[self.tablename] = SubTable(self.tablename, True, True)
-        elif m6: #table line
-            self.table[self.tablename].add(int(m6.group(1)), m6.group(2))
-        elif m7: #alternate table line
-            d = int(m7.group(2))
-            self.table[self.tablename].add(d, m7.group(3))
-        elif m8: # variable declaration
-            self.variableManager.setBaseVariable(self.node, m8.group(1), m8.group(2))
-        elif m8a: # variable declaration
-            self.variableManager.setBaseVariable(self.node, m8a.group(1), m8a.group(2))
-        elif m9: #parameter declaration
+        elif m := self.tableline.match(line):
+            self.table[self.tablename].add(int(m.group(1)), m.group(2))
+        elif m := self.tablelinealt.match(line):
+            d = int(m.group(2))
+            self.table[self.tablename].add(d, m.group(3))
+        elif m := self.variabledeclaration.match(line):
+            self.variableManager.setBaseVariable(self.node, m.group(1), m.group(2))
+        elif m := self.variabledeclarationAlt.match(line):
+            self.variableManager.setBaseVariable(self.node, m.group(1), m.group(2))
+        elif m := self.parameterdeclaration.match(line):
             pass
-        elif m10: #pragma declaration
-            self.pragmas[m10.group(1)] = m10.group(2)
+        elif m := self.pragmadeclaration.match(line):
+            self.pragmas[m.group(1)] = m.group(2)
         else:
             print('Error: unidentified line ' + self.filename + ' - ' + line)
     def pragma(self, pragma):

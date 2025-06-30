@@ -2,10 +2,10 @@
 ;Start
 2,[[Tables.Fantasy.Fantasy Town Event.Start]]
 1,[[Fantasy Oracle Maker.multicharacters]]
-1,The [[Fantasy Oracle Maker.relationeither]] of [[Tables.Fantasy.Fantasy Scene.Character]] at [[Tables.Fantasy.Fantasy Town Feature.Start]].
-1,A [[Fantasy Oracle Maker.maleperson]] and [[Tables.Fantasy.Fantasy Scene.Character]], [[multicharactivity]]
+1,The [[Tables.Oracles.Fantasy Oracle Maker.relationeither]] of [[Tables.Fantasy.Fantasy Scene.Character]] at [[Tables.Fantasy.Fantasy Town Feature.Start]].
+1,A [[Tables.Oracles.Fantasy Oracle Maker.maleperson]] and [[Tables.Fantasy.Fantasy Scene.Character]], [[multicharactivity]]
 2,[[AGG City]]]
-1,[[A Nest of Vipers Oracle.Start]]
+1,[[Tables.Oracles.A Nest of Vipers Oracle.Start]]
 4,[[FracturedCity]]
 
 ;AGG City
@@ -23,10 +23,10 @@
 1,unknowingly fulfilling the prophecies that will bring about their downfall
 1,brought together by chance but fast friends
 1,connected in more ways than they realize
-1,competing for the heart of [[Fantasy Oracle Maker.femaleperson]]
+1,competing for the heart of [[Tables.Oracles.Fantasy Oracle Maker.femaleperson]]
 
 ;FracturedCity
-0,-----These are mostly from other oracles, especially Conan-----
+#-----These are mostly from other oracles, especially Conan-----
 1,A barbarian, naive to the ways of city-dwelling folk.
 1,A bloody fight in a small space, leaving its participants with gashed limbs, severed ears, and broken teeth.
 1,A captain in the king's guard offering violence to a young soldier's sweetheart.
