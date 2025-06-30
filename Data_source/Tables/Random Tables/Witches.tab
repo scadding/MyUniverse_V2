@@ -2,9 +2,23 @@
 
 :Start
 1, witches: I'LL GET YOU, MY PRETTY!
+_<br>
+_Background: The witch is [[Background The witch is]]<br>
+_Training: The witch learned her craft from [[Training The witch learned her craft from]]<br>
+_Specialty: The witch specializes in [[Specialty The witch specializes in]]<br>
+_Services: For coin or barter, the witch will [[Services For coin or barter the witch will]]<br>
+_Goal: The witch is seeking [[Goal The witch is seeking]]<br>
+_Lair: The witch's home is [[Lair The witchs home is]]<br>
+_Secrets: The witch has uncovered secrets She cannot be killed by [[Secrets The witch has uncovered secrets She cannot be killed by]]<br>
+_Trait: The witch has [[Trait The witch has]]<br>
+_Potion ingredient: The witch's brew in the cauldron contains [[Potion ingredient The witchs brew in the cauldron contains]]<br>
+_Potion recipe: The witch is brewing [[Potion recipe The witch is brewing]]<br>
+_Travel: The witch prefers to travel by [[Travel The witch prefers to travel by]]<br>
+_Creature: The witch's familiar is [[Creature The witchs familiar is]]<br>
+_Personality: The witch's familiar's manner is [[Personality The witchs familiars manner is]]<br>
 
 
-:Background, The witch is
+:Background The witch is
 1, A femme fatale.
 2, The wife of a farmer, fisherman, or miner.
 3, The wife of a soldier.
@@ -27,7 +41,7 @@
 20, An attractive young widow.
 
 
-:Training, The witch learned her craft from
+:Training The witch learned her craft from
 1, A fellow witch who kidnapped her as a young girl.
 2, A fellow witch who aided her in a time of need.
 3, A neighbor.
@@ -40,7 +54,7 @@
 10, Participating in bacchanalian fey orgies.
 
 
-:Specialty, The witch specializes in
+:Specialty The witch specializes in
 1, Charms.
 2, Clairvoyance.
 3, Communing with the dead.
@@ -55,7 +69,7 @@
 12, Prophecies.
 
 
-:Services, For coin or barter, the witch will
+:Services For coin or barter the witch will
 1, Read your palm.
 2, Gaze into her crystal ball.
 3, Contact a dead relative or friend.
@@ -68,7 +82,7 @@
 10, Give you an old family recipe.
 
 
-:Goal, The witch is seeking
+:Goal The witch is seeking
 1, The means to summon a fiend.
 2, The means to control a fiend.
 3, Eternal youth and beauty.
@@ -81,7 +95,7 @@
 10, Someone to eat.
 
 
-:Lair, The witch's home is
+:Lair The witchs home is
 1, In a cave.
 2, In a swamp.
 3, On an island.
@@ -94,7 +108,7 @@
 10, In the castle or palace of a lord.
 
 
-:Secrets, The witch has uncovered secrets She cannot be killed by
+:Secrets The witch has uncovered secrets She cannot be killed by
 1, Hanging or strangulation.
 2, Drowning.
 3, Burning.
@@ -105,7 +119,7 @@
 8, Old age.
 
 
-:Trait, The witch has
+:Trait The witch has
 1, A large wart on her nose.
 2, An oversized, crooked nose.
 3, A cute little button nose.
@@ -120,7 +134,7 @@
 12, Her hair pulled up.
 
 
-:Potion ingredient, The witch's brew in the cauldron contains
+:Potion ingredient The witchs brew in the cauldron contains
 1, Eye of newt.
 2, Toe of frog.
 3, Wool of bat.
@@ -143,7 +157,7 @@
 20, Dryad's thorn.
 
 
-:Potion recipe, The witch is brewing
+:Potion recipe The witch is brewing
 1, A love potion.
 2, A fertility tonic.
 3, A magical cure-all.
@@ -154,12 +168,12 @@
 8, A component for a beguiling charm.
 
 
-:Travel, The witch prefers to travel by
+:Travel The witch prefers to travel by
 1, Flying broomstick.
 2, Flying mount (giant owl or hippogriff).
 3, Horseback.
 4, Walking.
-5, Transforming into a beast  [Transforming into a beast]
+5, Transforming into a beast  [[Transforming into a beast]]
 6, Teleportation.
 
 
@@ -174,11 +188,11 @@
 8, wolf.
 
 
-:Creature, The witch's familiar is
-1, An elemental spirit  [An elemental spirit]
-2, A fey spirit  [A fey spirit]
-3, A fiendish spirit  [A fiendish spirit]
-4, An undead creature  [An undead creature]
+:Creature The witchs familiar is
+1, An elemental spirit  [[An elemental spirit]]
+2, A fey spirit  [[A fey spirit]]
+3, A fiendish spirit  [[A fiendish spirit]]
+4, An undead creature  [[An undead creature]]
 5, A bat.
 6, A cat.
 7, An owl.
@@ -222,7 +236,7 @@
 6, a formless ghost.
 
 
-:Personality, The witch's familiar's manner is
+:Personality The witchs familiars manner is
 1, Calculating.
 2, Clever.
 3, Coy.

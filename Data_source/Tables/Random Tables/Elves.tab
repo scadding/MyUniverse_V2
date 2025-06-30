@@ -2,9 +2,28 @@
 
 :Start
 1, elves: IMMORTAL, GRACEFUL, AND MAGICAL
+_<br>
+_Hair: The dark elf has [[Hair The dark elf has]]<br>
+_Eyes: The dark elf has [[Eyes The dark elf has]]<br>
+_Hair: The high elf has [[Hair The high elf has]]<br>
+_Hair: The wood elf has [[Hair The wood elf has]]<br>
+_Mannerisms: The dark elf has [[Mannerisms The dark elf has]]<br>
+_Eyes: The high elf has [[Eyes The high elf has]]<br>
+_Eyes: The wood elf has [[Eyes The wood elf has]]<br>
+_Mannerisms: The high elf has [[Mannerisms The high elf has]]<br>
+_Mannerisms: The wood elf has [[Mannerisms The wood elf has]]<br>
+_Profession: The dark elf is [[Profession The dark elf is]]<br>
+_Goal: The dark elf is looking to [[Goal The dark elf is looking to]]<br>
+_Possessions: The dark elf carries [[Possessions The dark elf carries]]<br>
+_Profession: The high elf is [[Profession The high elf is]]<br>
+_Goal: The high elf is looking to [[Goal The high elf is looking to]]<br>
+_Possessions: The high elf carries [[Possessions The high elf carries]]<br>
+_Profession: The wood elf is [[Profession The wood elf is]]<br>
+_Goal: The wood elf is looking to [[Goal The wood elf is looking to]]<br>
+_Possessions: The wood elf carries [[Possessions The wood elf carries]]<br>
 
 
-:Hair, The dark elf has
+:Hair The dark elf has
 1, Bright white hair.
 2, Silver-blonde hair.
 3, Whitish grey hair.
@@ -13,7 +32,7 @@
 6, Pale grey hair.
 
 
-:Eyes, The dark elf has
+:Eyes The dark elf has
 1, Whitish blue eyes.
 2, Pale blue eyes.
 3, Lilac eyes.
@@ -22,7 +41,7 @@
 6, Pale pink eyes.
 
 
-:Hair, The high elf has
+:Hair The high elf has
 1, Black hair.
 2, Copper hair.
 3, Golden blonde hair.
@@ -33,7 +52,7 @@
 8, Fiery red hair.
 
 
-:Hair, The wood elf has
+:Hair The wood elf has
 1, Black hair.
 2, Dark brown hair.
 3, Light brown hair.
@@ -44,7 +63,7 @@
 8, Blonde hair.
 
 
-:Mannerisms, The dark elf has
+:Mannerisms The dark elf has
 1, A likable grin.
 2, A delicate laugh.
 3, An amused smirk.
@@ -55,7 +74,7 @@
 8, A habit of scratching the back of the neck.
 
 
-:Eyes, The high elf has
+:Eyes The high elf has
 1, Pale golden eyes.
 2, Bright golden eyes.
 3, Dark green eyes.
@@ -66,7 +85,7 @@
 8, Green eyes with golden flecks.
 
 
-:Eyes, The wood elf has
+:Eyes The wood elf has
 1, Brilliant green eyes.
 2, Dark green eyes.
 3, Pale green eyes.
@@ -75,7 +94,7 @@
 6, Hazel eyes.
 
 
-:Mannerisms, The high elf has
+:Mannerisms The high elf has
 1, A beautiful smile.
 2, A delicate laugh.
 3, A habit of nodding slowly while listening.
@@ -86,7 +105,7 @@
 8, A habit of scratching the chin.
 
 
-:Mannerisms, The wood elf has
+:Mannerisms The wood elf has
 1, A likable grin.
 2, A delicate laugh.
 3, An amused smirk.
@@ -97,7 +116,7 @@
 8, A habit of scratching the back of the neck.
 
 
-:Profession, The dark elf is
+:Profession The dark elf is
 1, A deadly assassin.
 2, A death-marked heretic.
 3, An ambitious mage.
@@ -112,7 +131,7 @@
 12, A secretive merchant.
 
 
-:Goal, The dark elf is looking to
+:Goal The dark elf is looking to
 1, Track an aberrant beast.
 2, Investigate the disappearance of a comrade.
 3, Lead any travelers into a dangerous trap.
@@ -125,7 +144,7 @@
 10, Share some wine while prying for secrets.
 
 
-:Possessions, The dark elf carries
+:Possessions The dark elf carries
 1, An ancient wand or staff.
 2, A unique gem or piece of jewelry.
 3, A finely-crafted short sword or crossbow.
@@ -138,7 +157,7 @@
 10, A trophy from a foe he or she killed.
 
 
-:Profession, The high elf is
+:Profession The high elf is
 1, A powerful enchanter or enchantress.
 2, A patient and wise sage.
 3, A dedicated knight.
@@ -153,7 +172,7 @@
 12, A celebrated shipbuilder.
 
 
-:Goal, The high elf is looking to
+:Goal The high elf is looking to
 1, Track an unnatural beast or invader.
 2, Lead any travelers out of the forest.
 3, Find some knowledge about an ancient event or place.
@@ -164,7 +183,7 @@
 8, Share a drink a tale of woe.
 
 
-:Possessions, The high elf carries
+:Possessions The high elf carries
 1, An ancient blade.
 2, A unique gem or piece of jewelry.
 3, A finely-crafted longsword or bow.
@@ -172,7 +191,7 @@
 5, The journal of an ancient scholar.
 6, A sword etched with ancient runes.
 7, A staff with a moon-white crystal set at the end.
-8, Arrows fletched with the feathers of a fey bird  [Arrows fletched with the feathers of a fey bird]
+8, Arrows fletched with the feathers of a fey bird  [[Arrows fletched with the feathers of a fey bird]]
 9, Several vials of healing potions.
 10, A cache of useful herbs.
 11, A silver flute.
@@ -188,7 +207,7 @@
 6, swan.
 
 
-:Profession, The wood elf is
+:Profession The wood elf is
 1, An adept healer.
 2, A devoted priest.
 3, A mystic seer.
@@ -203,7 +222,7 @@
 12, An exceptional winemaker.
 
 
-:Goal, The wood elf is looking to
+:Goal The wood elf is looking to
 1, Track an unnatural beast or invader.
 2, Lead any travelers away from the forest.
 3, Guard a sacred site from outsiders.
@@ -214,7 +233,7 @@
 8, Eat, drink, and be merry.
 
 
-:Possessions, The wood elf carries
+:Possessions The wood elf carries
 1, An ancient blade.
 2, A unique gem or piece of jewelry.
 3, A finely-crafted spear or staff.
@@ -222,7 +241,7 @@
 5, A heavy steel sword.
 6, A simple spear and a simple bow.
 7, A curved blade and a small wooden shield.
-8, Arrows fletched with the feathers of a wild bird  [Arrows fletched with the feathers of a wild bird]
+8, Arrows fletched with the feathers of a wild bird  [[Arrows fletched with the feathers of a wild bird]]
 9, Several vials of healing potions.
 10, A cache of useful herbs.
 11, A silver flute.

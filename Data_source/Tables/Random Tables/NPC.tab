@@ -1,9 +1,30 @@
 
 
 :Start
+1, NPC<br>
+_Eyes: The person has [[Eyes The person has]]<br>
+_Ears: The person has [[Ears The person has]]<br>
+_Mouth: The person has [[Mouth The person has]]<br>
+_Nose: The person has [[Nose The person has]]<br>
+_Chin or jaw: He/she has [[Chin or jaw Heorshe has]]<br>
+_Hair: The person has [[Hair The person has]]<br>
+_Other: His/her face has [[Other Hisorher face has]]<br>
+_Height: The person is [[Height The person is]]<br>
+_Calm Trait: When calm, the person is typically [[Calm Trait When calm the person is typically]]<br>
+_Body: The person's body is [[Body The persons body is]]<br>
+_Hands: The person has [[Hands The person has]]<br>
+_Scar: The person has [[Scar The person has]]<br>
+_Tattoo: The person has [[Tattoo The person has]]<br>
+_Jewelry: The person wears [[Jewelry The person wears]]<br>
+_Clothes: The person's [[Clothes The persons]]<br>
+_Stress Trait: When stressed, the person often becomes [[Stress Trait When stressed the person often becomes]]<br>
+_Mood: Now, the person is [[Mood Now the person is]]<br>
+_The person is a [[The person is a]]<br>
+_The person is prejudiced against [[The person is prejudiced against]]<br>
+_The person [[The person]]<br>
 
 
-:Eyes, The person has
+:Eyes The person has
 1, Sleepy eyes.
 2, Shifty eyes.
 3, Watery eyes.
@@ -16,7 +37,7 @@
 10, A lazy eye.
 
 
-:Ears, The person has
+:Ears The person has
 1, Over-sized ears.
 2, Long ear lobes.
 3, Small ears.
@@ -27,7 +48,7 @@
 8, Ears that stick out.
 
 
-:Mouth, The person has
+:Mouth The person has
 1, Full lips.
 2, Buck-teeth.
 3, Thin lips.
@@ -40,7 +61,7 @@
 10, A mouth that hangs open.
 
 
-:Nose, The person has
+:Nose The person has
 1, A crooked nose.
 2, A bulbous nose.
 3, A narrow nose.
@@ -51,7 +72,7 @@
 8, A round nose.
 
 
-:Chin or jaw, Heorshe has
+:Chin or jaw Heorshe has
 1, A pronounced chin.
 2, A cleft chin.
 3, A dimple on the chin.
@@ -62,7 +83,7 @@
 8, An underbite.
 
 
-:Hair, The person has
+:Hair The person has
 1, Thick hair.
 2, Wispy hair.
 3, Straight hair.
@@ -73,7 +94,7 @@
 8, Lush hair.
 
 
-:Other, Hisorher face has
+:Other Hisorher face has
 1, High cheekbones.
 2, Tight, drawn cheeks.
 3, Chubby cheeks.
@@ -84,7 +105,7 @@
 8, Terrible scarring.
 
 
-:Height, The person is
+:Height The person is
 1, Unusually short.
 2, Short in stature.
 3, Average height.
@@ -93,7 +114,7 @@
 6, Unusually tall.
 
 
-:Calm Trait, When calm, the person is typically
+:Calm Trait When calm the person is typically
 3, Compassionate.
 7, Cheerful.
 10, Reserved.
@@ -128,7 +149,7 @@
 100, Weak-Willed.
 
 
-:Body, The person's body is
+:Body The persons body is
 1, Thin and delicate.
 2, Of average build.
 3, Well-muscled.
@@ -143,7 +164,7 @@
 12, Covered in hair.
 
 
-:Hands, The person has
+:Hands The person has
 1, Powerful hands.
 2, Delicate hands.
 3, Rough hands.
@@ -152,14 +173,14 @@
 6, A heavy touch.
 
 
-:Scar, The person has
+:Scar The person has
 2, A jagged scar.
 5, A dark purple scar.
 4, An angry red scar.
 6, A long, thin scar.
 
 
-:Tattoo, The person has
+:Tattoo The person has
 1, A dagger tattoo.
 2, An arrow tattoo.
 3, An anchor tattoo.
@@ -174,7 +195,7 @@
 12, A dragon tattoo.
 
 
-:Jewelry, The person wears
+:Jewelry The person wears
 1, An earring.
 2, Two earrings.
 3, A small chain about the neck.
@@ -187,8 +208,8 @@
 10, A nose ring.
 
 
-:Clothes, The person's
-1, clothing is
+:Clothes The persons
+1, clothing is...
 2, Crisp and new.
 3, Fashionable and hip.
 4, A bit old-fashioned.
@@ -198,7 +219,7 @@
 8, Torn in places; missing buttons.
 
 
-:Stress Trait, When stressed, the person often becomes
+:Stress Trait When stressed the person often becomes
 4, Withdrawn.
 7, Murderous.
 10, Obsessive.
@@ -233,7 +254,7 @@
 100, Intolerant.
 
 
-:Mood, Now, the person is
+:Mood Now the person is
 1, Agreeable.
 2, Carefree.
 3, Curious.
@@ -269,11 +290,11 @@
 
 :The person is prejudiced against
 1, Other genders.
-2, An age group  [An age group]
-3, A social class  [A social class]
-4, Social deviants  [Social deviants]
-5, A profession  [A profession]
-6, A race  [A race]
+2, An age group  [[An age group]]
+3, A social class  [[A social class]]
+4, Social deviants  [[Social deviants]]
+5, A profession  [[A profession]]
+6, A race  [[A race]]
 
 
 :An age group 

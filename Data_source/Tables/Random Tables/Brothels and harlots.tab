@@ -2,9 +2,27 @@
 
 :Start
 1, brothels: WHAT'LL IT BE, SAILOR?
+_<br>
+_Name: The locals call this place the (first word) [[Name The locals call this place the first word]]<br>
+_Name: The locals call this place the (second word) [[Name The locals call this place the second word]]<br>
+_Location: The brothel is located [[Location The brothel is located]]<br>
+_Entertainment: In addition to the usual amusements, here you can procure [[Entertainment In addition to the usual amusements here you can procure]]<br>
+_Boss: The place is run by [[Boss The place is run by]]<br>
+_Food: To eat, the place serves [[Food To eat the place serves]]<br>
+_Drink: To drink, the place serves [[Drink To drink the place serves]]<br>
+_Reputation: People talk; they say [[Reputation People talk they say]]<br>
+_Rumors: People talk about this place; rumors suggest that recently [[Rumors People talk about this place rumors suggest that recently]]<br>
+_Room Furnishings: This room has [[Room Furnishings This room has]]<br>
+_Features: You notice [[Features You notice]]<br>
+_Background: the harlot is [[Background the harlot is]]<br>
+_Mark of Beauty: The harlot has [[Mark of Beauty The harlot has]]<br>
+_Flawed Beauty: The harlot has [[Flawed Beauty The harlot has]]<br>
+_the harlot's flaw is [[the harlots flaw is]]<br>
+_Talent: The harlot is very skilled at [[Talent The harlot is very skilled at]]<br>
+_Goal: The harlot is looking to [[Goal The harlot is looking to]]<br>
 
 
-:Name, The locals call this place the ,first word
+:Name The locals call this place the first word
 1, Cozy.
 2, Dancer's.
 3, Golden.
@@ -27,7 +45,7 @@
 20, Welcoming.
 
 
-:Name, The locals call this place the ,second word
+:Name The locals call this place the second word
 1, Candle.
 2, Cherry.
 3, Curtain.
@@ -50,7 +68,7 @@
 20, Window.
 
 
-:Location, The brothel is located
+:Location The brothel is located
 1, In the slums.
 2, In a shantytown.
 3, In a well-to-do residential neighborhood.
@@ -73,7 +91,7 @@
 20, In a house in a park, garden, or forest.
 
 
-:Entertainment, In addition to the usual amusements, here you can procure
+:Entertainment In addition to the usual amusements here you can procure
 1, Really weird stuff, for those with the most interesting fetishes.
 2, Illegal stuff. If this is found out, the place would be burnt down, and the owners hung. It is clearly kept in great secret.
 3, Performances involving food.
@@ -86,7 +104,7 @@
 10, Magical delights.
 
 
-:Boss, The place is run by
+:Boss The place is run by
 1, A collective of the inmates themselves.
 2, A mean old madam.
 3, A large madam with a no-nonsense attitude.
@@ -97,7 +115,7 @@
 8, A charming witch.
 
 
-:Food, To eat, the place serves
+:Food To eat the place serves
 1, Simple snacks.
 2, Banquets.
 3, Peasant food.
@@ -112,7 +130,7 @@
 12, Nothing; it satisfies other appetites.
 
 
-:Drink, To drink, the place serves
+:Drink To drink the place serves
 1, Ales.
 2, Cocktails
 3, Grog, and nothing but grog.
@@ -123,7 +141,7 @@
 8, Nothing; inebriation is not tolerated.
 
 
-:Reputation, People talk, they say
+:Reputation People talk they say
 1, The girls are underpaid and poorly treated.
 2, Nothing really; it's a neighborhood brothel.
 3, A prominent noble or merchant is a regular.
@@ -133,7 +151,7 @@
 7, It is secretly the home to a dark cult.
 8, All the inmates there are related.
 9, Nothing much, a popular girl is with child.
-10, You can pay for services with things other than coin  [You can pay for services with things other than coin]
+10, You can pay for services with things other than coin  [[You can pay for services with things other than coin]]
 
 
 :You can pay for services with things other than coin 
@@ -145,7 +163,7 @@
 6, stock.
 
 
-:Rumors, People talk about this place, rumors suggest that recently
+:Rumors People talk about this place rumors suggest that recently
 1, A nobleman got one of the girls with child but refuses to acknowledge her or the baby.
 2, Someone slaughtered half of the workers and clients in the night.
 3, A client was stabbed with a letter opener.
@@ -158,7 +176,7 @@
 10, Several clients have caught a disease.
 
 
-:Room Furnishings, This room has
+:Room Furnishings This room has
 1, A four-poster bed with velvet curtains.
 2, A four-poster bed with lacy curtains.
 3, A soft, leather chaise lounge.
@@ -171,7 +189,7 @@
 10, A large mirror on the ceiling over the bed.
 
 
-:Features, You notice
+:Features You notice
 1, The scent of lavender.
 2, The scent of lilac perfume.
 3, The scent of ginger and cinnamon.
@@ -194,7 +212,7 @@
 20, A long moan.
 
 
-:Background, the harlot is
+:Background the harlot is
 1, A veteran who may have been beautiful.
 2, A passionate young woman.
 3, A homely young lady.
@@ -207,7 +225,7 @@
 10, New to the place and eager to please.
 
 
-:Mark of Beauty, The harlot has
+:Mark of Beauty The harlot has
 1, A pretty smile.
 2, Beautiful eyes.
 3, Lovely, long eyelashes.
@@ -216,7 +234,7 @@
 6, A clean satin gown.
 
 
-:Flawed Beauty, The harlot has
+:Flawed Beauty The harlot has
 1, A gimpy leg.
 2, Crooked teeth.
 3, A scowl on her face.
@@ -227,14 +245,14 @@
 8, A mustache.
 
 
-:the harlot's flaw is
+:the harlots flaw is
 2, Barely noticeable.
 4, Well-concealed by make-up or practice.
 5, Something you can look past.
 6, Intimidating.
 
 
-:Talent, The harlot is very skilled at
+:Talent The harlot is very skilled at
 1, Listening and offering emotional support.
 2, Bringing a smile to her clients' faces without even touching them.
 3, Bringing a smile to her clients' faces as soon as she touches them.
@@ -243,7 +261,7 @@
 6, Drinking and swearing.
 
 
-:Goal, The harlot is looking to
+:Goal The harlot is looking to
 2, Earn enough coin to get out of this place.
 3, Bring to light a scandal involving a rival.
 5, Secure a marriage to get out of this place.

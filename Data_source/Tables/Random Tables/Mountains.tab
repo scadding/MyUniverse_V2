@@ -2,9 +2,27 @@
 
 :Start
 1, mountains: TO THE TOP OF THE PEAK!
+_<br>
+_Interesting Location: You find [[Interesting Location You find]]<br>
+_What's in the cave/cavern/tunnel? [[Whats in the caveorcavernortunnel]]<br>
+_Distinguishing Landmark: You see [[Distinguishing Landmark You see]]<br>
+_Who lives or lived in the cabin? [[Who lives or lived in the cabin]]<br>
+_Who resides in the abandoned cabin now? [[Who resides in the abandoned cabin now]]<br>
+_Who camped here? [[Who camped here]]<br>
+_Feature: You notice [[Feature You notice]]<br>
+_Who is/was digging in this mine? [[Who isorwas digging in this mine]]<br>
+_What were the miners digging for? [[What were the miners digging for]]<br>
+_What lives in the abandoned mine/ancient ruin now? [[What lives in the abandoned mineorancient ruin now]]<br>
+_Who built this monastery? [[Who built this monastery]]<br>
+_The temple was built to honor [[The temple was built to honor]]<br>
+_What built the nest? [[What built the nest]]<br>
+_What built the watchtower? [[What built the watchtower]]<br>
+_Who holds the watchtower now? [[Who holds the watchtower now]]<br>
+_Encounters: You come upon [[Encounters You come upon]]<br>
+_Hazards/Obstacles: You run into [[HazardsorObstacles You run into]]<br>
 
 
-:Interesting Location, You find
+:Interesting Location You find
 1, A cavern behind a waterfall.
 2, A small cave in the crook of a rock wall.
 3, An entrance to a rocky cave.
@@ -27,7 +45,7 @@
 20, An enormous bird's nest.
 
 
-:What's in the caveorcavernortunnel
+:Whats in the caveorcavernortunnel
 1, A mountain lion's den.
 2, Lots of bats.
 3, Many spider webs.
@@ -50,7 +68,7 @@
 20, A sleeping dragon.
 
 
-:Distinguishing Landmark, You see
+:Distinguishing Landmark You see
 1, A trickle of water flowing down a rock wall.
 2, A small mountain lake of cold, fresh water.
 3, A swiftly flowing small stream.
@@ -101,7 +119,7 @@
 6, Someone whose purposes are unclear.
 
 
-:Feature, You notice
+:Feature You notice
 1, Abandoned, decrepit mining equipment.
 2, Some old dry bones.
 3, A small fossilized leaf.
@@ -111,11 +129,11 @@
 7, The clatter of rocks falling.
 8, Loose stones underfoot.
 9, An unstable rock wall.
-10, A distant sound  [A distant sound]
+10, A distant sound  [[A distant sound]]
 11, The name of a previous traveler carved into a boulder.
 12, An ancient rune carved in a rock wall.
 13, A scrawny tree growing with its roots spread over a small boulder.
-14, The distant cry of a beast  [The distant cry of a beast]
+14, The distant cry of a beast  [[The distant cry of a beast]]
 15, The wind whips up to a treacherous speed.
 16, Snow flurries begin to fall.
 17, The sound of birds chirping.
@@ -152,7 +170,7 @@
 3, Gold.
 4, Iron.
 5, Silver.
-6, A rare metal  [A rare metal]
+6, A rare metal  [[A rare metal]]
 
 
 :A rare metal 
@@ -232,7 +250,7 @@
 8, Ghostly warriors.
 
 
-:Encounters, You come upon
+:Encounters You come upon
 1, A lost prospector.
 2, A solemn warrior.
 3, An angry wraith.
@@ -255,7 +273,7 @@
 20, A roc tearing apart some prey.
 
 
-:HazardsorObstacles, You run into
+:HazardsorObstacles You run into
 1, A perilous rockslide.
 2, An icy rime across the path or road.
 3, A tumbling boulder.

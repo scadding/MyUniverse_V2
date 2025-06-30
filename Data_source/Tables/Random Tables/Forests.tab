@@ -2,9 +2,67 @@
 
 :Start
 1, haunted forests: FOREST VARIANT (PAGE THREE)
+_<br>
+_Interesting Location: You find [[Interesting Location You find]]<br>
+_Distinguishing Landmark: You see [[Distinguishing Landmark You see]]<br>
+_Feature: You notice [[Feature You notice]]<br>
+_What's in the cave/cavern? [[Whats in the caveorcavern]]<br>
+_Encounters: You come upon [[Encounters You come upon]]<br>
+_Dominant Tree Species: Many of the [[Dominant Tree Species Many of the]]<br>
+_Who lives in the peculiar cottage? [[Who lives in the peculiar cottage]]<br>
+_Who lived in the abandoned cabin? [[Who lived in the abandoned cabin]]<br>
+_Who resides in the abandoned cabin now? [[Who resides in the abandoned cabin now]]<br>
+_Who built the ancient ruins? [[Who built the ancient ruins]]<br>
+_Who lives in the ancient ruins now? [[Who lives in the ancient ruins now]]<br>
+_The woodsman is [[The woodsman is]]<br>
+_The woodsman is looking to [[The woodsman is looking to]]<br>
+_The woodsman carries [[The woodsman carries]]<br>
+_The wood elf is [[The wood elf is]]<br>
+_The wood elf is looking to [[The wood elf is looking to]]<br>
+_The wood elf carries [[The wood elf carries]]<br>
+_<br>
+_Interesting Location: You find [[Interesting Location You find]]<br>
+_Distinguishing Landmark: You see [[Distinguishing Landmark You see]]<br>
+_Feature: You notice [[Feature You notice]]<br>
+_What's in the cave/cavern? [[Whats in the caveorcavern]]<br>
+_Encounters: You come upon [[Encounters You come upon]]<br>
+_Who lives in the burrow/under the tree? [[Who lives in the burroworunder the tree]]<br>
+_Who lives up in the tree? [[Who lives up in the tree]]<br>
+_Who lives in the peculiar/well-maintained cottage? [[Who lives in the peculiarorwell-maintained cottage]]<br>
+_Who built the ancient ruins? [[Who built the ancient ruins]]<br>
+_Who lives in the ancient ruins now? [[Who lives in the ancient ruins now]]<br>
+_The faerie is [[The faerie is]]<br>
+_1The faerie is looking for [[1The faerie is looking for]]<br>
+_The faerie carries [[The faerie carries]]<br>
+_The high elf is [[The high elf is]]<br>
+_The high elf is looking to [[The high elf is looking to]]<br>
+_The high elf carries [[The high elf carries]]<br>
+_The treeperson is [[The treeperson is]]<br>
+_The treeperson is looking to [[The treeperson is looking to]]<br>
+_The treeperson carries [[The treeperson carries]]<br>
+_<br>
+_Interesting Location: You find [[Interesting Location You find]]<br>
+_Distinguishing Landmark: You see [[Distinguishing Landmark You see]]<br>
+_Feature: You notice [[Feature You notice]]<br>
+_What's in the cave/cavern? [[Whats in the caveorcavern]]<br>
+_Encounters: You come upon [[Encounters You come upon]]<br>
+_Who is in the ancient burial mound? [[Who is in the ancient burial mound]]<br>
+_What's in the hole/burrow? [[Whats in the holeorburrow]]<br>
+_Who lives in the peculiar cottage? [[Who lives in the peculiar cottage]]<br>
+_Who lived in the abandoned cabin? [[Who lived in the abandoned cabin]]<br>
+_Who resides in the abandoned cabin now? [[Who resides in the abandoned cabin now]]<br>
+_Who is in the grave? [[Who is in the grave]]<br>
+_The graverobber is [[The graverobber is]]<br>
+_Who built the ancient ruins? [[Who built the ancient ruins]]<br>
+_The graverobber carries [[The graverobber carries]]<br>
+_Who resides in the ancient ruins now? [[Who resides in the ancient ruins now]]<br>
+_The graverobber is looking for [[The graverobber is looking for]]<br>
+_The necromancer is [[The necromancer is]]<br>
+_The necromancer is looking for [[The necromancer is looking for]]<br>
+_The necromancer carries [[The necromancer carries]]<br>
 
 
-:Interesting Location, You find
+:Interesting Location You find
 1, Ancient burial mounds.
 2, An entrance to a rocky cave.
 3, A hole under a large tree.
@@ -17,7 +75,7 @@
 10, Ancient ruins.
 
 
-:Distinguishing Landmark, You see
+:Distinguishing Landmark You see
 1, A tree with rotten fruit all around its base.
 2, A large, hollow tree.
 3, A pair of trees from the same root.
@@ -40,7 +98,7 @@
 20, The stump of an enormous tree.
 
 
-:Feature, You notice
+:Feature You notice
 1, A flock of crows scatter.
 2, A vulture screams.
 3, A raven croaks.
@@ -63,7 +121,7 @@
 20, The smell of decay.
 
 
-:What's in the caveorcavern
+:Whats in the caveorcavern
 1, Several skeletons.
 2, Lots of bats.
 3, Many spider webs.
@@ -78,7 +136,7 @@
 12, A creepy hermit.
 
 
-:Encounters, You come upon
+:Encounters You come upon
 1, An animated skeleton.
 2, A pair of skeletal warriors.
 3, A giant spider.
@@ -101,7 +159,7 @@
 20, A gravedigger.
 
 
-:Dominant Tree Species, Many of the
+:Dominant Tree Species Many of the
 1, Apple or pear trees.
 2, Ashes.
 3, Birches.
@@ -283,7 +341,7 @@
 4, A vial containing a potent potion.
 5, Several magical mushrooms.
 6, A message from a faerie king or queen.
-7, A musical instrument  [A musical instrument]
+7, A musical instrument  [[A musical instrument]]
 8, A jug of wine.
 
 
@@ -353,7 +411,7 @@
 12, Huge, disorganized piles of bones.
 
 
-:What's in the holeorburrow
+:Whats in the holeorburrow
 1, A snake.
 2, A spider.
 3, Slimy mold.

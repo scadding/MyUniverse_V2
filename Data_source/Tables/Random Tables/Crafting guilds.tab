@@ -2,9 +2,28 @@
 
 :Start
 1, crafting guilds: HIRE A PROFESSIONAL
+_<br>
+_Common Trades: This is a guild for [[Common Trades This is a guild for]]<br>
+_Headquarters: Guild business occurs [[Headquarters Guild business occurs]]<br>
+_Uncommon Trades: This guild is for [[Uncommon Trades This guild is for]]<br>
+_Status and Control: The guild is [[Status and Control The guild is]]<br>
+_Illicit Affairs: The guild is involved in [[Illicit Affairs The guild is involved in]]<br>
+_Minor Quest: You must fetch a shipment of goods from [[Minor Quest You must fetch a shipment of goods from]]<br>
+_Standard Quest: Recently the guild has lost access to raw materials or manufacturing because of [[Standard Quest Recently the guild has lost access to raw materials or manufacturing because of]]<br>
+_Major Quest: You must fetch a rare creature or material from [[Major Quest You must fetch a rare creature or material from]]<br>
+_Background: The artisan is [[Background The artisan is]]<br>
+_Trait: The artisan has [[Trait The artisan has]]<br>
+_Feature: The artisan has [[Feature The artisan has]]<br>
+_Skill: The artisan is highly skilled at [[Skill The artisan is highly skilled at]]<br>
+_Goal: The artisan is looking for [[Goal The artisan is looking for]]<br>
+_Possession: The artisan is carrying [[Possession The artisan is carrying]]<br>
+_Reputation: The artisan is [[Reputation The artisan is]]<br>
+_Aspiration: The artisan dreams of [[Aspiration The artisan dreams of]]<br>
+_Attitude: Presently, the apprentice is [[Attitude Presently the apprentice is]]<br>
+_Goal: The apprentice is seeking someone to [[Goal The apprentice is seeking someone to]]<br>
 
 
-:Common Trades, This is a guild for
+:Common Trades This is a guild for
 1, Blacksmiths or farriers.
 2, Bowyers or fletchers.
 3, Butchers or salters.
@@ -27,7 +46,7 @@
 20, Winemakers, distillers, or brewers.
 
 
-:Headquarters, Guild business occurs
+:Headquarters Guild business occurs
 1, In the guild leader's personal residence or in the home of an influential merchant.
 2, In the dusty basement of a tavern or pub.
 3, In the backroom of a tavern or pub.
@@ -42,7 +61,7 @@
 12, In a famous, centuries-old guildhall.
 
 
-:Uncommon Trades, This guild is for
+:Uncommon Trades This guild is for
 1, Alchemists or apothecaries.
 2, Armorers or weaponsmiths.
 3, Basketweavers.
@@ -57,7 +76,7 @@
 12, Woodcarvers, roofers, or joiners.
 
 
-:Status and Control, The guild is
+:Status and Control The guild is
 1, Poor; though once great, hard times have come, and the guild has little influence left.
 2, Brand new; the guild is frantically recruiting members in order to gain power.
 3, Exponentially rising; a recent boon has provided great profits and influence.
@@ -68,7 +87,7 @@
 8, Questionable; though the guild claims control, some operators skirt its rules.
 
 
-:Illicit Affairs, The guild is involved in
+:Illicit Affairs The guild is involved in
 1, None; they are paragons of morality.
 2, Staying well within the law, if slipping on a few taxes due to ignorance, of course.
 3, Knowing how to play the political game, they trade a few favors with officials.
@@ -79,7 +98,7 @@
 8, Pacts with crime lords, fiends, or vampires, large-scale counterfeiting, and treason are business-as-usual for this guild.
 
 
-:Minor Quest, You must fetch a shipment of goods from
+:Minor Quest You must fetch a shipment of goods from
 1, The city gates, held up by a bureaucratic city official.
 2, The nearest village, where they're caught up in some small-town superstition.
 3, A relatively nearby city, where there is a severe mix-up with the shipments.
@@ -88,7 +107,7 @@
 6, Across the room where the party receives the quest (fetching is the easy part).
 
 
-:Standard Quest, Recently the guild has lost access to raw materials or manufacturing because of
+:Standard Quest Recently the guild has lost access to raw materials or manufacturing because of
 1, A recent venture with a supplier, rival, or local official that has turned out badly.
 2, A trade blockade that has to be resolved.
 3, A thieves' guild that is targeting the guild, but may be convinced to look elsewhere.
@@ -97,7 +116,7 @@
 6, Spending all their revenue to fulfill a special contract or bribing officials, lacking foresight to buy sufficient raw materials.
 
 
-:Major Quest, You must fetch a rare creature or material from
+:Major Quest You must fetch a rare creature or material from
 1, The marketplace of a foreign city or a legendary city on an elemental plane.
 2, An ancient dwarven stronghold's forges.
 3, A quaint pasture—in the wildest parts of a celestial realm.
@@ -106,7 +125,7 @@
 6, The Plane of Rats (or other filthy location).
 
 
-:Background, The artisan is
+:Background The artisan is
 1, A young journeyman.
 2, A mediocre journeyman.
 3, A skilled journeyman.
@@ -115,7 +134,7 @@
 6, An old crafter.
 
 
-:Trait, The artisan has
+:Trait The artisan has
 1, A friendly smile.
 2, Keen eyes.
 3, Watery eyes.
@@ -126,7 +145,7 @@
 8, An amused smirk.
 
 
-:Feature, The artisan has
+:Feature The artisan has
 1, A limp.
 2, A hunchback.
 3, Unsteady hands when they aren't at work.
@@ -137,7 +156,7 @@
 8, A thick mustache and/or a bushy beard.
 
 
-:Skill, The artisan is highly skilled at
+:Skill The artisan is highly skilled at
 1, Crafting one particular type of item.
 2, Identifying high quality raw materials.
 3, Putting the finishing touches on an item.
@@ -146,7 +165,7 @@
 6, Maneuvering in guild politics.
 
 
-:Goal, The artisan is looking for
+:Goal The artisan is looking for
 1, A new apprentice.
 2, A journeyman craftsman to hire.
 3, Rare materials.
@@ -157,7 +176,7 @@
 8, A mug of strong ale.
 
 
-:Possession, The artisan is carrying
+:Possession The artisan is carrying
 1, The tools of his or her trade.
 2, Some raw materials.
 3, A finished product.
@@ -168,7 +187,7 @@
 8, A flask of whisky.
 
 
-:Reputation, The artisan is
+:Reputation The artisan is
 1, A well-known member of the guild.
 2, An established or up-and-coming leader in the guild.
 3, A new member of the guild, having recently relocated from a distant land.
@@ -177,7 +196,7 @@
 6, A favorite of some of the guild's leaders.
 
 
-:Aspiration, The artisan dreams of
+:Aspiration The artisan dreams of
 1, Producing a masterwork of the craft.
 2, Holding the reins of guild leadership.
 3, Retiring peacefully.
@@ -186,7 +205,7 @@
 6, A life of adventure.
 
 
-:Attitude, Presently, the apprentice is
+:Attitude Presently the apprentice is
 1, Panic-stricken.
 2, Nervous.
 3, Eager to learn.
@@ -195,7 +214,7 @@
 6, Irritable.
 
 
-:Goal, The apprentice is seeking someone to
+:Goal The apprentice is seeking someone to
 1, Give him some tips in the craft.
 2, Purchase an item made by the apprentice.
 3, Sell him an item to resell as his own work.

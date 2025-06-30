@@ -2,9 +2,23 @@
 
 :Start
 1, fiends: YOUR SOUL OR YOUR LIFE?
+_<br>
+_Status/Rank: The fiend is [[StatusorRank The fiend is]]<br>
+_Skin: The fiend's skin is [[Skin The fiends skin is]]<br>
+_Eyes: The fiend's eyes are [[Eyes The fiends eyes are]]<br>
+_Head/Face: The fiend has [[HeadorFace The fiend has]]<br>
+_Body: The fiend has [[Body The fiend has]]<br>
+_Appendages: The fiend has [[Appendages The fiend has]]<br>
+_Knowledge and Magic: The fiend possesses [[Knowledge and Magic The fiend possesses]]<br>
+_Weapons/Attacks: The fiend prefers to fight with [[WeaponsorAttacks The fiend prefers to fight with]]<br>
+_Goal: The fiend is looking for [[Goal The fiend is looking for]]<br>
+_Weakness: The fiend cannot resist [[Weakness The fiend cannot resist]]<br>
+_Favorite Prey: The fiend is particularly fond of preying upon [[Favorite Prey The fiend is particularly fond of preying upon]]<br>
+_Favorite Torments: With prey in its [[Favorite Torments With prey in its]]<br>
+_Vulnerability: To bind, to summon, or to control the fiend, or to drive it back to the shadow, one must [[Vulnerability To bind to summon or to control the fiend or to drive it back to the shadow one must]]<br>
 
 
-:StatusorRank, The fiend is
+:StatusorRank The fiend is
 1, In the service of a more powerful fiend.
 2, Bound to serve a mortal spellcaster.
 3, Recently freed of its bonds.
@@ -19,7 +33,7 @@
 12, Not entirely certain what its purpose and place may be.
 
 
-:Skin, The fiend's skin is
+:Skin The fiends skin is
 1, Dark crimson.
 2, Blood red.
 3, Blackened.
@@ -34,7 +48,7 @@
 12, Scaly.
 
 
-:Eyes, The fiend's eyes are
+:Eyes The fiends eyes are
 1, Glowing yellow.
 2, Burning red.
 3, Pitch black.
@@ -49,7 +63,7 @@
 12, Wide and perceptive.
 
 
-:HeadorFace, The fiend has
+:HeadorFace The fiend has
 1, A long snout.
 2, Sharp fangs.
 3, The face of a beautiful woman.
@@ -64,7 +78,7 @@
 12, Large ears.
 
 
-:Body, The fiend has
+:Body The fiend has
 1, A well-muscled physique.
 2, A voluptuous feminine shape.
 3, Burnt flesh.
@@ -79,7 +93,7 @@
 12, Many piercings.
 
 
-:Appendages, The fiend has
+:Appendages The fiend has
 1, A pair of leathery wings.
 2, A pair of feathered wings.
 3, Wings pull close to its body to hide from view.
@@ -91,7 +105,7 @@
 9, Hooves in place of feet.
 10, Exceptionally long fingernails.
 11, Talons in place of feet.
-12, The body and legs of a beast  [The body and legs of a beast]
+12, The body and legs of a beast  [[The body and legs of a beast]]
 
 
 :The body and legs of a beast 
@@ -103,7 +117,7 @@
 6, walrus.
 
 
-:Knowledge and Magic, The fiend possesses
+:Knowledge and Magic The fiend possesses
 1, A missing line from a dark prophecy.
 2, The soul of a celebrated hero trapped in a gem.
 3, The soul of a terrifying villain trapped in a gem.
@@ -118,7 +132,7 @@
 12, A book of foul summoning rituals.
 
 
-:WeaponsorAttacks, The fiend prefers to fight with
+:WeaponsorAttacks The fiend prefers to fight with
 1, A whip of pure flame.
 2, A sword of elemental lightning.
 3, A cudgel covered in teeth and sharp spikes.
@@ -133,7 +147,7 @@
 12, Tooth and claw.
 
 
-:Goal, The fiend is looking for
+:Goal The fiend is looking for
 1, A soul to collect and to keep.
 2, A soul to devour.
 3, Flesh to devour.
@@ -148,7 +162,7 @@
 12, The means to open a portal to a dark realm.
 
 
-:Weakness, The fiend cannot resist
+:Weakness The fiend cannot resist
 1, Tasty flesh.
 2, A pretty face.
 3, A stiff drink.
@@ -157,7 +171,7 @@
 6, A chance to gloat.
 
 
-:Favorite Prey, The fiend is particularly fond of preying upon
+:Favorite Prey The fiend is particularly fond of preying upon
 1, Beautiful young women.
 2, Handsome young men.
 3, Rulers and tyrants.
@@ -172,7 +186,7 @@
 12, Anyone; the fiend enjoys variety.
 
 
-:Favorite Torments, With prey in its
+:Favorite Torments With prey in its
 1, Dismember its prey savagely.
 2, Devour the flesh of its prey hungrily.
 3, Toy with its prey before killing it.
@@ -195,7 +209,7 @@
 20, Make promises to its prey for the sole purpose of breaking them.
 
 
-:Vulnerability, To bind, to summon, or to control the fiend, or to drive it back to the shadow, one must
+:Vulnerability To bind to summon or to control the fiend or to drive it back to the shadow one must
 1, Speak its true name.
 2, Write its true name in one's own blood.
 3, Tattoo its true name to one's breast.

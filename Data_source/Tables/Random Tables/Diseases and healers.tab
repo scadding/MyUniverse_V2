@@ -1,10 +1,25 @@
 
 
 :Start
-1, diseases: BRING OUT YOUR DEAD
+1, diseases: BRING OUT YOUR DEAD...
+_<br>
+_Exposure: This disease is spread by [[Exposure This disease is spread by]]<br>
+_Incubation: Once exposed to the disease, a person develops symptoms [[Incubation Once exposed to the disease a person develops symptoms]]<br>
+_Geography: This disease is frequently encountered in regions with [[Geography This disease is frequently encountered in regions with]]<br>
+_Common Symptoms: Affect the [[Common Symptoms Affect the]]<br>
+_Rare Symptoms: May include [[Rare Symptoms May include]]<br>
+_Natural History: Symptoms are [[Natural History Symptoms are]]<br>
+_Complications: If untreated, cases are [[Complications If untreated cases are]]<br>
+_Treatment: The cure for the disease is [[Treatment The cure for the disease is]]<br>
+_Response time: Treatment is typically [[Response time Treatment is typically]]<br>
+_Supernatural Symptoms: May include [[Supernatural Symptoms May include]]<br>
+_Profession: The healer is [[Profession The healer is]]<br>
+_Mannerism: The healer has [[Mannerism The healer has]]<br>
+_Possessions: The healer carries [[Possessions The healer carries]]<br>
+_Goal: The healer is looking for [[Goal The healer is looking for]]<br>
 
 
-:Exposure, This disease is spread by
+:Exposure This disease is spread by
 1, Inhaling contaminated air.
 2, Drinking contaminated water.
 3, Consuming contaminated food.
@@ -19,7 +34,7 @@
 12, Unknown means.
 
 
-:Incubation, Once exposed to the disease, a person develops symptoms
+:Incubation Once exposed to the disease a person develops symptoms
 1, Almost immediately (1d6 hours).
 2, Very rapidly (4d6 hours).
 3, Within a few days (1d4 days).
@@ -30,7 +45,7 @@
 8, Some time in the person's life (2d20 yrs).
 
 
-:Geography, This disease is frequently encountered in regions with
+:Geography This disease is frequently encountered in regions with
 1, A warm climate.
 2, An arid climate.
 3, A mild climate.
@@ -43,17 +58,17 @@
 10, High altitude.
 
 
-:Common Symptoms, Affect the
-1, Eyes  [Eyes]
-2, Brain  [Brain]
-3, Chest  [Chest]
-4, Ears and throat  [Ears and throat]
-5, Head and nose  [Head and nose]
-6, Limbs  [Limbs]
-7, Mouth  [Mouth]
-8, Sex organs  [Sex organs]
-9, Skin  [Skin]
-10, Stomach and gut  [Stomach and gut]
+:Common Symptoms Affect the
+1, Eyes  [[Eyes]]
+2, Brain  [[Brain]]
+3, Chest  [[Chest]]
+4, Ears and throat  [[Ears and throat]]
+5, Head and nose  [[Head and nose]]
+6, Limbs  [[Limbs]]
+7, Mouth  [[Mouth]]
+8, Sex organs  [[Sex organs]]
+9, Skin  [[Skin]]
+10, Stomach and gut  [[Stomach and gut]]
 
 
 :Eyes 
@@ -166,10 +181,10 @@
 8, vomiting blood.
 
 
-:Rare Symptoms, May include
+:Rare Symptoms May include
 1, Amnesia; partial or complete.
 2, Blindness or deafness.
-3, Coma  [Coma]
+3, Coma  [[Coma]]
 4, Complete changes in personality.
 5, Concurrent vomiting and diarrhea.
 6, Coughing up blood.
@@ -195,14 +210,14 @@
 6, indefinite.
 
 
-:Natural History, Symptoms are
+:Natural History Symptoms are
 2, Acute and curable; once the afflicted is cured, the symptoms never return.
 3, Acute but recurring; once the afflicted is cured, symptoms may return later in life.
 5, Chronic but completely curable; once the afflicted is cured, symptoms rarely return.
 6, Chronic but treatable; after treatment, symptoms will reoccur every few years.
 
 
-:Complications, If untreated, cases are
+:Complications If untreated cases are
 1, Rarely serious; running its course in a few days or weeks.
 2, Rarely lethal; fatal complications occur in less than 1% of cases.
 3, Sometimes debilitating, but rarely lethal; permanent disabilities occur in approximately 10% of cases, and fatal complications in less than 1% of cases
@@ -211,7 +226,7 @@
 6, Often lethal; fatal complications occur in more than 50% of cases.
 
 
-:Treatment, The cure for the disease is
+:Treatment The cure for the disease is
 1, A simple herbal remedy.
 2, A complex herbal potion or salve.
 3, A widely available healing potion or balm.
@@ -222,7 +237,7 @@
 8, Extremely powerful and rare magic.
 
 
-:Response time, Treatment is typically
+:Response time Treatment is typically
 1, Miraculous; symptoms disappear instantly.
 2, Quick; the afflicted is cured within a few hours of receiving treatment.
 3, Short; the afflicted is cured within a few days of receiving treatment.
@@ -231,7 +246,7 @@
 6, Erratic; the time-course of treatment varies greatly among individuals or among outbreaks of the disease.
 
 
-:Supernatural Symptoms, May include
+:Supernatural Symptoms May include
 1, Belching up vermin.
 2, Demonic or ghostly possession.
 3, The desire to consume humanoid flesh.
@@ -254,7 +269,7 @@
 20, Overactive libido.
 
 
-:Profession, The healer is
+:Profession The healer is
 1, A devoted acolyte.
 2, A skilled alchemist.
 3, A religious fanatic.
@@ -269,7 +284,7 @@
 12, A quirky witch-doctor.
 
 
-:Mannerism, The healer has
+:Mannerism The healer has
 1, A likable grin.
 2, Kind eyes.
 3, Alert eyes.
@@ -282,7 +297,7 @@
 10, A habit of muttering to himself or herself.
 
 
-:Possessions, The healer carries
+:Possessions The healer carries
 1, A clean, sharp knife.
 2, A wooden staff.
 3, A sturdy cudgel.
@@ -295,7 +310,7 @@
 10, A wineskin.
 
 
-:Goal, The healer is looking for
+:Goal The healer is looking for
 1, The translation of an ancient text.
 2, Individuals in need of his or her services.
 3, Someone to purchase a potion or two.

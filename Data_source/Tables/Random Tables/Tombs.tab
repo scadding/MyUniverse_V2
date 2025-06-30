@@ -2,9 +2,22 @@
 
 :Start
 1, tombs: WHO GOES THERE?...
+_<br>
+_Dedicatee: This tomb was built for [[Dedicatee This tomb was built for]]<br>
+_Entrance: The tomb's entrance is [[Entrance The tombs entrance is]]<br>
+_Guardians: The tomb's entrance is guarded by [[Guardians The tombs entrance is guarded by]]<br>
+_Grand crypt: The tomb's grand crypt is located [[Grand crypt The tombs grand crypt is located]]<br>
+_Walls: Many of the interior walls are [[Walls Many of the interior walls are]]<br>
+_Ceilings: Many of the ceilings are [[Ceilings Many of the ceilings are]]<br>
+_Rooms: The purpose of this room is [[Rooms The purpose of this room is]]<br>
+_Features: You notice [[Features You notice]]<br>
+_Secret: The tomb is rumored to [[Secret The tomb is rumored to]]<br>
+_What haunts this tomb? [[What haunts this tomb]]<br>
+_Critters: What lives in the tomb now? [[Critters What lives in the tomb now]]<br>
+_Visitors: Who has entered the tomb? [[Visitors Who has entered the tomb]]<br>
 
 
-:Dedicatee, This tomb was built for
+:Dedicatee This tomb was built for
 1, An ancient king.
 2, An ancient queen.
 3, An ancient high priest or priestess.
@@ -27,9 +40,9 @@
 20, The child of a wealthy person or ruler.
 
 
-:Entrance, The tomb's entrance is
+:Entrance The tombs entrance is
 1, Yawning open, letting much daylight into the entry chamber.
-2, Behind a huge pair of metal doors  [Behind a huge pair of metal doors]
+2, Behind a huge pair of metal doors  [[Behind a huge pair of metal doors]]
 3, Beneath a stone slab.
 4, A simple wooden door framed in stone.
 5, A heavy wooden door framed in stone.
@@ -37,9 +50,9 @@
 7, Beneath a gnarled, old tree.
 8, Beneath an obelisk or similar monument.
 9, Beneath a large statue.
-10, Hidden by the terrain  [Hidden by the terrain]
-11, Hidden by vegetation  [Hidden by vegetation]
-12, Difficult to access  [Difficult to access]
+10, Hidden by the terrain  [[Hidden by the terrain]]
+11, Hidden by vegetation  [[Hidden by vegetation]]
+12, Difficult to access  [[Difficult to access]]
 
 
 :Behind a huge pair of metal doors 
@@ -70,10 +83,10 @@
 6, through an illusory rock or wall.
 
 
-:Guardians, The tomb's entrance is guarded by
+:Guardians The tombs entrance is guarded by
 1, A sworn order of devout warriors.
 2, Sellswords.
-3, Large, frightening statues of beasts  [Large, frightening statues of beasts]
+3, Large, frightening statues of beasts  [[Large frightening statues of beasts]]
 4, Impressive, colossal statues of warriors.
 5, Statues of beautiful maidens, beckoning visitors into a trap.
 6, Several crumbling statues.
@@ -83,7 +96,7 @@
 10, Nothing; the tomb is rather homey and welcoming.
 
 
-:Large, frightening statues of beasts 
+:Large frightening statues of beasts 
 1, bats
 2, bears
 3, dragons
@@ -94,7 +107,7 @@
 8, wolves.
 
 
-:Grand crypt, The tomb's grand crypt is located
+:Grand crypt The tombs grand crypt is located
 1, Just beyond a heavy door in the entryway.
 2, Down a steep set of spiraling stairs from the entry chamber.
 3, At the end of a long passageway lined with lesser crypts.
@@ -103,7 +116,7 @@
 6, Several levels below the entry chamber.
 
 
-:Walls, Many of the interior walls are
+:Walls Many of the interior walls are
 1, Rough hewn stone.
 2, Smooth cut stone.
 3, Painted or lacquered wood.
@@ -114,7 +127,7 @@
 8, Decorated with sacred texts and runes.
 
 
-:Ceilings, Many of the ceilings are
+:Ceilings Many of the ceilings are
 1, Uncomfortably close to your head.
 2, Stone, smooth as glass.
 3, Stone, rough and jagged.
@@ -123,11 +136,11 @@
 6, Crossed by wooden beams.
 
 
-:Rooms, The purpose of this room is
+:Rooms The purpose of this room is
 1, An antechamber to a crypt or chapel.
 2, A chapel dedicated to protecting the souls of the deceased.
 3, A chapel dedicated to aiding the journey of the souls of the deceased.
-4, A grand crypt for a person of importance  [A grand crypt for a person of importance]
+4, A grand crypt for a person of importance  [[A grand crypt for a person of importance]]
 5, A false crypt to attract and to trap graverobbers and treasure hunters.
 6, A crypt for immediate family members.
 7, A crypt for previous generations of the family.
@@ -135,9 +148,9 @@
 9, A crypt of unmarked graves.
 10, A reflecting pool or fountain.
 11, A crypt for devoted servants or slaves.
-12, A room dedicated for specific rituals  [A room dedicated for specific rituals]
-13, Gallery dedicated to the deceased  [Gallery dedicated to the deceased]
-14, A guardroom with guards  [A guardroom with guards]
+12, A room dedicated for specific rituals  [[A room dedicated for specific rituals]]
+13, Gallery dedicated to the deceased  [[Gallery dedicated to the deceased]]
+14, A guardroom with guards  [[A guardroom with guards]]
 15, A priest's robing room.
 16, Storage room for embalming tools.
 17, Storage room for tools and materials to maintain the tomb.
@@ -174,7 +187,7 @@
 6, zombies.
 
 
-:Features, You notice
+:Features You notice
 1, A small altar set in an alcove in the wall.
 2, A plaque listing a family lineage.
 3, A plaque noting birth and death dates.
@@ -197,7 +210,7 @@
 20, An empty coffin.
 
 
-:Secret, The tomb is rumored to
+:Secret The tomb is rumored to
 1, Hold tremendous treasure.
 2, Be trapped to guard against intruders.
 3, Hold a legendary weapon or artifact.
@@ -229,7 +242,7 @@
 20, A vengeful death knight.
 
 
-:Critters, What lives in the tomb now
+:Critters What lives in the tomb now
 1, Carrion crawler.
 2, Cloaker.
 3, Darkmantle.
@@ -244,7 +257,7 @@
 12, Umber hulk.
 
 
-:Visitors, Who has entered the tomb
+:Visitors Who has entered the tomb
 1, A devoted priest or priestess.
 2, A traveler or scholar from afar.
 3, A member of the deceased's family.

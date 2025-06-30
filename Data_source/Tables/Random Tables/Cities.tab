@@ -1,9 +1,22 @@
 
 
 :Start
+1, The City is
+_Geography: The city grew up around [[Geography The city grew up around]]<br>
+_Defenses: The city is defended by [[Defenses The city is defended by]]<br>
+_District: This part of the city is the [[District This part of the city is the]]<br>
+_Resources: The city is near a region ideal for mining, growing, or grazing [[Resources The city is near a region ideal for mining growing or grazing]]<br>
+_Law Enforcement: The laws are [[Law Enforcement The laws are]]<br>
+_Streets: The locals call this street [[Streets The locals call this street]]<br>
+_Culture: The city is known for its [[Culture The city is known for its]]<br>
+_Government: The city is ruled by [[Government The city is ruled by]]<br>
+_Historical Event: The city experienced [[Historical Event The city experienced]]<br>
+_Threats: The people are fearful of [[Threats The people are fearful of]]<br>
+_Power Players: Within or outside the [[Power Players Within or outside the]]<br>
+_Landmark: You see a/an [[Landmark You see aoran]]<br>
 
 
-:Geography, The city grew up around
+:Geography The city grew up around
 1, A coastal harbor.
 2, A calm, coastal bay.
 3, A large freshwater lake.
@@ -16,7 +29,7 @@
 10, A water source and a well-traveled road.
 
 
-:Defenses, The city is defended by
+:Defenses The city is defended by
 1, A disciplined military guard.
 2, A standing army of devoted soldiers.
 3, A company of sellswords and knaves.
@@ -29,7 +42,7 @@
 10, A powerful magical ward or gigantic golem.
 
 
-:District, This part of the city is the
+:District This part of the city is the
 1, Slums.
 2, Residential, poor.
 3, Res., middle class.
@@ -52,7 +65,7 @@
 20, Foreign enclave.
 
 
-:Resources, The city is near a region ideal for mining, growing, or grazing
+:Resources The city is near a region ideal for mining growing or grazing
 1, Iron ore.
 2, Copper ore.
 3, Gold or silver deposits.
@@ -74,7 +87,7 @@
 20, Sheep.
 
 
-:Law Enforcement, The laws are
+:Law Enforcement The laws are
 1, Enforced by a strict, orderly city watch.
 2, Enforced by a corrupt, roguish city watch.
 3, Not enforced among the wealthy elite.
@@ -89,29 +102,29 @@
 12, Enforced by a rigid soldier-turned-sheriff.
 
 
-:Streets, The locals call this street
-1, Cedar Street
-2, Cherry Street;
-3, Maple Street
-4, Oak Street
-5, Pine Street
-6, Willow Street.
-7,   [5]
-9,   [6]
-10,   [7]
-11,   [8]
-12,   [9]
-13,   [10]
-14,   [11]
-15,   [12]
-16,   [13]
-17,   [14]
-18,   [15]
-19,   [16]
-20,   [17]
+:Streets The locals call this street
+1, war [[war]]
+2, geography [[geography]]
+3, building [[building]]
+4, common [[common]]
+5, merchant [[merchant]]
+6, highland [[highland]]
+7, bad [[bad]]
+9, profession [[profession]]
+10, parade [[parade]]
+11, royal [[royal]]
+12, road [[road]]
+13, water [[water]]
+14, view [[view]]
+15, direction [[direction]]
+16, tree [[tree]]
+17, gate [[gate]]
+18, shrub [[shrub]]
+19, jewel [[jewel]]
+20, old [[old]]
 
 
-: 
+:war
 1, Armory Street
 2, Barricade Street
 3, Knight Street
@@ -120,7 +133,7 @@
 6, Spear Street.
 
 
-:  0
+:geography
 1, Arch Street
 2, Bridge Street.
 3, Canal Street
@@ -129,7 +142,7 @@
 6, River Street.
 
 
-:  1
+:building
 1, Castle Street
 2, Inn Street;
 3, Rock Way
@@ -138,7 +151,7 @@
 6, Tower Street.
 
 
-:  2
+:common
 1, Cattle Road
 2, Common Street;
 3, Green Street
@@ -147,7 +160,7 @@
 6, Orchard Street.
 
 
-:  3
+:merchant
 1, Cooper Street
 2, Mason Street;
 3, Smith Street
@@ -156,7 +169,7 @@
 6, Weaver Street.
 
 
-:  4
+:highland
 1, Bluff Street
 2, Crestline Way;
 3, High Street
@@ -165,7 +178,7 @@
 6, Ridge Street.
 
 
-:  5
+:bad
 1, Devil's Alley
 2, Magpie Lane;
 3, Paupers Street
@@ -175,7 +188,7 @@
 8, Market Street.
 
 
-:  6
+:profession
 1, Baker Street
 2, Hook Street;
 3, Farm Road
@@ -184,7 +197,7 @@
 6, Ranchers Road.
 
 
-:  7
+:parade
 1, Banner Road
 2, Drum Street;
 3, March Street
@@ -193,7 +206,7 @@
 6, Victory Lane.
 
 
-:  8
+:royal
 1, Crown Street
 2, King Street;
 3, Lords Lane
@@ -202,7 +215,7 @@
 6, Royal Street.
 
 
-:  9
+:road
 1, Circle Street
 2, Brick Road;
 3, Perimeter Street
@@ -211,7 +224,7 @@
 6, Wall Street.
 
 
-:  10
+:water
 1, Bay Street
 2, Commerce Street;
 3, Harbor Street
@@ -220,7 +233,7 @@
 6, Water Street.
 
 
-:  11
+:view
 1, Bayview Street
 2, Castleview Street
 3, Gardenview Street
@@ -229,7 +242,7 @@
 6, Riverview Street.
 
 
-:  12
+:direction
 1, North Road
 2, North Street;
 3, South Road
@@ -238,10 +251,16 @@
 6, West Road.
 
 
-:  13
+:tree
+1, Cedar Street
+2, Cherry Street;
+3, Maple Street
+4, Oak Street
+5, Pine Street
+6, Willow Street.
 
 
-:  14
+:gate
 1, Northgate Street
 2, Southgate Street
 3, Eastgate Street
@@ -250,7 +269,7 @@
 6, Watchtower Street.
 
 
-:  15
+:shrub
 1, Briar Street
 2, Garden Street;
 3, Lilac Street
@@ -259,7 +278,7 @@
 6, Violet Street.
 
 
-:  16
+:jewel
 1, Emerald Way
 2, Jewelers Lane;
 3, Golden Lane
@@ -268,7 +287,7 @@
 6, Silver Lane.
 
 
-:  17
+:old
 1, Ancient Way
 2, Bath Street;
 3, Fountain Street
@@ -277,7 +296,7 @@
 6, Tumblestone Way.
 
 
-:Culture, The city is known for its
+:Culture The city is known for its
 1, Architectural style.
 2, Architectural feats.
 3, Artists and poets.
@@ -300,7 +319,7 @@
 20, Wine and/or ale.
 
 
-:Government, The city is ruled by
+:Government The city is ruled by
 1, The head of a noble family.
 2, A council of distinguished nobles.
 3, A council of wealthy merchants.
@@ -313,7 +332,7 @@
 10, The leaders of a religious order.
 
 
-:Historical Event, The city experienced
+:Historical Event The city experienced
 1, Mass conversions.
 2, An earthquake.
 3, Age of exploration.
@@ -336,7 +355,7 @@
 20, A dragon attack.
 
 
-:Threats, The people are fearful of
+:Threats The people are fearful of
 1, Bandits and outlaws.
 2, Barbarian invasions.
 3, Disease outbreaks.
@@ -351,7 +370,7 @@
 12, A rival city.
 
 
-:Power Players, Within or outside the
+:Power Players Within or outside the
 1, A ruthless assassins' guild.
 2, A populist demagogue.
 3, The captain of a mercenary company.
@@ -374,7 +393,7 @@
 20, A clever witch or wizard.
 
 
-:Landmark, You see aoran
+:Landmark You see aoran
 1, Academy or university.
 2, Ancient ruin.
 3, Arena.
@@ -386,8 +405,8 @@
 9, Library.
 10, Lighthouse or watchtower.
 11, Marketplace.
-12, Memorial  [Memorial]
-13, Monument  [Monument]
+12, Memorial  [[Memorial]]
+13, Monument  [[Monument]]
 14, Palace.
 15, Parade grounds or drilling yard
 16, Pier, marina, or traveler's bazaar.

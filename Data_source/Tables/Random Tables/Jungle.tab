@@ -1,10 +1,31 @@
 
 
 :Start
-1, jungles: WELCOME TO THE JUNGLE
+1, jungles: WELCOME TO THE JUNGLE...
+_<br>
+_Interesting Location: You find [[Interesting Location You find]]<br>
+_Distinguishing Landmark: You see [[Distinguishing Landmark You see]]<br>
+_Feature: You notice [[Feature You notice]]<br>
+_What's in the cave/cavern? [[Whats in the caveorcavern]]<br>
+_Encounters: You come upon [[Encounters You come upon]]<br>
+_Flower Color: The flowers are [[Flower Color The flowers are]]<br>
+_Flower Shape: The petals are [[Flower Shape The petals are]]<br>
+_Who built the ancient ruins? [[Who built the ancient ruins]]<br>
+_Who resides in the ruins now? [[Who resides in the ruins now]]<br>
+_What kind of riverboat was it? [[What kind of riverboat was it]]<br>
+_Who lives or lived in the stilt house or tree house? [[Who lives or lived in the stilt house or tree house]]<br>
+_Who camped here? [[Who camped here]]<br>
+_What's in the hole/burrow? [[Whats in the holeorburrow]]<br>
+_What's up in the tree? [[Whats up in the tree]]<br>
+_The cultist is [[The cultist is]]<br>
+_The cultist is looking to [[The cultist is looking to]]<br>
+_The cultist carries or wears [[The cultist carries or wears]]<br>
+_The lizardfolk is [[The lizardfolk is]]<br>
+_The lizardfolk is looking for [[The lizardfolk is looking for]]<br>
+_The lizardfolk carries [[The lizardfolk carries]]<br>
 
 
-:Interesting Location, You find
+:Interesting Location You find
 1, A cavern behind a waterfall.
 2, The wreck of a riverboat.
 3, A cave behind a curtain of tangled vines.
@@ -19,7 +40,7 @@
 12, Ruins of an ancient city.
 
 
-:Distinguishing Landmark, You see
+:Distinguishing Landmark You see
 1, A tree bearing large, yellow fruit.
 2, A tree bearing small, red fruit.
 3, A large, hollow tree.
@@ -42,7 +63,7 @@
 20, The stump of an enormous tree.
 
 
-:Feature, You notice
+:Feature You notice
 1, A flock of birds scatter.
 2, A woodpecker drumming.
 3, A bird singing sweetly.
@@ -65,7 +86,7 @@
 20, The smell of decay.
 
 
-:What's in the caveorcavern
+:Whats in the caveorcavern
 1, A manticore's lair.
 2, Lots of bats.
 3, Many spider webs.
@@ -80,7 +101,7 @@
 12, A strange hermit.
 
 
-:Encounters, You come upon
+:Encounters You come upon
 1, Torrential rains.
 2, A place where you sink into the mud.
 3, A predatory plant with grasping vines.
@@ -103,7 +124,7 @@
 20, A ruthless big-game hunter.
 
 
-:Flower Color, The flowers are
+:Flower Color The flowers are
 1, Shockingly pink.
 2, Deep crimson.
 3, Iridescent orange. 8. Dark purple
@@ -114,7 +135,7 @@
 9, Pale pink.
 
 
-:Flower Shape, The petals are
+:Flower Shape The petals are
 1, Radiating in a spiraling pattern.
 2, Radiating from a hemispherical center.
 3, Radiating from a conical center.
@@ -182,7 +203,7 @@
 8, An ambitious treasure hunter.
 
 
-:What's in the holeorburrow
+:Whats in the holeorburrow
 1, A poisonous snake.
 2, A spider.
 3, A poisonous frog.
@@ -191,7 +212,7 @@
 6, Unusual fungus.
 
 
-:What's up in the tree
+:Whats up in the tree
 1, A constrictor snake.
 2, A giant spider.
 3, A swarm of bats.

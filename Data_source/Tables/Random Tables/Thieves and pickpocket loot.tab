@@ -1,10 +1,27 @@
 
 
 :Start
-1, thieves: HOLD ON TO YOUR PURSE
+1, thieves: HOLD ON TO YOUR PURSE...
+_<br>
+_Background: The thief is [[Background The thief is]]<br>
+_Trait: The thief has [[Trait The thief has]]<br>
+_Apparel or accessory: The thief wears [[Apparel or accessory The thief wears]]<br>
+_Possession: The thief carries [[Possession The thief carries]]<br>
+_Mannerisms: The thief [[Mannerisms The thief]]<br>
+_Weapons: The thief is armed with [[Weapons The thief is armed with]]<br>
+_Work: The thief's modus operandi is [[Work The thiefs modus operandi is]]<br>
+_Goal: The thief is looking for [[Goal The thief is looking for]]<br>
+_Recent jobs: Recently, the thief has been operating in or near [[Recent jobs Recently the thief has been operating in or near]]<br>
+_Odd jobs: Aside from theft, the thief has been known to be involved in [[Odd jobs Aside from theft the thief has been known to be involved in]]<br>
+_Style: The thief prefers to operate [[Style The thief prefers to operate]]<br>
+_Victims: The thief's favorite marks include [[Victims The thiefs favorite marks include]]<br>
+_In the mark's pocket, the thief finds [[In the marks pocket the thief finds]]<br>
+_Key: The key is [[Key The key is]]<br>
+_Handkerchief: The handkerchief is [[Handkerchief The handkerchief is]]<br>
+_Score: The thief scores [[Score The thief scores]]<br>
 
 
-:Background, The thief is
+:Background The thief is
 1, A veteran dungeon delver.
 2, A desperate footpad.
 3, A reckless fortune seeker.
@@ -19,7 +36,7 @@
 12, A brutish thug.
 
 
-:Trait, The thief has
+:Trait The thief has
 1, A long, hooked nose.
 2, A bent, broken nose.
 3, A cute little button nose.
@@ -27,14 +44,14 @@
 5, Pockmarked cheeks.
 6, High cheek bones.
 7, A pointy chin.
-8, A thug's tattoo on the arm  [A thug's tattoo on the arm]
-9, A sailor's tattoo on the arm  [A sailor's tattoo on the arm]
+8, A thug's tattoo on the arm  [[A thugs tattoo on the arm]]
+9, A sailor's tattoo on the arm  [[A sailors tattoo on the arm]]
 10, An open shirt and a very hairy chest.
 11, A five o'clock shadow.
 12, An extravagant mustache.
 
 
-:A thug's tattoo on the arm 
+:A thugs tattoo on the arm 
 1, crossed bones
 2, dagger
 3, dragon
@@ -45,14 +62,14 @@
 8, thorns.
 
 
-:A sailor's tattoo on the arm 
+:A sailors tattoo on the arm 
 1, anchor;
 3, mermaid
 4, octopus
 6, whale.
 
 
-:Apparel or accessory, The thief wears
+:Apparel or accessory The thief wears
 1, A flashy earring.
 2, A dark red cape.
 3, Shiny leather boots.
@@ -67,7 +84,7 @@
 12, A handkerchief in his breast pocket.
 
 
-:Possession, The thief carries
+:Possession The thief carries
 1, Some hemp rope and a silk handkerchief.
 2, Several over-sized sacks.
 3, Several torches and a much-used knife.
@@ -82,7 +99,7 @@
 12, A mask.
 13, The token of a love.
 14, Letters for blackmail.
-15, A lucky charm  [A lucky charm]
+15, A lucky charm  [[A lucky charm]]
 16, A flask of oil.
 17, A treasure map.
 18, A flask filled with spirits.
@@ -97,7 +114,7 @@
 6, horseshoe.
 
 
-:Mannerisms, The thief
+:Mannerisms The thief
 1, Hums or sings while walking.
 2, Constantly brushes hair from his/her face.
 3, Laughs maniacally at everything.
@@ -106,7 +123,7 @@
 6, Picks at his or her teeth after meals.
 
 
-:Weapons, The thief is armed with
+:Weapons The thief is armed with
 1, Brass knuckles.
 2, A shortsword.
 3, Several throwing knives.
@@ -119,7 +136,7 @@
 10, A garrote and a dagger.
 
 
-:Work, The thief's modus operandi is
+:Work The thiefs modus operandi is
 1, Petty theft.
 2, Burglary.
 3, Shoplifting.
@@ -130,7 +147,7 @@
 8, Holding up outgoing boats or wagons.
 
 
-:Goal, The thief is looking for
+:Goal The thief is looking for
 1, Accomplices to carry out a job.
 2, Revenge against a rival thief.
 3, Revenge against an officer of the law.
@@ -143,7 +160,7 @@
 10, A rowdy evening of carousing.
 
 
-:Recent jobs, Recently, the thief has been operating in or near
+:Recent jobs Recently the thief has been operating in or near
 1, A residential district.
 2, An artisan's shop or guildhall.
 3, A merchant's office.
@@ -166,11 +183,11 @@
 20, The bridge.
 
 
-:Odd jobs, Aside from theft, the thief has been known to be involved in
+:Odd jobs Aside from theft the thief has been known to be involved in
 8, Serving as muscle for shady merchants and/or brothel-keepers.
 
 
-:Style, The thief prefers to operate
+:Style The thief prefers to operate
 1, Alone.
 2, With a tough-guy partner.
 3, With a partner to serve as a look-out.
@@ -179,7 +196,7 @@
 6, Wearing a mask.
 
 
-:Victims, The thief's favorite marks include
+:Victims The thiefs favorite marks include
 1, Fishermen and sailors.
 2, Beggars and hobos.
 3, Merchants and moneychangers.
@@ -202,7 +219,7 @@
 20, Other thieves.
 
 
-:In the mark's pocket, the thief finds
+:In the marks pocket the thief finds
 1, A scrap of paper or parchment with an unintelligible note scribbled on it.
 2, A scrap of paper or parchment with a list of mundane items or tasks written on it.
 3, Some lint or a bit of thread.
@@ -215,7 +232,7 @@
 10, A score (score table) and roll again on this table using a d8.
 
 
-:Key, The key is
+:Key The key is
 1, A small brass key.
 2, A large brass key.
 3, A thin brass key.
@@ -224,7 +241,7 @@
 6, Made of an unusual material.
 
 
-:Handkerchief, The handkerchief is
+:Handkerchief The handkerchief is
 1, A fine silk handkerchief.
 2, A simple cotton handkerchief.
 3, A lacy handkerchief.
@@ -232,7 +249,7 @@
 5, A striped handkerchief.
 
 
-:Score, The thief scores
+:Score The thief scores
 1, 2d4 cp.
 2, 3d6 cp.
 3, 1d6 sp.

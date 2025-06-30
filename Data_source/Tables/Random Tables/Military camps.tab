@@ -1,20 +1,49 @@
 
 
 :Start
-1, military camps: BOOTS ON THE GROUND
+1, military camps: BOOTS ON THE GROUND...
+_<br>
+_Tent: This tent is functions as [[Tent This tent is functions as]]<br>
+_Other Landmarks: You see [[Other Landmarks You see]]<br>
+_Mounts: The camp's mounts include [[Mounts The camps mounts include]]<br>
+_Hunting or War Beasts: The camp has [[Hunting or War Beasts The camp has]]<br>
+_Morale: The camp's general mood is [[Morale The camps general mood is]]<br>
+_Background: The scout is [[Background The scout is]]<br>
+_Goal: The scout is looking to [[Goal The scout is looking to]]<br>
+_Possession: The scout carries [[Possession The scout carries]]<br>
+_Background: The commander is [[Background The commander is]]<br>
+_Background: The quartermaster is [[Background The quartermaster is]]<br>
+_Goal: The commander is looking for [[Goal The commander is looking for]]<br>
+_Concern: The commander is trying to avoid [[Concern The commander is trying to avoid]]<br>
+_Possession: The commander carries [[Possession The commander carries]]<br>
+_Background: The soldier fights for [[Background The soldier fights for]]<br>
+_Trait: On the soldier's face is [[Trait On the soldiers face is]]<br>
+_Possession: The soldier carries [[Possession The soldier carries]]<br>
+_Background: The traveler is [[Background The traveler is]]<br>
+_Goal: The quartermaster seeks someone to [[Goal The quartermaster seeks someone to]]<br>
+_Currency: The quartermaster trades in [[Currency The quartermaster trades in]]<br>
+_Background: The armorer is [[Background The armorer is]]<br>
+_Goal: The armorer is looking for [[Goal The armorer is looking for]]<br>
+_Possession: The armorsmith carries [[Possession The armorsmith carries]]<br>
+_Background: The servant is [[Background The servant is]]<br>
+_The servant has [[The servant has]]<br>
+_Goal: The servant wants to [[Goal The servant wants to]]<br>
+_Long-term Goal: The traveler is seeking [[Long-term Goal The traveler is seeking]]<br>
+_Goal: The cook is looking for [[Goal The cook is looking for]]<br>
+_Immediate: Goal: Tonight, the traveler is [[Immediate Goal Tonight the traveler is]]<br>
 
 
-:Tent, This tent is functions as
+:Tent This tent is functions as
 1, Barracks.
 2, A chapel or shrine.
-3, A forge  [A forge]
+3, A forge  [[A forge]]
 4, An infirmary or surgeons' office.
 5, A mess hall.
 6, Officers' quarters.
 7, Officers' mess.
-8, A supply tent  [A supply tent]
+8, A supply tent  [[A supply tent]]
 9, A stable or kennel.
-10, A workshop  [A workshop]
+10, A workshop  [[A workshop]]
 
 
 :A forge 
@@ -37,7 +66,7 @@
 6, leatherworker.
 
 
-:Other Landmarks, You see
+:Other Landmarks You see
 1, A corral or wagon yard.
 2, A guard post or watch tower.
 3, A gatehouse.
@@ -52,13 +81,13 @@
 12, Graves.
 
 
-:Mounts, The camp's mounts include
+:Mounts The camps mounts include
 1, Camels.
 2, Large draft horses.
 3, Reliable garrons.
 4, Quick-footed palfreys.
 5, Huge destriers.
-6, Exotic mounts  [Exotic mounts]
+6, Exotic mounts  [[Exotic mounts]]
 
 
 :Exotic mounts 
@@ -70,13 +99,13 @@
 6, zebras.
 
 
-:Hunting or War Beasts, The camp has
+:Hunting or War Beasts The camp has
 1, Falcons.
 2, Fighting dogs.
 3, Hounds.
 4, Terriers.
 5, Wolves.
-6, Exotic beasts  [Exotic beasts]
+6, Exotic beasts  [[Exotic beasts]]
 
 
 :Exotic beasts 
@@ -92,7 +121,7 @@
 10, wargs.
 
 
-:Morale, The camp's general mood is
+:Morale The camps general mood is
 1, Desperate; a calamity has befallen them.
 2, Solemn; badly outnumbered, battle is nigh.
 3, Foul; morale is bad, and provisions are low.
@@ -101,28 +130,28 @@
 6, Cheerful; victory is all but certain.
 
 
-:Background, The scout is
+:Background The scout is
 1, A daring ranger.
 3, A skilled hunter.
 5, An expert tracker.
 6, A brutal warrior.
 
 
-:Goal, The scout is looking to
+:Goal The scout is looking to
 1, Help the camp slaughter the enemy.
 3, Keep the camp from marching into a trap.
 5, Hear word of enemy patrols and wild game.
 6, Eat, drink, and be merry.
 
 
-:Possession, The scout carries
+:Possession The scout carries
 1, A map with notes scrawled all over it.
 3, A unique trinket or piece of jewelry.
 5, A longbow and a quiver of arrows.
 6, A large knife and climbing gear.
 
 
-:Background, The commander is
+:Background The commander is
 1, A brilliant strategist.
 2, A brutish thug.
 3, A dashing swashbuckler.
@@ -131,14 +160,14 @@
 6, A career soldier.
 
 
-:Background, The quartermaster is
+:Background The quartermaster is
 1, A member of a merchant guild.
 3, A member of a prominent family.
 5, A survivor of a terrible battle wound.
 6, Secretly a coward.
 
 
-:Goal, The commander is looking for
+:Goal The commander is looking for
 1, Information regarding enemy positioning.
 2, Information regarding the terrain ahead.
 3, Reinforcements or new recruits.
@@ -147,14 +176,14 @@
 6, Drinking companions and storytellers.
 
 
-:Concern, The commander is trying to avoid
+:Concern The commander is trying to avoid
 1, Barbarians.
 2, Bandits.
 4, The enemy army.
 6, Hazardous terrain.
 
 
-:Possession, The commander carries
+:Possession The commander carries
 1, A superbly crafted sword.
 2, A trusted blade and a map.
 3, A lucky charm (rabbit's foot, old coin).
@@ -163,7 +192,7 @@
 6, A little jar of mustache wax.
 
 
-:Background, The soldier fights for
+:Background The soldier fights for
 1, The steady pay.
 2, Pure bloodlust.
 3, A chance to escape from life imprisonment.
@@ -172,21 +201,21 @@
 6, Fortune and glory.
 
 
-:Trait, On the soldier's face is
+:Trait On the soldiers face is
 1, An unsightly scar.
 2, A haughty sneer.
 4, A look of sadness.
 6, An eager grin.
 
 
-:Possession, The soldier carries
+:Possession The soldier carries
 1, A highly polished blade.
 3, A letter from a fallen comrade.
 5, A trophy from a fallen enemy.
 6, A ribbon from a faraway maiden.
 
 
-:Background, The traveler is
+:Background The traveler is
 1, A harlot.
 2, A healer.
 3, A minstrel or storyteller.
@@ -195,42 +224,42 @@
 6, A refugee.
 
 
-:Goal, The quartermaster seeks someone to
+:Goal The quartermaster seeks someone to
 2, Obtain hard-to-get provisions.
 4, Purchase contraband items.
 5, Help win over a sweetheart.
 6, Share a drink and a laugh.
 
 
-:Currency, The quartermaster trades in
+:Currency The quartermaster trades in
 2, Coins.
 3, Gems and trinkets.
 5, Meat, foraged roots, and other provisions.
 6, Bones, scalps, teeth, or other grisly trophies.
 
 
-:Background, The armorer is
+:Background The armorer is
 1, A meticulous armorsmith.
 3, A blacksmith with some militia experience.
 5, A farrier with little experience with weapons.
 6, A highly-skilled weaponsmith.
 
 
-:Goal, The armorer is looking for
+:Goal The armorer is looking for
 2, A new apprentice or a journeyman assistant.
 4, Rare metals.
 5, Dull blades to sharpen.
 6, A mug of strong ale.
 
 
-:Possession, The armorsmith carries
+:Possession The armorsmith carries
 2, A hammer.
 3, A metal trinket made by the armorer.
 5, A contract for a set of special plate armor.
 6, Little more than a few coins.
 
 
-:Background, The servant is
+:Background The servant is
 1, A squire from a noble house.
 2, A frightened link boy.
 3, A long-time valet or reformed criminal.
@@ -248,7 +277,7 @@
 6, A ragged beard.
 
 
-:Goal, The servant wants to
+:Goal The servant wants to
 1, Earn a little silver.
 2, Go back home.
 3, Show off an animal's new trick.
@@ -257,14 +286,14 @@
 6, Have a drink and a rest.
 
 
-:Long-term Goal, The traveler is seeking
+:Long-term Goal The traveler is seeking
 2, To find a long lost friend or family member.
 3, To escape from a troubled past.
 4, To gain revenge against a bitter rival.
 6, To survive the war and start over.
 
 
-:Goal, The cook is looking for
+:Goal The cook is looking for
 1, Someone more important to talk to.
 2, Someone to try an improvised recipe.
 3, Some better ingredients.
@@ -273,7 +302,7 @@
 6, The bottom of a bottle.
 
 
-:Immediate, Goal, Tonight, the traveler is
+:Immediate Goal Tonight the traveler is
 2, A little company.
 4, An opportunity to earn some coin.
 5, Someone to hear a sad tale.

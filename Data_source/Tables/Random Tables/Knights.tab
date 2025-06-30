@@ -2,9 +2,23 @@
 
 :Start
 1, knights: SWORN SWORDS
+_<br>
+_House colors: The knight's house's colors are [[House colors The knights houses colors are]]<br>
+_House symbol: The knight's house's symbol is [[House symbol The knights houses symbol is]]<br>
+_Background: The knight is [[Background The knight is]]<br>
+_Trait: On the knight's face is [[Trait On the knights face is]]<br>
+_Liege: The knight has sworn to a noble lord or lady to [[Liege The knight has sworn to a noble lord or lady to]]<br>
+_Values: Above all else, the knight values [[Values Above all else the knight values]]<br>
+_Armor type: The knight is clad in [[Armor type The knight is clad in]]<br>
+_Armor quality: The knight's armor is [[Armor quality The knights armor is]]<br>
+_Weapons: The knight is wielding [[Weapons The knight is wielding]]<br>
+_Mount: The knight's mount is [[Mount The knights mount is]]<br>
+_Background: The servant is [[Background The servant is]]<br>
+_Motivation: The servant works for [[Motivation The servant works for]]<br>
+_Trait: On the servant's face is [[Trait On the servants face is]]<br>
 
 
-:House colors, The knight's house's colors are
+:House colors The knights houses colors are
 1, Black.
 2, Red / scarlet.
 3, Gold.
@@ -27,15 +41,15 @@
 20, Olive green.
 
 
-:House symbol, The knight's house's symbol is
-1, A weapon  [A weapon]
-2, A piece of armor  [A piece of armor]
-3, A celestial body  [A celestial body]
-4, A plant or part of a plant  [A plant or part of a plant]
-5, An aquatic beast  [An aquatic beast]
-6, A small beast  [A small beast]
-7, A great beast  [A great beast]
-8, A bird  [A bird]
+:House symbol The knights houses symbol is
+1, A weapon  [[A weapon]]
+2, A piece of armor  [[A piece of armor]]
+3, A celestial body  [[A celestial body]]
+4, A plant or part of a plant  [[A plant or part of a plant]]
+5, An aquatic beast  [[An aquatic beast]]
+6, A small beast  [[A small beast]]
+7, A great beast  [[A great beast]]
+8, A bird  [[A bird]]
 
 
 :A weapon 
@@ -128,7 +142,7 @@
 12, vulture.
 
 
-:Background, The knight is
+:Background The knight is
 1, A pompous windbag.
 2, A charming hero.
 3, A daring swashbuckler.
@@ -143,10 +157,10 @@
 12, Ruggedly handsome.
 
 
-:Trait, On the knight's face is
+:Trait On the knights face is
 1, A blade with soft leather tassels dangling from the pommel.
-2, A blade with a carved hilt  [A blade with a carved hilt]
-3, A blade with beasts sculpted into the steel of the guard  [A blade with beasts sculpted into the steel of the guard]
+2, A blade with a carved hilt  [[A blade with a carved hilt]]
+3, A blade with beasts sculpted into the steel of the guard  [[A blade with beasts sculpted into the steel of the guard]]
 4, A blade made of blackened steel.
 5, A highly polished blade.
 6, A token from a sweetheart.
@@ -176,7 +190,7 @@
 6, wolves.
 
 
-:Liege, The knight has sworn to a noble lord or lady to
+:Liege The knight has sworn to a noble lord or lady to
 1, Protect that person from harm.
 2, Defend that person's lands.
 3, Avenge that person's grievances.
@@ -185,7 +199,7 @@
 6, Ride to war in that person's name.
 
 
-:Values, Above all else, the knight values
+:Values Above all else the knight values
 1, Bravery.
 2, Honor.
 3, Righteousness.
@@ -194,14 +208,14 @@
 6, Carousing.
 
 
-:Armor type, The knight is clad in
+:Armor type The knight is clad in
 1, Studded leather armor.
 3, Chainmail.
 5, Scale armor.
 6, Plate armor.
 
 
-:Armor quality, The knight's armor is
+:Armor quality The knights armor is
 1, Shiny and new.
 2, In excellent condition.
 3, Obviously repaired, but serviceable.
@@ -210,7 +224,7 @@
 6, Barely held together.
 
 
-:Weapons, The knight is wielding
+:Weapons The knight is wielding
 1, A longsword.
 2, A longsword and a shield.
 3, Two shortswords.
@@ -225,7 +239,7 @@
 12, A lance and a battleaxe.
 
 
-:Mount, The knight's mount is
+:Mount The knights mount is
 1, A huge destrier.
 2, A reliable courser.
 3, A snorting charger.
@@ -234,7 +248,7 @@
 6, A nervous pony.
 
 
-:Background, The servant is
+:Background The servant is
 1, A squire from a powerful noble house.
 2, A squire from a minor noble house.
 3, A squire of common birth.
@@ -249,7 +263,7 @@
 12, A camp follower or harlot.
 
 
-:Motivation, The servant works for
+:Motivation The servant works for
 1, The steady pay.
 2, The adventure.
 3, The training and advancement opportunies.
@@ -258,7 +272,7 @@
 6, Romantic devotion.
 
 
-:Trait, On the servant's face is
+:Trait On the servants face is
 1, A large wart.
 2, An unsightly scar.
 3, A look of determination.

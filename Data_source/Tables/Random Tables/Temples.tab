@@ -1,10 +1,27 @@
 
 
 :Start
-1, temples: KNEEL BEFORE THE GODS
+1, temples: KNEEL BEFORE THE GODS...
+_<br>
+_Dedicatee: Worshipers here pray to [[Dedicatee Worshipers here pray to]]<br>
+_Reputation: The temple is known for [[Reputation The temple is known for]]<br>
+_Entrance: The entrance is guarded by [[Entrance The entrance is guarded by]]<br>
+_Layout: The temple's main floorplan is [[Layout The temples main floorplan is]]<br>
+_Complex: The temple complex is [[Complex The temple complex is]]<br>
+_Structure: The structure includes [[Structure The structure includes]]<br>
+_Walls: Many of the interior walls are [[Walls Many of the interior walls are]]<br>
+_Ceilings: Many of the ceilings are [[Ceilings Many of the ceilings are]]<br>
+_Rooms: The purpose of this room is [[Rooms The purpose of this room is]]<br>
+_Features: You notice [[Features You notice]]<br>
+_Encounters: You come upon [[Encounters You come upon]]<br>
+_Vocation: The priest is [[Vocation The priest is]]<br>
+_Mannerisms: The priest has [[Mannerisms The priest has]]<br>
+_Apparel: The priest wears [[Apparel The priest wears]]<br>
+_Possessions: The priest carries [[Possessions The priest carries]]<br>
+_Goal: The priest is looking for [[Goal The priest is looking for]]<br>
 
 
-:Dedicatee, Worshipers here pray to
+:Dedicatee Worshipers here pray to
 1, One god and only one god.
 2, One god primarily, but other gods occasionally or for specific petitions.
 3, Several gods within a pantheon, but two gods above the rest.
@@ -13,7 +30,7 @@
 6, Several gods within a pantheon to whom the temple was not originally dedicated.
 
 
-:Reputation, The temple is known for
+:Reputation The temple is known for
 1, Miraculous healers.
 2, Compassionate healers.
 3, Beautiful priestesses.
@@ -28,7 +45,7 @@
 12, Lively prayer services and debates.
 
 
-:Entrance, The entrance is guarded by
+:Entrance The entrance is guarded by
 1, A sworn order of devout warriors.
 2, Sellswords.
 3, Frightening statues of monstrous beings.
@@ -37,14 +54,14 @@
 6, Nothing; the temple welcomes all.
 
 
-:Layout, The temple's main floorplan is
+:Layout The temples main floorplan is
 1, Circular.
 2, Ellipsoidal.
 3, Triangular.
 4, Square.
 5, Rectangular.
 6, Pentagonal.
-7, Polygonal with many sides  [Polygonal with many sides]
+7, Polygonal with many sides  [[Polygonal with many sides]]
 8, Cruciform.
 
 
@@ -59,7 +76,7 @@
 8, twenty.
 
 
-:Complex, The temple complex is
+:Complex The temple complex is
 1, Simple; a large main worship chamber with a handful of functional rooms adjoining.
 2, Simple with a large annex; the annex contains many chambers.
 3, Simple with fortifications.
@@ -70,13 +87,13 @@
 8, Simple with an intricate complex hidden beneath the main worship chamber.
 
 
-:Structure, The structure includes
+:Structure The structure includes
 1, Impenetrable stone walls.
 2, An intricate structure of stone arches and columns.
 3, A colorful painted wood and plaster.
 4, A sturdy structure of finished wood.
 5, A solid structure of oven-fired clay bricks.
-6, A large structure with immense metal doors  [A large structure with immense metal doors]
+6, A large structure with immense metal doors  [[A large structure with immense metal doors]]
 
 
 :A large structure with immense metal doors 
@@ -88,7 +105,7 @@
 6, tin.
 
 
-:Walls, Many of the interior walls are
+:Walls Many of the interior walls are
 1, Rough hewn stone.
 2, Smooth cut stone.
 3, Painted or lacquered wood.
@@ -99,7 +116,7 @@
 8, Decorated with sacred texts and runes.
 
 
-:Ceilings, Many of the ceilings are
+:Ceilings Many of the ceilings are
 1, Uncomfortably close to your head.
 2, Connected to the floor by columns.
 3, Painted with mythological scenes.
@@ -108,7 +125,7 @@
 6, Domes or cupolas.
 
 
-:Rooms, The purpose of this room is
+:Rooms The purpose of this room is
 1, An armory or barracks.
 2, A guardroom or sentry post.
 3, A cell for solitary prayer.
@@ -118,8 +135,8 @@
 7, A sanitarium or infirmary.
 8, A ceremonial pool, bath, or fountain.
 9, A morgue or mortuary.
-10, A crypt for a person of importance  [A crypt for a person of importance]
-11, A room dedicated for specific rituals  [A room dedicated for specific rituals]
+10, A crypt for a person of importance  [[A crypt for a person of importance]]
+11, A room dedicated for specific rituals  [[A room dedicated for specific rituals]]
 12, A chapel for a lesser deity, saint, or martyr.
 13, A classroom or dormitory.
 14, A library.
@@ -145,7 +162,7 @@
 6, healing miracles.
 
 
-:Features, You notice
+:Features You notice
 1, A small altar set in an alcove in the wall.
 2, The sound of bells ringing in a tower.
 3, A wall sconce holding many candles.
@@ -168,7 +185,7 @@
 20, A statue of a recognizable figure.
 
 
-:Encounters, You come upon
+:Encounters You come upon
 1, A young priest or priestess.
 2, An old priest or priestess.
 3, A traveler from afar.
@@ -177,7 +194,7 @@
 6, A member of the temple's guard.
 
 
-:Vocation, The priest is
+:Vocation The priest is
 1, A devoted acolyte.
 2, A dogmatic chaplain.
 3, A wealthy chaplain.
@@ -192,7 +209,7 @@
 12, An outspoken zealot.
 
 
-:Mannerisms, The priest has
+:Mannerisms The priest has
 1, A likable grin.
 2, A hearty laugh.
 3, An arrogant smirk.
@@ -207,7 +224,7 @@
 12, A habit of muttering under his or her breath.
 
 
-:Apparel, The priest wears
+:Apparel The priest wears
 1, A threadbare robe.
 2, A sturdy wool cloak.
 3, A comfortable linen robe.
@@ -220,13 +237,13 @@
 10, Chainmail emblazoned with the symbol of a god.
 
 
-:Possessions, The priest carries
+:Possessions The priest carries
 1, A well-used cudgel.
 2, A shiny new mace.
 3, A walking staff.
 4, A staff with a crook.
 5, A ceremonial dagger.
-6, A prominently displayed holy symbol  [A prominently displayed holy symbol]
+6, A prominently displayed holy symbol  [[A prominently displayed holy symbol]]
 7, A pocketbook of sacred texts.
 8, A notebook of hand-written prayers and devotions.
 9, A variety of healing potions and salves.
@@ -244,7 +261,7 @@
 6, wooden.
 
 
-:Goal, The priest is looking for
+:Goal The priest is looking for
 1, New converts.
 2, The translation of an ancient manuscript.
 3, Heretics.

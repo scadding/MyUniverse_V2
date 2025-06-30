@@ -1,10 +1,39 @@
 
 
 :Start
-1, merchant caravans: OVERLAND SHIPPING
+1, merchant caravans: OVERLAND SHIPPING...
+_<br>
+_Transport Method: The caravan is [[Transport Method The caravan is]]<br>
+_Pack Animals: The caravan's pack animals are [[Pack Animals The caravans pack animals are]]<br>
+_Commodities: The caravan is transporting [[Commodities The caravan is transporting]]<br>
+_Morale: The caravan's mood is [[Morale The caravans mood is]]<br>
+_Background: The captain is [[Background The captain is]]<br>
+_Goal: The captain is looking for [[Goal The captain is looking for]]<br>
+_Concern: The captain wants to avoid [[Concern The captain wants to avoid]]<br>
+_Possession: The captain carries [[Possession The captain carries]]<br>
+_Background: The guide is [[Background The guide is]]<br>
+_Trait: The animal handler has [[Trait The animal handler has]]<br>
+_Goal: The animal handler wants to [[Goal The animal handler wants to]]<br>
+_Possession: The animal handler carries [[Possession The animal handler carries]]<br>
+_Greeting: The cook greets you with [[Greeting The cook greets you with]]<br>
+_Goal: The cook is looking for [[Goal The cook is looking for]]<br>
+_Possession: The cook carries [[Possession The cook carries]]<br>
+_Background: The guard is [[Background The guard is]]<br>
+_Goal: The guard works for [[Goal The guard works for]]<br>
+_Trait or Possession: The guard has [[Trait or Possession The guard has]]<br>
+_Trait or Possession: The guard has [[Trait or Possession The guard has]]<br>
+_Goal: The guide is looking to [[Goal The guide is looking to]]<br>
+_Possession: The guide carries [[Possession The guide carries]]<br>
+_Background: The merchant is [[Background The merchant is]]<br>
+_Goal: The merchant seeks someone to [[Goal The merchant seeks someone to]]<br>
+_Possession: The merchant carries [[Possession The merchant carries]]<br>
+_Possession: The merchant will trade in [[Possession The merchant will trade in]]<br>
+_Background: The traveler is [[Background The traveler is]]<br>
+_Long-Term Goal: The traveler is searching for [[Long-Term Goal The traveler is searching for]]<br>
+_Immediate Goal: Tonight, the traveler is looking for [[Immediate Goal Tonight the traveler is looking for]]<br>
 
 
-:Transport Method, The caravan is
+:Transport Method The caravan is
 1, A wagon train.
 2, A long train of pack animals.
 3, A train of pack animals with a few carts.
@@ -13,7 +42,7 @@
 6, Traveling on foot with a few pack animals.
 
 
-:Pack Animals, The caravan's pack animals are
+:Pack Animals The caravans pack animals are
 1, One-humped camels.
 2, Two-humped camels.
 3, Large draft horses.
@@ -21,7 +50,7 @@
 5, Sure-footed ponies.
 6, Mules.
 7, Oxen.
-8, Exotic beasts  [Exotic beasts]
+8, Exotic beasts  [[Exotic beasts]]
 
 
 :Exotic beasts 
@@ -33,11 +62,11 @@
 6, zebras.
 
 
-:Commodities, The caravan is transporting
-1, Cloth  [Cloth]
+:Commodities The caravan is transporting
+1, Cloth  [[Cloth]]
 2, Drugs or contraband.
-3, Gems  [Gems]
-4, Metals  [Metals]
+3, Gems  [[Gems]]
+4, Metals  [[Metals]]
 5, Spices and teas.
 6, Wine and spirits.
 
@@ -70,14 +99,14 @@
 6, tin.
 
 
-:Morale, The caravan's mood is
+:Morale The caravans mood is
 1, Desperate; a calamity has befallen them.
 3, Foul; morale is bad, provisions are low.
 5, Tired; the journey is long and longer yet.
 6, Eager; great riches await at journey's end.
 
 
-:Background, The captain is
+:Background The captain is
 1, A mysterious foreigner.
 2, A career soldier.
 3, An outcast from a prominent family.
@@ -88,7 +117,7 @@
 8, A brutish thug.
 
 
-:Goal, The captain is looking for
+:Goal The captain is looking for
 1, Information regarding the route ahead.
 2, The location of an ancient ruin.
 3, Extra muscle for the journey.
@@ -99,7 +128,7 @@
 8, Drinking companions and storytellers.
 
 
-:Concern, The captain wants to avoid
+:Concern The captain wants to avoid
 1, Ruins and curses.
 2, Barbarians.
 3, Bandits.
@@ -108,7 +137,7 @@
 6, Wild beasts.
 
 
-:Possession, The captain carries
+:Possession The captain carries
 1, A superbly crafted sword.
 2, Several daggers and a purse of gold.
 3, A trusted blade and a map.
@@ -119,14 +148,14 @@
 8, A little jar of mustache wax.
 
 
-:Background, The guide is
+:Background The guide is
 2, A nomadic herder.
 3, A strange hermit.
 5, A skilled hunter.
 6, A savage warrior.
 
 
-:Trait, The animal handler has
+:Trait The animal handler has
 1, An awkward gait.
 2, Incredibly large hands.
 3, Holes in the breeches.
@@ -135,14 +164,14 @@
 6, A ragged beard.
 
 
-:Goal, The animal handler wants to
+:Goal The animal handler wants to
 2, Earn a little silver.
 4, Go back home.
 5, Survive the journey.
 6, Have a drink and a rest.
 
 
-:Possession, The animal handler carries
+:Possession The animal handler carries
 1, A memento from a loved one.
 2, Several morsels of animal feed.
 3, Several morsels of food.
@@ -151,21 +180,21 @@
 6, A wineskin.
 
 
-:Greeting, The cook greets you with
+:Greeting The cook greets you with
 1, A goblet of warm wine.
 3, A glass of water.
 4, A cup of cold porridge.
 6, A hearty handshake.
 
 
-:Goal, The cook is looking for
+:Goal The cook is looking for
 1, Someone more important to talk to.
 2, Some better ingredients.
 4, A good joke or story.
 6, The bottom of a bottle.
 
 
-:Possession, The cook carries
+:Possession The cook carries
 1, A filthy rag.
 2, A large wooden spoon.
 3, A grease-smeared apron.
@@ -174,7 +203,7 @@
 6, A bottle of whisky.
 
 
-:Background, The guard is
+:Background The guard is
 1, The son of a miner or fisherman.
 2, A veteran of warfare.
 3, The son of a poor man.
@@ -183,14 +212,14 @@
 6, A favorite among the ladies.
 
 
-:Goal, The guard works for
+:Goal The guard works for
 2, The steady pay.
 3, A chance to dole out pain.
 5, Gold to repay debts.
 6, Gold to aid a family member.
 
 
-:Trait or Possession, The guard has
+:Trait or Possession The guard has
 1, A token from a favorite harlot.
 2, A silk handkerchief.
 3, A flask of wine.
@@ -199,21 +228,21 @@
 6, A highly polished blade.
 
 
-:Goal, The guide is looking to
+:Goal The guide is looking to
 2, Help the caravan in any way he/she can.
 3, Lead the caravan astray.
 5, Fill his purse with gold.
 6, Eat, drink, and be merry.
 
 
-:Possession, The guide carries
+:Possession The guide carries
 1, An unusual map.
 2, A unique trinket or piece of jewelry.
 4, A spear or walking staff.
 6, A large knife and some rope.
 
 
-:Background, The merchant is
+:Background The merchant is
 1, A member of a trading clan.
 2, A minor lord or lady.
 3, An enterprising trader.
@@ -222,7 +251,7 @@
 6, The real owner's representative.
 
 
-:Goal, The merchant seeks someone to
+:Goal The merchant seeks someone to
 1, Obtain a mysterious artifact.
 2, Negotiate a trade contract.
 3, Purchase goods.
@@ -231,21 +260,21 @@
 6, Have a good time with.
 
 
-:Possession, The merchant carries
+:Possession The merchant carries
 1, A family heirloom.
 3, Several inventories and invoices.
 5, Some very valuable jewels.
 6, A compromising love letter.
 
 
-:Possession, The merchant will trade in
+:Possession The merchant will trade in
 2, Coins and gems.
 4, Gold and silver bullion.
 5, Water, provisions, and other goods.
 6, Shells, beads, and trinkets.
 
 
-:Background, The traveler is
+:Background The traveler is
 1, An exile.
 2, A minstrel.
 3, A pilgrim.
@@ -254,7 +283,7 @@
 6, A treasure hunter.
 
 
-:Long-Term Goal, The traveler is searching for
+:Long-Term Goal The traveler is searching for
 1, The answer to a riddle
 2, A long lost friend.
 3, The return of something stolen.
@@ -263,7 +292,7 @@
 6, Steady work.
 
 
-:Immediate Goal, Tonight, the traveler is looking for
+:Immediate Goal Tonight the traveler is looking for
 2, Accomplices on a quest.
 3, An audience to entertain.
 4, Someone to hear a sad tale.

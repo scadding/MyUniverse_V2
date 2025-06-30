@@ -1,10 +1,25 @@
 
 
 :Start
-1, hunting: GONE A-HUNTING
+1, hunting: GONE A-HUNTING...
+_<br>
+_After a day in the forest, you catch [[After a day in the forest you catch]]<br>
+_After a day in the mountains, you catch [[After a day in the mountains you catch]]<br>
+_Territory: The hunter prefers to hunt [[Territory The hunter prefers to hunt]]<br>
+_Weapons: The hunter makes kills with [[Weapons The hunter makes kills with]]<br>
+_Training: The hunter learned to hunt from [[Training The hunter learned to hunt from]]<br>
+_Work Style: The hunter prefers to hunt [[Work Style The hunter prefers to hunt]]<br>
+_Goal: The hunter is seeking [[Goal The hunter is seeking]]<br>
+_Trait: The hunter has [[Trait The hunter has]]<br>
+_Possession: The hunter carries [[Possession The hunter carries]]<br>
+_After a day in the plains, you catch [[After a day in the plains you catch]]<br>
+_After a day in the jungle, you catch [[After a day in the jungle you catch]]<br>
+_After a day in the desert, you catch [[After a day in the desert you catch]]<br>
+_After a day in the frozen lands, you catch [[After a day in the frozen lands you catch]]<br>
+_After a day in the swamp, you catch [[After a day in the swamp you catch]]<br>
 
 
-:After a day in the forest, you catch
+:After a day in the forest you catch
 1, 1d2 rabbits (1d2 lbs. of meat each).
 2, 1d4 rabbits (1d2 lbs. of meat each).
 3, A young deer (15 + 1d8 lbs. of meat).
@@ -27,7 +42,7 @@
 20, A wolf (20 + 1d20 lbs. of meat).
 
 
-:After a day in the mountains, you catch
+:After a day in the mountains you catch
 1, 1d2 small snakes (1 lb. of meat each).
 2, 1d2 lizards (1 lb. of meat each).
 3, A goat (10 + 1d8 lbs. of meat).
@@ -42,7 +57,7 @@
 12, A wolf (20 + 1d20 lbs. of meat).
 
 
-:Territory, The hunter prefers to hunt
+:Territory The hunter prefers to hunt
 1, Near a quiet creek.
 2, Along the banks of a wide river.
 3, On the shore of a small pond.
@@ -53,7 +68,7 @@
 8, Where the vegetation is sparse.
 
 
-:Weapons, The hunter makes kills with
+:Weapons The hunter makes kills with
 1, A reliable crossbow.
 2, A powerful crossbow.
 3, A huge bow of elder wood.
@@ -63,7 +78,7 @@
 7, A thrown spear.
 8, Baited steel traps.
 9, Snares.
-10, An unusual hunting weapon  [An unusual hunting weapon]
+10, An unusual hunting weapon  [[An unusual hunting weapon]]
 
 
 :An unusual hunting weapon 
@@ -79,7 +94,7 @@
 10, thrown darts.
 
 
-:Training, The hunter learned to hunt from
+:Training The hunter learned to hunt from
 1, A parent.
 2, A grandparent.
 3, A fellow hunter.
@@ -92,7 +107,7 @@
 10, Surviving the wild.
 
 
-:Work Style, The hunter prefers to hunt
+:Work Style The hunter prefers to hunt
 1, Alone, stalking for prey.
 2, Alone, lying in wait for prey.
 3, With a pack of trained hunting hounds.
@@ -101,7 +116,7 @@
 6, With a local guide or experienced hunter.
 
 
-:Goal, The hunter is seeking
+:Goal The hunter is seeking
 1, An apprentice or local guide.
 2, A legendary beast.
 3, To swap tales of hunts past.
@@ -112,7 +127,7 @@
 8, Drinking companions.
 
 
-:Trait, The hunter has
+:Trait The hunter has
 1, A mouthful of chew.
 2, A gap-toothed grin.
 3, A wooden tooth.
@@ -125,7 +140,7 @@
 10, Large ears.
 
 
-:Possession, The hunter carries
+:Possession The hunter carries
 1, A trophy from his or her first kill.
 2, A trophy from a particularly difficult kill.
 3, A polished, brass hunting horn.
@@ -134,7 +149,7 @@
 6, Salt, spices, and a frying pan.
 
 
-:After a day in the plains, you catch
+:After a day in the plains you catch
 1, 1d2 rabbits (1d2 lbs. of meat each).
 2, 1d4 rabbits (1d2 lbs. of meat each).
 3, A young deer (15 + 1d8 lbs. of meat).
@@ -157,7 +172,7 @@
 20, A wolf (20 + 1d20 lbs. of meat).
 
 
-:After a day in the jungle, you catch
+:After a day in the jungle you catch
 1, 1d2 small snakes (1d4 lbs. of meat each).
 2, A large snake (4 + 1d8 lbs. of meat).
 3, A large rodent (10 + 1d20 lbs. of meat).
@@ -180,7 +195,7 @@
 20, A panther (30 + [1d8 x 10] lbs. of meat).
 
 
-:After a day in the desert, you catch
+:After a day in the desert you catch
 1, 1d2 lizards (1 lb. of meat each).
 2, 1d4 lizards (1 lb. of meat each).
 3, 1d4 wild camels (20 + 1d8 lbs. of meat).
@@ -195,7 +210,7 @@
 12, A giant lizard (30 + 1d10 lbs. of meat).
 
 
-:After a day in the frozen lands, you catch
+:After a day in the frozen lands you catch
 1, 1d2 hares (1d2 lbs. of meat each).
 2, 1d4 hares (1d2 lbs. of meat each).
 3, 1d4 songbirds (1/2 lb. of meat each).
@@ -210,7 +225,7 @@
 12, A polar bear (80 + 1d12 lbs. of meat).
 
 
-:After a day in the swamp, you catch
+:After a day in the swamp you catch
 1, 1d2 small snakes (1d4 lbs. of meat each).
 2, 1d4 small snakes (1d4 lbs. of meat each).
 3, A large snake (4 + 1d8 lbs. of meat).

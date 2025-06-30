@@ -1,10 +1,26 @@
 
 
 :Start
-1, lycanthropes: BEWARE THE FULL MOON
+1, lycanthropes: BEWARE THE FULL MOON...
+_<br>
+_Background: In humanoid form, the beastshifter presents himself/herself as [[Background In humanoid form the beastshifter presents himselforherself as]]<br>
+_Beast form: The beastshifter transforms into [[Beast form The beastshifter transforms into]]<br>
+_Curse: The beastshifter transforms involuntarily [[Curse The beastshifter transforms involuntarily]]<br>
+_Beastly behavior: While transformed, the beastshifter behaves [[Beastly behavior While transformed the beastshifter behaves]]<br>
+_Manner: The beastshifter has a tendency to [[Manner The beastshifter has a tendency to]]<br>
+_Social connections: The beastshifter lives [[Social connections The beastshifter lives]]<br>
+_Residence: The beastshifter makes his/her home [[Residence The beastshifter makes hisorher home]]<br>
+_Trait: In humanoid form, the beastshifter's face has [[Trait In humanoid form the beastshifters face has]]<br>
+_Tactics: In humanoid form, the beastshifter fights with [[Tactics In humanoid form the beastshifter fights with]]<br>
+_Beast Form: The beastshifter transforms into [[Beast Form The beastshifter transforms into]]<br>
+_Favorite prey: The beastshifter's favorite prey are [[Favorite prey The beastshifters favorite prey are]]<br>
+_Social structure: The pack is [[Social structure The pack is]]<br>
+_Pack leader: The pack's leader is [[Pack leader The packs leader is]]<br>
+_Morale: The pack's attitude toward their leader is [[Morale The packs attitude toward their leader is]]<br>
+_Goals: The pack's goals include (the pack leader and rank-and-file members could have different goals) [[Goals The packs goals include the pack leader and rank-and-file members could have different goals]]<br>
 
 
-:Background, In humanoid form, the beastshifter presents himselforherself as
+:Background In humanoid form the beastshifter presents himselforherself as
 1, A farmer or herder.
 2, A miner or fisher.
 3, A beggar or urchin.
@@ -19,7 +35,7 @@
 12, A sailor or pirate.
 
 
-:Beast form, The beastshifter transforms into
+:Beast form The beastshifter transforms into
 1, A grizzly bear.
 2, A black bear.
 3, A wild boar.
@@ -34,7 +50,7 @@
 12, A white wolf.
 
 
-:Curse, The beastshifter transforms involuntarily
+:Curse The beastshifter transforms involuntarily
 1, Whenever he/she is in moonlight.
 2, On nights when a full moon occurs.
 3, On nights when the moon is half full or more.
@@ -43,7 +59,7 @@
 6, Never; he/she is in complete control of his/her power.
 
 
-:Beastly behavior, While transformed, the beastshifter behaves
+:Beastly behavior While transformed the beastshifter behaves
 1, Mostly as a normal beast of his/her type.
 2, As an unusually intelligent version of the beast of his/her type.
 3, More like a human than a beast.
@@ -54,7 +70,7 @@
 8, Violently, spreading blood and chaos.
 
 
-:Manner, The beastshifter has a tendency to
+:Manner The beastshifter has a tendency to
 1, Lose his/her temper easily.
 2, Speak in low growls (or squeaks), making it difficult for others to understand him/her when excited.
 3, Recoil from touching anything made of silver.
@@ -65,7 +81,7 @@
 8, Sniff people upon meeting them.
 
 
-:Social connections, The beastshifter lives
+:Social connections The beastshifter lives
 1, Alone among humans, hiding his/her powers.
 2, Alone among humans who know and accept his/her powers.
 3, Alone as an outcast from human society.
@@ -76,7 +92,7 @@
 8, Alone as an outcast from his/her pack or clan.
 
 
-:Residence, The beastshifter makes hisorher home
+:Residence The beastshifter makes hisorher home
 1, In a cave.
 2, In a swamp.
 3, On a vast plain.
@@ -91,7 +107,7 @@
 12, In or near a castle or palace.
 
 
-:Trait, In humanoid form, the beastshifter's face has
+:Trait In humanoid form the beastshifters face has
 1, Unsightly nose and ear hair.
 2, A garish earing.
 3, An empty eye socket.
@@ -106,7 +122,7 @@
 12, An intimidating mustache.
 
 
-:Tactics, In humanoid form, the beastshifter fights with
+:Tactics In humanoid form the beastshifter fights with
 1, Hit-and-run tactics.
 2, Making a mad charge.
 3, Kicking and stomping.
@@ -117,7 +133,7 @@
 8, Lots of head-butting.
 
 
-:Beast Form, The beastshifter transforms into
+:Beast Form The beastshifter transforms into
 1, A badger.
 2, A bat.
 3, A cat.
@@ -140,7 +156,7 @@
 20, A swine.
 
 
-:Favorite prey, The beastshifter's favorite prey are
+:Favorite prey The beastshifters favorite prey are
 1, Foreigners and travelers.
 2, Beggars and drunks.
 3, Young men.
@@ -163,7 +179,7 @@
 20, Dogs and cats.
 
 
-:Social structure, The pack is
+:Social structure The pack is
 1, A band of exiles and outcasts.
 2, A roving band of outlaws and thieves.
 3, A nomadic warrior clan.
@@ -174,7 +190,7 @@
 8, An ancient clan of warrior-hunters.
 
 
-:Pack leader, The pack's leader is
+:Pack leader The packs leader is
 1, A dangerous megalomaniac.
 2, A charismatic demagogue.
 3, A mysterious foreigner.
@@ -189,7 +205,7 @@
 12, A well-known fugitive.
 
 
-:Morale, The pack's attitude toward their leader is
+:Morale The packs attitude toward their leader is
 1, Friendly and loyal.
 2, Respectful and business-like.
 3, Cautious and uncertain.
@@ -198,7 +214,7 @@
 6, Agitated and restless.
 
 
-:Goals, The pack's goals include ,the pack leader and rank-and-file members could have different goals
+:Goals The packs goals include the pack leader and rank-and-file members could have different goals
 1, Becoming the region's dominant predators.
 2, Revenge against a rival band of lycanthropes or outlaws.
 3, Revenge against the region's elite.

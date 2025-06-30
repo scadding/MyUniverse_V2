@@ -2,9 +2,22 @@
 
 :Start
 1, restless undead: WALKING BONES AND WANDERING SPIRITS
+_<br>
+_Background: The person was [[Background The person was]]<br>
+_Cause of death: The person died from [[Cause of death The person died from]]<br>
+_Cursed purpose: The person's spirit lingers [[Cursed purpose The persons spirit lingers]]<br>
+_Breaking the curse: The person's spirit can move on if [[Breaking the curse The persons spirit can move on if]]<br>
+_CORPOREAL UNDEADINCORPOREAL UNDEAD [[CORPOREAL UNDEADINCORPOREAL UNDEAD]]<br>
+_Form: The person's spirit is [[Form The persons spirit is]]<br>
+_Form: The spirit is [[Form The spirit is]]<br>
+_Movement: The creature moves [[Movement The creature moves]]<br>
+_Trait: The creature has [[Trait The creature has]]<br>
+_Attitude: The spirit's initial reaction when it encounters living creatures is [[Attitude The spirits initial reaction when it encounters living creatures is]]<br>
+_Movement: The spirit moves [[Movement The spirit moves]]<br>
+_Trait: The spirit appears to be [[Trait The spirit appears to be]]<br>
 
 
-:Background, The person was
+:Background The person was
 1, A farmer or herder.
 2, A miner or fisher.
 3, A slave or servant.
@@ -27,7 +40,7 @@
 20, An alchemist or seer.
 
 
-:Cause of death, The person died from
+:Cause of death The person died from
 1, Hanging or strangulation.
 2, Beheading.
 3, A stab wound or beating.
@@ -50,7 +63,7 @@
 20, Unknown causes or under mysterious circumstances.
 
 
-:Cursed purpose, The person's spirit lingers
+:Cursed purpose The persons spirit lingers
 1, To seek vengeance.
 2, To pine for lost love.
 3, To bemoan lost treasure.
@@ -65,7 +78,7 @@
 12, To torment anyone who crosses its path.
 
 
-:Breaking the curse, The person's spirit can move on if
+:Breaking the curse The persons spirit can move on if
 1, Someone helps it achieve it's goal.
 2, It saves the life of at least one other person.
 3, It achieves its goal on its own.
@@ -83,7 +96,7 @@
 :CORPOREAL UNDEADINCORPOREAL UNDEAD
 
 
-:Form, The person's spirit is
+:Form The persons spirit is
 1, Occupying its original body, showing no signs of decay.
 2, Occupying its original body, showing some signs of decay.
 3, Occupying its original body, badly decomposed.
@@ -96,20 +109,20 @@
 10, Occupying part of someone else's corpse (skull or hand).
 
 
-:Form, The spirit is
+:Form The spirit is
 1, Incorporeal, invisible, and incapable of affecting its material surroundings.
 2, Incorporeal, invisible, and capable of moving small objects.
 3, Incorporeal, invisible, but capable of making itself seen.
-4, Incorporeal, invisible, and hidden within an inanimate object  [Incorporeal, invisible, and hidden within an inanimate object]
+4, Incorporeal, invisible, and hidden within an inanimate object  [[Incorporeal invisible and hidden within an inanimate object]]
 5, Incorporeal, visible, but incapable of affecting it's material surroundings.
 6, Incorporeal, visible, and capable of significant mischief and harm.
 7, Incorporeal, extraordinarily beautiful, and capable of mischief and harm.
 8, Incorporeal, wretched and slimy, and capable of mischief and harm.
 9, Incorporeal, glowing blue or green, and capable of mischief and harm.
-10, Incorporeal, visible, but in an unrecognizable form  [Incorporeal, visible, but in an unrecognizable form]
+10, Incorporeal, visible, but in an unrecognizable form  [[Incorporeal visible but in an unrecognizable form]]
 
 
-:Incorporeal, invisible, and hidden within an inanimate object 
+:Incorporeal invisible and hidden within an inanimate object 
 1, book
 2, chest
 3, writing desk;
@@ -118,7 +131,7 @@
 6, wardrobe.
 
 
-:Incorporeal, visible, but in an unrecognizable form 
+:Incorporeal visible but in an unrecognizable form 
 1, mist or fog
 2, animal shape
 3, floating skull
@@ -127,7 +140,7 @@
 6, spectral hand.
 
 
-:Movement, The creature moves
+:Movement The creature moves
 1, With a shambling gait.
 2, With an awkward limp.
 3, Lurching unpredictably.
@@ -136,7 +149,7 @@
 6, With surprising quickness and agility.
 
 
-:Trait, The creature has
+:Trait The creature has
 1, A tattered shirt.
 2, A missing arm, leg, or finger.
 3, Only one eye.
@@ -151,7 +164,7 @@
 12, A creepy mustache.
 
 
-:Attitude, The spirit's initial reaction when it encounters living creatures is
+:Attitude The spirits initial reaction when it encounters living creatures is
 1, Hostile and aggressive.
 2, Hostile and suspicious.
 3, Nervous and frightened.
@@ -162,7 +175,7 @@
 8, Desperate and aggressive.
 
 
-:Movement, The spirit moves
+:Movement The spirit moves
 1, By creeping, oozelike, across the ground.
 2, Smoothly, gliding above the grond.
 3, Taking slow, fluid steps.
@@ -171,7 +184,7 @@
 6, By teleporting in a swirl of shadows.
 
 
-:Trait, The spirit appears to be
+:Trait The spirit appears to be
 1, Severely bloated.
 2, Moaning in anguish.
 3, Snarling at you.

@@ -1,10 +1,32 @@
 
 
 :Start
-1, monasteries: DISCIPLINE, STRENGTH, AND WISDOM
+1, monasteries: DISCIPLINE, STRENGTH, AND WISDOM...
+_<br>
+_Knowledge and Experience: Visitors to the monastery come seeking [[Knowledge and Experience Visitors to the monastery come seeking]]<br>
+_Reputation: The monastery is known for its [[Reputation The monastery is known for its]]<br>
+_Location: The monastery complex is located [[Location The monastery complex is located]]<br>
+_Structure: The monastery complex is [[Structure The monastery complex is]]<br>
+_This building/chamber is [[This buildingorchamber is]]<br>
+_Many of the monastery's ceilings are [[Many of the monasterys ceilings are]]<br>
+_Decor: The buildings/chambers are [[Decor The buildingsorchambers are]]<br>
+_Walls: Many of the interior walls are [[Walls Many of the interior walls are]]<br>
+_Features: You notice [[Features You notice]]<br>
+_Encounters: You come upon [[Encounters You come upon]]<br>
+_Secret Lore: The monastery guards the secret to [[Secret Lore The monastery guards the secret to]]<br>
+_Lore Keepers: The secret is known to [[Lore Keepers The secret is known to]]<br>
+_Job: At the monastery, the monk is [[Job At the monastery the monk is]]<br>
+_Knowledge: The monk is an expert in [[Knowledge The monk is an expert in]]<br>
+_Meditation: The monk has recently been contemplating [[Meditation The monk has recently been contemplating]]<br>
+_Practice: The monk prefers to meditate [[Practice The monk prefers to meditate]]<br>
+_The monk wears [[The monk wears]]<br>
+_Martial Arts: The monk's martial arts style includes [[Martial Arts The monks martial arts style includes]]<br>
+_Possession: The monk carries [[Possession The monk carries]]<br>
+_Drink: The monk prefers to drink [[Drink The monk prefers to drink]]<br>
+_Goal: The monk is looking for [[Goal The monk is looking for]]<br>
 
 
-:Knowledge and Experience, Visitors to the monastery come seeking
+:Knowledge and Experience Visitors to the monastery come seeking
 1, Ancient knowledge.
 2, Mystic wisdom.
 3, Spiritual guidance.
@@ -19,7 +41,7 @@
 12, The tools and training to exact vengeance.
 
 
-:Reputation, The monastery is known for its
+:Reputation The monastery is known for its
 1, Compassionate healers.
 2, Sacred music.
 3, Ancient wisdom.
@@ -34,7 +56,7 @@
 12, Indefatigable warriors.
 
 
-:Location, The monastery complex is located
+:Location The monastery complex is located
 1, On a hilltop overlooking a small village.
 2, On a hilltop not far from a large city.
 3, On a remote mountaintop.
@@ -45,7 +67,7 @@
 8, In the heart of a city.
 
 
-:Structure, The monastery complex is
+:Structure The monastery complex is
 1, A tight cluster of buildings (or chambers).
 2, A cluster of buildings with gardens, lawns, and yards in the spaces between.
 3, A cluster of interconnected buildings.
@@ -73,20 +95,20 @@
 12, A barn.
 
 
-:Many of the monastery's ceilings are
+:Many of the monasterys ceilings are
 1, Uncomfortably close to your head.
 3, Connected to the floor by columns.
 5, Painted with mythological scenes.
 6, Domes or cupolas.
 
 
-:Decor, The buildingsorchambers are
+:Decor The buildingsorchambers are
 1, Decorated with statues.
 2, Decorated with stone arches and columns.
 3, Adorned with painted wood and plaster.
 4, Sturdy structures of finished wood.
 5, Solid structures of oven-fired clay bricks.
-6, Behind large metal doors  [Behind large metal doors]
+6, Behind large metal doors  [[Behind large metal doors]]
 
 
 :Behind large metal doors 
@@ -98,7 +120,7 @@
 6, tin.
 
 
-:Walls, Many of the interior walls are
+:Walls Many of the interior walls are
 1, Rough hewn stone.
 2, Smooth cut stone.
 3, Painted or lacquered wood.
@@ -109,7 +131,7 @@
 8, Decorated with sacred texts and runes.
 
 
-:Features, You notice
+:Features You notice
 1, A small altar set in an alcove in the wall.
 2, The sound of bells ringing in a tower.
 3, A wall sconce holding many candles.
@@ -132,7 +154,7 @@
 20, A statue of a recognizable figure.
 
 
-:Encounters, You come upon
+:Encounters You come upon
 1, A bright-eyed student.
 2, An exhausted student.
 3, A patient initiate.
@@ -147,7 +169,7 @@
 12, A feeling that you're being watched.
 
 
-:Secret Lore, The monastery guards the secret to
+:Secret Lore The monastery guards the secret to
 1, World peace.
 2, Inner peace.
 3, Spiritual enlightenment.
@@ -160,14 +182,14 @@
 10, The perfect pint of ale.
 
 
-:Lore Keepers, The secret is known to
+:Lore Keepers The secret is known to
 2, Everyone, but the specifics are hidden.
 3, Monks that perform a particular service.
 4, Several of the monastery's masters.
 6, A single master and a single student.
 
 
-:Job, At the monastery, the monk is
+:Job At the monastery the monk is
 1, A brewer or vintner.
 2, A baker, butcher, or cook.
 3, A carpenter, smith, or stonemason.
@@ -176,7 +198,7 @@
 6, A leatherworker, ropemaker, or weaver.
 
 
-:Knowledge, The monk is an expert in
+:Knowledge The monk is an expert in
 1, The power of the mind.
 2, Realms beyond the material world.
 3, Healing arts.
@@ -185,7 +207,7 @@
 6, The body's strengths and weaknesses.
 
 
-:Meditation, The monk has recently been contemplating
+:Meditation The monk has recently been contemplating
 1, The mysteries of death and life.
 2, The meaning of dreams and dark omens.
 3, The perfection of the mind, body, and soul.
@@ -194,7 +216,7 @@
 6, The balance of order and chaos.
 
 
-:Practice, The monk prefers to meditate
+:Practice The monk prefers to meditate
 1, In a shrine at the monastery.
 2, In his or her personal cell.
 3, In a garden.
@@ -210,7 +232,7 @@
 6, A clean silk robe with simple embroidery.
 
 
-:Martial Arts, The monk's martial arts style includes
+:Martial Arts The monks martial arts style includes
 1, Landing many rapid, open-hand slaps.
 2, Landing a few powerful, close-fist punches.
 3, Acrobatic flips and leaps.
@@ -221,10 +243,10 @@
 8, Explosive powders and distracting smoke.
 
 
-:Possession, The monk carries
+:Possession The monk carries
 1, A wooden staff.
 2, Several razor-sharp daggers.
-3, An uncommon weapon  [An uncommon weapon]
+3, An uncommon weapon  [[An uncommon weapon]]
 4, A purse of silver to distribute to the poor.
 5, A variety of healing potions and salves.
 6, A set of prayer beads or a prayer book.
@@ -241,9 +263,9 @@
 6, sickle.
 
 
-:Drink, The monk prefers to drink
+:Drink The monk prefers to drink
 2, Ale.
-4, Tea  [Tea]
+4, Tea  [[Tea]]
 6, Wine.
 
 
@@ -253,7 +275,7 @@
 6, white.
 
 
-:Goal, The monk is looking for
+:Goal The monk is looking for
 1, New students.
 2, The translation of an ancient manuscript.
 3, Heretics and enemies of the order.

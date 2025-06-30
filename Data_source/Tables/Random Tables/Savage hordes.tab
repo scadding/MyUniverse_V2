@@ -2,9 +2,26 @@
 
 :Start
 1, savage hordes: THE BARBARIANS ARE COMING!
+_<br>
+_Business: The barbarians are [[Business The barbarians are]]<br>
+_Travel: The barbarians travel [[Travel The barbarians travel]]<br>
+_Values: The barbarians value [[Values The barbarians value]]<br>
+_Symbol: The barbarians' iconography features [[Symbol The barbarians iconography features]]<br>
+_Chief: The barbarians' leader is [[Chief The barbarians leader is]]<br>
+_Notoriety: The barbarians are notorious for [[Notoriety The barbarians are notorious for]]<br>
+_Reputation: The barbarians are known for [[Reputation The barbarians are known for]]<br>
+_Morale: The barbarians' attitude is [[Morale The barbarians attitude is]]<br>
+_Fears: The barbarians fear [[Fears The barbarians fear]]<br>
+_Armor: The warrior is armored in [[Armor The warrior is armored in]]<br>
+_Primary weapon: The warrior is wielding [[Primary weapon The warrior is wielding]]<br>
+_Secondary weapon: The warrior is also carrying [[Secondary weapon The warrior is also carrying]]<br>
+_Tactics: The warrior fights with [[Tactics The warrior fights with]]<br>
+_Skills: The warrior is [[Skills The warrior is]]<br>
+_Facial feature: On the warrior's face is [[Facial feature On the warriors face is]]<br>
+_Body: On the warrior's body is [[Body On the warriors body is]]<br>
 
 
-:Business, The barbarians are
+:Business The barbarians are
 1, A tribe of nomads, following game.
 2, A tribe that began raiding after being displaced from their native lands.
 3, A clan exiled from their native lands.
@@ -13,7 +30,7 @@
 6, The degenerate survivors of a broken army.
 
 
-:Travel, The barbarians travel
+:Travel The barbarians travel
 1, On foot.
 2, On foot with small carts.
 3, On foot with mounted scouts.
@@ -22,7 +39,7 @@
 6, In small watercraft.
 
 
-:Values, The barbarians value
+:Values The barbarians value
 1, Bravery.
 2, Strength.
 3, Wisdom.
@@ -33,11 +50,11 @@
 8, Kill counts.
 
 
-:Symbol, The barbarians' iconography features
-2, Symbols of death and destruction  [Symbols of death and destruction]
-3, Symbols of the heavens  [Symbols of the heavens]
-4, Symbols of strength and weaponry  [Symbols of strength and weaponry]
-6, Totem beasts  [Totem beasts]
+:Symbol The barbarians iconography features
+2, Symbols of death and destruction  [[Symbols of death and destruction]]
+3, Symbols of the heavens  [[Symbols of the heavens]]
+4, Symbols of strength and weaponry  [[Symbols of strength and weaponry]]
+6, Totem beasts  [[Totem beasts]]
 
 
 :Symbols of death and destruction 
@@ -80,7 +97,7 @@
 8, wolves
 
 
-:Chief, The barbarians' leader is
+:Chief The barbarians leader is
 1, A well-respected chief.
 2, A charismatic warlord.
 3, A mysterious prophet.
@@ -93,7 +110,7 @@
 10, A prolific lover.
 
 
-:Notoriety, The barbarians are notorious for
+:Notoriety The barbarians are notorious for
 1, Never leaving survivors.
 2, Feeding prisoners to wild beasts.
 3, Tattooing or branding prisoners.
@@ -106,7 +123,7 @@
 10, Taking prisoners as wives, concubines, or catamites.
 
 
-:Reputation, The barbarians are known for
+:Reputation The barbarians are known for
 1, Screaming and shouting during battle.
 2, Convening with ghosts and spirits.
 3, Ritual animal sacrifice.
@@ -121,7 +138,7 @@
 12, Bathing and perfuming their bodies.
 
 
-:Morale, The barbarians' attitude is
+:Morale The barbarians attitude is
 1, Rowdy and festive.
 2, Joyful and eager to fight.
 3, Relaxed and carefree.
@@ -130,14 +147,14 @@
 6, Hostile and eager to fight.
 
 
-:Fears, The barbarians fear
-1, Foreigners wearing a particular color of clothing  [Foreigners wearing a particular color of clothing]
+:Fears The barbarians fear
+1, Foreigners wearing a particular color of clothing  [[Foreigners wearing a particular color of clothing]]
 2, Foreigners armored in steel.
 3, Foreigners with facial hair.
 4, Foreign women.
 5, All foreigners.
-6, Members of a particular race  [Members of a particular race]
-7, A particular natural phenomenon  [A particular natural phenomenon]
+6, Members of a particular race  [[Members of a particular race]]
+7, A particular natural phenomenon  [[A particular natural phenomenon]]
 8, Spellcasters.
 9, The gods.
 10, Dragons.
@@ -169,7 +186,7 @@
 6, typhoons.
 
 
-:Armor, The warrior is armored in
+:Armor The warrior is armored in
 1, Nothing.
 2, Tattered leather.
 3, Blood-stained leather.
@@ -180,7 +197,7 @@
 8, Armor taken from a fallen enemy.
 
 
-:Primary weapon, The warrior is wielding
+:Primary weapon The warrior is wielding
 1, A spear and a hunting knife.
 2, A spear and a shield.
 3, An exotic, curved blade.
@@ -195,7 +212,7 @@
 12, A longspear and hunting knife.
 
 
-:Secondary weapon, The warrior is also carrying
+:Secondary weapon The warrior is also carrying
 1, Several throwing spears.
 2, Several throwing axes.
 3, Many throwing knives.
@@ -206,7 +223,7 @@
 8, Several bolas.
 
 
-:Tactics, The warrior fights with
+:Tactics The warrior fights with
 1, Hit-and-run tactics.
 2, Making a mad charge.
 3, Relentless repeated blows.
@@ -215,7 +232,7 @@
 6, Lots of head-butting.
 
 
-:Skills, The warrior is
+:Skills The warrior is
 1, A practiced hunter.
 2, A poorly-trained slave.
 3, A veteran of many wars.
@@ -230,7 +247,7 @@
 12, A favorite among the ladies.
 
 
-:Facial feature, On the warrior's face is
+:Facial feature On the warriors face is
 1, A bone through a nose piercing.
 2, A bone earing.
 3, An empty eye socket.
@@ -245,10 +262,10 @@
 12, A long, braided mustache.
 
 
-:Body, On the warrior's body is
-1, A tattoo of a great beast  [A tattoo of a great beast]
+:Body On the warriors body is
+1, A tattoo of a great beast  [[A tattoo of a great beast]]
 2, A tattoo of a skull and some bones.
-3, A tattoo of a weapon  [A tattoo of a weapon]
+3, A tattoo of a weapon  [[A tattoo of a weapon]]
 4, A festering wound.
 5, A noticeable battle scar.
 6, A large burn scar.

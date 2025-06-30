@@ -2,9 +2,27 @@
 
 :Start
 1, druids: WILD BEASTS AND SPICY HERBS...
+_<br>
+_Background: The druid is [[Background The druid is]]<br>
+_Training: The druid learned from [[Training The druid learned from]]<br>
+_Eyes: The druid has [[Eyes The druid has]]<br>
+_Trait: The druid has [[Trait The druid has]]<br>
+_Mannerism: The druid [[Mannerism The druid]]<br>
+_Wild Connection: The druid shares an especially close connection with [[Wild Connection The druid shares an especially close connection with]]<br>
+_Weapon: The druid wields [[Weapon The druid wields]]<br>
+_Druidic Focus: The druid carries [[Druidic Focus The druid carries]]<br>
+_Possession: The druid also carries [[Possession The druid also carries]]<br>
+_Apparel: The druid wears [[Apparel The druid wears]]<br>
+_Goal: The druid is looking to [[Goal The druid is looking to]]<br>
+_Purpose: The herbal remedy will help [[Purpose The herbal remedy will help]]<br>
+_Form: The herbal remedy is [[Form The herbal remedy is]]<br>
+_Color: The herbal remedy is [[Color The herbal remedy is]]<br>
+_Ingredients: The remedy contains [[Ingredients The remedy contains]]<br>
+_Method: The remedy is prepared by [[Method The remedy is prepared by]]<br>
+_Use: The herbal remedy must be [[Use The herbal remedy must be]]<br>
 
 
-:Background, The druid is
+:Background The druid is
 1, A wildling orphan.
 2, A seasoned herbalist.
 3, A militant environmentalist.
@@ -27,7 +45,7 @@
 20, A village elder.
 
 
-:Training, The druid learned from
+:Training The druid learned from
 1, Apprenticing to a woodland witch.
 2, Studying wilderness lore at an academy.
 3, A parent who was also a druid.
@@ -42,7 +60,7 @@
 12, Time spent stranded in a wild, foreign land.
 
 
-:Eyes, The druid has
+:Eyes The druid has
 1, Sky blue eyes.
 2, Deep sea blue eyes.
 3, Bright grass green eyes.
@@ -55,7 +73,7 @@
 10, Stony grey eyes.
 
 
-:Trait, The druid has
+:Trait The druid has
 1, An earthy scent.
 2, Bits of green under the fingernails.
 3, Stains of bird droppings on his/her clothes.
@@ -68,7 +86,7 @@
 10, A greenish, mossy beard.
 
 
-:Mannerism, The druid
+:Mannerism The druid
 1, Stares hungrily like a wolf.
 2, Stares suspiciously like a cat.
 3, Hisses like a snake when he/she laughs.
@@ -83,7 +101,7 @@
 12, Pounces like a lion.
 
 
-:Wild Connection, The druid shares an especially close connection with
+:Wild Connection The druid shares an especially close connection with
 1, Aquatic mammals.
 2, Bears.
 3, Birds of prey.
@@ -106,7 +124,7 @@
 20, Swamps and marshes.
 
 
-:Weapon, The druid wields
+:Weapon The druid wields
 1, A wood staff.
 2, A wood club.
 3, A scimitar.
@@ -117,18 +135,18 @@
 8, A spear and a shield.
 
 
-:Druidic Focus, The druid carries
+:Druidic Focus The druid carries
 1, A sprig of holly.
 2, A sprig of mistletoe.
 3, A yew wand.
 4, A cutting from a rare plant.
-5, A totem necklace, strung with pieces of beasts  [A totem necklace, strung with pieces of beasts]
-6, A totem rod, adorned with pieces of beasts  [A totem rod, adorned with pieces of beasts]
-7, A totem necklace, strung with plant material  [A totem necklace, strung with plant material]
-8, A totem rod, adorned with plant material  [A totem rod, adorned with plant material]
+5, A totem necklace, strung with pieces of beasts  [[A totem necklace strung with pieces of beasts]]
+6, A totem rod, adorned with pieces of beasts  [[A totem rod adorned with pieces of beasts]]
+7, A totem necklace, strung with plant material  [[A totem necklace strung with plant material]]
+8, A totem rod, adorned with plant material  [[A totem rod adorned with plant material]]
 
 
-:A totem necklace, strung with pieces of beasts 
+:A totem necklace strung with pieces of beasts 
 1, beaks
 2, bones
 3, claws;
@@ -137,7 +155,7 @@
 6, teeth.
 
 
-:A totem rod, adorned with pieces of beasts 
+:A totem rod adorned with pieces of beasts 
 1, bones
 2, feathers
 3, fur
@@ -146,7 +164,7 @@
 6, teeth.
 
 
-:A totem necklace, strung with plant material 
+:A totem necklace strung with plant material 
 1, seed pods
 2, dried fruit;
 3, root clippings
@@ -155,7 +173,7 @@
 6, woven reeds.
 
 
-:A totem rod, adorned with plant material 
+:A totem rod adorned with plant material 
 1, berries
 2, tree bark
 3, fragrant herbs
@@ -164,7 +182,7 @@
 6, seeds and tree sap.
 
 
-:Possession, The druid also carries
+:Possession The druid also carries
 1, A small knife.
 2, A wooden flute.
 3, A hunting horn.
@@ -179,7 +197,7 @@
 12, Several vials of healing potions.
 
 
-:Apparel, The druid wears
+:Apparel The druid wears
 1, Robes of earth tones.
 2, A dark green cape.
 3, Shiny leather boots with fur.
@@ -192,7 +210,7 @@
 10, A robe with vines growing from its pockets.
 
 
-:Goal, The druid is looking to
+:Goal The druid is looking to
 1, Find a place where a rare herb grows.
 2, Drive away an unnatural intruder.
 3, Lead intruders into a trap.
@@ -207,7 +225,7 @@
 12, Drink some tea mixed with strong spirits.
 
 
-:Purpose, The herbal remedy will help
+:Purpose The herbal remedy will help
 1, A wound heal more quickly.
 2, To reduce pain.
 3, To prevent infection in a wound.
@@ -222,7 +240,7 @@
 12, To make one fertile or virile.
 
 
-:Form, The herbal remedy is
+:Form The herbal remedy is
 1, A thick paste.
 2, A thin paste.
 3, A specially treated leaf.
@@ -235,7 +253,7 @@
 10, A fragrant tea.
 
 
-:Color, The herbal remedy is
+:Color The herbal remedy is
 1, Pale green.
 2, Dark green.
 3, Blue green.
@@ -248,7 +266,7 @@
 10, Dark brown.
 
 
-:Ingredients, The remedy contains
+:Ingredients The remedy contains
 1, Root hairs.
 2, Ground roots.
 3, Shredded roots.
@@ -271,7 +289,7 @@
 20, A shrubbery.
 
 
-:Method, The remedy is prepared by
+:Method The remedy is prepared by
 1, Vigorous mixing.
 2, Boiling slowly.
 3, Boiling rapidly.
@@ -284,7 +302,7 @@
 10, Steeping.
 
 
-:Use, The herbal remedy must be
+:Use The herbal remedy must be
 1, Consumed immediately after preparation.
 2, Consumed after it ages for a few hours.
 3, Consumed after it ages for a few years.

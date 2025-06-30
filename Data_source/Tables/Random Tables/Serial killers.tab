@@ -1,10 +1,23 @@
 
 
 :Start
-1, serial killers: “I WAS BORN WITH THE DEVIL IN ME”
+1, serial killers: “I WAS BORN WITH THE DEVIL IN ME...”
+_<br>
+_Background: The killer is [[Background The killer is]]<br>
+_Methods: The killer's modus operandi is [[Methods The killers modus operandi is]]<br>
+_Weapons: The killer is often armed with [[Weapons The killer is often armed with]]<br>
+_Goals: The killer's purposes include [[Goals The killers purposes include]]<br>
+_Crime scene: The killer leaves a victim [[Crime scene The killer leaves a victim]]<br>
+_Timing: The killer typically plans murders for [[Timing The killer typically plans murders for]]<br>
+_Home base: The killer's base of operations is hidden in or near [[Home base The killers base of operations is hidden in or near]]<br>
+_Victims: The killer's favorite victims are [[Victims The killers favorite victims are]]<br>
+_Limits: The killer refuses to kill [[Limits The killer refuses to kill]]<br>
+_Apparel: The killer often wears [[Apparel The killer often wears]]<br>
+_Possession: The killer carries [[Possession The killer carries]]<br>
+_Quirk: The killer is unusually fond of or particular regarding [[Quirk The killer is unusually fond of or particular regarding]]<br>
 
 
-:Background, The killer is
+:Background The killer is
 1, A quiet artisan.
 2, An eccentric scholar.
 3, A mysterious foreigner.
@@ -19,7 +32,7 @@
 12, A veteran soldier.
 
 
-:Methods, The killer's modus operandi is
+:Methods The killers modus operandi is
 1, Ingested poison or allergic reaction.
 2, Contact poison applied to a weapon.
 3, Arrow/bolt from range.
@@ -42,7 +55,7 @@
 20, Feeding to animals.
 
 
-:Weapons, The killer is often armed with
+:Weapons The killer is often armed with
 1, Poisoned daggers.
 2, Throwing knives.
 3, An over-sized dagger.
@@ -57,7 +70,7 @@
 12, Bare fists.
 
 
-:Goals, The killer's purposes include
+:Goals The killers purposes include
 1, Sowing fear.
 2, Sowing destruction.
 3, Sowing chaos.
@@ -66,7 +79,7 @@
 6, Vigilante justice.
 
 
-:Crime scene, The killer leaves a victim
+:Crime scene The killer leaves a victim
 1, In a signature pose.
 2, In a signature location.
 3, With a note on the corpse.
@@ -75,7 +88,7 @@
 6, Where the corpse will never be found.
 
 
-:Timing, The killer typically plans murders for
+:Timing The killer typically plans murders for
 1, Just after sunrise.
 2, Just after sunset.
 3, Well into the night.
@@ -84,7 +97,7 @@
 6, Just before sunrise.
 
 
-:Home base, The killer's base of operations is hidden in or near
+:Home base The killers base of operations is hidden in or near
 1, The killer's own residence.
 2, An artisan's shop or guildhall.
 3, A merchant's office.
@@ -99,7 +112,7 @@
 12, The killer is a transient.
 
 
-:Victims, The killer's favorite victims are
+:Victims The killers favorite victims are
 1, Fishermen and sailors.
 2, Beggars and thieves.
 3, Merchants and moneychangers.
@@ -122,7 +135,7 @@
 20, Other killers and criminals.
 
 
-:Limits, The killer refuses to kill
+:Limits The killer refuses to kill
 1, Ugly women.
 2, Beautiful women.
 3, Pregnant women.
@@ -135,7 +148,7 @@
 10, Anyone who is blind, deaf, or lame.
 
 
-:Apparel, The killer often wears
+:Apparel The killer often wears
 1, Old worn boots.
 2, Shiny leather boots.
 3, A mask covering the face.
@@ -146,7 +159,7 @@
 8, A fake mustache.
 
 
-:Possession, The killer carries
+:Possession The killer carries
 1, The weapon used in his or her first kill.
 2, A trophy from his/her first kill.
 3, A trophy from every one of his or her kills.
@@ -158,7 +171,7 @@
 9, A weapon with runes carved into it.
 10, A weapon with a gem embedded in the pommel.
 11, A weapon with soft leather tassels dangling from the pommel.
-12, A weapon made of an unusual material  [A weapon made of an unusual material]
+12, A weapon made of an unusual material  [[A weapon made of an unusual material]]
 
 
 :A weapon made of an unusual material 
@@ -170,7 +183,7 @@
 6, stone.
 
 
-:Quirk, The killer is unusually fond of or particular regarding
+:Quirk The killer is unusually fond of or particular regarding
 1, Horticulture and floral arrangements.
 2, Fashion trends.
 3, Gourmet cooking.

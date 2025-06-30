@@ -2,9 +2,109 @@
 
 :Start
 1, castles: DUNGEONS (PAGE FOUR)
+_<br>
+_Location: The castle sits [[Location The castle sits]]<br>
+_Builder: The castle was built by [[Builder The castle was built by]]<br>
+_Age: The castle was built [[Age The castle was built]]<br>
+_Condition: The castle's condition is [[Condition The castles condition is]]<br>
+_Occupant: Presently, the castle is occupied by [[Occupant Presently the castle is occupied by]]<br>
+_Purpose: The position or territory is worth defending because [[Purpose The position or territory is worth defending because]]<br>
+_Outer defenses: The defenses include [[Outer defenses The defenses include]]<br>
+_Inner keep: The defenses include [[Inner keep The defenses include]]<br>
+_Garrison: The castle can be held effectively by as few as [[Garrison The castle can be held effectively by as few as]]<br>
+_Siege: In addition to its garrison, the castle can hold foodstores to withstand a three-month siege for up to [[Siege In addition to its garrison the castle can hold foodstores to withstand a three-month siege for up to]]<br>
+_Reputation: The castle is known for [[Reputation The castle is known for]]<br>
+_Secrets: What is rumored to be hidden in the castle? [[Secrets What is rumored to be hidden in the castle]]<br>
+_Rooms: This chamber is [[Rooms This chamber is]]<br>
+_Features: You notice [[Features You notice]]<br>
+_Under siege: You come upon? [[Under siege You come upon]]<br>
+_In peace: You come upon? [[In peace You come upon]]<br>
+_<br>
+_Background: The lord is [[Background The lord is]]<br>
+_Background: The knight is [[Background The knight is]]<br>
+_Background: The smith is [[Background The smith is]]<br>
+_Goal: The lord seeks someone to [[Goal The lord seeks someone to]]<br>
+_Oath: The knight has sworn to [[Oath The knight has sworn to]]<br>
+_Goal: The smith is looking for [[Goal The smith is looking for]]<br>
+_Possession: The lord carries [[Possession The lord carries]]<br>
+_Possession: The knight carries [[Possession The knight carries]]<br>
+_Possession: The smith carries [[Possession The smith carries]]<br>
+_Background: The lady is [[Background The lady is]]<br>
+_Background: The retainer is [[Background The retainer is]]<br>
+_Goal: The lady seeks someone to [[Goal The lady seeks someone to]]<br>
+_Trait: The retainer has [[Trait The retainer has]]<br>
+_Possession: The lady carries [[Possession The lady carries]]<br>
+_Goal: The retainer wants to [[Goal The retainer wants to]]<br>
+_Goal: The guard serves his liege for [[Goal The guard serves his liege for]]<br>
+_Trait: On the guard's face is [[Trait On the guards face is]]<br>
+_Possession: The guard carries [[Possession The guard carries]]<br>
+_Background: The archer is [[Background The archer is]]<br>
+_Goal The archer is looking to [[Goal The archer is looking to]]<br>
+_Possession: The archer carries [[Possession The archer carries]]<br>
+_Background: The steward is [[Background The steward is]]<br>
+_Goal: The steward seeks someone to [[Goal The steward seeks someone to]]<br>
+_Work: The steward is concerned about [[Work The steward is concerned about]]<br>
+_Background: The chaplain is [[Background The chaplain is]]<br>
+_Goal: The chaplain is looking for [[Goal The chaplain is looking for]]<br>
+_Possession: The chaplain carries [[Possession The chaplain carries]]<br>
+_Food: The cook greets you with [[Food The cook greets you with]]<br>
+_Goal: The cook is looking for [[Goal The cook is looking for]]<br>
+_<br>
+_Background: The fool is [[Background The fool is]]<br>
+_Gimmick: The fool gets laughs from [[Gimmick The fool gets laughs from]]<br>
+_Background: The captain is [[Background The captain is]]<br>
+_Background: The huntsman is [[Background The huntsman is]]<br>
+_Goal: The fool desires only to [[Goal The fool desires only to]]<br>
+_Work: The captain is concerned about [[Work The captain is concerned about]]<br>
+_Work: The huntsman is worried about [[Work The huntsman is worried about]]<br>
+_Goal: The captain is looking for [[Goal The captain is looking for]]<br>
+_Goal: The huntsman is looking to [[Goal The huntsman is looking to]]<br>
+_Possession: The captain carries [[Possession The captain carries]]<br>
+_Possession: The huntsman carries [[Possession The huntsman carries]]<br>
+_Background: The tutor is [[Background The tutor is]]<br>
+_Style: Pupils view the tutor as [[Style Pupils view the tutor as]]<br>
+_Expertise: The tutor is well-versed in [[Expertise The tutor is well-versed in]]<br>
+_Background: The servant is [[Background The servant is]]<br>
+_Trait: The servant has [[Trait The servant has]]<br>
+_Goal: The servant wants to [[Goal The servant wants to]]<br>
+_Background: The horsemaster is [[Background The horsemaster is]]<br>
+_Trait: The horsemaster has [[Trait The horsemaster has]]<br>
+_Goal: The horsemaster wants to [[Goal The horsemaster wants to]]<br>
+_Background: The stable hand is [[Background The stable hand is]]<br>
+_Trait: The stable hand has [[Trait The stable hand has]]<br>
+_Goal: The stable hand wants to [[Goal The stable hand wants to]]<br>
+_Background: The kennelmaster is [[Background The kennelmaster is]]<br>
+_Goal: The kennelmaster is looking to [[Goal The kennelmaster is looking to]]<br>
+_Possession: The kennelmaster carries [[Possession The kennelmaster carries]]<br>
+_Background:The bowyer is [[BackgroundThe bowyer is]]<br>
+_Goal: The bowyer is looking for [[Goal The bowyer is looking for]]<br>
+_Possession: The bowyer carries [[Possession The bowyer carries]]<br>
+_<br>
+_Location: The dungeon is located [[Location The dungeon is located]]<br>
+_Origin: The dungeon was built [[Origin The dungeon was built]]<br>
+_Structure: The dungeon is [[Structure The dungeon is]]<br>
+_Secret: According to rumor, within the castle's dungeon lies [[Secret According to rumor within the castles dungeon lies]]<br>
+_Rooms: This chamber is [[Rooms This chamber is]]<br>
+_Features: You notice [[Features You notice]]<br>
+_Cells: Prisoners are held within [[Cells Prisoners are held within]]<br>
+_Condition: The walls and tunnels are [[Condition The walls and tunnels are]]<br>
+_Treatment: Prisoners are treated [[Treatment Prisoners are treated]]<br>
+_Reputation: The dungeon is known for [[Reputation The dungeon is known for]]<br>
+_Danger: Even if you make it out of the dungeon, you'll never escape because [[Danger Even if you make it out of the dungeon youll never escape because]]<br>
+_Escape Encounters: You come upon [[Escape Encounters You come upon]]<br>
+_Background: The jailer is [[Background The jailer is]]<br>
+_Work: The jailer is concerned about [[Work The jailer is concerned about]]<br>
+_Goal: The jailer is looking to [[Goal The jailer is looking to]]<br>
+_Possession: The jailer carries [[Possession The jailer carries]]<br>
+_Trait: The prisoner has [[Trait The prisoner has]]<br>
+_Crime: The prisoner is here because [[Crime The prisoner is here because]]<br>
+_The prisoner has [[The prisoner has]]<br>
+_Background: The torturer is [[Background The torturer is]]<br>
+_Goal: The torturer is looking to [[Goal The torturer is looking to]]<br>
+_Possession: The torturer carries [[Possession The torturer carries]]<br>
 
 
-:Location, The castle sits
+:Location The castle sits
 1, Atop a mountain.
 2, On a hill overlooking a wide plain.
 3, At the fork of a river.
@@ -17,7 +117,7 @@
 10, On a ridge overlooking a frozen plain.
 
 
-:Builder, The castle was built by
+:Builder The castle was built by
 1, A wise king or queen.
 2, An ambitious lord or lady.
 3, An evil tyrant.
@@ -32,14 +132,14 @@
 12, A member of an ancient noble house.
 
 
-:Age, The castle was built
+:Age The castle was built
 2, In a past age.
 4, Hundreds of years ago.
 5, A few decades ago.
 6, Within the past decade.
 
 
-:Condition, The castle's condition is
+:Condition The castles condition is
 1, Perfect; upkeep has been fastidious.
 2, Good; it been well-maintained.
 3, Decent; there are only a few cracks in the walls, but the place can withstand a siege.
@@ -48,7 +148,7 @@
 6, Decrepit; the place is practically a ruin.
 
 
-:Occupant, Presently, the castle is occupied by
+:Occupant Presently the castle is occupied by
 1, A member of the royal family.
 2, An ambitious lord or lady.
 3, An evil tyrant.
@@ -63,7 +163,7 @@
 12, The crown, but the sovereign rarely visits.
 
 
-:Purpose, The position or territory is worth defending because
+:Purpose The position or territory is worth defending because
 1, Grains grow well on the surrounding land.
 2, The nearby mines are rich in ores or gems.
 3, The surrounding land is excellent for grazing livestock.
@@ -78,7 +178,7 @@
 12, The nearby lands are home to a rare herb, tree, or creature that has magical uses.
 
 
-:Outer defenses, The defenses include
+:Outer defenses The defenses include
 1, Very high stone walls.
 2, Incredibly thick stone walls.
 3, A series of curtain walls and gatehouses.
@@ -91,7 +191,7 @@
 10, A narrow footbridge to reach the postern.
 
 
-:Inner keep, The defenses include
+:Inner keep The defenses include
 1, Hundreds of arrow slits.
 2, One of the world's largest dual-portcullis gates.
 3, A winding climb to reach the entrance.
@@ -100,7 +200,7 @@
 6, An unusual or hidden means of entry.
 
 
-:Garrison, The castle can be held effectively by as few as
+:Garrison The castle can be held effectively by as few as
 1, 5 soldiers and 20 archers.
 2, 20 soldiers, 5 knights, and 20 archers.
 3, 50 soldiers, 10 knights, and 40 archers.
@@ -111,7 +211,7 @@
 8, 200 soldiers, 100 knights, and 200 archers.
 
 
-:Siege, In addition to its garrison, the castle can hold foodstores to withstand a three-month siege for up to
+:Siege In addition to its garrison the castle can hold foodstores to withstand a three-month siege for up to
 1, 50 people.
 2, 100 people.
 3, 200 people.
@@ -120,7 +220,7 @@
 6, 2,000 people.
 
 
-:Reputation, The castle is known for
+:Reputation The castle is known for
 1, Withstanding a grueling, lengthy siege.
 2, Suffering an immense conflagration.
 3, Changing hands several times over the course of the same war.
@@ -135,7 +235,7 @@
 12, The quality of its meals.
 
 
-:Secrets, What is rumored to be hidden in the castle
+:Secrets What is rumored to be hidden in the castle
 1, An underground tunnel that can serve as a last-gasp escape route.
 2, The weapon of a long-dead hero.
 3, The preserved head of an ancient villain.
@@ -150,7 +250,7 @@
 12, An unhatched dragon egg.
 
 
-:Rooms, This chamber is
+:Rooms This chamber is
 1, A dungeon cell.
 2, Another dungeon cell.
 3, A passageway connecting cell blocks.
@@ -178,7 +278,7 @@
 6, trophies of war.
 
 
-:Features, You notice
+:Features You notice
 1, A wooden door reinforced with steel bands.
 2, Steel bars where you expected a stone wall.
 3, Empty manacles along the wall.
@@ -201,7 +301,7 @@
 20, The clanking of chains.
 
 
-:Under siege, You come upon
+:Under siege You come upon
 1, A squad of archers hustling up a stair.
 2, A patrol of guards brandishing weapons.
 3, A guard shouting instructions.
@@ -214,7 +314,7 @@
 10, A healer checking over his potions.
 
 
-:In peace, You come upon
+:In peace You come upon
 1, The huntsman cleaning a recent kill.
 2, The kennelmaster leading a leashed dog.
 3, The horsemaster instructing a young rider.
@@ -227,7 +327,7 @@
 10, Several archers practicing in the yard.
 
 
-:Background, The lord is
+:Background The lord is
 1, A patient old man.
 2, A wide-eyed young man.
 3, A hot-tempered tyrant.
@@ -236,7 +336,7 @@
 6, A guest, a member of a lesser house.
 
 
-:Background, The knight is
+:Background The knight is
 1, A beautiful youth.
 2, A brutish thug.
 3, A celebrated war hero.
@@ -245,7 +345,7 @@
 6, Ruggedly handsome.
 
 
-:Background, The smith is
+:Background The smith is
 1, A meticulous armorsmith.
 2, A blacksmith who makes decent swords.
 3, A farrier who can mend swords.
@@ -254,7 +354,7 @@
 6, An expert on horses.
 
 
-:Goal, The lord seeks someone to
+:Goal The lord seeks someone to
 1, Dispose of an enemy.
 2, Negotiate a trade contract.
 3, Prepare the castle's defenders for war.
@@ -263,7 +363,7 @@
 6, Have a good time with.
 
 
-:Oath, The knight has sworn to
+:Oath The knight has sworn to
 1, Protect his liege from harm.
 2, Defend his liege's lands.
 3, Avenge his liege's personal grievances.
@@ -272,7 +372,7 @@
 6, Ride to war in his liege's name.
 
 
-:Goal, The smith is looking for
+:Goal The smith is looking for
 1, Someone who can shoe horses.
 2, Steel of the highest quality.
 3, Dull blades to sharpen.
@@ -281,7 +381,7 @@
 6, A mug of strong ale.
 
 
-:Possession, The lord carries
+:Possession The lord carries
 1, Several deeds and titles.
 2, A family heirloom.
 3, Several inventories and invoices.
@@ -290,7 +390,7 @@
 6, A letter from a powerful lord or lady.
 
 
-:Possession, The knight carries
+:Possession The knight carries
 1, A finely crafted longsword.
 2, A huge greatsword.
 3, A well-used battleaxe.
@@ -299,7 +399,7 @@
 6, A favor from a faraway maiden.
 
 
-:Possession, The smith carries
+:Possession The smith carries
 1, A small hammer.
 2, A filthy rag.
 3, A large hammer.
@@ -308,7 +408,7 @@
 6, A pressed flour.
 
 
-:Background, The lady is
+:Background The lady is
 1, A wise old woman.
 2, A passionate young woman.
 3, A homely young lady.
@@ -317,7 +417,7 @@
 6, A guest, a member of a lesser house.
 
 
-:Background, The retainer is
+:Background The retainer is
 1, A squire from a lesser noble house.
 2, A frightened link boy.
 3, A long-time valet or squire.
@@ -326,7 +426,7 @@
 6, A mysterious foreigner.
 
 
-:Goal, The lady seeks someone to
+:Goal The lady seeks someone to
 1, Help gain revenge against a bitter rival.
 2, Bring to light a scandal involving an enemy.
 3, Secure a beneficial marriage.
@@ -335,7 +435,7 @@
 6, Share some wine and gossip.
 
 
-:Trait, The retainer has
+:Trait The retainer has
 1, A gullible nature.
 2, An easy swagger.
 3, Wild, shaggy hair.
@@ -344,7 +444,7 @@
 6, A thin mustache.
 
 
-:Possession, The lady carries
+:Possession The lady carries
 1, A family heirloom.
 2, A vial of perfume.
 3, Valuable jewels.
@@ -353,7 +453,7 @@
 6, A letter from a powerful ally.
 
 
-:Goal, The retainer wants to
+:Goal The retainer wants to
 1, Earn a little silver.
 2, Train with weapons to become a hero.
 3, Earn the affection of his master.
@@ -362,7 +462,7 @@
 6, Have a drink and a rest.
 
 
-:Goal, The guard serves his liege for
+:Goal The guard serves his liege for
 1, The steady pay.
 2, The chance to bully others.
 3, Love of his liege's family.
@@ -371,7 +471,7 @@
 6, The possibility of being raised to a knight.
 
 
-:Trait, On the guard's face is
+:Trait On the guards face is
 1, An unsightly scar.
 2, An eager grin.
 3, A haughty sneer.
@@ -380,7 +480,7 @@
 6, A sour look.
 
 
-:Possession, The guard carries
+:Possession The guard carries
 1, A highly polished blade.
 2, A letter from a fallen comrade.
 3, A trophy from a fallen enemy.
@@ -389,7 +489,7 @@
 6, A pair of dice and a few coins.
 
 
-:Background, The archer is
+:Background The archer is
 1, An eager young marksman.
 2, An trigger-happy hotshot.
 3, A braggart and a fool.
@@ -407,7 +507,7 @@
 6, Eat, drink, and be merry.
 
 
-:Possession, The archer carries
+:Possession The archer carries
 1, A longbow with a fraying string.
 2, A longbow crafted of superior wood.
 3, Arrows fletched with exotic feathers.
@@ -416,21 +516,21 @@
 6, A flute or harp.
 
 
-:Background, The steward is
+:Background The steward is
 2, A lesser member of the liege's house.
 4, A lesser member of a powerful house.
 5, A member of a lesser house.
 6, A commoner by birth.
 
 
-:Goal, The steward seeks someone to
+:Goal The steward seeks someone to
 2, Obtain hard-to-get provisions.
 3, Deliver some letters.
 4, Help win over a sweetheart.
 6, Share a drink and a laugh.
 
 
-:Work, The steward is concerned about
+:Work The steward is concerned about
 1, Gold and silver.
 2, Ale and grain.
 3, Meat and cheese.
@@ -439,42 +539,42 @@
 6, Castle repairs.
 
 
-:Background, The chaplain is
+:Background The chaplain is
 2, A devoted acolyte.
 3, An adept healer.
 5, A wise source of counsel.
 6, A drunken hypocrite.
 
 
-:Goal, The chaplain is looking for
+:Goal The chaplain is looking for
 2, News from the surrounding lands.
 3, Sinners and heretics to chastise.
 4, The answer to an ancient mystery.
 6, The bottom of a goblet.
 
 
-:Possession, The chaplain carries
+:Possession The chaplain carries
 1, A ceremonial cudgel or staff.
 3, A prominently displayed holy symbol.
 5, A pocketbook of sacred texts.
 6, A wineskin.
 
 
-:Food, The cook greets you with
+:Food The cook greets you with
 2, A goblet of warm wine.
 4, A chunk of bread and a piece of cheese.
 5, A cup of onion soup.
 6, A tankard of mead.
 
 
-:Goal, The cook is looking for
+:Goal The cook is looking for
 1, Someone to chop onions.
 2, Some better cabbage.
 4, A good joke or story.
 6, The bottom of a bottle.
 
 
-:Background, The fool is
+:Background The fool is
 1, A dwarf.
 2, Dressed in motley.
 3, Morbidly obese.
@@ -483,7 +583,7 @@
 6, A faux wizard.
 
 
-:Gimmick, The fool gets laughs from
+:Gimmick The fool gets laughs from
 1, Falling stunts.
 2, Gorging himself with food or drink.
 3, Singing silly songs.
@@ -494,7 +594,7 @@
 8, Witty jokes and observations.
 
 
-:Background, The captain is
+:Background The captain is
 1, A lesser member of a noble house.
 2, A brutish thug.
 3, A dashing swashbuckler.
@@ -503,7 +603,7 @@
 6, A career soldier.
 
 
-:Background, The huntsman is
+:Background The huntsman is
 1, A member of the liege's family.
 2, A bastard son of a noble house.
 3, A gifted tracker.
@@ -512,7 +612,7 @@
 6, A kindly sportsman.
 
 
-:Goal, The fool desires only to
+:Goal The fool desires only to
 1, Bring smiles to others' faces.
 2, Get as far from this castle as he can.
 3, Exact vengeance against a cruel noble.
@@ -521,7 +621,7 @@
 6, Get drunk and feel numb.
 
 
-:Work, The captain is concerned about
+:Work The captain is concerned about
 1, The resolve of the new recruits.
 2, The castle's food stores.
 3, Sheltering too many commonfolk in a siege.
@@ -530,7 +630,7 @@
 6, A flaw in the castle's design.
 
 
-:Work, The huntsman is worried about
+:Work The huntsman is worried about
 1, Reports of strange creatures in the region.
 2, The reckless behavior of a fellow hunter.
 3, How best to protect commonfolk's livestock.
@@ -539,7 +639,7 @@
 6, A disease ravaging the wild game.
 
 
-:Goal, The captain is looking for
+:Goal The captain is looking for
 1, Information regarding enemy movements.
 2, Reinforcements or new recruits.
 3, News of his or his wife's hometown.
@@ -548,7 +648,7 @@
 6, Help saving his son or daughter from ruin.
 
 
-:Goal, The huntsman is looking to
+:Goal The huntsman is looking to
 1, Track an unusual beast.
 2, Find the lair of a rare beast.
 3, Find a place where game is plentiful.
@@ -557,7 +657,7 @@
 6, Win a drinking contest.
 
 
-:Possession, The captain carries
+:Possession The captain carries
 1, A superbly crafted sword.
 2, A trusted blade and a map.
 3, A lucky charm (rabbit's foot, old coin).
@@ -566,7 +666,7 @@
 6, A little jar of mustache wax.
 
 
-:Possession, The huntsman carries
+:Possession The huntsman carries
 1, A fine longbow.
 2, A hunting trap.
 3, A heavy crossbow.
@@ -575,7 +675,7 @@
 6, A sturdy hatchet..
 
 
-:Background, The tutor is
+:Background The tutor is
 1, A scholar trained at a university.
 2, A wizard trained at an academy.
 3, A wizard who had apprenticed to another.
@@ -584,14 +684,14 @@
 6, A priest dedicated to spreading knowledge.
 
 
-:Style, Pupils view the tutor as
+:Style Pupils view the tutor as
 2, A trusted friend or mentor
 3, A second father/mother.
 5, A weakling to be antagonized and bullied.
 6, A tyrant to be feared.
 
 
-:Expertise, The tutor is well-versed in
+:Expertise The tutor is well-versed in
 1, Alchemy.
 2, Ancient cultures.
 3, Astronomy.
@@ -606,7 +706,7 @@
 12, Theology.
 
 
-:Background, The servant is
+:Background The servant is
 1, Her ladyship's/her lordship's favorite.
 2, A long-time servant of the household.
 3, New to the household and always in trouble.
@@ -615,7 +715,7 @@
 6, A foreigner, who can never return home.
 
 
-:Trait, The servant has
+:Trait The servant has
 1, A pretty smile, but crooked teeth.
 2, Beautiful but sad eyes.
 3, A wide frame.
@@ -624,7 +724,7 @@
 6, A wicked smile, and a sharp wit.
 
 
-:Goal, The servant wants to
+:Goal The servant wants to
 1, Avoid being alone with a particular noble.
 2, Discipline one of the children in the castle.
 3, Earn the affection of her mistress.
@@ -633,91 +733,91 @@
 6, Share a drink and a dance.
 
 
-:Background, The horsemaster is
+:Background The horsemaster is
 2, A knight lamed in combat years ago.
 3, The son of a servant to the liege's family.
 4, A genius for breeding horses.
 6, A foreigner who grew up in the saddle.
 
 
-:Trait, The horsemaster has
+:Trait The horsemaster has
 2, A sackful of oats strapped to his belt.
 4, A calm demeanor.
 5, A soft-spoken manner.
 6, A pointed beard.
 
 
-:Goal, The horsemaster wants to
+:Goal The horsemaster wants to
 2, Keep a swift horse at-the-ready to carry his liege's urgent messages.
 4, Tell a tale of a grueling ride.
 5, Bring honor to his family name.
 6, Boast about a prized young mare.
 
 
-:Background, The stable hand is
+:Background The stable hand is
 2, A shady-looking character.
 3, The son of another servant in the castle.
 4, A prisoner-of-war turned servant.
 6, A simple-minded stable boy.
 
 
-:Trait, The stable hand has
+:Trait The stable hand has
 1, An awkward gait.
 2, Incredibly large hands.
 5, Quite an odor.
 6, A patchy beard.
 
 
-:Goal, The stable hand wants to
+:Goal The stable hand wants to
 2, Earn a little silver.
 3, Avoid being kicked by a horse.
 4, Rise to the position of horsemaster.
 6, Pet the pretty horses.
 
 
-:Background, The kennelmaster is
+:Background The kennelmaster is
 1, An eccentric dog-trainer.
 2, A skilled hunter.
 4, A short-tempered, portly fellow.
 6, A tall, gregarious fellow.
 
 
-:Goal, The kennelmaster is looking to
+:Goal The kennelmaster is looking to
 1, Encourage a hunting expedition.
 3, Improve the breeding stock of the hounds.
 5, Show off a clever hound.
 6, Avoid questions regarding the hounds' obedience.
 
 
-:Possession, The kennelmaster carries
+:Possession The kennelmaster carries
 1, A dog whistle.
 3, A rope of some kind of jerky.
 4, A stick or club.
 6, A rope leash.
 
 
-:Background,The bowyer is
+:BackgroundThe bowyer is
 2, A patient craftsman.
 4, An old archer, blind in one eye.
 5, A foreigner who puts unusual touches on the bows and feathers he makes.
 6, Skilled at mending bows and arrows, but not so good at making them from raw materials.
 
 
-:Goal, The bowyer is looking for
+:Goal The bowyer is looking for
 1, Someone who can fletch arrows.
 3, Stray arrowheads.
 5, Intact arrow shafts.
 6, A mug of strong ale.
 
 
-:Possession, The bowyer carries
+:Possession The bowyer carries
 1, A whittling knife.
 3, A quiver of arrows to be mended.
 5, A quiver of newly made arrows.
 6, A bundle of fresh wood cuttings.
 
 
-:Location, The dungeon is located
+:Location The dungeon is located
 1, In a tower set apart from the main castle.
 2, Beneath the keep.
 3, In a flanking tower of the castle.
@@ -726,14 +826,14 @@
 6, Beneath a corner tower of the castle.
 
 
-:Origin, The dungeon was built
+:Origin The dungeon was built
 2, As part of the original castle.
 3, As a later addition.
 4, For another purpose originally.
 6, Long before most of the castle.
 
 
-:Structure, The dungeon is
+:Structure The dungeon is
 1, A sprawling maze of twisting passages.
 2, A sprawling maze of narrow passages.
 3, Organized into small, neat rows of cells or pits.
@@ -744,7 +844,7 @@
 8, A series of corridors with very low ceilings.
 
 
-:Secret, According to rumor, within the castle's dungeon lies
+:Secret According to rumor within the castles dungeon lies
 1, A secret tunnel to the outside.
 2, The bones of a long-lost hero.
 3, The preserved head of an ancient villain.
@@ -755,7 +855,7 @@
 8, The bones of a deposed king or queen.
 
 
-:Cells, Prisoners are held within
+:Cells Prisoners are held within
 1, Individual cells, in complete isolation.
 2, Individual cells, but they can see and hear other prisoners.
 3, Individual cells, but they can hear other prisoners.
@@ -768,21 +868,21 @@
 10, One or more huge pit with many other prisoners.
 
 
-:Condition, The walls and tunnels are
+:Condition The walls and tunnels are
 2, Well-maintained; the walls are solid.
 4, Aging, but sturdy; the walls have some cracks.
 5, Decrepit; the walls are crumbling.
 6, So dark it's difficult to say.
 
 
-:Treatment, Prisoners are treated
+:Treatment Prisoners are treated
 1, Humanely; they receive reasonable meals, some exercise, and healing when needed.
 3, Like dogs; they receive poor quality meals and enough healing to keep them alive.
 5, Like rats; they receive terrible meals and are plagued by sickness.
 6, Like they don't exist; occasionally they receive food.
 
 
-:Reputation, The dungeon is known for
+:Reputation The dungeon is known for
 1, Many deaths during a terrible plague.
 2, A mass escape in the past.
 3, The escape of a famous criminal.
@@ -795,7 +895,7 @@
 10, The quality of its meals.
 
 
-:Danger, Even if you make it out of the dungeon, you'll never escape because
+:Danger Even if you make it out of the dungeon youll never escape because
 1, The castle's huntsman will ride you down.
 2, The castle's hunting hounds are peerless.
 3, The castle's ghosts will shriek in alarm.
@@ -804,7 +904,7 @@
 6, You've been branded a prisoner of this place; no one will risk helping you.
 
 
-:Escape Encounters, You come upon
+:Escape Encounters You come upon
 1, A snoozing guard or jailer.
 2, A pair of guards on patrol.
 3, A quartet of guards playing cards or dice on their break.
@@ -819,7 +919,7 @@
 12, An imprisoned thief who is bent on revenge.
 
 
-:Background, The jailer is
+:Background The jailer is
 1, A coward who likes to act tough.
 2, A bully in every sense of the word.
 3, A man who grew up among criminals.
@@ -828,21 +928,21 @@
 6, A resentful cripple.
 
 
-:Work, The jailer is concerned about
+:Work The jailer is concerned about
 1, Rumors of an upcoming escape attempt.
 3, Losing his job after a messy prisoner death.
 4, Facing a prisoner who creeps him out.
 6, Ways to make a little extra silver.
 
 
-:Goal, The jailer is looking to
+:Goal The jailer is looking to
 2, Abuse someone who is defenseless.
 3, Make himself feel powerful.
 4, Reach out to a disturbed prisoner.
 6, Swap grisly tales.
 
 
-:Possession, The jailer carries
+:Possession The jailer carries
 1, A large ring of keys.
 2, A large knife and a sap.
 3, A pale of cold porridge from the kitchens.
@@ -853,14 +953,14 @@
 8, A wineskin.
 
 
-:Trait, The prisoner has
+:Trait The prisoner has
 2, A long scraggly beard.
 3, A patchy beard.
 5, Skin draped loosely over his bones.
 6, Boils and sores on his skin.
 
 
-:Crime, The prisoner is here because
+:Crime The prisoner is here because
 1, He stole something.
 2, He killed someone.
 3, He raped someone.
@@ -876,7 +976,7 @@
 6, Been driven mad.
 
 
-:Background, The torturer is
+:Background The torturer is
 1, The bastard son of a noble house.
 2, A priest with a puritanical agenda.
 3, A horrible sadist.
@@ -885,14 +985,14 @@
 6, A soft-spoken artistic type.
 
 
-:Goal, The torturer is looking to
+:Goal The torturer is looking to
 1, Impress his liege with efficient confessions.
 3, Make himself feel powerful.
 5, Break a particularly willful prisoner.
 6, Frighten someone with grisly tales.
 
 
-:Possession, The torturer carries
+:Possession The torturer carries
 1, A large knife and a scourge.
 2, A leatherbound case of hooks and prongs.
 3, Several strange potions and poisons.

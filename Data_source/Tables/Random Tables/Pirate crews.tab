@@ -2,9 +2,28 @@
 
 :Start
 1, pirate crews: TERROR AND PLUNDER
+_<br>
+_Ship: The pirates' ship is [[Ship The pirates ship is]]<br>
+_Condition: Presently, the ship is [[Condition Presently the ship is]]<br>
+_Banner: The ship's banner has [[Banner The ships banner has]]<br>
+_Masthead: The ship's masthead is [[Masthead The ships masthead is]]<br>
+_Mascot: The ship's mascot is [[Mascot The ships mascot is]]<br>
+_Captain: The ship's captain is [[Captain The ships captain is]]<br>
+_Morale: The crew's attitude toward their captain is [[Morale The crews attitude toward their captain is]]<br>
+_Drink: The crew's favorite drink is [[Drink The crews favorite drink is]]<br>
+_Goals: The crew's goals include (captain and crewmembers could have different goals) [[Goals The crews goals include captain and crewmembers could have different goals]]<br>
+_Reputation: The crew is known for [[Reputation The crew is known for]]<br>
+_Hideout: The crew's headquarters is hidden in or near [[Hideout The crews headquarters is hidden in or near]]<br>
+_Weapons: Crewmembers typically arm themselves with [[Weapons Crewmembers typically arm themselves with]]<br>
+_Style: Crewmembers often sport matching [[Style Crewmembers often sport matching]]<br>
+_Tactics: The crew typically fights with [[Tactics The crew typically fights with]]<br>
+_Tattoo: The pirate has [[Tattoo The pirate has]]<br>
+_Trait: The pirate has [[Trait The pirate has]]<br>
+_Goal: The pirate longs to [[Goal The pirate longs to]]<br>
+_Possession: The pirate carries a [[Possession The pirate carries a]]<br>
 
 
-:Ship, The pirates' ship is
+:Ship The pirates ship is
 1, A rickety raft.
 6, A hulk.
 2, A galley.
@@ -17,7 +36,7 @@
 10, A dreadnought.
 
 
-:Condition, Presently, the ship is
+:Condition Presently the ship is
 1, Laden with treasure.
 2, Full of stolen goods.
 3, Well-stocked with provisions.
@@ -28,7 +47,7 @@
 8, Resting beneath the waves.
 
 
-:Banner, The ship's banner has
+:Banner The ships banner has
 1, A skull.
 2, Crossed bones.
 3, Skull and bones.
@@ -51,7 +70,7 @@
 20, A big tuna.
 
 
-:Masthead, The ship's masthead is
+:Masthead The ships masthead is
 1, A goddess.
 2, A mermaid.
 3, A young lady.
@@ -62,7 +81,7 @@
 8, An octopus.
 
 
-:Mascot, The ship's mascot is
+:Mascot The ships mascot is
 4, A parrot:
 8, A monkey:
 9, An old turtle.
@@ -71,7 +90,7 @@
 12, A high-energy herding dog.
 
 
-:Captain, The ship's captain is
+:Captain The ships captain is
 1, A dangerous megalomaniac.
 2, A charismatic demagogue.
 3, A mysterious foreigner.
@@ -86,7 +105,7 @@
 12, A celebrated naval hero.
 
 
-:Morale, The crew's attitude toward their captain is
+:Morale The crews attitude toward their captain is
 1, Adoring and loyal.
 2, Friendly and pleased.
 3, Respectful and business-like.
@@ -97,7 +116,7 @@
 8, Angry and mutinous.
 
 
-:Drink, The crew's favorite drink is
+:Drink The crews favorite drink is
 1, Rum.
 2, Grog.
 3, Ale.
@@ -106,7 +125,7 @@
 6, Whisky.
 
 
-:Goals, The crew's goals include ,captain and crewmembers could have different goals
+:Goals The crews goals include captain and crewmembers could have different goals
 1, Discovery of a legendary hidden treasure.
 2, Domination of the region's maritime trade.
 3, Revenge against a naval hero.
@@ -117,7 +136,7 @@
 8, Drinking all the rum.
 
 
-:Reputation, The crew is known for
+:Reputation The crew is known for
 1, Never leaving survivors.
 2, Feeding captives to sharks.
 3, Tattooing or branding captives.
@@ -132,7 +151,7 @@
 12, Drinking too much rum.
 
 
-:Hideout, The crew's headquarters is hidden in or near
+:Hideout The crews headquarters is hidden in or near
 1, A rugged seaside cliff.
 2, A hidden lagoon.
 3, A remote island.
@@ -145,7 +164,7 @@
 10, An old lighthouse.
 
 
-:Weapons, Crewmembers typically arm themselves with
+:Weapons Crewmembers typically arm themselves with
 1, Belaying pins (wooden clubs).
 2, Throwing knives.
 3, Over-sized daggers.
@@ -158,7 +177,7 @@
 10, Harpoons.
 
 
-:Style, Crewmembers often sport matching
+:Style Crewmembers often sport matching
 1, Puffy shirts.
 2, Breeches.
 3, Scarves.
@@ -171,7 +190,7 @@
 10, Mustaches.
 
 
-:Tactics, The crew typically fights with
+:Tactics The crew typically fights with
 1, Swarm tactics.
 2, Hit-and-run tactics.
 3, Ambush tactics.
@@ -184,7 +203,7 @@
 10, Lots of head-butting.
 
 
-:Tattoo, The pirate has
+:Tattoo The pirate has
 1, A dagger tattoo.
 2, An anchor tattoo.
 3, A skull tattoo.
@@ -199,7 +218,7 @@
 12, A dragon tattoo.
 
 
-:Trait, The pirate has
+:Trait The pirate has
 1, A nose ring.
 2, Shiny leather boots.
 3, Gold teeth.
@@ -214,7 +233,7 @@
 12, Extravagant mustaches.
 
 
-:Goal, The pirate longs to
+:Goal The pirate longs to
 1, Captain his own ship.
 2, Retire peacefully, far from the sea.
 3, Return to the arms of a long lost love.
@@ -229,7 +248,7 @@
 12, Be a pirate; a pirate's life is a joy.
 
 
-:Possession, The pirate carries a
+:Possession The pirate carries a
 1, Polished blade.
 2, Silk handkerchief.
 3, Jagged dagger.

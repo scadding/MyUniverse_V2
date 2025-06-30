@@ -2,9 +2,30 @@
 
 :Start
 1, orkish clans: FEAR THE PIKE HORDE!
+_<br>
+_Business: The orcs are [[Business The orcs are]]<br>
+_Values: The orcs value [[Values The orcs value]]<br>
+_Symbols: The orcs' iconography features [[Symbols The orcs iconography features]]<br>
+_Chief: The orcs' chief is [[Chief The orcs chief is]]<br>
+_Meat: The orcs' favorite meat comes from [[Meat The orcs favorite meat comes from]]<br>
+_Morale: The orcs' current attitude is [[Morale The orcs current attitude is]]<br>
+_Fears: The orcs fear [[Fears The orcs fear]]<br>
+_Notoriety: The orcs are notorious for [[Notoriety The orcs are notorious for]]<br>
+_Reputation: The orcs are known for [[Reputation The orcs are known for]]<br>
+_Goals: The orcs' goals include (chief and others could have different goals) [[Goals The orcs goals include chief and others could have different goals]]<br>
+_Tactics: The orcs typically fight with [[Tactics The orcs typically fight with]]<br>
+_Slaves: As slaves, the orcs keep [[Slaves As slaves the orcs keep]]<br>
+_Beasts: As guardians or pets, the orcs keep [[Beasts As guardians or pets the orcs keep]]<br>
+_Weapons: Most of the orcs are wielding [[Weapons Most of the orcs are wielding]]<br>
+_Appearance: The orc has [[Appearance The orc has]]<br>
+_Tattoo: The orc has [[Tattoo The orc has]]<br>
+_Skill: Even among orcs, the orc is particularly good at [[Skill Even among orcs the orc is particularly good at]]<br>
+_Armor: The orc is armored in [[Armor The orc is armored in]]<br>
+_Weapon: The orc is wielding [[Weapon The orc is wielding]]<br>
+_Motivation: The orc is looking for [[Motivation The orc is looking for]]<br>
 
 
-:Business, The orcs are
+:Business The orcs are
 1, Nomadic hunters, following game.
 2, Raiders displaced from their native lands.
 3, In exile from their native lands.
@@ -19,7 +40,7 @@
 12, On an errand for an evil wizard or other powerful being.
 
 
-:Values, The orcs value
+:Values The orcs value
 1, Bravery.
 2, Strength.
 3, Virility.
@@ -32,11 +53,11 @@
 10, Meat.
 
 
-:Symbols, The orcs' iconography features
-2, Symbols of death and destruction  [Symbols of death and destruction]
-3, Symbols of the heavens  [Symbols of the heavens]
-5, Symbols of strength and weaponry  [Symbols of strength and weaponry]
-6, A great beast  [A great beast]
+:Symbols The orcs iconography features
+2, Symbols of death and destruction  [[Symbols of death and destruction]]
+3, Symbols of the heavens  [[Symbols of the heavens]]
+5, Symbols of strength and weaponry  [[Symbols of strength and weaponry]]
+6, A great beast  [[A great beast]]
 
 
 :Symbols of death and destruction 
@@ -75,7 +96,7 @@
 6, wolves.
 
 
-:Chief, The orcs' chief is
+:Chief The orcs chief is
 1, A well-respected chief.
 2, A charismatic warlord.
 3, A mysterious shaman.
@@ -88,7 +109,7 @@
 10, A prolific lover.
 
 
-:Meat, The orcs' favorite meat comes from
+:Meat The orcs favorite meat comes from
 1, Dwarves and halflings.
 2, Beggars and thieves.
 3, Merchants and caravan guards.
@@ -103,7 +124,7 @@
 12, Elves and pixies.
 
 
-:Morale, The orcs' current attitude is
+:Morale The orcs current attitude is
 1, Carefree and festive.
 2, Rowdy and festive.
 3, Rowdy and eager to fight.
@@ -112,10 +133,10 @@
 6, Hostile and eager to fight.
 
 
-:Fears, The orcs fear
+:Fears The orcs fear
 1, Men armored in steel.
 2, Spellcasters.
-3, Members of a particular race  [Members of a particular race]
+3, Members of a particular race  [[Members of a particular race]]
 4, The gods.
 5, Aberrant evils.
 6, Dragons.
@@ -128,7 +149,7 @@
 6, reptilians.
 
 
-:Notoriety, The orcs are notorious for
+:Notoriety The orcs are notorious for
 1, Never leaving survivors.
 2, Feeding prisoners to wild beasts.
 3, Tattooing or branding prisoners.
@@ -141,7 +162,7 @@
 10, Taking prisoners as wives or concubines,.
 
 
-:Reputation, The orcs are known for
+:Reputation The orcs are known for
 1, Screaming and shouting during battle.
 2, Convening with ghosts and spirits.
 3, Ritual animal sacrifice under a new moon.
@@ -156,7 +177,7 @@
 12, Bathing and perfuming their bodies.
 
 
-:Goals, The orcs' goals include ,chief and others could have different goals
+:Goals The orcs goals include chief and others could have different goals
 1, Upheaval of the region's politics.
 2, Disruption of the region's trade.
 3, Revenge against another civilization.
@@ -165,7 +186,7 @@
 6, Possession of a powerful artifact.
 
 
-:Tactics, The orcs typically fight with
+:Tactics The orcs typically fight with
 1, Hit-and-run tactics.
 2, Ambush tactics.
 3, Unpredictable maneuvers.
@@ -173,7 +194,7 @@
 5, Kicking and stomping.
 6, Lots of head-butting.
 7, Lots of biting and scratching.
-8, Frequent breaks for  [Frequent breaks for]
+8, Frequent breaks for  [[Frequent breaks for]]
 
 
 :Frequent breaks for 
@@ -183,7 +204,7 @@
 6, eating.
 
 
-:Slaves, As slaves, the orcs keep
+:Slaves As slaves the orcs keep
 1, Dwarves.
 2, Gnomes.
 3, Goblins.
@@ -196,7 +217,7 @@
 10, Nothing; the orcs value freedom for all.
 
 
-:Beasts, As guardians or pets, the orcs keep
+:Beasts As guardians or pets the orcs keep
 1, Boars.
 2, Dire rats.
 3, Giant lizards.
@@ -205,7 +226,7 @@
 6, Wolves.
 
 
-:Weapons, Most of the orcs are wielding
+:Weapons Most of the orcs are wielding
 1, Spears and large hunting knives.
 2, Spears and javelins.
 3, Exotic, curved blades and several bolas.
@@ -220,7 +241,7 @@
 12, Greataxes and javelins.
 
 
-:Appearance, The orc has
+:Appearance The orc has
 1, Pale green skin.
 2, Yellowish green skin.
 3, Dirty brown skin.
@@ -231,7 +252,7 @@
 8, Bug eyes.
 
 
-:Tattoo, The orc has
+:Tattoo The orc has
 1, A bone tattoo.
 2, A dragon tattoo.
 3, A skull tattoo.
@@ -240,7 +261,7 @@
 6, A tattoo of thorns.
 
 
-:Skill, Even among orcs, the orc is particularly good at
+:Skill Even among orcs the orc is particularly good at
 1, Tracking creatures by scent.
 2, Identifying and following the tracks.
 3, Running down prey.
@@ -251,7 +272,7 @@
 8, Handling savage beasts.
 
 
-:Armor, The orc is armored in
+:Armor The orc is armored in
 1, Nothing.
 2, Tattered leather.
 3, Blood-stained leather.
@@ -262,7 +283,7 @@
 8, A helm and breastplate taken from a fallen enemy.
 
 
-:Weapon, The orc is wielding
+:Weapon The orc is wielding
 1, A spear.
 2, A scimitar.
 3, A falchion.
@@ -273,7 +294,7 @@
 8, A longbow.
 
 
-:Motivation, The orc is looking for
+:Motivation The orc is looking for
 1, A good meal, fresh if possible.
 2, A hearty meal, spoiled is not a problem.
 3, A throat to cut or a head to bash.

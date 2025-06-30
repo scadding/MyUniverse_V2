@@ -2,16 +2,33 @@
 
 :Start
 1, cults: BOW DOWN TO THE LORD OF WHAT?
+_<br>
+_Reverence: The cultists revere [[Reverence The cultists revere]]<br>
+_Shrine: The cultists meet in [[Shrine The cultists meet in]]<br>
+_Leader: The cult's leader is [[Leader The cults leader is]]<br>
+_Members: The cult's membership is primarily made up of [[Members The cults membership is primarily made up of]]<br>
+_Rituals: The cult's practices involve (leadership and believers could adhere to different practices) [[Rituals The cults practices involve leadership and believers could adhere to different practices]]<br>
+_Goals: The cult's goals (leadership and believers could have different goals) [[Goals The cults goals leadership and believers could have different goals]]<br>
+_Rules: The cult's members must follow a strict rule regarding [[Rules The cults members must follow a strict rule regarding]]<br>
+_Taboos: The cult's members are fearful of or take special care to avoid [[Taboos The cults members are fearful of or take special care to avoid]]<br>
+_Morale: The cult's attitude toward their leader is [[Morale The cults attitude toward their leader is]]<br>
+_Zealotry: The cultist [[Zealotry The cultist]]<br>
+_Trait: The cultist has [[Trait The cultist has]]<br>
+_Apparel: The cultist is wearing [[Apparel The cultist is wearing]]<br>
+_Mannerism: The cultist is [[Mannerism The cultist is]]<br>
+_Possession: The cultist carries [[Possession The cultist carries]]<br>
+_Goal: The cultist is looking for [[Goal The cultist is looking for]]<br>
+_Connections: The cultist's family and close friends know [[Connections The cultists family and close friends know]]<br>
 
 
-:Reverence, The cultists revere
+:Reverence The cultists revere
 1, A dragon.
 2, A demon lord.
 3, An archdevil.
-4, A long-dead ancient hero  [A long-dead ancient hero]
-5, A long-dead ancient villain  [A long-dead ancient villain]
+4, A long-dead ancient hero  [[A long-dead ancient hero]]
+5, A long-dead ancient villain  [[A long-dead ancient villain]]
 6, A dead god or undead being.
-7, An aberrant creature  [An aberrant creature]
+7, An aberrant creature  [[An aberrant creature]]
 8, An elemental creature.
 9, A primordial or titan.
 10, Primal spirits or an archfey.
@@ -46,7 +63,7 @@
 6, star spawn.
 
 
-:Shrine, The cultists meet in
+:Shrine The cultists meet in
 1, A secret chamber in a well-known temple.
 2, The cellar of a popular tavern.
 3, A secret chamber in a large guildhall.
@@ -59,7 +76,7 @@
 10, The stacks of a well-stocked library.
 
 
-:Leader, The cult's leader is
+:Leader The cults leader is
 1, A devoted acolyte.
 2, A dogmatic teacher.
 3, An adept healer.
@@ -82,12 +99,12 @@
 20, The second coming of a god.
 
 
-:Members, The cult's membership is primarily made up of
-1, The poor and downtrodden  [The poor and downtrodden]
-2, The wealthy elite  [The wealthy elite]
-3, A segment of another religion's flock  [A segment of another religion's flock]
-4, Members of a particular trade  [Members of a particular trade]
-5, Members of a particular race  [Members of a particular race]
+:Members The cults membership is primarily made up of
+1, The poor and downtrodden  [[The poor and downtrodden]]
+2, The wealthy elite  [[The wealthy elite]]
+3, A segment of another religion's flock  [[A segment of another religions flock]]
+4, Members of a particular trade  [[Members of a particular trade]]
+5, Members of a particular race  [[Members of a particular race]]
 6, Members of all social strata.
 
 
@@ -105,7 +122,7 @@
 6, royalty.
 
 
-:A segment of another religion's flock 
+:A segment of another religions flock 
 1, sun god
 2, earth mother
 3, death god;
@@ -138,15 +155,15 @@
 8, lizardfolk or kobolds.
 
 
-:Rituals, The cult's practices involve ,leadership and believers could adhere to different practices
-1, Animal sacrifice  [Animal sacrifice]
-2, Human sacrifice  [Human sacrifice]
-3, Self-mutilation  [Self-mutilation]
-4, Burnt offerings  [Burnt offerings]
+:Rituals The cults practices involve leadership and believers could adhere to different practices
+1, Animal sacrifice  [[Animal sacrifice]]
+2, Human sacrifice  [[Human sacrifice]]
+3, Self-mutilation  [[Self-mutilation]]
+4, Burnt offerings  [[Burnt offerings]]
 5, Offerings of gold, gems, and valuables.
 6, Strange incantations.
-7, Public acts of violence  [Public acts of violence]
-8, Ritualistic sexual acts  [Ritualistic sexual acts]
+7, Public acts of violence  [[Public acts of violence]]
+8, Ritualistic sexual acts  [[Ritualistic sexual acts]]
 
 
 :Animal sacrifice 
@@ -210,7 +227,7 @@
 6, orgies.
 
 
-:Goals, The cult's goals ,leadership and believers could have different goals
+:Goals The cults goals leadership and believers could have different goals
 1, Domination of the city.
 2, Destruction of the city.
 3, Reincarnation of a long-dead entity.
@@ -221,10 +238,10 @@
 8, Release of a powerful captive entity.
 
 
-:Rules, The cult's members must follow a strict rule regarding
-1, Wearing a flower in the hair or on the lapel  [Wearing a flower in the hair or on the lapel]
+:Rules The cults members must follow a strict rule regarding
+1, Wearing a flower in the hair or on the lapel  [[Wearing a flower in the hair or on the lapel]]
 2, Fashion trends.
-3, Maintaining their personal weapon  [Maintaining their personal weapon]
+3, Maintaining their personal weapon  [[Maintaining their personal weapon]]
 4, Treatment of pets.
 5, Mounting a horse.
 6, Dressing one's self for worship.
@@ -252,7 +269,7 @@
 6, staff.
 
 
-:Taboos, The cult's members are fearful of or take special care to avoid
+:Taboos The cults members are fearful of or take special care to avoid
 1, Hallowed places.
 2, Moonlight.
 3, Sunlight.
@@ -267,7 +284,7 @@
 12, Sobriety.
 
 
-:Morale, The cult's attitude toward their leader is
+:Morale The cults attitude toward their leader is
 1, Loyal and proud.
 2, Devoted and fawning.
 3, Loyal and defensive.
@@ -276,7 +293,7 @@
 6, Fearful.
 
 
-:Zealotry, The cultist
+:Zealotry The cultist
 1, Is an outspoken true believer.
 2, Is a raving lunatic.
 3, Is a quiet, fervent believer.
@@ -285,7 +302,7 @@
 6, Doesn't care about the religious stuff; the cult meets other needs.
 
 
-:Trait, The cultist has
+:Trait The cultist has
 1, A bandage on the thumb.
 2, A face tattoo of a holy symbol.
 3, A tattoo depicting an evil icon.
@@ -300,7 +317,7 @@
 12, A lush, full beard.
 
 
-:Apparel, The cultist is wearing
+:Apparel The cultist is wearing
 1, A string of garlic around the neck.
 2, A robe with a tear at the knee.
 3, A fine silk robe and a lot of perfume.
@@ -309,7 +326,7 @@
 6, A robe emblazoned with a holy symbol.
 
 
-:Mannerism, The cultist is
+:Mannerism The cultist is
 1, Humming an eerie incantation.
 2, Sweating profusely.
 3, Breathing heavily.
@@ -322,7 +339,7 @@
 10, Stinking of wine.
 
 
-:Possession, The cultist carries
+:Possession The cultist carries
 1, A ceremonial dagger.
 2, A book protruding from his or her pocket.
 3, A string of unusual prayer beads.
@@ -331,7 +348,7 @@
 6, A large purse.
 
 
-:Goal, The cultist is looking for
+:Goal The cultist is looking for
 1, Ways to impress the cult's leader.
 2, Tips for seducing the cult's leader.
 3, Methods to assassinate the cult's leader.
@@ -344,7 +361,7 @@
 10, A bottle of wine.
 
 
-:Connections, The cultist's family and close friends know
+:Connections The cultists family and close friends know
 1, All about the cult; they are also members..
 2, Several dark secrets about the cult.
 3, Enough to know that the cult is dangerous.

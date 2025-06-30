@@ -2,9 +2,23 @@
 
 :Start
 1, bards: SONGS AND SHENANIGANS
+_<br>
+_Background: The bard is [[Background The bard is]]<br>
+_Instrument: The bard carries his/her [[Instrument The bard carries hisorher]]<br>
+_Instrument History: The instrument is [[Instrument History The instrument is]]<br>
+_Weapons and Tricks: The bard has [[Weapons and Tricks The bard has]]<br>
+_Possession: The bard also carries [[Possession The bard also carries]]<br>
+_Apparel: The bard is wearing [[Apparel The bard is wearing]]<br>
+_Trait: The bard has [[Trait The bard has]]<br>
+_Goal: The bard is looking for [[Goal The bard is looking for]]<br>
+_Fans: The bard is a big hit among [[Fans The bard is a big hit among]]<br>
+_Tale: The bard tells of a recent visit to [[Tale The bard tells of a recent visit to]]<br>
+_The song is about (roll twice) [[The song is about roll twice]]<br>
+_The song is popular because [[The song is popular because]]<br>
+_The song is commonly sung at [[The song is commonly sung at]]<br>
 
 
-:Background, The bard is
+:Background The bard is
 1, A talented singer.
 2, A graceful dancer.
 3, A virtuoso musician.
@@ -27,7 +41,7 @@
 20, A terrible singer.
 
 
-:Instrument, The bard carries hisorher
+:Instrument The bard carries hisorher
 1, Bagpipes.
 2, Bells.
 3, Castanets.
@@ -50,7 +64,7 @@
 20, Zither.
 
 
-:Instrument History, The instrument is
+:Instrument History The instrument is
 1, A gift from a wealthy patron.
 2, A family heirloom.
 3, Very old, but well maintained.
@@ -63,7 +77,7 @@
 10, The instrument of a legendary bard.
 
 
-:Weapons and Tricks, The bard has
+:Weapons and Tricks The bard has
 1, Several sharp daggers.
 2, A lightweight saber.
 3, A finely-crafted shortsword.
@@ -78,7 +92,7 @@
 12, Quick wits and a gift for lying.
 
 
-:Possession, The bard also carries
+:Possession The bard also carries
 1, A compromising love letter.
 2, A lacy favor from a maiden.
 3, Some parchment with half-finished poems.
@@ -93,15 +107,15 @@
 12, A jar of mustache wax.
 
 
-:Apparel, The bard is wearing
+:Apparel The bard is wearing
 1, Tight-fitting pants.
 2, A low-cut shirt.
 3, A revealing set of breeches.
 4, A traveler's cloak.
 5, A heavy peddler's pack.
-6, A wide-brimmed hat with a large exotic feather  [A wide-brimmed hat with a large exotic feather]
-7, Shiny boots made from an exotic hide  [Shiny boots made from an exotic hide]
-8, A coat made from an exotic hide  [A coat made from an exotic hide]
+6, A wide-brimmed hat with a large exotic feather  [[A wide-brimmed hat with a large exotic feather]]
+7, Shiny boots made from an exotic hide  [[Shiny boots made from an exotic hide]]
+8, A coat made from an exotic hide  [[A coat made from an exotic hide]]
 9, A large golden necklace.
 10, Flashy earrings.
 11, Dancing shoes.
@@ -141,7 +155,7 @@
 6, zebra.
 
 
-:Trait, The bard has
+:Trait The bard has
 1, A silver tongue.
 2, A gift for satire and wit.
 3, A beautiful face.
@@ -156,7 +170,7 @@
 12, A handsome mustache.
 
 
-:Goal, The bard is looking for
+:Goal The bard is looking for
 1, A new tale to tell.
 2, Inspiration for a song.
 3, A beautiful muse.
@@ -171,7 +185,7 @@
 12, A night of drinking and merrymaking.
 
 
-:Fans, The bard is a big hit among
+:Fans The bard is a big hit among
 1, Fishermen, sailors, and pirates.
 2, Farmers and herders.
 3, Miners and travelers.
@@ -184,7 +198,7 @@
 10, Lonely wives.
 
 
-:Tale, The bard tells of a recent visit to
+:Tale The bard tells of a recent visit to
 1, A royal court.
 7, A wild mountain.
 2, A distant castle. 8. A legendary tomb.
@@ -194,27 +208,27 @@
 6, A savage land. 12. A haunted castle.
 
 
-:The song is about ,roll twice
-1, A young common woman  [A young common woman]
-2, A common woman  [A common woman]
-3, A noblewoman  [A noblewoman]
-4, A priestess  [A priestess]
-5, A witch  [A witch]
-6, A wizard  [A wizard]
-7, A warrior  [A warrior]
-8, A rogue  [A rogue]
-9, A priest  [A priest]
-10, A common man  [A common man]
-11, A nobleman  [A nobleman]
-12, A great beast  [A great beast]
-13, A diminutive beast  [A diminutive beast]
-14, An aquatic creature  [An aquatic creature]
-15, A bird  [A bird]
-16, A monster  [A monster]
-17, An event  [An event]
-18, A wild location  [A wild location]
-19, A settled place  [A settled place]
-20, An item or object  [An item or object]
+:The song is about roll twice
+1, A young common woman  [[A young common woman]]
+2, A common woman  [[A common woman]]
+3, A noblewoman  [[A noblewoman]]
+4, A priestess  [[A priestess]]
+5, A witch  [[A witch]]
+6, A wizard  [[A wizard]]
+7, A warrior  [[A warrior]]
+8, A rogue  [[A rogue]]
+9, A priest  [[A priest]]
+10, A common man  [[A common man]]
+11, A nobleman  [[A nobleman]]
+12, A great beast  [[A great beast]]
+13, A diminutive beast  [[A diminutive beast]]
+14, An aquatic creature  [[An aquatic creature]]
+15, A bird  [[A bird]]
+16, A monster  [[A monster]]
+17, An event  [[An event]]
+18, A wild location  [[A wild location]]
+19, A settled place  [[A settled place]]
+20, An item or object  [[An item or object]]
 
 
 :A young common woman 

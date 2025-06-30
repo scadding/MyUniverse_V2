@@ -1,10 +1,24 @@
 
 
 :Start
-1, military companies: WE HAVE MET THE ENEMY
+1, military companies: WE HAVE MET THE ENEMY...
+_<br>
+_Colors: The company's colors are [[Colors The companys colors are]]<br>
+_Symbol: The company's banner features [[Symbol The companys banner features]]<br>
+_Leader: The company's commander is [[Leader The companys commander is]]<br>
+_Morale: The company's attitude toward their commander is [[Morale The companys attitude toward their commander is]]<br>
+_Specialization: The company specializes in [[Specialization The company specializes in]]<br>
+_Reputation: The company is notorious for [[Reputation The company is notorious for]]<br>
+_Armor: Most soldiers in the company are outfitted with [[Armor Most soldiers in the company are outfitted with]]<br>
+_Weapons: Most soldiers in the company [[Weapons Most soldiers in the company]]<br>
+_Training: Most soldiers in the company are [[Training Most soldiers in the company are]]<br>
+_Background: The soldier is [[Background The soldier is]]<br>
+_Motivation: The soldier fights for [[Motivation The soldier fights for]]<br>
+_Trait: On the soldier's face is [[Trait On the soldiers face is]]<br>
+_Possession: The soldier carries [[Possession The soldier carries]]<br>
 
 
-:Colors, The company's colors are
+:Colors The companys colors are
 1, Black.
 2, Red / scarlet.
 3, Gold.
@@ -27,7 +41,7 @@
 20, Olive green.
 
 
-:Symbol, The company's banner features
+:Symbol The companys banner features
 1, A skull.
 2, A clenched fist.
 3, A flame.
@@ -50,7 +64,7 @@
 20, A wolf.
 
 
-:Leader, The company's commander is
+:Leader The companys commander is
 1, A brilliant strategist.
 2, A scion from a prominent family.
 3, An outcast from a prominent family.
@@ -63,7 +77,7 @@
 10, A former arena champion.
 
 
-:Morale, The company's attitude toward their commander is
+:Morale The companys attitude toward their commander is
 1, Friendly and loyal.
 2, Respectful and business-like.
 3, Cautious and uncertain.
@@ -72,7 +86,7 @@
 6, Agitated and restless.
 
 
-:Specialization, The company specializes in
+:Specialization The company specializes in
 1, Siege-breaking.
 2, Holding redoubts.
 3, Frontal assaults.
@@ -83,7 +97,7 @@
 8, Foraging.
 
 
-:Reputation, The company is notorious for
+:Reputation The company is notorious for
 1, Taking no prisoners.
 2, Scarring or branding prisoners.
 3, Incompetence.
@@ -94,7 +108,7 @@
 8, Drinking too much ale and wine.
 
 
-:Armor, Most soldiers in the company are outfitted with
+:Armor Most soldiers in the company are outfitted with
 1, Patched leather armor.
 2, Leather armor marked with the symbol of
 3, their liege lord.
@@ -105,7 +119,7 @@
 8, Newly-forged scale armor.
 
 
-:Weapons, Most soldiers in the company
+:Weapons Most soldiers in the company
 1, Longswords and shortbows.
 2, Longswords and crossbows.
 3, Longswords and shields.
@@ -120,7 +134,7 @@
 12, Halberds and handaxes.
 
 
-:Training, Most soldiers in the company are
+:Training Most soldiers in the company are
 1, Trained men-at-arms.
 2, Militia men.
 3, Veterans of war.
@@ -131,7 +145,7 @@
 8, Green boys.
 
 
-:Background, The soldier is
+:Background The soldier is
 1, A farm boy.
 2, The son of a miner or fisherman.
 3, A veteran of gladiatorial combat.
@@ -146,7 +160,7 @@
 12, A favorite among the ladies.
 
 
-:Motivation, The soldier fights for
+:Motivation The soldier fights for
 1, The steady pay.
 2, The love of someone he cannot have.
 3, Pure bloodlust.
@@ -161,7 +175,7 @@
 12, Strength and honor.
 
 
-:Trait, On the soldier's face is
+:Trait On the soldiers face is
 1, A large wart.
 2, An eyepatch.
 3, An unsightly scar.
@@ -176,7 +190,7 @@
 12, A lush, thick mustache.
 
 
-:Possession, The soldier carries
+:Possession The soldier carries
 1, A blade with soft leather tassels dangling from the pommel.
 2, A blade with a carved hilt (ivory, jade, soapstone, ebony, mahogany, or oak).
 3, A blade with beasts sculpted into the steel of the guard (dragons, lions, scorpions, snakes, spiders, or wolves).

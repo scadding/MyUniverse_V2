@@ -1,10 +1,22 @@
 
 
 :Start
-1, caverns: INTO THE DARK
+1, caverns: INTO THE DARK...
+_<br>
+_Entrance: The cave mouth is [[Entrance The cave mouth is]]<br>
+_Distinguishing Landmark: You see [[Distinguishing Landmark You see]]<br>
+_Features: You notice [[Features You notice]]<br>
+_Ecology: The creature is [[Ecology The creature is]]<br>
+_Hazards/Obstacles: You find [[HazardsorObstacles You find]]<br>
+_Walls: The cave wall is [[Walls The cave wall is]]<br>
+_Ceiling: The cave ceiling is [[Ceiling The cave ceiling is]]<br>
+_Travelers/Visitors: You come upon [[TravelersorVisitors You come upon]]<br>
+_Background: The dark elf is [[Background The dark elf is]]<br>
+_Goal: The dark elf is looking to [[Goal The dark elf is looking to]]<br>
+_Possession: The dark elf carries [[Possession The dark elf carries]]<br>
 
 
-:Entrance, The cave mouth is
+:Entrance The cave mouth is
 1, Wide and tall, letting much daylight into the entry chamber.
 2, A wide sinkhole.
 3, An easy to spot, narrow passage.
@@ -12,9 +24,9 @@
 5, A man-made tunnel.
 6, A collapsed tunnel, impassable without excavation.
 7, Marked with several warning signs.
-8, Hidden by the terrain  [Hidden by the terrain]
-9, Hidden by vegetation [Hidden by vegetation]
-10, Difficult to access  [Difficult to access]
+8, Hidden by the terrain  [[Hidden by the terrain]]
+9, Hidden by vegetation [[Hidden by vegetation]]
+10, Difficult to access  [[Difficult to access]]
 
 
 :Hidden by the terrain 
@@ -38,7 +50,7 @@
 6, through an illusory rock or wall.
 
 
-:Distinguishing Landmark, You see
+:Distinguishing Landmark You see
 1, A trickle of water flowing down the walls and across the floor.
 2, An underground lake of potable water.
 3, A pool of stagnant water.
@@ -61,7 +73,7 @@
 20, A claustrophobic tunnel with a low ceiling.
 
 
-:Features, You notice
+:Features You notice
 1, A cache of abandoned, decrepit mining equipment.
 2, Bullywugs.
 3, Many bones underfoot.
@@ -127,7 +139,7 @@
 6, drums.
 
 
-:Ecology, The creature is
+:Ecology The creature is
 1, A predator or a hunter.
 2, A food source for other denizens.
 3, A recently-arrived squatter or invader.
@@ -140,7 +152,7 @@
 10, Severely out of place in this cave.
 
 
-:HazardsorObstacles, You find
+:HazardsorObstacles You find
 1, A colony of poisonous mushrooms.
 2, A patch of toxic mold.
 3, The ceiling caves in.
@@ -149,7 +161,7 @@
 6, Your foot misses the floor as you step into a pit or chasm.
 
 
-:Walls, The cave wall is
+:Walls The cave wall is
 1, Slightly damp.
 2, Dripping wet.
 3, Slick with mold.
@@ -164,7 +176,7 @@
 12, Covered in an unidentifiable slime.
 
 
-:Ceiling, The cave ceiling is
+:Ceiling The cave ceiling is
 1, Uncomfortably close to your head.
 2, Covered in stalactites (watch your head!).
 3, Smooth as glass.
@@ -173,19 +185,19 @@
 6, So high it is difficult to see.
 
 
-:TravelersorVisitors, You come upon
-1, An explorer  [An explorer]
-2, An escaped slave  [An escaped slave]
-3, A forager  [A forager]
-4, A fugitive criminal  [A fugitive criminal]
-5, A lost treasure hunter  [A lost treasure hunter]
-6, A mapmaker  [A mapmaker]
-7, A messenger  [A messenger]
-8, A miner  [A miner]
-9, A prospector  [A prospector]
-10, A scout  [A scout]
-11, A soldier  [A soldier]
-12, A spy  [A spy]
+:TravelersorVisitors You come upon
+1, An explorer  [[An explorer]]
+2, An escaped slave  [[An escaped slave]]
+3, A forager  [[A forager]]
+4, A fugitive criminal  [[A fugitive criminal]]
+5, A lost treasure hunter  [[A lost treasure hunter]]
+6, A mapmaker  [[A mapmaker]]
+7, A messenger  [[A messenger]]
+8, A miner  [[A miner]]
+9, A prospector  [[A prospector]]
+10, A scout  [[A scout]]
+11, A soldier  [[A soldier]]
+12, A spy  [[A spy]]
 
 
 :An explorer 
@@ -278,7 +290,7 @@
 6, kobold.
 
 
-:Background, The dark elf is
+:Background The dark elf is
 1, A deadly assassin.
 2, A death-marked heretic.
 3, An ambitious mage.
@@ -289,14 +301,14 @@
 8, A patient and calculating spy.
 
 
-:Goal, The dark elf is looking to
+:Goal The dark elf is looking to
 1, Track an unnatural beast or invader.
 3, Lead any travelers into a dangerous trap.
 4, Find some knowledge about an ancient event or place.
 6, Share some wine while prying for secrets.
 
 
-:Possession, The dark elf carries
+:Possession The dark elf carries
 1, An ancient wand or staff.
 3, A unique gem or piece of jewelry.
 4, A finely-crafted short sword or crossbow.

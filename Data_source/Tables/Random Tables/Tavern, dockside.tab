@@ -2,9 +2,35 @@
 
 :Start
 1, dockside taverns: WHAT DO YOU DO WITH A DRUNKEN SAILOR?
+_<br>
+_This place is called the (roll 2x) [[This place is called the roll 2x]]<br>
+_Location: The place is right next to [[Location The place is right next to]]<br>
+_Tonight, we dine on [[Tonight we dine on]]<br>
+_Or perhaps, the [[Or perhaps the]]<br>
+_Or perhaps, the [[Or perhaps the]]<br>
+_Size: The tavern is [[Size The tavern is]]<br>
+_Or maybe, the (roll 2x) [[Or maybe the roll 2x]]<br>
+_Or maybe, the (roll 2x) [[Or maybe the roll 2x]]<br>
+_Background: The place is owned by [[Background The place is owned by]]<br>
+_Work: The proprietor [[Work The proprietor]]<br>
+_Concern: Recently, trouble with [[Concern Recently trouble with]]<br>
+_Structure: The tavern is [[Structure The tavern is]]<br>
+_Wallhangings: On the walls hang [[Wallhangings On the walls hang]]<br>
+_Bar: The bar is made of [[Bar The bar is made of]]<br>
+_Availability: The place has [[Availability The place has]]<br>
+_Room quality: The rooms are [[Room quality The rooms are]]<br>
+_Sleeping: The beds are [[Sleeping The beds are]]<br>
+_Special: The barkeep will help you find [[Special The barkeep will help you find]]<br>
+_Dinner is [[protein]]<br>
+_with [[side]]<br>
+_and [[vegetable]]<br>
+_On the side, there is some [[On the side there is some]]<br>
+_To wash it down, we have some [[To wash it down we have some]]<br>
+_For entertainment tonight, there is/are [[For entertainment tonight there is]]<br>
+_Among the crowd, you meet [[Among the crowd you meet]]<br>
 
 
-:This place is called the ,roll 2x
+:This place is called the roll 2x
 1, Crab
 2, Dolphin
 3, Mermaid
@@ -17,7 +43,7 @@
 10, Whale
 
 
-:Location, The place is right next to
+:Location The place is right next to
 1, A customs house.
 2, A prison.
 3, A ferry port.
@@ -40,7 +66,7 @@
 20, An antiquities shop.
 
 
-:Tonight, we dine on
+:Tonight we dine on
 1, Stewed.
 2, Breaded.
 3, Fried.
@@ -53,7 +79,7 @@
 10, Pickled.
 
 
-:Or perhaps, the
+:Or perhaps the
 1, Alehouse
 2, Anchor
 3, Cabin
@@ -66,14 +92,14 @@
 10, Tavern
 
 
-:Size, The tavern is
+:Size The tavern is
 1, Tiny 10 or fewer patrons at a time.
 3, Small 11-20 patrons at a time.
 5, Decent-sized 21-50 patrons at a time.
 6, Large 50 or more patrons at a time.
 
 
-:Or maybe, the ,roll 2x
+:Or maybe the roll 2x
 1, Albatross
 2, Dragon
 3, Ghost
@@ -86,7 +112,7 @@
 10, Tide.
 
 
-:Background, The place is owned by
+:Background The place is owned by
 1, An old sea captain.
 2, A suspicious fisherman's wife.
 3, A shrewd gambler.
@@ -99,7 +125,7 @@
 10, A flirtatious tart.
 
 
-:Work, The proprietor
+:Work The proprietor
 1, Buses tables.
 2, Minds the door.
 3, Performs for patrons most nights.
@@ -112,7 +138,7 @@
 10, Hasn't set foot in the place in years.
 
 
-:Concern, Recently, trouble with
+:Concern Recently trouble with
 1, Some rowdy patrons.
 2, Some local thugs offering "protection."
 3, Some local authorities demanding bribes.
@@ -125,7 +151,7 @@
 10, Rats—or worse—in the cellar or storeroom.
 
 
-:Structure, The tavern is
+:Structure The tavern is
 1, A sturdy stone structure.
 2, A rickety two-story structure.
 3, A shabby looking old house.
@@ -138,7 +164,7 @@
 10, Located down a dark, twisting alley.
 
 
-:Wallhangings, On the walls hang
+:Wallhangings On the walls hang
 1, Carved mermaids.
 2, Fishing tackle.
 3, Naval banners.
@@ -153,7 +179,7 @@
 12, Sealskins and harpoons.
 
 
-:Bar, The bar is made of
+:Bar The bar is made of
 1, A couple of overturned barrels.
 2, A long wooden table.
 3, A mosaic of seashells, corals, and bones.
@@ -164,13 +190,13 @@
 8, Wood carved to depict figures or shapes.
 
 
-:Availability, The place has
+:Availability The place has
 4, Plenty of rooms.
 5, A large dormitory.
 6, No lodging.
 
 
-:Room quality, The rooms are
+:Room quality The rooms are
 1, A little dusty.
 2, A little smelly.
 3, Absolutely filthy.
@@ -179,14 +205,14 @@
 6, Simply furnished.
 
 
-:Sleeping, The beds are
+:Sleeping The beds are
 1, Wood pallets.
 5, Hammocks.
 3, Straw mats.
 6, Pretty comfortable.
 
 
-:Special, The barkeep will help you find
+:Special The barkeep will help you find
 1, A boat to rent.
 2, Ship's passage.
 3, Wood for a fire.
@@ -201,7 +227,7 @@
 12, A harlot's company.
 
 
-:
+:protein
 1, Clams.
 2, Crab.
 3, Herring.
@@ -224,7 +250,7 @@
 20, Mutton.
 
 
-:with
+:side
 1, Golden potatoes.
 2, Red potatoes.
 3, Beets.
@@ -236,7 +262,7 @@
 9, Wild rice.
 
 
-:and
+:vegetable
 1, Carrots.
 2, Red cabbage.
 3, Green cabbage.
@@ -250,7 +276,7 @@
 11, Yellow onions.
 
 
-:On the side, there is some
+:On the side there is some
 1, Sourdough bread.
 2, Fresh bread.
 3, Crusty bread.
@@ -261,7 +287,7 @@
 8, Beer bread.
 
 
-:To wash it down, we have some
+:To wash it down we have some
 1, Bitter ale.
 2, Wheat ale.
 3, Steam beer.
@@ -274,7 +300,7 @@
 10, Dry rum.
 
 
-:For entertainment tonight, there isorare
+:For entertainment tonight there is
 1, A charming singer performing bawdy songs.
 2, A sailor leading a chorus of sea chanteys.
 3, Dancing girls coaxing patrons to their feet.
@@ -289,7 +315,7 @@
 12, Snail races.
 
 
-:Among the crowd, you meet
+:Among the crowd you meet
 1, A grim captain.
 2, An apprentice clerk.
 3, A local fisherman.

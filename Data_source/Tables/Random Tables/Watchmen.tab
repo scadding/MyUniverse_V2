@@ -2,9 +2,28 @@
 
 :Start
 1, watchmen: TO SERVE AND PROTECT
+_<br>
+_Colors: The watch's colors are [[Colors The watchs colors are]]<br>
+_Symbol: The watch's symbol is [[Symbol The watchs symbol is]]<br>
+_Captain: The watch's captain is [[Captain The watchs captain is]]<br>
+_Morale: The watch's attitude toward their captain is [[Morale The watchs attitude toward their captain is]]<br>
+_Reputation: The watch is known for [[Reputation The watch is known for]]<br>
+_Armor or Uniforms: Most members of the watch are outfitted with [[Armor or Uniforms Most members of the watch are outfitted with]]<br>
+_Weapons: Most members of the watch are equipped with [[Weapons Most members of the watch are equipped with]]<br>
+_Headquarters: The watch captain's office is [[Headquarters The watch captains office is]]<br>
+_Background: The guard is [[Background The guard is]]<br>
+_Motivation: The guard works for [[Motivation The guard works for]]<br>
+_Trait: On the guard's face is [[Trait On the guards face is]]<br>
+_Uniform: The guard's uniform is [[Uniform The guards uniform is]]<br>
+_Possession: The guard carries [[Possession The guard carries]]<br>
+_Background: The constable is [[Background The constable is]]<br>
+_Motivation: The constable works for [[Motivation The constable works for]]<br>
+_Trait: On the constable's face is [[Trait On the constables face is]]<br>
+_Possession: The constable carries [[Possession The constable carries]]<br>
+_Knowledge: The constable is particularly knowledgeable on [[Knowledge The constable is particularly knowledgeable on]]<br>
 
 
-:Colors, The watch's colors are
+:Colors The watchs colors are
 1, Black.
 2, Red / scarlet.
 3, Gold.
@@ -19,7 +38,7 @@
 12, Dark brown.
 
 
-:Symbol, The watch's symbol is
+:Symbol The watchs symbol is
 1, A flame.
 2, A gauntlet.
 3, A shield.
@@ -34,7 +53,7 @@
 12, A wolf.
 
 
-:Captain, The watch's captain is
+:Captain The watchs captain is
 1, A religious zealot.
 2, A scion from a prominent family.
 3, An outcast from a prominent family.
@@ -49,7 +68,7 @@
 12, A devoted public servant.
 
 
-:Morale, The watch's attitude toward their captain is
+:Morale The watchs attitude toward their captain is
 1, Friendly and loyal.
 2, Respectful and business-like.
 3, Completely indifferent.
@@ -58,7 +77,7 @@
 6, Disappointed and disrespectful.
 
 
-:Reputation, The watch is known for
+:Reputation The watch is known for
 1, High morals.
 2, Efficiency.
 3, Reliability.
@@ -73,7 +92,7 @@
 12, Rowdiness..
 
 
-:Armor or Uniforms, Most members of the watch are outfitted with
+:Armor or Uniforms Most members of the watch are outfitted with
 1, Rough-spun wool cloaks.
 2, Whatever armor they can find.
 3, Leather armor marked with the symbol of the watch.
@@ -82,7 +101,7 @@
 6, Well-maintained chainmail.
 
 
-:Weapons, Most members of the watch are equipped with
+:Weapons Most members of the watch are equipped with
 1, Maces and shields.
 2, Maces and crossbows.
 3, Staves and crossbows.
@@ -95,7 +114,7 @@
 10, Pikes and shortbows.
 
 
-:Headquarters, The watch captain's office is
+:Headquarters The watch captains office is
 1, In the city or town hall building.
 2, In the basement of a crafters' guild.
 3, Next to a temple or shrine.
@@ -106,7 +125,7 @@
 8, At the top of a watchtower.
 
 
-:Background, The guard is
+:Background The guard is
 1, A farm boy.
 2, The son of a miner or fisherman.
 3, A veteran of warfare.
@@ -119,7 +138,7 @@
 10, A favorite among the ladies.
 
 
-:Motivation, The guard works for
+:Motivation The guard works for
 1, The steady pay.
 2, A chance to deal out sadistic punishment.
 3, Gold to repay debts.
@@ -128,7 +147,7 @@
 6, Patriotic devotion.
 
 
-:Trait, On the guard's face is
+:Trait On the guards face is
 1, A large wart.
 2, An unsightly scar.
 3, A look of determination.
@@ -143,7 +162,7 @@
 12, A beautiful, waxed mustache.
 
 
-:Uniform, The guard's uniform is
+:Uniform The guards uniform is
 1, Pristine.
 2, Clean and tidy.
 3, Clean, but wrinkled.
@@ -154,7 +173,7 @@
 8, Two sizes too large.
 
 
-:Possession, The guard carries
+:Possession The guard carries
 1, A blade with soft leather tassels dangling from the pommel.
 2, A blade with an inscription.
 3, A highly polished blade.
@@ -167,7 +186,7 @@
 10, A grocery list.
 
 
-:Background, The constable is
+:Background The constable is
 1, An eccentric priest.
 2, A stoic monk.
 3, A former soldier.
@@ -180,11 +199,11 @@
 10, Ruggedly handsome.
 
 
-:Motivation, The constable works for
+:Motivation The constable works for
 1, The steady pay.
 2, A chance to bring evil-doers to justice.
 3, Gold to repay debts.
-4, Gold to support his addiction  [Gold to support his addiction]
+4, Gold to support his addiction  [[Gold to support his addiction]]
 5, The joy of solving mysteries.
 6, A chance for vengeance.
 
@@ -196,7 +215,7 @@
 6, smoking.
 
 
-:Trait, On the constable's face is
+:Trait On the constables face is
 1, A scar from a burn.
 2, A jagged scar.
 3, A hard-set jaw.
@@ -211,10 +230,10 @@
 12, An intimidating mustache.
 
 
-:Possession, The constable carries
+:Possession The constable carries
 1, A magnifying lens.
-2, A blade with a carved hilt  [A blade with a carved hilt]
-3, A blade with beasts sculpted into the steel of the guard  [A blade with beasts sculpted into the steel of the guard]
+2, A blade with a carved hilt  [[A blade with a carved hilt]]
+3, A blade with beasts sculpted into the steel of the guard  [[A blade with beasts sculpted into the steel of the guard]]
 4, A blade made of blackened steel.
 5, An unusual hat.
 6, A clue from an unsolved crime.
@@ -242,7 +261,7 @@
 6, wolves.
 
 
-:Knowledge, The constable is particularly knowledgeable on
+:Knowledge The constable is particularly knowledgeable on
 1, City or national politics.
 2, The law and legal proceedings.
 3, Religious history and philosophy.

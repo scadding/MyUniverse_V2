@@ -2,9 +2,81 @@
 
 :Start
 1, shadow-touched deserts: DESERT VARIANT (PAGE THREE)
+_<br>
+_Interesting Location: You find [[Interesting Location You find]]<br>
+_Distinguishing Landmark: You see [[Distinguishing Landmark You see]]<br>
+_Feature: You notice [[Feature You notice]]<br>
+_Landscape: This desert is [[Landscape This desert is]]<br>
+_Ground: Beneath your feet, the soil is [[Ground Beneath your feet the soil is]]<br>
+_Encounters: You come upon [[Encounters You come upon]]<br>
+_Hazards/Obstacles: You run into [[HazardsorObstacles You run into]]<br>
+_Climate: The rains come to this desert [[Climate The rains come to this desert]]<br>
+_What's in the cave/cavern? [[Whats in the caveorcavern]]<br>
+_What's in the hole/burrow? [[Whats in the holeorburrow]]<br>
+_Who built this monastery? [[Who built this monastery]]<br>
+_The temple was built to honor [[The temple was built to honor]]<br>
+_Who lives in the peculiar tent? [[Who lives in the peculiar tent]]<br>
+_Who built the stone house? [[Who built the stone house]]<br>
+_Who resides in the stone house now? [[Who resides in the stone house now]]<br>
+_Who built the ancient ruins? [[Who built the ancient ruins]]<br>
+_Who lives in the ancient ruins now? [[Who lives in the ancient ruins now]]<br>
+_What built the watchtower? [[What built the watchtower]]<br>
+_Who holds the watchtower now? [[Who holds the watchtower now]]<br>
+_Who camped here? [[Who camped here]]<br>
+_Who is/was mining here? [[Who isorwas mining here]]<br>
+_Mining here and for what? [[Mining here and for what]]<br>
+_Whose soul or remains haunt the tomb? [[Whose soul or remains haunt the tomb]]<br>
+_<br>
+_Interesting Location: You find [[Interesting Location You find]]<br>
+_Distinguishing Landmark: You see [[Distinguishing Landmark You see]]<br>
+_Feature: You notice [[Feature You notice]]<br>
+_Landscape: This desert is [[Landscape This desert is]]<br>
+_Ground: Beneath your feet, the soil is [[Ground Beneath your feet the soil is]]<br>
+_Encounters: You come upon [[Encounters You come upon]]<br>
+_Hazards/Obstacles: You run into [[HazardsorObstacles You run into]]<br>
+_Climate: The rains come to this desert [[Climate The rains come to this desert]]<br>
+_Who lives in the peculiar tent? [[Who lives in the peculiar tent]]<br>
+_Who built the stone house? [[Who built the stone house]]<br>
+_Who resides in the stone house now? [[Who resides in the stone house now]]<br>
+_Who built the ancient ruins? [[Who built the ancient ruins]]<br>
+_Who lives in the ancient ruins now? [[Who lives in the ancient ruins now]]<br>
+_What built the watchtower? [[What built the watchtower]]<br>
+_Who holds the watchtower now? [[Who holds the watchtower now]]<br>
+_Who camped here? [[Who camped here]]<br>
+_Who built this monastery? [[Who built this monastery]]<br>
+_Who is/was mining here? [[Who isorwas mining here]]<br>
+_Mining here and for what? [[Mining here and for what]]<br>
+_Whose soul or remains haunt the tomb? [[Whose soul or remains haunt the tomb]]<br>
+_What's in the cave/cavern? [[Whats in the caveorcavern]]<br>
+_What's in the hole/burrow? [[Whats in the holeorburrow]]<br>
+_The temple was built to honor [[The temple was built to honor]]<br>
+_<br>
+_Interesting Location: You find [[Interesting Location You find]]<br>
+_Distinguishing Landmark: You see [[Distinguishing Landmark You see]]<br>
+_Feature: You notice [[Feature You notice]]<br>
+_Landscape: This desert is [[Landscape This desert is]]<br>
+_Ground: Beneath your feet, the soil is [[Ground Beneath your feet the soil is]]<br>
+_Encounters: You come upon [[Encounters You come upon]]<br>
+_Hazards/Obstacles: You run into [[HazardsorObstacles You run into]]<br>
+_Climate: The rains come to this desert [[Climate The rains come to this desert]]<br>
+_What's in the cave/cavern? [[Whats in the caveorcavern]]<br>
+_What's in the hole/burrow? [[Whats in the holeorburrow]]<br>
+_Who built this monastery? [[Who built this monastery]]<br>
+_The temple was built to honor [[The temple was built to honor]]<br>
+_Who lives in the peculiar tent? [[Who lives in the peculiar tent]]<br>
+_Who built the stone house? [[Who built the stone house]]<br>
+_Who resides in the stone house now? [[Who resides in the stone house now]]<br>
+_Who built the ancient ruins? [[Who built the ancient ruins]]<br>
+_Who lives in the ancient ruins now? [[Who lives in the ancient ruins now]]<br>
+_What built the watchtower? [[What built the watchtower]]<br>
+_Who holds the watchtower now? [[Who holds the watchtower now]]<br>
+_Who camped here? [[Who camped here]]<br>
+_Who is in the grave? [[Who is in the grave]]<br>
+_The grave is covered with [[The grave is covered with]]<br>
+_Whose soul or remains haunt the tomb? [[Whose soul or remains haunt the tomb]]<br>
 
 
-:Interesting Location, You find
+:Interesting Location You find
 1, A cavern in a canyon wall.
 2, A cave entrance, hidden by a boulder.
 3, A small cave next to a dry river bed.
@@ -27,7 +99,7 @@
 20, An ancient tomb.
 
 
-:Distinguishing Landmark, You see
+:Distinguishing Landmark You see
 1, An oasis with foul-smelling water.
 2, An oasis with a tree bearing rotten fruit.
 3, An unusually large, prickly desert plant.
@@ -50,7 +122,7 @@
 20, A sheer rock wall with a strange mist lingering overhead.
 
 
-:Feature, You notice
+:Feature You notice
 1, A buzzard circles overhead.
 2, A vulture screams.
 3, A flock of crows scatter.
@@ -73,7 +145,7 @@
 20, The smell of decay.
 
 
-:Landscape, This desert is
+:Landscape This desert is
 1, Rocky.
 2, Flat.
 3, Bleak.
@@ -84,7 +156,7 @@
 8, Wind-swept.
 
 
-:Ground, Beneath your feet, the soil is
+:Ground Beneath your feet the soil is
 1, Cracked.
 2, Hard-packed.
 3, Gravelly.
@@ -95,7 +167,7 @@
 8, Grey.
 
 
-:Encounters, You come upon
+:Encounters You come upon
 1, A shadow snake.
 2, A flock of shadowravens.
 3, A giant spider.
@@ -118,7 +190,7 @@
 20, A terrifying dragon.
 
 
-:HazardsorObstacles, You run into
+:HazardsorObstacles You run into
 1, A rockslide coming down a canyon wall.
 2, A boulder rolling down a canyon wall.
 3, A sinkhole; it suddenly opens beneath you.
@@ -129,7 +201,7 @@
 8, A mirage of an oasis.
 
 
-:Climate, The rains come to this desert
+:Climate The rains come to this desert
 1, Once a year for a few days straight.
 2, On a few days scattered through the year.
 3, In torrents for a few weeks, leaving floods.
@@ -138,7 +210,7 @@
 6, Never; this place hasn't had water in years.
 
 
-:What's in the caveorcavern
+:Whats in the caveorcavern
 1, A swarm of beetles.
 2, Lots of bats.
 3, Many spider webs.
@@ -153,7 +225,7 @@
 12, A creepy hermit.
 
 
-:What's in the holeorburrow
+:Whats in the holeorburrow
 1, A shadow snake.
 2, A giant spider.
 3, So many beetles.

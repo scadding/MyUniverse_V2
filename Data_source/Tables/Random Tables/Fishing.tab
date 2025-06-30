@@ -2,9 +2,30 @@
 
 :Start
 1, fishing: THE DAILY CATCH
+_<br>
+_Home waters: The fisher fishes in [[Home waters The fisher fishes in]]<br>
+_Near-shore catch: You haul in [[Near-shore catch You haul in]]<br>
+_Fishing spot: The fisher typically fishes from [[Fishing spot The fisher typically fishes from]]<br>
+_Fishing gear: The fisher uses [[Fishing gear The fisher uses]]<br>
+_Work style: The fisher prefers to fish [[Work style The fisher prefers to fish]]<br>
+_Goal: The fisher is seeking [[Goal The fisher is seeking]]<br>
+_Tattoo: The fisher has [[Tattoo The fisher has]]<br>
+_Distinguishing feature: The fisher has [[Distinguishing feature The fisher has]]<br>
+_Type: The boat is [[Type The boat is]]<br>
+_Crew: The boat can [[Crew The boat can]]<br>
+_Condition: Presently, the boat is [[Condition Presently the boat is]]<br>
+_Hull: The boat's hull markings feature [[Hull The boats hull markings feature]]<br>
+_Near-shore catch: You haul in [[Near-shore catch You haul in]]<br>
+_Deep-sea catch: You haul in [[Deep-sea catch You haul in]]<br>
+_Rare catch: You haul in [[Rare catch You haul in]]<br>
+_Deep-sea catch: You haul in [[Deep-sea catch You haul in]]<br>
+_Rare catch: You haul in [[Rare catch You haul in]]<br>
+_Cold-water catch: You haul in [[Cold-water catch You haul in]]<br>
+_Warm-water catch: You haul in [[Warm-water catch You haul in]]<br>
+_Swamp-water catch: You haul in [[Swamp-water catch You haul in]]<br>
 
 
-:Home waters, The fisher fishes in
+:Home waters The fisher fishes in
 1, A quiet creek.
 2, A wide river.
 3, A small pond.
@@ -17,7 +38,7 @@
 10, The open ocean.
 
 
-:Near-shore catch, You haul in
+:Near-shore catch You haul in
 1, A clam.
 2, A crab.
 3, A herring.
@@ -30,7 +51,7 @@
 10, A rare catch (see below).
 
 
-:Fishing spot, The fisher typically fishes from
+:Fishing spot The fisher typically fishes from
 1, A sandy or rocky beach.
 2, An embankment, sandbar, or levee.
 3, A pier or bridge.
@@ -39,7 +60,7 @@
 6, Wherever the fish can be reached.
 
 
-:Fishing gear, The fisher uses
+:Fishing gear The fisher uses
 1, A rod and reel with a baited hook.
 2, A rod and reel with a lure.
 3, Baited lines.
@@ -47,7 +68,7 @@
 5, Nets.
 6, Baited lines and nets.
 7, Baited lines and baited traps.
-8, An unusual technique  [An unusual technique]
+8, An unusual technique  [[An unusual technique]]
 
 
 :An unusual technique 
@@ -57,7 +78,7 @@
 6, trained beast.
 
 
-:Work style, The fisher prefers to fish
+:Work style The fisher prefers to fish
 1, Alone, in silence.
 2, Alone, while whistling or humming.
 3, Alone, but within earshot of other
@@ -67,7 +88,7 @@
 7, With an experienced fisherman.
 
 
-:Goal, The fisher is seeking
+:Goal The fisher is seeking
 1, A new apprentice.
 2, The answer to a riddle.
 3, To tell the tale of the one that got away.
@@ -78,7 +99,7 @@
 8, Drinking companions.
 
 
-:Tattoo, The fisher has
+:Tattoo The fisher has
 1, An anchor tattoo.
 2, A pair of crossed bones tattoo.
 3, A fish tattoo.
@@ -89,7 +110,7 @@
 8, A dragon tattoo.
 
 
-:Distinguishing feature, The fisher has
+:Distinguishing feature The fisher has
 1, A wooden pipe.
 2, Rotten teeth.
 3, A gold tooth.
@@ -102,7 +123,7 @@
 10, Long mutton chop sideburns.
 
 
-:Type, The boat is
+:Type The boat is
 1, A flat raft.
 2, A pontoon raft.
 3, A canoe.
@@ -111,14 +132,14 @@
 6, A buss.
 
 
-:Crew, The boat can
+:Crew The boat can
 1, Easily be operated by one person.
 3, Be operated by one person, but some flaw or damage has made handling difficult.
 5, Be operated by two people, but it can be handled by one with difficulty.
 6, Be operated by three or more people, but it can be handled by two with difficulty.
 
 
-:Condition, Presently, the boat is
+:Condition Presently the boat is
 1, Laden with the latest catch.
 2, Well-stocked with bait and gear and ready to go.
 3, In tip-top shape.
@@ -127,7 +148,7 @@
 6, Resting beneath the waves.
 
 
-:Hull, The boat's hull markings feature
+:Hull The boats hull markings feature
 1, A ghost.
 2, A mermaid.
 3, A shark.
@@ -140,7 +161,7 @@
 10, A big tuna.
 
 
-:Deep-sea catch, You haul in
+:Deep-sea catch You haul in
 1, A cuttlefish.
 2, A flounder.
 3, A grouper.
@@ -153,8 +174,8 @@
 10, A rare catch (see below).
 
 
-:Rare catch, You haul in
-1, A piece of junk  [A piece of junk  0]
+:Rare catch You haul in
+1, A piece of junk  [[A piece of junk  0]]
 2, An abalone.
 3, A barracuda (fights, attacks).
 4, A lobster.
@@ -178,7 +199,7 @@
 6, old boot.
 
 
-:Cold-water catch, You haul in
+:Cold-water catch You haul in
 1, A bass (fights).
 2, A carp.
 3, An eel.
@@ -191,7 +212,7 @@
 10, A walleye.
 
 
-:Warm-water catch, You haul in
+:Warm-water catch You haul in
 1, A carp.
 2, A catfish (fights).
 3, An eel.
@@ -204,7 +225,7 @@
 10, A trout.
 
 
-:Swamp-water catch, You haul in
+:Swamp-water catch You haul in
 1, A bass (fights).
 2, A catfish (fights).
 3, A crayfish.
