@@ -11,7 +11,7 @@ from src.Generators.tablegen.databaseManager import databaseManager
 from src.Configuration import Configuration
 from src.Singleton import Singleton
 
-class stateManager(metaclass=Singleton):
+class stateManager(variableManager, metaclass=Singleton):
     tree : tableNode
     def __init__(self):
         self.tree = tableNode("Root", uuid=None)

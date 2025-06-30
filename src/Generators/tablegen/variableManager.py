@@ -63,16 +63,23 @@ class variableManager(metaclass=Singleton):
     def setStateVariable(self, node : tableNode, name, var, val):
         variablenode = self.getVariableNode(self.state, node, name=name)
         variablenode.setVariable(var, val)
-    def saveState(self, node : tableNode, name):
+    def saveState(self, node : tableNode, name : str):
         variableNode = self.getVariableNode(self.current, node)
+        # does it exist?
+        #find / create it
+        # symlinks...
         for variableName in variableNode.variabledict:
             if variableName[0] == '_':
                 # temp variable
                 continue
             value = variableNode.variabledict[variableName]
             print('<<%s>> = "%s"' % (variableName, value))
+            # ditch the node, create node based on name
             self.setStateVariable(node, name, variableName, value)
+        # update state
+        # and then drop them
         self.printVariableTree(self.state)
+        print('.'.join(node.nodePath()))
     def getVariable(self, node : tableNode, var):
         variablenode = self.getVariableNode(self.current, node)
         return variablenode.getVariable(var)

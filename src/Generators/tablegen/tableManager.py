@@ -27,13 +27,13 @@ class tableMgr(metaclass=Singleton):
         self.parseManager = parseManager()
         self.tree = tableNode("Root", uuid=None)
         self.config = Configuration()
-        self.walktree(self.config.getValue("Data", "directory"), load=False, node=self.tree)
+        self.walktree(self.config.getValue("Data", "directory"), load=False, node=self.tree) # type: ignore
         # temp only
         # self.importNode(self.tree)
         self.databaseManager.loadTree(self.tree)
     def importTable(self, node : tableNode, id : uuid.UUID):
         self.checkload(node)
-        t : tableFile = node.table
+        t : tableFile = node.table # type: ignore
         self.importVariables(node, id)
         for subTable in t.table:
             self.importSubTable(subTable, node, id)
@@ -175,6 +175,7 @@ class tableMgr(metaclass=Singleton):
                 for retval in self.parseManager.parse(node, state):
                     name = name + retval
                 self.variableManager.saveState(node, name)
+                print("parse result - %s" % (name))
         self.variableManager.clearVariables(node)
         return test
 
