@@ -1,0 +1,354 @@
+
+
+:Start
+1, cults: BOW DOWN TO THE LORD OF WHAT?
+
+
+:Reverence, The cultists revere
+1, A dragon.
+2, A demon lord.
+3, An archdevil.
+4, A long-dead ancient hero  [A long-dead ancient hero]
+5, A long-dead ancient villain  [A long-dead ancient villain]
+6, A dead god or undead being.
+7, An aberrant creature  [An aberrant creature]
+8, An elemental creature.
+9, A primordial or titan.
+10, Primal spirits or an archfey.
+11, An exarch of a god.
+12, The cult's own mortal leader.
+
+
+:A long-dead ancient hero 
+1, bard;
+2, beastmaster
+3, elf-maid or prince;
+4, knight or crusader
+5, hunter
+6, prophet.
+
+
+:A long-dead ancient villain 
+1, giant;
+2, necromancer
+3, vampire or lich;
+4, warlord
+5, werewolf or wererat
+6, witch.
+
+
+:An aberrant creature 
+1, brain eater;
+2, cosmic horror
+3, eye beast
+4, eyeless fish thing
+5, gibbering maw
+6, star spawn.
+
+
+:Shrine, The cultists meet in
+1, A secret chamber in a well-known temple.
+2, The cellar of a popular tavern.
+3, A secret chamber in a large guildhall.
+4, The cellar of a wealthy merchant's house.
+5, The city sewers.
+6, Ancient catacombs beneath the city.
+7, A cabin in the countryside.
+8, A creepy, dark cave.
+9, A heavily guarded chamber within a castle.
+10, The stacks of a well-stocked library.
+
+
+:Leader, The cult's leader is
+1, A devoted acolyte.
+2, A dogmatic teacher.
+3, An adept healer.
+4, A charismatic preacher.
+5, An eccentric scholar.
+6, An outspoken zealot.
+7, A dangerous megalomaniac.
+8, A charismatic demagogue.
+9, A mysterious foreigner.
+10, A well-known public figure.
+11, A ruthless killer.
+12, A femme fatale.
+13, A charming rogue.
+14, A powerful noble.
+15, A talented artist.
+16, A religious fanatic.
+17, A veteran soldier.
+18, A humble artisan.
+19, An ancient hero reborn.
+20, The second coming of a god.
+
+
+:Members, The cult's membership is primarily made up of
+1, The poor and downtrodden  [The poor and downtrodden]
+2, The wealthy elite  [The wealthy elite]
+3, A segment of another religion's flock  [A segment of another religion's flock]
+4, Members of a particular trade  [Members of a particular trade]
+5, Members of a particular race  [Members of a particular race]
+6, Members of all social strata.
+
+
+:The poor and downtrodden 
+1, slaves;
+2, beggars
+4, laborers
+6, servants.
+
+
+:The wealthy elite 
+1, guildmasters;
+3, merchants
+5, nobles
+6, royalty.
+
+
+:A segment of another religion's flock 
+1, sun god
+2, earth mother
+3, death god;
+4, moon goddess
+5, goddess of love;
+6, storm god
+7, trickster god
+8, war god.
+
+
+:Members of a particular trade 
+1, blacksmiths
+2, carpenters
+3, farmers;
+4, fishermen
+5, miners
+6, soldiers;
+7, stonemasons
+8, weavers.
+
+
+:Members of a particular race 
+1, dwarves
+2, elves
+3, gnomes;
+4, goblins
+5, halflings
+6, humans
+7, orcs;
+8, lizardfolk or kobolds.
+
+
+:Rituals, The cult's practices involve ,leadership and believers could adhere to different practices
+1, Animal sacrifice  [Animal sacrifice]
+2, Human sacrifice  [Human sacrifice]
+3, Self-mutilation  [Self-mutilation]
+4, Burnt offerings  [Burnt offerings]
+5, Offerings of gold, gems, and valuables.
+6, Strange incantations.
+7, Public acts of violence  [Public acts of violence]
+8, Ritualistic sexual acts  [Ritualistic sexual acts]
+
+
+:Animal sacrifice 
+1, bulls
+2, calves;
+3, cats
+4, chickens
+5, dogs
+6, goats;
+7, pigeons
+8, rabbits or rats
+9, sheep;
+10, songbirds or waterfowl.
+
+
+:Human sacrifice 
+1, children
+2, the elderly
+3, harlots
+4, priests and priestesses
+5, virgins
+6, volunteers.
+
+
+:Self-mutilation 
+1, arm
+2, back;
+3, cheek
+4, chest
+5, ear
+6, eye
+7, feet;
+8, finger
+9, genitalia
+10, nose.
+
+
+:Burnt offerings 
+1, corpses
+2, rare herbs
+3, sacred incense
+4, high-quality meat
+5, nonbelievers
+6, prisoners.
+
+
+:Public acts of violence 
+1, arson;
+2, beatings
+3, looting
+4, murders
+5, riots;
+6, vandalism.
+
+
+:Ritualistic sexual acts 
+1, bestiality;
+2, breedings
+3, deflowerings
+4, weddings with beddings
+6, orgies.
+
+
+:Goals, The cult's goals ,leadership and believers could have different goals
+1, Domination of the city.
+2, Destruction of the city.
+3, Reincarnation of a long-dead entity.
+4, Declaration of war against a rival city.
+5, Rebellion against the city's elite.
+6, Death to non-believers.
+7, Opening a portal to another plane.
+8, Release of a powerful captive entity.
+
+
+:Rules, The cult's members must follow a strict rule regarding
+1, Wearing a flower in the hair or on the lapel  [Wearing a flower in the hair or on the lapel]
+2, Fashion trends.
+3, Maintaining their personal weapon  [Maintaining their personal weapon]
+4, Treatment of pets.
+5, Mounting a horse.
+6, Dressing one's self for worship.
+7, Dressing one's self for day-to-day activities.
+8, Diet.
+9, Exercise routines.
+10, Bathing.
+11, Styling one's hair.
+12, Brushing one's teeth.
+
+
+:Wearing a flower in the hair or on the lapel 
+1, lily
+2, orchid
+3, rose
+4, petunia
+5, poppy
+6, tulip.
+
+
+:Maintaining their personal weapon 
+2, club
+3, dagger
+4, handaxe
+6, staff.
+
+
+:Taboos, The cult's members are fearful of or take special care to avoid
+1, Hallowed places.
+2, Moonlight.
+3, Sunlight.
+4, Crossing running water.
+5, Sharp wooden objects.
+6, Garlic, onions, or other specific herbs.
+7, Silver objects.
+8, Relics of the gods.
+9, Sleeping outdoors.
+10, Milk and cheese.
+11, Eating meat.
+12, Sobriety.
+
+
+:Morale, The cult's attitude toward their leader is
+1, Loyal and proud.
+2, Devoted and fawning.
+3, Loyal and defensive.
+4, Jealous.
+5, Mutinous.
+6, Fearful.
+
+
+:Zealotry, The cultist
+1, Is an outspoken true believer.
+2, Is a raving lunatic.
+3, Is a quiet, fervent believer.
+4, Has doubts, but is devoted to the cult's leader or causes.
+5, Has doubts, but is too afraid to voice them.
+6, Doesn't care about the religious stuff; the cult meets other needs.
+
+
+:Trait, The cultist has
+1, A bandage on the thumb.
+2, A face tattoo of a holy symbol.
+3, A tattoo depicting an evil icon.
+4, A large scar on the throat.
+5, Scraggly matted hair.
+6, A shaved head.
+7, Scars on the wrists.
+8, A protruding chin.
+9, A maniacal grin.
+10, A surly curl of the lip.
+11, A gap between the front teeth.
+12, A lush, full beard.
+
+
+:Apparel, The cultist is wearing
+1, A string of garlic around the neck.
+2, A robe with a tear at the knee.
+3, A fine silk robe and a lot of perfume.
+4, A large gold ring on one hand.
+5, A hooded robe and a mask.
+6, A robe emblazoned with a holy symbol.
+
+
+:Mannerism, The cultist is
+1, Humming an eerie incantation.
+2, Sweating profusely.
+3, Breathing heavily.
+4, Twitching nervously.
+5, Laughing hysterically.
+6, Muttering under his/her breath.
+7, Coughing up a lung.
+8, Whispering a prayer.
+9, Moving with a limp.
+10, Stinking of wine.
+
+
+:Possession, The cultist carries
+1, A ceremonial dagger.
+2, A book protruding from his or her pocket.
+3, A string of unusual prayer beads.
+4, A club or mace with symbols carved in it.
+5, A tiny scroll of secret prayers.
+6, A large purse.
+
+
+:Goal, The cultist is looking for
+1, Ways to impress the cult's leader.
+2, Tips for seducing the cult's leader.
+3, Methods to assassinate the cult's leader.
+4, Something that will impress his/her god.
+5, Something to eat.
+6, Something to kill.
+7, Ways to advance the cult's goals.
+8, New recruits.
+9, Religious scholars to debate.
+10, A bottle of wine.
+
+
+:Connections, The cultist's family and close friends know
+1, All about the cult; they are also members..
+2, Several dark secrets about the cult.
+3, Enough to know that the cult is dangerous.
+4, Very little about the cult, but they dislike what they do know.
+5, Very little about the cult, but they don't think it sounds too bad.
+6, Absolutely nothing about the cult.
+

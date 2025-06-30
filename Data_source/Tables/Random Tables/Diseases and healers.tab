@@ -1,0 +1,309 @@
+
+
+:Start
+1, diseases: BRING OUT YOUR DEAD
+
+
+:Exposure, This disease is spread by
+1, Inhaling contaminated air.
+2, Drinking contaminated water.
+3, Consuming contaminated food.
+4, Skin-to-skin contact.
+5, Saliva, sweat, mucus, and/or blood.
+6, Sexual contact.
+7, The bite of a fly or tick.
+8, The bite of a rat or bat.
+9, Nothing; it's a genetic condition.
+10, Nothing; it's a chronic condition brought on by lifestyle choices.
+11, Mysterious, magic-related means.
+12, Unknown means.
+
+
+:Incubation, Once exposed to the disease, a person develops symptoms
+1, Almost immediately (1d6 hours).
+2, Very rapidly (4d6 hours).
+3, Within a few days (1d4 days).
+4, In the next week (2d4 days).
+5, In the next few weeks (1d4 wks).
+6, Some time in the next 2 months (2d4 wks).
+7, Some time in the next year (2d6 months).
+8, Some time in the person's life (2d20 yrs).
+
+
+:Geography, This disease is frequently encountered in regions with
+1, A warm climate.
+2, An arid climate.
+3, A mild climate.
+4, A coastal climate.
+5, A temperate climate.
+6, A cold climate.
+7, A damp climate.
+8, Swamps / bogs.
+9, Dense jungles.
+10, High altitude.
+
+
+:Common Symptoms, Affect the
+1, Eyes  [Eyes]
+2, Brain  [Brain]
+3, Chest  [Chest]
+4, Ears and throat  [Ears and throat]
+5, Head and nose  [Head and nose]
+6, Limbs  [Limbs]
+7, Mouth  [Mouth]
+8, Sex organs  [Sex organs]
+9, Skin  [Skin]
+10, Stomach and gut  [Stomach and gut]
+
+
+:Eyes 
+1, blurred vision
+2, light sensitivity
+3, puffiness
+4, poor night vision
+5, watery eyes
+6, yellow discharge;
+7, double vision
+8, difficulty focusing.
+
+
+:Brain 
+1, changes in mood;
+2, dissociative fugues
+3, dizziness;
+4, drowsiness
+5, headaches
+6, insomnia;
+7, nightmares
+8, shortened attention span.
+
+
+:Chest 
+1, chest pain
+2, congestion;
+3, coughing fits
+4, hives
+5, wheezing;
+6, shortness of breath
+7, coughing up blood
+8, tightness in chest.
+
+
+:Ears and throat 
+1, excessive ear wax;
+2, difficulty swallowing
+3, swollen glands;
+4, sore throat
+5, hearing loss
+6, vertigo;
+7, bleeding from the ears
+8, loss of voice.
+
+
+:Head and nose 
+1, dry scalp
+2, hair loss
+3, pimples
+4, sinus pressure;
+5, sneezing
+6, swollen cheeks
+7, runny nose
+8, bleeding from the nose.
+
+
+:Limbs 
+1, achiness
+2, joint pain;
+3, muscle spasms
+4, restlessness
+5, stiff joints
+6, weakness
+7, discoloration of the fingernails or toenails
+8, bruising.
+
+
+:Mouth 
+1, bleeding gums
+2, canker sores
+3, cracked lips
+4, dry mouth;
+5, foamy, excessive salivation
+6, tooth pain
+7, tooth discoloration
+8, tooth decay.
+
+
+:Sex organs 
+1, loss of desire
+2, pale discharge
+3, inability to climax
+4, open sores
+5, pain during urination
+6, warts;
+7, itchy bumps
+8, bloody discharge.
+
+
+:Skin 
+1, black or purple spots
+2, boils;
+3, itchiness
+4, pale or yellow hue;
+5, peeling
+6, rash
+7, red spots
+8, scales.
+
+
+:Stomach and gut 
+1, loss of appetite;
+2, constipation
+3, excessive flatulence;
+4, loose stool
+5, bloody stool
+6, nausea and vomiting
+7, ulcers,
+8, vomiting blood.
+
+
+:Rare Symptoms, May include
+1, Amnesia; partial or complete.
+2, Blindness or deafness.
+3, Coma  [Coma]
+4, Complete changes in personality.
+5, Concurrent vomiting and diarrhea.
+6, Coughing up blood.
+7, Delusions and paranoia.
+8, Extreme, persistent nausea.
+9, Fits of narcolepsy.
+10, Hallucinations.
+11, Insomnia.
+12, Lengthy fits of high fever.
+13, Loss of muscle coordination.
+14, Paralysis; partial or complete.
+15, Periodic, temporary loss of consciousness.
+16, Sleep walking.
+17, Susceptibility to other illnesses.
+18, Tumors or tumor-like growths.
+19, Wild mood swings.
+20, Sudden aversion to one or more familiar foods, individuals, or objects.
+
+
+:Coma 
+2, short-term
+4, long-term;
+6, indefinite.
+
+
+:Natural History, Symptoms are
+2, Acute and curable; once the afflicted is cured, the symptoms never return.
+3, Acute but recurring; once the afflicted is cured, symptoms may return later in life.
+5, Chronic but completely curable; once the afflicted is cured, symptoms rarely return.
+6, Chronic but treatable; after treatment, symptoms will reoccur every few years.
+
+
+:Complications, If untreated, cases are
+1, Rarely serious; running its course in a few days or weeks.
+2, Rarely lethal; fatal complications occur in less than 1% of cases.
+3, Sometimes debilitating, but rarely lethal; permanent disabilities occur in approximately 10% of cases, and fatal complications in less than 1% of cases
+4, Sometimes lethal; fatal complications occur in approximately 10% of cases.
+5, Often debilitating, and sometimes lethal; permanent disabilities occur in more than 50% of cases, and fatal complications in approximately 10% of cases.
+6, Often lethal; fatal complications occur in more than 50% of cases.
+
+
+:Treatment, The cure for the disease is
+1, A simple herbal remedy.
+2, A complex herbal potion or salve.
+3, A widely available healing potion or balm.
+4, A rare alchemical concoction.
+5, No known earthly substances.
+6, Basic healing spells and incantations.
+7, Advanced healing spells and potions.
+8, Extremely powerful and rare magic.
+
+
+:Response time, Treatment is typically
+1, Miraculous; symptoms disappear instantly.
+2, Quick; the afflicted is cured within a few hours of receiving treatment.
+3, Short; the afflicted is cured within a few days of receiving treatment.
+4, Lengthy; the afflicted is cured within a few weeks of receiving treatment.
+5, Long-term; the afflicted is cured within a few months of receiving treatment.
+6, Erratic; the time-course of treatment varies greatly among individuals or among outbreaks of the disease.
+
+
+:Supernatural Symptoms, May include
+1, Belching up vermin.
+2, Demonic or ghostly possession.
+3, The desire to consume humanoid flesh.
+4, The desire to consume rocks or dirt.
+5, The desire to consume pixies and sprites.
+6, The desire to dig a deep hole.
+7, The desire to build an immense wall.
+8, Gaining memories from a long-dead mage.
+9, Gradually morphing into a wild beast.
+10, Gradually morphing into a puddle of ooze.
+11, Imitating the behavior of a common beast.
+12, Loss of the power of speech.
+13, Periodic spells of befuddlement.
+14, Purple or green splotches on the skin.
+15, Rapid growth of facial hair.
+16, Rapid growth of fingernails or teeth.
+17, Rapid hair growth.
+18, Uncontrollable fits of laughter or tears.
+19, Uncontrollable singing or dancing.
+20, Overactive libido.
+
+
+:Profession, The healer is
+1, A devoted acolyte.
+2, A skilled alchemist.
+3, A religious fanatic.
+4, A talkative herbalist.
+5, A devout knight.
+6, A soft-spoken monk.
+7, An academy-trained physician.
+8, A self-taught shaman.
+9, A medical scholar.
+10, A practiced surgeon.
+11, A battle-tested warpriest.
+12, A quirky witch-doctor.
+
+
+:Mannerism, The healer has
+1, A likable grin.
+2, Kind eyes.
+3, Alert eyes.
+4, A sympathetic smile.
+5, An arrogant smirk.
+6, A thoughtful frown.
+7, A humorless visage.
+8, An easy laugh.
+9, A habit of sighing.
+10, A habit of muttering to himself or herself.
+
+
+:Possessions, The healer carries
+1, A clean, sharp knife.
+2, A wooden staff.
+3, A sturdy cudgel.
+4, A needle, thread, and some healing balms.
+5, A pocketbook of sacred texts and prayers.
+6, A notebook of hand-written potion recipes.
+7, A variety of healing potions and bandages.
+8, Scales, glass vials, and delicate tools.
+9, A small field guide to diagnosing illnesses.
+10, A wineskin.
+
+
+:Goal, The healer is looking for
+1, The translation of an ancient text.
+2, Individuals in need of his or her services.
+3, Someone to purchase a potion or two.
+4, A dangerous substance for a potent elixir.
+5, A location where a rare herb grows.
+6, Proof of a god's existence.
+7, The recipe for a legendary potion.
+8, A chance to earn a little coin.
+9, A chance to tell a tale of woe.
+10, The bottom of a goblet.
+

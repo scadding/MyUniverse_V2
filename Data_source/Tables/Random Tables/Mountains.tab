@@ -1,0 +1,267 @@
+
+
+:Start
+1, mountains: TO THE TOP OF THE PEAK!
+
+
+:Interesting Location, You find
+1, A cavern behind a waterfall.
+2, A small cave in the crook of a rock wall.
+3, An entrance to a rocky cave.
+4, A hole under a sheer cliff face.
+5, A dark tunnel leading under the mountain.
+6, A tunnel in a cliff face.
+7, A tunnel leading into an abandoned mine.
+8, A peculiar cabin.
+9, A cozy little cabin.
+10, An abandoned cabin.
+11, An abandoned campsite.
+12, A poorly marked grave or tomb.
+13, An active mining camp.
+14, An isolated monastery.
+15, A strategically located watchtower.
+16, A remote temple.
+17, An ancient temple.
+18, An abandoned watchtower.
+19, A ruined monastery.
+20, An enormous bird's nest.
+
+
+:What's in the caveorcavernortunnel
+1, A mountain lion's den.
+2, Lots of bats.
+3, Many spider webs.
+4, A troll's stash.
+5, An ogre's lair.
+6, Some goblins' hideout.
+7, Some abandoned mining equipment.
+8, Bare rock.
+9, A potable spring.
+10, Unidentifiable remains.
+11, Some outlaws' hideout.
+12, An orc war band.
+13, A hungry ettin.
+14, A band of dwarvish refugees.
+15, A griffon's nest.
+16, A manticore's den.
+17, A basilisk's lair.
+18, A wyvern's nest.
+19, A clan of stone giants.
+20, A sleeping dragon.
+
+
+:Distinguishing Landmark, You see
+1, A trickle of water flowing down a rock wall.
+2, A small mountain lake of cold, fresh water.
+3, A swiftly flowing small stream.
+4, A natural bridge between two cliff faces.
+5, A narrow gorge with walls close enough to climb between.
+6, A deep gorge with no bottom in sight.
+7, A set of deliberately stacked stones.
+8, A large boulder eroded by the wind into the shape of a near-perfect sphere.
+9, A group of stones arranged in a circle.
+10, A boulder shaped to resemble a face.
+11, A pair of narrow needle-like peaks.
+12, A chimney-like column of rock.
+13, A large boulder split in half like an egg.
+14, A damp rock wall, covered in moss.
+15, The fossilized bones of a great beast visible in a rock wall.
+16, A thicket of hardy mountain shrubs growing atop a boulder.
+17, A copse of scrawny trees.
+18, A gorge where the wind whistles.
+19, A gorge with a near perfect echo.
+20, A rocky shoulder beneath a snowcap.
+
+
+:Who lives or lived in the cabin
+1, A fugitive from justice.
+2, A stubborn miner.
+3, A dwarvish prospector.
+4, A dwarvish war veteran.
+5, A gnomish wizard.
+6, A mystic sage.
+
+
+:Who resides in the abandoned cabin now
+2, An ogre.
+3, A troll.
+4, A mad witch.
+5, A reclusive shapeshifter.
+6, Restless ghosts.
+7, An outcast orc.
+8, A strange hermit.
+
+
+:Who camped here
+1, A party of orc scouts.
+2, A goblin raiding party.
+3, Some miners or prospectors.
+4, A pair of wandering elves.
+5, Some refugees or fugitives.
+6, Someone whose purposes are unclear.
+
+
+:Feature, You notice
+1, Abandoned, decrepit mining equipment.
+2, Some old dry bones.
+3, A small fossilized leaf.
+4, Evidence of a recent encampment.
+5, An enormous spider web.
+6, An incredible view.
+7, The clatter of rocks falling.
+8, Loose stones underfoot.
+9, An unstable rock wall.
+10, A distant sound  [A distant sound]
+11, The name of a previous traveler carved into a boulder.
+12, An ancient rune carved in a rock wall.
+13, A scrawny tree growing with its roots spread over a small boulder.
+14, The distant cry of a beast  [The distant cry of a beast]
+15, The wind whips up to a treacherous speed.
+16, Snow flurries begin to fall.
+17, The sound of birds chirping.
+18, A flock of birds takes flight.
+19, An old firepit.
+20, Several puddles of cold water.
+
+
+:A distant sound 
+1, scream
+2, drums;
+3, hammers at work
+4, footsteps;
+6, rocks crashing.
+
+
+:The distant cry of a beast 
+2, eagle;
+3, goat
+4, mountain lion
+6, wolf.
+
+
+:Who isorwas digging in this mine
+2, Greedy dwarves.
+3, Ambitious humans.
+5, Tricky goblins.
+6, Industrious kobolds.
+
+
+:What were the miners digging for
+1, Copper.
+2, Gems.
+3, Gold.
+4, Iron.
+5, Silver.
+6, A rare metal  [A rare metal]
+
+
+:A rare metal 
+1, adamantine;
+2, electrum
+4, mithral
+6, platinum.
+
+
+:What lives in the abandoned mineorancient ruin now
+1, Carrion crawler.
+2, Cloaker.
+3, Darkmantle.
+4, Dwarves.
+5, Fungi.
+6, Kobolds.
+7, Ghosts.
+8, Mimics.
+9, Myconids.
+10, Ogres.
+11, Ooze.
+12, Orcs.
+13, Otyugh.
+14, Piercer.
+15, Roper.
+16, Rust monster.
+17, Stirges.
+18, Trolls.
+19, Umber hulk.
+20, Wraiths.
+
+
+:Who built this monastery
+1, An order of elementalist monks.
+2, An order of mystics.
+3, An extremely secretive order of monks.
+4, An order of shadow monks.
+5, An order of warrior monks.
+6, An unknown order of monks.
+
+
+:The temple was built to honor
+1, The sun god.
+2, The god of the heavens.
+3, The moon goddess.
+4, The storm god.
+5, The earth mother goddess.
+6, A long-forgotten god.
+
+
+:What built the nest
+1, A giant eagle.
+2, A giant owl.
+3, A clan of harpies.
+4, A griffon.
+5, A roc.
+6, A wyvern.
+
+
+:What built the watchtower
+1, An expansive empire.
+2, A nearby kingdom.
+3, An occupying army.
+4, Elvish warriors from a past age.
+5, A clan of orcs.
+6, A goblin kingdom.
+
+
+:Who holds the watchtower now
+1, A disciplined military company.
+2, A rowdy mercenary troop.
+3, A band of desperate outlaws.
+4, A handful of dwarves.
+5, A clan of orcs.
+6, A goblin war party.
+7, Several harpies.
+8, Ghostly warriors.
+
+
+:Encounters, You come upon
+1, A lost prospector.
+2, A solemn warrior.
+3, An angry wraith.
+4, A malevolent ghost.
+5, A famous beasthunter.
+6, A seasoned mountaineer.
+7, A paranoid shapeshifter.
+8, An ancient vampire.
+9, Several homeless dwarves.
+10, An eccentric peddler.
+11, A contemplative monk.
+12, A mountain lion.
+13, A pair of harpies.
+14, A flock of ravens.
+15, Several orc raiders.
+16, A hunting peryton.
+17, A mated pair of manticores.
+18, A trio of monstrous trolls.
+19, A clan of stone giants at rest.
+20, A roc tearing apart some prey.
+
+
+:HazardsorObstacles, You run into
+1, A perilous rockslide.
+2, An icy rime across the path or road.
+3, A tumbling boulder.
+4, Loose rocks that make for poor footing.
+5, A large boulder blocking the way.
+6, A place where the path has fallen away leaving a narrow ledge on which to walk.
+7, A place where the path or road slopes steeply down toward a cliff edge.
+8, A sudden storm bringing heavy snow.
+

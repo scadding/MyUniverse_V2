@@ -1,0 +1,211 @@
+
+
+:Start
+1, fiends: YOUR SOUL OR YOUR LIFE?
+
+
+:StatusorRank, The fiend is
+1, In the service of a more powerful fiend.
+2, Bound to serve a mortal spellcaster.
+3, Recently freed of its bonds.
+4, Bound to a particularly location.
+5, Recently reborn.
+6, An ancient and powerful being.
+7, Rapidly ascending in rank.
+8, Recently demoted from a position of greater power.
+9, Rampaging after breaking free of its summoner.
+10, A respected and feared lieutenant of a mighty fiend.
+11, A laughingstock among the mighty fiends of its home realm.
+12, Not entirely certain what its purpose and place may be.
+
+
+:Skin, The fiend's skin is
+1, Dark crimson.
+2, Blood red.
+3, Blackened.
+4, Pale pink.
+5, Sickly grey.
+6, Burnt orange.
+7, Mottled brown.
+8, Orange-ish tan.
+9, Shiny.
+10, Rough.
+11, Fur-covered.
+12, Scaly.
+
+
+:Eyes, The fiend's eyes are
+1, Glowing yellow.
+2, Burning red.
+3, Pitch black.
+4, Deep blue.
+5, White, with no visible pupils.
+6, Toxic green.
+7, Dull grey.
+8, Midnight blue.
+9, Laughing.
+10, Unblinking and hollow.
+11, More often closed than open.
+12, Wide and perceptive.
+
+
+:HeadorFace, The fiend has
+1, A long snout.
+2, Sharp fangs.
+3, The face of a beautiful woman.
+4, Curved horns.
+5, Short horns.
+6, Long, sharp horns.
+7, Blackened horns.
+8, An unsettling grin.
+9, A terrifying scowl.
+10, A constant smirk.
+11, Long, dark hair.
+12, Large ears.
+
+
+:Body, The fiend has
+1, A well-muscled physique.
+2, A voluptuous feminine shape.
+3, Burnt flesh.
+4, Cracked flesh.
+5, A slender frame.
+6, A thick-set frame.
+7, A tall, bony frame.
+8, A grotesque, obese body.
+9, A lithe, athletic body.
+10, Horrific scars.
+11, Discolored flesh.
+12, Many piercings.
+
+
+:Appendages, The fiend has
+1, A pair of leathery wings.
+2, A pair of feathered wings.
+3, Wings pull close to its body to hide from view.
+4, A scaly tail.
+5, A tail ending in a poisoned stinger.
+6, A forked tail.
+7, An extra pair of arms.
+8, Over-sized pincers in place of hands.
+9, Hooves in place of feet.
+10, Exceptionally long fingernails.
+11, Talons in place of feet.
+12, The body and legs of a beast  [The body and legs of a beast]
+
+
+:The body and legs of a beast 
+1, crocodile
+2, goat
+3, lion
+4, serpent;
+5, spider
+6, walrus.
+
+
+:Knowledge and Magic, The fiend possesses
+1, A missing line from a dark prophecy.
+2, The soul of a celebrated hero trapped in a gem.
+3, The soul of a terrifying villain trapped in a gem.
+4, The true name of a god or goddess.
+5, A contract with an ancient dragon.
+6, A map to the prison of a powerful aberrant being.
+7, A map to the location of a dead god's resting place.
+8, The key to the gates of a destructive realm.
+9, A key to the gates of the realm of the dead.
+10, Knowledge of the location of a lost city.
+11, A book of morbid omens and prophecies.
+12, A book of foul summoning rituals.
+
+
+:WeaponsorAttacks, The fiend prefers to fight with
+1, A whip of pure flame.
+2, A sword of elemental lightning.
+3, A cudgel covered in teeth and sharp spikes.
+4, A black steel mace.
+5, A steel sword tempered in blood.
+6, A wicked trident or spear.
+7, Poison-coated arrows.
+8, Life-draining arrows.
+9, Spells and enchantments.
+10, Its minions and thralls.
+11, Its bare fists.
+12, Tooth and claw.
+
+
+:Goal, The fiend is looking for
+1, A soul to collect and to keep.
+2, A soul to devour.
+3, Flesh to devour.
+4, Powerful secrets.
+5, A specific person who cheated it.
+6, An artifact from a previous age.
+7, Something to kill.
+8, Something to burn.
+9, An opportunity to usurp the place of its fiendish liege.
+10, An opportunity to prove its value to its fiendish liege.
+11, A lost temple or tomb of story and song.
+12, The means to open a portal to a dark realm.
+
+
+:Weakness, The fiend cannot resist
+1, Tasty flesh.
+2, A pretty face.
+3, A stiff drink.
+4, Breaking things.
+5, Burning things.
+6, A chance to gloat.
+
+
+:Favorite Prey, The fiend is particularly fond of preying upon
+1, Beautiful young women.
+2, Handsome young men.
+3, Rulers and tyrants.
+4, Poor, simple folk.
+5, Pious, religious folk.
+6, Mighty warriors.
+7, Greedy and ambitious nobles and merchants.
+8, Sad old men and women.
+9, Sailors, pirates, and fishermen.
+10, Desperate outlaws and thieves.
+11, Talented actors and musicians.
+12, Anyone; the fiend enjoys variety.
+
+
+:Favorite Torments, With prey in its
+1, Dismember its prey savagely.
+2, Devour the flesh of its prey hungrily.
+3, Toy with its prey before killing it.
+4, Seduce its prey before violating the prey sadistically.
+5, Mutilate its prey, leaving a horrifying reminder of the encounter.
+6, Imprison its prey, subjecting it to years of psychological torment.
+7, Torture its prey, keeping it alive and in pain for years.
+8, Trap the soul of its prey in a gem, jar, or other object.
+9, Collect the soul of its prey, sending it along to a fiendish realm.
+10, Mark the soul of its prey, returning to collect it later.
+11, Corrupt its prey, inciting it to commit evil acts.
+12, Devour the soul of its prey, leaving a soulless husk.
+13, Set dates for meetings then arrive late or cancel at the last minute.
+14, Set dates for meetings and then never show up, apologize profusely, and promise to “make it up to you.”
+15, Sow discord between its prey and the prey's companions.
+16, Lead its prey far afield while important matters are left undecided.
+17, Lie to its prey; painting a rosier picture than reality dictates.
+18, Undermine its prey's business ventures.
+19, Enter contracts it knows are flawed in its favor to the prey's detriment.
+20, Make promises to its prey for the sole purpose of breaking them.
+
+
+:Vulnerability, To bind, to summon, or to control the fiend, or to drive it back to the shadow, one must
+1, Speak its true name.
+2, Write its true name in one's own blood.
+3, Tattoo its true name to one's breast.
+4, Ritualistically burn a bit of the fiend's skin.
+5, Graft some of the fiend's skin to one's self.
+6, Replace one's own hand with the fiend's.
+7, Drink the fiend's poisonous blood, die from the poison, and be resurrected.
+8, Perform a ritualistic sacrifice of a goat.
+9, Perform a ritualistic sacrifice of a maiden.
+10, Locate the place of the fiend's birth.
+11, Pay tribute to the fiend's far more dangerous and powerful liege lord.
+12, Give up; no one's ever bound this fiend.
+

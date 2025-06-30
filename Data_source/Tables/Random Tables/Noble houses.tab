@@ -1,0 +1,292 @@
+
+
+:Start
+1, noble houses: POWER PLAYERS IN THE GREAT GAME
+
+
+:Colors, The house's colors are
+1, A weapon  [A weapon]
+2, A piece of armor  [A piece of armor]
+3, A celestial body  [A celestial body]
+4, A plant or part of a plant  [A plant or part of a plant]
+5, An aquatic beast  [An aquatic beast]
+6, A small beast  [A small beast]
+7, A great beast  [A great beast]
+8, A bird  [A bird]
+9, Tan / khaki.
+10, Brown / beaver.
+11, Grey / gunmetal.
+12, White.
+13, Maroon.
+14, Sky blue.
+15, Navy blue.
+16, Dark brown.
+17, Teal / turquoise.
+18, Yellow.
+19, Orange.
+20, Olive green.
+
+
+:A weapon 
+1, arrow
+2, axe;
+3, dagger
+4, hammer
+5, mace;
+6, spear
+7, staff
+8, sword.
+
+
+:A piece of armor 
+1, breastplate;
+2, gauntlet
+3, helm
+4, shield.
+
+
+:A celestial body 
+1, sun
+2, moon;
+3, star
+4, comet.
+
+
+:A plant or part of a plant 
+1, apple
+2, barley
+3, briar
+4, fig;
+5, grapes
+6, lily
+7, maple
+8, oak;
+9, olive
+10, pine
+11, rose
+12, wheat.
+
+
+:An aquatic beast 
+1, crab;
+2, crocodile
+3, frog
+4, fish
+5, octopus;
+6, whale.
+
+
+:A small beast 
+1, badger
+2, bat;
+3, beaver
+4, dog
+5, ferret
+6, fox;
+7, hedgehog
+8, lizard
+9, rat;
+10, scorpion
+11, snake
+12, spider.
+
+
+:A great beast 
+1, bear
+2, boar;
+3, bull
+4, dragon
+5, lion
+6, ox;
+7, stag
+8, wolf.
+
+
+:A bird 
+1, cardinal
+2, dove;
+3, eagle
+4, hawk
+5, mockingbird;
+6, owl
+7, pelican
+8, raven
+9, rooster;
+10, sparrow
+11, swan
+12, vulture.
+
+
+:Head, The current head of the house is
+1, A kindly old man or woman.
+2, A ruthless old man or woman.
+3, A wily old man or woman.
+4, A charming man or woman.
+5, A grim veteran of wars.
+6, An astute politician.
+7, A devout adherent of a religion.
+8, A heartbroken widower or widow.
+9, A hot-headed young man or woman.
+10, A child.
+
+
+:Reputation, The house is
+1, Ancient and well-respected by all houses, great and small.
+2, Ancient and greatly diminished in standing from what it once was.
+3, Old with the respect of many houses, great and small.
+4, Old and struggling to maintain respect of other houses.
+5, Old but often overshadowed by other houses.
+6, Newly raised up to the nobility.
+
+
+:Famous member, The best known member of the house is or was
+1, A gallant knight.
+2, A beautiful woman.
+3, A ruthless tyrant.
+4, An adept diplomat.
+5, A famous traveler or explorer.
+6, A brilliant military strategist.
+7, A notorious rebel or outlaw.
+8, A dashing swashbuckler.
+9, A fearsome warrior.
+10, A brilliant scholar.
+11, A gifted orator.
+12, A dangerous and mad ruler.
+
+
+:Motto, The house's motto champions the ideals of
+1, Compassion.
+2, Courage.
+3, Courtesy.
+4, Determination.
+5, Discipline.
+6, Duty.
+7, Excellence.
+8, Faith.
+9, Generosity.
+10, Honor.
+11, Hope.
+12, Integrity.
+13, Justice.
+14, Loyalty.
+15, Mercy.
+16, Patience.
+17, Righteousness.
+18, Strength.
+19, Trust.
+20, Wisdom.
+
+
+:Goals, The house's goals include ,individual members may have different goals
+1, Domination of the city or region's politics.
+2, Domination of the city or region's trade.
+3, Revenge against a rival house in the same city or region.
+4, Revenge against a rival house in another city or region.
+5, Sabotage of a group run by commoners—a guild, academy, religious faith, or secret society.
+6, Fomenting rebellion against the city or region's ruling house.
+7, Marriage with a powerful allied house.
+8, Marriage with a powerful rival house.
+
+
+:Secret, One or more house members keep secret ,the secret may involve past or present events
+1, A long-time scandalous romance.
+2, The existence of a bastard child.
+3, A murder in one of the house's keeps, castles, or palaces.
+4, Religious zealotry.
+5, The birth of a malformed freak.
+6, Treason against the region's sovereign.
+7, The senility or madness of family members.
+8, Criminal sabotage of a rival house.
+
+
+:Lands, The house's seat of power is located in or near
+1, A port city.
+2, A range of high mountains.
+3, A wide, fertile plain.
+4, A fertile river valley.
+5, An ancient forest.
+6, A jagged coastline.
+7, A sodden swamp.
+8, A pristine lake.
+9, A desert plateau.
+10, An idyllic hill country.
+
+
+:who had a role in aoran
+1, Assassination.
+2, Discovery.
+3, Military battle.
+4, Negotiation.
+5, Rebellion.
+6, Religious event.
+
+
+:Background, The noble is
+1, A knight.
+2, An old lord.
+4, A young lord.
+5, A young lady.
+6, A rich merchant.
+
+
+:Appearance, he noble wears
+1, Some flashy jewelry.
+2, Shiny leather boots.
+3, An ornate signet ring.
+4, Fine silk clothes.
+5, A handsome grin.
+6, An extremely ugly scowl.
+7, An arrogant sneer.
+8, Beautifully-styled hair (and facial hair).
+
+
+:Trait, The noble has
+1, A loud, deep laugh.
+2, A high-pitched laugh.
+3, A twittering nervous laugh.
+4, A nervous habit of fidgeting.
+5, A silver tongue.
+6, A commanding presence.
+7, Complete disregard for commoners.
+8, Not a care in the world.
+
+
+:Goal, The noble seeks someone to
+1, Dispose of an enemy.
+2, Negotiate a trade contract.
+3, Deliver a letter.
+4, Prepare an army for war.
+5, Sabotage a rival.
+6, Secure an advantageous marriage for himself or herself.
+7, Secure an advantageous marriage for a friend or family member.
+8, Have a good time with.
+
+
+:Possession, The noble carries
+1, Several deeds and titles.
+2, A family heirloom.
+3, Several inventories and invoices.
+4, Some very valuable jewels.
+5, A compromising love letter.
+6, A letter from a powerful lord or lady.
+
+
+:Rank, The noble is respected by
+1, Most members of his or her house.
+2, The head of his or her house, but few others.
+3, His or her own mother, but few others.
+4, The knights and sworn allies of his or her house.
+5, A well known member of a rival house.
+6, Merchants and moneylenders.
+7, Soldiers and military leaders.
+8, Scoundrels and thieves.
+
+
+:Residence, The noble often resides
+1, In a castle built by his or her ancestors.
+2, In a castle taken from a rival house.
+3, In a palace in a large city.
+4, On a quiet country estate.
+5, In a lonely watchtower.
+6, In the castle belonging to another noble house.
+

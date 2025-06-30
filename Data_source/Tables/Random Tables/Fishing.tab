@@ -1,0 +1,214 @@
+
+
+:Start
+1, fishing: THE DAILY CATCH
+
+
+:Home waters, The fisher fishes in
+1, A quiet creek.
+2, A wide river.
+3, A small pond.
+4, A large lake.
+5, A swamp.
+6, A marsh.
+7, A protected bay.
+8, A natural harbor.
+9, A narrow channel.
+10, The open ocean.
+
+
+:Near-shore catch, You haul in
+1, A clam.
+2, A crab.
+3, A herring.
+4, A lobster.
+5, A mussel.
+6, An oyster.
+7, A prawn.
+8, A salmon.
+9, A smelt.
+10, A rare catch (see below).
+
+
+:Fishing spot, The fisher typically fishes from
+1, A sandy or rocky beach.
+2, An embankment, sandbar, or levee.
+3, A pier or bridge.
+4, His/her own boat.
+5, A boat owned by someone else.
+6, Wherever the fish can be reached.
+
+
+:Fishing gear, The fisher uses
+1, A rod and reel with a baited hook.
+2, A rod and reel with a lure.
+3, Baited lines.
+4, Baited traps.
+5, Nets.
+6, Baited lines and nets.
+7, Baited lines and baited traps.
+8, An unusual technique  [An unusual technique]
+
+
+:An unusual technique 
+2, harpoon;
+4, spear
+5, bare hands
+6, trained beast.
+
+
+:Work style, The fisher prefers to fish
+1, Alone, in silence.
+2, Alone, while whistling or humming.
+3, Alone, but within earshot of other
+4, fishermen.
+5, With a trusted partner.
+6, With an apprentice fisherman.
+7, With an experienced fisherman.
+
+
+:Goal, The fisher is seeking
+1, A new apprentice.
+2, The answer to a riddle.
+3, To tell the tale of the one that got away.
+4, Rumors of new locations to fish.
+5, Revenge against a rival.
+6, Assistance repairing a boat, net, or some other fishing gear.
+7, Fishing companions.
+8, Drinking companions.
+
+
+:Tattoo, The fisher has
+1, An anchor tattoo.
+2, A pair of crossed bones tattoo.
+3, A fish tattoo.
+4, An octopus tattoo.
+5, A whale tattoo.
+6, A lobster tattoo.
+7, A mermaid tattoo.
+8, A dragon tattoo.
+
+
+:Distinguishing feature, The fisher has
+1, A wooden pipe.
+2, Rotten teeth.
+3, A gold tooth.
+4, A terrible scar on the forearm.
+5, A handkerchief tied atop the head.
+6, Wild eyes.
+7, A trimmed black beard.
+8, A long, hooked nose.
+9, An open shirt and a very hairy chest.
+10, Long mutton chop sideburns.
+
+
+:Type, The boat is
+1, A flat raft.
+2, A pontoon raft.
+3, A canoe.
+4, A coracle.
+5, A drifter.
+6, A buss.
+
+
+:Crew, The boat can
+1, Easily be operated by one person.
+3, Be operated by one person, but some flaw or damage has made handling difficult.
+5, Be operated by two people, but it can be handled by one with difficulty.
+6, Be operated by three or more people, but it can be handled by two with difficulty.
+
+
+:Condition, Presently, the boat is
+1, Laden with the latest catch.
+2, Well-stocked with bait and gear and ready to go.
+3, In tip-top shape.
+4, In need of repair.
+5, Barely staying afloat.
+6, Resting beneath the waves.
+
+
+:Hull, The boat's hull markings feature
+1, A ghost.
+2, A mermaid.
+3, A shark.
+4, A pelican.
+5, A whale.
+6, An octopus.
+7, A swordfish.
+8, A crab.
+9, A sea turtle.
+10, A big tuna.
+
+
+:Deep-sea catch, You haul in
+1, A cuttlefish.
+2, A flounder.
+3, A grouper.
+4, A marlin.
+5, A sardine.
+6, A scallop.
+7, A shrimp.
+8, A snapper.
+9, A tuna.
+10, A rare catch (see below).
+
+
+:Rare catch, You haul in
+1, A piece of junk  [A piece of junk  0]
+2, An abalone.
+3, A barracuda (fights, attacks).
+4, A lobster.
+5, A monkfish.
+6, An octopus (fights, attacks).
+7, A reef shark (fights, attacks).
+8, A swordfish (fights).
+
+
+:A piece of junk 
+2, seaweed tangle;
+3, torn net
+5, rotten wood
+6, old boot.
+
+
+:A piece of junk  0
+2, seaweed tangle;
+4, torn net
+5, rotten wood
+6, old boot.
+
+
+:Cold-water catch, You haul in
+1, A bass (fights).
+2, A carp.
+3, An eel.
+4, An oyster.
+5, A perch.
+6, A salmon.
+7, A smelt.
+8, A sturgeon.
+9, A trout.
+10, A walleye.
+
+
+:Warm-water catch, You haul in
+1, A carp.
+2, A catfish (fights).
+3, An eel.
+4, An oyster.
+5, A perch.
+6, A prawn.
+7, A quipper (fights, attacks).
+8, A salmon.
+9, A tilapia.
+10, A trout.
+
+
+:Swamp-water catch, You haul in
+1, A bass (fights).
+2, A catfish (fights).
+3, A crayfish.
+4, A crocodile (fights, attacks).
+5, An eel (fights).
+6, A prawn.
+

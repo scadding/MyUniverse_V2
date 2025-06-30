@@ -1,0 +1,243 @@
+
+
+:Start
+1, jungles: WELCOME TO THE JUNGLE
+
+
+:Interesting Location, You find
+1, A cavern behind a waterfall.
+2, The wreck of a riverboat.
+3, A cave behind a curtain of tangled vines.
+4, A hole beneath a large tree.
+5, A large, damp burrow.
+6, A primitive village.
+7, A stilt house or tree house.
+8, A recently vacated campsite.
+9, A hastily abandoned campsite.
+10, A ruined stilt house or tree house overgrown with vines.
+11, A ruined ancient temple.
+12, Ruins of an ancient city.
+
+
+:Distinguishing Landmark, You see
+1, A tree bearing large, yellow fruit.
+2, A tree bearing small, red fruit.
+3, A large, hollow tree.
+4, A pair of trees from the same root.
+5, A tree growing over a boulder.
+6, A thicket of brambles.
+7, A wide, shallow pool at a river bend.
+8, A wide, shallow river with a single large tree growing in its main channel.
+9, A fern-covered boulder in the midst of a gently flowing river.
+10, Several gentle rapids.
+11, A pair of dangerous rapids.
+12, A large, gnarled log half-buried in mud.
+13, A tree felled by lightning.
+14, A colony of colorful mushrooms.
+15, An enormous mushroom.
+16, A large rock with a mossy overhang.
+17, A large, hollow log.
+18, A large, rotting log.
+19, An old tree with an oddly shaped knot.
+20, The stump of an enormous tree.
+
+
+:Feature, You notice
+1, A flock of birds scatter.
+2, A woodpecker drumming.
+3, A bird singing sweetly.
+4, A brightly colored bird flies away.
+5, Birds chirping.
+6, A monkey drops a fruit or nut from above.
+7, A monkey leaps from one tree to another.
+8, Large dragonflies buzzing about.
+9, Cicadas chirping loudly.
+10, Butterflies fluttering about.
+11, A centipede scuttles beneath a rock.
+12, An eerie silence.
+13, Rain falls lightly.
+14, The heat and humidity increase.
+15, The sound of leaves rustling above.
+16, A vine gently swaying.
+17, A small snake slithers off.
+18, Brightly, colored berries.
+19, The scent of flowers.
+20, The smell of decay.
+
+
+:What's in the caveorcavern
+1, A manticore's lair.
+2, Lots of bats.
+3, Many spider webs.
+4, A medusa's stash.
+5, An rage drake's lair.
+6, A band of kobolds.
+7, Some abandoned mining equipment.
+8, Bare rock.
+9, A potable spring.
+10, Unidentifiable remains.
+11, Some treasure hunters' hideout.
+12, A strange hermit.
+
+
+:Encounters, You come upon
+1, Torrential rains.
+2, A place where you sink into the mud.
+3, A predatory plant with grasping vines.
+4, A large jungle cat.
+5, A small hunting cat.
+6, A giant spider.
+7, Several giant spiders.
+8, A troop of protective apes.
+9, A lone great ape.
+10, A rare flightless bird.
+11, A malevolent ghost.
+12, A pair of lizardfolk hunters.
+13, A lizardfolk shaman.
+14, A yuan-ti patrol.
+15, An ogre.
+16, A pair of primitive scouts.
+17, A skilled primitive hunter.
+18, An old witch.
+19, A curious herbalist.
+20, A ruthless big-game hunter.
+
+
+:Flower Color, The flowers are
+1, Shockingly pink.
+2, Deep crimson.
+3, Iridescent orange. 8. Dark purple
+4, Brilliant yellow.
+5, Dark bluish purple. 10. White.
+6, Blood red.
+7, Pale purple
+9, Pale pink.
+
+
+:Flower Shape, The petals are
+1, Radiating in a spiraling pattern.
+2, Radiating from a hemispherical center.
+3, Radiating from a conical center.
+4, Radiating in a narrow stalk in the center.
+5, Paired and curling back from the center.
+6, Triangular and flat.
+7, Triangular and curled.
+8, Ellipsoidal and flat.
+9, Ellipsoidal and curled.
+10, The largest petals you've ever seen.
+
+
+:Who built the ancient ruins
+1, A lizardfolk chieftain.
+2, An aberrant cult.
+3, A snake cult.
+4, A dragon cult.
+5, A death cult.
+6, Shadow monks.
+7, A long-dead emperor.
+8, A forgotten king.
+9, An evil queen.
+10, A dark sorcerer.
+
+
+:Who resides in the ruins now
+1, An isolated snake cult.
+2, A paranoid shapeshifter.
+3, Poisonous snakes.
+4, Giant spiders.
+5, Hungry zombies.
+6, Wraiths and shadows.
+7, A handful of ogres.
+8, A band of lizardfolk warriors.
+9, A pair of manticores.
+10, A dragon.
+
+
+:What kind of riverboat was it
+2, A fisherman's raft.
+3, An eeler's canoe.
+4, A beasthunter's dugout.
+6, A treasure seeker's keelboat.
+
+
+:Who lives or lived in the stilt house or tree house
+1, A lonely old woman.
+2, A reclusive shapeshifter.
+3, An eccentric healer.
+4, A beautiful witch.
+5, A horrible witch.
+6, An outcast wood elf.
+7, A horrifying medusa.
+8, A scheming hag.
+
+
+:Who camped here
+1, A lizardfolk hunting party.
+2, A band of wandering elves.
+3, A primitive hunting party.
+4, A primitive war band.
+5, A band of yuan-ti raiders.
+6, An extraordinary beasthunter.
+7, A brave explorer and naturalist.
+8, An ambitious treasure hunter.
+
+
+:What's in the holeorburrow
+1, A poisonous snake.
+2, A spider.
+3, A poisonous frog.
+4, A swarm of earthworms.
+5, A giant centipede.
+6, Unusual fungus.
+
+
+:What's up in the tree
+1, A constrictor snake.
+2, A giant spider.
+3, A swarm of bats.
+4, A swarm of locusts.
+5, An aggressive ape.
+6, A lizardfolk hunter.
+
+
+:The cultist is
+1, A cunning warrior.
+3, A stealthy assassin.
+4, A fanatical priestess.
+6, A foolish zealot.
+
+
+:The cultist is looking to
+2, Recruit new members to the cult.
+3, Warn outsiders away from the cult.
+5, Collect captives for human sacrifice.
+6, Slip some poison into someone's drink.
+
+
+:The cultist carries or wears
+1, Several eggs stolen from a snake's nest.
+3, A necklace or bracelet of snake fangs.
+4, Snakeskin armor or boots.
+6, A book of prayers and curses.
+
+
+:The lizardfolk is
+2, A savvy hunter.
+4, A savage warrior.
+5, A powerful shaman.
+6, A dim-witted brute.
+
+
+:The lizardfolk is looking for
+2, New waters for fishing and hunting.
+4, The tracks of an intruder in the region.
+5, The lair of a troublesome beast.
+6, Safe nesting grounds.
+
+
+:The lizardfolk carries
+2, A scimitar and a wooden shield.
+4, A spear and a blowgun.
+5, A curved dagger with feathers on the hilt.
+6, An oversized club.
+

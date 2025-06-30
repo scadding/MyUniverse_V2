@@ -1,0 +1,249 @@
+
+
+:Start
+1, prisons: BUT, I SWEAR, I'M INNOCENT!
+
+
+:Location, The prison is located
+1, On a small island on a remote coast.
+2, On a small island near a city.
+3, In a tower or annex of a castle.
+4, Beneath a temple complex.
+5, In an annex on a temple complex.
+6, Beneath a town hall.
+7, In an annex on a town hall.
+8, Underneath a city, deep below ground.
+9, Behind walls in a fortified rural location  [Behind walls in a fortified rural location]
+10, Below ground, in a hidden rural location  [Below ground, in a hidden rural location]
+11, Behind walls in a fortified wilderness location  [Behind walls in a fortified wilderness location]
+12, Below ground, in a hidden wilderness location  [Below ground, in a hidden wilderness location]
+
+
+:Behind walls in a fortified rural location 
+2, coast
+4, hills
+6, plains.
+
+
+:Below ground, in a hidden rural location 
+2, coast
+4, hills
+6, plains.
+
+
+:Behind walls in a fortified wilderness location 
+1, desert,
+2, forest,
+3, hills
+4, mountains,
+5, swamp
+6, tundra.
+
+
+:Below ground, in a hidden wilderness location 
+1, desert
+2, forest
+3, hills
+4, mountains
+5, swamp
+6, tundra
+
+
+:Builder, The prison was built by
+1, Humanely; they receive reasonable meals, some exercise, and healing when needed.
+2, An ambitious lord or lady.
+3, Like dogs; they receive poor quality meals and enough healing to keep them alive.
+4, A mighty warrior or warlord.
+5, Like rats; they receive terrible meals and are plagued by sickness.
+6, Like they don't exist; occasionally they receive food.
+7, An unscrupulous king or queen.
+8, A vain lord or lady.
+9, A powerful witch or wizard.
+10, A beloved sovereign.
+11, A prosperous merchant guild.
+12, A powerful noble house.
+
+
+:Rooms, This chamber is
+1, A prison cell.
+2, Another prison cell.
+3, A passageway connecting cell blocks.
+4, A guardroom.
+5, The barracks.
+6, The jailer's quarters.
+7, A yard or large indoor space for exercise.
+8, A dining hall.
+9, An interrogation room.
+10, A torture chamber.
+
+
+:Features, You notice
+1, A wooden door reinforced with steel bands.
+2, Steel bars where you expected a stone wall.
+3, Empty manacles along the wall.
+4, An empty sconce to hold a torch.
+5, Distant torchlight.
+6, The floor is uneven.
+7, A crack in the stone floor.
+8, A mouse skittering underfoot.
+9, The stench of rotting flesh.
+10, The scent of stale urine.
+11, A putrid smell.
+12, A dank and moldy odor.
+13, An uncomfortable groaning.
+14, A faint scratching sound.
+15, An odd tapping sound.
+16, The squeaking of rats.
+17, The shouting of distant voices.
+18, Howls of agony.
+19, Horrific screams.
+20, The clanking of chains.
+
+
+:Floorplan, The prison complex is
+2, A sprawling maze of twisting passages.
+3, A sprawling maze of long hallways.
+5, Organized in neat rows of small cells or pits.
+6, Organized around a large cell block or pit.
+
+
+:Defenses, The prison is surrounded by
+1, Very high stone walls.
+2, Incredibly thick stone walls.
+3, A curtain wall with many gatehouses.
+4, A moat filled with putrescent water.
+5, A moat filled with thick, boot-sucking mud.
+6, A moat filled with sharp spikes.
+
+
+:Reputation, The prison is known for
+1, Many prisoners dying in a terrible plague.
+2, A mass escape in the past.
+3, The escape of a famous criminal.
+4, Being the final home of a famous criminal.
+5, Being the final home of a legendary hero.
+6, Being haunted by vengeful ghosts.
+7, Its horrific torture pits.
+8, Never suffering a successful escape.
+9, Its unusual architectural style.
+10, The quality of its meals.
+
+
+:Age, The prison was built
+2, In a past age.
+4, Hundreds of years ago.
+5, A few decades ago.
+6, Within the past decade.
+
+
+:CellsorPits, Prisoners are held within
+1, Individual cells, in silence and darkness.
+2, Individual cells, in darkness but not silence.
+3, Individual cells; but they can see and hear other prisoners.
+4, Cells that accommodate two prisoners.
+5, Cells that accommodate up to two prisoners, each shackled to the wall.
+6, Cells that accommodate four prisoners.
+7, Cells that accommodate up to four prisoners, each shackled to the wall.
+8, A large chamber with many other prisoners, each shackled to the wall.
+9, Individual pits or wells, open at the top.
+10, A huge pit with many other prisoners.
+
+
+:Escape Encounters, You come upon
+1, A snoozing guard.
+2, A pair of guards on patrol.
+3, A quartet of guards playing cards or dice on their break.
+4, A pack of trained hunting dogs commanded by a high-ranking guard who has been alerted of the escape attempt.
+5, A law official on-site to interrogate another prisoner about an unrelated case.
+6, An ear-splitting alarm triggers.
+7, A wide, well-lit yard that must be crossed with guards watching it from towers.
+8, A high wall directly in the path of escape.
+9, A barred window in the path of escape.
+10, The rat-infested kitchens and mess hall.
+11, An imprisoned serial killer who also attempting to escape.
+12, An imprisoned thief who is bent on revenge.
+
+
+:Condition, The cells'orpits' condition is
+1, Well-maintained; the walls are solid.
+3, Aging, but sturdy; the walls have some cracks.
+5, Decrepit; the walls are crumbling.
+6, So dark it's difficult to say.
+
+
+:Secret, According to rumor, within the prison's walls lies
+1, A secret tunnel to the outside.
+2, The bones of a celebrated outlaw.
+3, The preserved head of an ancient villain.
+4, A terrible beast to which prisoners are fed.
+5, A missing lord or lady.
+6, A treasure stolen by a notorious prisoner.
+7, A unique and terrible torture device.
+8, The bones of a deposed king or queen.
+
+
+:Background, The jailer is
+1, A coward who likes to act tough.
+2, A bully in every sense of the word.
+3, A bastard son of a noble house.
+4, A man who grew up among criminals.
+5, A priest with a puritanical agenda.
+6, A horrible sadist.
+7, A mild-mannered man of faith.
+8, A wicked little man.
+
+
+:Concern, The jailer is concerned about
+2, Rumors of an upcoming escape attempt.
+3, Losing his job after a messy prisoner death.
+5, Facing a prisoner who creeps him out.
+6, Ways to make a little extra silver.
+
+
+:Goal, The jailer is looking to
+1, Abuse someone who is defenseless.
+3, Make himself feel powerful.
+4, Reach out to a disturbed prisoner.
+6, Swap grisly tales.
+
+
+:Possession, The jailer carries
+1, A large ring of keys.
+2, A large knife and a sap.
+3, A pale of cold porridge from the kitchens.
+4, A trophy taken from a tortured prisoner.
+5, A pocket-sized prayer book.
+6, A spiked club.
+7, A scourge or whip.
+8, A wineskin.
+
+
+:Motivation, The guard took this job for
+2, The steady pay.
+4, The chance to bully others.
+5, To prove how tough he is.
+6, To take out his aggression on criminals.
+
+
+:Trait, On the guard's face is
+1, An unsightly scar.
+3, A stupid grin.
+5, A blank stare.
+6, A bushy mustache.
+
+
+:Trait, The prisoner has
+2, A long scraggly beard.
+4, A patchy beard.
+5, Skin draped loosely over his bones.
+6, Boils and sores on his skin.
+
+
+:Crime, The prisoner is here because
+1, He stole something.
+2, He killed someone.
+3, He raped someone.
+4, He advocated rebellion and unrest.
+5, He committed an act of fraud.
+6, Someone confused him with someone else.
+

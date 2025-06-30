@@ -1,0 +1,234 @@
+
+
+:Start
+1, hunting: GONE A-HUNTING
+
+
+:After a day in the forest, you catch
+1, 1d2 rabbits (1d2 lbs. of meat each).
+2, 1d4 rabbits (1d2 lbs. of meat each).
+3, A young deer (15 + 1d8 lbs. of meat).
+4, A deer (20 + 1d8 lbs. of meat).
+5, A prized stag (30 + 1d8 lbs. of meat).
+6, 1d6 squirrels (1/2 lb. of meat each).
+7, A boar (20 + 1d8 lbs. of meat).
+8, A black bear (40 + 1d12 lbs. of meat).
+9, A brown bear (60 + 1d12 lbs. of meat).
+10, 1d4 songbirds (1/2 lb. of meat each).
+11, 2d4 songbirds (1/2 lb. of meat each).
+12, 1d4 waterfowl (1 + 1d2 lbs. of meat each).
+13, 1d4 pheasants (1 + 1d4 lbs. of meat).
+14, A wild turkey (2 + 1d4 lbs. of meat).
+15, A toad (1/2 lb. of meat).
+16, 1d2 turtles (1 lb. of meat each).
+17, A snake (1 lb. of meat).
+18, A badger (10 + 1d10 lbs. of meat).
+19, A fox (4 + 1d6 lbs. of meat).
+20, A wolf (20 + 1d20 lbs. of meat).
+
+
+:After a day in the mountains, you catch
+1, 1d2 small snakes (1 lb. of meat each).
+2, 1d2 lizards (1 lb. of meat each).
+3, A goat (10 + 1d8 lbs. of meat).
+4, 1d4 goats (10 + 1d8 lbs. of meat each).
+5, A songbird (1/2 lb. of meat).
+6, 1d4 songbirds (1/2 lb. of meat each).
+7, A bird of prey (1d2 lbs. of meat).
+8, A boar (20 + 1d8 lbs. of meat).
+9, A black bear (40 + 1d12 lbs. of meat).
+10, A brown bear (60 + 1d12 lbs. of meat).
+11, A wildcat (30 + [1d8 x 10] lbs. of meat).
+12, A wolf (20 + 1d20 lbs. of meat).
+
+
+:Territory, The hunter prefers to hunt
+1, Near a quiet creek.
+2, Along the banks of a wide river.
+3, On the shore of a small pond.
+4, On the shore of a large lake.
+5, On a hillock or mesa.
+6, In a canyon or gorge.
+7, Where the vegetation is thick.
+8, Where the vegetation is sparse.
+
+
+:Weapons, The hunter makes kills with
+1, A reliable crossbow.
+2, A powerful crossbow.
+3, A huge bow of elder wood.
+4, A supple bow.
+5, A bow of young wood.
+6, A spear and a hunting knife.
+7, A thrown spear.
+8, Baited steel traps.
+9, Snares.
+10, An unusual hunting weapon  [An unusual hunting weapon]
+
+
+:An unusual hunting weapon 
+1, bare hands
+2, battleaxe
+3, blowgun with darts;
+4, blowgun with poisoned darts
+5, bolas and knife
+6, bolas and spear
+7, spiked club
+8, scimitar
+9, sling
+10, thrown darts.
+
+
+:Training, The hunter learned to hunt from
+1, A parent.
+2, A grandparent.
+3, A fellow hunter.
+4, A military scout.
+5, A wild savage.
+6, A distant relation.
+7, A veteran ranger.
+8, Living with beasts.
+9, Living with beasts.
+10, Surviving the wild.
+
+
+:Work Style, The hunter prefers to hunt
+1, Alone, stalking for prey.
+2, Alone, lying in wait for prey.
+3, With a pack of trained hunting hounds.
+4, With a trusted hunting hound.
+5, With a trusted partner.
+6, With a local guide or experienced hunter.
+
+
+:Goal, The hunter is seeking
+1, An apprentice or local guide.
+2, A legendary beast.
+3, To swap tales of hunts past.
+4, Rumors of untouched hunting grounds.
+5, Revenge against a rival.
+6, A new hunting hound.
+7, Hunting companions.
+8, Drinking companions.
+
+
+:Trait, The hunter has
+1, A mouthful of chew.
+2, A gap-toothed grin.
+3, A wooden tooth.
+4, A terrible scar on the neck.
+5, A missing eye.
+6, Wild eyes.
+7, A trimmed black beard.
+8, A long, hooked nose.
+9, An open shirt and a very hairy chest.
+10, Large ears.
+
+
+:Possession, The hunter carries
+1, A trophy from his or her first kill.
+2, A trophy from a particularly difficult kill.
+3, A polished, brass hunting horn.
+4, A heavy, carved hunting horn.
+5, A skinning knife and a pipe.
+6, Salt, spices, and a frying pan.
+
+
+:After a day in the plains, you catch
+1, 1d2 rabbits (1d2 lbs. of meat each).
+2, 1d4 rabbits (1d2 lbs. of meat each).
+3, A young deer (15 + 1d8 lbs. of meat).
+4, A deer (20 + 1d8 lbs. of meat).
+5, 1d4 deer (20 + 1d8 lbs. of meat each).
+6, An elk (30 + 1d8 lbs. of meat).
+7, 1d6 prairie dogs (1d2 lb. of meat each).
+8, 1d6 gophers (1 lb. of meat each).
+9, A pheasant (1 + 1d4 lbs. of meat).
+10, 1d4 pheasants (1 + 1d4 lbs. of meat each).
+11, A wild turkey (2 + 1d4 lbs. of meat).
+12, 1d4 songbirds (1/2 lb. of meat each).
+13, A coyote (2 + 1d4 lbs. of meat).
+14, A toad (1/2 lb. of meat).
+15, 1d2 small snakes (1d4 lbs. of meat each).
+16, A snake (1 lb. of meat).
+17, 1d4 bison (40 + 1d20 lbs. of meat each).
+18, A badger (10 + 1d10 lbs. of meat).
+19, A fox (4 + 1d6 lbs. of meat).
+20, A wolf (20 + 1d20 lbs. of meat).
+
+
+:After a day in the jungle, you catch
+1, 1d2 small snakes (1d4 lbs. of meat each).
+2, A large snake (4 + 1d8 lbs. of meat).
+3, A large rodent (10 + 1d20 lbs. of meat).
+4, A small ungulate (5 + 1d10 lbs. of meat).
+5, 1d4 songbirds (1/2 lb. of meat each).
+6, 2d4 songbirds (1/2 lb. of meat each).
+7, A large bird (1 + 1d4 lbs. of meat).
+8, 1d2 large birds (1 + 1d4 lbs. of meat each).
+9, 1d4 waterfowl (1 + 1d2 lbs. of meat each).
+10, 1d4 toads (1/2 lb. of meat each).
+11, 1d8 toads (1/2 lb. of meat each).
+12, 1d4 lizards (1 lb. of meat each).
+13, 1d4 lizards (1 lb. of meat each).
+14, 1d2 turtles (1 lb. of meat each).
+15, A sloth (10 + 1d10 lbs. of meat).
+16, 1d4 frogs (1/2 lb. of meat each).
+17, 1d8 frogs (1/2 lb. of meat each).
+18, A black bear (40 + 1d12 lbs. of meat).
+19, A fishing cat (10 + 1d10 lbs. of meat).
+20, A panther (30 + [1d8 x 10] lbs. of meat).
+
+
+:After a day in the desert, you catch
+1, 1d2 lizards (1 lb. of meat each).
+2, 1d4 lizards (1 lb. of meat each).
+3, 1d4 wild camels (20 + 1d8 lbs. of meat).
+4, 1d2 small snakes (1 lb. of meat each).
+5, 1d2 songbirds (1/2 lb. of meat each).
+6, 1d4 songbirds (1/2 lb. of meat each).
+7, 1d2 tortoises (1d6 lbs. of meat each).
+8, A hare (1d2 lbs. of meat).
+9, 1d2 hares (1d2 lbs. of meat each).
+10, A bird of prey (1d2 lbs. of meat).
+11, A fox (2 + 1d4 lbs. of meat).
+12, A giant lizard (30 + 1d10 lbs. of meat).
+
+
+:After a day in the frozen lands, you catch
+1, 1d2 hares (1d2 lbs. of meat each).
+2, 1d4 hares (1d2 lbs. of meat each).
+3, 1d4 songbirds (1/2 lb. of meat each).
+4, 1d4 waterfowl (1 + 1d2 lbs. of meat each).
+5, 2d4 waterfowl (1 + 1d2 lbs. of meat each).
+6, A fox (2 + 1d4 lbs. of meat).
+7, A wild ox (40 + 1d20 lbs. of meat).
+8, A walrus (60 + 1d12 lbs. of meat).
+9, A seal (40 + 1d6 lbs. of meat).
+10, 1d4 seals (40 + 1d6 lbs. of meat each).
+11, A wolf (20 + 1d20 lbs. of meat).
+12, A polar bear (80 + 1d12 lbs. of meat).
+
+
+:After a day in the swamp, you catch
+1, 1d2 small snakes (1d4 lbs. of meat each).
+2, 1d4 small snakes (1d4 lbs. of meat each).
+3, A large snake (4 + 1d8 lbs. of meat).
+4, A large rodent (10 + 1d20 lbs. of meat).
+5, 1d4 large rodents (10 + 1d20 lbs. of meat).
+6, 1d4 small rodents (1/2 lb. of meat each).
+7, 2d4 small rodents (1/2 lb. of meat each).
+8, 1d4 songbirds (1/2 lb. of meat each).
+9, 1d4 waterfowl (1 + 1d2 lbs. of meat each).
+10, 2d4 waterfowl (1 + 1d2 lbs. of meat each).
+11, 1d4 frogs (1/2 lb. of meat each).
+12, 1d8 frogs (1/2 lb. of meat each).
+13, 1d4 lizards (1 lb. of meat each).
+14, 1d8 lizards (1 lb. of meat each).
+15, 1d2 turtles (1 lb. of meat each).
+16, 1d4 turtles (1 lb. of meat each).
+17, A large turtle (10 + 1d6 lbs. of meat).
+18, A giant frog (10 + 1d10 lbs. of meat).
+19, A panther (30 + [1d8 x 10] lbs. of meat).
+20, A crocodile (20 + 1d20 lb. of meat).
+

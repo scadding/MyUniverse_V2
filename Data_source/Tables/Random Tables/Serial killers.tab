@@ -1,0 +1,186 @@
+
+
+:Start
+1, serial killers: “I WAS BORN WITH THE DEVIL IN ME”
+
+
+:Background, The killer is
+1, A quiet artisan.
+2, An eccentric scholar.
+3, A mysterious foreigner.
+4, A talented artist.
+5, A polite shopkeeper.
+6, A creepy peddler.
+7, A femme fatale.
+8, A charming rogue.
+9, A hardened criminal.
+10, A brutish thug.
+11, A religious fanatic.
+12, A veteran soldier.
+
+
+:Methods, The killer's modus operandi is
+1, Ingested poison or allergic reaction.
+2, Contact poison applied to a weapon.
+3, Arrow/bolt from range.
+4, Impaling.
+5, Knife in the chest or back.
+6, Multiple stab wounds.
+7, Slitting the throat.
+8, Gutting or eviscerating.
+9, Flaying.
+10, Beheading.
+11, Strangulation.
+12, Hanging.
+13, Burying alive.
+14, Drowning.
+15, Boiling alive.
+16, Throwing off a roof.
+17, Severe beating.
+18, Dismemberment.
+19, Burning alive.
+20, Feeding to animals.
+
+
+:Weapons, The killer is often armed with
+1, Poisoned daggers.
+2, Throwing knives.
+3, An over-sized dagger.
+4, A serrated knife.
+5, A crossbow.
+6, A hammer or axe.
+7, A bow and arrows.
+8, A cudgel.
+9, A sickle or scythe.
+10, A garrote and dagger.
+11, Poisoned projectiles.
+12, Bare fists.
+
+
+:Goals, The killer's purposes include
+1, Sowing fear.
+2, Sowing destruction.
+3, Sowing chaos.
+4, Satisfying personal bloodlust.
+5, Gaining vengeance by hunting down a set of specific individuals.
+6, Vigilante justice.
+
+
+:Crime scene, The killer leaves a victim
+1, In a signature pose.
+2, In a signature location.
+3, With a note on the corpse.
+4, With a piece of the corpse missing.
+5, With an unusual object planted on the corpse.
+6, Where the corpse will never be found.
+
+
+:Timing, The killer typically plans murders for
+1, Just after sunrise.
+2, Just after sunset.
+3, Well into the night.
+4, The toll of midnight.
+5, After midnight.
+6, Just before sunrise.
+
+
+:Home base, The killer's base of operations is hidden in or near
+1, The killer's own residence.
+2, An artisan's shop or guildhall.
+3, A merchant's office.
+4, A tavern.
+5, A brothel.
+6, A warehouse or shipyard.
+7, A temple complex.
+8, The city's sewers.
+9, An abandoned guildhall or warehouse.
+10, An armory or barracks.
+11, The residence of a wealthy individual or prominent citizen.
+12, The killer is a transient.
+
+
+:Victims, The killer's favorite victims are
+1, Fishermen and sailors.
+2, Beggars and thieves.
+3, Merchants and moneychangers.
+4, Young noblemen.
+5, Young noblewomen.
+6, Old noblewomen.
+7, Gamblers and drunks.
+8, Priests and monks.
+9, Priestesses.
+10, Serving girls.
+11, Slaves.
+12, Barmaids.
+13, Harlots and madames.
+14, Circus performers.
+15, Foreign travelers.
+16, Farmwives.
+17, Peasant girls.
+18, Inquisitive children.
+19, Young children.
+20, Other killers and criminals.
+
+
+:Limits, The killer refuses to kill
+1, Ugly women.
+2, Beautiful women.
+3, Pregnant women.
+4, Shy children.
+5, Bold children.
+6, Anyone with blue eyes.
+7, Anyone with green eyes.
+8, Anyone with blonde hair.
+9, Anyone with red hair.
+10, Anyone who is blind, deaf, or lame.
+
+
+:Apparel, The killer often wears
+1, Old worn boots.
+2, Shiny leather boots.
+3, A mask covering the face.
+4, A wide-brimmed hat.
+5, A cap pulled low.
+6, A low-cut shirt.
+7, Tight-fitting clothes.
+8, A fake mustache.
+
+
+:Possession, The killer carries
+1, The weapon used in his or her first kill.
+2, A trophy from his/her first kill.
+3, A trophy from every one of his or her kills.
+4, A ledger listing each and every one of his or her kills.
+5, A journal describing in gory detail each and every one of his or her kills
+6, A token stolen from his or her next mark.
+7, An exotic weapon.
+8, A highly polished weapon.
+9, A weapon with runes carved into it.
+10, A weapon with a gem embedded in the pommel.
+11, A weapon with soft leather tassels dangling from the pommel.
+12, A weapon made of an unusual material  [A weapon made of an unusual material]
+
+
+:A weapon made of an unusual material 
+1, blackened steel;
+2, bone
+3, coral
+4, crude iron;
+5, obsidian
+6, stone.
+
+
+:Quirk, The killer is unusually fond of or particular regarding
+1, Horticulture and floral arrangements.
+2, Fashion trends.
+3, Gourmet cooking.
+4, Personal health and fitness.
+5, Arms and armor maintenance.
+6, Small animals.
+7, High quality fabrics and leathers.
+8, Foreign music.
+9, Theater troupes and dancers.
+10, Fine wines.
+11, Social status.
+12, Facial hair.
+

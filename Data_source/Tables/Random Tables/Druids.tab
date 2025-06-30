@@ -1,0 +1,296 @@
+
+
+:Start
+1, druids: WILD BEASTS AND SPICY HERBS...
+
+
+:Background, The druid is
+1, A wildling orphan.
+2, A seasoned herbalist.
+3, A militant environmentalist.
+4, A well-known healer.
+5, A brash, young fool.
+6, A rebellious noble.
+7, A patient teacher.
+8, A mysterious foreigner.
+9, A beautiful maiden.
+10, A rugged outdoorsman.
+11, A veteran wilderness guide.
+12, A beastly brute.
+13, A dark-hearted avenger.
+14, A curious philosopher.
+15, A shy beastfriend.
+16, A fierce guardian.
+17, An exiled spellcaster.
+18, A mystic shaman.
+19, A savage priest or priestess.
+20, A village elder.
+
+
+:Training, The druid learned from
+1, Apprenticing to a woodland witch.
+2, Studying wilderness lore at an academy.
+3, A parent who was also a druid.
+4, Running a menagerie or garden for royalty.
+5, Surviving in the wild alone for years.
+6, Conversing with primal spirits.
+7, An enchanted beast.
+8, Studying old books.
+9, The circle of druids that took him/her in as a child.
+10, A fey creature that offered redemption for past transgressions against nature.
+11, A mysterious village elder.
+12, Time spent stranded in a wild, foreign land.
+
+
+:Eyes, The druid has
+1, Sky blue eyes.
+2, Deep sea blue eyes.
+3, Bright grass green eyes.
+4, Sunset golden eyes.
+5, Pale moss green eyes.
+6, Muddy brown eyes.
+7, Dark, stormy grey eyes.
+8, Night-sky purple eyes.
+9, Dusty brown eyes.
+10, Stony grey eyes.
+
+
+:Trait, The druid has
+1, An earthy scent.
+2, Bits of green under the fingernails.
+3, Stains of bird droppings on his/her clothes.
+4, A long, hooked, beak-like nose.
+5, Large bear-like shoulders and hands.
+6, A pointy, rodent-like nose.
+7, Very hairy arms and legs.
+8, Long, sharp fingernails.
+9, Beautiful, healthy skin.
+10, A greenish, mossy beard.
+
+
+:Mannerism, The druid
+1, Stares hungrily like a wolf.
+2, Stares suspiciously like a cat.
+3, Hisses like a snake when he/she laughs.
+4, Barks like a seal when he/she laughs.
+5, Twitters like a bird when he/she laughs.
+6, Walks ponderously like an ox.
+7, Walks gracefully like a panther.
+8, Eats like a horse.
+9, Eats like a bird.
+10, Speaks very little.
+11, Fidgets like a squirrel.
+12, Pounces like a lion.
+
+
+:Wild Connection, The druid shares an especially close connection with
+1, Aquatic mammals.
+2, Bears.
+3, Birds of prey.
+4, Cats.
+5, Hoofed mammals.
+6, Reptiles and amphibians.
+7, Songbirds and waterfowl.
+8, Wolves and dogs.
+9, Blizzards and snowstorms.
+10, Hurricanes and tides.
+11, Volcanoes, geysers, and hot springs.
+12, Earthquakes.
+13, Thunderstorms and floods.
+14, Forests and trees.
+15, Mountains and stone.
+16, Caves and shadows.
+17, Jungles and rainstorms.
+18, Glaciers and tundra.
+19, Deserts and sand.
+20, Swamps and marshes.
+
+
+:Weapon, The druid wields
+1, A wood staff.
+2, A wood club.
+3, A scimitar.
+4, A spear.
+5, A dagger.
+6, A club and a shield.
+7, A scimitar and a shield.
+8, A spear and a shield.
+
+
+:Druidic Focus, The druid carries
+1, A sprig of holly.
+2, A sprig of mistletoe.
+3, A yew wand.
+4, A cutting from a rare plant.
+5, A totem necklace, strung with pieces of beasts  [A totem necklace, strung with pieces of beasts]
+6, A totem rod, adorned with pieces of beasts  [A totem rod, adorned with pieces of beasts]
+7, A totem necklace, strung with plant material  [A totem necklace, strung with plant material]
+8, A totem rod, adorned with plant material  [A totem rod, adorned with plant material]
+
+
+:A totem necklace, strung with pieces of beasts 
+1, beaks
+2, bones
+3, claws;
+4, shells
+5, tiny skulls
+6, teeth.
+
+
+:A totem rod, adorned with pieces of beasts 
+1, bones
+2, feathers
+3, fur
+4, scales;
+5, a skull
+6, teeth.
+
+
+:A totem necklace, strung with plant material 
+1, seed pods
+2, dried fruit;
+3, root clippings
+4, fresh flowers
+5, fresh leaves
+6, woven reeds.
+
+
+:A totem rod, adorned with plant material 
+1, berries
+2, tree bark
+3, fragrant herbs
+4, fresh leaves
+5, runes carved into the wood
+6, seeds and tree sap.
+
+
+:Possession, The druid also carries
+1, A small knife.
+2, A wooden flute.
+3, A hunting horn.
+4, A shard of obsidian, warm to the touch.
+5, A piece of crystal that glows in moonlight.
+6, A small pouch full of seeds.
+7, A small pouch full of herbal tea.
+8, Several vials of herbal extracts.
+9, A pair of herb snips
+10, A pocketbook field guide to flora and fauna in a region the druid has never visited.
+11, A book of Elvish poems and songs.
+12, Several vials of healing potions.
+
+
+:Apparel, The druid wears
+1, Robes of earth tones.
+2, A dark green cape.
+3, Shiny leather boots with fur.
+4, Boots of soft leather.
+5, A leather baldric.
+6, Leather armor decorated with leafy motifs.
+7, Armor made from the hides of beasts.
+8, Leather armor studded with bone.
+9, A robe stained with bird droppings.
+10, A robe with vines growing from its pockets.
+
+
+:Goal, The druid is looking to
+1, Find a place where a rare herb grows.
+2, Drive away an unnatural intruder.
+3, Lead intruders into a trap.
+4, Help a wounded, legendary beast.
+5, Permanently transform into a beast.
+6, Locate a legendary garden or grove.
+7, Stop the spread of mining or grazing.
+8, Swap recipes and herb lore.
+9, Bear witness to nature's awesome power.
+10, Provide a safe haven for a hunted beast.
+11, Inspire a love for nature.
+12, Drink some tea mixed with strong spirits.
+
+
+:Purpose, The herbal remedy will help
+1, A wound heal more quickly.
+2, To reduce pain.
+3, To prevent infection in a wound.
+4, To lower a fever.
+5, To clear out congestion.
+6, To reduce itchiness.
+7, To recover one's strength.
+8, To prevent nausea.
+9, To cure indigestion.
+10, One stay awake.
+11, One fall asleep.
+12, To make one fertile or virile.
+
+
+:Form, The herbal remedy is
+1, A thick paste.
+2, A thin paste.
+3, A specially treated leaf.
+4, A fluffy powder.
+5, A crystalline substance.
+6, A lotion or balm.
+7, An unpalatable potion.
+8, A sweet-tasting potion.
+9, A strong tea.
+10, A fragrant tea.
+
+
+:Color, The herbal remedy is
+1, Pale green.
+2, Dark green.
+3, Blue green.
+4, Olive green.
+5, Yellowish.
+6, Reddish.
+7, Pale grey.
+8, Dark grey.
+9, Light brown.
+10, Dark brown.
+
+
+:Ingredients, The remedy contains
+1, Root hairs.
+2, Ground roots.
+3, Shredded roots.
+4, Ground tree bark.
+5, Wood shavings.
+6, Fresh leaves.
+7, Dried leaves.
+8, Crumbled leaves.
+9, Leaf buds.
+10, Flower petals.
+11, Pollen.
+12, Fruit peels.
+13, Berries.
+14, Moss.
+15, Mushrooms.
+16, Fuzzy mold.
+17, Spores.
+18, Ground thorns.
+19, Seeds.
+20, A shrubbery.
+
+
+:Method, The remedy is prepared by
+1, Vigorous mixing.
+2, Boiling slowly.
+3, Boiling rapidly.
+4, Roasting.
+5, Smoking.
+6, Sun-drying.
+7, Soaking.
+8, Brining.
+9, Brewing.
+10, Steeping.
+
+
+:Use, The herbal remedy must be
+1, Consumed immediately after preparation.
+2, Consumed after it ages for a few hours.
+3, Consumed after it ages for a few years.
+4, Applied topically to the target area.
+5, Taken with food.
+6, Taken with water.
+7, Taken before going to bed.
+8, Taken with caution; side effects are likely.
+

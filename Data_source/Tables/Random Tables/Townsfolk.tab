@@ -1,0 +1,222 @@
+
+
+:Start
+1, townsfolk: WHO ARE THE PEOPLE IN YOUR NEIGHBORHOOD?
+
+
+:The noble is
+1, A knight.
+2, An old lord.
+3, A young lord.
+4, An old lady.
+5, A young lady.
+6, A wealthy merchant.
+
+
+:The smith is
+1, An armorer.
+3, A blacksmith.
+5, A farrier.
+6, A weaponsmith.
+
+
+:The noble seeks someone to
+1, Dispose of an enemy.
+2, Negotiate a trade contract.
+3, Prepare an army for war.
+4, Sabotage a rival.
+5, Secure a marriage.
+6, Have a good time with.
+
+
+:The noble carries
+1, Several deeds and titles.
+2, A family heirloom.
+3, Several inventories and invoices.
+4, Some very valuable jewels.
+5, A compromising love letter.
+6, A letter from a powerful lord or lady.
+
+
+:The alchemist is
+1, An apothecary.
+2, A hedge wizard.
+3, An herbalist.
+4, A poisonmaker.
+5, A potioneer.
+6, A pyromancer.
+
+
+:The alchemist is looking for
+1, Delivery help.
+2, New recipes.
+4, Purchasers.
+6, Rare ingredients.
+
+
+:The alchemist carries
+2, Several vials of acid.
+3, Several curatives.
+5, An unusual potion.
+6, A pyrophoric substance.
+
+
+:The criminal is
+1, An assassin.
+2, A con artist.
+3, A gambler.
+4, A poacher.
+5, A smuggler.
+6, A thief.
+
+
+:The criminal is looking for
+1, Accomplices for a specific task.
+2, Revenge against a rival criminal.
+3, An easy mark.
+4, Extra muscle for some work.
+5, Rumors that may lead to a big score.
+6, A rowdy evening of carousing.
+
+
+:The criminal carries
+1, A crossbow with poisoned darts.
+2, Several daggers.
+3, A short sword.
+4, A lucky charm.
+5, The token of a love.
+6, Letters for blackmail.
+
+
+:The priest is
+1, An acolyte.
+2, A healer.
+3, A monk.
+4, A preacher.
+5, A scholar.
+6, A witch-hunter.
+
+
+:The priest is looking for
+2, New converts.
+3, Heretics.
+5, Relics and rare lore.
+6, The bottom of a goblet.
+
+
+:The priest carries
+1, A well-used cudgel.
+2, A prominently displayed holy symbol.
+3, A pocketbook of sacred texts.
+4, A wineskin.
+
+
+:The law official is
+1, A constable.
+3, A sheriff.
+5, A guard captain.
+6, A magistrate.
+
+
+:The law official seeks someone to
+1, Capture a fugitive.
+2, Catch a thief.
+3, Guard a specific location or person.
+4, Investigate a disappearance.
+5, Solve a murder mystery.
+6, Have an ale with.
+
+
+:The law official carries
+1, An arrest warrant for an outlaw.
+2, A proclamation for a reward.
+4, A knife or sword of the office.
+6, A pocketbook of local laws.
+
+
+:The seer is
+1, An astrologer.
+2, A fortune teller.
+3, A mystic
+4, A lorekeeper.
+5, A prophet.
+6, A psychic.
+
+
+:The seer is looking for
+2, The answer to a riddle or prophecy.
+4, Some juicy gossip.
+3, News regarding a missing person.
+
+
+:The seer carries
+2, A crystal ball.
+3, A dowsing rod.
+4, A large, sharp-pointed knife.
+6, Several star charts.
+
+
+:The smith is looking for
+2, A new apprentice.
+3, A journeyman craftsman.
+5, Rare metals.
+6, A mug of strong ale.
+
+
+:The smith carries
+2, A hammer.
+4, A metal trinket made by the smith.
+5, A contract commissioning a sword.
+6, Little more than a few coins.
+
+
+:The traveler is
+1, An exile.
+2, A minstrel.
+3, A peddler.
+4, A pilgrim.
+5, A refugee.
+6, A sellsword.
+7, A storyteller.
+8, A treasure hunter.
+
+
+:The traveler is seeking
+1, Accomplices on a quest.
+2, The answer to a riddle
+3, An audience to entertain.
+4, A long lost friend.
+5, The return of something stolen.
+6, Revenge against a bitter rival.
+7, A permanent home.
+8, Steady work.
+9, Traveling companions.
+10, Drinking companions.
+
+
+:The server greets you with
+1, A mug of ale.
+2, A goblet of wine.
+3, A glass of water.
+4, An offer to move to a better table.
+5, A look of exasperation.
+6, A warm handshake.
+7, A pat on the back.
+8, A pretty smile.
+
+
+:The server is looking for
+1, An excuse to kick you out.
+2, Someone more important to talk to.
+3, Someone to do some pest removal.
+4, A big tip.
+5, A good joke or story.
+6, The bottom of a bottle.
+
+
+:The server carries
+1, A filthy rag.
+2, A pristine silk handkerchief.
+4, A piece of conspicuous jewelry.
+6, An unusual belt purse.
+

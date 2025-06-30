@@ -1,0 +1,218 @@
+
+
+:Start
+1, goblin gangs: WE'RE THE BAD GUYS!
+
+
+:Business, The goblins' primary business involves
+1, Raiding villages and farms.
+2, Burglarizing storehouses and shops.
+3, Harassing anyone who passes through their territory.
+4, Robbing caravans carrying gems, precious metals, and exotic goods.
+5, Holding up traders' ships or wagons.
+6, Smuggling drugs  [Smuggling drugs]
+7, Smuggling living things (exotic beasts, foreign harlots, fugitives, slaves).
+8, Serving as muscle for evildoers.
+9, Mining and crafting.
+10, Pranks and hijinks.
+
+
+:Smuggling drugs 
+2, smokeleaf;
+4, a hallucinogenic mushroom;
+5, sleepysalt (a downer).
+6, sharpsugar (an upper).
+
+
+:Symbol, The goblin gang's symbol is
+1, A skull.
+2, An arrow.
+3, A dagger.
+4, The moon.
+5, A star.
+6, A snake.
+7, A spider.
+8, A rat.
+9, A wolf.
+10, A bat.
+
+
+:Lair Location, The goblins' lair is located
+1, In a dark and haunted forest.
+2, In an enchanted forest.
+3, Along a mountain pass.
+4, High in the mountains.
+5, Beneath a bustling city.
+6, Near a quiet farm village.
+
+
+:Lair Structure, The goblins' lair is
+1, A series of natural caverns.
+2, An abandoned mine.
+3, A mine in which the goblins are actively digging.
+4, An underground fortress.
+5, A semi-organized military encampment.
+6, A crude encampment.
+
+
+:Favorite Victims, The goblins are particularly fond of picking on
+1, Fishermen and sailors.
+2, Beggars and drunks.
+3, Merchants and moneychangers.
+4, Young noblemen.
+5, Young noblewomen.
+6, Old noblewomen.
+7, Gamblers and thieves.
+8, Priests and monks.
+9, Priestesses.
+10, Constables and sheriffs.
+11, Castle or town guards.
+12, Servants and slaves.
+13, Barkeeps and maids.
+14, Harlots and madames.
+15, Circus performers.
+16, Foreign travelers and peasant girls.
+17, Young children.
+18, Miners and prospectors.
+19, Elves and rangers.
+20, Dwarves and gnomes.
+
+
+:Plans, The goblins' are currently planning a raid on
+1, The residence of the leader or a senior gangmember.
+2, An artisan's shop or guildhall.
+3, A merchant's office.
+4, A tavern or inn.
+5, A brothel.
+6, A warehouse or shipyard.
+7, A temple complex or shrine.
+8, The town hall.
+9, A shantytown
+10, The residence of a wealthy individual or prominent citizen.
+
+
+:Boss, The goblins' boss is
+1, An egotistical goblin warrior.
+2, A charismatic goblin rogue.
+3, A mysterious goblin shaman.
+4, A talented goblin thief.
+5, A well-known goblin war hero.
+6, A ruthless goblin hexer.
+7, A cunning gobliness.
+8, A brutal hobgoblin warpriest.
+9, A brilliant hobgoblin warlord.
+10, A calculating bugbear assassin.
+
+
+:Goals, The goblins' goals include ,boss and rank-and-file members could have different goals
+1, Disruption of the region's politics.
+2, Disruption of the region's trade.
+3, Revenge against a specific organization.
+4, Revenge against a rival goblin gang.
+5, Spreading chaos and destruction.
+6, Possession of a powerful artifact.
+
+
+:Tactics, The goblins typically fight with
+1, Swarm tactics.
+2, Hit-and-run tactics.
+3, Ambush tactics.
+4, Choreographed maneuvers.
+5, Unpredictable maneuvers.
+6, Lots of smiles and jokes.
+7, Lots of fancy footwork.
+8, Lots of screaming and shouting.
+9, Kicking and stomping.
+10, Lots of head-butting.
+11, Lots of biting and scratching.
+12, Laying traps.
+
+
+:Allies, As enforcers or extra muscle, the goblins sometimes hire
+1, Hobgoblin mercenaries.
+2, Bugbear thugs.
+3, Ogre savages.
+4, Orc berserkers.
+5, Trolls.
+6, Other goblin gangs.
+
+
+:Pets, As guardians or pets, the goblins sometimes keep
+1, Wolves.
+2, Wargs.
+3, Giant spiders.
+4, Boars.
+5, Giant bats.
+6, Dire rats.
+
+
+:Skill, The goblin is particularly skilled at
+1, Being sneaky.
+2, Not being seen.
+3, Tracking foes.
+4, Building traps.
+5, Avoiding traps.
+6, Repairing traps.
+7, Foraging for food and water.
+8, Wrangling beasts.
+9, Digging tunnels.
+10, Crafting arms and armor.
+11, Crushing skulls.
+12, Cutting throats.
+
+
+:Weapons, The goblin wields
+1, A rusty sword.
+2, A finely-made sword
+3, A spiked club.
+4, A wicked looking axe.
+5, A spear decorated with feathers.
+6, Several polished daggers.
+7, A large, serrated dagger.
+8, A pair of curved daggers.
+9, A cracked wooden shield.
+10, A shield, emblazoned with the gangs' symbol.
+11, Arrows fletched with crow feathers.
+12, Arrows fletched with hawk feathers.
+
+
+:ArmororApparel, The goblin wears
+1, Armor with greasy stains.
+2, Patched leather armor.
+3, Piecemeal chain armor.
+4, A leather helm.
+5, A large skull as a helm.
+6, A wolf-face helm.
+7, A lanyard of severed ears.
+8, A big hoop earring.
+9, A shiny silver belt.
+10, A wolf skin.
+11, A black cloak with a hood.
+12, A large belt purse.
+
+
+:Trait, On the goblin's face has
+1, Blue warpaint.
+2, An eyepatch.
+3, Burn scars.
+4, Only one ear.
+5, No front teeth.
+6, An unusal tattoo on its forehead.
+7, Stitches closing a wound on the jaw.
+8, A topknot above it.
+9, Several muddy smudges.
+10, A boil oozing pus.
+11, A wisp of a mustache.
+12, Amazing sideburns.
+
+
+:Manner, The goblin has
+1, An unsettling stare.
+2, A lean and hungry look.
+3, A maniacal laugh.
+4, A mad cackling laugh.
+5, A high-pitched twittering laugh.
+6, A tendency to snicker at everything.
+7, A nervous twitch.
+8, A difficult time standing still.
+

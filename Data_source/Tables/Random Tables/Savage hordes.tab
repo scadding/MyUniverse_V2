@@ -1,0 +1,275 @@
+
+
+:Start
+1, savage hordes: THE BARBARIANS ARE COMING!
+
+
+:Business, The barbarians are
+1, A tribe of nomads, following game.
+2, A tribe that began raiding after being displaced from their native lands.
+3, A clan exiled from their native lands.
+4, A clan in the service of a sovereign.
+5, A confederacy of related tribes or clans.
+6, The degenerate survivors of a broken army.
+
+
+:Travel, The barbarians travel
+1, On foot.
+2, On foot with small carts.
+3, On foot with mounted scouts.
+4, On mounts.
+5, On mounts with wagons.
+6, In small watercraft.
+
+
+:Values, The barbarians value
+1, Bravery.
+2, Strength.
+3, Wisdom.
+4, Virility.
+5, Honoring the gods.
+6, Honoring their ancestors.
+7, Battle-scars.
+8, Kill counts.
+
+
+:Symbol, The barbarians' iconography features
+2, Symbols of death and destruction  [Symbols of death and destruction]
+3, Symbols of the heavens  [Symbols of the heavens]
+4, Symbols of strength and weaponry  [Symbols of strength and weaponry]
+6, Totem beasts  [Totem beasts]
+
+
+:Symbols of death and destruction 
+1, bats
+2, bones
+3, crows
+4, flames;
+5, ghosts
+6, scorpions
+7, skulls;
+8, vultures.
+
+
+:Symbols of the heavens 
+1, clouds
+2, lightning
+3, moon
+4, snow
+5, stars
+6, sun.
+
+
+:Symbols of strength and weaponry 
+1, arrows
+2, axes'
+3, fists
+4, spears
+5, stones
+6, sword
+
+
+:Totem beasts 
+1, bears
+2, boars
+3, eagles
+4, horses
+5, lions
+6, owls
+7, snakes
+8, wolves
+
+
+:Chief, The barbarians' leader is
+1, A well-respected chief.
+2, A charismatic warlord.
+3, A mysterious prophet.
+4, A descendent of an honored hero.
+5, A ruthless killer.
+6, A brutish thug.
+7, An impatient young warrior.
+8, A wise old man.
+9, A celebrated war hero.
+10, A prolific lover.
+
+
+:Notoriety, The barbarians are notorious for
+1, Never leaving survivors.
+2, Feeding prisoners to wild beasts.
+3, Tattooing or branding prisoners.
+4, Scalping enemies.
+5, Flaying enemies.
+6, Raiding and burning villages.
+7, Plundering merchant caravans.
+8, Eating prisoners.
+9, Claiming prisoners as slaves.
+10, Taking prisoners as wives, concubines, or catamites.
+
+
+:Reputation, The barbarians are known for
+1, Screaming and shouting during battle.
+2, Convening with ghosts and spirits.
+3, Ritual animal sacrifice.
+4, Ritual human sacrifice.
+5, Ritualistic blood-letting.
+6, Ritualistic sexual acts.
+7, Eating unusual meats.
+8, Prolific amounts of drinking.
+9, Never cutting their hair.
+10, Shaving their heads and bodies.
+11, Never bathing.
+12, Bathing and perfuming their bodies.
+
+
+:Morale, The barbarians' attitude is
+1, Rowdy and festive.
+2, Joyful and eager to fight.
+3, Relaxed and carefree.
+4, Frightened and suspicious.
+5, Hostile and suspicious.
+6, Hostile and eager to fight.
+
+
+:Fears, The barbarians fear
+1, Foreigners wearing a particular color of clothing  [Foreigners wearing a particular color of clothing]
+2, Foreigners armored in steel.
+3, Foreigners with facial hair.
+4, Foreign women.
+5, All foreigners.
+6, Members of a particular race  [Members of a particular race]
+7, A particular natural phenomenon  [A particular natural phenomenon]
+8, Spellcasters.
+9, The gods.
+10, Dragons.
+
+
+:Foreigners wearing a particular color of clothing 
+1, red
+2, gold
+3, green;
+4, blue
+5, purple
+6, white
+7, black;
+8, grey.
+
+
+:Members of a particular race 
+2, elves
+3, goblinoids;
+6, reptilian humanoids.
+
+
+:A particular natural phenomenon 
+1, blizzards
+2, earthquakes
+3, floods;
+4, thunderstorms
+5, volcanoes;
+6, typhoons.
+
+
+:Armor, The warrior is armored in
+1, Nothing.
+2, Tattered leather.
+3, Blood-stained leather.
+4, Boiled leather.
+5, The hides of scaly beasts.
+6, The hides of furry beasts.
+7, The hides of exotic beasts.
+8, Armor taken from a fallen enemy.
+
+
+:Primary weapon, The warrior is wielding
+1, A spear and a hunting knife.
+2, A spear and a shield.
+3, An exotic, curved blade.
+4, A huge, curved blade.
+5, An over-sized hammer.
+6, An enormous club.
+7, A greataxe.
+8, A battleaxe and a shield.
+9, Several handaxes.
+10, A greatsword.
+11, A pair of long knives.
+12, A longspear and hunting knife.
+
+
+:Secondary weapon, The warrior is also carrying
+1, Several throwing spears.
+2, Several throwing axes.
+3, Many throwing knives.
+4, A shortbow.
+5, A longbow.
+6, A greatbow.
+7, A blowgun.
+8, Several bolas.
+
+
+:Tactics, The warrior fights with
+1, Hit-and-run tactics.
+2, Making a mad charge.
+3, Relentless repeated blows.
+4, Lots of taunts and jeers.
+5, Never breaking eye contact.
+6, Lots of head-butting.
+
+
+:Skills, The warrior is
+1, A practiced hunter.
+2, A poorly-trained slave.
+3, A veteran of many wars.
+4, A mystical shaman.
+5, An expert scout.
+6, A master weaponcrafter.
+7, A superb herbalist.
+8, A beast handler.
+9, An insufferable braggart.
+10, A drunk.
+11, A favorite among the men.
+12, A favorite among the ladies.
+
+
+:Facial feature, On the warrior's face is
+1, A bone through a nose piercing.
+2, A bone earing.
+3, An empty eye socket.
+4, A grisly scar.
+5, A serious expression.
+6, A look of sadness.
+7, A carefree grin.
+8, A ruined nose.
+9, Some terrifying war paint.
+10, A frame of long, beautiful long hair.
+11, An unruly beard.
+12, A long, braided mustache.
+
+
+:Body, On the warrior's body is
+1, A tattoo of a great beast  [A tattoo of a great beast]
+2, A tattoo of a skull and some bones.
+3, A tattoo of a weapon  [A tattoo of a weapon]
+4, A festering wound.
+5, A noticeable battle scar.
+6, A large burn scar.
+7, A ceremonial brand.
+8, An intimidating amount of muscle.
+9, An awful lot of war paint.
+10, A whole lot of hair.
+
+
+:A tattoo of a great beast 
+1, bear;
+2, boar
+3, dragon
+4, eagle
+5, lion;
+6, wolf.
+
+
+:A tattoo of a weapon 
+2, arrow;
+3, axe
+5, spear
+6, sword.
+

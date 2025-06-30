@@ -1,0 +1,241 @@
+
+
+:Start
+1, elves: IMMORTAL, GRACEFUL, AND MAGICAL
+
+
+:Hair, The dark elf has
+1, Bright white hair.
+2, Silver-blonde hair.
+3, Whitish grey hair.
+4, Whitish blonde hair.
+5, Shiny platinum hair.
+6, Pale grey hair.
+
+
+:Eyes, The dark elf has
+1, Whitish blue eyes.
+2, Pale blue eyes.
+3, Lilac eyes.
+4, Pale violet eyes.
+5, Deep red eyes.
+6, Pale pink eyes.
+
+
+:Hair, The high elf has
+1, Black hair.
+2, Copper hair.
+3, Golden blonde hair.
+4, Platinum blonde hair.
+5, Silver-white hair.
+6, Dark brown hair.
+7, Reddish-brown.
+8, Fiery red hair.
+
+
+:Hair, The wood elf has
+1, Black hair.
+2, Dark brown hair.
+3, Light brown hair.
+4, Auburn hair.
+5, Black hair with a brown streak.
+6, Dark brown hair with an auburn streak.
+7, Brown hair with a blonde streak.
+8, Blonde hair.
+
+
+:Mannerisms, The dark elf has
+1, A likable grin.
+2, A delicate laugh.
+3, An amused smirk.
+4, A humorless visage.
+5, A habit of sighing.
+6, An insolent curl to the lip.
+7, A habit of pacing.
+8, A habit of scratching the back of the neck.
+
+
+:Eyes, The high elf has
+1, Pale golden eyes.
+2, Bright golden eyes.
+3, Dark green eyes.
+4, Brilliant green eyes.
+5, Bright blue eyes.
+6, Dark blue eyes.
+7, Blue eyes with golden flecks.
+8, Green eyes with golden flecks.
+
+
+:Eyes, The wood elf has
+1, Brilliant green eyes.
+2, Dark green eyes.
+3, Pale green eyes.
+4, Golden brown eyes.
+5, Dark brown eyes.
+6, Hazel eyes.
+
+
+:Mannerisms, The high elf has
+1, A beautiful smile.
+2, A delicate laugh.
+3, A habit of nodding slowly while listening.
+4, A humorless visage.
+5, A habit of sighing.
+6, A touch of sorrow in his or her voice.
+7, A habit of pacing.
+8, A habit of scratching the chin.
+
+
+:Mannerisms, The wood elf has
+1, A likable grin.
+2, A delicate laugh.
+3, An amused smirk.
+4, A humorless visage.
+5, A habit of sighing.
+6, A touch of sorrow in his or her voice.
+7, A habit of pacing.
+8, A habit of scratching the back of the neck.
+
+
+:Profession, The dark elf is
+1, A deadly assassin.
+2, A death-marked heretic.
+3, An ambitious mage.
+4, A messenger on an errand.
+5, A powerful, high-ranking priestess.
+6, An eager, novice priestess.
+7, A capable scout.
+8, A battle-hardened soldier.
+9, A patient and calculating spy.
+10, A devoted guardian.
+11, A peerless gemcutter.
+12, A secretive merchant.
+
+
+:Goal, The dark elf is looking to
+1, Track an aberrant beast.
+2, Investigate the disappearance of a comrade.
+3, Lead any travelers into a dangerous trap.
+4, Locate the lair of a legendary spider.
+5, Find some knowledge about an ancient event or place.
+6, Prove his or her worth to a priestess back home.
+7, Avoid any other dark elves.
+8, Avoid any high elves or wood elves.
+9, Kill some goblins.
+10, Share some wine while prying for secrets.
+
+
+:Possessions, The dark elf carries
+1, An ancient wand or staff.
+2, A unique gem or piece of jewelry.
+3, A finely-crafted short sword or crossbow.
+4, A tome of dark lore.
+5, A pair of matching short swords.
+6, A half dozen sharp daggers.
+7, Several doses of deadly poisons.
+8, A staff or sword with a spiderweb pattern etched along its length.
+9, A pet spider.
+10, A trophy from a foe he or she killed.
+
+
+:Profession, The high elf is
+1, A powerful enchanter or enchantress.
+2, A patient and wise sage.
+3, A dedicated knight.
+4, A capable scout.
+5, A mystic oracle.
+6, A watchful ranger.
+7, A superb archer.
+8, A masterful bladedancer.
+9, A battle-tested warrior.
+10, A well-known singer.
+11, A masterful sailor.
+12, A celebrated shipbuilder.
+
+
+:Goal, The high elf is looking to
+1, Track an unnatural beast or invader.
+2, Lead any travelers out of the forest.
+3, Find some knowledge about an ancient event or place.
+4, Locate a legendary gem.
+5, Solve an ancient mystery.
+6, Find one of the last copies of a legendary book.
+7, Sail to the undying lands.
+8, Share a drink a tale of woe.
+
+
+:Possessions, The high elf carries
+1, An ancient blade.
+2, A unique gem or piece of jewelry.
+3, A finely-crafted longsword or bow.
+4, A tome of mystic lore.
+5, The journal of an ancient scholar.
+6, A sword etched with ancient runes.
+7, A staff with a moon-white crystal set at the end.
+8, Arrows fletched with the feathers of a fey bird  [Arrows fletched with the feathers of a fey bird]
+9, Several vials of healing potions.
+10, A cache of useful herbs.
+11, A silver flute.
+12, A golden harp.
+
+
+:Arrows fletched with the feathers of a fey bird 
+1, eagle
+2, hawk
+3, owl;
+4, phoenix
+5, raven
+6, swan.
+
+
+:Profession, The wood elf is
+1, An adept healer.
+2, A devoted priest.
+3, A mystic seer.
+4, A superb archer.
+5, A silent scout.
+6, A watchful ranger.
+7, A fierce warrior.
+8, A masterful bladedancer.
+9, A merry rogue.
+10, An enchanting musician.
+11, A famous beast-slayer.
+12, An exceptional winemaker.
+
+
+:Goal, The wood elf is looking to
+1, Track an unnatural beast or invader.
+2, Lead any travelers away from the forest.
+3, Guard a sacred site from outsiders.
+4, Lead travelers astray in a dangerous part of the forest.
+5, Warn travelers against the dangers of the forest.
+6, Protect the secrets of his or her people at all costs.
+7, Drive an invader out of the forest.
+8, Eat, drink, and be merry.
+
+
+:Possessions, The wood elf carries
+1, An ancient blade.
+2, A unique gem or piece of jewelry.
+3, A finely-crafted spear or staff.
+4, An ornate longbow.
+5, A heavy steel sword.
+6, A simple spear and a simple bow.
+7, A curved blade and a small wooden shield.
+8, Arrows fletched with the feathers of a wild bird  [Arrows fletched with the feathers of a wild bird]
+9, Several vials of healing potions.
+10, A cache of useful herbs.
+11, A silver flute.
+12, A carved wooden harp.
+
+
+:Arrows fletched with the feathers of a wild bird 
+1, eagle
+2, goose
+3, hawk;
+4, owl
+5, pheasant
+6, quail
+7, raven;
+8, swan.
+

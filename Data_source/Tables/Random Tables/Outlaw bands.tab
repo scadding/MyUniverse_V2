@@ -1,0 +1,267 @@
+
+
+:Start
+1, outlaw bands: CRIMINALS ON THE FRINGES
+
+
+:Business, The outlaw band's primary business involves
+1, Poaching from the sovereign's preserve or a prominent noble's lands.
+2, Harboring fugitives.
+3, Harassing government officials and nobles who pass along the road.
+4, Robbing caravans carrying gems, precious metals, and exotic goods.
+5, Holding up incoming or outgoing ships or wagons.
+6, Smuggling drugs—smokeleaf, a hallucinogenic mushroom, sleepysalt (a downer), sharpsugar (an upper).
+7, Smuggling rare antiquities.
+8, Smuggling stolen goods.
+9, Smuggling living things (exotic beasts, foreign harlots, fugitives, slaves).
+10, Serving as muscle for shady merchants and/or brothel-keepers.
+
+
+:Colors, The outlaw band's colors are
+1, Black.
+2, Gold.
+3, Forest green. 8. Maroon.
+4, Bronze.
+5, Tan / khaki.
+6, Brown / beaver.
+7, Grey / gunmetal.
+9, Dark brown.
+10, Olive green.
+
+
+:Symbol, The outlaw band's symbol is
+1, A skull.
+2, An arrow.
+3, A dagger.
+4, A goblet.
+5, The moon.
+6, A star.
+7, A snake.
+8, A badger.
+9, A spider.
+10, A rat.
+11, A wolf.
+12, A bear.
+
+
+:Boss, The outlaw band's leader is
+1, A dangerous megalomaniac.
+2, A charismatic demagogue.
+3, A mysterious foreigner.
+4, A talented thief.
+5, A member of a prominent family.
+6, A ruthless killer.
+7, A femme fatale.
+8, A charming rogue.
+9, A dashing swashbuckler.
+10, A brutish thug.
+11, A devoted priest.
+12, A well-known fugitive.
+
+
+:Hideout, The outlaw band's headquarters is hidden in or near
+1, The residence of a prominent noble.
+2, The village's market square.
+3, A wayside inn.
+4, A tavern.
+5, A brothel.
+6, An old lighthouse.
+7, An abandoned cabin.
+8, A waterfall.
+9, A cave.
+10, A dense forest.
+
+
+:Recruits, The outlaw band's members are primarily
+1, Idle artisans.
+2, Escaped slaves.
+3, Former soldiers.
+4, Poor peasants.
+5, Exiles / refugees.
+6, Vagrants.
+
+
+:Goals, The outlaw band's goals include ,leadership and rank-and-file members could have different goals
+1, Domination of the region's trade.
+2, Sabotage of the region's trade.
+3, Revenge against a rival band of outlaws.
+4, Revenge against the region's elite.
+5, Rebellion against the region's elite.
+6, Equality and freedom for all.
+7, A wealthy and peaceful retirement.
+8, Violence to slake their bloodlust.
+
+
+:Weapons, Members of the outlaw band are typically armed with
+1, Wooden clubs.
+2, Over-sized daggers.
+3, Shortbows and arrows.
+4, Longbows and arrows.
+5, Daggers and crossbows.
+6, Axes and knives.
+7, Sticks and stones.
+8, Shortswords.
+9, Brass knuckles.
+10, Daggers and sling shots.
+
+
+:Victims or Foils, The outlaw band is feared or respected by
+1, Ambassadors and tax collectors.
+2, Merchants and peddlers.
+3, Politicians and magistrates.
+4, Guards and sheriffs.
+5, Soldiers and warriors.
+6, Nobles and wealthy travelers.
+7, Knights and loyalists.
+8, Peasants and farmers.
+9, Priests and sages.
+10, Women and children.
+
+
+:Prey, The poachers' favorite prey includes
+1, Great beasts  [Great beasts]
+3, Exotic birds  [Exotic birds]
+4, Deer  [Deer]
+6, Exotic beasts  [Exotic beasts]
+7, Game birds  [Game birds]
+8, Small beasts  [Small beasts]
+
+
+:Great beasts 
+2, bears
+5, wolves;
+8, boars.
+
+
+:Exotic birds 
+1, eagle
+2, falcon;
+3, hawk
+4, owl
+5, peafowl
+6, roc;
+7, phoenix
+8, flamingo.
+
+
+:Deer 
+2, elk
+4, harts;
+6, moose
+8, stags.
+
+
+:Exotic beasts 
+1, lions
+2, tigers;
+3, griffons
+4, hippogriffs
+5, elephants;
+6, owlbears
+7, wyvern
+8, behemoths.
+
+
+:Game birds 
+1, quail
+2, grouse;
+3, pheasant
+4, snipe
+5, duck
+6, partridge;
+7, turkey
+8, swan.
+
+
+:Small beasts 
+1, fox
+2, otter;
+3, raccoon
+4, badger
+5, beaver;
+6, ermine
+7, sable
+8, skunk.
+
+
+:Purpose, The poachers' hunt
+1, For sport.
+2, To feed their families.
+3, To feed the impoverished peasants.
+4, To exact revenge on the landowner.
+5, To sell the beasts' meat.
+6, To sell the beasts' pelts.
+
+
+:Tactics, The robbers strike with
+1, Swarm tactics.
+2, Hit-and-run tactics.
+3, Ambush tactics.
+4, Choreographed maneuvers.
+5, Unpredictable maneuvers.
+6, Lots of fancy footwork.
+
+
+:Rep, The robbers are known for
+1, Never leaving survivors.
+2, Branding captives.
+3, Scalping captives.
+4, Burning wagons and ships.
+5, Using explosives.
+6, Romantic escapades.
+7, Singing bawdy songs.
+8, Drinking too much ale.
+
+
+:MO, The smuggling ring's primary modus operandi involves
+1, Underground tunnels.
+2, Secret compartments.
+3, Stealth watercraft.
+4, Humanoid mules.
+5, Bribery of officials.
+6, A network of safehouses.
+
+
+:Patron, The smuggling ring is supported by
+1, A prominent merchant.
+2, An important minister or magistrate.
+3, A major crime boss.
+4, A pirate captain.
+5, An admiral.
+6, A group of subversives.
+7, The local guard captain or sheriff.
+8, The sovereign's main rival.
+
+
+:Distinguishing trait, The outlaw has
+1, A flashy earring ring.
+2, Shiny leather boots.
+3, A hole in the toe of one boot.
+4, A dagger in each boot.
+5, A mask on the face.
+6, A wide-brimmed hat.
+7, A dragon tattoo on the forearm.
+8, A flame tattoo around the arm.
+9, A maniacal laugh.
+10, A bent, broken nose.
+11, An open shirt and a very hairy chest.
+12, Extravagant mustaches.
+
+
+:Goal, The outlaw is looking for
+1, Accomplices for a tricky job.
+2, Revenge against a rival outlaw.
+3, An easy mark or quick score.
+4, Extra muscle for a tough job.
+5, Rumors that may lead to a big score.
+6, A rowdy evening of carousing.
+
+
+:Possession, The outlaw carries
+1, A love letter.
+2, A tattered map.
+3, A wineskin.
+4, A polished blade.
+5, An ancient key.
+6, A lute or pipe.
+

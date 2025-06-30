@@ -1,0 +1,414 @@
+
+
+:Start
+
+
+:Geography, The city grew up around
+1, A coastal harbor.
+2, A calm, coastal bay.
+3, A large freshwater lake.
+4, A wide, navigable river.
+5, A river navigable by small craft.
+6, The mouth of a river or a river delta.
+7, The confluence of two rivers.
+8, A series of natural springs.
+9, A well-traveled crossroads.
+10, A water source and a well-traveled road.
+
+
+:Defenses, The city is defended by
+1, A disciplined military guard.
+2, A standing army of devoted soldiers.
+3, A company of sellswords and knaves.
+4, An order of holy knights.
+5, Little; the city's been sacked many times.
+6, A huge, fortress or citadel within the city.
+7, Watchtowers spread throughout the lands.
+8, Thick stone walls and impenetrable gates.
+9, High stone walls, catapults, and scorpions.
+10, A powerful magical ward or gigantic golem.
+
+
+:District, This part of the city is the
+1, Slums.
+2, Residential, poor.
+3, Res., middle class.
+4, Res., upper class.
+5, Palace district.
+6, Temple district.
+7, Crafting district.
+8, Docks district.
+9, Riverfront district.
+10, Harbor district.
+11, University district.
+12, Military district.
+13, Market district.
+14, Garden district.
+15, Monument district.
+16, Necropolis.
+17, Theater district.
+18, Civic center.
+19, Ethnic enclave.
+20, Foreign enclave.
+
+
+:Resources, The city is near a region ideal for mining, growing, or grazing
+1, Iron ore.
+2, Copper ore.
+3, Gold or silver deposits.
+4, Clay or granite deposits.
+5, Quartz or salt deposits.
+6, Peat or coal deposits.
+8, Barley and oats.
+9, Beans and corn.
+10, Nuts and olives.
+11, Rice or wheat.
+12, Potatoes.
+13, Sugar cane.
+14, Tobacco.
+15, Cotton.
+16, Fruit trees.
+17, Cabbages.
+18, Cattle.
+19, Dairy cows.
+20, Sheep.
+
+
+:Law Enforcement, The laws are
+1, Enforced by a strict, orderly city watch.
+2, Enforced by a corrupt, roguish city watch.
+3, Not enforced among the wealthy elite.
+4, Not enforced for those who pay bribes.
+5, More like guidelines.
+6, Enforced in a haphazard fashion, incomprehensible to visitors.
+7, Enforced by a secret society of assassins, mages, or priests.
+8, Enforced by a company of mercenaries.
+9, Simple, easy to learn and to follow.
+10, Extensive and complicated, nonsensical.
+11, Enforced by a cheerful drunken sheriff.
+12, Enforced by a rigid soldier-turned-sheriff.
+
+
+:Streets, The locals call this street
+1, Cedar Street
+2, Cherry Street;
+3, Maple Street
+4, Oak Street
+5, Pine Street
+6, Willow Street.
+7,   [5]
+9,   [6]
+10,   [7]
+11,   [8]
+12,   [9]
+13,   [10]
+14,   [11]
+15,   [12]
+16,   [13]
+17,   [14]
+18,   [15]
+19,   [16]
+20,   [17]
+
+
+: 
+1, Armory Street
+2, Barricade Street
+3, Knight Street
+4, Pike Street
+5, Shield Street
+6, Spear Street.
+
+
+:  0
+1, Arch Street
+2, Bridge Street.
+3, Canal Street
+4, Cross Street
+5, Falls Road
+6, River Street.
+
+
+:  1
+1, Castle Street
+2, Inn Street;
+3, Rock Way
+4, House Street
+5, Hovel St.
+6, Tower Street.
+
+
+:  2
+1, Cattle Road
+2, Common Street;
+3, Green Street
+4, Greenway Street;
+5, Meadow Lane
+6, Orchard Street.
+
+
+:  3
+1, Cooper Street
+2, Mason Street;
+3, Smith Street
+4, Tailor Street
+5, Stone Street
+6, Weaver Street.
+
+
+:  4
+1, Bluff Street
+2, Crestline Way;
+3, High Street
+4, Highland Way
+5, Hilltop Lane
+6, Ridge Street.
+
+
+:  5
+1, Devil's Alley
+2, Magpie Lane;
+3, Paupers Street
+4, Penny Lane
+5, Rat's Alley
+6, Serpent's Alley.
+8, Market Street.
+
+
+:  6
+1, Baker Street
+2, Hook Street;
+3, Farm Road
+4, Feather Street
+5, Mill Street
+6, Ranchers Road.
+
+
+:  7
+1, Banner Road
+2, Drum Street;
+3, March Street
+4, Parade Street;
+5, Trumpet Street
+6, Victory Lane.
+
+
+:  8
+1, Crown Street
+2, King Street;
+3, Lords Lane
+4, Palace Way
+5, Queens Street
+6, Royal Street.
+
+
+:  9
+1, Circle Street
+2, Brick Road;
+3, Perimeter Street
+4, Townline Road;
+5, Watch Street
+6, Wall Street.
+
+
+:  10
+1, Bay Street
+2, Commerce Street;
+3, Harbor Street
+4, Lake Street
+5, Pier Street
+6, Water Street.
+
+
+:  11
+1, Bayview Street
+2, Castleview Street
+3, Gardenview Street
+4, Greenview Street
+5, Harborview Street
+6, Riverview Street.
+
+
+:  12
+1, North Road
+2, North Street;
+3, South Road
+4, South Street;
+5, East Road
+6, West Road.
+
+
+:  13
+
+
+:  14
+1, Northgate Street
+2, Southgate Street
+3, Eastgate Street
+4, Westgate Street
+5, Old Gate Road
+6, Watchtower Street.
+
+
+:  15
+1, Briar Street
+2, Garden Street;
+3, Lilac Street
+4, Lily Way
+5, Rose Street;
+6, Violet Street.
+
+
+:  16
+1, Emerald Way
+2, Jewelers Lane;
+3, Golden Lane
+4, Rich Way
+5, Ruby Road
+6, Silver Lane.
+
+
+:  17
+1, Ancient Way
+2, Bath Street;
+3, Fountain Street
+4, Old Brick Road;
+5, Stone Ruin Road
+6, Tumblestone Way.
+
+
+:Culture, The city is known for its
+1, Architectural style.
+2, Architectural feats.
+3, Artists and poets.
+4, Inventive cuisine.
+5, Traditional cuisine.
+6, Suggestive dancing.
+7, Gladiatorial games.
+8, Horse races.
+9, Scholars and sages.
+10, Music and/or dance.
+11, Romance.
+12, Jousting games.
+13, Superior soldiers.
+14, Street festivals.
+15, Religious fervor.
+16, Religious feasts.
+17, Traditional dress.
+18, Unusual dress.
+19, Theater scene.
+20, Wine and/or ale.
+
+
+:Government, The city is ruled by
+1, The head of a noble family.
+2, A council of distinguished nobles.
+3, A council of wealthy merchants.
+4, A council of elected officials.
+5, An elected mayor or protector.
+6, A benevolent sovereign or high priest.
+7, A wicked tyrant or greedy autocrat.
+8, A brutal warlord or military commander.
+9, A cabal of witches and wizards.
+10, The leaders of a religious order.
+
+
+:Historical Event, The city experienced
+1, Mass conversions.
+2, An earthquake.
+3, Age of exploration.
+4, A terrible famine.
+5, A disastrous flood.
+6, A legendary storm.
+7, An assassination.
+8, A series of riots.
+9, A great discovery.
+10, Vermin infestation.
+11, A destructive fire.
+12, A deadly plague.
+13, A bloody rebellion.
+14, A lengthy siege.
+15, Religious wars.
+16, Territorial wars.
+17, Foreign occupation.
+18, An economic boom.
+19, A great depression.
+20, A dragon attack.
+
+
+:Threats, The people are fearful of
+1, Bandits and outlaws.
+2, Barbarian invasions.
+3, Disease outbreaks.
+4, A dragon or legendary beast.
+5, Destructive flooding.
+6, Food shortages.
+7, Occupation by a foreign empire.
+8, The wrath of a vengeful god.
+9, Magic and new inventions.
+10, Pirates, smugglers, and bands of thieves.
+11, A recently established religion.
+12, A rival city.
+
+
+:Power Players, Within or outside the
+1, A ruthless assassins' guild.
+2, A populist demagogue.
+3, The captain of a mercenary company.
+4, A champion knight or arena fighter.
+5, One or more crafting guilds.
+6, A dangerous crime boss.
+7, One or more criminal gangs.
+8, A charismatic cult leader.
+9, One or more merchant guilds.
+10, A scheming noble lord or lady.
+11, An outspoken philosopher or scholar.
+12, A celebrated poet and playwright.
+13, A popular priest or priestess.
+14, A secret society of lorekeepers.
+15, Smugglers and black market dealers.
+16, The son or daughter of a deposed ruler.
+17, A wealthy trader of exotic goods.
+18, A conniving vampire or fiend.
+19, A bold war hero.
+20, A clever witch or wizard.
+
+
+:Landmark, You see aoran
+1, Academy or university.
+2, Ancient ruin.
+3, Arena.
+4, Cemetery.
+5, Civic hall, council hall, or guild hall.
+6, Common or greenway.
+7, Fortress.
+8, Gateway or arch.
+9, Library.
+10, Lighthouse or watchtower.
+11, Marketplace.
+12, Memorial  [Memorial]
+13, Monument  [Monument]
+14, Palace.
+15, Parade grounds or drilling yard
+16, Pier, marina, or traveler's bazaar.
+17, Plaza or public square.
+18, Temple.
+19, Theater.
+20, Stockyards.
+
+
+:Memorial 
+1, mausoleum
+2, reflecting pool
+3, large statue
+4, botanical garden.
+
+
+:Monument 
+1, colossus
+2, column
+3, obelisk
+4, plaque
+5, rotunda
+6, wall.
+

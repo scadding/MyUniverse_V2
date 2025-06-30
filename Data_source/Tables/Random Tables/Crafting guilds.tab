@@ -1,0 +1,205 @@
+
+
+:Start
+1, crafting guilds: HIRE A PROFESSIONAL
+
+
+:Common Trades, This is a guild for
+1, Blacksmiths or farriers.
+2, Bowyers or fletchers.
+3, Butchers or salters.
+4, Candlemaker.
+5, Cobblers or shoemakers.
+6, Coopers, shipwrights, or carpenters.
+7, Dyers.
+8, Glassblowers or glaziers.
+9, Goldsmiths, silversmiths, or finesmiths.
+10, Jewelers or gemcutters.
+11, Locksmiths, cutlers, or bucklemakers.
+12, Metalsmiths, armorers, or ropermakers.
+13, Millers, cooks, or bakers.
+14, Potters or tilemakers.
+15, Masons, stonecutters, or bricklayers
+16, Tailors, furriers, or hatmakers.
+17, Tanners, leatherworkers, or skinners.
+18, Weavers or sailmakers.
+19, Wheelwrights, cartwrights, or carpenters.
+20, Winemakers, distillers, or brewers.
+
+
+:Headquarters, Guild business occurs
+1, In the guild leader's personal residence or in the home of an influential merchant.
+2, In the dusty basement of a tavern or pub.
+3, In the backroom of a tavern or pub.
+4, In a towering guildhall that leans slightly.
+5, On a moored ship or in a large warehouse.
+6, In the ruin of an old temple or palace.
+7, In an open-air pavilion in the city's bazaar.
+8, In a large guildhall just off the city's bazaar.
+9, In an opulent guildhall, showcasing riches.
+10, In a house down a shady back-alley.
+11, In a guildhall jointly shared with all other guilds of the city.
+12, In a famous, centuries-old guildhall.
+
+
+:Uncommon Trades, This guild is for
+1, Alchemists or apothecaries.
+2, Armorers or weaponsmiths.
+3, Basketweavers.
+4, Calligraphers, scriveners, or bookbinders.
+5, Cartographers, scribes, or chartmakers.
+6, Coppersmith or brassworkers.
+7, Glovers or pursemakers.
+8, Painters, limners, or plasterers.
+9, Rugmakers, scabbardmakers, or sculptors.
+10, Saddlers or harnessmakers.
+11, Tinkers, tiinsmiths, pewterers, or casters.
+12, Woodcarvers, roofers, or joiners.
+
+
+:Status and Control, The guild is
+1, Poor; though once great, hard times have come, and the guild has little influence left.
+2, Brand new; the guild is frantically recruiting members in order to gain power.
+3, Exponentially rising; a recent boon has provided great profits and influence.
+4, Slowing; a rising competitor is slowly cutting into the guild's profits and influence.
+5, Absolute; the guild has complete dominance in their field.
+6, Spotty; the guild's profits and influence rise and fall, as market conditions change.
+7, Unquestioned; the guild exerts complete dominance over all other guilds in the area.
+8, Questionable; though the guild claims control, some operators skirt its rules.
+
+
+:Illicit Affairs, The guild is involved in
+1, None; they are paragons of morality.
+2, Staying well within the law, if slipping on a few taxes due to ignorance, of course.
+3, Knowing how to play the political game, they trade a few favors with officials.
+4, Guild leaders having dollar signs for eyes, and setting advantageous prices in the city.
+5, Price floors becoming commonplace and frequent small bribes to city officials to overlook minor illicit activities.
+6, A variety of upper-level bribes, some minor scams, and the dismay of local priests.
+7, Rampant corruption, with large-scale bribery of various city officials and contracts with a thieves' guild and occasionally an assassin.
+8, Pacts with crime lords, fiends, or vampires, large-scale counterfeiting, and treason are business-as-usual for this guild.
+
+
+:Minor Quest, You must fetch a shipment of goods from
+1, The city gates, held up by a bureaucratic city official.
+2, The nearest village, where they're caught up in some small-town superstition.
+3, A relatively nearby city, where there is a severe mix-up with the shipments.
+4, The natural areas one would gather them, a chance to learn the roots of the trade.
+5, The stores of the city's banks, which must be paid off from their mortgage.
+6, Across the room where the party receives the quest (fetching is the easy part).
+
+
+:Standard Quest, Recently the guild has lost access to raw materials or manufacturing because of
+1, A recent venture with a supplier, rival, or local official that has turned out badly.
+2, A trade blockade that has to be resolved.
+3, A thieves' guild that is targeting the guild, but may be convinced to look elsewhere.
+4, A master using materials frivolously, so new sources must be found.
+5, A city or religious official banning the goods, citing them as immoral.
+6, Spending all their revenue to fulfill a special contract or bribing officials, lacking foresight to buy sufficient raw materials.
+
+
+:Major Quest, You must fetch a rare creature or material from
+1, The marketplace of a foreign city or a legendary city on an elemental plane.
+2, An ancient dwarven stronghold's forges.
+3, A quaint pasture—in the wildest parts of a celestial realm.
+4, A faraway island, rumored to have cannibals and foul magicks.
+5, A mystic mirage that manifests in a desert for twenty minutes once every century.
+6, The Plane of Rats (or other filthy location).
+
+
+:Background, The artisan is
+1, A young journeyman.
+2, A mediocre journeyman.
+3, A skilled journeyman.
+4, A veteran of the craft.
+5, A master of the craft.
+6, An old crafter.
+
+
+:Trait, The artisan has
+1, A friendly smile.
+2, Keen eyes.
+3, Watery eyes.
+4, A stubborn scowl.
+5, A dour frown.
+6, A missing tooth.
+7, Tired eyes.
+8, An amused smirk.
+
+
+:Feature, The artisan has
+1, A limp.
+2, A hunchback.
+3, Unsteady hands when they aren't at work.
+4, A habit of looking down.
+5, A bulbous nose.
+6, A burn scar on the face.
+7, A wispy mustache and/or a patchy beard..
+8, A thick mustache and/or a bushy beard.
+
+
+:Skill, The artisan is highly skilled at
+1, Crafting one particular type of item.
+2, Identifying high quality raw materials.
+3, Putting the finishing touches on an item.
+4, Instructing and training apprentices.
+5, Negotiating better prices for goods.
+6, Maneuvering in guild politics.
+
+
+:Goal, The artisan is looking for
+1, A new apprentice.
+2, A journeyman craftsman to hire.
+3, Rare materials.
+4, A better set of tools.
+5, Someone with whom to talk shop.
+6, Someone who attended a sporting event.
+7, Someone to deliver a sensitive letter.
+8, A mug of strong ale.
+
+
+:Possession, The artisan is carrying
+1, The tools of his or her trade.
+2, Some raw materials.
+3, A finished product.
+4, A little coin.
+5, A to-do list scrawled on a bit of parchment.
+6, A set of many keys.
+7, A pipe and some tobacco.
+8, A flask of whisky.
+
+
+:Reputation, The artisan is
+1, A well-known member of the guild.
+2, An established or up-and-coming leader in the guild.
+3, A new member of the guild, having recently relocated from a distant land.
+4, A quiet guildmember, who doesn't get involved in guild politics.
+5, On the outs with guild leadership.
+6, A favorite of some of the guild's leaders.
+
+
+:Aspiration, The artisan dreams of
+1, Producing a masterwork of the craft.
+2, Holding the reins of guild leadership.
+3, Retiring peacefully.
+4, Retiring rich.
+5, Running away from it all.
+6, A life of adventure.
+
+
+:Attitude, Presently, the apprentice is
+1, Panic-stricken.
+2, Nervous.
+3, Eager to learn.
+4, Content
+5, Frustrated by errors.
+6, Irritable.
+
+
+:Goal, The apprentice is seeking someone to
+1, Give him some tips in the craft.
+2, Purchase an item made by the apprentice.
+3, Sell him an item to resell as his own work.
+4, Listen to complaints about his master.
+5, Tell a tale that inspires creativity.
+6, Sneak off for a drink and some kisses.
+

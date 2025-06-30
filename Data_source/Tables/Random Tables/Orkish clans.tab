@@ -1,0 +1,283 @@
+
+
+:Start
+1, orkish clans: FEAR THE PIKE HORDE!
+
+
+:Business, The orcs are
+1, Nomadic hunters, following game.
+2, Raiders displaced from their native lands.
+3, In exile from their native lands.
+4, In the service of a sovereign warlord.
+5, A loose confederacy of tribes and families related by blood.
+6, Degenerate survivors from a broken army.
+7, Disorganized; a clan of competing warriors.
+8, A tight-knit war band.
+9, Hell bent on sowing chaos and mayhem.
+10, Raiders after supplies and slaves.
+11, Marching to war under the leadership of a great chief.
+12, On an errand for an evil wizard or other powerful being.
+
+
+:Values, The orcs value
+1, Bravery.
+2, Strength.
+3, Virility.
+4, Honoring the gods.
+5, Battle-scars.
+6, Survival.
+7, Kill counts.
+8, Scalps.
+9, Steel.
+10, Meat.
+
+
+:Symbols, The orcs' iconography features
+2, Symbols of death and destruction  [Symbols of death and destruction]
+3, Symbols of the heavens  [Symbols of the heavens]
+5, Symbols of strength and weaponry  [Symbols of strength and weaponry]
+6, A great beast  [A great beast]
+
+
+:Symbols of death and destruction 
+1, bats
+2, bones
+3, crows
+4, flames;
+5, ghosts
+6, scorpions
+7, skulls;
+8, vultures.
+
+
+:Symbols of the heavens 
+1, clouds;
+3, lightning
+5, moon
+6, stars.
+
+
+:Symbols of strength and weaponry 
+1, arrows
+2, axes
+3, fists
+4, spears;
+5, stones
+6, swords.
+
+
+:A great beast 
+1, bears
+2, boars;
+3, eagles
+4, lions
+5, snakes
+6, wolves.
+
+
+:Chief, The orcs' chief is
+1, A well-respected chief.
+2, A charismatic warlord.
+3, A mysterious shaman.
+4, A descendent of an honored hero.
+5, A ruthless killer.
+6, A brutish thug.
+7, An impatient young warrior.
+8, A wise old chief.
+9, A celebrated war hero.
+10, A prolific lover.
+
+
+:Meat, The orcs' favorite meat comes from
+1, Dwarves and halflings.
+2, Beggars and thieves.
+3, Merchants and caravan guards.
+4, Noblemen.
+5, Noblewomen.
+6, Priests and priestesses.
+7, Slaves.
+8, Circusfolk and minstrels.
+9, Foreign travelers.
+10, Peasant women.
+11, Young children.
+12, Elves and pixies.
+
+
+:Morale, The orcs' current attitude is
+1, Carefree and festive.
+2, Rowdy and festive.
+3, Rowdy and eager to fight.
+4, Frightened and suspicious.
+5, Hostile and suspicious.
+6, Hostile and eager to fight.
+
+
+:Fears, The orcs fear
+1, Men armored in steel.
+2, Spellcasters.
+3, Members of a particular race  [Members of a particular race]
+4, The gods.
+5, Aberrant evils.
+6, Dragons.
+
+
+:Members of a particular race 
+2, elves
+4, dwarves
+5, goblinoids;
+6, reptilians.
+
+
+:Notoriety, The orcs are notorious for
+1, Never leaving survivors.
+2, Feeding prisoners to wild beasts.
+3, Tattooing or branding prisoners.
+4, Scalping enemies.
+5, Flaying enemies.
+6, Raiding and burning villages.
+7, Plundering merchant caravans.
+8, Eating prisoners raw.
+9, Claiming prisoners as slaves.
+10, Taking prisoners as wives or concubines,.
+
+
+:Reputation, The orcs are known for
+1, Screaming and shouting during battle.
+2, Convening with ghosts and spirits.
+3, Ritual animal sacrifice under a new moon.
+4, Ritual humanoid sacrifice far belowground.
+5, Ritualistic blood-letting.
+6, Ritualistic sexual acts under the full moon.
+7, Eating unusually-prepared meats.
+8, Prolific amounts of drinking.
+9, Never cutting their hair.
+10, Shaving their heads and bodies.
+11, Wearing long top-knots or braids.
+12, Bathing and perfuming their bodies.
+
+
+:Goals, The orcs' goals include ,chief and others could have different goals
+1, Upheaval of the region's politics.
+2, Disruption of the region's trade.
+3, Revenge against another civilization.
+4, Revenge against a rival orkish clan.
+5, Spreading chaos and destruction.
+6, Possession of a powerful artifact.
+
+
+:Tactics, The orcs typically fight with
+1, Hit-and-run tactics.
+2, Ambush tactics.
+3, Unpredictable maneuvers.
+4, Lots of screaming and shouting.
+5, Kicking and stomping.
+6, Lots of head-butting.
+7, Lots of biting and scratching.
+8, Frequent breaks for  [Frequent breaks for]
+
+
+:Frequent breaks for 
+2, arguments;
+3, looting
+5, forming ranks
+6, eating.
+
+
+:Slaves, As slaves, the orcs keep
+1, Dwarves.
+2, Gnomes.
+3, Goblins.
+4, Halflings.
+5, Humans.
+6, Kobolds.
+7, Undead servitors.
+8, Nothing; the orcs eat all captives they take.
+9, Nothing; the orcs leave no survivors.
+10, Nothing; the orcs value freedom for all.
+
+
+:Beasts, As guardians or pets, the orcs keep
+1, Boars.
+2, Dire rats.
+3, Giant lizards.
+4, Ogres.
+5, Wargs.
+6, Wolves.
+
+
+:Weapons, Most of the orcs are wielding
+1, Spears and large hunting knives.
+2, Spears and javelins.
+3, Exotic, curved blades and several bolas.
+4, Huge, curved blades.
+5, Exotic, curved blades and blowguns.
+6, Pikes and shortswords.
+7, Pikes and short bows.
+8, Battleaxes and throwing axes.
+9, Battleaxes and longbows.
+10, Longswords and longbows.
+11, Jagged greatswords and shortbows.
+12, Greataxes and javelins.
+
+
+:Appearance, The orc has
+1, Pale green skin.
+2, Yellowish green skin.
+3, Dirty brown skin.
+4, Reddish brown skin.
+5, Grey skin.
+6, A tall frame.
+7, A thick-set frame.
+8, Bug eyes.
+
+
+:Tattoo, The orc has
+1, A bone tattoo.
+2, A dragon tattoo.
+3, A skull tattoo.
+4, A spear tattoo.
+5, A spiderweb tattoo.
+6, A tattoo of thorns.
+
+
+:Skill, Even among orcs, the orc is particularly good at
+1, Tracking creatures by scent.
+2, Identifying and following the tracks.
+3, Running down prey.
+4, Decapitating foes.
+5, Impaling foes.
+6, Roping captives.
+7, Breaking slaves.
+8, Handling savage beasts.
+
+
+:Armor, The orc is armored in
+1, Nothing.
+2, Tattered leather.
+3, Blood-stained leather.
+4, Boiled leather.
+5, The hides of scaly beasts.
+6, The hides of furry beasts.
+7, The hides of exotic beasts.
+8, A helm and breastplate taken from a fallen enemy.
+
+
+:Weapon, The orc is wielding
+1, A spear.
+2, A scimitar.
+3, A falchion.
+4, A pike.
+5, A battleaxe.
+6, A greatsword.
+7, A greataxe.
+8, A longbow.
+
+
+:Motivation, The orc is looking for
+1, A good meal, fresh if possible.
+2, A hearty meal, spoiled is not a problem.
+3, A throat to cut or a head to bash.
+4, A chance to prove itself in combat.
+5, A place to rest and to sharpen weapons.
+6, A strong drink.
+

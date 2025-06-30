@@ -1,0 +1,251 @@
+
+
+:Start
+1, brothels: WHAT'LL IT BE, SAILOR?
+
+
+:Name, The locals call this place the ,first word
+1, Cozy.
+2, Dancer's.
+3, Golden.
+4, Maiden's.
+5, Lacy.
+6, Lady's.
+7, Lighted.
+8, Lover's.
+9, Night's.
+10, Pink.
+11, Porcelain.
+12, Red.
+13, Satin.
+14, Shining.
+15, Silky.
+16, Silver.
+17, Softest.
+18, Sweetest.
+19, Warmest.
+20, Welcoming.
+
+
+:Name, The locals call this place the ,second word
+1, Candle.
+2, Cherry.
+3, Curtain.
+4, Doll.
+5, Door.
+6, Embrace.
+7, Glove.
+8, Heart.
+9, House.
+10, Lamp.
+11, Kiss.
+12, Peach.
+13, Purse.
+14, Room.
+15, Slipper.
+16, Shoe.
+17, Skirt.
+18, Stocking.
+19, Veil.
+20, Window.
+
+
+:Location, The brothel is located
+1, In the slums.
+2, In a shantytown.
+3, In a well-to-do residential neighborhood.
+4, In the docks district.
+5, In the riverfront district.
+6, In the barracks district.
+7, In an alley off a foreign bazaar.
+8, In an alley off the main market square.
+9, In the shadow of a temple.
+10, Above a boisterous tavern.
+11, Behind a tavern teeming with criminals.
+12, Adjacent to a tavern full of gamblers.
+13, Underground.
+14, Outside the walls of the city or on the outskirts of a town.
+15, At the base of a wizards' tower.
+16, In cave that had been a monster's lair.
+17, Above an inn on a busy trading route.
+18, In the basement of a tavern.
+19, On a street with many other brothels.
+20, In a house in a park, garden, or forest.
+
+
+:Entertainment, In addition to the usual amusements, here you can procure
+1, Really weird stuff, for those with the most interesting fetishes.
+2, Illegal stuff. If this is found out, the place would be burnt down, and the owners hung. It is clearly kept in great secret.
+3, Performances involving food.
+4, An outlet to live out violent fantasies.
+5, Exotic races.
+6, The most beautiful women and men. Not just a claim, it's the gods' honest truth.
+7, An all-inclusive lump-sum deal—all the harlots, food, and drink you can handle!
+8, The sale of mind-altering drugs.
+9, Stuff with exotic/magical ingredients, potions, etc.
+10, Magical delights.
+
+
+:Boss, The place is run by
+1, A collective of the inmates themselves.
+2, A mean old madam.
+3, A large madam with a no-nonsense attitude.
+4, A warm motherly figure.
+5, A surly brute.
+6, A tyrannical and cruel fellow.
+7, A sultry seductress.
+8, A charming witch.
+
+
+:Food, To eat, the place serves
+1, Simple snacks.
+2, Banquets.
+3, Peasant food.
+4, Food hand-fed to you by a harlot.
+5, Exotic delights.
+6, Spicy treats.
+7, Simple food.
+8, Sweets and delicacies.
+9, Grubby, poorly made meals.
+10, All you can eat buffets.
+11, Simple stew and bread.
+12, Nothing; it satisfies other appetites.
+
+
+:Drink, To drink, the place serves
+1, Ales.
+2, Cocktails
+3, Grog, and nothing but grog.
+4, Cheap wines.
+5, Mead.
+6, The finest wines and champagnes.
+7, Lagers.
+8, Nothing; inebriation is not tolerated.
+
+
+:Reputation, People talk, they say
+1, The girls are underpaid and poorly treated.
+2, Nothing really; it's a neighborhood brothel.
+3, A prominent noble or merchant is a regular.
+4, The goddess of love and fertility blessed this place and all her followers must visit.
+5, The usual stuff; a new girl is making a stir.
+6, Once a month it offers discounted services.
+7, It is secretly the home to a dark cult.
+8, All the inmates there are related.
+9, Nothing much, a popular girl is with child.
+10, You can pay for services with things other than coin  [You can pay for services with things other than coin]
+
+
+:You can pay for services with things other than coin 
+1, contract work
+2, criminal favors
+3, goods
+4, religious services
+5, secrets
+6, stock.
+
+
+:Rumors, People talk about this place, rumors suggest that recently
+1, A nobleman got one of the girls with child but refuses to acknowledge her or the baby.
+2, Someone slaughtered half of the workers and clients in the night.
+3, A client was stabbed with a letter opener.
+4, A man claiming to be a paragon of the god of law visited the place.
+5, A group of outraged townsfolk has started protesting outside of the brothel, disgusted with what it does.
+6, The oldest patron, who visited the brothel every day for the last fifty years has died. A day of mourning and celebration, along with a lavish funeral is being held for him.
+7, One of the inmates was strangled.
+8, One of the inmates has fallen madly in love with a client, but he or she is married.
+9, A sinkhole has appeared in the basement. No one can see the bottom, and the boss worries it might grow and do more damage.
+10, Several clients have caught a disease.
+
+
+:Room Furnishings, This room has
+1, A four-poster bed with velvet curtains.
+2, A four-poster bed with lacy curtains.
+3, A soft, leather chaise lounge.
+4, A plush, pink chaise lounge.
+5, A large pile of pillows with soft tassels.
+6, A large pile of pillows with frilly edges.
+7, A table with fruit and wine set upon it.
+8, A table with perfumes and oils set upon it.
+9, A large mirror against one wall.
+10, A large mirror on the ceiling over the bed.
+
+
+:Features, You notice
+1, The scent of lavender.
+2, The scent of lilac perfume.
+3, The scent of ginger and cinnamon.
+4, The scent of roses.
+5, Scented candles.
+6, The soft red glow from a shaded lamp.
+7, A lamp burning dimly.
+8, A statue of two figures kissing.
+9, A statue of two figures coupling.
+10, A statue of a nude woman bathing.
+11, A painting of several nudes bathing.
+12, A painting of a pair of lovers.
+13, A curtain of beads.
+14, A silky curtain.
+15, A plush carpet beneath your feet.
+16, A thick fur carpet beneath your feet.
+17, The sound of distant, soft music.
+18, The sound of furniture creaking nearby.
+19, A lengthy, shrill scream.
+20, A long moan.
+
+
+:Background, the harlot is
+1, A veteran who may have been beautiful.
+2, A passionate young woman.
+3, A homely young lady.
+4, A friendly and plump woman.
+5, The bastard daughter of a noble house.
+6, A young foreigner.
+7, The boss's favorite.
+8, An exotic beauty.
+9, New to the place and always in trouble.
+10, New to the place and eager to please.
+
+
+:Mark of Beauty, The harlot has
+1, A pretty smile.
+2, Beautiful eyes.
+3, Lovely, long eyelashes.
+4, Lush, curly locks.
+5, Short-cropped hair.
+6, A clean satin gown.
+
+
+:Flawed Beauty, The harlot has
+1, A gimpy leg.
+2, Crooked teeth.
+3, A scowl on her face.
+4, An unsightly scar.
+5, An unfortunately shaped nose.
+6, A large mole on her face.
+7, Crossed-eyes.
+8, A mustache.
+
+
+:the harlot's flaw is
+2, Barely noticeable.
+4, Well-concealed by make-up or practice.
+5, Something you can look past.
+6, Intimidating.
+
+
+:Talent, The harlot is very skilled at
+1, Listening and offering emotional support.
+2, Bringing a smile to her clients' faces without even touching them.
+3, Bringing a smile to her clients' faces as soon as she touches them.
+4, Embroidery and sewing.
+5, Cooking and cleaning.
+6, Drinking and swearing.
+
+
+:Goal, The harlot is looking to
+2, Earn enough coin to get out of this place.
+3, Bring to light a scandal involving a rival.
+5, Secure a marriage to get out of this place.
+6, Hear word of a child given away.
+

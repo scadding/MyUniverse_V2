@@ -1,0 +1,238 @@
+
+
+:Start
+1, witches: I'LL GET YOU, MY PRETTY!
+
+
+:Background, The witch is
+1, A femme fatale.
+2, The wife of a farmer, fisherman, or miner.
+3, The wife of a soldier.
+4, An old seamstress or weaver.
+5, A peasant girl.
+6, A noble woman.
+7, A slave or servant.
+8, An attractive shopkeeper.
+9, A stern barmaid.
+10, An old fortune teller.
+11, A talented dancer or singer.
+12, A heretical priestess.
+13, An herbalist or healer.
+14, A skilled hunter and tracker.
+15, A very young girl.
+16, The daughter of a thief.
+17, The daughter of a sailor.
+18, An old crone.
+19, An old widow.
+20, An attractive young widow.
+
+
+:Training, The witch learned her craft from
+1, A fellow witch who kidnapped her as a young girl.
+2, A fellow witch who aided her in a time of need.
+3, A neighbor.
+4, Her mother.
+5, Her older sister.
+6, Her grandmother.
+7, Books of forbidden lore.
+8, Communication with the spirits of the dead.
+9, Consorting with a fiend.
+10, Participating in bacchanalian fey orgies.
+
+
+:Specialty, The witch specializes in
+1, Charms.
+2, Clairvoyance.
+3, Communing with the dead.
+4, Conjuring evil spirits.
+5, Curses.
+6, Demonology.
+7, Enchantments.
+8, Herbalism.
+9, Hexes.
+10, Poisons.
+11, Potions.
+12, Prophecies.
+
+
+:Services, For coin or barter, the witch will
+1, Read your palm.
+2, Gaze into her crystal ball.
+3, Contact a dead relative or friend.
+4, Place a hex on an enemy.
+5, Give you a piece of forbidden magical lore.
+6, Enchant an item.
+7, Curse an item.
+8, Prepare an herbal remedy.
+9, Prepare a potion.
+10, Give you an old family recipe.
+
+
+:Goal, The witch is seeking
+1, The means to summon a fiend.
+2, The means to control a fiend.
+3, Eternal youth and beauty.
+4, The soul of a specific person.
+5, Vengeance against a powerful person.
+6, A long lost recipe.
+7, Instructions for a powerful ritual.
+8, The wand of a legendary witch or wizard.
+9, The staff of an ancient witch or wizard.
+10, Someone to eat.
+
+
+:Lair, The witch's home is
+1, In a cave.
+2, In a swamp.
+3, On an island.
+4, Beneath a large tree in a forest.
+5, In a cottage in the woods.
+6, Hidden in the mountains.
+7, In a quiet village.
+8, Just outside a quiet village.
+9, Down a dark alley in the city.
+10, In the castle or palace of a lord.
+
+
+:Secrets, The witch has uncovered secrets She cannot be killed by
+1, Hanging or strangulation.
+2, Drowning.
+3, Burning.
+4, Disease.
+5, Poisoning.
+6, The blade of a mortal man.
+7, Falling from a great height.
+8, Old age.
+
+
+:Trait, The witch has
+1, A large wart on her nose.
+2, An oversized, crooked nose.
+3, A cute little button nose.
+4, A beauty mark on her cheek.
+5, A hairy mole on her cheek.
+6, A jagged scar on her cheek.
+7, An obnoxious cackling laugh.
+8, A hideous belting laugh.
+9, A nervous twittering laugh.
+10, Long straggly hair.
+11, Long beautiful hair.
+12, Her hair pulled up.
+
+
+:Potion ingredient, The witch's brew in the cauldron contains
+1, Eye of newt.
+2, Toe of frog.
+3, Wool of bat.
+4, Tongue of dog.
+5, Adder's fork.
+6, Blind-worm's sting.
+7, Lizard's leg.
+8, Howlet's wing.
+9, Monkey's paw.
+10, Pint of blood.
+11, Pound of flesh.
+12, Cup of mud.
+13, Beak of duck.
+14, Housecat's tail.
+15, Glob of mold.
+16, Rusty nail.
+17, Garlic bulb.
+18, Cob of corn.
+19, Stirge's foot.
+20, Dryad's thorn.
+
+
+:Potion recipe, The witch is brewing
+1, A love potion.
+2, A fertility tonic.
+3, A magical cure-all.
+4, A terrible poison.
+5, A component for a summoning ritual.
+6, A component for a necromantic ritual.
+7, A component for a polymorphing hex.
+8, A component for a beguiling charm.
+
+
+:Travel, The witch prefers to travel by
+1, Flying broomstick.
+2, Flying mount (giant owl or hippogriff).
+3, Horseback.
+4, Walking.
+5, Transforming into a beast  [Transforming into a beast]
+6, Teleportation.
+
+
+:Transforming into a beast 
+1, bat
+2, cat
+3, fox
+4, horse
+5, owl;
+6, rat
+7, raven
+8, wolf.
+
+
+:Creature, The witch's familiar is
+1, An elemental spirit  [An elemental spirit]
+2, A fey spirit  [A fey spirit]
+3, A fiendish spirit  [A fiendish spirit]
+4, An undead creature  [An undead creature]
+5, A bat.
+6, A cat.
+7, An owl.
+8, A snake.
+9, A spider.
+10, A raven.
+11, A rat.
+12, A toad.
+
+
+:An elemental spirit 
+1, air
+2, earth;
+3, fire
+4, ice
+5, mud
+6, storm
+7, stone;
+8, water.
+
+
+:A fey spirit 
+1, an animated toadstool;
+3, a pixie
+4, a sprite;
+6, a talking songbird.
+
+
+:A fiendish spirit 
+1, a demon trapped in a book
+2, a devil trapped in a gem;
+4, an imp
+6, a quasit.
+
+
+:An undead creature 
+2, a crawling claw
+3, a disembodied voice
+4, an eerie spectral skull;
+5, a flaming skull
+6, a formless ghost.
+
+
+:Personality, The witch's familiar's manner is
+1, Calculating.
+2, Clever.
+3, Coy.
+4, Cruel.
+5, Gleeful.
+6, Grumpy.
+7, Insolent.
+8, Shy.
+9, Skittish.
+10, Surly.
+11, Suspicious.
+12, Talkative.
+

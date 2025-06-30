@@ -1,0 +1,229 @@
+
+
+:Start
+1, arena games: SPECTACLES OF COMBAT AND BLOOD
+
+
+:The arena is
+1, An ancient stone structure used for centuries.
+2, An old stone structure used for generations.
+3, A wondrous construction with grand stands, trap doors, and elevators.
+4, A sturdy wooden structure, recently built.
+5, A crisp stone structure, recently built.
+6, A set of rickety wooden stands around a dirt ring.
+7, A circle of rope surrounded by spectators and a few cages.
+8, An underground pit with spectators leaning over a railing above.
+
+
+:The games are being held
+1, In honor of the sovereign's birthday.
+2, In honor of a historical anniversary.
+3, In honor of a recent military victory.
+4, To turn a profit off admission sales.
+5, To turn a profit off a gambling book.
+6, To dispose of prisoners.
+7, Strictly to entertain the masses.
+8, To determine a champion for a dangerous quest or traditional ceremony.
+
+
+:The games are being hosted by
+1, A tyrannical sovereign.
+2, A benevolent sovereign.
+3, A close ally of the sovereign.
+4, A wealthy merchant or lord.
+5, A council of wealthy merchants.
+6, A mysterious high priest or mage.
+
+
+:The main event is
+1, A battle royale or grand melee.
+2, A reenactment of a historical battle.
+3, A duel between two arena champions.
+4, A duel between a champion and a severe underdog.
+5, Feeding prisoners to beasts.
+6, A battle of man versus beast  [A battle of man versus beast]
+7, A chariot race or foot race.
+8, Feats of strength.
+
+
+:A battle of man versus beast 
+1, bears
+2, chimeras
+3, dragons;
+4, giant spiders
+5, lions
+6, owlbears
+7, tigers
+8, wolves.
+
+
+:The day's champion wins
+1, A heavy purse of silver.
+2, A sizable purse of gold.
+3, An expensive and ornate weapon.
+4, An expensive and ornate suit of armor.
+5, A floral crown and a fine silver chain.
+6, A floral crown and bejeweled gold belt.
+7, A fine silk cloak and bejeweled silver chain.
+8, A petition of the sovereign.
+9, A position of honor in the army and a purse of silver.
+10, A position of honor in the sovereign's guard.
+11, A week of pampering and pleasure and a purse of silver.
+12, A night with one of the nobles' wives and a purse of gold.
+
+
+:The crowd is made up of mostly
+1, Merchants, nobles, and the well-to-do.
+2, Soldiers and camp-followers.
+3, Local artisans and shopkeepers.
+4, Local peasants and unskilled workers.
+5, Foreigners and travelers.
+6, Slave, servants, and laborers.
+7, Sailors, pirates, and knaves.
+8, People of all social strata.
+
+
+:The crowd's attitude is
+1, Rowdy and festive.
+2, Eager and excited.
+3, Relaxed and easy-going.
+4, Hostile and tense.
+5, Disappointed and angry.
+6, Rowdy and rebellious.
+
+
+:The greatest champion ever to fight in this arena was
+1, A masterful swordsman, with a slow mind.
+2, A masterful swordsman, with a quick wit.
+3, A hulking brute, with a gentle soul.
+4, A hulking brute, with a nasty edge.
+5, The survivor of a terrible disaster.
+6, The survivor of a famous shipwreck.
+7, The survivor of a wartime massacre.
+8, The bastard son of a noble house.
+9, A conquered prince or lord who was too proud to bend the knee.
+10, Horribly disfigured and scarred.
+11, Half-giant, and completely insane.
+12, Half-fiend, and insanely cruel.
+
+
+:Background, The gladiator is
+1, A well-trained slave.
+2, A poorly-trained slave.
+3, A seasoned veteran of the arena.
+4, A veteran of warfare.
+5, A prisoner of war.
+6, A political prisoner.
+7, The son of a poor man.
+8, A drunk.
+9, A captured criminal.
+10, A former pirate.
+11, A de-frocked priest.
+12, A favorite among the ladies.
+
+
+:Armor, The gladiator is clad in
+1, Nothing.
+2, Leather scraps or exotic beast hides.
+3, A leather baldric or jerkin.
+4, A bronze or iron helm (and no more).
+5, A breastplate and a helm.
+6, Chainmail.
+
+
+:Weapon, The gladiator is wielding
+1, Two shortswords.
+2, A shortsword and shield.
+3, A spear and shield.
+4, A net and trident or an exotic blade.
+5, A heavy flail or greataxe.
+6, A scimitar and whip.
+
+
+:Tactics, The gladiator fights with
+1, Hit-and-run tactics.
+2, Making a direct assault.
+3, Making a mad charge.
+4, Fancy footwork.
+5, Unpredictable lurches.
+6, Masterful combat maneuvers.
+7, Kicking and stomping.
+8, Lots of taunts and jeers.
+9, Lots of screaming and shouting.
+10, Lots of head-butting.
+
+
+:Arena gimmick, The gladiator is known for
+1, Dancing atop fallen foes.
+2, Making rude gestures.
+3, Insulting spectators.
+4, Gifting a lady spectator with a flower.
+5, Kneeling to pray after making a kill.
+6, Never speaking a word.
+
+
+:Motivation, The gladiator fights for
+1, The love of the sport.
+2, The love of someone he cannot have.
+3, Pure bloodlust.
+4, A chance to deal out sadistic torment.
+5, A chance at freedom.
+6, A chance at vengeance.
+7, A chance to escape from life imprisonment.
+8, A chance to escape from execution.
+9, A chance at redemption.
+10, God and country.
+11, Fortune and glory.
+12, Strength and honor.
+
+
+:Personal tragedy, The gladiator has endured the tragedy of
+1, A doomed love affair.
+2, The death of a spouse.
+3, The death of a child.
+4, Being wrongfully accused of a crime.
+5, Surviving as a desperate criminal.
+6, Being taken as a prisoner of war.
+
+
+:Facial feature, The gladiator has
+1, A maritime tattoo  [A maritime tattoo]
+2, A slave tattoo  [A slave tattoo]
+3, A beast tattoo  [A beast tattoo]
+4, A brand  [A brand]
+5, Long, beautiful hair or an unruly beard.
+6, An obscene amount of oil or an intimidating amount of hair.
+
+
+:A maritime tattoo 
+1, fish
+2, ship;
+3, kraken
+4, mermaid
+5, octopus;
+6, skull.
+
+
+:A slave tattoo 
+1, date
+2, place;
+3, slave name
+4, master's name;
+5, job
+6, number.
+
+
+:A beast tattoo 
+1, bear
+2, boar;
+3, dragon
+4, eagle
+5, lion
+6, wolf.
+
+
+:A brand 
+2, brand of a slave;
+4, brand of a soldier
+6, brand of a sailor.
+

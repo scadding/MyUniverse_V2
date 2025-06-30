@@ -1,0 +1,258 @@
+
+
+:Start
+1, watchmen: TO SERVE AND PROTECT
+
+
+:Colors, The watch's colors are
+1, Black.
+2, Red / scarlet.
+3, Gold.
+4, Forest green.
+5, Royal blue.
+6, Silver.
+7, Brown / beaver.
+8, White.
+9, Maroon.
+10, Sky blue.
+11, Navy blue.
+12, Dark brown.
+
+
+:Symbol, The watch's symbol is
+1, A flame.
+2, A gauntlet.
+3, A shield.
+4, A sword.
+5, The sun.
+6, An eye.
+7, An eagle.
+8, An owl.
+9, A dragon.
+10, A lion.
+11, A raven.
+12, A wolf.
+
+
+:Captain, The watch's captain is
+1, A religious zealot.
+2, A scion from a prominent family.
+3, An outcast from a prominent family.
+4, A dashing swashbuckler.
+5, A brutish thug.
+6, A celebrated war hero.
+7, An anointed knight.
+8, A career soldier.
+9, A grizzled veteran.
+10, An adept investigator.
+11, An erudite detective.
+12, A devoted public servant.
+
+
+:Morale, The watch's attitude toward their captain is
+1, Friendly and loyal.
+2, Respectful and business-like.
+3, Completely indifferent.
+4, Cautious and uncertain.
+5, Terrified and tight-lipped.
+6, Disappointed and disrespectful.
+
+
+:Reputation, The watch is known for
+1, High morals.
+2, Efficiency.
+3, Reliability.
+4, Brutality.
+5, Taking bribes.
+6, Corrupt dealings.
+7, Intimidation.
+8, Lechery.
+9, Cowardice.
+10, Incompetence.
+11, Intoxication.
+12, Rowdiness..
+
+
+:Armor or Uniforms, Most members of the watch are outfitted with
+1, Rough-spun wool cloaks.
+2, Whatever armor they can find.
+3, Leather armor marked with the symbol of the watch.
+4, Leather armor marked with the symbol of their city or lord.
+5, Helms and breastplates emblazoned with the symbol of their city or lord.
+6, Well-maintained chainmail.
+
+
+:Weapons, Most members of the watch are equipped with
+1, Maces and shields.
+2, Maces and crossbows.
+3, Staves and crossbows.
+4, Shortswords and shields.
+5, Shortswords and shortbows.
+6, Halberds and crossbows.
+7, Longswords and crossbows.
+8, Longswords and shields.
+9, Pikes and shortswords.
+10, Pikes and shortbows.
+
+
+:Headquarters, The watch captain's office is
+1, In the city or town hall building.
+2, In the basement of a crafters' guild.
+3, Next to a temple or shrine.
+4, Next to a market square or plaza.
+5, On the top floor of a gatehouse.
+6, In a wing of a palace or castle.
+7, In the backroom of a tavern.
+8, At the top of a watchtower.
+
+
+:Background, The guard is
+1, A farm boy.
+2, The son of a miner or fisherman.
+3, A veteran of warfare.
+4, A foreigner.
+5, The son of a poor man.
+6, A drunk.
+7, A reformed criminal.
+8, A thug.
+9, A failed craftsman.
+10, A favorite among the ladies.
+
+
+:Motivation, The guard works for
+1, The steady pay.
+2, A chance to deal out sadistic punishment.
+3, Gold to repay debts.
+4, Gold to aid a family member.
+5, A chance to escape from life imprisonment.
+6, Patriotic devotion.
+
+
+:Trait, On the guard's face is
+1, A large wart.
+2, An unsightly scar.
+3, A look of determination.
+4, A foolish grin.
+5, A stupid stare.
+6, A look of confusion.
+7, A bulbous nose.
+8, Bushy eyebrows.
+9, Fearsome sideburns.
+10, An unruly beard.
+11, A neatly-trimmed mustache.
+12, A beautiful, waxed mustache.
+
+
+:Uniform, The guard's uniform is
+1, Pristine.
+2, Clean and tidy.
+3, Clean, but wrinkled.
+4, Worn, but well-kept.
+5, Full of food or wine stains.
+6, Tattered and in bad need of repair.
+7, A little too tight.
+8, Two sizes too large.
+
+
+:Possession, The guard carries
+1, A blade with soft leather tassels dangling from the pommel.
+2, A blade with an inscription.
+3, A highly polished blade.
+4, A token from a favorite harlot.
+5, A trophy from a criminal.
+6, A ribbon from a noble maiden.
+7, A silk handkerchief.
+8, A flask of wine.
+9, A lucky charm (rabbit's foot, old coin).
+10, A grocery list.
+
+
+:Background, The constable is
+1, An eccentric priest.
+2, A stoic monk.
+3, A former soldier.
+4, A mysterious foreigner.
+5, A pompous windbag.
+6, An accomplished scholar.
+7, A violent drunk.
+8, A criminal lackey.
+9, A popular tavern patron.
+10, Ruggedly handsome.
+
+
+:Motivation, The constable works for
+1, The steady pay.
+2, A chance to bring evil-doers to justice.
+3, Gold to repay debts.
+4, Gold to support his addiction  [Gold to support his addiction]
+5, The joy of solving mysteries.
+6, A chance for vengeance.
+
+
+:Gold to support his addiction 
+2, drinking
+4, gambling
+5, harlots
+6, smoking.
+
+
+:Trait, On the constable's face is
+1, A scar from a burn.
+2, A jagged scar.
+3, A hard-set jaw.
+4, A friendly grin.
+5, A faraway look.
+6, A furrowed brow.
+7, A pair of piercing eyes.
+8, A broken nose.
+9, Bushy eyebrows.
+10, Unshaven stubble.
+11, A neatly-trimmed beard.
+12, An intimidating mustache.
+
+
+:Possession, The constable carries
+1, A magnifying lens.
+2, A blade with a carved hilt  [A blade with a carved hilt]
+3, A blade with beasts sculpted into the steel of the guard  [A blade with beasts sculpted into the steel of the guard]
+4, A blade made of blackened steel.
+5, An unusual hat.
+6, A clue from an unsolved crime.
+7, A token from a lost love.
+8, Props for several disguises.
+9, Alchemical reference manual.
+10, A pocket-sized almanac.
+
+
+:A blade with a carved hilt 
+1, ivory
+2, jade
+3, soapstone
+4, ebony;
+5, mahogany
+6, oak.
+
+
+:A blade with beasts sculpted into the steel of the guard 
+1, dragons;
+2, lions
+3, scorpions
+4, snakes;
+5, spiders
+6, wolves.
+
+
+:Knowledge, The constable is particularly knowledgeable on
+1, City or national politics.
+2, The law and legal proceedings.
+3, Religious history and philosophy.
+4, Grappling maneuvers or pugilism.
+5, Ancient wars and military tactics.
+6, The care and crafting of weapons.
+7, Poisons and poisonmaking.
+8, Medicines and the healing arts.
+9, Subterranean survival.
+10, Foreign customs and exotic artwork.
+11, Tall tales and drinking songs.
+12, Fine wines and gourmet food.
+

@@ -1,0 +1,208 @@
+
+
+:Start
+1, lycanthropes: BEWARE THE FULL MOON
+
+
+:Background, In humanoid form, the beastshifter presents himselforherself as
+1, A farmer or herder.
+2, A miner or fisher.
+3, A beggar or urchin.
+4, A noble or knight.
+5, A barkeep or barmaid.
+6, A barbarian or gladiator.
+7, An herbalist or healer.
+8, A soldier or sellsword.
+9, A hunter or assassin.
+10, A thief or bandit.
+11, A smuggler or con artist.
+12, A sailor or pirate.
+
+
+:Beast form, The beastshifter transforms into
+1, A grizzly bear.
+2, A black bear.
+3, A wild boar.
+4, An oversized black rat.
+5, A large brown rat.
+6, A lanky grey rat.
+7, A fierce tiger.
+8, A grey wolf.
+9, A mottled brown and grey wolf.
+10, A reddish brown wolf.
+11, A dark brown or black wolf.
+12, A white wolf.
+
+
+:Curse, The beastshifter transforms involuntarily
+1, Whenever he/she is in moonlight.
+2, On nights when a full moon occurs.
+3, On nights when the moon is half full or more.
+4, Whenever the leader of his/her pack or clan transforms.
+5, Whenever he/she becomes enraged.
+6, Never; he/she is in complete control of his/her power.
+
+
+:Beastly behavior, While transformed, the beastshifter behaves
+1, Mostly as a normal beast of his/her type.
+2, As an unusually intelligent version of the beast of his/her type.
+3, More like a human than a beast.
+4, As a skilled hunter.
+5, As a cautious predator.
+6, As a savage predator.
+7, As a frightened beast.
+8, Violently, spreading blood and chaos.
+
+
+:Manner, The beastshifter has a tendency to
+1, Lose his/her temper easily.
+2, Speak in low growls (or squeaks), making it difficult for others to understand him/her when excited.
+3, Recoil from touching anything made of silver.
+4, Get nervous in moonlight.
+5, Constantly lick his/her lips hungrily.
+6, Fidget or pace when in indoor spaces.
+7, Daydream about hunting in his/her beast form.
+8, Sniff people upon meeting them.
+
+
+:Social connections, The beastshifter lives
+1, Alone among humans, hiding his/her powers.
+2, Alone among humans who know and accept his/her powers.
+3, Alone as an outcast from human society.
+4, Among other beastshifters integrated into human society.
+5, Among other beastshifters as outcasts from human society.
+6, Among other beastshifters, hiding their powers from society.
+7, Among other beastshifters, apart from human society.
+8, Alone as an outcast from his/her pack or clan.
+
+
+:Residence, The beastshifter makes hisorher home
+1, In a cave.
+2, In a swamp.
+3, On a vast plain.
+4, In a forest.
+5, In a cottage in the woods.
+6, Hidden in the mountains.
+7, In a quiet village.
+8, Just outside a quiet village.
+9, Down a dark alley in the city.
+10, In the city sewers.
+11, On a quiet residential street in the city.
+12, In or near a castle or palace.
+
+
+:Trait, In humanoid form, the beastshifter's face has
+1, Unsightly nose and ear hair.
+2, A garish earing.
+3, An empty eye socket.
+4, A grisly scar.
+5, A grim look.
+6, Sad puppy-dog eyes.
+7, A nervous grin.
+8, An toothy grin.
+9, A frame of long, beautiful long hair.
+10, Ferocious sideburns.
+11, An unruly beard.
+12, An intimidating mustache.
+
+
+:Tactics, In humanoid form, the beastshifter fights with
+1, Hit-and-run tactics.
+2, Making a mad charge.
+3, Kicking and stomping.
+4, Sharp claws.
+5, Sharp teeth.
+6, Lots of taunts and jeers.
+7, Lots of screaming and shouting.
+8, Lots of head-butting.
+
+
+:Beast Form, The beastshifter transforms into
+1, A badger.
+2, A bat.
+3, A cat.
+4, A crocodile.
+5, A dog.
+6, A dolphin.
+7, A fox.
+8, A hyena.
+9, A jackal.
+10, A jaguar.
+11, A leopard.
+12, A lion.
+13, An owl.
+14, A panther.
+15, A raven.
+16, A seal.
+17, A serpent.
+18, A shark.
+19, A spider.
+20, A swine.
+
+
+:Favorite prey, The beastshifter's favorite prey are
+1, Foreigners and travelers.
+2, Beggars and drunks.
+3, Young men.
+4, Young women.
+5, Old women.
+6, Old noblewomen.
+7, Priests and monks.
+8, Priestesses.
+9, Harlots and madames.
+10, Farmwives and peasant girls.
+11, Young children.
+12, Rabbits and hares.
+13, Squirrels and chipmunks.
+14, Pheasants and other gamefowl.
+15, Ducks and other waterfowl.
+16, Mice and rats.
+17, Pigeons and doves.
+18, Sheep and goats.
+19, Chickens and turkeys.
+20, Dogs and cats.
+
+
+:Social structure, The pack is
+1, A band of exiles and outcasts.
+2, A roving band of outlaws and thieves.
+3, A nomadic warrior clan.
+4, A band of sought-after mercenaries.
+5, An integral part of the local thieves' or assassins' guild.
+6, A mercenary company in the service of a local lord or city watch.
+7, A wild bunch of hunters and killers.
+8, An ancient clan of warrior-hunters.
+
+
+:Pack leader, The pack's leader is
+1, A dangerous megalomaniac.
+2, A charismatic demagogue.
+3, A mysterious foreigner.
+4, A talented thief.
+5, An outcast from a prominent family.
+6, A ruthless killer.
+7, A femme fatale.
+8, A former arena champion.
+9, A disgraced knight.
+10, A brutish thug.
+11, A de-frocked priest.
+12, A well-known fugitive.
+
+
+:Morale, The pack's attitude toward their leader is
+1, Friendly and loyal.
+2, Respectful and business-like.
+3, Cautious and uncertain.
+4, Terrified and tight-lipped.
+5, Disappointed and disrespectful.
+6, Agitated and restless.
+
+
+:Goals, The pack's goals include ,the pack leader and rank-and-file members could have different goals
+1, Becoming the region's dominant predators.
+2, Revenge against a rival band of lycanthropes or outlaws.
+3, Revenge against the region's elite.
+4, Rebellion against the region's elite.
+5, A quiet and peaceful existence.
+6, Violence to slake their bloodlust.
+

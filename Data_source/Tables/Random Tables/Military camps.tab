@@ -1,0 +1,281 @@
+
+
+:Start
+1, military camps: BOOTS ON THE GROUND
+
+
+:Tent, This tent is functions as
+1, Barracks.
+2, A chapel or shrine.
+3, A forge  [A forge]
+4, An infirmary or surgeons' office.
+5, A mess hall.
+6, Officers' quarters.
+7, Officers' mess.
+8, A supply tent  [A supply tent]
+9, A stable or kennel.
+10, A workshop  [A workshop]
+
+
+:A forge 
+2, armorer
+4, farrier;
+6, weaponsmith.
+
+
+:A supply tent 
+1, armory
+3, building materials
+5, food
+6, water.
+
+
+:A workshop 
+2, cartwright
+3, siege engineer
+5, fletcher
+6, leatherworker.
+
+
+:Other Landmarks, You see
+1, A corral or wagon yard.
+2, A guard post or watch tower.
+3, A gatehouse.
+4, Tables that serve as an outdoor mess hall.
+5, A drill yard.
+6, A target range or sparring pit.
+7, Water wells.
+8, A privy or waste pit.
+9, An outdoor forge or workshop.
+10, A stockade or jail.
+11, Animal pens.
+12, Graves.
+
+
+:Mounts, The camp's mounts include
+1, Camels.
+2, Large draft horses.
+3, Reliable garrons.
+4, Quick-footed palfreys.
+5, Huge destriers.
+6, Exotic mounts  [Exotic mounts]
+
+
+:Exotic mounts 
+1, bears
+2, bison;
+3, elephants
+4, elk
+5, giant lizards;
+6, zebras.
+
+
+:Hunting or War Beasts, The camp has
+1, Falcons.
+2, Fighting dogs.
+3, Hounds.
+4, Terriers.
+5, Wolves.
+6, Exotic beasts  [Exotic beasts]
+
+
+:Exotic beasts 
+1, boars
+2, dire rats;
+3, dire wolves
+4, drakes
+5, eagles
+6, lions;
+7, owlbears
+8, ravens
+9, tigers
+10, wargs.
+
+
+:Morale, The camp's general mood is
+1, Desperate; a calamity has befallen them.
+2, Solemn; badly outnumbered, battle is nigh.
+3, Foul; morale is bad, and provisions are low.
+4, Tired; the journey is long and longer yet.
+5, Eager; great plunder waits at journey's end.
+6, Cheerful; victory is all but certain.
+
+
+:Background, The scout is
+1, A daring ranger.
+3, A skilled hunter.
+5, An expert tracker.
+6, A brutal warrior.
+
+
+:Goal, The scout is looking to
+1, Help the camp slaughter the enemy.
+3, Keep the camp from marching into a trap.
+5, Hear word of enemy patrols and wild game.
+6, Eat, drink, and be merry.
+
+
+:Possession, The scout carries
+1, A map with notes scrawled all over it.
+3, A unique trinket or piece of jewelry.
+5, A longbow and a quiver of arrows.
+6, A large knife and climbing gear.
+
+
+:Background, The commander is
+1, A brilliant strategist.
+2, A brutish thug.
+3, A dashing swashbuckler.
+4, A celebrated war hero.
+5, An anointed knight.
+6, A career soldier.
+
+
+:Background, The quartermaster is
+1, A member of a merchant guild.
+3, A member of a prominent family.
+5, A survivor of a terrible battle wound.
+6, Secretly a coward.
+
+
+:Goal, The commander is looking for
+1, Information regarding enemy positioning.
+2, Information regarding the terrain ahead.
+3, Reinforcements or new recruits.
+4, News of his hometown.
+5, Revenge against a bitter rival.
+6, Drinking companions and storytellers.
+
+
+:Concern, The commander is trying to avoid
+1, Barbarians.
+2, Bandits.
+4, The enemy army.
+6, Hazardous terrain.
+
+
+:Possession, The commander carries
+1, A superbly crafted sword.
+2, A trusted blade and a map.
+3, A lucky charm (rabbit's foot, old coin).
+4, The token of a faraway love.
+5, A pipe and pouch of tobacco.
+6, A little jar of mustache wax.
+
+
+:Background, The soldier fights for
+1, The steady pay.
+2, Pure bloodlust.
+3, A chance to escape from life imprisonment.
+4, A chance at vengeance.
+5, God and country.
+6, Fortune and glory.
+
+
+:Trait, On the soldier's face is
+1, An unsightly scar.
+2, A haughty sneer.
+4, A look of sadness.
+6, An eager grin.
+
+
+:Possession, The soldier carries
+1, A highly polished blade.
+3, A letter from a fallen comrade.
+5, A trophy from a fallen enemy.
+6, A ribbon from a faraway maiden.
+
+
+:Background, The traveler is
+1, A harlot.
+2, A healer.
+3, A minstrel or storyteller.
+4, A peddler.
+5, A preacher.
+6, A refugee.
+
+
+:Goal, The quartermaster seeks someone to
+2, Obtain hard-to-get provisions.
+4, Purchase contraband items.
+5, Help win over a sweetheart.
+6, Share a drink and a laugh.
+
+
+:Currency, The quartermaster trades in
+2, Coins.
+3, Gems and trinkets.
+5, Meat, foraged roots, and other provisions.
+6, Bones, scalps, teeth, or other grisly trophies.
+
+
+:Background, The armorer is
+1, A meticulous armorsmith.
+3, A blacksmith with some militia experience.
+5, A farrier with little experience with weapons.
+6, A highly-skilled weaponsmith.
+
+
+:Goal, The armorer is looking for
+2, A new apprentice or a journeyman assistant.
+4, Rare metals.
+5, Dull blades to sharpen.
+6, A mug of strong ale.
+
+
+:Possession, The armorsmith carries
+2, A hammer.
+3, A metal trinket made by the armorer.
+5, A contract for a set of special plate armor.
+6, Little more than a few coins.
+
+
+:Background, The servant is
+1, A squire from a noble house.
+2, A frightened link boy.
+3, A long-time valet or reformed criminal.
+4, A reformed criminal-turned valet.
+5, A prisoner of war.
+6, A mysterious foreigner.
+7, A simple-minded stable hand.
+8, An expert on horses.
+
+
+:The servant has
+1, An awkward gait.
+3, Incredibly large hands.
+4, Quite an odor.
+6, A ragged beard.
+
+
+:Goal, The servant wants to
+1, Earn a little silver.
+2, Go back home.
+3, Show off an animal's new trick.
+4, Train with weapons and be a hero.
+5, Earn the affection of his or her master.
+6, Have a drink and a rest.
+
+
+:Long-term Goal, The traveler is seeking
+2, To find a long lost friend or family member.
+3, To escape from a troubled past.
+4, To gain revenge against a bitter rival.
+6, To survive the war and start over.
+
+
+:Goal, The cook is looking for
+1, Someone more important to talk to.
+2, Someone to try an improvised recipe.
+3, Some better ingredients.
+4, A good joke or story.
+5, Someone with whom to share some wine.
+6, The bottom of a bottle.
+
+
+:Immediate, Goal, Tonight, the traveler is
+2, A little company.
+4, An opportunity to earn some coin.
+5, Someone to hear a sad tale.
+6, Drinking companions.
+

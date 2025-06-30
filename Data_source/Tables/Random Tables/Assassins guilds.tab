@@ -1,0 +1,509 @@
+
+
+:Start
+1, assassins' guilds: AGENTS OF DEATH AND POISON (PAGE TWO)
+
+
+:Symbol, The guild's symbol is
+1, A skull.
+2, A bat.
+3, An eye.
+4, A crow.
+5, A flame.
+6, A fish.
+7, A dagger.
+8, A scorpion.
+9, A scythe.
+10, A spider.
+11, An arrow.
+12, A snake.
+
+
+:Methods, The guild's preferred method of execution is
+1, Ingested poison or allergic reaction.
+2, Exposure to deadly (but not highly contagious) disease.
+3, Contact poison applied to a weapon.
+4, Arrow/bolt from range.
+5, Knife in the chest or back.
+6, Multiple stab wounds.
+7, Slitting throats.
+8, Gutting or eviscerating.
+9, Flaying.
+10, Beheading.
+11, Strangulation.
+12, Hanging.
+13, Burying alive.
+14, Drowning.
+15, Boiling alive.
+16, Throwing off a roof.
+17, Acid (pouring or submersion).
+18, Fiery explosion.
+19, Burning alive.
+20, Feeding to animals.
+
+
+:Weapons, Guildmembers typically arm themselves with
+1, Poisoned daggers and shortswords.
+2, Throwing knives.
+3, Over-sized daggers.
+4, Serrated daggers.
+5, Daggers and crossbows.
+6, Axes and knives.
+7, Bows and arrows.
+8, Shortswords and crossbows.
+9, Sickles and scythes.
+10, Garrotes and daggers.
+11, Exotic blades and blowguns.
+12, Bolas and poisoned projectiles.
+
+
+:Headquarters, The guild's headquarters is hidden in or near
+1, The residence of the leader or a senior guildmember.
+2, An artisan's shop or guildhall.
+3, A merchant's office.
+4, A tavern.
+5, A brothel.
+6, A warehouse or shipyard.
+7, A temple complex.
+8, The city's sewers.
+9, The town hall.
+10, An abandoned guildhall or warehouse.
+11, An armory or barracks.
+12, The residence of a wealthy individual or prominent citizen.
+
+
+:Timing, Guildmembers typically plan their attacks for
+1, At sunrise.
+2, High noon.
+3, At sunset.
+4, After dark.
+5, At midnight.
+6, After midnight.
+7, In the wee hours.
+8, Before sunrise.
+
+
+:Guildmembers typically strike with
+1, Hit-and-run tactics.
+2, Ambush tactics.
+3, Diversionary tactics.
+4, A precisely planned attack strategy.
+5, A well-planned escape strategy.
+6, The element of surprise.
+7, Announcing their presence.
+8, No thought of escape.
+
+
+:Organization, Guildmembers typically know
+1, Very few other guildmembers.
+2, Several other guildmembers.
+3, The details of the guild's organization.
+4, Nothing about the guild's leadership.
+5, The names of the guild's leaders, though they've never met any of them.
+6, One of the guild's leading members and no other guildmembers.
+
+
+:Style, Guildmembers typically operate
+1, Alone.
+2, In pairs.
+3, In small groups.
+4, By infiltrating an organization.
+5, By impersonating a specific individual.
+6, In plain sight.
+
+
+:Leader, The guild's leader is
+1, A dangerous megalomaniac.
+2, A charismatic demagogue.
+3, A mysterious foreigner.
+4, A talented thief.
+5, A well-known public figure.
+6, A ruthless killer.
+7, A femme fatale.
+8, A charming rogue.
+9, A dashing swashbuckler.
+10, A brutish thug.
+11, A religious fanatic.
+12, A veteran soldier.
+
+
+:Goals, The guild's goals include ,leadership and rank-and-file members could have different goals
+1, Expanding the client base.
+2, Corrupting and influencing the politics of the city or region.
+3, Eliminating a rival assassins' guild in the same city or region.
+4, Eliminating a rival assassins' guild in a foreign city or region.
+5, Intimidating the masses.
+6, Instigating rebellion among the masses.
+
+
+:Restrictions, The guild refuses to take contracts to kill
+1, Women.
+2, Young children.
+3, Nobles and prominent citizens.
+4, Priests and monks.
+5, Peasants and poor folk.
+6, Foreigners and travelers.
+7, Members of the client's family.
+8, Fellow criminals.
+
+
+:Reputation, The guild is feared or respected by
+1, Fishermen and sailors.
+2, Beggars and orphans.
+3, Merchants and moneychangers.
+4, Nobles and rulers.
+5, Politicians and magistrates.
+6, Guards and sheriffs.
+7, Soldiers and warriors.
+8, Thieves and criminals.
+9, Servants and slaves.
+10, Priests and sages.
+11, Women and children.
+12, Other assassins.
+
+
+:Trait, The assassin has
+1, A scar on the forearm.
+2, A scar on the face.
+3, A high-pitched laugh.
+4, A long, hooked nose.
+5, A dangerous look in the eye.
+6, A cheerful smile.
+7, A cold stare.
+8, An agile step.
+9, A low-cut shirt.
+10, A bent, broken nose.
+11, A cute little button nose.
+12, A scar below the left eye.
+13, Pockmarked cheeks.
+14, High cheek bones.
+15, A pointy chin.
+16, A thug's tattoo  [A thug's tattoo]
+17, A sailor's tattoo  [A sailor's tattoo]
+18, An open shirt and a very hairy chest.
+19, A five o'clock shadow.
+20, A neatly trimmed mustache.
+
+
+:Apparel, The assassin is wearing
+1, Shiny leather boots.
+2, A wide-brimmed hat.
+3, A gold signet ring.
+4, A dagger in each boot.
+5, A mask covering the face.
+6, Low-cut shirt.
+
+
+:Weapon, The assassin carries
+1, A blade with a gem embedded in the pommel.
+2, A blade with soft leather tassels dangling from the pommel.
+3, A blade with a carved hilt  [A blade with a carved hilt]
+4, A blade with a gently curved hilt.
+5, A blade with beasts sculpted into the steel of the guard  [A blade with beasts sculpted into the steel of the guard]
+6, A blade made of blackened steel.
+7, A highly polished blade.
+8, A blade with runes carved into it.
+9, Arrows/bolts tipped with black steel.
+10, Arrows/bolts with bronzed tips.
+11, Arrows/bolts fletched with crow feathers.
+12, Arrows/bolts fletched with peacock feathers.
+
+
+:A blade with a carved hilt 
+1, ivory
+2, jade
+3, soapstone
+4, ebony;
+5, mahogany
+6, oak.
+
+
+:A blade with beasts sculpted into the steel of the guard 
+1, dragons;
+2, lions
+3, scorpions
+4, snakes;
+5, spiders
+6, wolves.
+
+
+:Goal, The assassin is looking for
+1, Accomplices to help complete a job.
+2, Revenge against a rival assassin.
+3, An easy contract.
+4, Extra muscle for a tough assignment.
+5, Rumors that may lead to a new client.
+6, Word from a missing guild contact.
+7, Someone to frame up for a murder.
+8, Revenge against a double-crossing client.
+9, A big payday.
+10, A rowdy evening of carousing.
+
+
+:Background, The assassin is
+1, A veteran hitman.
+2, A desperate footpad.
+3, A reckless fortune seeker.
+4, A well-known slayer.
+5, A brash, young fool.
+6, A student of the craft.
+7, A charismatic butcher.
+8, A mysterious foreigner.
+9, A femme fatale.
+10, A charming rogue.
+11, A dashing swashbuckler.
+12, A brutish thug.
+
+
+:A thug's tattoo 
+1, crossed bones;
+2, dagger
+3, dragon
+4, eagle
+5, skull;
+6, snake
+7, spider web
+8, thorns.
+
+
+:A sailor's tattoo 
+1, anchor
+2, fish;
+3, mermaid
+4, octopus
+5, shark
+6, whale.
+
+
+:Apparel, The assassin wears
+1, A flashy earring.
+2, Shiny leather boots.
+3, A gold signet ring.
+4, A dagger in each boot.
+5, A mask covering the face.
+6, A wide-brimmed hat.
+7, A cloak with a dark hood.
+8, A black traveler's cloak.
+9, A bandolier containing vials of poison.
+10, A quiver full of arrows/bolts.
+11, A dark red cape.
+12, Boots with golden buckles.
+13, A leather baldric.
+14, A handkerchief tied over the head.
+15, A small silver chain around the neck.
+16, A long dark ponytail.
+17, Luscious brown curls.
+18, A ruffled shirt.
+19, A black leather coat.
+20, A handkerchief in the breast pocket.
+
+
+:Weapon, The assassin wields
+1, A blade with a gem embedded in the pommel.
+2, A blade with soft leather tassels dangling from the pommel.
+3, A blade with a carved hilt  [A blade with a carved hilt  0]
+4, A blade with a gently curved hilt.
+5, A blade with beasts engraved in the guard  [A blade with beasts engraved in the guard]
+6, A blade made of blackened steel.
+7, A highly polished blade.
+8, A blade with strange runes carved into it.
+9, A blade with a serrated edge.
+10, A curved, exotic blade.
+
+
+:A blade with a carved hilt  0
+1, ivory;
+2, jade
+3, soapstone
+4, ebony;
+5, mahogany
+6, oak.
+
+
+:A blade with beasts engraved in the guard 
+1, dragons
+2, lions
+3, scorpions;.
+4, snakes
+5, spiders
+6, wolves.
+
+
+:Possession, The assassin also carries
+1, Several throwing knives.
+2, An array of poisons in stoppered vials.
+3, Several doses of a deadly poison.
+4, A blowgun with poisoned darts.
+5, An over-sized crossbow.
+6, Arrows/bolts tipped with black steel.
+7, Arrows/bolts with bronzed tips.
+8, Arrows/bolts fletched with crow feathers.
+9, Arrows/bolts fletched with peacock feathers.
+10, Arrows/bolts coated in poison.
+11, Some hemp rope and a silk handkerchief.
+12, A pocketbook of notes and maps.
+13, Climbing gear—pitons, hammer, and rope.
+14, A mask.
+15, The token of a love.
+16, Letters for blackmail.
+17, A lucky charm  [A lucky charm]
+18, A flask filled with spirits.
+19, A wineskin.
+20, A little jar of mustache wax.
+
+
+:A lucky charm 
+2, rabbit's foot;
+4, lucky coin
+5, horseshoe;
+6, four-leafed clover.
+
+
+:Work Style, The assassin prefers to operate
+1, Alone.
+2, Alone, but with a contact's knowledge..
+3, With a partner to provide extra muscle.
+4, With a partner to serve as a look-out.
+5, With a partner to create a diversion.
+6, Wearing a mask.
+
+
+:Rumored Hit, Recently, the assassin is rumored to have notched a kill in or near aoranorthe
+1, Residential district.
+2, Workshop or guildhall.
+3, Merchant's office.
+4, Warehouse or shipyard.
+5, A temple complex.
+6, Abandoned warehouse.
+7, Noble's residence.
+8, Library or university.
+9, Gatehouse or barracks.
+10, Market square.
+11, Inn.
+12, Brothel.
+13, Cemetery.
+14, Town hall.
+15, Palace.
+16, Bridge.
+17, Pub.
+18, Tavern.
+19, Docks.
+20, Bridge.
+
+
+:Rumored Mark, The assassin is rumored to have killed aoranorthe
+1, Lord or lady.
+2, King or queen.
+3, Prince or princess.
+4, Priest or priestess.
+5, Heretic or prophet.
+6, Merchant.
+7, Politician.
+8, Crime boss.
+9, Warlord.
+10, Sea captain.
+
+
+:Effect, The poison will cause or induce
+1, Wounds to bleed more profusely.
+2, A splitting headache.
+3, Aches all over the body.
+4, Infection in and near open wounds.
+5, Fever and chills.
+6, Airway constriction or shortness of breath.
+7, Excess mucus production, making breathing difficult.
+8, Blurry vision or blindness.
+9, A painful rash.
+10, Itchy hives.
+11, Loss of coordination and/or impaired walking.
+12, Weakness in limbs and/or exhaustion.
+13, Nausea and/or indigestion.
+14, Vomiting and/or diarrhea.
+15, Drowsiness and/or loss of consciousness.
+16, Memory loss.
+17, Inability to focus and/or to think clearly.
+18, Nightmares and/or hallucinations.
+19, Paranoia and/or insomnia.
+20, Impotence, infertility, or miscarriage.
+
+
+:Consistency, The poison is
+1, A thick paste.
+2, A thin paste.
+3, A flaky powder.
+4, A fluffy powder.
+5, Made of fine crystals.
+6, Made of coarse crystals.
+7, A pungent potion.
+8, A fragrant potion.
+9, An odorless potion.
+10, A foul-smelling potion. 10. Black.
+11, An oily liquid.
+12, A thick, gloopy liquid.
+
+
+:Color, The poison is
+1, Pale green.
+2, Dark green.
+3, Blue green.
+4, Olive green.
+5, Yellow.
+6, Red.
+7, White.
+8, Grey.
+9, Brown.
+11, Blue.
+12, Violet.
+
+
+:The main ingredient is harvested from
+1, A spider.
+2, A snake.
+3, A centipede or scorpion.
+4, A frog or lizard.
+5, A jellyfish or coral.
+6, A medusa or naga.
+7, An otyugh or ooze.
+8, A drider or ettercap.
+9, A basilisk or cockatrice.
+10, A demon or devil.
+11, A flower.
+12, A fruit.
+13, A mold.
+14, A leaf.
+15, A grass.
+16, Mushrooms.
+17, A root.
+18, A seed.
+19, A tree bark.
+20, A mineral.
+
+
+:The poison is prepared by
+1, Boiling slowly.
+2, Boiling rapidly.
+3, Brining.
+4, Burning.
+5, Desiccating.
+6, Fermenting.
+7, Roasting
+8, Smoking
+
+
+:The poison is most effective when
+1, Ingested with food.
+2, Ingested with alcohol.
+3, Inhaled deeply.
+4, Spread over a large area of the skin.
+5, Applied to a weapon that pierces the flesh.
+6, Applied to a weapon that slashes the flesh.
+
+
+:The antidote to the poison is
+1, A simple herbal remedy.
+2, A complex herbal potion or salve.
+3, A widely available healing potion or balm.
+4, An intricate alchemical concoction.
+5, No known earthly substances.
+6, Rare and powerful magic.
+

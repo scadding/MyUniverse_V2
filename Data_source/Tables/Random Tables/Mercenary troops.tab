@@ -1,0 +1,218 @@
+
+
+:Start
+1, mercenary troops: GOLD FOR BLOOD
+
+
+:Colors, The mercenary troop's colors are
+1, Black.
+2, Red / scarlet.
+3, Gold.
+4, Forest green.
+5, Royal blue.
+6, Brown / beaver.
+7, Dark grey / gunmetal.
+8, Maroon.
+9, Navy blue.
+10, Dark brown / chocolate.
+11, Steel / blue grey.
+12, Olive green.
+
+
+:Specialization, The mercenary troop specializes in
+1, Siege-breaking.
+2, Holding redoubts.
+3, Frontal assaults.
+4, Infiltration tactics.
+5, Skirmishes.
+6, Laying ambushes.
+7, Patrolling.
+8, Flanking maneuvers.
+9, Guerilla tactics.
+10, Raiding and pillaging.
+
+
+:Symbol, The mercenary troop's banner features
+1, A skull.
+2, A ghost.
+3, A clenched fist.
+4, A flame.
+5, An arrow.
+6, A dagger.
+7, A sword.
+8, A hammer.
+9, The sun.
+10, The moon.
+11, A bat.
+12, A bull.
+13, A dragon.
+14, A falcon.
+15, A lion.
+16, A raven.
+17, A scorpion.
+18, A snake.
+19, A vulture.
+20, A wolf.d8
+
+
+:Leader, The mercenaries' commander is
+1, A brazen outlaw.
+2, A charismatic demagogue.
+3, A mysterious foreigner.
+4, An outcast from a prominent family.
+5, A ruthless killer.
+6, A dashing swashbuckler.
+7, A brutish thug.
+8, A celebrated war hero.
+9, A disgraced knight.
+10, A former arena champion.
+
+
+:Morale, The mercenary troop's attitude toward their commander is
+1, Friendly and loyal.
+2, Respectful and business-like.
+3, Cautious and uncertain.
+4, Terrified and tight-lipped.
+5, Disappointed and rude.
+6, Angry and rebellious.
+
+
+:Contract, The mercenary troop is currently
+1, Gainfully employed as guards.
+2, Gainfully employed in war.
+3, Under contract with some criminals.
+4, Under contract with some merchants.
+5, Under contract with some nobles.
+6, Looking for work.
+
+
+:Reputation, The mercenary troop is notorious for
+1, Taking no prisoners.
+2, Leaving the dead to be eaten by beasts.
+3, Tattooing or branding prisoners.
+4, Scalping or flaying prisoners.
+5, Burning villages and fields.
+6, Betraying their employers.
+7, Singing bawdy songs.
+8, Drinking too much ale and wine.
+
+
+:Armor or Uniform, The sellsword is armored in
+1, Exotic robes.
+2, Leather armor.
+3, Studded leather armor.
+4, Hide armor
+5, Ringmail.
+6, Chainmail.
+7, Scale armor.
+8, Plate armor.
+
+
+:Armor Condition, The sellsword's armor is
+1, Shiny and new.
+2, In excellent condition.
+3, Obviously repaired, but serviceable.
+4, Covered in dings and dents.
+5, Dirty and well-worn.
+6, Barely held together.
+
+
+:Weapon, The sellsword is wielding
+1, A longsword.
+2, A longsword and a shield.
+3, Two shortswords.
+4, A shortsword and a shield.
+5, A bastard sword.
+6, A greatsword.
+7, A heavy flail.
+8, A morningstar.
+9, A huge axe.
+10, A warhammer.
+11, A scimitar.
+12, A scimitar and a shield.
+
+
+:Tactics, The sellsword fights with
+1, Hit-and-run tactics.
+2, Making a direct assault.
+3, Fancy footwork.
+4, Unpredictable lurches.
+5, Masterful combat maneuvers.
+6, No mercy.
+7, Lots of taunts and jeers.
+8, Dirty tactics.
+
+
+:Motivation, The sellsword fights for
+1, The love of gold.
+2, Pure bloodlust.
+3, A chance to deal out sadistic torment.
+4, A chance at vengeance.
+5, Gold to repay debts.
+6, Gold to aid a family member.
+7, Gold to secure a marriage.
+8, Fortune and glory.
+
+
+:Background, The sellsword is
+1, A well-trained soldier.
+2, A self-taught militia veteran.
+3, A veteran of gladiatorial combat.
+4, A veteran of warfare.
+5, A prisoner of war.
+6, A political prisoner.
+7, The son of a poor man.
+8, A drunk.
+9, A fugitive criminal.
+10, A former pirate.
+11, A de-frocked priest.
+12, A favorite among the ladies.
+
+
+:Trait, On the sellsword's face is
+1, An eye-catching mole.
+2, A garish earring.
+3, An empty eye socket.
+4, A grisly scar.
+5, A haughty sneer.
+6, A look of sadness.
+7, A stupid grin.
+8, An eager grin.
+9, A frame of long, beautiful long hair.
+10, Ferocious sideburns.
+11, An unruly beard.
+12, An intimidating mustache.
+
+
+:Possession, The sellsword carries
+1, A blade with a gem embedded in the pommel.
+2, A blade with soft leather tassels dangling from the pommel.
+3, A blade with a carved hilt  [A blade with a carved hilt]
+4, A blade with a gently curved hilt.
+5, A blade with beasts sculpted into the steel of the guard  [A blade with beasts sculpted into the steel of the guard]
+6, A blade made of blackened steel.
+7, A highly polished blade.
+8, A blade with runes carved into it.
+9, Arrows/bolts tipped with black steel.
+10, Arrows/bolts with bronzed tips.
+11, Arrows/bolts fletched with crow feathers.
+12, Arrows/bolts fletched with peacock feathers.
+
+
+:A blade with a carved hilt 
+1, ivory
+2, jade
+3, soapstone
+4, ebony;
+5, mahogany
+6, oak.
+
+
+:A blade with beasts sculpted into the steel of the guard 
+1, dragons;
+2, lions
+3, scorpions
+4, snakes;
+5, spiders
+6, wolves.
+

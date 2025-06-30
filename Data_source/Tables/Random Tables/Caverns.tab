@@ -1,0 +1,304 @@
+
+
+:Start
+1, caverns: INTO THE DARK
+
+
+:Entrance, The cave mouth is
+1, Wide and tall, letting much daylight into the entry chamber.
+2, A wide sinkhole.
+3, An easy to spot, narrow passage.
+4, A steep, slippery sloped tunnel.
+5, A man-made tunnel.
+6, A collapsed tunnel, impassable without excavation.
+7, Marked with several warning signs.
+8, Hidden by the terrain  [Hidden by the terrain]
+9, Hidden by vegetation [Hidden by vegetation]
+10, Difficult to access  [Difficult to access]
+
+
+:Hidden by the terrain 
+2, boulders;
+4, waterfall
+5, rocky overhang;
+6, hillock.
+
+
+:Hidden by vegetation
+1, a briar patch;
+2, a curtain of moss;
+4, enormous tree roots
+6, overgrown vines.
+
+
+:Difficult to access 
+2, up or down a cliff face
+3, down a deep hole
+5, in an underwater tunnel
+6, through an illusory rock or wall.
+
+
+:Distinguishing Landmark, You see
+1, A trickle of water flowing down the walls and across the floor.
+2, An underground lake of potable water.
+3, A pool of stagnant water.
+4, A natural bridge over a chasm.
+5, A narrow chasm with walls close enough to climb between.
+6, A deep chasm with no bottom in sight.
+7, A shaft in the ceiling with no light coming from it.
+8, A shaft in the ceiling with dim light coming from it.
+9, A group of stalagmites arranged in a circle.
+10, An arrangement of two large stalactites and two large stalagmites, reminiscent of fangs in a yawning mouth.
+11, A pair of natural columns.
+12, A large stalactite that has broken off from the ceiling and fallen to the floor.
+13, An array of many small stalactites spreading across the ceiling.
+14, A damp wall covered in soft mold.
+15, A recess in the wall, covered in slimy mold.
+16, A large patch of glowing fungus.
+17, A large patch of small mushrooms.
+18, A group of enormous mushrooms.
+19, A large cavern with a strong echo.
+20, A claustrophobic tunnel with a low ceiling.
+
+
+:Features, You notice
+1, A cache of abandoned, decrepit mining equipment.
+2, Bullywugs.
+3, Many bones underfoot.
+4, Corpse creeper.
+5, An enormous spider web.
+6, Chuul.
+7, The clatter of rocks falling.
+8, Cloaker.
+9, An unstable ceiling.
+10, Crawling claw.
+11, The name of a previous traveler carved into or written on a wall.
+12, Cyclops.
+14, Darkmantle.
+16, Shadow dragon.
+18, Drider.
+20, Deep dwarves.
+22, Dark elves.
+24, Ettin.
+26, Fomorian.
+28, Fungi.
+30, Galeb duhr.
+32, Gargoyle.
+34, Ghost.
+36, Ghoul.
+38, Giant, hill.
+40, Giant, stone.
+42, Gibbering mouther.
+44, Goblins.
+46, Grell.
+48, Grick.
+50, Grimlock.
+52, Hobgoblins.
+54, Hook horror.
+56, Kobolds.
+58, Mephits.
+60, Mimic.
+62, Myconids.
+64, Ogres.
+66, Oozes.
+68, Orcs.
+70, Otyugh.
+72, Piercer.
+74, Purple worm.
+76, Roper.
+78, Rust monster.
+80, Shadow.
+82, Skeletons.
+84, Spectre.
+86, Stirges.
+88, Troglodytes.
+90, Trolls.
+92, Hulking tunnelbeast.
+94, Wraith.
+96, Xorn.
+98, Yuan-ti.
+100, Zombies.
+
+
+:A distant sound 
+1, a scream;
+3, hammers at work
+5, footsteps;
+6, drums.
+
+
+:Ecology, The creature is
+1, A predator or a hunter.
+2, A food source for other denizens.
+3, A recently-arrived squatter or invader.
+4, A long-time resident.
+5, A parasite or a scavenger.
+6, A host or the dominant species.
+7, Unusually abundant.
+8, Living in deliberate isolation.
+9, Living in unintentional isolation.
+10, Severely out of place in this cave.
+
+
+:HazardsorObstacles, You find
+1, A colony of poisonous mushrooms.
+2, A patch of toxic mold.
+3, The ceiling caves in.
+4, Several rocks tumble down a sloped wall.
+5, The floor is very slippery.
+6, Your foot misses the floor as you step into a pit or chasm.
+
+
+:Walls, The cave wall is
+1, Slightly damp.
+2, Dripping wet.
+3, Slick with mold.
+4, Covered in soft fungi.
+5, Dry as a bone.
+6, Rough and dry.
+7, Dry and smooth.
+8, Jagged.
+9, Pockmarked.
+10, Crumbling, with loose bits flaking off.
+11, Crumbling, with large chunks falling off.
+12, Covered in an unidentifiable slime.
+
+
+:Ceiling, The cave ceiling is
+1, Uncomfortably close to your head.
+2, Covered in stalactites (watch your head!).
+3, Smooth as glass.
+4, Rough and jagged.
+5, Joined to the floor by natural columns.
+6, So high it is difficult to see.
+
+
+:TravelersorVisitors, You come upon
+1, An explorer  [An explorer]
+2, An escaped slave  [An escaped slave]
+3, A forager  [A forager]
+4, A fugitive criminal  [A fugitive criminal]
+5, A lost treasure hunter  [A lost treasure hunter]
+6, A mapmaker  [A mapmaker]
+7, A messenger  [A messenger]
+8, A miner  [A miner]
+9, A prospector  [A prospector]
+10, A scout  [A scout]
+11, A soldier  [A soldier]
+12, A spy  [A spy]
+
+
+:An explorer 
+1, duergar
+2, goblin;
+5, human
+6, kobold.
+
+
+:An escaped slave 
+1, dwarf;
+2, goblin
+3, gnome
+4, halfling
+5, human;
+6, kobold.
+
+
+:A forager 
+1, duergar
+3, goblin;
+5, kobold
+6, orc.
+
+
+:A fugitive criminal 
+1, heretic;
+3, killer
+4, smuggler
+6, thief.
+
+
+:A lost treasure hunter 
+2, dwarf;
+3, half-elf
+4, high elf
+6, human.
+
+
+:A mapmaker 
+2, dwarf
+3, goblin;
+5, gnome
+6, svirfneblin.
+
+
+:A messenger 
+1, dark elf
+3, goblin;
+5, gnome
+6, svirfneblin.
+
+
+:A miner 
+1, dwarf
+2, svirfneblin;
+3, gnome
+4, goblin
+5, human
+6, kobold.
+
+
+:A prospector 
+2, dwarf
+3, gnome;
+5, human
+6, svirfneblin.
+
+
+:A scout 
+2, dark elf
+4, goblin;
+5, kobold
+6, orc.
+
+
+:A soldier 
+1, dark elf
+2, duergar;
+3, dwarf
+4, goblin
+5, kobold
+6, orc.
+
+
+:A spy 
+2, dark elf
+3, duergar;
+5, goblin
+6, kobold.
+
+
+:Background, The dark elf is
+1, A deadly assassin.
+2, A death-marked heretic.
+3, An ambitious mage.
+4, A messenger on an errand.
+5, A powerful priestess.
+6, A capable scout.
+7, A battle-hardened soldier.
+8, A patient and calculating spy.
+
+
+:Goal, The dark elf is looking to
+1, Track an unnatural beast or invader.
+3, Lead any travelers into a dangerous trap.
+4, Find some knowledge about an ancient event or place.
+6, Share some wine while prying for secrets.
+
+
+:Possession, The dark elf carries
+1, An ancient wand or staff.
+3, A unique gem or piece of jewelry.
+4, A finely-crafted short sword or crossbow.
+6, A tome of dark lore.
+

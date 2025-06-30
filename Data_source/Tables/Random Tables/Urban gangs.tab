@@ -1,0 +1,262 @@
+
+
+:Start
+1, urban gangs: THE BLACK HEART OF THE CITY
+
+
+:Business, The gang's money-making schemes include
+1, Distributing drugs  [Distributing drugs]
+2, Running heists of and/or fencing stolen gems and precious metals.
+3, Petty theft, burglary, and/or pickpocketing.
+4, Assassinations that look like accidents or that frame someone else.
+5, Running brothels  [Running brothels]
+6, Shaking down legitimate local businesses and/or city officials.
+7, Serving as muscle for shady merchants and/or brothel-keepers.
+8, Holding up incoming or outgoing ships or wagons.
+
+
+:Distributing drugs 
+2, smokeleaf;
+4, a hallucinogenic mushroom;
+5, sleepysalt (a downer);
+6, sharpsugar (an upper).
+
+
+:Running brothels 
+2, exotic;
+4, low
+6, high-class.
+
+
+:Colors, The gang's colors are
+1, Black.
+2, Red / scarlet.
+3, Gold.
+4, Forest green.
+5, Royal blue.
+6, Violet.
+7, Maroon.
+8, Bronze.
+9, Tan / khaki.
+10, White.
+11, Grey / gunmetal.
+12, Brown / beaver.
+13, Silver / light grey.
+14, Sky blue.
+15, Navy blue.
+16, Dark brown.
+17, Teal / turquoise.
+18, Steel / blue grey.
+19, Orange.
+20, Olive green.
+
+
+:Symbol, The gang's symbol is
+1, A skull.
+2, A ghost.
+3, The moon.
+4, A star.
+5, An arrow.
+6, A dagger.
+7, A sword.
+8, A hammer.
+9, A crown.
+10, A goblet.
+11, An open hand.
+12, A clenched fist.
+13, A fish or crab.
+14, A snake or lizard.
+15, A badger or cat.
+16, A spider or bee.
+17, A rat or skunk.
+18, A wolf or dog.
+19, A bear or tiger.
+20, An eagle or owl.
+
+
+:Style, Gangmembers often sport matching
+1, Shirts.
+2, Jackets.
+3, Scarves.
+4, Vests.
+5, Bandannas.
+6, Boots.
+7, Tattoos.
+8, Hats.
+9, Scars.
+10, Mustaches.
+
+
+:Boss, The gang's leader is
+1, A dangerous megalomaniac.
+2, A charismatic demagogue.
+3, A mysterious foreigner.
+4, A talented thief.
+5, A well-known public figure.
+6, A ruthless killer.
+7, A femme fatale.
+8, A charming rogue.
+9, A dashing swashbuckler.
+10, A brutish thug.
+
+
+:History, The boss is known for his or her involvement in an infamous
+1, Gold heist.
+2, Jewel heist.
+3, Massacre.
+4, Kidnapping.
+5, Assassination.
+6, Blockade run.
+7, Bribery scandal.
+8, Romantic scandal.
+
+
+:Recruits, For recruitment, the gang targets individuals who are
+1, Artisans.
+2, Thieves.
+3, Sailors.
+4, Drunks.
+5, Beggars.
+6, Foreigners.
+7, Servants / slaves.
+8, Combat veterans.
+9, Laborers.
+12, Circus performers.
+10, Relocated peasants.
+11, Young children.
+
+
+:Weapons, Gangmembers typically arm themselves with
+1, Wooden clubs.
+2, Throwing knives.
+3, Over-sized daggers.
+4, Serrated daggers.
+5, Daggers and crossbows.
+6, Hammers and daggers.
+7, Sticks and stones.
+8, Shortswords.
+9, Brass knuckles.
+10, Bare fists.
+
+
+:Hideout, The gang's headquarters is hidden in or near
+1, The residence of the leader or a senior gangmember.
+2, An artisan's shop or guildhall.
+3, A merchant's office.
+4, A tavern.
+5, A brothel.
+6, A warehouse or shipyard.
+7, A temple complex.
+8, The city's sewers.
+9, The town hall.
+10, An abandoned guildhall or warehouse.
+11, A shantytown
+12, The residence of a wealthy individual or prominent citizen.
+
+
+:Get In, To access headquarters, you must know
+1, The password.
+2, The passphrase.
+3, How to dress.
+4, A foot soldier.
+5, A lieutenant.
+6, The boss.
+
+
+:Victims or Foils, The gang is feared or respected by
+1, Fishermen and sailors.
+2, Beggars and thieves.
+3, Merchants and moneychangers.
+4, Jewelers and gemcutters.
+5, Politicians and magistrates.
+6, Guards and sheriffs.
+7, Soldiers and warriors.
+8, Gladiators and pugilists.
+9, Peasants and farmers.
+10, Servants and slaves.
+11, Priests and sages.
+12, Women and children.
+
+
+:Goals, The gang's goals include ,the boss and lower rank members could have different goals
+1, Domination of the city's politics.
+2, Domination of the city's trade.
+3, Revenge against a rival gang in the same city.
+4, Revenge against a rival gang in another city.
+5, Revenge against the city's elite.
+6, Rebellion against the city's elite.
+
+
+:Tactics, Gangmembers typically fight with
+1, Swarm tactics.
+2, Hit-and-run tactics.
+3, Ambush tactics.
+4, Choreographed maneuvers.
+5, Unpredictable maneuvers.
+6, Lots of smiles and jokes.
+7, Lots of fancy footwork.
+8, Lots of screaming and shouting.
+9, Kicking and stomping.
+10, Lots of head-butting.
+
+
+:Tattoo, The gangmember has
+1, A dagger tattoo.
+2, An arrow tattoo.
+3, An anchor tattoo.
+4, A skull tattoo.
+5, A pair of crossed bones tattoo.
+6, A snake tattoo.
+7, A scorpion tattoo.
+8, A spider web tattoo.
+9, A heart tattoo.
+10, A ring of thorns tattoo.
+11, A mermaid tattoo.
+12, A dragon tattoo.
+
+
+:Trait, The gangmember has
+1, A nose ring.
+2, Shiny leather boots.
+3, A hole in the toe of one boot.
+4, A dagger in each boot.
+5, A heavy gold chain around the neck.
+6, A wide-brimmed hat.
+7, A funny hat.
+8, A look of indifference.
+9, A maniacal laugh.
+10, A long, hooked nose.
+11, An open shirt and a very hairy chest.
+12, Extravagant mustaches.
+
+
+:Goal, The gangmember is looking for
+1, Accomplices for a tricky job.
+2, Revenge against a rival gang.
+3, An easy mark or quick score.
+4, Extra muscle for a tough job.
+5, An opportunity to impress the boss.
+6, A rowdy evening of carousing.
+
+
+:Possession, The gangmember carries
+1, The favor of an admirer.
+2, A wineskin, full of cheap wine.
+3, The key to the gang's storehouse.
+4, A map of the hidden passages in a local palace, temple, or fortress.
+5, An ornate dagger or shortsword.
+6, A musical instrument.
+7, A long pipe and some smokeleaf.
+8, A crowbar and some rope.
+9, A set of fine lockpicks.
+10, A lantern and a shovel.
+
+
+:Motivation, The gangmember joined the gang to
+1, Earn some coin.
+2, Impress a lady.
+3, Impress a parent.
+4, Gain status.
+5, Get rich quick.
+6, Stay alive.
+

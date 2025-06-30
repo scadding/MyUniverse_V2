@@ -1,0 +1,270 @@
+
+
+:Start
+1, knights: SWORN SWORDS
+
+
+:House colors, The knight's house's colors are
+1, Black.
+2, Red / scarlet.
+3, Gold.
+4, Forest green.
+5, Royal blue.
+6, Violet.
+7, Silver / light grey.
+8, Bronze.
+9, Tan / khaki.
+10, Brown / beaver.
+11, Dark grey / gunmetal.
+12, White.
+13, Maroon.
+14, Sky blue.
+15, Navy blue.
+16, Dark brown / chocolate.
+17, Teal / turquoise.
+18, Yellow.
+19, Orange.
+20, Olive green.
+
+
+:House symbol, The knight's house's symbol is
+1, A weapon  [A weapon]
+2, A piece of armor  [A piece of armor]
+3, A celestial body  [A celestial body]
+4, A plant or part of a plant  [A plant or part of a plant]
+5, An aquatic beast  [An aquatic beast]
+6, A small beast  [A small beast]
+7, A great beast  [A great beast]
+8, A bird  [A bird]
+
+
+:A weapon 
+1, arrow.
+2, axe.
+3, dagger.
+4, hammer.
+5, mace.
+6, spear.
+7, staff.
+8, sword.
+
+
+:A piece of armor 
+1, breastplate.
+2, gauntlet.
+3, helm.
+4, shield.
+
+
+:A celestial body 
+1, sun.
+3, star.
+2, moon.
+4, comet.
+
+
+:A plant or part of a plant 
+1, apple.
+2, barley.
+3, briar.
+4, fig.
+5, grapes.
+6, lily.
+7, maple.
+8, oak.
+9, olive.
+10, pine.
+11, rose.
+12, wheat.
+
+
+:An aquatic beast 
+1, crab.
+2, crocodile.
+3, frog.
+4, fish.
+5, octopus.
+6, whale.
+
+
+:A small beast 
+1, badger.
+2, bat.
+3, beaver.
+4, dog.
+5, ferret.
+6, fox.
+7, hedgehog.
+8, lizard.
+9, rat.
+10, scorpion.
+11, snake.
+12, spider.
+
+
+:A great beast 
+1, bear.
+2, boar.
+3, bull.
+4, dragon.
+5, lion.
+6, ox.
+7, stag.
+8, wolf.
+
+
+:A bird 
+1, cardinal.
+2, dove.
+3, eagle.
+4, hawk.
+5, mockingbird.
+6, owl.
+7, pelican.
+8, raven.
+9, rooster.
+10, sparrow.
+11, swan.
+12, vulture.
+
+
+:Background, The knight is
+1, A pompous windbag.
+2, A charming hero.
+3, A daring swashbuckler.
+4, A violent drunk.
+5, A brilliant strategist.
+6, A religious zealot.
+7, A beautiful youth.
+8, A brutish thug.
+9, A celebrated war hero.
+10, A popular tavern patron.
+11, A favorite among the ladies.
+12, Ruggedly handsome.
+
+
+:Trait, On the knight's face is
+1, A blade with soft leather tassels dangling from the pommel.
+2, A blade with a carved hilt  [A blade with a carved hilt]
+3, A blade with beasts sculpted into the steel of the guard  [A blade with beasts sculpted into the steel of the guard]
+4, A blade made of blackened steel.
+5, A highly polished blade.
+6, A token from a sweetheart.
+7, A token from a parent.
+8, A letter from a fallen comrade.
+9, A trophy from a fallen enemy.
+10, A ribbon from a faraway maiden.
+11, A neatly-trimmed beard.
+12, An extravagant mustache.
+
+
+:A blade with a carved hilt 
+1, ivory;
+2, jade
+3, soapstone
+4, ebony;
+5, mahogany
+6, oak.
+
+
+:A blade with beasts sculpted into the steel of the guard 
+1, dragons
+2, lions;
+3, scorpions
+4, snakes
+5, spiders;
+6, wolves.
+
+
+:Liege, The knight has sworn to a noble lord or lady to
+1, Protect that person from harm.
+2, Defend that person's lands.
+3, Avenge that person's grievances.
+4, Protect that person's loved ones.
+5, Advance that person's ideals or faith.
+6, Ride to war in that person's name.
+
+
+:Values, Above all else, the knight values
+1, Bravery.
+2, Honor.
+3, Righteousness.
+4, Might (strength or tyranny).
+5, Love (devotion or conquest).
+6, Carousing.
+
+
+:Armor type, The knight is clad in
+1, Studded leather armor.
+3, Chainmail.
+5, Scale armor.
+6, Plate armor.
+
+
+:Armor quality, The knight's armor is
+1, Shiny and new.
+2, In excellent condition.
+3, Obviously repaired, but serviceable.
+4, Covered in dings and dents.
+5, Dirty and well-worn.
+6, Barely held together.
+
+
+:Weapons, The knight is wielding
+1, A longsword.
+2, A longsword and a shield.
+3, Two shortswords.
+4, A shortsword and a shield.
+5, A bastard sword.
+6, A greatsword.
+7, A flail and a shield.
+8, A morningstar.
+9, A battleaxe and a shield.
+10, A warhammer and a shield.
+11, A lance and a longsword.
+12, A lance and a battleaxe.
+
+
+:Mount, The knight's mount is
+1, A huge destrier.
+2, A reliable courser.
+3, A snorting charger.
+4, A swift garron.
+5, A wickering palfrey.
+6, A nervous pony.
+
+
+:Background, The servant is
+1, A squire from a powerful noble house.
+2, A squire from a minor noble house.
+3, A squire of common birth.
+4, A frightened link boy.
+5, An long-time valet.
+6, A reformed criminal-turned valet.
+7, The son of an enemy.
+8, A mysterious foreigner.
+9, A journeyman smith or armorer.
+10, A simple-minded stable hand.
+11, An expert on horses.
+12, A camp follower or harlot.
+
+
+:Motivation, The servant works for
+1, The steady pay.
+2, The adventure.
+3, The training and advancement opportunies.
+4, No reason, other than being told.
+5, A chance to escape from life imprisonment.
+6, Romantic devotion.
+
+
+:Trait, On the servant's face is
+1, A large wart.
+2, An unsightly scar.
+3, A look of determination.
+4, A foolish grin.
+5, A stupid stare.
+6, A look of confusion.
+7, A long, hooked nose.
+8, Pronounced ears.
+

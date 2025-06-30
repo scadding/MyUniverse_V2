@@ -1,0 +1,313 @@
+
+
+:Start
+1, dockside taverns: WHAT DO YOU DO WITH A DRUNKEN SAILOR?
+
+
+:This place is called the ,roll 2x
+1, Crab
+2, Dolphin
+3, Mermaid
+4, Seal
+5, Shark
+6, Snail
+7, Squid
+8, Tuna
+9, Turtle
+10, Whale
+
+
+:Location, The place is right next to
+1, A customs house.
+2, A prison.
+3, A ferry port.
+4, A lumber yard.
+5, A merchant's office.
+6, A sailmender's.
+7, A shipyard.
+8, A smokehouse.
+9, A warehouse.
+10, A rocky beach.
+11, A stone bridge.
+12, An old fortification.
+13, A fishing pier.
+14, A dry-docked ship.
+15, An upscale inn.
+16, A rival tavern.
+17, A classy bordello.
+18, A low brothel.
+19, A gambling den.
+20, An antiquities shop.
+
+
+:Tonight, we dine on
+1, Stewed.
+2, Breaded.
+3, Fried.
+4, Battered.
+5, Baked.
+6, Brined.
+7, Seared.
+8, Peppered.
+9, Salted.
+10, Pickled.
+
+
+:Or perhaps, the
+1, Alehouse
+2, Anchor
+3, Cabin
+4, Cove
+5, Hideaway
+6, House
+7, Inn
+8, Quarters
+9, Resort
+10, Tavern
+
+
+:Size, The tavern is
+1, Tiny 10 or fewer patrons at a time.
+3, Small 11-20 patrons at a time.
+5, Decent-sized 21-50 patrons at a time.
+6, Large 50 or more patrons at a time.
+
+
+:Or maybe, the ,roll 2x
+1, Albatross
+2, Dragon
+3, Ghost
+4, Hurricane
+5, Moon
+6, Pelican
+7, Seagull
+8, Star
+9, Storm
+10, Tide.
+
+
+:Background, The place is owned by
+1, An old sea captain.
+2, A suspicious fisherman's wife.
+3, A shrewd gambler.
+4, A boisterous madame.
+5, The son of a prosperous merchant.
+6, A reformed pirate.
+7, A retired sailor.
+8, A talented singer.
+9, A crippled smuggler.
+10, A flirtatious tart.
+
+
+:Work, The proprietor
+1, Buses tables.
+2, Minds the door.
+3, Performs for patrons most nights.
+4, Runs the kitchen.
+5, Tends bar.
+6, Sits in the back room counting coins.
+7, Sits in the back room cutting deals.
+8, Only visits the place when there is trouble.
+9, Greets only wealthy and important patrons.
+10, Hasn't set foot in the place in years.
+
+
+:Concern, Recently, trouble with
+1, Some rowdy patrons.
+2, Some local thugs offering "protection."
+3, Some local authorities demanding bribes.
+4, Local authorities cleaning up prostitution.
+5, Local authorities shutting down gambling.
+6, Religious do-gooders preaching sobriety.
+7, Some thieves working the neighborhood.
+8, Rum-runners not making good on deliveries.
+9, A dangerous thug refusing to pay his tab.
+10, Rats—or worse—in the cellar or storeroom.
+
+
+:Structure, The tavern is
+1, A sturdy stone structure.
+2, A rickety two-story structure.
+3, A shabby looking old house.
+4, Little more than a shack.
+5, Leaning against a larger structure.
+6, Towering over adjacent houses.
+7, Located beneath or within a warehouse.
+8, Located in or atop an old dry-docked ship.
+9, Located at the end of a wooden pier.
+10, Located down a dark, twisting alley.
+
+
+:Wallhangings, On the walls hang
+1, Carved mermaids.
+2, Fishing tackle.
+3, Naval banners.
+4, Oars and wheels.
+5, Sabres and knives.
+6, Coconuts and tropical flowers.
+7, Paintings of dragons.
+8, Paintings of krakens.
+9, Ship's rigging.
+10, Maps and charts.
+11, Trophy fish.
+12, Sealskins and harpoons.
+
+
+:Bar, The bar is made of
+1, A couple of overturned barrels.
+2, A long wooden table.
+3, A mosaic of seashells, corals, and bones.
+4, A piece of an old merchant vessel.
+5, Polished hardwood.
+6, Some old shipping crates.
+7, Sturdy teak.
+8, Wood carved to depict figures or shapes.
+
+
+:Availability, The place has
+4, Plenty of rooms.
+5, A large dormitory.
+6, No lodging.
+
+
+:Room quality, The rooms are
+1, A little dusty.
+2, A little smelly.
+3, Absolutely filthy.
+4, Recently refurbished.
+5, Well-used but clean.
+6, Simply furnished.
+
+
+:Sleeping, The beds are
+1, Wood pallets.
+5, Hammocks.
+3, Straw mats.
+6, Pretty comfortable.
+
+
+:Special, The barkeep will help you find
+1, A boat to rent.
+2, Ship's passage.
+3, Wood for a fire.
+4, Extra blankets.
+5, Linen sheets.
+6, Stronger drinks.
+7, Work aboard a ship.
+8, Soup in your room.
+9, Rations of dried fish.
+10, A length of rope.
+11, Fishing bait.
+12, A harlot's company.
+
+
+:
+1, Clams.
+2, Crab.
+3, Herring.
+4, Lobster.
+5, Mussels.
+6, Oysters.
+7, Salmon.
+8, Smelt.
+9, Haddock.
+10, Mackerel.
+11, Squid.
+12, Shrimp.
+13, Prawns.
+14, Tuna.
+15, Halibut.
+16, Cod.
+17, Sea bass.
+18, Goose.
+19, Chicken.
+20, Mutton.
+
+
+:with
+1, Golden potatoes.
+2, Red potatoes.
+3, Beets.
+4, Leeks.
+5, Lentils.
+6, Black beans.
+7, Turnip mash.
+8, Diced turnips.
+9, Wild rice.
+
+
+:and
+1, Carrots.
+2, Red cabbage.
+3, Green cabbage.
+4, Purple cabbage.
+5, Dill weed.
+6, Lemongrass.
+7, Parsley.
+8, Radishes.
+9, Peas.
+10, Green onions.
+11, Yellow onions.
+
+
+:On the side, there is some
+1, Sourdough bread.
+2, Fresh bread.
+3, Crusty bread.
+4, Sweet bread.
+5, Sesame bread.
+6, Oat bread.
+7, Pumpernickel bread.
+8, Beer bread.
+
+
+:To wash it down, we have some
+1, Bitter ale.
+2, Wheat ale.
+3, Steam beer.
+4, Porter.
+5, Mead.
+6, Sour wine.
+7, Red wine.
+8, Tea.
+9, Spiced rum.
+10, Dry rum.
+
+
+:For entertainment tonight, there isorare
+1, A charming singer performing bawdy songs.
+2, A sailor leading a chorus of sea chanteys.
+3, Dancing girls coaxing patrons to their feet.
+4, Harlots socializing and looking for clients.
+5, A high-stakes card game.
+6, A fast-paced dice game.
+7, Dart-throwing contests.
+8, Knife-throwing contests.
+9, A goon challenging all to arm wrestle him.
+10, Pit-fighting, featuring exotic martial artists.
+11, Fighting crabs.
+12, Snail races.
+
+
+:Among the crowd, you meet
+1, A grim captain.
+2, An apprentice clerk.
+3, A local fisherman.
+4, A drunken guard.
+5, A precocious harlot.
+6, A snooty merchant.
+7, A jolly old monk.
+8, A customs official.
+9, An amiable pirate.
+10, A young priest.
+11, A foreign sailor.
+12, A novice sailor.
+13, A rowdy sellsword.
+14, A witty singer.
+15, A cautious smuggler.
+16, A wild swashbuckler.
+17, A foreign trader.
+18, An exotic warrior.
+19, A mysterious woman.
+20, An angry dwarf.
+

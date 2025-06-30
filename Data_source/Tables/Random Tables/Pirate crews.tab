@@ -1,0 +1,243 @@
+
+
+:Start
+1, pirate crews: TERROR AND PLUNDER
+
+
+:Ship, The pirates' ship is
+1, A rickety raft.
+6, A hulk.
+2, A galley.
+7, A carrack.
+3, A longship.
+8, A caravel.
+4, A catamaran.
+9, A schooner.
+5, A cog.
+10, A dreadnought.
+
+
+:Condition, Presently, the ship is
+1, Laden with treasure.
+2, Full of stolen goods.
+3, Well-stocked with provisions.
+4, In tip-top shape.
+5, “On loan” to some other pirates.
+6, In need of repair.
+7, Barely staying afloat.
+8, Resting beneath the waves.
+
+
+:Banner, The ship's banner has
+1, A skull.
+2, Crossed bones.
+3, Skull and bones.
+4, A skeletal hand.
+5, A skeletal fish.
+6, A flaming skull.
+7, A clenched fist.
+8, A bloody dagger.
+9, A mermaid.
+10, Crossed swords.
+11, A dagger.
+12, A ghost.
+13, A crab.
+14, An albatross.
+15, A pelican.
+16, A whale.
+17, An octopus.
+18, A dagger.
+19, A sea turtle.
+20, A big tuna.
+
+
+:Masthead, The ship's masthead is
+1, A goddess.
+2, A mermaid.
+3, A young lady.
+4, An eagle or wolf.
+5, A fish or whale.
+6, A dragon.
+7, A skeleton.
+8, An octopus.
+
+
+:Mascot, The ship's mascot is
+4, A parrot:
+8, A monkey:
+9, An old turtle.
+10, A lazy sea-faring cat.
+11, A pot-belly pig.
+12, A high-energy herding dog.
+
+
+:Captain, The ship's captain is
+1, A dangerous megalomaniac.
+2, A charismatic demagogue.
+3, A mysterious foreigner.
+4, A talented thief.
+5, A member of a prominent family.
+6, A ruthless killer.
+7, A femme fatale.
+8, A charming rogue.
+9, A dashing swashbuckler.
+10, A brutish thug.
+11, An old sailor.
+12, A celebrated naval hero.
+
+
+:Morale, The crew's attitude toward their captain is
+1, Adoring and loyal.
+2, Friendly and pleased.
+3, Respectful and business-like.
+4, Mercenary and eager.
+5, Terrified and tight-lipped.
+6, Disappointed and indifferent.
+7, Restless and rebellious.
+8, Angry and mutinous.
+
+
+:Drink, The crew's favorite drink is
+1, Rum.
+2, Grog.
+3, Ale.
+4, Wine.
+5, Brandy.
+6, Whisky.
+
+
+:Goals, The crew's goals include ,captain and crewmembers could have different goals
+1, Discovery of a legendary hidden treasure.
+2, Domination of the region's maritime trade.
+3, Revenge against a naval hero.
+4, Revenge against a rival pirate crew.
+5, Rebellion against the dominant merchant traders.
+6, A wealthy and peaceful retirement.
+7, Violence to slake their bloodlust.
+8, Drinking all the rum.
+
+
+:Reputation, The crew is known for
+1, Never leaving survivors.
+2, Feeding captives to sharks.
+3, Tattooing or branding captives.
+4, Scalping captives.
+5, Flaying captives.
+6, Burning seaside villages.
+7, Plundering the ships of a wealthy tyrant.
+8, Using a lot of explosives.
+9, Convening with ghosts.
+10, Romantic escapades.
+11, Singing bawdy songs.
+12, Drinking too much rum.
+
+
+:Hideout, The crew's headquarters is hidden in or near
+1, A rugged seaside cliff.
+2, A hidden lagoon.
+3, A remote island.
+4, A swampy river mouth.
+5, A coastal cave.
+6, A tavern.
+7, A brothel.
+8, A warehouse or shipyard.
+9, A poor fishing village
+10, An old lighthouse.
+
+
+:Weapons, Crewmembers typically arm themselves with
+1, Belaying pins (wooden clubs).
+2, Throwing knives.
+3, Over-sized daggers.
+4, Serrated daggers.
+5, Cutlasses.
+6, Clubs and daggers.
+7, Brass knuckles.
+8, Bare fists.
+9, Nets and tridents.
+10, Harpoons.
+
+
+:Style, Crewmembers often sport matching
+1, Puffy shirts.
+2, Breeches.
+3, Scarves.
+4, Vests.
+5, Bandannas.
+6, Boots.
+7, Tattoos.
+8, Hats.
+9, Scars.
+10, Mustaches.
+
+
+:Tactics, The crew typically fights with
+1, Swarm tactics.
+2, Hit-and-run tactics.
+3, Ambush tactics.
+4, Choreographed maneuvers.
+5, Unpredictable maneuvers.
+6, Lots of smiles and jokes.
+7, Lots of fancy footwork.
+8, Lots of screaming and shouting.
+9, Kicking and stomping.
+10, Lots of head-butting.
+
+
+:Tattoo, The pirate has
+1, A dagger tattoo.
+2, An anchor tattoo.
+3, A skull tattoo.
+4, A pair of crossed bones tattoo.
+5, A snake tattoo.
+6, A fish tattoo.
+7, A spider web tattoo.
+8, An octopus tattoo.
+9, A whale tattoo.
+10, A lobster tattoo.
+11, A mermaid tattoo.
+12, A dragon tattoo.
+
+
+:Trait, The pirate has
+1, A nose ring.
+2, Shiny leather boots.
+3, Gold teeth.
+4, An oversized dagger in the belt.
+5, A heavy gold chain around the neck.
+6, A wide-brimmed hat.
+7, An eyepatch.
+8, A long black beard.
+9, A maniacal laugh.
+10, A long, hooked nose.
+11, An open shirt and a very hairy chest.
+12, Extravagant mustaches.
+
+
+:Goal, The pirate longs to
+1, Captain his own ship.
+2, Retire peacefully, far from the sea.
+3, Return to the arms of a long lost love.
+4, Get married and settle down.
+5, Get promoted due to his hard work.
+6, Own his own shipping company.
+7, Write a famous drinking song..
+8, Forget the demons of his past.
+9, Retire peacefully in a seaside village.
+10, Gain revenge against a sea monster.
+11, Kill the captain; that guy's an asshole.
+12, Be a pirate; a pirate's life is a joy.
+
+
+:Possession, The pirate carries a
+1, Polished blade.
+2, Silk handkerchief.
+3, Jagged dagger.
+4, Bejeweled knife.
+5, Fancy compass.
+6, Rusty sword.
+7, Map case.
+8, Wooden club.
+9, Empty bottle.
+10, Hip flask.
+

@@ -1,0 +1,435 @@
+
+
+:Start
+1, haunted forests: FOREST VARIANT (PAGE THREE)
+
+
+:Interesting Location, You find
+1, Ancient burial mounds.
+2, An entrance to a rocky cave.
+3, A hole under a large tree.
+4, A large burrow.
+5, A peculiar cottage.
+6, A forgotten cemetery.
+7, A pair of graves.
+8, An abandoned cabin.
+9, An abandoned campsite.
+10, Ancient ruins.
+
+
+:Distinguishing Landmark, You see
+1, A tree with rotten fruit all around its base.
+2, A large, hollow tree.
+3, A pair of trees from the same root.
+4, A tree growing over a boulder.
+5, A clearing with bare ground.
+6, A clearing with an old grave marker.
+7, A boulder marked with several notches.
+8, A thicket of dry brambles.
+9, A slow, silent stream.
+10, A stream flowing quietly through a ravine.
+11, A stream with barren banks.
+12, A dry creekbed.
+13, A foul smelling pond.
+14, A patch of mushrooms.
+15, The decaying carcass of a large animal.
+16, A large, hollow log.
+17, A large, rotting log.
+18, A tree felled by lightning.
+19, An old gnarled tree.
+20, The stump of an enormous tree.
+
+
+:Feature, You notice
+1, A flock of crows scatter.
+2, A vulture screams.
+3, A raven croaks.
+4, An owl hoots.
+5, A crow caws.
+6, A rat scurrying.
+7, A ghostly presence flees.
+8, A ghostly presence watches curiously.
+9, A large bat takes to wing from a tree.
+10, A wolf howls.
+11, A large moth flutters about.
+12, Rats squeaking.
+13, An eerie silence.
+14, The breeze stops.
+15, The wind blows harder.
+16, A twig snaps.
+17, The wind moans eerily.
+18, A distant scream.
+19, The scent of rotting flesh.
+20, The smell of decay.
+
+
+:What's in the caveorcavern
+1, Several skeletons.
+2, Lots of bats.
+3, Many spider webs.
+4, A wight's stash.
+5, A ghoul's lair.
+6, A ghostly presence.
+7, The hideout of a killer on the run.
+8, Bare rock.
+9, Unidentifiable remains.
+10, An abandoned cookfire.
+11, Some outlaws' hideout.
+12, A creepy hermit.
+
+
+:Encounters, You come upon
+1, An animated skeleton.
+2, A pair of skeletal warriors.
+3, A giant spider.
+4, A swarm of spiders.
+5, A pack of wolves.
+6, A savage werewolf.
+7, A giant bat.
+8, A swarm of bats.
+9, A shadow panther.
+10, A malevolent ghost.
+11, A restless ghost.
+12, A hungry ghoul.
+13, An animated hatchet.
+14, A pair of zombies.
+15, A slobbering zombie.
+16, A pair of graverobbers.
+17, An anxious necromancer.
+18, An old witch.
+19, A lost child.
+20, A gravedigger.
+
+
+:Dominant Tree Species, Many of the
+1, Apple or pear trees.
+2, Ashes.
+3, Birches.
+4, Beeches.
+5, Cedars or junipers.
+6, Cherry or plum trees.
+7, Chestnut or hazel trees.
+8, Cypresses.
+9, Elms.
+10, Firs.
+11, Hawthorns or hemlocks.
+12, Hickory or walnut trees.
+13, Linden or lime trees.
+14, Maples.
+15, Oaks.
+16, Pines.
+17, Poplars.
+18, Spruces.
+19, Willows.
+20, Yew or holly trees.
+
+
+:Who lives in the peculiar cottage
+1, A lonely old woman.
+2, A reclusive shapeshifter.
+3, An eccentric healer.
+4, A beautiful witch.
+5, A horrible witch.
+6, A cranky old priest.
+
+
+:Who lived in the abandoned cabin
+1, A lonely old woman.
+2, A reclusive scholar.
+3, An eccentric healer.
+4, A poor woodcutter.
+5, A fur trader.
+6, A dwarf prospector.
+
+
+:Who resides in the abandoned cabin now
+1, A death hound.
+2, A handful of zombies.
+3, A paranoid shapeshifter.
+4, A mad witch.
+5, A malevolent ghost.
+6, Restless ghosts.
+
+
+:Who built the ancient ruins
+1, Dwarvish miners.
+2, A wood elf king.
+3, An ancient elf.
+4, A demonic cult.
+5, A death cult.
+6, Shadow monks.
+7, A long-dead emperor.
+8, A forgotten king.
+9, An evil queen.
+10, A dark sorcerer.
+
+
+:Who lives in the ancient ruins now
+1, A high elf guardian.
+2, A wood elf druid.
+3, A pack of blink dogs.
+4, Giant spiders.
+5, Restless ghosts.
+6, A wicked satyr.
+7, Hundreds of pixies.
+8, Some wary centaurs.
+9, A cloistered dryad.
+10, A displacer beast.
+11, A pair of manticores.
+12, A dragon.
+
+
+:The woodsman is
+1, A fugitive from justice.
+2, A strange herbalist.
+3, A skilled hunter.
+4, A desperate poacher.
+5, A poor woodcutter.
+6, A bearded lumberjack.
+
+
+:The woodsman is looking to
+1, Track an unusual beast.
+2, Find the lair of a rare beast.
+3, Find a spot where a rare flower grows.
+4, Find a place where game is plentiful.
+5, Sell some of his wares.
+6, Swap tales and rumors.
+
+
+:The woodsman carries
+1, A sturdy hatchet.
+2, A bundle of firewood.
+3, A spear or walking staff.
+4, A large knife and a hunting trap.
+5, A finely made longbow.
+6, A trophy or piece of a wild beast.
+
+
+:The wood elf is
+1, An adept healer.
+2, A silent scout.
+4, A watchful ranger.
+6, A fierce warrior.
+
+
+:The wood elf is looking to
+2, Track an unnatural beast or invader.
+3, Lead any travelers out of the forest.
+4, Guard a sacred site from outsiders.
+6, Eat, drink, and be merry.
+
+
+:The wood elf carries
+1, An ancient blade.
+2, A unique gem or piece of jewelry.
+4, A finely-crafted spear or longsword.
+6, An ornate longbow.
+
+
+:Who lives in the burroworunder the tree
+1, Intelligent rabbits.
+2, A giant talking spider.
+3, A talking badger.
+4, A gnomish illusionist.
+5, A gnomish prankster.
+6, A suspicious sprite.
+
+
+:Who lives up in the tree
+1, A giant owl.
+2, A talking raven.
+3, A wood elf ranger.
+4, A high elf sentinel.
+5, A band of friendly pixies.
+6, Several nervous sprites.
+7, A swarm of sentient butterflies.
+8, It's not a tree; it's a treant.
+
+
+:Who lives in the peculiarorwell-maintained cottage
+1, A lonely old gnome.
+2, A reclusive shapeshifter.
+3, A gnomish healer.
+4, A beautiful witch.
+5, A horrible witch.
+6, An outcast dwarf.
+
+
+:The faerie is
+1, A capricious nymph.
+2, An apprehensive nymph.
+3, A nervous pixie.
+4, A cheerful pixie.
+5, A wrathful sprite.
+6, A curious sprite.
+7, A drunken satyr.
+8, A satyr bully.
+
+
+:1The faerie is looking for
+1, An unnatural creature that has taken up residence in the forest.
+2, Ways to cause mischief for travelers.
+3, Worthy visitors of a secret grove.
+4, Someone to listen to a new song.
+5, A dance partner.
+6, A drinking partner.
+
+
+:The faerie carries
+1, An delicate wreath of flowers.
+2, A gem glowing with moonlight or starlight.
+3, A finely-crafted bow or knife.
+4, A vial containing a potent potion.
+5, Several magical mushrooms.
+6, A message from a faerie king or queen.
+7, A musical instrument  [A musical instrument]
+8, A jug of wine.
+
+
+:A musical instrument 
+2, flute;
+4, harp
+5, horn
+6, pipes.
+
+
+:The high elf is
+1, A powerful enchanter/enchantress.
+2, A patient and wise sage.
+5, A dedicated knight.
+6, A capable scout.
+
+
+:The high elf is looking to
+1, Track an unnatural beast or invader.
+3, Lead any travelers out of the forest.
+5, Find some knowledge about an ancient event or place.
+6, Share a drink a tale of woe.
+
+
+:The high elf carries
+2, An ancient blade.
+3, A unique gem or piece of jewelry.
+5, A finely-crafted longsword or bow.
+6, A tome of mystic lore.
+
+
+:The treeperson is
+1, A flowering dryad enchantress.
+2, A soft-spoken dryad protector.
+3, A thorny dryad witch.
+4, A green treant loreseeker.
+5, A sturdy treant guardian.
+6, A withered treant lorekeeper.
+
+
+:The treeperson is looking to
+2, Drive away intruders.
+3, Warn intruders of dangers ahead.
+4, Find a spot where a rare flower grows.
+6, Talk after centuries of silence.
+
+
+:The treeperson carries
+2, A magic acorn, nut, or other seed.
+4, A clipping of ancient wood.
+5, A rare moss with healing properties.
+6, A deathly poison mushroom.
+
+
+:Who is in the ancient burial mound
+1, The remains of an ancient war chief.
+2, The remains of a tribal shaman.
+3, The remains of an ancient war chief.
+4, A barrow-wight.
+5, An ancient demilich.
+6, The remains of ancient monks.
+7, Twisted humanoid bones.
+8, Malevolent ghosts.
+9, Zombie warriors.
+10, A skeletal hound.
+11, An ancient vampire.
+12, Huge, disorganized piles of bones.
+
+
+:What's in the holeorburrow
+1, A snake.
+2, A spider.
+3, Slimy mold.
+4, Maggots.
+5, A severed limb.
+6, Unusual fungus.
+7, A decomposing body.
+8, Cold, dry bones.
+
+
+:Who is in the grave
+1, The corpse of a young maiden.
+2, The corpse of a child.
+3, The corpse of an old man.
+4, The corpse of an old woman.
+5, A fallen adventurer, hastily buried.
+6, A dismembered corpse.
+7, Twisted humanoid bones.
+8, A pile of bones.
+9, A newly-made vampire.
+10, An empty coffin.
+
+
+:The graverobber is
+1, A veteran treasure hunter.
+3, A desperate thief.
+5, A reckless fortune seeker.
+6, A student of anatomy.
+
+
+:The graverobber carries
+2, A sturdy shovel and a dirty handkerchief.
+4, Several over-sized sacks.
+5, An ornately crafted lantern.
+6, A pocketbook of notes on gravesites.
+
+
+:Who resides in the ancient ruins now
+1, A brilliant necromancer.
+2, Starved ghouls.
+3, Undead guardians.
+4, Giant spiders.
+5, So many zombies.
+6, Restless ghosts.
+7, A vengeful wight.
+8, A mad wraith.
+9, A cursed mummy.
+10, An aberrant presence.
+11, A pair of manticores.
+12, A dracolich.
+
+
+:The graverobber is looking for
+1, A fresh grave.
+2, The entrance to an ancient crypt.
+4, A pair of strong arms to help dig.
+6, A drink and a break from digging.
+
+
+:The necromancer is
+1, A brilliant academy graduate.
+2, A well-known villain.
+4, A violent maniac.
+6, An ambitious mage.
+
+
+:The necromancer is looking for
+1, Test subjects.
+3, A body—fresh if possible, decomposed just as good.
+5, Gullible souls.
+6, A drink of absinthe and a ghost story.
+
+
+:The necromancer carries
+1, A twisted blackwood staff.
+3, A tome of necromantic lore.
+4, A rare alchemical substance.
+6, A razor-sharp ceremonial dagger.
+

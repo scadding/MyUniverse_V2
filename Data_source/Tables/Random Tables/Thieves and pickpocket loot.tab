@@ -1,0 +1,248 @@
+
+
+:Start
+1, thieves: HOLD ON TO YOUR PURSE
+
+
+:Background, The thief is
+1, A veteran dungeon delver.
+2, A desperate footpad.
+3, A reckless fortune seeker.
+4, A well-known adventurer.
+5, A brash, young fool.
+6, A student of the craft.
+7, A charismatic swindler.
+8, A mysterious foreigner.
+9, A femme fatale.
+10, A charming rogue.
+11, A dashing swashbuckler.
+12, A brutish thug.
+
+
+:Trait, The thief has
+1, A long, hooked nose.
+2, A bent, broken nose.
+3, A cute little button nose.
+4, A scar below the left eye.
+5, Pockmarked cheeks.
+6, High cheek bones.
+7, A pointy chin.
+8, A thug's tattoo on the arm  [A thug's tattoo on the arm]
+9, A sailor's tattoo on the arm  [A sailor's tattoo on the arm]
+10, An open shirt and a very hairy chest.
+11, A five o'clock shadow.
+12, An extravagant mustache.
+
+
+:A thug's tattoo on the arm 
+1, crossed bones
+2, dagger
+3, dragon
+4, eagle;
+5, skull
+6, snake
+7, spider web
+8, thorns.
+
+
+:A sailor's tattoo on the arm 
+1, anchor;
+3, mermaid
+4, octopus
+6, whale.
+
+
+:Apparel or accessory, The thief wears
+1, A flashy earring.
+2, A dark red cape.
+3, Shiny leather boots.
+4, Boots with a hole in the left toe.
+5, A leather baldric.
+6, A wide-brimmed hat.
+7, A heavy gold chain around the neck.
+8, A long dark ponytail.
+9, Luscious golden curls.
+10, A ruffled shirt.
+11, A stylish coat.
+12, A handkerchief in his breast pocket.
+
+
+:Possession, The thief carries
+1, Some hemp rope and a silk handkerchief.
+2, Several over-sized sacks.
+3, Several torches and a much-used knife.
+4, A pocketbook of notes and maps.
+5, A dagger in each boot.
+6, A beautiful antique scabbard.
+7, A well-worn lantern.
+8, Climbing gear—pitons, hammer, and rope.
+9, An organized set of lockpicks.
+10, A crowbar.
+11, An adjustable lockpick.
+12, A mask.
+13, The token of a love.
+14, Letters for blackmail.
+15, A lucky charm  [A lucky charm]
+16, A flask of oil.
+17, A treasure map.
+18, A flask filled with spirits.
+19, A wineskin.
+20, A little jar of mustache wax.
+
+
+:A lucky charm 
+1, four-leafed clover;
+3, rabbit's foot
+5, coin
+6, horseshoe.
+
+
+:Mannerisms, The thief
+1, Hums or sings while walking.
+2, Constantly brushes hair from his/her face.
+3, Laughs maniacally at everything.
+4, Never smiles and never laughs.
+5, Scratches the elbow frequently.
+6, Picks at his or her teeth after meals.
+
+
+:Weapons, The thief is armed with
+1, Brass knuckles.
+2, A shortsword.
+3, Several throwing knives.
+4, A crossbow with poisoned bolts.
+5, A narrow-bladed dagger.
+6, A serrated dagger.
+7, A club and a knife.
+8, A rapier.
+9, A hand crossbow.
+10, A garrote and a dagger.
+
+
+:Work, The thief's modus operandi is
+1, Petty theft.
+2, Burglary.
+3, Shoplifting.
+4, Mugging.
+5, Pickpocketing.
+6, Running heists of gems and precious metals.
+7, Running heists of warehouses.
+8, Holding up outgoing boats or wagons.
+
+
+:Goal, The thief is looking for
+1, Accomplices to carry out a job.
+2, Revenge against a rival thief.
+3, Revenge against an officer of the law.
+4, An easy mark.
+5, Extra muscle for a job.
+6, Rumors that may lead to a big score.
+7, An ear to listen to some boasting.
+8, The location of storied item of value.
+9, Someone more wealthy than you.
+10, A rowdy evening of carousing.
+
+
+:Recent jobs, Recently, the thief has been operating in or near
+1, A residential district.
+2, An artisan's shop or guildhall.
+3, A merchant's office.
+4, A inn.
+5, A brothel.
+6, A warehouse or shipyard.
+7, A temple complex.
+8, A cemetery.
+9, The town hall.
+10, An abandoned guildhall or warehouse.
+11, A shantytown
+12, The residence of a wealthy individual.
+13, The palace
+14, A library or university.
+15, The market square.
+16, A gatehouse.
+17, A pub.
+18, A tavern.
+19, The docks.
+20, The bridge.
+
+
+:Odd jobs, Aside from theft, the thief has been known to be involved in
+8, Serving as muscle for shady merchants and/or brothel-keepers.
+
+
+:Style, The thief prefers to operate
+1, Alone.
+2, With a tough-guy partner.
+3, With a partner to serve as a look-out.
+4, With a partner to create a diversion.
+5, With a gang.
+6, Wearing a mask.
+
+
+:Victims, The thief's favorite marks include
+1, Fishermen and sailors.
+2, Beggars and hobos.
+3, Merchants and moneychangers.
+4, Jewelers and gemcutters.
+5, Politicians and magistrates.
+6, Guards and sheriffs.
+7, Soldiers and sellswords.
+8, Musicians and storytellers.
+9, Farmers and herders.
+10, Servants and slaves.
+11, Priests and sages.
+12, Women and children.
+13, Peasant girls and farm wives.
+14, Young noblewomen.
+15, Old women.
+16, Noblemen.
+17, Harlots and madames.
+18, Barkeeps and barmaids
+19, Peddlers and shopkeepers.
+20, Other thieves.
+
+
+:In the mark's pocket, the thief finds
+1, A scrap of paper or parchment with an unintelligible note scribbled on it.
+2, A scrap of paper or parchment with a list of mundane items or tasks written on it.
+3, Some lint or a bit of thread.
+4, A lost button or broken piece of something.
+5, An old or well-worn key (key table).
+6, A new or little-used key (key table).
+7, A clean handkerchief (handkerchief table).
+8, A soiled handkerchief (handkerchief table).
+9, A score (score table).
+10, A score (score table) and roll again on this table using a d8.
+
+
+:Key, The key is
+1, A small brass key.
+2, A large brass key.
+3, A thin brass key.
+4, A heavy iron key.
+5, A spindly iron key.
+6, Made of an unusual material.
+
+
+:Handkerchief, The handkerchief is
+1, A fine silk handkerchief.
+2, A simple cotton handkerchief.
+3, A lacy handkerchief.
+4, A threadbare handkerchief.
+5, A striped handkerchief.
+
+
+:Score, The thief scores
+1, 2d4 cp.
+2, 3d6 cp.
+3, 1d6 sp.
+4, 2d6 sp.
+5, 1d4 gp.
+6, 1d6 sp plus 1d10 cp.
+7, 2d6 sp plus 1d10 cp.
+8, 1d4 gp plus 1d10 sp.
+9, 2d4 gp plus 1d10 sp.
+10, A gem or small piece of jewelry (5d10 gp).
+11, A gem (5d10 gp) and roll this table again.
+12, 1d6 gp and roll this table again.
+

@@ -1,0 +1,258 @@
+
+
+:Start
+1, temples: KNEEL BEFORE THE GODS
+
+
+:Dedicatee, Worshipers here pray to
+1, One god and only one god.
+2, One god primarily, but other gods occasionally or for specific petitions.
+3, Several gods within a pantheon, but two gods above the rest.
+4, An entire pantheon, petitioning each god for specific needs.
+5, One god to whom the temple was not originally dedicated.
+6, Several gods within a pantheon to whom the temple was not originally dedicated.
+
+
+:Reputation, The temple is known for
+1, Miraculous healers.
+2, Compassionate healers.
+3, Beautiful priestesses.
+4, Wonderful music.
+5, Accurate prophecies.
+6, Dark prophecies.
+7, Stunning architecture.
+8, Unusual architecture.
+9, Incredible collection of artwork.
+10, A famous sculpture or painting.
+11, Lengthy prayer services and vigils.
+12, Lively prayer services and debates.
+
+
+:Entrance, The entrance is guarded by
+1, A sworn order of devout warriors.
+2, Sellswords.
+3, Frightening statues of monstrous beings.
+4, Impressive, colossal statues of warriors.
+5, Statues of beautiful maidens, beckoning visitors into a trap.
+6, Nothing; the temple welcomes all.
+
+
+:Layout, The temple's main floorplan is
+1, Circular.
+2, Ellipsoidal.
+3, Triangular.
+4, Square.
+5, Rectangular.
+6, Pentagonal.
+7, Polygonal with many sides  [Polygonal with many sides]
+8, Cruciform.
+
+
+:Polygonal with many sides 
+1, six;
+2, seven
+3, eight
+4, nine
+5, ten
+6, twelve;
+7, thirteen
+8, twenty.
+
+
+:Complex, The temple complex is
+1, Simple; a large main worship chamber with a handful of functional rooms adjoining.
+2, Simple with a large annex; the annex contains many chambers.
+3, Simple with fortifications.
+4, Multi-layered; upper or lower layers are inaccessible to most visitors.
+5, Multi-winged; some wings are inaccessible to most visitors.
+6, Arranged in a concentric fashion; inner areas are inaccessible to most visitors.
+7, Labyrinthine; designed to deliberately confuse outsiders.
+8, Simple with an intricate complex hidden beneath the main worship chamber.
+
+
+:Structure, The structure includes
+1, Impenetrable stone walls.
+2, An intricate structure of stone arches and columns.
+3, A colorful painted wood and plaster.
+4, A sturdy structure of finished wood.
+5, A solid structure of oven-fired clay bricks.
+6, A large structure with immense metal doors  [A large structure with immense metal doors]
+
+
+:A large structure with immense metal doors 
+1, brass
+2, bronze
+3, gold;
+4, iron
+5, steel
+6, tin.
+
+
+:Walls, Many of the interior walls are
+1, Rough hewn stone.
+2, Smooth cut stone.
+3, Painted or lacquered wood.
+4, Unfinished hardwood.
+5, Decorated with intricate mosaics.
+6, Decorated with elaborate murals.
+7, Decorated with relief carvings.
+8, Decorated with sacred texts and runes.
+
+
+:Ceilings, Many of the ceilings are
+1, Uncomfortably close to your head.
+2, Connected to the floor by columns.
+3, Painted with mythological scenes.
+4, So high its difficult to make out details.
+5, Vaulted.
+6, Domes or cupolas.
+
+
+:Rooms, The purpose of this room is
+1, An armory or barracks.
+2, A guardroom or sentry post.
+3, A cell for solitary prayer.
+4, A cell for prisoners.
+5, An inquisition or torture chamber.
+6, A priest's office or audience chamber.
+7, A sanitarium or infirmary.
+8, A ceremonial pool, bath, or fountain.
+9, A morgue or mortuary.
+10, A crypt for a person of importance  [A crypt for a person of importance]
+11, A room dedicated for specific rituals  [A room dedicated for specific rituals]
+12, A chapel for a lesser deity, saint, or martyr.
+13, A classroom or dormitory.
+14, A library.
+15, A priest's quarters or robing room.
+16, A banquet room or dining hall.
+17, A kitchen or pantry.
+18, A trophy room or art gallery.
+19, A stable or kennel.
+20, A workshop for temple craftsmen.
+
+
+:A crypt for a person of importance 
+1, well-known hero
+2, powerful high priest;
+4, obscure priest
+6, wealthy noble.
+
+
+:A room dedicated for specific rituals 
+1, conjurations
+3, divinations;
+5, funerals
+6, healing miracles.
+
+
+:Features, You notice
+1, A small altar set in an alcove in the wall.
+2, The sound of bells ringing in a tower.
+3, A wall sconce holding many candles.
+4, Tall candles on holders, taller than a man.
+5, The tinkle of chimes from a nearby room.
+6, A tapestry depicting a mythological scene.
+7, A small fountain or reflecting pool.
+8, The sound of a gong from another room.
+9, A large holy symbol embedded in the wall.
+10, A huge book of sacred texts or prayers.
+11, The scent of incense burning nearby.
+12, A kneeler beneath a small statue or icon.
+13, An oil lamp with colored glass panels.
+14, A mosaic set into the floor of the room.
+15, A wide fresco or mural depicting a mythological scene.
+16, The pipes of an immense organ running along the walls.
+17, Robes and cassocks hanging on hooks.
+18, An ornamental rug.
+19, A screen to hide priests from view.
+20, A statue of a recognizable figure.
+
+
+:Encounters, You come upon
+1, A young priest or priestess.
+2, An old priest or priestess.
+3, A traveler from afar.
+4, A regular, local worshiper.
+5, A member of the temple's serving staff.
+6, A member of the temple's guard.
+
+
+:Vocation, The priest is
+1, A devoted acolyte.
+2, A dogmatic chaplain.
+3, A wealthy chaplain.
+4, A grim exorcist.
+5, An adept healer.
+6, A road-weary pilgrim.
+7, A charismatic preacher.
+8, An eccentric scholar.
+9, A disillusioned scholar.
+10, A battle-tested warpriest.
+11, A sharp-witted witch-hunter.
+12, An outspoken zealot.
+
+
+:Mannerisms, The priest has
+1, A likable grin.
+2, A hearty laugh.
+3, An arrogant smirk.
+4, A haughty sneer.
+5, A humorless visage.
+6, A habit of sighing.
+7, A sad look on his or her face.
+8, A kind look on his or her face.
+9, A habit of pacing.
+10, A habit of scratching his or her chin.
+11, A habit of licking his or her lips.
+12, A habit of muttering under his or her breath.
+
+
+:Apparel, The priest wears
+1, A threadbare robe.
+2, A sturdy wool cloak.
+3, A comfortable linen robe.
+4, A cotton robe with the symbol of a god embroidered on the lapel.
+5, A clean silk robe with simple embroidery.
+6, An expensive silk robe with elaborate gold embroidery.
+7, Boiled leather armor.
+8, Patchwork armor of leather and steel.
+9, Chainmail armor with a priest's hood.
+10, Chainmail emblazoned with the symbol of a god.
+
+
+:Possessions, The priest carries
+1, A well-used cudgel.
+2, A shiny new mace.
+3, A walking staff.
+4, A staff with a crook.
+5, A ceremonial dagger.
+6, A prominently displayed holy symbol  [A prominently displayed holy symbol]
+7, A pocketbook of sacred texts.
+8, A notebook of hand-written prayers and devotions.
+9, A variety of healing potions and salves.
+10, A set of prayer beads.
+11, A heavy ring of keys.
+12, A wineskin.
+
+
+:A prominently displayed holy symbol 
+1, bejeweled
+2, gilded
+3, iron
+4, silver
+5, steel
+6, wooden.
+
+
+:Goal, The priest is looking for
+1, New converts.
+2, The translation of an ancient manuscript.
+3, Heretics.
+4, Sinners.
+5, Donations.
+6, Relics and rare lore.
+7, Proof of a god's existence.
+8, The location of a ruined temple.
+9, An opportunity to tell a fable.
+10, The bottom of a goblet.
+

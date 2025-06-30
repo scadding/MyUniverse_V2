@@ -1,0 +1,316 @@
+
+
+:Start
+1, shadow-touched deserts: DESERT VARIANT (PAGE THREE)
+
+
+:Interesting Location, You find
+1, A cavern in a canyon wall.
+2, A cave entrance, hidden by a boulder.
+3, A small cave next to a dry river bed.
+4, A large pit from which comes a low moan.
+5, A hole under a large boulder.
+6, A large burrow, beneath a twisted tree.
+7, A secluded monastery on a dark mountain.
+8, A temple ruin.
+9, A pair of graves.
+10, A peculiar tent.
+11, A stone house sheltered by a canyon, gorge, or bluff.
+12, An abandoned stone house.
+13, Some nomads' camp.
+14, An abandoned campsite.
+15, Some religious pilgrims' camp.
+16, Ruins of an ancient city.
+17, An old watchtower.
+18, An rocky cave, full of choking dust.
+19, A mass grave on an old battlefield.
+20, An ancient tomb.
+
+
+:Distinguishing Landmark, You see
+1, An oasis with foul-smelling water.
+2, An oasis with a tree bearing rotten fruit.
+3, An unusually large, prickly desert plant.
+4, A pair of prickly plants from the same root.
+5, A patch of desert flowers in a shady spot.
+6, A patch of coarse grass next to a boulder, shrouded in a strange mist.
+7, A rocky bluff.
+8, A boulder shaped like a skull.
+9, A pair of identical boulders, side by side.
+10, A boulder sitting atop a larger boulder.
+11, A rocky canyon with a pool of foul water.
+12, A deep canyon with a trickle of foul water.
+13, A narrow canyon filled with strange fog.
+14, A trail marked with bones.
+15, A dry river bed.
+16, A ridge of rock with exposed fossils.
+17, A ridge of jagged rock.
+18, A mostly-buried, ancient monument.
+19, Twelve large stones, arranged in a ring.
+20, A sheer rock wall with a strange mist lingering overhead.
+
+
+:Feature, You notice
+1, A buzzard circles overhead.
+2, A vulture screams.
+3, A flock of crows scatter.
+4, A large beetle scuttles away.
+5, A raven croaks.
+6, A crow caws.
+7, A rat scurries away.
+8, A swarm of beetles crawl past.
+9, A ghostly present flees.
+10, A ghostly presence watches curiously.
+11, A beast howls mournfully in the distance.
+12, An eerie silence.
+13, The wind kicks up dust.
+14, The breeze stops.
+15, The wind moans eerily.
+16, Small loose stones tumble down a slope.
+17, A dead palm tree.
+18, A distant scream.
+19, The smell of rotting flesh.
+20, The smell of decay.
+
+
+:Landscape, This desert is
+1, Rocky.
+2, Flat.
+3, Bleak.
+4, Rugged.
+5, Boulder-strewn.
+6, Forbidding.
+7, Jagged.
+8, Wind-swept.
+
+
+:Ground, Beneath your feet, the soil is
+1, Cracked.
+2, Hard-packed.
+3, Gravelly.
+4, Stony.
+5, Black.
+6, Dusty.
+7, Purple.
+8, Grey.
+
+
+:Encounters, You come upon
+1, A shadow snake.
+2, A flock of shadowravens.
+3, A giant spider.
+4, A giant centipede.
+5, A pack of wolves.
+6, A great beast of shadow.
+7, An animated skeleton.
+8, A malevolent ghost.
+9, A restless ghost.
+10, A pair of bandits.
+11, A band of skeletal warriors.
+12, A pair of ghouls.
+13, A dust storm.
+14, A thick, cold fog.
+15, A strange hermit.
+16, A lost traveler.
+17, A destitute nomad.
+18, A sword-wielding wraith.
+19, A conniving fiend.
+20, A terrifying dragon.
+
+
+:HazardsorObstacles, You run into
+1, A rockslide coming down a canyon wall.
+2, A boulder rolling down a canyon wall.
+3, A sinkhole; it suddenly opens beneath you.
+4, A swift-moving river full of dead souls.
+5, Persistent, strong winds kicking up dust.
+6, A sudden, swirling dust storm.
+7, A mirage of a city.
+8, A mirage of an oasis.
+
+
+:Climate, The rains come to this desert
+1, Once a year for a few days straight.
+2, On a few days scattered through the year.
+3, In torrents for a few weeks, leaving floods.
+4, Only during a rare astronomical alignment.
+5, Never; however, it does snow every winter.
+6, Never; this place hasn't had water in years.
+
+
+:What's in the caveorcavern
+1, A swarm of beetles.
+2, Lots of bats.
+3, Many spider webs.
+4, A wight's stash.
+5, A ghoul's lair.
+6, Several skeletons.
+7, Bare rock.
+8, Mummified remains.
+9, Some bandits' hideout.
+10, A reclusive witch.
+11, A pair of shadow stalkers or phase cats.
+12, A creepy hermit.
+
+
+:What's in the holeorburrow
+1, A shadow snake.
+2, A giant spider.
+3, So many beetles.
+4, Scorpions.
+5, Centipedes.
+6, Dry bones.
+7, A severed limb.
+8, A shadow cat.
+
+
+:Who built this monastery
+2, An order of assassin monks.
+3, An order of demonic monks.
+5, An order of shadow monks.
+6, An order of warrior monks.
+
+
+:The temple was built to honor
+1, The moon god.
+2, The god of death.
+3, A spider goddess.
+4, An undead god.
+5, A savage god.
+6, An arch devil.
+
+
+:Who lives in the peculiar tent
+1, A merchant of exotic goods.
+2, A misanthropic shapeshifter.
+3, An eccentric shadow monk.
+4, A nomadic herder.
+5, A nomadic warrior
+6, An outcast elf.
+
+
+:Who built the stone house
+1, A strange hermit.
+2, A reclusive scholar.
+3, An eccentric healer.
+4, A poor goatherder.
+5, Someone who left no trace.
+6, A member of an ancient clan.
+
+
+:Who resides in the stone house now
+1, A death hound
+2, Several zombies.
+3, A mad sorcerer.
+4, A wild shapeshifter.
+5, Spiders and bats.
+6, A necromancer.
+7, Restless ghosts.
+8, An evil witch.
+
+
+:Who built the ancient ruins
+1, A shadowfolk clan.
+2, A dark elf queen.
+3, An ambitious lich.
+4, A forgotten empire.
+5, Shadow monks.
+6, A fiendish cult.
+7, A dragon cult.
+8, A death cult.
+9, A forgotten king.
+10, A dark sorcerer.
+
+
+:Who lives in the ancient ruins now
+1, A necromancer.
+2, Cursed mummies.
+3, Undead guardians.
+4, Pair of manticores.
+5, Pack of death dogs.
+6, Starved ghouls.
+7, Restless ghosts.
+8, Shadow warriors.
+9, Aberrant spirits.
+10, A dracolich.
+
+
+:What built the watchtower
+1, A long-forgotten empire.
+2, An order of shadow monks.
+3, Mighty warriors from a past age.
+4, An fiendish lord's army.
+5, An ancient elf-witch.
+6, A legendary wizard.
+
+
+:Who holds the watchtower now
+1, The last remnant of a defeated army.
+2, An order of holy knights.
+3, A fiendish presence.
+4, A hobgoblin war party.
+5, Zombies at the ground level, bats upstairs.
+6, Rats at ground level, spiders up above.
+
+
+:Who camped here
+1, An orkish war party.
+2, A shadowfolk raiding party.
+3, Some nomadic herders.
+4, Some refugees or fugitives.
+5, Someone who left a heap of fresh bones.
+6, Someone whose purposes are unclear.
+
+
+:Who isorwas mining here
+1, Greedy dwarves.
+2, Ambitious humans.
+3, An elemental cult.
+4, Industrious kobolds.
+5, A merchant guild.
+6, Slaves of an efreet.
+
+
+:Mining here and for what
+1, Copper.
+2, Gold.
+3, Iron.
+4, Lead.
+5, Silver.
+6, Tin.
+
+
+:Whose soul or remains haunt the tomb
+1, An ancient king.
+2, An ancient queen.
+3, An ancient sorcerer.
+4, A powerful mummy.
+6, Dead monks.
+5, Zombie warriors.
+7, A demilich.
+8, Twisted bones.
+9, Foul ghosts.
+10, Piles of bones.
+
+
+:Who is in the grave
+1, A fallen adventurer.
+2, A dismembered body.
+3, A pile of bones.
+4, A hateful mummy.
+5, An empty coffin.
+6, Twisted bones.
+7, An old woman.
+8, A old man.
+9, A child.
+10, A fair maiden.
+
+
+:The grave is covered with
+1, Fresh earth.
+2, Rotting flowers.
+3, A carved stone.
+4, A large stone slab.
+5, A worn marker.
+6, Scratch marks.
+

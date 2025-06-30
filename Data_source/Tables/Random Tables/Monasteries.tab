@@ -1,0 +1,263 @@
+
+
+:Start
+1, monasteries: DISCIPLINE, STRENGTH, AND WISDOM
+
+
+:Knowledge and Experience, Visitors to the monastery come seeking
+1, Ancient knowledge.
+2, Mystic wisdom.
+3, Spiritual guidance.
+4, Prayers and healing.
+5, Ales and other goods made on-site.
+6, Refuge from war.
+7, Shelter on a long journey.
+8, The secret of true happiness.
+9, Physical perfection.
+10, The means to travel to another realm.
+11, Training in a unique fighting style.
+12, The tools and training to exact vengeance.
+
+
+:Reputation, The monastery is known for its
+1, Compassionate healers.
+2, Sacred music.
+3, Ancient wisdom.
+4, Dark prophecies.
+5, Stunning architecture.
+6, Unusual architecture.
+7, A famous sculpture or painting.
+8, Lengthy prayer services and vigils.
+9, Extensive library and scholarly debates.
+10, Master brewers or vintners.
+11, Powerful mystics.
+12, Indefatigable warriors.
+
+
+:Location, The monastery complex is located
+1, On a hilltop overlooking a small village.
+2, On a hilltop not far from a large city.
+3, On a remote mountaintop.
+4, On the side of a mountain.
+5, Deep within a forest.
+6, Near a desert oasis.
+7, Belowground.
+8, In the heart of a city.
+
+
+:Structure, The monastery complex is
+1, A tight cluster of buildings (or chambers).
+2, A cluster of buildings with gardens, lawns, and yards in the spaces between.
+3, A cluster of interconnected buildings.
+4, Buildings ringed by a fence or low wall.
+5, Buildings ringed by a defensible stone wall.
+6, A single large building.
+7, A large main building with several smaller support buildings located nearby.
+8, A fortress with walls and watchtowers or sentry posts.
+9, A labyrinthine series of small buildings.
+10, Symmetrically divided into two wings.
+
+
+:This buildingorchamber is
+1, A chapel or shrine.
+2, A dormitory.
+3, A cloister.
+4, A refectory (dining hall).
+5, A library.
+6, A balneary (bath).
+7, An infirmary.
+8, A sanatorium or hospice.
+9, A school.
+10, A forge.
+11, A brewery.
+12, A barn.
+
+
+:Many of the monastery's ceilings are
+1, Uncomfortably close to your head.
+3, Connected to the floor by columns.
+5, Painted with mythological scenes.
+6, Domes or cupolas.
+
+
+:Decor, The buildingsorchambers are
+1, Decorated with statues.
+2, Decorated with stone arches and columns.
+3, Adorned with painted wood and plaster.
+4, Sturdy structures of finished wood.
+5, Solid structures of oven-fired clay bricks.
+6, Behind large metal doors  [Behind large metal doors]
+
+
+:Behind large metal doors 
+1, brass;
+2, bronze
+3, gold
+4, iron
+5, steel
+6, tin.
+
+
+:Walls, Many of the interior walls are
+1, Rough hewn stone.
+2, Smooth cut stone.
+3, Painted or lacquered wood.
+4, Unfinished hardwood.
+5, Decorated with intricate mosaics.
+6, Decorated with elaborate murals.
+7, Decorated with relief carvings.
+8, Decorated with sacred texts and runes.
+
+
+:Features, You notice
+1, A small altar set in an alcove in the wall.
+2, The sound of bells ringing in a tower.
+3, A wall sconce holding many candles.
+4, Tall candles on holders, taller than a man.
+5, The tinkle of chimes from a nearby room.
+6, A tapestry depicting a mythological scene.
+7, A small fountain or reflecting pool.
+8, The sound of a gong from another room.
+9, A large holy symbol embedded in the wall.
+10, A huge book of sacred texts or prayers.
+11, The scent of incense burning nearby.
+12, A kneeler beneath a small statue or icon.
+13, An oil lamp with colored glass panels.
+14, A mosaic set into the floor of the room.
+15, A wide fresco or mural depicting a mythological scene.
+16, The pipes of an indoor plumbing system running along the wall.
+17, Robes and cassocks hanging on hooks.
+18, An ornamental rug.
+19, The sound of chanting from another room.
+20, A statue of a recognizable figure.
+
+
+:Encounters, You come upon
+1, A bright-eyed student.
+2, An exhausted student.
+3, A patient initiate.
+4, A fierce martial artist.
+5, A dogmatic teacher.
+6, An eccentric scholar.
+7, A wise old master.
+8, A traveler from afar.
+9, A member of the monastery's serving staff.
+10, A member of the monastery's guard.
+11, A strange energy.
+12, A feeling that you're being watched.
+
+
+:Secret Lore, The monastery guards the secret to
+1, World peace.
+2, Inner peace.
+3, Spiritual enlightenment.
+4, Total consciousness.
+5, Apotheosis.
+6, Armageddon.
+7, Ritual transformation into a god's avatar.
+8, Unsealing a portal to another realm.
+9, Instant and irreversible death.
+10, The perfect pint of ale.
+
+
+:Lore Keepers, The secret is known to
+2, Everyone, but the specifics are hidden.
+3, Monks that perform a particular service.
+4, Several of the monastery's masters.
+6, A single master and a single student.
+
+
+:Job, At the monastery, the monk is
+1, A brewer or vintner.
+2, A baker, butcher, or cook.
+3, A carpenter, smith, or stonemason.
+4, A farmer, gardener, or herder.
+5, An instructor or scribe.
+6, A leatherworker, ropemaker, or weaver.
+
+
+:Knowledge, The monk is an expert in
+1, The power of the mind.
+2, Realms beyond the material world.
+3, Healing arts.
+4, The journey of the soul.
+5, Sacred texts.
+6, The body's strengths and weaknesses.
+
+
+:Meditation, The monk has recently been contemplating
+1, The mysteries of death and life.
+2, The meaning of dreams and dark omens.
+3, The perfection of the mind, body, and soul.
+4, The wisdom of an ancient philosopher.
+5, The beauty and power of nature.
+6, The balance of order and chaos.
+
+
+:Practice, The monk prefers to meditate
+1, In a shrine at the monastery.
+2, In his or her personal cell.
+3, In a garden.
+4, Deep in the wilderness.
+5, On the site of an ancient ruin.
+6, While walking the roads of the world.
+
+
+:The monk wears
+1, A threadbare robe.
+3, A comfortable linen robe.
+4, A cotton robe bearing the symbol of a god.
+6, A clean silk robe with simple embroidery.
+
+
+:Martial Arts, The monk's martial arts style includes
+1, Landing many rapid, open-hand slaps.
+2, Landing a few powerful, close-fist punches.
+3, Acrobatic flips and leaps.
+4, A stumbling gait to keep foes off balance.
+5, Landing many of rapid, spinning kicks.
+6, Landing a few powerful kicks.
+7, Striking pressure points to debilitate foes.
+8, Explosive powders and distracting smoke.
+
+
+:Possession, The monk carries
+1, A wooden staff.
+2, Several razor-sharp daggers.
+3, An uncommon weapon  [An uncommon weapon]
+4, A purse of silver to distribute to the poor.
+5, A variety of healing potions and salves.
+6, A set of prayer beads or a prayer book.
+7, A heavy ring of keys.
+8, A wineskin or flask.
+
+
+:An uncommon weapon 
+1, kukri;
+2, kusari-gama
+3, nunchaku
+4, scythe;
+5, shuriken
+6, sickle.
+
+
+:Drink, The monk prefers to drink
+2, Ale.
+4, Tea  [Tea]
+6, Wine.
+
+
+:Tea 
+2, black
+4, green
+6, white.
+
+
+:Goal, The monk is looking for
+1, New students.
+2, The translation of an ancient manuscript.
+3, Heretics and enemies of the order.
+4, The location of an ancient ruin.
+5, An opportunity to tell a fable.
+6, The bottom of a goblet.
+
