@@ -159,22 +159,28 @@ class parseManager(metaclass=Singleton):
             exp = m.group(1) + m.group(3)
             args['@'] = int(self.parseSingle(node, m.group(2)))
         return exp
-    def getSubAndNode(self, node, exp):
+    def getSubAndNode(self, node : tableNode, exp):
         text = exp
         # subtable
         subtable = re.compile(r'([\w \-\.]+)\.([\w \-\+]+)$')
         single = re.compile(r'([\w -]+)$')
         # local subtable
-        m = single.match(exp)
-        if m:
+        if m := single.match(exp):
             sub = m.group(1)
             return sub, node
         # subtable
-        m = subtable.match(exp)
-        if m:
+        if m := subtable.match(exp):
             exp = m.group(1)
             sub = m.group(2)
+        # try local
         target = node.pathToNode(exp)
+        if target is None:
+            path = node.nodePath()
+            path.pop()
+            path.append(exp)
+            if type(path) != str:
+                path = '.'.join(path)
+            target = node.pathToNode(path)
         if target is not None:
             if not target.loaded:
                 self.loadtable(target)
