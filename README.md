@@ -28,7 +28,7 @@ https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-e
 run:
 
     python3 -m venv .venv
-    . .venv//bin/activate
+    . .venv/bin/activate
     pip3 install -r requirements.txt
 
 
