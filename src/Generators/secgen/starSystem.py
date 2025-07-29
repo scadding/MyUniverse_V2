@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-from subprocess import *
+from subprocess import Popen, PIPE
 
 class starSystem:
     def __init__(self, s, version=0):
