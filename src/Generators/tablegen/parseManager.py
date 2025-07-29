@@ -178,8 +178,7 @@ class parseManager(metaclass=Singleton):
             path = node.nodePath()
             path.pop()
             path.append(exp)
-            if type(path) != str:
-                path = '.'.join(path)
+            path = '.'.join(path)
             target = node.pathToNode(path)
         if target is not None:
             if not target.loaded:
